@@ -1,4 +1,4 @@
-# DATA SCIENCE
+# Data Science
 
 ### **LIFE CYCLE**
 

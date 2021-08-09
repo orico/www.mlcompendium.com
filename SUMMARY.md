@@ -1,6 +1,7 @@
 # Table of contents
 
 * [The Machine & Deep Learning Compendium](README.md)
-* [TYPES OF MACHINE LEARNING](types-of-machine-learning.md)
-* [DATA SCIENCE](data-science.md)
+* [Types Of Machine Learning](types-of-machine-learning.md)
+* [Data Science](data-science.md)
+* [Data Science Tools](data-science-tools.md)
 

@@ -1,4 +1,4 @@
-# TYPES OF MACHINE LEARNING
+# Types Of Machine Learning
 
 ![](https://lh3.googleusercontent.com/AZPfRGUTS-0AN0SRSjjBfc3tFlIpYSGsOyjaX00K9_QIOWVU_GLlgxwNWZCB4bWXVo1Wb52-D6KCRD8uEYuxcbaqJJ9CCEPa-gy__DbCMJ4esb2A9hRLJuapX_tKGJZi8rRlrDzE)
 
