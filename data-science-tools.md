@@ -55,8 +55,6 @@
 
 [**Pyenv override system python on mac**](https://github.com/pyenv/pyenv/issues/660)
 
-### 
-
 ### **JUPYTER**
 
 * [**Cloud GPUS cheap**](https://www.paperspace.com/gradient)
@@ -83,51 +81,36 @@
 
 **As far as i can tell, reshape effectively flattens the tree and divide it again to a new tree, but the total amount of inputs needs to stay the same. 2\*4\*6 = 4\*2\*3\*2 for example**
 
-**code:**
-
-**import numpy**
-
-**rng = numpy.random.RandomState\(234\)**
-
-**a = rng.randn\(2,3,10\)**
-
-**print\(a.shape\)**
-
-**print\(a\)**  
-
-
-**b = numpy.reshape\(a, \(3,5,-1\)\)**
-
-**print\(b.shape\)**
-
-**print \(b\)**  
+**code:  
+`import numpy  
+rng = numpy.random.RandomState(234)  
+a = rng.randn(2,3,10)  
+print(a.shape)  
+print(a)  
+b = numpy.reshape(a, (3,5,-1))  
+print(b.shape)  
+print (b)`**  
 
 
 **\*\*\* A tutorial for** [**Google Colaboratory - free Tesla K80 with Jup-notebook**](https://www.kdnuggets.com/2018/02/google-colab-free-gpu-tutorial-tensorflow-keras-pytorch.html/2)
 
 [**Jupyter on Amazon AWS**](https://blog.keras.io/running-jupyter-notebooks-on-gpu-on-aws-a-starter-guide.html)
 
-**How to add extensions to jupyter:** [**extensions**](https://codeburst.io/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4)  
-****
+**How to add extensions to jupyter:** [**extensions**](https://codeburst.io/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4)
 
 [**Connecting from COLAB to MS AZURE**](https://medium.com/@d.sakryukin/simple-cryptocurrency-trading-data-preparation-in-15-minutes-using-ms-azure-and-google-colab-44872b023d11)
 
-[**Streamlit vs. Dash vs. Shiny vs. Voila vs. Flask vs. Jupyter**](https://towardsdatascience.com/streamlit-vs-dash-vs-shiny-vs-voila-vs-flask-vs-jupyter-24739ab5d569)  
-****
+[**Streamlit vs. Dash vs. Shiny vs. Voila vs. Flask vs. Jupyter**](https://towardsdatascience.com/streamlit-vs-dash-vs-shiny-vs-voila-vs-flask-vs-jupyter-24739ab5d569)
 
 ### **SCIPY**
 
 1. [**Optimization problems, a nice tutorial**](http://scipy-lectures.org/advanced/mathematical_optimization/) **to finding the minima**
 2. [**Minima / maxima**](https://stackoverflow.com/questions/4624970/finding-local-maxima-minima-with-numpy-in-a-1d-numpy-array) **finding it in a 1d numpy array**
 
-###  ****
-
 ### **NUMPY**
 
-[**Using numpy efficiently**](https://speakerdeck.com/cournape/using-numpy-efficiently) **- explaining why vectors work faster.**
-
-  
-****[**Fast vector calculation, a benchmark**](https://towardsdatascience.com/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-9484ff9c622e) **between list, map, vectorize. Vectorize wins. The idea is to use vectorize and a function that does something that may involve if conditions on a vector, and do it as fast as possible.**
+[**Using numpy efficiently**](https://speakerdeck.com/cournape/using-numpy-efficiently) **- explaining why vectors work faster.**  
+[**Fast vector calculation, a benchmark**](https://towardsdatascience.com/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-9484ff9c622e) **between list, map, vectorize. Vectorize wins. The idea is to use vectorize and a function that does something that may involve if conditions on a vector, and do it as fast as possible.**
 
 ### **PANDAS**
 

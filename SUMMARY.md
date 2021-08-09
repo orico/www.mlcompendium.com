@@ -56,9 +56,10 @@
 * [Deep Neural Machine Vision](deep-neural-machine-vision.md)
 * [Deep Neural Audio](deep-neural-audio.md)
 * [Root Cause Effects \(RCE/RCA\)](root-cause-effects-rce-rca.md)
+* [Expanding Your Data Science Skills](expanding-your-data-science-skills.md)
 * [Full-Stack & Ops](full-stack-and-ops.md)
-* [Marketing](marketing.md)
 * [Product Management](product-management.md)
 * [User Experience Design \(UX\)](user-experience-design-ux.md)
+* [Marketing](marketing.md)
 * [Humor](humor.md)
 

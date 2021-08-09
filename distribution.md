@@ -56,8 +56,6 @@
 **If the data are not normal, your sample size may or may not be adequate, and it may be difficult for you to know which is true.**  
 
 
-### 
-
 ### **COMPARING DISTRIBUTIONS**
 
 1. **Categorical data can be transformed to a histogram i.e., \#class / total and then measured for distance between two histograms’, e.g., train and production. Using earth mover distance** [**python**](https://jeremykun.com/2018/03/05/earthmover-distance/) ****[**git wrapper to c**](https://github.com/pdinges/python-emd)**, linear programming, so its slow.**
