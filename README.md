@@ -4,7 +4,7 @@
 
 **I see this compendium as a gateway and as a frequently visited resource for people of proficiency levels, for industry data scientists as well as academics.**
 
-**Previously the ML-Compendium was in a 400-page google doc, but It has gone fully open-source and is now hosted on Gitbook & Github \(please star it\).**
+**Previously the ML-Compendium was in a 400-page google doc, but It has gone fully open-source and is now hosted on** [**Gitbook**](https://book.mlcompendium.com) **&** [**Github**](https://github.com/orico/www.mlcompendium.com/tree/master) **\(please star it\).**
 
 **Please keep in mind that this is a perpetual work in progress with ~400 pages on a variety of topics. If you feel that something should be changed, please use the comment option and let me know.**
 
