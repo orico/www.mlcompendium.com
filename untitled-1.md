@@ -1,8 +1,4 @@
-# Untitled
-
-
-
-## **VALIDATION**
+# Validation
 
 ### **DATASETS RELIABILITY & CORRECTNESS** 
 

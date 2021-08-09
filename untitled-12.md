@@ -1,6 +1,4 @@
-# Untitled
-
-## **EVALUATION METRICS**
+# Evaluation Metrics
 
 ### **A metric learning reality check**
 

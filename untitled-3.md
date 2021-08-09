@@ -1,8 +1,4 @@
-# Untitled
-
-
-
-## **EXAMPLES**
+# Examples
 
 ### [**NYC taxi pickup problem** ](http://www.vivekchoksi.com/papers/taxi_pickups.pdf)
 

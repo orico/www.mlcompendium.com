@@ -1,8 +1,4 @@
-# Untitled
-
-
-
-## **BENCHMARKING**
+# Benchmarking
 
 **Numpy Blas:**
 
