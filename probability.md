@@ -10,8 +10,6 @@
 2. [**Array-based tutorial in python with PDF and KDE**](http://firsttimeprogrammer.blogspot.co.il/2015/01/how-to-estimate-probability-density.html)
 3. [**Summary of univariate distribution including pdf methods**](https://www.johndcook.com/blog/distributions_scipy/)
 
-###  ****
-
 ### **Kernel Density Estimation**
 
 **This** [**tutorial**](https://mglerner.github.io/posts/histograms-and-kernel-density-estimation-kde-2.html?p=28) **actually explains why we should use KDE over a Histogram, it explains the cons of histograms and how KDE helps solve some issue that we usually encounter in ‘Sparse’ histograms where the distribution is hard to figure out.**
