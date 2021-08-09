@@ -1,4 +1,4 @@
-# Reinforcement Learning
+# Incremental Learning
 
 ### **Q-LEARN**
 
