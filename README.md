@@ -15,5 +15,5 @@ Please keep in mind that this is a perpetual work in progress with a variety of 
 I would like to thank the following contributors: [Samuel Jefroykin](https://www.linkedin.com/in/samueljefroykin/), [Sefi Keller](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)
 
 Many Thanks,  
-[Dr. Ori Cohen](http://cohenori.medium.com/) \| [LinkedIn](https://www.linkedin.com/in/cohenori/)\| [Medium](https://medium.com/@cohenori) \| [OriCohen.com](https://www.oricohen.com/) \| [MLCompendium.com](http://www.mlcompendium.com/)
+[Dr. Ori Cohen](http://cohenori.medium.com/) \| [LinkedIn](https://www.linkedin.com/in/cohenori/)\| [Medium](https://medium.com/@cohenori) \| [OriCohen.com](https://www.oricohen.com/) \| [MLCompendium.com](http://www.mlcompendium.com/) \| [book.mlcompendium.com](https://book.mlcompendium.com)
 
