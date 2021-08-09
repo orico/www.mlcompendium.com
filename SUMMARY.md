@@ -50,7 +50,7 @@
 * [Fourier Transform](untitled-21.md)
 * [Digital Signal Processing \(DSP\)](untitled-20.md)
 * [Graph Theory](untitled-19.md)
-* [Social Network Analysis](untitled-18.md)
+* [Social Network Analysis](social-network-analysis.md)
 * [Deep Neural Nets](deep-neural-nets.md)
 * [Natural Language Processing](natural-language-processing.md)
 * [Deep Neural Machine Vision](deep-neural-machine-vision.md)
