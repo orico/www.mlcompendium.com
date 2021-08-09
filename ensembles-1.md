@@ -1,4 +1,4 @@
-# Benchmarking
+# Ensembles
 
 **Numpy Blas:**
 

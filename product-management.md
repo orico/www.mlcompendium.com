@@ -1,4 +1,4 @@
-# Product Design
+# Product Management
 
 **This list was compiled thanks to** [**Sefi Keller**](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)
 
