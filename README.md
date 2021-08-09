@@ -1,6 +1,2 @@
----
-description: test
----
-
 # Initial page
 
