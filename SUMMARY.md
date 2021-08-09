@@ -57,7 +57,7 @@
 * [Deep Neural Audio](deep-neural-audio.md)
 * [Root Cause Effects \(RCE/RCA\)](root-cause-effects-rce-rca.md)
 * [Full-Stack & Ops](full-stack-and-ops.md)
-* [Marketting](marketting.md)
+* [Marketing](marketing.md)
 * [Product Management](product-management.md)
 * [User Experience Design \(UX\)](user-experience-design-ux.md)
 * [Humor](humor.md)
