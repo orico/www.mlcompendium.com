@@ -57,9 +57,9 @@
 * [Deep Neural Audio](deep-neural-audio.md)
 * [Root Cause Effects \(RCE/RCA\)](root-cause-effects-rce-rca.md)
 * [Expanding your Data Science Skills](expanding-your-data-science-skills/README.md)
+  * [Full-Stack & Ops](expanding-your-data-science-skills/full-stack-and-ops.md)
+  * [Product Management](expanding-your-data-science-skills/product-management.md)
   * [User Experience Design \(UX\)](expanding-your-data-science-skills/user-experience-design-ux.md)
   * [Marketing](expanding-your-data-science-skills/marketing.md)
-  * [Product Management](expanding-your-data-science-skills/product-management.md)
-  * [Full-Stack & Ops](expanding-your-data-science-skills/full-stack-and-ops.md)
 * [Humor](humor.md)
 
