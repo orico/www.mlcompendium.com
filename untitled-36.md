@@ -1,6 +1,4 @@
-# Untitled
-
-## **LABEL ALGORITHMS**
+# Label Algorithms
 
 ### **Label Propagation / Spreading**
 

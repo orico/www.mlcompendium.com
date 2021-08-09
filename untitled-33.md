@@ -1,13 +1,7 @@
-# Untitled
+# Decision Trees
 
-
-
-## **DECISION TREES**
-
-1. [**Using hellinger distance to split supervised datasets, instead of gini and entropy. Claims better results.**](https://medium.com/@evgeni.dubov/classifying-imbalanced-data-using-hellinger-distance-f6a4330d6f9a)
-
-**Visualize decision** [**trees**](https://towardsdatascience.com/interactive-visualization-of-decision-trees-with-jupyter-widgets-ca15dd312084)**,** [**forests**](https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)  
-****
+* [**Using hellinger distance to split supervised datasets, instead of gini and entropy. Claims better results.**](https://medium.com/@evgeni.dubov/classifying-imbalanced-data-using-hellinger-distance-f6a4330d6f9a)
+* **Visualize decision** [**trees**](https://towardsdatascience.com/interactive-visualization-of-decision-trees-with-jupyter-widgets-ca15dd312084)**,** [**forests**](https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)
 
 ### [**CART TREES**](http://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/) ****
 

@@ -1,6 +1,4 @@
-# Untitled
-
-## **REINFORCEMENT LEARNING**
+# Reinforcement Learning
 
 ### **Q-LEARN**
 

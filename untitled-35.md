@@ -1,6 +1,4 @@
-# Untitled
-
-## **CLUSTERING ALGORITHMS**
+# Clustering Algorithms
 
 1. [**Vidhya on clustering and methods**](https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/?utm_source=facebook.com)
 2. [**KNN**](https://www.youtube.com/watch?v=4ObVzTuFivY) ****[**intuition 2**](https://www.youtube.com/watch?v=UqYde-LULfs)**,** [**thorough explanation 3**](https://towardsdatascience.com/introduction-to-k-nearest-neighbors-3b534bb11d26)  **- classify a new sample by looking at the majority vote of its K-nearest neighbours. k=1 special case. Even amount of classes needs an odd K that is not a multiple of the amount of classes in order to break ties.** 

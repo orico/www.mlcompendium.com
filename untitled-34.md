@@ -1,16 +1,10 @@
-# Untitled
+# Anomaly Detection
 
+**“whether a new observation belongs to the same distribution as existing observations \(it is an inlier\), or should be considered as different \(it is an outlier\).** 
 
+**=&gt; Often, this ability is used to clean real data sets**
 
-## **ANOMALY DETECTION**
-
-**“whether a new observation belongs to the same distribution as existing observations \(it is an inlier\), or should be considered as different \(it is an outlier\). “**  
-
-
-**=&gt; Often, this ability is used to clean real data sets**  
-
-
-**Two important distinction must be made:**
+**Two important distinctions must be made:**
 
 | **novelty detection:** |  |
 | :--- | :--- |

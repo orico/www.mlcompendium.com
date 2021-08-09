@@ -1,8 +1,4 @@
-# Untitled
-
-
-
-## **ACTIVE LEARNING ALGORITHMS**
+# Active Learning Algorithms
 
 ### **PASSIVE AGGRESSIVE CLASSIFIER** 
 

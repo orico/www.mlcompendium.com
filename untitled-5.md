@@ -1,8 +1,6 @@
-# Untitled
+# Classic Machine Learning
 
-## **CLASSIC MACHINE LEARNING**
-
-###  **ASSOCIATION RULES**
+### **ASSOCIATION RULES**
 
 1. [**Association rules slides**](https://www.slideshare.net/wanaezwani/apriori-and-eclat-algorithm-in-association-rule-mining) **- apriori, eclat, fp growth - pretty complete**
 2. [**Terms**](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html) **- lift, confidence**

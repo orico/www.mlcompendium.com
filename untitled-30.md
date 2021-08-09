@@ -1,8 +1,4 @@
-# Untitled
-
-
-
-## **ENSEMBLES**
+# Ensembles
 
 1. [**How to combine several sklearn algorithms into a voting ensemble**](https://www.youtube.com/watch?v=vlTQLb_a564&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=16)
 2. [**Stacking api, MLXTEND**](http://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier/)
