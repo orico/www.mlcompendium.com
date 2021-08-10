@@ -1,3 +1,7 @@
+---
+description: An open-source knowledge-sharing project .
+---
+
 # The Machine & Deep Learning Compendium
 
 The following is my personal compendium, which includes many topics, such as links, summaries in the fields of statistics, machine learning, deep learning, computer science, data science, deep vision, NLP, cloud computing, product management, and others.
