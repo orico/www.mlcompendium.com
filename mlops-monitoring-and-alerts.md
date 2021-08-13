@@ -24,7 +24,7 @@
 
 ![Alibi Detection Drift Features](https://lh4.googleusercontent.com/sASV5qq3CTmv0gx6Tl3DiwACMnwsW9wj1yNHF5sFIFbQr4BFFgAVgfcWsnrHxNnQtQKa-b5-IdbC-OElnQIr117lxaH3TGCuz1CmpgU6mof3i9VkPR3LyzdD9S0ujTmWj7o88Iep)
 
-### Comparison Tools
+### Comparison For Tools
 
 1. [State of MLOps](https://www.stateofmlops.com) \(by me\), [medium](https://towardsdatascience.com/mlops-monitoring-market-review-66904f0863bb) article, open-source [AirTable](https://airtable.com/shr4rfiuOIVjMhvhL).
 2. [Neptune.AI](https://mlops.neptune.ai/) mlops tools landscape
