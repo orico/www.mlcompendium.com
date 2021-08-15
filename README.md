@@ -1,5 +1,5 @@
 ---
-description: An open-source knowledge-sharing project .
+description: An open knowledge-sharing project .
 ---
 
 # The Machine & Deep Learning Compendium
@@ -10,7 +10,7 @@ I see this compendium as a gateway, as a frequently visited resource for people 
 
 The compendium will save you countless hours googling and sifting through articles that may not give you any value.
 
-I believe in knowledge sharing and the compendium will always be free to everyone. Previously the Compendium was in a [407-page google doc](https://docs.google.com/document/d/1wvtcwc8LOb3PZI9huQOD7UjqUoY98N5r3aQsWKNAlzk/edit), but It has gone fully open-source and is now hosted on [Gitbook](https://book.mlcompendium.com) & [Github](https://github.com/orico/www.mlcompendium.com/tree/master) \(please star it\).
+I believe in knowledge sharing and the compendium will always be free to everyone. Previously the Compendium was in a [407-page google doc](https://docs.google.com/document/d/1wvtcwc8LOb3PZI9huQOD7UjqUoY98N5r3aQsWKNAlzk/edit), but It has gone fully open and is now hosted on [Gitbook](https://book.mlcompendium.com) & [Github](https://github.com/orico/www.mlcompendium.com/tree/master) \(please star it\).
 
 Please keep in mind that this is a perpetual work in progress with a variety of topics. If you feel that something should be changed, please use the comment option and let me know.
 
