@@ -231,13 +231,14 @@
    2. [**How to use prodigy, tutorial on medium plus notebook code inside**](https://medium.com/@david.campion/text-classification-be-lazy-use-prodigy-b0f9d00e9495)
 7. [**Doccano**](https://github.com/chakki-works/doccano) **- prodigy open source alternative butwith users management & statistics out of the box**
 8. **Medium** [**Lighttag - has some cool annotation metrics\tests**](https://medium.com/@TalPerry/announcing-lighttag-the-easy-way-to-annotate-text-afb7493a49b8)
-9. **Medium** [**Assessing annotator disagreement**](https://towardsdatascience.com/assessing-annotator-disagreements-in-python-to-build-a-robust-dataset-for-machine-learning-16c74b49f043)
-10. [**A great python package for measuring disagreement on GH**](https://github.com/o-P-o/disagree)
-11. [**Reliability is key, and not just mechanical turk**](https://www.youtube.com/watch?v=ktZLuXPXPEI)
-12. [**7 myths about annotation**](https://www.aaai.org/ojs/index.php/aimagazine/article/viewFile/2564/2468)
-13. [**Annotating twitter sentiment using humans, 3 classes, 55% accuracy using SVMs.**](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155036) **they talk about inter agreement etc. and their DS is** [**partially publicly available**](https://www.clarin.si/repository/xmlui/handle/11356/1054)**.**
-14. [**Exploiting disagreement** ](https://s3.amazonaws.com/academia.edu.documents/8026932/10.1.1.2.8084.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1534444363&Signature=3dHHw3EmAjPXFxwutVbtsZWEIzw%3D&response-content-disposition=inline%3B%20filename%3DExploiting_agreement_and_disagreement_of.pdf)
-15. [**Vader annotation**](http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf)
+9. [Loopr](https://loopr.ai/products/labeling-platform).ai - An AI powered semi-automated and automated annotation process for high quality data.object detection, analytics, nlp, active learning.
+10. **Medium** [**Assessing annotator disagreement**](https://towardsdatascience.com/assessing-annotator-disagreements-in-python-to-build-a-robust-dataset-for-machine-learning-16c74b49f043)
+11. [**A great python package for measuring disagreement on GH**](https://github.com/o-P-o/disagree)
+12. [**Reliability is key, and not just mechanical turk**](https://www.youtube.com/watch?v=ktZLuXPXPEI)
+13. [**7 myths about annotation**](https://www.aaai.org/ojs/index.php/aimagazine/article/viewFile/2564/2468)
+14. [**Annotating twitter sentiment using humans, 3 classes, 55% accuracy using SVMs.**](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155036) **they talk about inter agreement etc. and their DS is** [**partially publicly available**](https://www.clarin.si/repository/xmlui/handle/11356/1054)**.**
+15. [**Exploiting disagreement** ](https://s3.amazonaws.com/academia.edu.documents/8026932/10.1.1.2.8084.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1534444363&Signature=3dHHw3EmAjPXFxwutVbtsZWEIzw%3D&response-content-disposition=inline%3B%20filename%3DExploiting_agreement_and_disagreement_of.pdf)
+16. [**Vader annotation**](http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf)
     1. **They must pass an english exam**
     2. **They get control questions to establish their reliability**
     3. **They get a few sentences over and over again to establish inter disagreement**
@@ -249,7 +250,7 @@
     9. **Even classes**
     10. **No experts**
     11. **Measuring reliability kappa/the other kappa.**
-16. [**Label studio** ](https://labelstud.io/)![](https://lh3.googleusercontent.com/X2kRKqlPnkMZyspKgiJYHR5vyE2NnRfkYJZMxBs_rfFeGaMl0L07hqCO8VRGnTV_E9qhroCDYLIlQ1e78EgraeE6wwPE3WJDkzVmR6kQTgv4I-npCh3UkKnuBE_C1Lo9dQ3QxcEg)
+17. [**Label studio** ](https://labelstud.io/)![](https://lh3.googleusercontent.com/X2kRKqlPnkMZyspKgiJYHR5vyE2NnRfkYJZMxBs_rfFeGaMl0L07hqCO8VRGnTV_E9qhroCDYLIlQ1e78EgraeE6wwPE3WJDkzVmR6kQTgv4I-npCh3UkKnuBE_C1Lo9dQ3QxcEg)
 
 **Ideas:** 
 
