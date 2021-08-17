@@ -27,11 +27,11 @@
 ### Tool Comparisons
 
 1. [State of MLOps](https://www.stateofmlops.com) \(by me\), [medium](https://towardsdatascience.com/mlops-monitoring-market-review-66904f0863bb) article, open-source [AirTable](https://airtable.com/shr4rfiuOIVjMhvhL).
-2. [Neptune.AI](https://mlops.neptune.ai/) mlops tools landscape
+2. [Neptune.AI](https://mlops.neptune.ai/) MLOPS tools landscape
 3. [Twimlai](https://twimlai.com/solutions/) ML AI solutions
 4. [Ambiata](https://www.ambiata.com/blog/2020-12-07-mlops-tools/) how to choose the best MLOps tools
 5. [Lakefs](https://lakefs.io/the-state-of-data-engineering-in-2021/) on the state of data engineering - has monitoring and observability inside
-6. [The NLP Pandec](https://github.com/ivan-bilan/The-NLP-Pandect#mlops-for-nlp) - mlops for nlp
+6. [The NLP Pandec](https://github.com/ivan-bilan/The-NLP-Pandect#mlops-for-nlp) - MLOps for NLP
 7. [ml-ops.org](https://ml-ops.org/)
 8. [Awesome production ML](https://github.com/EthicalML/awesome-production-machine-learning/)
 
