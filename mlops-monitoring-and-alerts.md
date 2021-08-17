@@ -33,4 +33,7 @@
 5. [Lakefs](https://lakefs.io/the-state-of-data-engineering-in-2021/) on the state of data engineering - has monitoring and observability inside
 6. [The NLP Pandec](https://github.com/ivan-bilan/The-NLP-Pandect#mlops-for-nlp) - mlops for nlp
 7. [ml-ops.org](https://ml-ops.org/)
+8. [Awesome production ML](https://github.com/EthicalML/awesome-production-machine-learning/)
+
+![Awesome production ML](.gitbook/assets/image.png)
 
