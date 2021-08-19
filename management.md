@@ -18,7 +18,7 @@
 3. **Collaborations and influence**
    1. **\(good\) crucial conversations**
 4. **Negotiations**
-   1. **never split the difference**
+   1. **never split the difference.** [**TLDR**](https://www.linkedin.com/pulse/never-split-difference-tldr-john-dziedzic/)**,** [**summary**](https://www.samuelthomasdavies.com/book-summaries/business/never-split-the-difference/)**,** [**summary & commentary**](https://growth.me/books/never-split-the-difference/) ****
 5. **Manipulations**
    1. **The prince**
    2. [**The 48 Laws of Power**](https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197) **- “Amoral, cunning, ruthless, and instructive, this multi-million-copy New York Times bestseller is the definitive manual for anyone interested in gaining, observing, or defending against ultimate control – from the author of The Laws of Human Nature.**
