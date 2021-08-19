@@ -45,6 +45,7 @@
 * [Genetic Algorithms & Genetic Programming](genetic-algorithms-and-genetic-programming.md)
 * [Learning Classifier Systems](learning-classifier-systems.md)
 * [Recommender Systems](recommender-systems.md)
+* [Reinforcement Learning](reinforcement-learning.md)
 * [Templatization](templatization.md)
 * [Timeseries](timeseries.md)
 * [Fourier Transform](fourier-transform.md)

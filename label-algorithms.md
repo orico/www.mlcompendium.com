@@ -1,5 +1,12 @@
 # Label Algorithms
 
+### Unbalanced labels
+
+1. [imbalance learn](https://imbalanced-learn.org/stable/auto_examples/over-sampling/plot_comparison_over_sampling.html#sphx-glr-auto-examples-over-sampling-plot-comparison-over-sampling-py) - is an open-source, MIT-licensed library that provides tools when dealing with classification with imbalanced classes. 
+2. [Classifying Job Titles With Noisy Labels Using REINFORCE ](https://medium.com/@ziprecruiter.engineering/classifying-job-titles-with-noisy-labels-using-reinforce-ce1a4bde05e2)this article has a very nice trick in adding a reward component to the loss function in order to mitigate for unbalanced class label problem, instead of the usual balancing.
+
+![Imbalance Learn comparison](.gitbook/assets/image%20%282%29.png)
+
 ### **Label Propagation / Spreading**
 
 **Note: very much related to weakly and semi supervision, i.e., we have small amounts of labels and we want to generalize the labels to other samples, see also weak supervision methods.**
