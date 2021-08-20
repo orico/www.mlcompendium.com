@@ -20,7 +20,20 @@
 3. [**Some advice on medium**](https://towardsdatascience.com/concept-drift-and-model-decay-in-machine-learning-a98a809ea8d4)**, relabel using latest model \(can we even trust it?\) retrain after.**
 4. [**Adversarial Validation Approach to Concept Drift Problem in User Targeting Automation Systems at Uber**](https://arxiv.org/abs/2004.03045)  **- Previous research on concept drift mostly proposed model retraining after observing performance decreases. However, this approach is suboptimal because the system fixes the problem only after suffering from poor performance on new data. Here, we introduce an adversarial validation approach to concept drift problems in user targeting automation systems. With our approach, the system detects concept drift in new data before making inference, trains a model, and produces predictions adapted to the new data.** 
 5. **Drift estimator between data sets using random forest, formula is in the medium article above, code here at** [**mlBOX**](https://github.com/AxeldeRomblay/MLBox/blob/811dbcb04fc7f5501e82f3e78aa6c119f426ee78/python-package/mlbox/preprocessing/drift/drift_estimator.py)
-6. [**Alibi-detect**](https://docs.google.com/document/d/1dXELAcJn9KCPSRMDvZoumUyHx8K8Yn7wfFxesSpbNCM/edit#heading=h.y6mpsp4co5t9) **- is an open source Python library focused on outlier, adversarial and drift detection.**
+6. [**Alibi-detect**](https://docs.google.com/document/d/1dXELAcJn9KCPSRMDvZoumUyHx8K8Yn7wfFxesSpbNCM/edit#heading=h.y6mpsp4co5t9) **- is an open-source Python library focused on outlier, adversarial, and drift detection, by Seldon.**
 
-![](https://lh4.googleusercontent.com/sASV5qq3CTmv0gx6Tl3DiwACMnwsW9wj1yNHF5sFIFbQr4BFFgAVgfcWsnrHxNnQtQKa-b5-IdbC-OElnQIr117lxaH3TGCuz1CmpgU6mof3i9VkPR3LyzdD9S0ujTmWj7o88Iep)
+![Alibi Detection Drift Features](https://lh4.googleusercontent.com/sASV5qq3CTmv0gx6Tl3DiwACMnwsW9wj1yNHF5sFIFbQr4BFFgAVgfcWsnrHxNnQtQKa-b5-IdbC-OElnQIr117lxaH3TGCuz1CmpgU6mof3i9VkPR3LyzdD9S0ujTmWj7o88Iep)
+
+### Tool Comparisons
+
+1. [State of MLOps](https://www.stateofmlops.com) \(by me\), [medium](https://towardsdatascience.com/mlops-monitoring-market-review-66904f0863bb) article, open-source [AirTable](https://airtable.com/shr4rfiuOIVjMhvhL).
+2. [Neptune.AI](https://mlops.neptune.ai/) MLOPS tools landscape
+3. [Twimlai](https://twimlai.com/solutions/) ML AI solutions
+4. [Ambiata](https://www.ambiata.com/blog/2020-12-07-mlops-tools/) how to choose the best MLOps tools
+5. [Lakefs](https://lakefs.io/the-state-of-data-engineering-in-2021/) on the state of data engineering - has monitoring and observability inside
+6. [The NLP Pandec](https://github.com/ivan-bilan/The-NLP-Pandect#mlops-for-nlp) - MLOps for NLP
+7. [ml-ops.org](https://ml-ops.org/)
+8. [Awesome production ML](https://github.com/EthicalML/awesome-production-machine-learning/)
+
+![Awesome production ML](.gitbook/assets/image.png)
 

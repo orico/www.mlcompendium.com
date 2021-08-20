@@ -620,6 +620,9 @@
 3. [**Unread - another VAE**](https://towardsdatascience.com/teaching-a-variational-autoencoder-vae-to-draw-mnist-characters-978675c95776)
 4. [**Pixel GAN VAE**](https://medium.com/@Synced/pixelgan-autoencoders-17496632b755)
 5. [**Disentangled VAE**](https://www.youtube.com/watch?v=9zKuYvjFFS8) **- improves VAE**
+6. **Optimus -** [**pretrained VAE**](https://github.com/ophiry/Optimus)**,** [**paper**](https://arxiv.org/abs/2004.04092)**,** [**Microsoft blog**](https://www.microsoft.com/en-us/research/blog/a-deep-generative-model-trifecta-three-advances-that-work-towards-harnessing-large-scale-power/)\*\*\*\*
+
+![Optimus](.gitbook/assets/image%20%281%29.png)
 
 #### 
 

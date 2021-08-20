@@ -39,7 +39,7 @@
 * [Active Learning Algorithms](active-learning-algorithms.md)
 * [Linear Separator Algorithms](linear-separator-algorithms.md)
 * [Ensembles](ensembles.md)
-* [Incremental Learning](incremental-learning-1.md)
+* [Reinforcement Learning](incremental-learning-1.md)
 * [Incremental Learning](incremental-learning.md)
 * [Dimensionality Reduction Methods](dimensionality-reduction-methods.md)
 * [Genetic Algorithms & Genetic Programming](genetic-algorithms-and-genetic-programming.md)

@@ -103,14 +103,16 @@
 
 ### **CROSS ENTROPY, RELATIVE ENT, KL-D, JS-D, SOFT MAX** 
 
-1. [**A really good explanation on all of them**](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
-2. [**Another good one on all of them**](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
-3. [**Mastery on entropy**](https://machinelearningmastery.com/divergence-between-probability-distributions/)**, kullback leibler divergence \(asymmetry\), jensen-shannon divergence \(symmetry\) \(has code\)**
-4. [**Entropy, mutual information and KL Divergence by AurelienGeron**](https://www.techleer.com/articles/496-a-short-introduction-to-entropy-cross-entropy-and-kl-divergence-aurelien-geron/)
-5. [**Gensim on divergence**](https://radimrehurek.com/gensim/auto_examples/tutorials/run_distance_metrics.html#sphx-glr-auto-examples-tutorials-run-distance-metrics-py) **metrics such as KL jaccard etc, pros and cons, lda is a mess on small data.**
-6. [**Advise on KLD**](https://datascience.stackexchange.com/questions/9262/calculating-kl-divergence-in-python)**ivergence**
+1. [A really good explanation on all of them](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
+2. [Another good one on all of them](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
+3. [mastery on a gentle intro to CE](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)
+4. [Mastery on entropy](https://machinelearningmastery.com/divergence-between-probability-distributions/), kullback leibler divergence \(asymmetry\), jensen-shannon divergence \(symmetry\) \(has code\)
+5. [Entropy, mutual information and KL Divergence by AurelienGeron](https://www.techleer.com/articles/496-a-short-introduction-to-entropy-cross-entropy-and-kl-divergence-aurelien-geron/)
+6. [Gensim on divergence](https://radimrehurek.com/gensim/auto_examples/tutorials/run_distance_metrics.html#sphx-glr-auto-examples-tutorials-run-distance-metrics-py) metrics such as KL jaccard etc, pros and cons, lda is a mess on small data.
+7. [Advise on KLD](https://datascience.stackexchange.com/questions/9262/calculating-kl-divergence-in-python)ivergence
+8. [Neural machine translation using pytorch and CE](https://towardsdatascience.com/neural-machine-translation-15ecf6b0b)
 
-### **SOFTMAX**
+### SOF**TMAX**
 
 1. [**Understanding softmax**](https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a59641e86d)
 2. [**Softmax and negative likelihood \(NLL\)**](https://ljvmiranda921.github.io/notebook/2017/08/13/softmax-and-the-negative-log-likelihood/)
