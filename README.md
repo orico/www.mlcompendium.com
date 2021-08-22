@@ -4,7 +4,7 @@ description: An open knowledge-sharing project .
 
 # The Machine & Deep Learning Compendium
 
-Hi! Nearly a year ago I announced the [Machine & Deep Learning Compendium](https://towardsdatascience.com/the-last-machine-deep-learning-compendium-youll-ever-need-dc973643c4e1), a [Google document](https://docs.google.com/document/d/1wvtcwc8LOb3PZI9huQOD7UjqUoY98N5r3aQsWKNAlzk/edit) that I have been writing for the last 4 years. The ML Compendium contains over 500-topics, and it is over 400 pages long.
+Hi! Nearly a year ago I announced the [Machine & Deep Learning Compendium](https://towardsdatascience.com/the-last-machine-deep-learning-compendium-youll-ever-need-dc973643c4e1), a [Google document](https://docs.google.com/document/d/1wvtcwc8LOb3PZI9huQOD7UjqUoY98N5r3aQsWKNAlzk/edit) that I have been curating for the last 4 years. The ML Compendium contains over 500-topics, and it is over 400 pages long.
 
 The Compendium is fully open. It is now a project on [GitBook](https://book.mlcompendium.com/) & [GitHub](https://github.com/orico/www.mlcompendium.com/) \(please star it!\). I believe in knowledge sharing and the compendium will always be free to everyone.
 
