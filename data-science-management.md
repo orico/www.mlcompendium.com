@@ -27,5 +27,6 @@
 
 1. [**\(FAST\) Advisory board saas agreement**](https://fi.co/fast)
 
-### 
+### General
+1. [**The Care and Feeding of Data Scientists - O'reilly**](https://oreilly-ds-report.s3.amazonaws.com/Care_and_Feeding_of_Data_Scientists.pdf)
 
