@@ -34,6 +34,7 @@
 6. [The NLP Pandec](https://github.com/ivan-bilan/The-NLP-Pandect#mlops-for-nlp) - MLOps for NLP
 7. [ml-ops.org](https://ml-ops.org/)
 8. [Awesome production ML](https://github.com/EthicalML/awesome-production-machine-learning/)
+9. [MLOps.toys](https://mlops.toys/) - A curated list of MLOps projects
 
 ![Awesome production ML](.gitbook/assets/image.png)
 
