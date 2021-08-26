@@ -14,6 +14,8 @@ The Compendium includes around 500 topics, that contains various summaries, link
 
 Please keep in mind that this is a perpetual work in progress with a variety of topics. If you feel that something should be changed, you can now easily contribute using [GitBook](https://book.mlcompendium.com), [GitHub](https://github.com/orico/www.mlcompendium.com/tree/master), or [contact me](https://www.linkedin.com/in/cohenori/).
 
+Please note that on GitHub you should push to master.
+
 I would like to thank the following contributors: [Samuel Jefroykin](https://www.linkedin.com/in/samueljefroykin/), [Sefi Keller](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)
 
 Many Thanks,  
