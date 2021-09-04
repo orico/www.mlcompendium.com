@@ -1296,6 +1296,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 7. [**Nmslib**](https://github.com/nmslib/nmslib) **\(**[**benchmarked**](https://github.com/erikbern/ann-benchmarks) **- Benchmarks of approximate nearest neighbor libraries in Python\) is a Non-Metric Space Library \(NMSLIB\): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.**
 8. **scann,** 
 9. [**Vespa.ai**](https://vespa.ai/) **- Make AI-driven decisions using your data, in real time. At any scale, with unbeatable performance**
+10. [**Weaviate**](https://www.semi.technology/developers/weaviate/current/) **- Weaviate is an [open source](https://github.com/semi-technologies/weaviate) vector search engine and vector database. Weaviate uses machine learning to vectorize and store data, and to find answers to natural language queries, or any other media type.** 
 
 #### **TOOLS**
 
