@@ -2,7 +2,7 @@
 
 ### **Python**
 
-[**How to use better OOP in python.**](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
+[**How to use better OOP in python.**](https://hackernoon.com/improve-your-python-python-classes-and-object-oriented-programming-d09ff461168d)
 
 [**Best practices programming python classes - a great lecture.**](https://www.youtube.com/watch?v=HTLu2DFOdTg)
 
