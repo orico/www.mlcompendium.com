@@ -20,7 +20,6 @@
 1. **Homophily is the tendency of people to seek others who are alike. For example, most of us restrict our dates to smokers or non-smokers, mirroring our own behavior.**
 2. **Confounding is the phenomenon of related individuals developing a trait because of a \(shared\) environmental circumstance. For example, people living right next to a McDonald’s might all gradually become obese.**
 3. **Induction is the process of one individual passing a trait or behavior on to their friends, whether by active encouragement or by setting an example**
-4. [**Networkx**](https://networkx.org/documentation//networkx-1.10/reference/algorithms.html) **- Centrality is just a fraction of the algorithms contained in networkx.**
-
-![](https://lh3.googleusercontent.com/Z2U_f5O_A407pAxkfZzNLMDjm0LZbFa4bDs2qddvSE2HQ-UbaXHAMRAylOhM7AgblncrxGKHzFvT31O96jKfJ2QgxHK7ntItXsbOxEdlt8eL1HlLUKvvo1tG6kT-txQuxMyAYEif)[**Social Network analysis from theory to applications**](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7) **-** [**dima goldenberg**](https://www.linkedin.com/in/dimgold/)
+4. [**Networkx**](https://networkx.org/documentation//networkx-1.10/reference/algorithms.html) **- Centrality is just a fraction of the algorithms contained in networkx.**![](https://lh3.googleusercontent.com/Z2U_f5O_A407pAxkfZzNLMDjm0LZbFa4bDs2qddvSE2HQ-UbaXHAMRAylOhM7AgblncrxGKHzFvT31O96jKfJ2QgxHK7ntItXsbOxEdlt8eL1HlLUKvvo1tG6kT-txQuxMyAYEif)\*\*\*\*
+5. [**Social Network analysis from theory to applications**](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7) **-** [**dima goldenberg**](https://www.linkedin.com/in/dimgold/)
 

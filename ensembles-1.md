@@ -56,9 +56,4 @@
 **NLP**
 
 * [**XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization**](https://github.com/google-research/xtreme/blob/master/README.md)
-
-#### Multi-Task Learning
-
-1. [Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics](https://arxiv.org/abs/1705.07115) \(Yarin Gal\) [GitHub](https://github.com/ranandalon/mtl) - "In this paper we make the observation that the performance of such systems is strongly dependent on the relative weighting between each task’s loss. Tuning these weights by hand is a difficult and expensive process, making multi-task learning prohibitive in practice. We propose a principled approach to multi-task deep learning which weighs multiple loss functions by considering the homoscedastic uncertainty of each task. "
-2. [Ruder on Multi Task Learning](https://ruder.io/multi-task/) - "By sharing representations between related tasks, we can enable our model to generalize better on our original task. This approach is called Multi-Task Learning \(MTL\) and will be the topic of this blog post."
-
+* 
