@@ -107,6 +107,7 @@
 ### **KNN**
 
 1. [**Nearpy**](https://github.com/pixelogik/NearPy)**, knn in scale! On github**
+2. \*\*\*\*[**finding the optimal K**](https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb)\*\*\*\*
 
 ### **DBSCAN**
 
