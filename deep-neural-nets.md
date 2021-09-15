@@ -953,20 +953,21 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 ### **GRAPH NEURAL NETWORKS \(GNN\)**
 
 1. **\(amazing\)** [**Why i am luke warm about GNN’s**](https://www.singlelunch.com/2020/12/28/why-im-lukewarm-on-graph-neural-networks/) **- really good insight to what they do \(compressing data, vs adjacy graphs, vs graphs, high dim relations, etc.\)**
-2. [**Learning on graphs youtube - uriel singer**](https://www.youtube.com/watch?v=snLsWos_1WU&feature=youtu.be&fbclid=IwAR0JlvF9aPgKMmeh2zGr3l3j_8AebOTjknVGyMsz0Y2EvgcqrS0MmLkBTMU)
-3. [**Benchmarking GNN’s, methodology, git, the works.**](https://graphdeeplearning.github.io/post/benchmarking-gnns/)
-4. [**Awesome graph classification on github**](https://github.com/benedekrozemberczki/awesome-graph-classification)
-5. **Octavian in medium on graphs,** [**A really good intro to graph networks, too long too summarize**](https://medium.com/octavian-ai/deep-learning-with-knowledge-graphs-3df0b469a61a)**, clever, mcgraph, regression, classification, embedding on graphs.** 
-6. [**Application of graph networks**](https://towardsdatascience.com/https-medium-com-aishwaryajadhav-applications-of-graph-neural-networks-1420576be574) _\*\*_
-7. [**Recommender systems using GNN**](https://towardsdatascience.com/recommender-systems-applying-graph-and-nlp-techniques-619dbedd9ecc)**, w2v, pytorch w2v, networkx, sparse matrices, matrix factorization, dictionary optimization, part 1 here** [**\(how to find product relations, important: creating negative samples\)**](https://eugeneyan.com/2020/01/06/recommender-systems-beyond-the-user-item-matrix)
-8. [**Transformers are GNN**](https://towardsdatascience.com/transformers-are-graph-neural-networks-bca9f75412aa)**, original:** [**Transformers are graphs, not the typical embedding on a graph, but a more holistic approach to understanding text as a graph.**](https://thegradient.pub/transformers-are-graph-neural-networks/)
-9. [**Cnn for graphs**](https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-62acf5b143d0)
-10. [**Staring with gnn**](https://medium.com/octavian-ai/how-to-get-started-with-machine-learning-on-graphs-7f0795c83763)
-11. **Really good -** [**Basics deep walk and graphsage**](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) _\*\*_
-12. [**Application of gnn**](https://towardsdatascience.com/https-medium-com-aishwaryajadhav-applications-of-graph-neural-networks-1420576be574)
-13. **Michael Bronstein’s** [**Central page for Graph deep learning articles on Medium**](https://towardsdatascience.com/graph-deep-learning/home) **\(worth reading\)**
-14. [**GAT graphi attention networks**](https://petar-v.com/GAT/)**, paper, examples - The graph attentional layer utilised throughout these networks is computationally efficient \(does not require costly matrix operations, and is parallelizable across all nodes in the graph\), allows for \(implicitly\) assigning different importances to different nodes within a neighborhood while dealing with different sized neighborhoods, and does not depend on knowing the entire graph structure upfront—thus addressing many of the theoretical issues with approaches.** 
-15. **Medium on** [**Intro, basics, deep walk, graph sage**](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3)
+2. \(amazing\) [Graphical intro to GNNs](https://distill.pub/2021/gnn-intro/) 
+3. [**Learning on graphs youtube - uriel singer**](https://www.youtube.com/watch?v=snLsWos_1WU&feature=youtu.be&fbclid=IwAR0JlvF9aPgKMmeh2zGr3l3j_8AebOTjknVGyMsz0Y2EvgcqrS0MmLkBTMU)
+4. [**Benchmarking GNN’s, methodology, git, the works.**](https://graphdeeplearning.github.io/post/benchmarking-gnns/)
+5. [**Awesome graph classification on github**](https://github.com/benedekrozemberczki/awesome-graph-classification)
+6. **Octavian in medium on graphs,** [**A really good intro to graph networks, too long too summarize**](https://medium.com/octavian-ai/deep-learning-with-knowledge-graphs-3df0b469a61a)**, clever, mcgraph, regression, classification, embedding on graphs.** 
+7. [**Application of graph networks**](https://towardsdatascience.com/https-medium-com-aishwaryajadhav-applications-of-graph-neural-networks-1420576be574) _\*\*_
+8. [**Recommender systems using GNN**](https://towardsdatascience.com/recommender-systems-applying-graph-and-nlp-techniques-619dbedd9ecc)**, w2v, pytorch w2v, networkx, sparse matrices, matrix factorization, dictionary optimization, part 1 here** [**\(how to find product relations, important: creating negative samples\)**](https://eugeneyan.com/2020/01/06/recommender-systems-beyond-the-user-item-matrix)
+9. [**Transformers are GNN**](https://towardsdatascience.com/transformers-are-graph-neural-networks-bca9f75412aa)**, original:** [**Transformers are graphs, not the typical embedding on a graph, but a more holistic approach to understanding text as a graph.**](https://thegradient.pub/transformers-are-graph-neural-networks/)
+10. [**Cnn for graphs**](https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-62acf5b143d0)
+11. [**Staring with gnn**](https://medium.com/octavian-ai/how-to-get-started-with-machine-learning-on-graphs-7f0795c83763)
+12. **Really good -** [**Basics deep walk and graphsage**](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) _\*\*_
+13. [**Application of gnn**](https://towardsdatascience.com/https-medium-com-aishwaryajadhav-applications-of-graph-neural-networks-1420576be574)
+14. **Michael Bronstein’s** [**Central page for Graph deep learning articles on Medium**](https://towardsdatascience.com/graph-deep-learning/home) **\(worth reading\)**
+15. [**GAT graphi attention networks**](https://petar-v.com/GAT/)**, paper, examples - The graph attentional layer utilised throughout these networks is computationally efficient \(does not require costly matrix operations, and is parallelizable across all nodes in the graph\), allows for \(implicitly\) assigning different importances to different nodes within a neighborhood while dealing with different sized neighborhoods, and does not depend on knowing the entire graph structure upfront—thus addressing many of the theoretical issues with approaches.** 
+16. **Medium on** [**Intro, basics, deep walk, graph sage**](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3)
 
 **Deep walk**
 
