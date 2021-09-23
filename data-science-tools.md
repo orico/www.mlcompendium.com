@@ -2,25 +2,17 @@
 
 ## **Python**
 
-[**How to use better OOP in python.**](https://hackernoon.com/improve-your-python-python-classes-and-object-oriented-programming-d09ff461168d)
-
-[**Best practices programming python classes - a great lecture.**](https://www.youtube.com/watch?v=HTLu2DFOdTg)
-
-[**How to know pip packages size’**](https://stackoverflow.com/questions/34266159/how-to-see-pip-package-sizes-installed) **good for removal**
-
-[**Python type checking tutorial**](https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b)
-
-[**Import click - command line interface**](https://zetcode.com/python/click/)
-
-[**Concurrency vs Parallelism \(great\)**](https://stackoverflow.com/questions/1050222/what-is-the-difference-between-concurrency-and-parallelism#:~:text=Concurrency%20is%20when%20two%20or,e.g.%2C%20on%20a%20multicore%20processor.)
-
-* [**Async in python**](https://medium.com/velotio-perspectives/an-introduction-to-asynchronous-programming-in-python-af0189a88bbb)
-
-[**Coroutines vs futures**](https://stackoverflow.com/questions/34753401/difference-between-coroutine-and-future-task-in-python-3-5)
-
-1. **Coroutines** [**generators async wait**](https://masnun.com/2015/11/13/python-generators-coroutines-native-coroutines-and-async-await.html)
-2. [**Intro to concurrent,futures**](http://masnun.com/2016/03/29/python-a-quick-introduction-to-the-concurrent-futures-module.html)
-3. [**Future task event loop**](https://masnun.com/2015/11/20/python-asyncio-future-task-and-the-event-loop.html)
+1. [**How to use better OOP in python.**](https://hackernoon.com/improve-your-python-python-classes-and-object-oriented-programming-d09ff461168d)
+2. [**Best practices programming python classes - a great lecture.**](https://www.youtube.com/watch?v=HTLu2DFOdTg)
+3. [**How to know pip packages size’**](https://stackoverflow.com/questions/34266159/how-to-see-pip-package-sizes-installed) **good for removal**
+4. \*\*\*\*[**Python type checking tutorial**](https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b)
+5. [**Import click - command line interface**](https://zetcode.com/python/click/)
+6. [**Concurrency vs Parallelism \(great\)**](https://stackoverflow.com/questions/1050222/what-is-the-difference-between-concurrency-and-parallelism#:~:text=Concurrency%20is%20when%20two%20or,e.g.%2C%20on%20a%20multicore%20processor.)
+7. [**Async in python**](https://medium.com/velotio-perspectives/an-introduction-to-asynchronous-programming-in-python-af0189a88bbb)
+8. [**Coroutines vs futures**](https://stackoverflow.com/questions/34753401/difference-between-coroutine-and-future-task-in-python-3-5)
+9. **Coroutines** [**generators async wait**](https://masnun.com/2015/11/13/python-generators-coroutines-native-coroutines-and-async-await.html)
+10. [**Intro to concurrent,futures**](http://masnun.com/2016/03/29/python-a-quick-introduction-to-the-concurrent-futures-module.html)
+11. [**Future task event loop**](https://masnun.com/2015/11/20/python-asyncio-future-task-and-the-event-loop.html)
 
 **Async io**
 
