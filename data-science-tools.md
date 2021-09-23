@@ -115,30 +115,36 @@ print (b)`**
 2. [Visualizing pandas pivoting and reshaping functions by Jay Alammar](http://jalammar.github.io/visualizing-pandas-pivoting-and-reshaping/) - pivot melt stack unstack
 3. [How to beautify pandas dataframe using html display](https://stackoverflow.com/questions/26873127/show-dataframe-as-table-in-ipython-notebook)
 4. [Speeding up pandas ](https://realpython.com/fast-flexible-pandas/)
-5. [Pandas summary](https://github.com/mouradmourafiq/pandas-summary)
-6. [Pandas html profiling](https://github.com/pandas-profiling/pandas-profiling)
-7. [The fastest way to select rows by columns, by using masked values](https://stackoverflow.com/questions/17071871/select-rows-from-a-dataframe-based-on-values-in-a-column-in-pandas) \(benchmarked\):
-8. def mask\_with\_values\(df\): mask = df\['A'\].values == 'foo' return df\[mask\]
-9. [Parallelism, pools, threads, dask](https://towardsdatascience.com/speed-up-your-algorithms-part-3-parallelization-4d95c0888748#7e6e)
-10. [Accessing dataframe rows, columns and cells](http://pythonhow.com/accessing-dataframe-columns-rows-and-cells/)- by name, by index, by python methods.
-11. [Looping through pandas](https://medium.com/swlh/how-to-efficiently-loop-through-pandas-dataframe-660e4660125d)
-12. [How to inject headers into a headless CSV file](http://pythonforengineers.com/introduction-to-pandas/) - 
-13. [Dealing with time series](http://pandas.pydata.org/pandas-docs/stable/timeseries.html) in pandas,
+5. [The fastest way to select rows by columns, by using masked values](https://stackoverflow.com/questions/17071871/select-rows-from-a-dataframe-based-on-values-in-a-column-in-pandas) \(benchmarked\):
+6. def mask\_with\_values\(df\): mask = df\['A'\].values == 'foo' return df\[mask\]
+7. [Parallelism, pools, threads, dask](https://towardsdatascience.com/speed-up-your-algorithms-part-3-parallelization-4d95c0888748#7e6e)
+8. [Accessing dataframe rows, columns and cells](http://pythonhow.com/accessing-dataframe-columns-rows-and-cells/)- by name, by index, by python methods.
+9. [Looping through pandas](https://medium.com/swlh/how-to-efficiently-loop-through-pandas-dataframe-660e4660125d)
+10. [How to inject headers into a headless CSV file](http://pythonforengineers.com/introduction-to-pandas/) - 
+11. [Dealing with time series](http://pandas.pydata.org/pandas-docs/stable/timeseries.html) in pandas,
     1. [Create a new column](https://stackoverflow.com/questions/25570147/add-new-column-based-on-boolean-values-in-a-different-column) based on a \(boolean or not\) column and calculation:
     2. Using python \(map\)
     3. Using numpy
     4. using a function \(not as pretty\)
-14. Given a DataFrame, the [shift](http://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/)\(\) function can be used to create copies of columns that are pushed forward \(rows of NaN values added to the front\) or pulled back \(rows of NaN values added to the end\).
+12. Given a DataFrame, the [shift](http://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/)\(\) function can be used to create copies of columns that are pushed forward \(rows of NaN values added to the front\) or pulled back \(rows of NaN values added to the end\).
     1. df\['t'\] = \[x for x in range\(10\)\]
     2. df\['t-1'\] = df\['t'\].shift\(1\)
     3. df\['t-1'\] = df\['t'\].shift\(-1\)
-15. [Row and column sum in pandas and numpy](http://blog.mathandpencil.com/column-and-row-sums)
-16. [Dataframe Validation In Python](https://www.youtube.com/watch?time_continue=905&v=1fHGXOfiDO0) - A Practical Introduction - Yotam Perkal - PyCon Israel 2018
-17. In this talk, I will present the problem and give a practical overview \(accompanied by Jupyter Notebook code examples\) of three libraries that aim to address it: Voluptuous - Which uses Schema definitions in order to validate data \[[https://github.com/alecthomas/voluptuous](https://www.youtube.com/redirect?v=1fHGXOfiDO0&event=video_description&redir_token=jIIzdRAEjZBpzVhRYfFzTcx52358MTU0NzQ0ODY3N0AxNTQ3MzYyMjc3&q=https%3A%2F%2Fgithub.com%2Falecthomas%2Fvoluptuous)\] Engarde - A lightweight way to explicitly state your assumptions about the data and check that they're actually true \[[https://github.com/TomAugspurger/engarde](https://www.youtube.com/redirect?v=1fHGXOfiDO0&event=video_description&redir_token=jIIzdRAEjZBpzVhRYfFzTcx52358MTU0NzQ0ODY3N0AxNTQ3MzYyMjc3&q=https%3A%2F%2Fgithub.com%2FTomAugspurger%2Fengarde)\] \* TDDA - Test Driven Data Analysis \[ [https://github.com/tdda/tdda](https://github.com/tdda/tdda)\]. By the end of this talk, you will understand the Importance of data validation and get a sense of how to integrate data validation principles as part of the ML pipeline.
-18. [Stop using itterows](https://medium.com/@rtjeannier/pandas-101-cont-9d061cb73bfc), use apply.
-19. [\(great\) Group and Aggregate by One or More Columns in Pandas](https://jamesrledoux.com/code/group-by-aggregate-pandas)
-20. [Pandas Groupby: Summarising, Aggregating, and Grouping data in Python](https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/#applying-multiple-functions-to-columns-in-groups)
-21. [pandas function you didnt know about](https://towardsdatascience.com/25-pandas-functions-you-didnt-know-existed-p-guarantee-0-8-1a05dcaad5d0)
+13. [Row and column sum in pandas and numpy](http://blog.mathandpencil.com/column-and-row-sums)
+14. [Dataframe Validation In Python](https://www.youtube.com/watch?time_continue=905&v=1fHGXOfiDO0) - A Practical Introduction - Yotam Perkal - PyCon Israel 2018
+15. In this talk, I will present the problem and give a practical overview \(accompanied by Jupyter Notebook code examples\) of three libraries that aim to address it: Voluptuous - Which uses Schema definitions in order to validate data \[[https://github.com/alecthomas/voluptuous](https://www.youtube.com/redirect?v=1fHGXOfiDO0&event=video_description&redir_token=jIIzdRAEjZBpzVhRYfFzTcx52358MTU0NzQ0ODY3N0AxNTQ3MzYyMjc3&q=https%3A%2F%2Fgithub.com%2Falecthomas%2Fvoluptuous)\] Engarde - A lightweight way to explicitly state your assumptions about the data and check that they're actually true \[[https://github.com/TomAugspurger/engarde](https://www.youtube.com/redirect?v=1fHGXOfiDO0&event=video_description&redir_token=jIIzdRAEjZBpzVhRYfFzTcx52358MTU0NzQ0ODY3N0AxNTQ3MzYyMjc3&q=https%3A%2F%2Fgithub.com%2FTomAugspurger%2Fengarde)\] \* TDDA - Test Driven Data Analysis \[ [https://github.com/tdda/tdda](https://github.com/tdda/tdda)\]. By the end of this talk, you will understand the Importance of data validation and get a sense of how to integrate data validation principles as part of the ML pipeline.
+16. [Stop using itterows](https://medium.com/@rtjeannier/pandas-101-cont-9d061cb73bfc), use apply.
+17. [\(great\) Group and Aggregate by One or More Columns in Pandas](https://jamesrledoux.com/code/group-by-aggregate-pandas)
+18. [Pandas Groupby: Summarising, Aggregating, and Grouping data in Python](https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/#applying-multiple-functions-to-columns-in-groups)
+19. [pandas function you didnt know about](https://towardsdatascience.com/25-pandas-functions-you-didnt-know-existed-p-guarantee-0-8-1a05dcaad5d0)
+
+### Exploratory Data Analysis \(EDA\) 
+
+1. [Pandas summary](https://github.com/mouradmourafiq/pandas-summary)
+2. [Pandas html profiling](https://github.com/pandas-profiling/pandas-profiling)
+3. [Sweetviz](https://github.com/fbdesignpro/sweetviz)  - "Sweetviz is an open-source Python library that generates beautiful, high-density visualizations to kickstart EDA \(Exploratory Data Analysis\) with just two lines of code. Output is a fully self-contained HTML application.
+
+   The system is built around quickly **visualizing target values** and **comparing datasets**. Its goal is to help quick analysis of target characteristics, training vs testing data, and other such data characterization tasks."
 
 ### **TIMESERIES**
 
