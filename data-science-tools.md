@@ -37,13 +37,10 @@
 
 ### **PYENV**
 
-[**Installing pyenv**](https://bgasparotto.com/install-pyenv-ubuntu-debian)
-
-[**Intro to pyenv**](https://realpython.com/intro-to-pyenv/)
-
-[**Pyenv tutorial and finding where it is**](https://anil.io/blog/python/pyenv/using-pyenv-to-install-multiple-python-versions-tox/) _\*\*_
-
-[**Pyenv override system python on mac**](https://github.com/pyenv/pyenv/issues/660)
+1. [**Installing pyenv**](https://bgasparotto.com/install-pyenv-ubuntu-debian)
+2. [**Intro to pyenv**](https://realpython.com/intro-to-pyenv/)
+3. [**Pyenv tutorial and finding where it is**](https://anil.io/blog/python/pyenv/using-pyenv-to-install-multiple-python-versions-tox/) _\*\*_
+4. \_\_[**Pyenv override system python on mac**](https://github.com/pyenv/pyenv/issues/660)
 
 ## **JUPYTER**
 
