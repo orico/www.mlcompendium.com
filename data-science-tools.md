@@ -135,6 +135,8 @@ print (b)`**
 
    The system is built around quickly **visualizing target values** and **comparing datasets**. Its goal is to help quick analysis of target characteristics, training vs testing data, and other such data characterization tasks."
 
+![Sweetviz](.gitbook/assets/image%20%286%29.png)
+
 ### **TIMESERIES**
 
 1. **\(good\)** [**Pandas time series manipulation**](https://towardsdatascience.com/practical-guide-for-time-series-analysis-with-pandas-196b8b46858f)
