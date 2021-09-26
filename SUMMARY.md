@@ -61,10 +61,10 @@
 * [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
 * [Deep Neural Audio](deep-learning/deep-neural-audio.md)
 
-## Problem Space
+## Business Domains
 
-* [Templatization](problem-space/templatization.md)
-* [Root Cause Effects \(RCE/RCA\)](problem-space/root-cause-effects-rce-rca.md)
+* [Templatization](business-domains/templatization.md)
+* [Root Cause Effects \(RCE/RCA\)](business-domains/root-cause-effects-rce-rca.md)
 
 ## Additional DS Skills
 
