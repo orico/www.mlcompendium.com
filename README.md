@@ -1,7 +1,3 @@
----
-description: An open knowledge-sharing project .
----
-
 # The Machine & Deep Learning Compendium
 
 Hi! Nearly a year ago I announced the [Machine & Deep Learning Compendium](https://towardsdatascience.com/the-last-machine-deep-learning-compendium-youll-ever-need-dc973643c4e1), a [Google document](https://docs.google.com/document/d/1wvtcwc8LOb3PZI9huQOD7UjqUoY98N5r3aQsWKNAlzk/edit) that I have been curating for the last 4 years. The ML Compendium contains over 500-topics, and in its document version it was over 400 pages long.

@@ -45,7 +45,6 @@
 * [Genetic Algorithms & Genetic Programming](genetic-algorithms-and-genetic-programming.md)
 * [Learning Classifier Systems](learning-classifier-systems.md)
 * [Recommender Systems](recommender-systems.md)
-* [Templatization](templatization.md)
 * [Timeseries](timeseries.md)
 * [Fourier Transform](fourier-transform.md)
 * [Digital Signal Processing \(DSP\)](digital-signal-processing-dsp.md)
@@ -64,6 +63,7 @@
 
 ## Problem Space
 
+* [Templatization](problem-space/templatization.md)
 * [Root Cause Effects \(RCE/RCA\)](problem-space/root-cause-effects-rce-rca.md)
 
 ## Additional DS Skills
