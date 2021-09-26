@@ -49,17 +49,29 @@
 * [Timeseries](timeseries.md)
 * [Fourier Transform](fourier-transform.md)
 * [Digital Signal Processing \(DSP\)](digital-signal-processing-dsp.md)
-* [Graph Theory](graph-theory.md)
-* [Social Network Analysis](social-network-analysis.md)
+
+## Graphs
+
+* [Graph Theory](graphs/graph-theory.md)
+* [Social Network Analysis](graphs/social-network-analysis.md)
+
+---
+
 * [Deep Neural Nets](deep-neural-nets.md)
 * [Natural Language Processing](natural-language-processing.md)
 * [Deep Neural Machine Vision](deep-neural-machine-vision.md)
 * [Deep Neural Audio](deep-neural-audio.md)
 * [Root Cause Effects \(RCE/RCA\)](root-cause-effects-rce-rca.md)
-* [Expanding Your Data Science Skills](expanding-your-data-science-skills.md)
-* [Full-Stack & Ops](full-stack-and-ops.md)
-* [Product Management](product-management.md)
-* [User Experience Design \(UX\)](user-experience-design-ux.md)
-* [Marketing](marketing.md)
+
+## Additional DS Skills
+
+* [Expanding Your Data Science Skills](additional-ds-skills/expanding-your-data-science-skills.md)
+* [Full-Stack & Ops](additional-ds-skills/full-stack-and-ops.md)
+* [Product Management](additional-ds-skills/product-management.md)
+* [User Experience Design \(UX\)](additional-ds-skills/user-experience-design-ux.md)
+* [Marketing](additional-ds-skills/marketing.md)
+
+---
+
 * [Humor](humor.md)
 
