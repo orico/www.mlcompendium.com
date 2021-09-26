@@ -564,7 +564,7 @@
 5. [**Disentangled VAE**](https://www.youtube.com/watch?v=9zKuYvjFFS8) **- improves VAE**
 6. **Optimus -** [**pretrained VAE**](https://github.com/ophiry/Optimus)**,** [**paper**](https://arxiv.org/abs/2004.04092)**,** [**Microsoft blog**](https://www.microsoft.com/en-us/research/blog/a-deep-generative-model-trifecta-three-advances-that-work-towards-harnessing-large-scale-power/)\*\*\*\*
 
-![Optimus](.gitbook/assets/image%20%281%29.png)
+![Optimus](../.gitbook/assets/image%20%281%29.png)
 
 ### **SELF ORGANIZING MAPS \(SOM\)**
 
@@ -1692,5 +1692,5 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 1. \*\*\*\*[**paper**](https://arxiv.org/abs/2105.08050)**,** [**git1**](https://github.com/jaketae/g-mlp)**,** [**git2**](https://github.com/lucidrains/g-mlp-pytorch) **- "**a simple network architecture, gMLP, based on MLPs with gating, and show that it can perform as well as Transformers in key language and vision applications. Our comparisons show that self-attention is not critical for Vision Transformers, as gMLP can achieve the same accuracy."
 
-![](.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 

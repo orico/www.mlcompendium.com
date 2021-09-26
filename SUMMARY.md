@@ -49,19 +49,22 @@
 * [Timeseries](timeseries.md)
 * [Fourier Transform](fourier-transform.md)
 * [Digital Signal Processing \(DSP\)](digital-signal-processing-dsp.md)
+* [Natural Language Processing](natural-language-processing.md)
 
 ## Graphs
 
 * [Graph Theory](graphs/graph-theory.md)
 * [Social Network Analysis](graphs/social-network-analysis.md)
 
----
+## Deep Learning
 
-* [Deep Neural Nets](deep-neural-nets.md)
-* [Natural Language Processing](natural-language-processing.md)
-* [Deep Neural Machine Vision](deep-neural-machine-vision.md)
-* [Deep Neural Audio](deep-neural-audio.md)
-* [Root Cause Effects \(RCE/RCA\)](root-cause-effects-rce-rca.md)
+* [Deep Neural Nets](deep-learning/deep-neural-nets.md)
+* [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
+* [Deep Neural Audio](deep-learning/deep-neural-audio.md)
+
+## Problem Space
+
+* [Root Cause Effects \(RCE/RCA\)](problem-space/root-cause-effects-rce-rca.md)
 
 ## Additional DS Skills
 
