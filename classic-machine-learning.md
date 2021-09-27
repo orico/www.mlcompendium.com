@@ -211,6 +211,7 @@
    1. **Too many variables**
    2. **Overfitting**
    3. **Time series - seasonality trends can cause this**
+2. \*\*\*\*[**RMSE vs MAE**](https://medium.com/human-in-a-machine-world/mae-and-rmse-which-metric-is-better-e60ac3bde13d)\*\*\*\*
 
 #### **KERNEL REGRESSION**
 

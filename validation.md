@@ -151,6 +151,12 @@
    1. [**Blog**](https://amitness.com/2020/07/checklist/)**,** [**Youtube**](https://www.youtube.com/watch?v=L3gaWctPg6E)**,** [**paper**](https://arxiv.org/pdf/2005.04118.pdf)**,** [**git**](https://github.com/marcotcr/checklist)
    2. [**Yonatan hadar on the subject in hebrew**](https://www.facebook.com/groups/MDLI1/permalink/1627671704063538/)
 
+### **BIAS**
+
+1. **arize.ai on** [**model bias**](https://arize.com/understanding-bias-in-ml-models/#MLMonitoring)**.**
+
+![](.gitbook/assets/image%20%283%29.png)
+
 ### **DEBIASING MODELS**
 
 1. [**Adversarial removal of demographic features**](https://arxiv.org/abs/1808.06640) **- “We show that demographic information of authors is encoded in -- and can be recovered from -- the intermediate representations learned by text-based neural classifiers. The implication is that decisions of classifiers trained on textual data are not agnostic to -- and likely condition on -- demographic attributes. “ “we explore several techniques to improve the effectiveness of the adversarial component. Our main conclusion is a cautionary one: do not rely on the adversarial training to achieve invariant representation to sensitive features.”**  
