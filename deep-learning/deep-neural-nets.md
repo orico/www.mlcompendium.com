@@ -471,7 +471,7 @@
 
 [**Callbacks - how to create an AUC ROC score callback with keras**](https://keunwoochoi.wordpress.com/2016/07/16/keras-callbacks/) **- with code example.**
 
-[**Batch size vs. Iteratio**](https://stats.stackexchange.com/questions/164876/tradeoff-batch-size-vs-number-of-iterations-to-train-a-neural-network)**ns in NN  Keras.**
+[**Batch size vs. Iteratio**](https://stats.stackexchange.com/questions/164876/tradeoff-batch-size-vs-number-of-iterations-to-train-a-neural-network)**ns in NN Keras.**
 
 [**Keras metrics**](https://machinelearningmastery.com/custom-metrics-deep-learning-keras-python/) **- classification regression and custom metrics**
 
@@ -1190,7 +1190,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 11. [**Neural Search with BERT and Solr**](https://dmitry-kan.medium.com/list/vector-search-e9b564d14274) **- Indexing BERT vector data in Solr and searching with full traversal**
 12. [**Fun With Apache Lucene and BERT Embeddings**](https://medium.com/swlh/fun-with-apache-lucene-and-bert-embeddings-c2c496baa559) **- This post goes much deeper -- to the similarity search algorithm on Apache Lucene level. It upgrades the code from 6.6 to 8.0**
 13. [**Speeding up BERT Search in Elasticsearch**](https://towardsdatascience.com/speeding-up-bert-search-in-elasticsearch-750f1f34f455) **- Neural Search in Elasticsearch: from vanilla to KNN to hardware acceleration**
-14. [**Ask Me Anything about Vector Search**](https://towardsdatascience.com/ask-me-anything-about-vector-search-4252a01f3889) **- In the Ask Me Anything: Vector Search! session Max Irwin and Dmitry Kan discussed major topics of vector search, ranging from its areas of applicability to comparing it to good ol’ sparse search (TF-IDF/BM25), to its readiness for prime time and what specific engineering elements need further tuning before offering this to users.**
+14. [**Ask Me Anything about Vector Search**](https://towardsdatascience.com/ask-me-anything-about-vector-search-4252a01f3889) **- In the Ask Me Anything: Vector Search! session Max Irwin and Dmitry Kan discussed major topics of vector search, ranging from its areas of applicability to comparing it to good ol’ sparse search \(TF-IDF/BM25\), to its readiness for prime time and what specific engineering elements need further tuning before offering this to users.**
 15. [**Search with BERT vectors in Solr and Elasticsearch**](https://github.com/DmitryKey/bert-solr-search) **- GitHub repository used for experiments with Solr and Elasticsearch using DBPedia abstracts comparing Solr, vanilla Elasticsearch, elastiknn enhanced Elasticsearch, OpenSearch, and GSI APU**
 
 ### **TOOLS**
