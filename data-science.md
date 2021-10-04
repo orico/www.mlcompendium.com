@@ -2,7 +2,13 @@
 
 ### **LIFE CYCLE**
 
+\*\*\*\*[**Microsoft on Team DS Lifecycle**](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/overview) **- "**The Team Data Science Process \(TDSP\) is an agile, iterative data science methodology to deliver predictive analytics solutions and intelligent applications efficiently. TDSP helps improve team collaboration and learning by suggesting how team roles work best together. TDSP includes best practices and structures from Microsoft and other industry leaders to help toward successful implementation of data science initiatives. The goal is to help companies fully realize the benefits of their analytics program.
+
+This article provides an overview of TDSP and its main components. We provide a generic description of the process here that can be implemented with different kinds of tools. A more detailed description of the project tasks and roles involved in the lifecycle of the process is provided in additional linked topics. Guidance on how to implement the TDSP using a specific set of Microsoft tools and infrastructure that we use to implement the TDSP in our teams is also provided."
+
 ![](https://lh5.googleusercontent.com/6uVYD4xbDkj2HG_rfP7fWQUn5eERj0nl_m-kKPpuyYX4q6R0g95WAduUFmIrSWVOd0P6dptgZG-1gkqWX-PvX4Png_ocJwI8VVxnj5WaZHCyetwvCLMwaKnp6g5b4goekVy9RuWV)
+
+![](.gitbook/assets/image%20%2811%29.png)
 
 [**Google’s famous MLops**](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#mlops_level_0_manual_process)
 
@@ -66,6 +72,12 @@
 
 1. **\(good advice\)** [**Building a DS function \(team\)**](https://medium.com/ww-tech-blog/from-0-to-60-models-in-two-years-building-out-an-impactful-data-science-function-9ef86abb9605)
 
+### Culture
+
+1. [Netflix](https://jobs.netflix.com/culture) culture
+2. [Reed hastings on netflix' keeper test](https://hrtechx.com/2020/11/20/netflixs-keeper-test-is-the-secret-to-a-successful-workforce/) - "netflixs-keeper-test-is-the-secret-to-a-successful-workforce"
+   1. [response 1](https://www.highlights.lornerubis.com/page/83/)
+3. 
 ### **Agile for data-science-research**
 
 1. [**How to manage a data science research team using agile methodology, not scrum and not kanban**](https://towardsdatascience.com/data-science-agile-cycles-my-method-for-managing-data-science-projects-in-the-hi-tech-industry-b289e8a72818)
