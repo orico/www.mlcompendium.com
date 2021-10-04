@@ -468,6 +468,11 @@
 6. [**Another reference list, has some unsupervised.**](http://scholar.google.co.il/scholar_url?url=http://www.nowpublishers.com/article/DownloadSummary/INR-011&hl=en&sa=X&scisig=AAGBfm0NN0Pge4htltclF-D6H4BpxocqwA&nossl=1&oi=scholarr)
 7. **Sentiwordnet3.0** [**paper**](https://www.researchgate.net/profile/Fabrizio_Sebastiani/publication/220746537_SentiWordNet_30_An_Enhanced_Lexical_Resource_for_Sentiment_Analysis_and_Opinion_Mining/links/545fbcc40cf27487b450aa21.pdf)
 8. [**presentation**](https://web.stanford.edu/class/cs124/lec/sentiment.pdf)
+9. [Hebrew Psychological Lexicons](https://github.com/natalieShapira/HebrewPsychologicalLexicons) by Natalie Shapira
+
+   This is the official code accompanying a paper on the [Hebrew Psychological Lexicons](https://www.aclweb.org/anthology/2021.clpsych-1.6.pdf) was presented at CLPsych 2021.
+
+![Summary Hebrew Psych Lexicon](.gitbook/assets/image%20%2810%29.png)
 
 **Reference papers:**
 
