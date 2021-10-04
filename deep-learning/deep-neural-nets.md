@@ -420,7 +420,8 @@
 
 1. [**Dont decay the learning rate, increase batchsize - paper**](https://arxiv.org/abs/1711.00489) **\(optimization of a network\)**
 2. [**Add one neuron with skip connection, or to every layer in a binary classification network to get global minimum**](https://arxiv.org/abs/1805.08671)**.**
-3. \*\*\*\*[**skip connections**](https://www.analyticsvidhya.com/blog/2021/08/all-you-need-to-know-about-skip-connections/) ****by Siravam / Vidhya- **"**Skip Connections \(or Shortcut Connections\) as the name suggests skips some of the layers in the neural network and feeds the output of one layer as the input to the next layers.
+3. \*\*\*\*[**RESNET, DENSENET UNET**](%20https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010) **-   the trick behind them, concatenating both f\(x\) = x**
+4. \*\*\*\*[**skip connections**](https://www.analyticsvidhya.com/blog/2021/08/all-you-need-to-know-about-skip-connections/) ****by Siravam / Vidhya- **"**Skip Connections \(or Shortcut Connections\) as the name suggests skips some of the layers in the neural network and feeds the output of one layer as the input to the next layers.
 
    Skip Connections were introduced to solve different problems in different architectures. In the case of ResNets, skip connections solved the _degradation problem_ that we addressed earlier whereas, in the case of DenseNets, it ensured **feature reusability**. We’ll discuss them in detail in the following sections.
 
