@@ -761,11 +761,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 **Dilated CNN**
 
 1. [**For improved performance**](https://stackoverflow.com/questions/41178576/whats-the-use-of-dilated-convolutions)
-
-   **RESNET, DENSENET UNET**
-
-2. **A** [**https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010**](https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010)
-3. **on the trick behind them, concatenating both f\(x\) = x**
+2. \*\*\*\*[**RESNET, DENSENET UNET**](%20https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010) **-   the trick behind them, concatenating both f\(x\) = x**
 
 ### **Graph Convolutional Networks**
 
