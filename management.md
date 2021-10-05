@@ -31,4 +31,5 @@
    6. **How to measure anything,** 
    7. **Mindset,**
    8. **\(good\) The hard thing about hard things**
+   9. \*\*\*\*[**principles life & work**](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021)**,**  [**summary**](https://readingraphics.com/book-summary-principles-ray-dalio/)\*\*\*\*
 
