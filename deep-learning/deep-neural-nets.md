@@ -971,6 +971,11 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 15. [**GAT graphi attention networks**](https://petar-v.com/GAT/)**, paper, examples - The graph attentional layer utilised throughout these networks is computationally efficient \(does not require costly matrix operations, and is parallelizable across all nodes in the graph\), allows for \(implicitly\) assigning different importances to different nodes within a neighborhood while dealing with different sized neighborhoods, and does not depend on knowing the entire graph structure upfront—thus addressing many of the theoretical issues with approaches.** 
 16. **Medium on** [**Intro, basics, deep walk, graph sage**](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3)
 
+#### GNN courses
+
+1. [machine learning with graphs by Stanford](http://web.stanford.edu/class/cs224w/?fbclid=IwAR0nQR4lhyKCoTchsGQrcZ5E8EPBt2Bi4d8K8MYX-UN0ygQSxQ5bMoohhis), from ML to GNN.
+2. [Graph deep learning course](https://geometricdeeplearning.com/lectures/) - graphs, sets,  groups,  GNNs. [youtube](https://www.youtube.com/watch?app=desktop&v=w6Pw4MOzMuo)
+
 **Deep walk**
 
 1. [**Git**](https://github.com/phanein/deepwalk)
