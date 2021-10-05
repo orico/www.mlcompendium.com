@@ -1,5 +1,12 @@
 # Graph Theory
 
+## Graph/GNN courses
+
+1. [machine learning with graphs by Stanford](http://web.stanford.edu/class/cs224w/?fbclid=IwAR0nQR4lhyKCoTchsGQrcZ5E8EPBt2Bi4d8K8MYX-UN0ygQSxQ5bMoohhis), from ML to GNN.
+2. [Graph deep learning course](https://geometricdeeplearning.com/lectures/) - graphs, sets,  groups,  GNNs. [youtube](https://www.youtube.com/watch?app=desktop&v=w6Pw4MOzMuo)
+
+## Graph Topics
+
 1. [**General purpose and community detection GIT**](https://github.com/benedekrozemberczki/karateclub) **karate club bene**
 2. **Connectivity**
 3. **Min-cut:** [**1**](https://github.com/gsw73/min-cut/blob/master/karger_min_cut.py)**,** [**2**](https://github.com/ChuntaoLu/Algorithms-Design-and-Analysis/blob/master/week3%20Karger%20min%20cut/min_cut.py)**,** [**3**](https://github.com/WithaK16/kargerMinCut/blob/master/kargerMinCut.py)**, 4, 5, 6**
