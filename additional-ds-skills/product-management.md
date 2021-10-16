@@ -1,14 +1,14 @@
 # Product Management
 
-**This list was compiled thanks to** [**Sefi Keller**](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)
+**This list was compiled thanks to **[**Sefi Keller**](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)
 
 ### **Books**
 
-1. **The mom test, summaries** [**1**](https://www.wilselby.com/2020/06/the-mom-test-summary-and-insights/#:~:text=What%20is%20'The%20Mom%20Test,to%20facts%20instead%20of%20opinions.) ****[**2**](https://feelinspired.medium.com/things-i-learnt-the-mom-test-by-rob-fitzpatrick-9d9d58ce8098) ****[**3**](https://www.slideshare.net/xamde/summary-of-the-mom-test) ****[**4**](https://lifeclub.org/books/the-mom-test-rob-fitzpatrick-review-summary) ****[**5**](https://booksconcepts.com/the-mom-test-by-rob-fitzpatrick/)
+1. **The mom test, summaries **[**1**](https://www.wilselby.com/2020/06/the-mom-test-summary-and-insights/#:\~:text=What%20is%20'The%20Mom%20Test,to%20facts%20instead%20of%20opinions.)** **[**2**](https://feelinspired.medium.com/things-i-learnt-the-mom-test-by-rob-fitzpatrick-9d9d58ce8098)** **[**3**](https://www.slideshare.net/xamde/summary-of-the-mom-test)** **[**4**](https://lifeclub.org/books/the-mom-test-rob-fitzpatrick-review-summary)** **[**5**](https://booksconcepts.com/the-mom-test-by-rob-fitzpatrick/)
 
 ### **GENERAL**
 
-[**Root cause of failure**](https://www.youtube.com/watch?v=9dccd8lihpQ) **- “should we build this feature?”**
+[**Root cause of failure**](https://www.youtube.com/watch?v=9dccd8lihpQ)** - “should we build this feature?”**
 
 [**Growth analysis, customer cohort, distribution analysis - mostly businness stuff but aimed to explain how to use a lot of metrics to measure product market fit**](https://tribecap.co/a-quantitative-approach-to-product-market-fit/)
 
@@ -16,19 +16,19 @@
 
 [**Best ways to prioritize**](https://www.quora.com/Product-Management/What-are-the-best-ways-to-prioritize-a-list-of-product-features)
 
-[**https://vimeo.com/228831629**](https://vimeo.com/228831629)**, don’t get stuck :\)**
+[**https://vimeo.com/228831629**](https://vimeo.com/228831629)**, don’t get stuck :)**
 
 ![](https://lh3.googleusercontent.com/lfaagtSwfLv38zlhEn54fbDvQmqOOWI3MiVunmlDeKcF6YJtEHGCQ2NbjXrQCrtYgkQCaG9GRSf5a-gyaKoWzyXTTghHrw0aP32c0maP5YwfYEb6DcaMTfP0nyIaDcAiFmlOFzw0)
 
-![](https://lh3.googleusercontent.com/soo6_0ds8ORPwD-5ZPFnze1iR8ZJyTSKn2iYh2HQyKmkaPaVcObm1iP1d4Fa90aYqfX3hYLY1izLUT7rnu87XrDdtWh33eQEafPziD9MCzZrXjWIA2Fxkt-h5pTgcKWy7lXfvtZx)
+![](https://lh3.googleusercontent.com/soo6\_0ds8ORPwD-5ZPFnze1iR8ZJyTSKn2iYh2HQyKmkaPaVcObm1iP1d4Fa90aYqfX3hYLY1izLUT7rnu87XrDdtWh33eQEafPziD9MCzZrXjWIA2Fxkt-h5pTgcKWy7lXfvtZx)
 
-[**Which idea is better? Compare them**](https://www.mindtheproduct.com/2017/10/critical-thinking-product-teams-teresa-torres/?utm_campaign=coschedule&utm_source=twitter&utm_medium=MindTheProduct&utm_content=Critical%20Thinking%20for%20Product%20Teams%20by%20Teresa%20Torres) ****
+[**Which idea is better? Compare them**](https://www.mindtheproduct.com/2017/10/critical-thinking-product-teams-teresa-torres/)** **
 
-[**The best potential metric to move the needle** ](https://www.youtube.com/watch?v=ri9X02dPXlY)
+[**The best potential metric to move the needle **](https://www.youtube.com/watch?v=ri9X02dPXlY)
 
-[**Tool for product strategy, because, while, without by trees**](https://www.youtube.com/watch?v=H8Xlrd2QGmU) ****[**medium**](https://medium.com/@johnpcutler/a-better-roadmap-mind-map-mousetrap-cdbacaaa664b)
+[**Tool for product strategy, because, while, without by trees**](https://www.youtube.com/watch?v=H8Xlrd2QGmU)** **[**medium**](https://medium.com/@johnpcutler/a-better-roadmap-mind-map-mousetrap-cdbacaaa664b)
 
-[**One metric is not enough**](https://brianbalfour.com/essays/north-star-metric-growth) **for growth, i.e., “What actions could we take to lead to our users to..” and “Input metrics are leading indicators and output metrics are lagging indicators. By definition, it can take time for the output to reflect positive or negative changes in the inputs.”** 
+[**One metric is not enough**](https://brianbalfour.com/essays/north-star-metric-growth)** for growth, i.e., “What actions could we take to lead to our users to..” and “Input metrics are leading indicators and output metrics are lagging indicators. By definition, it can take time for the output to reflect positive or negative changes in the inputs.” **
 
 1. **Get metrics**
 2. **Break output metrics into inputs**
@@ -44,11 +44,11 @@
 
 [**User stories, how?**](https://productcoalition.com/anatomy-of-a-great-user-story-f56fb1b63e38)
 
-[**Long and complex theory about how to do good or bad decisions** ](https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b)
+[**Long and complex theory about how to do good or bad decisions **](https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b)
 
 [**Modes of product management**](https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b)
 
-[**Achieve product market fit, a product that satisfies the market**](https://www.forbes.com/sites/hayleyleibson/2018/01/18/how-to-achieve-product-market-fit/#237def48476b)**,** [**2**](https://a16z.com/2017/02/18/12-things-about-product-market-fit/)
+[**Achieve product market fit, a product that satisfies the market**](https://www.forbes.com/sites/hayleyleibson/2018/01/18/how-to-achieve-product-market-fit/#237def48476b)**, **[**2**](https://a16z.com/2017/02/18/12-things-about-product-market-fit/)
 
 [**Dont ask your users if they like it, let them say what they like**](https://medium.com/pminsider/usability-pro-tips-7b4eb2cc63c4)
 
@@ -58,7 +58,7 @@
 
 [**Visual vocabulary for product building - lots of theory and figures**](https://productlogic.org/2014/09/13/the-product-triangle-a-visual-vocabulary-for-product-building/)
 
-[**Dau, mau, stickiness, wau, wau stickiness, cac, etc**](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)  
+[**Dau, mau, stickiness, wau, wau stickiness, cac, etc**](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)****\
 ****
 
 ### **NORTH STAR METRIC**
@@ -70,15 +70,16 @@
 ### **Product Market Fit**
 
 1. [**Superhuman and surveys**](https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/)
-2. **What makes things work,** [**pmf rather than sales**](https://blog.betterplanning.co/whats-different-about-govtech-1e3e1fc25963)**.**
-3. 
-[**Escaping the build trap**](https://www.youtube.com/watch?v=DmJXpI7OJuY&feature=youtu.be) **- designing features, doing more agile work without a brain is not a value for the client, using analytics can help us understand of a feature has value.**
+2. **What makes things work, **[**pmf rather than sales**](https://blog.betterplanning.co/whats-different-about-govtech-1e3e1fc25963)**.**
+3.
+
+[**Escaping the build trap**](https://www.youtube.com/watch?v=DmJXpI7OJuY\&feature=youtu.be)** - designing features, doing more agile work without a brain is not a value for the client, using analytics can help us understand of a feature has value.**
 
 **Asking the right questions and asking the client why are they leaving**
 
-![](https://lh3.googleusercontent.com/XUq7djFLFMdHsmVTlVL6V2EjmKV2MSVw38w6FSiSONmL6ctdET4gOQmGjPz9sH94FwQJI0IEQXH6DcQa0dGHAXqb0lYRA4kNvKkd2oBM0ymaXQJ-F__UOzCWZSl1iCGtzpZqJds3)
+![](https://lh3.googleusercontent.com/XUq7djFLFMdHsmVTlVL6V2EjmKV2MSVw38w6FSiSONmL6ctdET4gOQmGjPz9sH94FwQJI0IEQXH6DcQa0dGHAXqb0lYRA4kNvKkd2oBM0ymaXQJ-F\_\_UOzCWZSl1iCGtzpZqJds3)
 
-![](https://lh3.googleusercontent.com/-iyLLS4NFG4RS66aAeWX3h9j_QORnvfUefXVCiDMNZ8K_vPuljKCMmviNbnmubYafEgCaBaWD7N2vv7jAnxKaYRbCFKThBpsfYaUbeJtzssUxRI4Ndkg81cMbjr_7XJPu7Hoe76n)
+![](https://lh3.googleusercontent.com/-iyLLS4NFG4RS66aAeWX3h9j_QORnvfUefXVCiDMNZ8K_vPuljKCMmviNbnmubYafEgCaBaWD7N2vv7jAnxKaYRbCFKThBpsfYaUbeJtzssUxRI4Ndkg81cMbjr\_7XJPu7Hoe76n)
 
 ### **Beginner reading list**
 
@@ -98,7 +99,7 @@
 
 [**https://productcoalition.com/product-management-interviews-68541a46da2b**](https://productcoalition.com/product-management-interviews-68541a46da2b)
 
-[**https://medium.com/@noah\_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7**](https://medium.com/@noah_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7)
+[**https://medium.com/@noah_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7**](https://medium.com/@noah_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7)
 
 [**https://productcoalition.com/the-best-product-management-podcasts-a7cfe0dffdbb**](https://productcoalition.com/the-best-product-management-podcasts-a7cfe0dffdbb)
 
@@ -106,7 +107,7 @@
 
 [**https://productcoalition.com/the-product-management-reading-essentials-90b537ffec62**](https://productcoalition.com/the-product-management-reading-essentials-90b537ffec62)
 
-[**Minimum Viable Product Manager**](https://blackboxofpm.com/mvpm-minimum-viable-product-manager-e1aeb8dd421)  
+[**Minimum Viable Product Manager**](https://blackboxofpm.com/mvpm-minimum-viable-product-manager-e1aeb8dd421)****\
 ****
 
 ### **Advanced reading list**
@@ -133,20 +134,20 @@
 
 [**https://medium.com/stellarpeers/give-an-example-of-a-good-and-not-so-good-product-2a36c56cffb1**](https://medium.com/stellarpeers/give-an-example-of-a-good-and-not-so-good-product-2a36c56cffb1)
 
-[**https://productcoalition.com/how-i-formulate-and-use-my-product-requirement-docs-c52692564d0e**](https://productcoalition.com/how-i-formulate-and-use-my-product-requirement-docs-c52692564d0e)  
+[**https://productcoalition.com/how-i-formulate-and-use-my-product-requirement-docs-c52692564d0e**](https://productcoalition.com/how-i-formulate-and-use-my-product-requirement-docs-c52692564d0e)****\
 ****
 
 ### **TOOLS**
 
-1. [**Customer data platform \(cdp\) vs crm dmp**](https://econsultancy.com/what-is-a-customer-data-platform-how-is-it-different-from-a-dmp-or-crm/)
+1. [**Customer data platform (cdp) vs crm dmp**](https://econsultancy.com/what-is-a-customer-data-platform-how-is-it-different-from-a-dmp-or-crm/)
 
 ## **UX USER EXPERIENCE**
 
-1. [**Laws of UX**](https://lawsofux.com/) **is a collection of best practices that designers can consider when building user interfaces.** ![](https://lh6.googleusercontent.com/w4eZWyJ7QwjjihGtYFRT3x98XLPmsoz7NDDilJLAQEgUMqImz6crTPqQUkkEAp6mmo-v28a_f_dsRaUEx5yKDsf8oH6Wat0s3jWkWFOaAlp6SlfEGYcKwLH3JtnsgaX3o037NuV6)
-2. [**UX planet**](https://uxplanet.org/) **- One-stop resource for everything related to user experience, a medium publication** ![](https://lh3.googleusercontent.com/fwbgHcd5adh6QKydJDfTfZz83HCsexCsGqgDJ9toSqxSdiK0pfC6ACGIdEDCSaCaT8UtqddUQ8A139UxGz2QRJ0-NxdnG7zBrclz3RKvNlkn27HrmmZcENl3oRyoifPX8TnnIAlG)
-3. [**Invision blog**](https://www.invisionapp.com/inside-design/) **- blog posts and best practices about UX, XD, UI**
+1. [**Laws of UX**](https://lawsofux.com)** is a collection of best practices that designers can consider when building user interfaces.**\
+   ****![](https://lh6.googleusercontent.com/w4eZWyJ7QwjjihGtYFRT3x98XLPmsoz7NDDilJLAQEgUMqImz6crTPqQUkkEAp6mmo-v28a_f_dsRaUEx5yKDsf8oH6Wat0s3jWkWFOaAlp6SlfEGYcKwLH3JtnsgaX3o037NuV6)
+2. [**UX planet**](https://uxplanet.org)** - One-stop resource for everything related to user experience, a medium publication **![](https://lh3.googleusercontent.com/fwbgHcd5adh6QKydJDfTfZz83HCsexCsGqgDJ9toSqxSdiK0pfC6ACGIdEDCSaCaT8UtqddUQ8A139UxGz2QRJ0-NxdnG7zBrclz3RKvNlkn27HrmmZcENl3oRyoifPX8TnnIAlG)
+3. [**Invision blog**](https://www.invisionapp.com/inside-design/)** - blog posts and best practices about UX, XD, UI**
 
-![](https://lh5.googleusercontent.com/8405At2oPxM6idJthi64DEwQJQWmihJE9mleZ8BrxQ5lzNkupD8g5cIAikjMjHkfq_mZYv9zFPk_9901noCzp_CpudHTE3AyoVwyLKBAJHTMHiw69i-egVv-isPzuXhbsvmeQ9Qz)         **And**             ![](https://lh3.googleusercontent.com/GtlwM90rJ0br-DZst5pSJm7Nt6XjzS07mDkkAmNspPHBCj9aciUqTgp2_rII3SriiNnHrCuuooosrW6tYxjMT6DjhpW2xoQ3ojCecFDVOm8Dj_JqTJWM0NZAYB1a7H_D-C8VbOzF)
+![](https://lh5.googleusercontent.com/8405At2oPxM6idJthi64DEwQJQWmihJE9mleZ8BrxQ5lzNkupD8g5cIAikjMjHkfq_mZYv9zFPk\_9901noCzp_CpudHTE3AyoVwyLKBAJHTMHiw69i-egVv-isPzuXhbsvmeQ9Qz)**         And             **![](https://lh3.googleusercontent.com/GtlwM90rJ0br-DZst5pSJm7Nt6XjzS07mDkkAmNspPHBCj9aciUqTgp2\_rII3SriiNnHrCuuooosrW6tYxjMT6DjhpW2xoQ3ojCecFDVOm8Dj_JqTJWM0NZAYB1a7H_D-C8VbOzF)
 
-1. **\(really good\) Growth design** [**Case Studies**](https://growth.design/case-studies/)
-
+1. **(really good) Growth design **[**Case Studies**](https://growth.design/case-studies/)

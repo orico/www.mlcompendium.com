@@ -98,9 +98,11 @@ Metrics:
 18. [Active learning in R - code](https://github.com/gsimchoni/ActiveLearningExercise)
 19. [Deep bayesian active learning with image data](https://arxiv.org/pdf/1703.02910.pdf)
 20. [Medium on AL](https://news.voyage.auto/active-learning-and-why-not-all-data-is-created-equal-8a43a758c6f9)\*\*\*
-21. [Integrating Human-in-the-Loop (HITL) in machine learning is a necessity, not a choice. Here’s why?](https://medium.com/@supriya2211/integrating-human-in-the-loop-hitl-in-machine-learning-application-is-a-necessity-not-a-choice-f25e131ca84e)
+21. [Integrating Human-in-the-Loop (HITL) in machine learning is a necessity, not a choice. Here’s why?](https://medium.com/@supriya2211/integrating-human-in-the-loop-hitl-in-machine-learning-application-is-a-necessity-not-a-choice-f25e131ca84e) By Supriya Ghosh
 
-[Robert munro on](https://www.manning.com/books/human-in-the-loop-machine-learning#ref) active learning - should buy his book:
+![Basic Framework for HITL Supriya Ghosh](<.gitbook/assets/image (12).png>)
+
+#### Human In The loop ML book by [Robert munro](https://www.manning.com/books/human-in-the-loop-machine-learning#ref)
 
 1. [GIT](https://github.com/rmunro/pytorch_active_learning)
 2. [Active transfer learning](https://medium.com/pytorch/active-transfer-learning-with-pytorch-71ed889f08c1)
