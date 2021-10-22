@@ -25,7 +25,7 @@
 * [Meta Learning](meta-learning.md)
 * [Examples](examples.md)
 * [Evaluation Metrics](evaluation-metrics.md)
-* [Ensembles](ensembles-1.md)
+* [Benchmarking](benchmarking.md)
 * [Hyper Parameter Optimization](hyper-parameter-optimization.md)
 * [Multi CPU Processing](multi-cpu-processing.md)
 * [MLOps Monitoring & Alerts](mlops-monitoring-and-alerts.md)
@@ -47,7 +47,7 @@
 * [Recommender Systems](recommender-systems.md)
 * [Timeseries](timeseries.md)
 * [Fourier Transform](fourier-transform.md)
-* [Digital Signal Processing \(DSP\)](digital-signal-processing-dsp.md)
+* [Digital Signal Processing (DSP)](digital-signal-processing-dsp.md)
 * [Natural Language Processing](natural-language-processing.md)
 
 ## Graphs
@@ -64,7 +64,7 @@
 ## Business Domains
 
 * [Growth](business-domains/growth.md)
-* [Root Cause Effects \(RCE/RCA\)](business-domains/root-cause-effects-rce-rca.md)
+* [Root Cause Effects (RCE/RCA)](business-domains/root-cause-effects-rce-rca.md)
 * [Templatization](business-domains/templatization.md)
 
 ## Additional DS Skills
@@ -73,10 +73,9 @@
 * [Full-Stack & Ops](additional-ds-skills/full-stack-and-ops.md)
 * [Business](additional-ds-skills/business.md)
 * [Product Management](additional-ds-skills/product-management.md)
-* [User Experience Design \(UX\)](additional-ds-skills/user-experience-design-ux.md)
+* [User Experience Design (UX)](additional-ds-skills/user-experience-design-ux.md)
 * [Marketing](additional-ds-skills/marketing.md)
 
----
+***
 
 * [Humor](humor.md)
-
