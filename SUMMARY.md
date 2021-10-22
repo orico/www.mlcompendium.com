@@ -79,3 +79,7 @@
 ***
 
 * [Humor](humor.md)
+
+## Data Engineering
+
+* [Lakes & Warehouses](data-engineering/lakes-and-warehouses.md)
