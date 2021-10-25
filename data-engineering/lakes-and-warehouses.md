@@ -11,7 +11,7 @@
 
 1.  [Data Lake vs Data Warehouse](https://www.talend.com/resources/data-lake-vs-data-warehouse/)
 
-    ![](<../.gitbook/assets/image (12).png>)
+    ![](<../.gitbook/assets/image (12) (1).png>)
 2. [Top 5 differences between DL & DWH](https://www.bluegranite.com/blog/bid/402596/top-five-differences-between-data-lakes-and-data-warehouses)
 3.  [Amazon on DL vs DWH](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)
 
