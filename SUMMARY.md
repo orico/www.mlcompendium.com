@@ -65,7 +65,7 @@
 
 * [Growth](business-domains/growth.md)
 * [Root Cause Effects (RCE/RCA)](business-domains/root-cause-effects-rce-rca.md)
-* [Templatization](business-domains/templatization.md)
+* [Log Parsing / Templatization](business-domains/templatization.md)
 * [Fraud Detection](business-domains/fraud-detection.md)
 
 ## Additional DS Skills
