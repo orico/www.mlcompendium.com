@@ -6,17 +6,17 @@
 
 This article provides an overview of TDSP and its main components. We provide a generic description of the process here that can be implemented with different kinds of tools. A more detailed description of the project tasks and roles involved in the lifecycle of the process is provided in additional linked topics. Guidance on how to implement the TDSP using a specific set of Microsoft tools and infrastructure that we use to implement the TDSP in our teams is also provided."
 
-![](https://lh5.googleusercontent.com/6uVYD4xbDkj2HG_rfP7fWQUn5eERj0nl_m-kKPpuyYX4q6R0g95WAduUFmIrSWVOd0P6dptgZG-1gkqWX-PvX4Png_ocJwI8VVxnj5WaZHCyetwvCLMwaKnp6g5b4goekVy9RuWV)
+![](https://lh5.googleusercontent.com/6uVYD4xbDkj2HG\_rfP7fWQUn5eERj0nl\_m-kKPpuyYX4q6R0g95WAduUFmIrSWVOd0P6dptgZG-1gkqWX-PvX4Png\_ocJwI8VVxnj5WaZHCyetwvCLMwaKnp6g5b4goekVy9RuWV)
 
 ![](<.gitbook/assets/image (11).png>)
 
-[**Google’s famous MLops**](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#mlops_level\_0\_manual_process)
+[**Google’s famous MLops**](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#mlops\_level\_0\_manual\_process)
 
-![ML systems is more than ML code.](https://lh3.googleusercontent.com/OHYbZ0jFBY6YtJvLHC0Rz10L341va62S9yOD8bALHAWHvnBRJ3TsxjZC0eEkUhGyjvLlkDITenjVqFJ-PZTl3Ab_Kt2qYbaTzRdUFzLxY-\_O7zcV9IZ3jYS1I7URKKU6KiZCsmsk)
+![ML systems is more than ML code.](https://lh3.googleusercontent.com/OHYbZ0jFBY6YtJvLHC0Rz10L341va62S9yOD8bALHAWHvnBRJ3TsxjZC0eEkUhGyjvLlkDITenjVqFJ-PZTl3Ab\_Kt2qYbaTzRdUFzLxY-\_O7zcV9IZ3jYS1I7URKKU6KiZCsmsk)
 
-![](https://lh6.googleusercontent.com/ZEEeOvDgg_B7N6mP6XO19\_o5Q4SpOAec4reiSg3R6TLJChRS19Nry9IfjwerveX8lhMNr5UwCZV9o-RrX-QzASyrZkiutTWUagH-r9LC5t_oVOpSHzn3D0fd1kubjwg0RjE9ZxYk)
+![](https://lh6.googleusercontent.com/ZEEeOvDgg\_B7N6mP6XO19\_o5Q4SpOAec4reiSg3R6TLJChRS19Nry9IfjwerveX8lhMNr5UwCZV9o-RrX-QzASyrZkiutTWUagH-r9LC5t\_oVOpSHzn3D0fd1kubjwg0RjE9ZxYk)
 
-[**Fast ai project checklist**](https://www.fast.ai/2020/01/07/data-questionnaire/?fbclid=IwAR2M_kdqKGSQ9uOFfdTncA6415K31V_flN203T1vHwNJOYg83XY2a9c-Jgg)
+[**Fast ai project checklist**](https://www.fast.ai/2020/01/07/data-questionnaire/?fbclid=IwAR2M\_kdqKGSQ9uOFfdTncA6415K31V\_flN203T1vHwNJOYg83XY2a9c-Jgg)
 
 **When I used to do consulting, I’d always seek to understand an organization’s context for developing data projects, based on these considerations:**
 
@@ -46,7 +46,7 @@ This article provides an overview of TDSP and its main components. We provide a 
 2. [**Difference between KPI targets and goals**](https://bernardmarr.com/default.asp?contentID=1346#:\~:text=The%20terms%20key%20performance%20indicator,NOT%20the%20same%20as%20goals.)
 3. [**Comet ml on medium**](https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1)
 
-![](https://lh6.googleusercontent.com/GCeELl5VNGKVhpmNZoG9miSeX4ZrzjtzkZsdRm5\_hCkfXOj7IVmKi_h0siSRdd511x\_7R4-5z3BiqPHojlySEtQ38giPRdozYeeYKGEo0GDTy2jH-TFNDcGP4F8Cxzp5U9t8ATyf)
+![](https://lh6.googleusercontent.com/GCeELl5VNGKVhpmNZoG9miSeX4ZrzjtzkZsdRm5\_hCkfXOj7IVmKi\_h0siSRdd511x\_7R4-5z3BiqPHojlySEtQ38giPRdozYeeYKGEo0GDTy2jH-TFNDcGP4F8Cxzp5U9t8ATyf)
 
 1. [**For the Data Driven manager (not ds)**](https://www.klipfolio.com/blog/17-kpi-management-data-driven-manager)
 2. [**Measuring DS business value**](https://blog.dominodatalab.com/measuring-data-science-business-value/)
@@ -58,11 +58,9 @@ This article provides an overview of TDSP and its main components. We provide a 
 2. [**Advice for a ds**](https://medium.com/the-data-experience/building-a-data-pipeline-from-scratch-32b712cfb1db)**, business kpi are not research kpi, etc**
 3. [**Review of deep learning papers and co authorship**](https://neurovenge.antonomase.fr)
 4. **Full stack DS **[**Uri Weiss**\
-   ****](https://linkedin.com/in/uriweiss)![](https://lh6.googleusercontent.com/TUBCkjRcavVYjzKkg8aqqsU8Z8Eeogznm9uRIO5mS\_2Hl7lr0MbZGZYy9UFsN0eJ1eAi0by6\_R0CHEqK2IY_HIVpItxneKpgEsuREH8FFfC5nLKaqQ7Q_aTFhPJ1bQEP936Ysn0c)
+   ****](https://linkedin.com/in/uriweiss)![](https://lh6.googleusercontent.com/TUBCkjRcavVYjzKkg8aqqsU8Z8Eeogznm9uRIO5mS\_2Hl7lr0MbZGZYy9UFsN0eJ1eAi0by6\_R0CHEqK2IY\_HIVpItxneKpgEsuREH8FFfC5nLKaqQ7Q\_aTFhPJ1bQEP936Ysn0c)
 
 ### **Team Building / Group Cohesion **
-
-![](https://lh5.googleusercontent.com/0JNc6tclBeG0Xgd-On2Owmhxnd5uZdz-\_wH4mY_fPmnY6hZKUSbdIR9pAtb9xt6XS3-r7tYL9YYxJA5VV7ujnHenzH6UePf5BHhcFo8vskOo29Da-7Ls0lTOUvTkK6C3yWlpSi4Q)
 
 1. [**DS vs DA vs MLE**](https://medium.com/@meightpc\_14421/data-scientist-vs-data-analysis-vs-ml-engineer-which-job-is-most-suited-for-you-def7b12b3256)** - the most intensive diagram post ever. This is the mother load of figure references.**
 
@@ -109,8 +107,8 @@ This article provides an overview of TDSP and its main components. We provide a 
 *
 * [**CNN tutorial**](http://mccormickml.com/2015/01/10/understanding-the-deeplearntoolbox-cnn-example/)
 * [**Introduction to programming in scikit**](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-intro.ipynb)
-* [**SVM in scikit python**](https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/03.1-Classification-SVMs.ipynb)
-* [**Sklearn scipy PCA tutorial**](https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/04.1-Dimensionality-PCA.ipynb)
+* [**SVM in scikit python**](https://github.com/jakevdp/sklearn\_pycon2015/blob/master/notebooks/03.1-Classification-SVMs.ipynb)
+* [**Sklearn scipy PCA tutorial**](https://github.com/jakevdp/sklearn\_pycon2015/blob/master/notebooks/04.1-Dimensionality-PCA.ipynb)
 * [**RNN **](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 * [**Matrix Multiplication**](http://www.mathwarehouse.com/algebra/matrix/multiply-matrix.php)** - linear algebra**
 
@@ -163,7 +161,7 @@ This article provides an overview of TDSP and its main components. We provide a 
    5. [**DP5 - repeatable sampling**](https://towardsdatascience.com/ml-design-pattern-5-repeatable-sampling-c0ccb2889f39)** use the hash of a well distributed column to split your data into training, validation, and testing**
 2. [**Gensim notebooks**](https://github.com/RaRe-Technologies/gensim/tree/develop/docs/notebooks)** - from w2v, doc2vec to nmf, lda, pca, sklearn api, cosine, topic modeling, tsne, etc.**
 3. [**Deep learning with python**](https://www.manning.com/books/deep-learning-with-python)** - francois chollet, deep learning & vision **[**git notebooks!**](https://github.com/fchollet/deep-learning-with-python-notebooks)**, **[**official notebooks**](https://github.com/PacktPublishing/Deep-Learning-with-Keras)**.**
-4. **Yandex school, **[**nlp notebooks**](https://github.com/yandexdataschool/nlp_course)
+4. **Yandex school, **[**nlp notebooks**](https://github.com/yandexdataschool/nlp\_course)
 5. [**Machine learning engineering book**](http://www.mlebook.com/wiki/doku.php)** (i.e., data science)**
 6. [**Interpretable Machine Learning book**](https://christophm.github.io/interpretable-ml-book/)
 7.
