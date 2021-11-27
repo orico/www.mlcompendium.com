@@ -3,7 +3,7 @@
 [**Coursera course**](https://www.youtube.com/watch?v=WkOinijQmPU\&list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ\&index=1)** on probabilities - for data science, actually quite good in explaining a lot of the basic tools,prob, conditional, distributions, sampling, CI, hypothesis, etc.**\
 ****
 
-* [**A great resource for proba/bayes/b-networks/etc**](https://metacademy.org/graphs/concepts/bayesian_networks#focus=i9mo2e09\&mode=learn)** (adam bali)**
+* [**A great resource for proba/bayes/b-networks/etc**](https://metacademy.org/graphs/concepts/bayesian\_networks#focus=i9mo2e09\&mode=learn)** (adam bali)**
 
 ### [**Difference between**](https://stats.stackexchange.com/questions/665/whats-the-difference-between-probability-and-statistics)** **
 
@@ -37,7 +37,7 @@
 14. [**Accuracy vs precision (accurate vs hitting closely or density)**](https://www.mathsisfun.com/accuracy-precision.html)
 15. [**Probability**](https://www.mathsisfun.com/data/probability.html)
 16. [**Probability complement**](https://www.mathsisfun.com/data/probability-complement.html)
-17. [**Chi-square test, p_value, independent, dependent, significance**](https://www.mathsisfun.com/data/chi-square-test.html)
+17. [**Chi-square test, p\_value, independent, dependent, significance**](https://www.mathsisfun.com/data/chi-square-test.html)
 18. [**Variation vs variance**](https://stats.stackexchange.com/questions/88348/is-variation-the-same-as-variance)** - a private case**
 19. [**Std vs variance**](https://www.investopedia.com/ask/answers/021215/what-difference-between-standard-deviation-and-variance.asp)** - std is in the same metric as the mean, is the root of variance., allows outliers to influence, will not result in samples cancelling each other without the square root in the formula.**
 
@@ -57,14 +57,14 @@
 
 ### **More on Statistics**
 
-1. [**25 concepts**](https://www.datasciencecentral.com/profiles/blogs/25-statistical-concepts-explained-in-simple-english-part-2)** (part 2), **[**29 more concepts**](https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1)** (part1) & **[**part 3**](https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-2?fbclid=IwAR0VQFeBaJsm3ouEf7sV5WAupE1cI3PXhzWe9-lUYkZ_XCCF72\_3r8w5hrI)** in statistics.**
+1. [**25 concepts**](https://www.datasciencecentral.com/profiles/blogs/25-statistical-concepts-explained-in-simple-english-part-2)** (part 2), **[**29 more concepts**](https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1)** (part1) & **[**part 3**](https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-2?fbclid=IwAR0VQFeBaJsm3ouEf7sV5WAupE1cI3PXhzWe9-lUYkZ\_XCCF72\_3r8w5hrI)** in statistics.**
 
 ### **Wiki**
 
-1. [**Marginal probability**](https://en.wikipedia.org/wiki/Marginal_distribution)
-2. [**Joint probability**](https://en.wikipedia.org/wiki/Joint_probability_distribution)
+1. [**Marginal probability**](https://en.wikipedia.org/wiki/Marginal\_distribution)
+2. [**Joint probability**](https://en.wikipedia.org/wiki/Joint\_probability\_distribution)
 3. [**Conditional probability**](https://en.wikipedia.org/wiki/Probability)
-4. [**Chain rule**](https://en.wikipedia.org/wiki/Chain_rule_\(probability\))** - derivatives using the chain rule, on **[**khan**](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-1a/v/chain-rule-introduction)
+4. [**Chain rule**](https://en.wikipedia.org/wiki/Chain\_rule\_\(probability\))** - derivatives using the chain rule, on **[**khan**](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-1a/v/chain-rule-introduction)
 
 ### **Recommended Courses **
 
@@ -91,4 +91,3 @@
 ### **STATISTICAL SAMPLING AND RESAMPLING**
 
 1. [**What is? Method for sampling/resampling, and sampling errors explained.**](https://machinelearningmastery.com/statistical-sampling-and-resampling/)** (cross validation etc)**
-2.

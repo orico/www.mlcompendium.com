@@ -6,26 +6,26 @@
 
 This article provides an overview of TDSP and its main components. We provide a generic description of the process here that can be implemented with different kinds of tools. A more detailed description of the project tasks and roles involved in the lifecycle of the process is provided in additional linked topics. Guidance on how to implement the TDSP using a specific set of Microsoft tools and infrastructure that we use to implement the TDSP in our teams is also provided."
 
-![](https://lh5.googleusercontent.com/6uVYD4xbDkj2HG\_rfP7fWQUn5eERj0nl\_m-kKPpuyYX4q6R0g95WAduUFmIrSWVOd0P6dptgZG-1gkqWX-PvX4Png\_ocJwI8VVxnj5WaZHCyetwvCLMwaKnp6g5b4goekVy9RuWV)
+![by The DS lifecycle, Microsoft Documentation](https://lh5.googleusercontent.com/6uVYD4xbDkj2HG\_rfP7fWQUn5eERj0nl\_m-kKPpuyYX4q6R0g95WAduUFmIrSWVOd0P6dptgZG-1gkqWX-PvX4Png\_ocJwI8VVxnj5WaZHCyetwvCLMwaKnp6g5b4goekVy9RuWV)
 
-![](<.gitbook/assets/image (11).png>)
+![by The DS lifecycle, Microsoft Documentation](<.gitbook/assets/image (11).png>)
 
 [**Google’s famous MLops**](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#mlops\_level\_0\_manual\_process)
 
-![ML systems is more than ML code.](https://lh3.googleusercontent.com/OHYbZ0jFBY6YtJvLHC0Rz10L341va62S9yOD8bALHAWHvnBRJ3TsxjZC0eEkUhGyjvLlkDITenjVqFJ-PZTl3Ab\_Kt2qYbaTzRdUFzLxY-\_O7zcV9IZ3jYS1I7URKKU6KiZCsmsk)
+![ML systems is more than ML code. Google.](https://lh3.googleusercontent.com/OHYbZ0jFBY6YtJvLHC0Rz10L341va62S9yOD8bALHAWHvnBRJ3TsxjZC0eEkUhGyjvLlkDITenjVqFJ-PZTl3Ab\_Kt2qYbaTzRdUFzLxY-\_O7zcV9IZ3jYS1I7URKKU6KiZCsmsk)
 
-![](https://lh6.googleusercontent.com/ZEEeOvDgg\_B7N6mP6XO19\_o5Q4SpOAec4reiSg3R6TLJChRS19Nry9IfjwerveX8lhMNr5UwCZV9o-RrX-QzASyrZkiutTWUagH-r9LC5t\_oVOpSHzn3D0fd1kubjwg0RjE9ZxYk)
+![ML systems is more than ML code. Google.](https://lh6.googleusercontent.com/ZEEeOvDgg\_B7N6mP6XO19\_o5Q4SpOAec4reiSg3R6TLJChRS19Nry9IfjwerveX8lhMNr5UwCZV9o-RrX-QzASyrZkiutTWUagH-r9LC5t\_oVOpSHzn3D0fd1kubjwg0RjE9ZxYk)
 
 [**Fast ai project checklist**](https://www.fast.ai/2020/01/07/data-questionnaire/?fbclid=IwAR2M\_kdqKGSQ9uOFfdTncA6415K31V\_flN203T1vHwNJOYg83XY2a9c-Jgg)
 
-**When I used to do consulting, I’d always seek to understand an organization’s context for developing data projects, based on these considerations:**
+**"When I used to do consulting, I’d always seek to understand an organization’s context for developing data projects, based on these considerations:**
 
 * **Strategy: What is the organization trying to do (objective) and what can it change to do it better (levers)?**
 * **Data: Is the organization capturing necessary data and making it available?**
 * **Analytics: What kinds of insights would be useful to the organization?**
 * **Implementation: What organizational capabilities does it have?**
 * **Maintenance: What systems are in place to track changes in the operational environment?**
-* **Constraints: What constraints need to be considered in each of the above areas?**
+* **Constraints: What constraints need to be considered in each of the above areas?"**
 
 ### **WORKFLOWS**
 
@@ -46,7 +46,7 @@ This article provides an overview of TDSP and its main components. We provide a 
 2. [**Difference between KPI targets and goals**](https://bernardmarr.com/default.asp?contentID=1346#:\~:text=The%20terms%20key%20performance%20indicator,NOT%20the%20same%20as%20goals.)
 3. [**Comet ml on medium**](https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1)
 
-![](https://lh6.googleusercontent.com/GCeELl5VNGKVhpmNZoG9miSeX4ZrzjtzkZsdRm5\_hCkfXOj7IVmKi\_h0siSRdd511x\_7R4-5z3BiqPHojlySEtQ38giPRdozYeeYKGEo0GDTy2jH-TFNDcGP4F8Cxzp5U9t8ATyf)
+![by Cecelia Shao Comet ml](https://lh6.googleusercontent.com/GCeELl5VNGKVhpmNZoG9miSeX4ZrzjtzkZsdRm5\_hCkfXOj7IVmKi\_h0siSRdd511x\_7R4-5z3BiqPHojlySEtQ38giPRdozYeeYKGEo0GDTy2jH-TFNDcGP4F8Cxzp5U9t8ATyf)
 
 1. [**For the Data Driven manager (not ds)**](https://www.klipfolio.com/blog/17-kpi-management-data-driven-manager)
 2. [**Measuring DS business value**](https://blog.dominodatalab.com/measuring-data-science-business-value/)
@@ -57,12 +57,15 @@ This article provides an overview of TDSP and its main components. We provide a 
 1. [**A day in a life**](https://towardsdatascience.com/12-things-i-learned-during-my-first-year-as-a-machine-learning-engineer-2991573a9195)
 2. [**Advice for a ds**](https://medium.com/the-data-experience/building-a-data-pipeline-from-scratch-32b712cfb1db)**, business kpi are not research kpi, etc**
 3. [**Review of deep learning papers and co authorship**](https://neurovenge.antonomase.fr)
-4. **Full stack DS **[**Uri Weiss**\
-   ****](https://linkedin.com/in/uriweiss)![](https://lh6.googleusercontent.com/TUBCkjRcavVYjzKkg8aqqsU8Z8Eeogznm9uRIO5mS\_2Hl7lr0MbZGZYy9UFsN0eJ1eAi0by6\_R0CHEqK2IY\_HIVpItxneKpgEsuREH8FFfC5nLKaqQ7Q\_aTFhPJ1bQEP936Ysn0c)
+4.  **Full stack DS **[**Uri Weiss**](https://linkedin.com/in/uriweiss)
+
+    ![](https://lh6.googleusercontent.com/TUBCkjRcavVYjzKkg8aqqsU8Z8Eeogznm9uRIO5mS\_2Hl7lr0MbZGZYy9UFsN0eJ1eAi0by6\_R0CHEqK2IY\_HIVpItxneKpgEsuREH8FFfC5nLKaqQ7Q\_aTFhPJ1bQEP936Ysn0c)
+
+    **by **[**Uri Weiss**](https://linkedin.com/in/uriweiss)**. wrong credits? **[**please contact me**](mailto:ori@oricohen.com)**.**
 
 ### **Team Building / Group Cohesion **
 
-1. [**DS vs DA vs MLE**](https://medium.com/@meightpc\_14421/data-scientist-vs-data-analysis-vs-ml-engineer-which-job-is-most-suited-for-you-def7b12b3256)** - the most intensive diagram post ever. This is the mother load of figure references.**
+1. [**DS vs DA vs MLE**](https://medium.com/@meightpc\_14421/data-scientist-vs-data-analysis-vs-ml-engineer-which-job-is-most-suited-for-you-def7b12b3256)** - the most intensive diagram post ever. This is the motherload of figure references.**
 
 **References:**
 

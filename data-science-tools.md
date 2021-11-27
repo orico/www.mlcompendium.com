@@ -22,14 +22,14 @@
 **Clean code:**
 
 * [**Clean code in python git**](https://github.com/zedr/clean-code-python)
-* [**About the book**](https://medium.com/@m_mcclarty/tech-book-talk-clean-code-in-python-aa2c92c6564f)
+* [**About the book**](https://medium.com/@m\_mcclarty/tech-book-talk-clean-code-in-python-aa2c92c6564f)
 * **Virtual Environments**
 * [**Guide to pyenv & pyenv virtualenv**](https://medium.com/swlh/a-guide-to-python-virtual-environments-8af34aa106ac)
 * [**Managing virtual env with pyenv**](https://towardsdatascience.com/managing-virtual-environment-with-pyenv-ae6f3fb835f8)
 * [**Just use venv**](https://towardsdatascience.com/all-you-need-to-know-about-python-virtual-environments-9b4aae690f97)
 * [**Summary on all the \*envs**](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
 * [**A really good primer on virtual environments**](https://realpython.com/python-virtual-environments-a-primer/)
-* [**Introduction to venv**](http://cewing.github.io/training.python_web/html/presentations/venv_intro.html) **complementary to the above**
+* [**Introduction to venv**](http://cewing.github.io/training.python\_web/html/presentations/venv\_intro.html) **complementary to the above**
 * [**Pipenv** ](https://pipenv.readthedocs.io/en/latest/)
 * [**A great intro to pipenv**](https://realpython.com/pipenv-guide/)
 * [**A complementary to pipenv above**](https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv)
@@ -90,7 +90,7 @@
 
 ## **SCIPY**
 
-1. [**Optimization problems, a nice tutorial**](http://scipy-lectures.org/advanced/mathematical_optimization/) **to finding the minima**
+1. [**Optimization problems, a nice tutorial**](http://scipy-lectures.org/advanced/mathematical\_optimization/) **to finding the minima**
 2. [**Minima / maxima**](https://stackoverflow.com/questions/4624970/finding-local-maxima-minima-with-numpy-in-a-1d-numpy-array) **finding it in a 1d numpy array**
 
 ## **NUMPY**
@@ -100,16 +100,16 @@
 
 ## **PANDAS**
 
-1. [**Great introductory tutorial**](http://nikgrozev.com/2015/12/27/pandas-in-jupyter-quickstart-and-useful-snippets/#loading_csv_files) **ab**out using pandas, loading, loading from zip, seeing the table’s features, accessing rows & columns, boolean operations, calculating on a whole row\column with a simple function and on two columns even, dealing with time\date parsing.
+1. [**Great introductory tutorial**](http://nikgrozev.com/2015/12/27/pandas-in-jupyter-quickstart-and-useful-snippets/#loading\_csv\_files) **ab**out using pandas, loading, loading from zip, seeing the table’s features, accessing rows & columns, boolean operations, calculating on a whole row\column with a simple function and on two columns even, dealing with time\date parsing.
 2. [Visualizing pandas pivoting and reshaping functions by Jay Alammar](http://jalammar.github.io/visualizing-pandas-pivoting-and-reshaping/) - pivot melt stack unstack
 3. [How to beautify pandas dataframe using html display](https://stackoverflow.com/questions/26873127/show-dataframe-as-table-in-ipython-notebook)
 4. [Speeding up pandas ](https://realpython.com/fast-flexible-pandas/)
 5. [The fastest way to select rows by columns, by using masked values](https://stackoverflow.com/questions/17071871/select-rows-from-a-dataframe-based-on-values-in-a-column-in-pandas) (benchmarked):
-6. def mask_with_values(df): mask = df\['A'].values == 'foo' return df\[mask]
+6. def mask\_with\_values(df): mask = df\['A'].values == 'foo' return df\[mask]
 7. [Parallelism, pools, threads, dask](https://towardsdatascience.com/speed-up-your-algorithms-part-3-parallelization-4d95c0888748#7e6e)
 8. [Accessing dataframe rows, columns and cells](http://pythonhow.com/accessing-dataframe-columns-rows-and-cells/)- by name, by index, by python methods.
 9. [Looping through pandas](https://medium.com/swlh/how-to-efficiently-loop-through-pandas-dataframe-660e4660125d)
-10. [How to inject headers into a headless CSV file](http://pythonforengineers.com/introduction-to-pandas/) - 
+10. [How to inject headers into a headless CSV file](http://pythonforengineers.com/introduction-to-pandas/) -&#x20;
 11. [Dealing with time series](http://pandas.pydata.org/pandas-docs/stable/timeseries.html) in pandas,
     1. [Create a new column](https://stackoverflow.com/questions/25570147/add-new-column-based-on-boolean-values-in-a-different-column) based on a (boolean or not) column and calculation:
     2. Using python (map)
@@ -120,14 +120,14 @@
     2. df\['t-1'] = df\['t'].shift(1)
     3. df\['t-1'] = df\['t'].shift(-1)
 13. [Row and column sum in pandas and numpy](http://blog.mathandpencil.com/column-and-row-sums)
-14. [Dataframe Validation In Python](https://www.youtube.com/watch?time_continue=905\&v=1fHGXOfiDO0) - A Practical Introduction - Yotam Perkal - PyCon Israel 2018
-15. In this talk, I will present the problem and give a practical overview (accompanied by Jupyter Notebook code examples) of three libraries that aim to address it: Voluptuous - Which uses Schema definitions in order to validate data \[[https://github.com/alecthomas/voluptuous](https://www.youtube.com/redirect?v=1fHGXOfiDO0\&event=video_description\&redir_token=jIIzdRAEjZBpzVhRYfFzTcx52358MTU0NzQ0ODY3N0AxNTQ3MzYyMjc3\&q=https%3A%2F%2Fgithub.com%2Falecthomas%2Fvoluptuous)] Engarde - A lightweight way to explicitly state your assumptions about the data and check that they're actually true \[[https://github.com/TomAugspurger/engarde](https://www.youtube.com/redirect?v=1fHGXOfiDO0\&event=video_description\&redir_token=jIIzdRAEjZBpzVhRYfFzTcx52358MTU0NzQ0ODY3N0AxNTQ3MzYyMjc3\&q=https%3A%2F%2Fgithub.com%2FTomAugspurger%2Fengarde)] \* TDDA - Test Driven Data Analysis \[ [https://github.com/tdda/tdda](https://github.com/tdda/tdda)]. By the end of this talk, you will understand the Importance of data validation and get a sense of how to integrate data validation principles as part of the ML pipeline.
+14. [Dataframe Validation In Python](https://www.youtube.com/watch?time\_continue=905\&v=1fHGXOfiDO0) - A Practical Introduction - Yotam Perkal - PyCon Israel 2018
+15. In this talk, I will present the problem and give a practical overview (accompanied by Jupyter Notebook code examples) of three libraries that aim to address it: Voluptuous - Which uses Schema definitions in order to validate data \[[https://github.com/alecthomas/voluptuous](https://www.youtube.com/redirect?v=1fHGXOfiDO0\&event=video\_description\&redir\_token=jIIzdRAEjZBpzVhRYfFzTcx52358MTU0NzQ0ODY3N0AxNTQ3MzYyMjc3\&q=https%3A%2F%2Fgithub.com%2Falecthomas%2Fvoluptuous)] Engarde - A lightweight way to explicitly state your assumptions about the data and check that they're actually true \[[https://github.com/TomAugspurger/engarde](https://www.youtube.com/redirect?v=1fHGXOfiDO0\&event=video\_description\&redir\_token=jIIzdRAEjZBpzVhRYfFzTcx52358MTU0NzQ0ODY3N0AxNTQ3MzYyMjc3\&q=https%3A%2F%2Fgithub.com%2FTomAugspurger%2Fengarde)] \* TDDA - Test Driven Data Analysis \[ [https://github.com/tdda/tdda](https://github.com/tdda/tdda)]. By the end of this talk, you will understand the Importance of data validation and get a sense of how to integrate data validation principles as part of the ML pipeline.
 16. [Stop using itterows](https://medium.com/@rtjeannier/pandas-101-cont-9d061cb73bfc), use apply.
 17. [(great) Group and Aggregate by One or More Columns in Pandas](https://jamesrledoux.com/code/group-by-aggregate-pandas)
 18. [Pandas Groupby: Summarising, Aggregating, and Grouping data in Python](https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/#applying-multiple-functions-to-columns-in-groups)
 19. [pandas function you didnt know about](https://towardsdatascience.com/25-pandas-functions-you-didnt-know-existed-p-guarantee-0-8-1a05dcaad5d0)
 
-### Exploratory Data Analysis (EDA) 
+### Exploratory Data Analysis (EDA)&#x20;
 
 1. [Pandas summary](https://github.com/mouradmourafiq/pandas-summary)
 2. [Pandas html profiling](https://github.com/pandas-profiling/pandas-profiling)
@@ -135,43 +135,45 @@
 
     The system is built around quickly **visualizing target values** and **comparing datasets**. Its goal is to help quick analysis of target characteristics, training vs testing data, and other such data characterization tasks."
 
-![Sweetviz](<.gitbook/assets/image (6).png>)
+![by Sweetviz](<.gitbook/assets/image (6).png>)
 
 ### **TIMESERIES**
 
 1. **(good)** [**Pandas time series manipulation**](https://towardsdatascience.com/practical-guide-for-time-series-analysis-with-pandas-196b8b46858f)
 2. [**Using resample**](https://towardsdatascience.com/using-the-pandas-resample-function-a231144194c4)
 
-![](https://lh6.googleusercontent.com/y9f1kyTrWs6kbOeGZctlWkHXW-LXsWWwtjul9GqSV-xLz3xnIH8PilD2O7jUzA9pqPcvXMgbHDI-GfJqfimxt-gwT9LMBlJCSJqd89htvQ5JsuxttcLRakOFShpyEfbjraDnNgwL)
+![by Jeremy Chow](https://lh6.googleusercontent.com/y9f1kyTrWs6kbOeGZctlWkHXW-LXsWWwtjul9GqSV-xLz3xnIH8PilD2O7jUzA9pqPcvXMgbHDI-GfJqfimxt-gwT9LMBlJCSJqd89htvQ5JsuxttcLRakOFShpyEfbjraDnNgwL)
 
 1. [**Basic TS manipulation**](https://towardsdatascience.com/basic-time-series-manipulation-with-pandas-4432afee64ea)
 2. [**Fill missing ts gaps, or how to resample**](https://stackoverflow.com/questions/32241692/fill-missing-timeseries-data-using-pandas-or-numpy)
 3. **SCI-KIT LEARN**
 4. **Pipeline t**[**o json 1**](https://cmry.github.io/notes/serialize)**,** [**2**](https://cmry.github.io/notes/serialize-sk)
 5. [**cuML**](https://github.com/rapidsai/cuml) **- Multi gpu, multi node-gpu alternative for SKLEARN algorithms**
-6. [**Gpu TSNE ^**](https://www.reddit.com/r/MachineLearning/comments/e0j9cb/p\_2000x_faster_rapids_tsne\_3\_hours_down_to\_5/)
+6. [**Gpu TSNE ^**](https://www.reddit.com/r/MachineLearning/comments/e0j9cb/p\_2000x\_faster\_rapids\_tsne\_3\_hours\_down\_to\_5/)
 7. [**Awesome code examples**](http://machinelearningmastery.com/get-your-hands-dirty-with-scikit-learn-now/) **about using svm\knn\naive\log regression in sklearn in python, i.e., “fitting a model onto the data”**
-8. [**Parallelism of numpy, pandas and sklearn using dask and clusters**](https://github.com/dask/dask)**.** [**Webpage**](https://dask.pydata.org/en/latest/)**,** [**docs**](http://dask-ml.readthedocs.io/en/latest/index.html)**,** [**example in jupyter**](https://hub.mybinder.org/user/dask-dask-examples-6bi4j3qj/notebooks/machine-learning.ipynb)**.** 
+8. [**Parallelism of numpy, pandas and sklearn using dask and clusters**](https://github.com/dask/dask)**.** [**Webpage**](https://dask.pydata.org/en/latest/)**,** [**docs**](http://dask-ml.readthedocs.io/en/latest/index.html)**,** [**example in jupyter**](https://hub.mybinder.org/user/dask-dask-examples-6bi4j3qj/notebooks/machine-learning.ipynb)**.**&#x20;
 
 **Also Insanely fast,** [**see here**](https://www.youtube.com/watch?v=5Zf6DQaf7jk)**.**
 
 1. [**Functional api for sk learn**](https://scikit-lego.readthedocs.io/en/latest/preprocessing.html)**, using pipelines. thank you sk-lego.**
-2. ![](https://lh4.googleusercontent.com/xKPNwOKjUIG_mFuW3nshvvL7MTmkYk8G5UukjjrLAqEUloehU1YR3WJ9nYI1nkCkM28r7qTdkQlILHNcFtd1lYalKP1lI8tUfw64beU15LiogQi785F9p37GqoA_fKRgMbkNALtP)![](https://lh6.googleusercontent.com/iEIbuEyV0tmZxsBxny_DrtLGtwI36st5NoIZ1OaOqV5HqdPTvuu1cSnIgxDuNcTYVM4V--pLHggZPmt1GohXq1AjFk_Mv4xrSNXka2SmKa6Sfx7r15z2J3Dpre_owNQ0E_BrGfI3)![](https://lh3.googleusercontent.com/yw9Mba28iRLnSNkNJy-oloxeBdRMQ11htLG45Qs8b-vaNtrUk9ecsre36EeS5RxVP5MNnqKLpx7S5qpHTlLCqS9OicYI4QarEc5ewBgdMnzqnZUAXyGdumGwb0lyjP98sM4BAt9c)
+2.  ![](https://lh4.googleusercontent.com/xKPNwOKjUIG\_mFuW3nshvvL7MTmkYk8G5UukjjrLAqEUloehU1YR3WJ9nYI1nkCkM28r7qTdkQlILHNcFtd1lYalKP1lI8tUfw64beU15LiogQi785F9p37GqoA\_fKRgMbkNALtP)![](https://lh6.googleusercontent.com/iEIbuEyV0tmZxsBxny\_DrtLGtwI36st5NoIZ1OaOqV5HqdPTvuu1cSnIgxDuNcTYVM4V--pLHggZPmt1GohXq1AjFk\_Mv4xrSNXka2SmKa6Sfx7r15z2J3Dpre\_owNQ0E\_BrGfI3)![](https://lh3.googleusercontent.com/yw9Mba28iRLnSNkNJy-oloxeBdRMQ11htLG45Qs8b-vaNtrUk9ecsre36EeS5RxVP5MNnqKLpx7S5qpHTlLCqS9OicYI4QarEc5ewBgdMnzqnZUAXyGdumGwb0lyjP98sM4BAt9c)
+
+    Images by [SK-Lego](https://medium.com/@jeremyrchow)&#x20;
 
 ## **FAST.AI**
 
-1. [**Medium**](https://medium.com/@hiromi_suenaga/deep-learning-2-part-1-lesson-1-602f73869197) **on all fast.ai courses, 14 posts**
+1. [**Medium**](https://medium.com/@hiromi\_suenaga/deep-learning-2-part-1-lesson-1-602f73869197) **on all fast.ai courses, 14 posts**
 
 ## **PYCARET**
 
-[**1. What is? by vidhaya**](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?fbclid=IwAR0NZV5fJgXtpoCBfmauCiGQC_QOK0cbQrpuhhpDBAtEngGG_NBsRlcVRas) **-** [**PyCaret**](https://pycaret.org) **is an open-source, machine learning library in Python that helps you from data preparation to model deployment. It is easy to use and you can do almost every data science project task with just one line of code.**
+[**1. What is? by vidhaya**](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?fbclid=IwAR0NZV5fJgXtpoCBfmauCiGQC\_QOK0cbQrpuhhpDBAtEngGG\_NBsRlcVRas) **-** [**PyCaret**](https://pycaret.org) **is an open-source, machine learning library in Python that helps you from data preparation to model deployment. It is easy to use and you can do almost every data science project task with just one line of code.**
 
 ## **NVIDIA TF CUDA CUDNN**
 
-* [**Install TF**](https://www.tensorflow.org/install/install_linux#NVIDIARequirements)
+* [**Install TF**](https://www.tensorflow.org/install/install\_linux#NVIDIARequirements)
 * [**Install cuda on ubuntu**](https://devtalk.nvidia.com/default/topic/1030495/cuda-setup-and-installation/install-a-specific-cuda-version-for-ubuntu-16-04/)**,** [**official linux**](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)
 * [**Replace cuda version**](https://askubuntu.com/questions/959835/how-to-remove-cuda-9-0-and-install-cuda-8-0-instead) _\*\*_
-* [**Cuda 9 download**](https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux\&target_arch=x86\_64\&target_distro=Ubuntu\&target_version=1704\&target_type=runfilelocal)
+* [**Cuda 9 download**](https://developer.nvidia.com/cuda-90-download-archive?target\_os=Linux\&target\_arch=x86\_64\&target\_distro=Ubuntu\&target\_version=1704\&target\_type=runfilelocal)
 * [**Install cudnn**](https://askubuntu.com/questions/1033489/the-easy-way-install-nvidia-drivers-cuda-cudnn-and-tensorflow-gpu-on-ubuntu-1)
 * [**Installing everything easily**](https://askubuntu.com/questions/1033489/the-easy-way-install-nvidia-drivers-cuda-cudnn-and-tensorflow-gpu-on-ubuntu-1)
 * [**Failed**](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch) **to initialize NVML: Driver/library version mismatch**
@@ -193,4 +195,8 @@
 1. [**Installing git LFS**](https://askubuntu.com/questions/799341/how-to-install-git-lfs-on-ubuntu-16-04)
 2. [**Use git lfs**](https://confluence.atlassian.com/bitbucket/use-git-lfs-with-bitbucket-828781636.html)
 3. [**Download git-lfs**](https://git-lfs.github.com)
-4. [**Git wip**](https://carolynvanslyck.com/blog/2020/12/git-wip/) **(great)** ![](https://lh5.googleusercontent.com/3pMgGGFXb24nH1jqCLAL9IHp0dYH5H2pp_ZEDDxFvj89nsifmcUH58qHOu0\_jTu6ONJsE2cJXW7qT1vnbZ43bWI2iRdUho24yyaOiHtQ5Ygrx0mWA3GhSMOFKsfS0t51SRwda6nB)
+4.  [**Git wip**](https://carolynvanslyck.com/blog/2020/12/git-wip/) **(great)**&#x20;
+
+    ![](https://lh5.googleusercontent.com/3pMgGGFXb24nH1jqCLAL9IHp0dYH5H2pp\_ZEDDxFvj89nsifmcUH58qHOu0\_jTu6ONJsE2cJXW7qT1vnbZ43bWI2iRdUho24yyaOiHtQ5Ygrx0mWA3GhSMOFKsfS0t51SRwda6nB)
+
+    by [Carolyn Van Slyck](https://carolynvanslyck.com)

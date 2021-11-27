@@ -1,14 +1,18 @@
 # Probability
 
-![](https://lh6.googleusercontent.com/9S5NKsR3t2sboezqW5ehsAxbjt4JE7SUaNB9RTvhQnW4WgaeOROOSYrld5hfXDA2bApG\_3mwtgUEq6fbrwBKzceevdNwNppmWRoQLgnQknVBHZ7O15xlQP9IzYdZBIKAMa9yLfzz)
+![by en.wikipedia.org](https://lh6.googleusercontent.com/9S5NKsR3t2sboezqW5ehsAxbjt4JE7SUaNB9RTvhQnW4WgaeOROOSYrld5hfXDA2bApG\_3mwtgUEq6fbrwBKzceevdNwNppmWRoQLgnQknVBHZ7O15xlQP9IzYdZBIKAMa9yLfzz)
 
-![](https://lh4.googleusercontent.com/p-jCke8I8OrR2T_SGXui54kTIJTWuE3ZguFv1lckkcZktBbZTMEUg9Ay0kPIj_yzM0XM9kt9QJyt-m0tI7ntQNPVAJzv21o5-1DGY1l7trnBjYmAaxbjSVhTnFKd9nVpzVddGD0k)
+![by en.wikipedia.org](https://lh4.googleusercontent.com/p-jCke8I8OrR2T\_SGXui54kTIJTWuE3ZguFv1lckkcZktBbZTMEUg9Ay0kPIj\_yzM0XM9kt9QJyt-m0tI7ntQNPVAJzv21o5-1DGY1l7trnBjYmAaxbjSVhTnFKd9nVpzVddGD0k)
 
-### ![](https://lh5.googleusercontent.com/uPYrn2f4iHu_DmAsb2iNqVhBHWW45dM42RuUySlETPgdwEuqfBqmi2IAS2sPrSK_Jo-C3TIes5nhbrMy1EZA8vHgjphfT8izv1SIpARzqjfbuy86MUei1igeogo5t-8Xe9KWzYXw)![](https://lh3.googleusercontent.com/vays0BSzI-zCZnLBLuoafnt0QRE25toMq449bgTsyp2vf23n6ZAi-ShaBDa73v-V_aonwcpdy6EPsEYbiW40z9F2rgickFYFuuEDo0VVdisAet4GZ0rlMGjBvtT4LeyYQ6F_Wb5A)**PDF (PROBABILITY DENSITY FUNCTION)**
+![by en.wikipedia.org](https://lh5.googleusercontent.com/uPYrn2f4iHu\_DmAsb2iNqVhBHWW45dM42RuUySlETPgdwEuqfBqmi2IAS2sPrSK\_Jo-C3TIes5nhbrMy1EZA8vHgjphfT8izv1SIpARzqjfbuy86MUei1igeogo5t-8Xe9KWzYXw)
+
+![by en.wikipedia.org](https://lh3.googleusercontent.com/vays0BSzI-zCZnLBLuoafnt0QRE25toMq449bgTsyp2vf23n6ZAi-ShaBDa73v-V\_aonwcpdy6EPsEYbiW40z9F2rgickFYFuuEDo0VVdisAet4GZ0rlMGjBvtT4LeyYQ6F\_Wb5A)
+
+### **PDF (PROBABILITY DENSITY FUNCTION)**
 
 1. [**Tutorial in scipy**](https://oneau.wordpress.com/2011/02/28/simple-statistics-with-scipy/)
 2. [**Array-based tutorial in python with PDF and KDE**](http://firsttimeprogrammer.blogspot.co.il/2015/01/how-to-estimate-probability-density.html)
-3. [**Summary of univariate distribution including pdf methods**](https://www.johndcook.com/blog/distributions_scipy/)
+3. [**Summary of univariate distribution including pdf methods**](https://www.johndcook.com/blog/distributions\_scipy/)
 
 ### **Kernel Density Estimation**
 
@@ -16,7 +20,7 @@
 
 * **Supposedly a better **[**implementation**](https://github.com/Daniel-B-Smith/KDE-for-SciPy)** of KDE than SCIPY **
 
-**How to use KDE? A **[**tutorial**](http://pythonhosted.org/PyQt-Fit/KDE_tut.html)** about kernel density and how to use it in python. Has several good graphs and shows use cases.**
+**How to use KDE? A **[**tutorial**](http://pythonhosted.org/PyQt-Fit/KDE\_tut.html)** about kernel density and how to use it in python. Has several good graphs and shows use cases.**
 
 **Video tutorials about Kernel Density:**
 
