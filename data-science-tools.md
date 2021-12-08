@@ -69,13 +69,13 @@
 **As far as i can tell, reshape effectively flattens the tree and divide it again to a new tree, but the total amount of inputs needs to stay the same. 2\*4\*6 = 4\*2\*3\*2 for example**
 
 **code:**\
-**`import numpy  `**\
-**`rng = numpy.random.RandomState(234)  `**\
-**`a = rng.randn(2,3,10)  `**\
-**`print(a.shape)  `**\
-**`print(a)  `**\
-**`b = numpy.reshape(a, (3,5,-1))  `**\
-**`print(b.shape)  `**\
+**`import numpy`**  \
+**`rng = numpy.random.RandomState(234)`**  \
+**`a = rng.randn(2,3,10)`**  \
+**`print(a.shape)`**  \
+**`print(a)`**  \
+**`b = numpy.reshape(a, (3,5,-1))`**  \
+**`print(b.shape)`**  \
 **`print (b)`**
 
 **\*\*\* A tutorial for** [**Google Colaboratory - free Tesla K80 with Jup-notebook**](https://www.kdnuggets.com/2018/02/google-colab-free-gpu-tutorial-tensorflow-keras-pytorch.html/2)
@@ -192,10 +192,13 @@
 
 ## **GIT / Bitbucket**
 
-1. [**Installing git LFS**](https://askubuntu.com/questions/799341/how-to-install-git-lfs-on-ubuntu-16-04)
-2. [**Use git lfs**](https://confluence.atlassian.com/bitbucket/use-git-lfs-with-bitbucket-828781636.html)
-3. [**Download git-lfs**](https://git-lfs.github.com)
-4.  [**Git wip**](https://carolynvanslyck.com/blog/2020/12/git-wip/) **(great)**&#x20;
+1. [understanding git](https://learngitbranching.js.org)
+2. [pre-commit](https://pre-commit.com)
+3. [**Rewrite git history, all the commands**](https://www.youtube.com/watch?v=ElRzTuYln0M)
+4. [**Installing git LFS**](https://askubuntu.com/questions/799341/how-to-install-git-lfs-on-ubuntu-16-04)
+5. [**Use git lfs**](https://confluence.atlassian.com/bitbucket/use-git-lfs-with-bitbucket-828781636.html)
+6. [**Download git-lfs**](https://git-lfs.github.com)
+7.  [**Git wip**](https://carolynvanslyck.com/blog/2020/12/git-wip/) **(great)**&#x20;
 
     ![](https://lh5.googleusercontent.com/3pMgGGFXb24nH1jqCLAL9IHp0dYH5H2pp\_ZEDDxFvj89nsifmcUH58qHOu0\_jTu6ONJsE2cJXW7qT1vnbZ43bWI2iRdUho24yyaOiHtQ5Ygrx0mWA3GhSMOFKsfS0t51SRwda6nB)
 
