@@ -100,6 +100,10 @@ This article provides an overview of TDSP and its main components. We provide a 
 1. [**(great) the data team a short story by erik bern**](https://erikbern.com/2021/07/07/the-data-team-a-short-story.html)
 2. [Guilds / Gangs / Squads](https://aviranm.medium.com/the-evolution-of-a-guild-a6c7d1927610) by Aviran Mordo
 
+[ Squads, Tribes, Guilds, dont be like Spotify](https://uxdesign.cc/squads-tribes-guild-to-be-like-spotify-or-not-13ecf690fd36)
+
+1. [Discover the Spotify Model](https://www.atlassian.com/agile/agile-at-scale/spotify)
+
 ### **YOUTUBE COURSES**
 
 * [**DEEPNET.TV YOUTUBE (excellent)**](https://www.youtube.com/channel/UC9OeZkIwhzfv-\_Cb7fCikLQ)
