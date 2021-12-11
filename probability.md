@@ -16,23 +16,23 @@
 
 ### **Kernel Density Estimation**
 
-**This **[**tutorial**](https://mglerner.github.io/posts/histograms-and-kernel-density-estimation-kde-2.html?p=28)** actually explains why we should use KDE over a Histogram, it explains the cons of histograms and how KDE helps solve some issue that we usually encounter in ‘Sparse’ histograms where the distribution is hard to figure out.**
+**This** [**tutorial**](https://mglerner.github.io/posts/histograms-and-kernel-density-estimation-kde-2.html?p=28) **actually explains why we should use KDE over a Histogram, it explains the cons of histograms and how KDE helps solve some issue that we usually encounter in ‘Sparse’ histograms where the distribution is hard to figure out.**
 
-* **Supposedly a better **[**implementation**](https://github.com/Daniel-B-Smith/KDE-for-SciPy)** of KDE than SCIPY **
+* **Supposedly a better** [**implementation**](https://github.com/Daniel-B-Smith/KDE-for-SciPy) **of KDE than SCIPY**&#x20;
 
-**How to use KDE? A **[**tutorial**](http://pythonhosted.org/PyQt-Fit/KDE\_tut.html)** about kernel density and how to use it in python. Has several good graphs and shows use cases.**
+**How to use KDE? A** [**tutorial**](http://pythonhosted.org/PyQt-Fit/KDE\_tut.html) **about kernel density and how to use it in python. Has several good graphs and shows use cases.**
 
 **Video tutorials about Kernel Density:**
 
-1. [**KDE **](https://www.youtube.com/watch?v=gPWsDh59zdo)
-2. **Non parametric **[**Kernel Regression Estimation**](https://www.youtube.com/watch?v=ncF7ArjJFqM)
-3. **Non parametric **[**Sieve Estimation**](https://www.youtube.com/watch?v=cqecz-DL-jI)
+1. [**KDE** ](https://www.youtube.com/watch?v=gPWsDh59zdo)
+2. **Non parametric** [**Kernel Regression Estimation**](https://www.youtube.com/watch?v=ncF7ArjJFqM)
+3. **Non parametric** [**Sieve Estimation**](https://www.youtube.com/watch?v=cqecz-DL-jI)
 4. [**Semi- nonparametric estimation**](https://www.youtube.com/watch?v=G1N53K530To)
 
-[**Udacity Video Tutorial**](https://www.youtube.com/watch?v=MEP35FcrQGs\&list=PLAwxTw4SYaPn-ttWkPiUL7NP3lLRdUniJ\&index=80)** - pretty good**\
+[**Udacity Video Tutorial**](https://www.youtube.com/watch?v=MEP35FcrQGs\&list=PLAwxTw4SYaPn-ttWkPiUL7NP3lLRdUniJ\&index=80) **- pretty good**\
 ****
 
-1. **IMPORTANT: **[**Comparison and benchmarks of various KDE algo’s**](https://jakevdp.github.io/blog/2013/12/01/kernel-density-estimation/)
+1. **IMPORTANT:** [**Comparison and benchmarks of various KDE algo’s**](https://jakevdp.github.io/blog/2013/12/01/kernel-density-estimation/)
 2. [**Histograms and density plots**](https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0)
 3. [**SK LEARN**](http://scikit-learn.org/stable/modules/density.html#kernel-density-estimation)
 4. [**Gaussian KDE in scipy, version 2**](https://www.youtube.com/watch?v=MEP35FcrQGs\&list=PLAwxTw4SYaPn-ttWkPiUL7NP3lLRdUniJ\&index=80)

@@ -48,7 +48,12 @@
 * [Timeseries](timeseries.md)
 * [Fourier Transform](fourier-transform.md)
 * [Digital Signal Processing (DSP)](digital-signal-processing-dsp.md)
-* [Natural Language Processing](natural-language-processing.md)
+
+## Natural Language Processing
+
+* [Natural Language Programming (Many Topics)](natural-language-processing/nlp.md)
+* [String Matching](natural-language-processing/string-matching.md)
+* [Name Matching](natural-language-processing/name-matching.md)
 
 ## Graphs
 

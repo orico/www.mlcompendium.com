@@ -1,11 +1,11 @@
 # Multi CPU Processing
 
-[**Numpy**](https://gitlab.com/tenzing/shared-array)** on multi process, and **[**how to use it.**](https://medium.com/analytics-vidhya/multiprocessing-for-data-scientists-in-python-427b2ff93af1)
+[**Numpy**](https://gitlab.com/tenzing/shared-array) **on multi process, and** [**how to use it.**](https://medium.com/analytics-vidhya/multiprocessing-for-data-scientists-in-python-427b2ff93af1)
 
 1. [**Pandas on multi process**](https://github.com/nalepae/pandarallel)
-2. **\*\*\***[**Dask**](https://docs.dask.org/en/latest/)** - youtube **[**intros**](https://www.youtube.com/channel/UCj9eavqmvwaCyKhIlu2GaoA)
-   1. **Diagnostic **[**dashboards**](https://www.youtube.com/watch?v=N_GqzcuGLCY)
-   2. [**Ditributed sklearn**](https://www.youtube.com/watch?v=5Zf6DQaf7jk)** (amazing)**
+2. **\*\*\***[**Dask**](https://docs.dask.org/en/latest/) **- youtube** [**intros**](https://www.youtube.com/channel/UCj9eavqmvwaCyKhIlu2GaoA)
+   1. **Diagnostic** [**dashboards**](https://www.youtube.com/watch?v=N\_GqzcuGLCY)
+   2. [**Ditributed sklearn**](https://www.youtube.com/watch?v=5Zf6DQaf7jk) **(amazing)**
 3. [**Dask vs swifter vs vectorize**](https://gdcoder.com/speed-up-pandas-apply-function-using-dask-or-swifter-tutorial/)
    1. **Dask is dask**
    2. **Swifter will attempt to understand if dask or pandas apply should be used, looks like its using multi cpu so it may not be just using dask on the backend?**

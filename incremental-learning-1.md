@@ -8,9 +8,9 @@
 ### **Q-LEARN**
 
 * **Markov chain problem, (state, action, new state, reward)**
-* **Lots of Exploration in the beginning, then exploitation **
+* **Lots of Exploration in the beginning, then exploitation**&#x20;
 * **Returns optimal policy.**
-* **Refer to youtube **[**here**](https://www.youtube.com/watch?v=9m\_6q_KECTk)
+* **Refer to youtube** [**here**](https://www.youtube.com/watch?v=9m\_6q\_KECTk)
 
 ### **Deep Learning**
 

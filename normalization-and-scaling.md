@@ -1,10 +1,10 @@
 # Normalization & Scaling
 
-1. [**A comparison of normalization / scaling techniques in sklearn**](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)
-2. [**Another great explanation on sklearn and (general) scaling**](http://benalexkeen.com/feature-scaling-with-scikit-learn/)** - normal, min max, etc..**
-3. [**Normalization\standardize features **](http://machinelearningmastery.com/normalize-standardize-machine-learning-data-weka/)
+1. [**A comparison of normalization / scaling techniques in sklearn**](http://scikit-learn.org/stable/auto\_examples/preprocessing/plot\_all\_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)
+2. [**Another great explanation on sklearn and (general) scaling**](http://benalexkeen.com/feature-scaling-with-scikit-learn/) **- normal, min max, etc..**
+3. [**Normalization\standardize features** ](http://machinelearningmastery.com/normalize-standardize-machine-learning-data-weka/)
 
-* **data has varying scales **
+* **data has varying scales**&#x20;
 * **Normalize between range 0 to 1.**
   * **When the algorithm you are using does not make assumptions about the distribution of your data, such as k-nearest neighbors and artificial neural networks.**
 * **Standardize, mean of 0 and a std of 1:**
