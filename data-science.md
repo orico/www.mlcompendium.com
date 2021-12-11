@@ -98,6 +98,7 @@ This article provides an overview of TDSP and its main components. We provide a 
 ### **Building Data/DS teams**
 
 1. [**(great) the data team a short story by erik bern**](https://erikbern.com/2021/07/07/the-data-team-a-short-story.html)
+2. [Guilds / Gangs / Squads](https://aviranm.medium.com/the-evolution-of-a-guild-a6c7d1927610) by Aviran Mordo
 
 ### **YOUTUBE COURSES**
 
