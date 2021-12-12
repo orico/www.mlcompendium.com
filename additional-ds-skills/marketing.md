@@ -4,3 +4,4 @@
 2. **Brand**
 3. **Positioning**
 4. **Messaging**
+5. ****[**Inbound vs Outbound marketing**](https://blog.hubspot.com/blog/tabid/6307/bid/2989/inbound-marketing-vs-outbound-marketing.aspx) **by hubspot**
