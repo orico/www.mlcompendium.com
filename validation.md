@@ -144,7 +144,8 @@
 11. [**Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead**](https://arxiv.org/abs/1811.10154) **- “trying to \textit{explain} black box models, rather than creating models that are \textit{interpretable} in the first place, is likely to perpetuate bad practices and can potentially cause catastrophic harm to society. There is a way forward -- it is to design models that are inherently interpretable. This manuscript clarifies the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identifies challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare, and computer vision.”**
 12. [**Using genetic algorithms**](https://towardsdatascience.com/interpreting-black-box-machine-learning-models-with-genetic-algorithms-a803bfd134cb)
 13. [ **Google’s what-if tool**](https://pair-code.github.io/what-if-tool/demos/image.html) **from** [**PAIR**](https://pair.withgoogle.com)
-14.
+14. [Boruta](https://github.com/scikit-learn-contrib/boruta\_py) ([medium](https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)) was designed to automatically perform feature selection on a dataset using randomized features, i.e., measuring valid features against their shadow/noisy counterparts.
+15. [InterpretML](https://interpret.ml) by Microsoft, [git](https://github.com/interpretml/interpret).
 
 ### **WHY WE SHOULDN’T TRUST MODELS**
 
