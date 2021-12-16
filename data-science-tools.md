@@ -23,7 +23,10 @@
 
 * [**Clean code in python git**](https://github.com/zedr/clean-code-python)
 * [**About the book**](https://medium.com/@m\_mcclarty/tech-book-talk-clean-code-in-python-aa2c92c6564f)
-* **Virtual Environments**
+
+### **Virtual Environments**
+
+* ****[**stack overflow on pyenv / venv / etc**](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)****
 * [**Guide to pyenv & pyenv virtualenv**](https://medium.com/swlh/a-guide-to-python-virtual-environments-8af34aa106ac)
 * [**Managing virtual env with pyenv**](https://towardsdatascience.com/managing-virtual-environment-with-pyenv-ae6f3fb835f8)
 * [**Just use venv**](https://towardsdatascience.com/all-you-need-to-know-about-python-virtual-environments-9b4aae690f97)
@@ -41,6 +44,7 @@
 2. [**Intro to pyenv**](https://realpython.com/intro-to-pyenv/)
 3. [**Pyenv tutorial and finding where it is**](https://anil.io/blog/python/pyenv/using-pyenv-to-install-multiple-python-versions-tox/) _\*\*_
 4. __[**Pyenv override system python on mac**](https://github.com/pyenv/pyenv/issues/660)
+5. pyenv virtualenv
 
 ## **JUPYTER**
 
