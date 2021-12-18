@@ -77,7 +77,7 @@
 
 * [Expanding Your Data Science Skills](additional-ds-skills/expanding-your-data-science-skills.md)
 * [Full-Stack & Ops](additional-ds-skills/full-stack-and-ops.md)
-* [Data Warehouses](additional-ds-skills/data-warehouses.md)
+* [Data Engineering](additional-ds-skills/data-engineering.md)
 * [Business](additional-ds-skills/business.md)
 * [Product Management](additional-ds-skills/product-management.md)
 * [User Experience Design (UX)](additional-ds-skills/user-experience-design-ux.md)
