@@ -349,11 +349,15 @@
 15. (Booking) [How Booking.com increases the power of online experiments with CUPED](https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d), [comment](https://medium.com/@drsimonj/yes-cuped-could-be-used-like-regression-methods-to-adjust-for-confounders-71c951234fcf)
 16. (BBC) [Increasing experimental power with variance reduction at the BBC ](https://medium.com/bbc-data-science/increasing-experiment-sensitivity-through-pre-experiment-variance-reduction-166d7d00d8fd)- This article discusses how the Experimentation team have been accounting for pre-experiment variance in order to increase the statistical power of their experiments
 17. (TripAdvisor) (good)  [Reducing A/B test measurement variance by 30%+](https://www.tripadvisor.com/engineering/reducing-a-b-test-measurement-variance-by-30/)
-18. (medium) [practitioner guide to statistical tests](https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f)
-19. Vidhya on&#x20;
+18. (medium) [practitioner guide to ](https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f)
+19. Hubspot
+    1. [Howto Do A/B Testing: 15 Steps for the Perfect Split Test](https://blog.hubspot.com/marketing/how-to-do-a-b-testing)
+    2. [Sample size calculation](https://blog.hubspot.com/marketing/email-a-b-test-sample-size-testing-time)
+20. [statistical tests](https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f)
+21. Vidhya on&#x20;
     1. [A/B Testing Measurement Frameworks  -  Every Data Scientist Should Know](https://www.analyticsvidhya.com/blog/2021/03/a-b-testing-measurement-frameworks%E2%80%8A-%E2%80%8Aevery-data-scientist-should-know/)
     2. [A/B Testing for Data Science using Python – A Must-Read Guide for Data Scientists](https://www.analyticsvidhya.com/blog/2020/10/ab-testing-data-science/)
-20. (Yandex)  - [Online Evaluation for Effective Web Service Development](https://research.yandex.com/tutorials/online-evaluation/kdd-2018)
+22. (Yandex)  - [Online Evaluation for Effective Web Service Development](https://research.yandex.com/tutorials/online-evaluation/kdd-2018)
 
 ![](<../.gitbook/assets/image (4).png>)
 
