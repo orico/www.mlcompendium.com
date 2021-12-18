@@ -118,6 +118,8 @@
 * [**Airflow**](https://airflow.apache.org) **is a platform created by the community to programmatically author, schedule and monitor workflows.**
 * ****[**Airflow in 5 minutes**](https://medium.com/swlh/apache-airflow-in-5-minutes-c005b4b11b26) **by Ashish Kumar**
 * ****[**Airflow 2.0 tutorial**](https://medium.com/apache-airflow/apache-airflow-2-0-tutorial-41329bbf7211) **by Tomasz Urbaszek**
+* ****[**Simple  ETL**](https://adenilsoncastro.medium.com/apache-airflow-the-etl-02-f4ac25f4d9b4) **by Adnilson Castro**
+* ****[**Airflow Scheduler & Webserver**](https://medium.com/analytics-vidhya/manage-your-workflows-with-apache-airflow-e7b0e45544a8) **by Shritam Kumar Mund** &#x20;
 
 ### **Prefect**
 
