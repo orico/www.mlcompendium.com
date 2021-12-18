@@ -116,6 +116,8 @@
 ### **AirFlow**
 
 * [**Airflow**](https://airflow.apache.org) **is a platform created by the community to programmatically author, schedule and monitor workflows.**
+* ****[**Airflow in 5 minutes**](https://medium.com/swlh/apache-airflow-in-5-minutes-c005b4b11b26) **by Ashish Kumar**
+* ****[**Airflow 2.0 tutorial**](https://medium.com/apache-airflow/apache-airflow-2-0-tutorial-41329bbf7211) **by Tomasz Urbaszek**
 
 ### **Prefect**
 
