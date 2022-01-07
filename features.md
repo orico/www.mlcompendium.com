@@ -189,6 +189,23 @@
 4. [**Soft cosine and cosine**](https://www.machinelearningplus.com/nlp/gensim-tutorial/)
 5. [**Pearson also used to detect similar vectors**](https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/)
 
+
+
+### Distance
+
+1. [Mastery on distance formulas](https://machinelearningmastery.com/distance-measures-for-machine-learning/)
+   1. Role of Distance Measures
+   2. Hamming Distance
+   3. Euclidean Distance
+   4. Manhattan Distance (Taxicab or City Block)
+   5. Minkowski Distance
+2. Cosine distance = 1 - cosine similarity
+3. [Haversine](https://kanoki.org/2019/12/27/how-to-calculate-distance-in-python-and-pandas-using-scipy-spatial-and-distance-functions/) distance
+
+#### Distance Tools
+
+1. [GeoPandas](https://geopandas.org/en/stable/index.html)
+
 ### **FEATURE IMPORTANCE**
 
 **Note: point 2, about lime is used for explainability, please also check that topic, down below.**
