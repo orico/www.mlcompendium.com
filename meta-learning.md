@@ -71,3 +71,7 @@
 * [**DEvol**](https://github.com/joeddav/devol)
 * [**HyperAS**](https://github.com/maxpumperla/hyperas)**: a combination of Keras and Hyperopt**
 * [**talos**](https://github.com/autonomio/talos)**: Hyperparameter Scanning and Optimization for Keras**
+
+### **Auto Feature Engineering**
+
+1. [automated feature engineering on medium by ](https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219)will koehrsen
