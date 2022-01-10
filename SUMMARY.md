@@ -1,7 +1,14 @@
 # Table of contents
 
 * [The Machine & Deep Learning Compendium](README.md)
-* [Types Of Machine Learning](types-of-machine-learning.md)
+* [Types Of Machine Learning](types-of-machine-learning/README.md)
+  * [Model Families](types-of-machine-learning/model-families.md)
+  * [Weakly Supervised](types-of-machine-learning/weakly-supervised.md)
+  * [Semi Supervised](types-of-machine-learning/semi-supervised.md)
+  * [Regression](types-of-machine-learning/regression.md)
+  * [Active Learning](types-of-machine-learning/active-learning.md)
+  * [Online Learning](types-of-machine-learning/online-learning.md)
+  * [N-Shot Learning](types-of-machine-learning/n-shot-learning.md)
 * [Data Science](data-science.md)
 * [Data Science Tools](data-science-tools.md)
 * [Management](management.md)
