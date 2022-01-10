@@ -53,8 +53,8 @@ At the same time, there is increasing alarm that the complexity of machine learn
    1. [In Clinical research](https://jonathan-hui.medium.com/bias-in-clinical-research-data-science-machine-learning-deep-learning-40a8786a5046) - Selection , Sample , Time , Attrition , Survivorship, reporting, funding, citation, Volunteer , self-selection , non-response, pre-screening , healthy person, membership, ascertainment, performance, berkson admission, neyman, measurement, observer, expectation, response, self reporting, social desirability, recall, acquiescence agreement, leading, courtesy, attention verification, lead time, immortal time, misclassification, chronological, detection, spectrum, cofounder, susceptibility, collider, simpson,  ommited, allocation, channeling.
    2. [AI](https://jonathan-hui.medium.com/ai-bias-b85c86bbca90) - known cases in Vision, NLP - sentiment, embedding, language models, historical, compass, recommender, datasets.
    3. [address AI Bias with Fairness criteria and tools](https://jonathan-hui.medium.com/address-ai-bias-with-fairness-criteria-tools-9af1ab8e4289) - per population, predictive parity, calibration by group
-
-####
+   4. [Caveats and limitations of AI Fairness Approaches](https://jonathan-hui.medium.com/caveats-limitations-on-ai-fairness-approaches-8628e6a992fd) - sample bias, label bias, miscalibration outcome test, redlining, etc.
+   5. [AI Fairness Approaches](https://jonathan-hui.medium.com/ai-fairness-approaches-mathematical-definitions-49cc418feebd) - statistical fairness, equalizing acceptance rate, error rate, etc.
 
 #### FAIRNESS TOOLS
 
