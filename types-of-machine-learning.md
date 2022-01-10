@@ -91,17 +91,18 @@ Metrics:&#x20;
 8. [The pitfalls of AL](http://www.kdd.org/exploration\_files/v12-02-9-UR-Attenberg.pdf) - how to choose (cost-effectively) the active learning technique when one starts without the labeled data needed for methods like cross-validation; 2. how to choose (cost-effectively) the base learning technique when one starts without the labeled data needed for methods like cross-validation, given that we know that learning curves cross, and given possible interactions between active learning technique and base learner; 3. how to deal with highly skewed class distributions, where active learning strategies find few (or no) instances of rare classes; 4. how to deal with concepts including very small subconcepts (“disjuncts”)—which are hard enough to find with random sampling (because of their rarity), but active learning strategies can actually avoid finding them if they are misclassified strongly to begin with; 5. how best to address the cold-start problem, and especially 6. whether and what alternatives exist for using human resources to improve learning, that may be more cost efficient than using humans simply for labeling selected cases, such as guided learning \[3], active dual supervision \[2], guided feature labeling \[1], etc.
 9. [Confidence based stopping criteria paper](http://www.cs.cmu.edu/\~./hovy/papers/10ACMjournal-activelearning-stopping.pdf)
 10. A great [tutorial ](http://hunch.net/\~active\_learning/active\_learning\_icml09.pdf)
-11. [An ok video](https://www.youtube.com/watch?v=Et7h1A1j4ns\&feature=youtu.be)
-12. [Active learning framework in python](https://github.com/bwallace/curious\_snake)
-13. [Active Learning Using Pre-clustering](https://www.researchgate.net/profile/Arnold\_Smeulders/publication/221345455\_Active\_learning\_using\_pre-clustering/links/54c3cc440cf2911c7a4cc74a/Active-learning-using-pre-clustering.pdf)
-14. [A literature survey of active machine learning in the context of natural language processing](http://eprints.sics.se/3600/)
-15. [Mnist competition (unpublished) using AL](http://dag.cvc.uab.es/mnist/statistics/)
-16. [Practical Online Active Learning for Classification](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.5536\&rep=rep1\&type=pdf)
-17. [Video 2](https://www.youtube.com/watch?v=8Jwp4\_WbRio\&index=7\&list=PLegWUnz91Wfsn6skGOofRoeFoOyfdqSyN)
-18. [Active learning in R - code](https://github.com/gsimchoni/ActiveLearningExercise)
-19. [Deep bayesian active learning with image data](https://arxiv.org/pdf/1703.02910.pdf)
-20. [Medium on AL](https://news.voyage.auto/active-learning-and-why-not-all-data-is-created-equal-8a43a758c6f9)\*\*\*
-21. [Integrating Human-in-the-Loop (HITL) in machine learning is a necessity, not a choice. Here’s why?](https://medium.com/@supriya2211/integrating-human-in-the-loop-hitl-in-machine-learning-application-is-a-necessity-not-a-choice-f25e131ca84e) By Supriya Ghosh
+11. [AWS Sagemaker Active Learning](https://youtu.be/8J7y513oSsE?t=435), using annotation consolidation that finds outliers and weights accordingly, then takes that data, trains a model with the annotation + training data, if labeled with high probability, will use those labels, otherwise will re-annoatate.
+12. [An ok video](https://www.youtube.com/watch?v=Et7h1A1j4ns\&feature=youtu.be)
+13. [Active learning framework in python](https://github.com/bwallace/curious\_snake)
+14. [Active Learning Using Pre-clustering](https://www.researchgate.net/profile/Arnold\_Smeulders/publication/221345455\_Active\_learning\_using\_pre-clustering/links/54c3cc440cf2911c7a4cc74a/Active-learning-using-pre-clustering.pdf)
+15. [A literature survey of active machine learning in the context of natural language processing](http://eprints.sics.se/3600/)
+16. [Mnist competition (unpublished) using AL](http://dag.cvc.uab.es/mnist/statistics/)
+17. [Practical Online Active Learning for Classification](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.5536\&rep=rep1\&type=pdf)
+18. [Video 2](https://www.youtube.com/watch?v=8Jwp4\_WbRio\&index=7\&list=PLegWUnz91Wfsn6skGOofRoeFoOyfdqSyN)
+19. [Active learning in R - code](https://github.com/gsimchoni/ActiveLearningExercise)
+20. [Deep bayesian active learning with image data](https://arxiv.org/pdf/1703.02910.pdf)
+21. [Medium on AL](https://news.voyage.auto/active-learning-and-why-not-all-data-is-created-equal-8a43a758c6f9)\*\*\*
+22. [Integrating Human-in-the-Loop (HITL) in machine learning is a necessity, not a choice. Here’s why?](https://medium.com/@supriya2211/integrating-human-in-the-loop-hitl-in-machine-learning-application-is-a-necessity-not-a-choice-f25e131ca84e) By Supriya Ghosh
 
 ![Basic Framework for HITL Supriya Ghosh wrong credit? let me know](<.gitbook/assets/image (12) (1) (1) (1).png>)
 
