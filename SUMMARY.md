@@ -95,6 +95,7 @@
 
 ## Data Engineering
 
+* [Data Pipelines](data-engineering/data-pipelines.md)
 * [Data Engineering](data-engineering/data-engineering.md)
 * [Lakes & Warehouses](data-engineering/lakes-and-warehouses.md)
 * [Data Engineering Questions & Training](data-engineering/data-engineering-questions-and-training.md)
