@@ -47,3 +47,8 @@
 5. [**7.5. Similarity algorithms**](https://neo4j.com/docs/graph-algorithms/current/experimental-algorithms/similarity/)
 6. [**7.6. Link Prediction algorithms**](https://neo4j.com/docs/graph-algorithms/current/experimental-algorithms/linkprediction/)
 7. [**7.7. Preprocessing functions and**](https://neo4j.com/docs/graph-algorithms/current/experimental-algorithms/preprocessing/)
+
+## Graph Tools
+
+1. [Graph-tool](https://graph-tool.skewed.de) is an efficient Python module for manipulation and statistical analysis of graphs
+2. [NetworkX](https://github.com/networkx/networkx) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.\
