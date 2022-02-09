@@ -1,22 +1,29 @@
 # Management
 
-## Topics
+## Management
 
-1. management
-2. project management
-3. building teams
-4. working with partners
-5. culture building
-6. settings standarts&#x20;
-7. career development
+1. [Important Traits To Help You Become A Better Data-Science Manager](https://towardsdatascience.com/important-traits-to-help-you-become-a-better-data-science-manager-dc0de3a37961), by Dr. Ori Cohen
+2. [7 management styles and how to use them](https://www.breathehr.com/en-gb/blog/topic/business-leadership/best-management-styles-and-how-to-use-them)
+3. 7 leadership styles (similar to the above)
+4. [The secret sauce of DS management](https://www.youtube.com/watch?v=qO7sl8\_YtJM) by Shir Meir Lador
 
-### **Style**
+## Project Management
 
-1. [**7 management styles and how to use them**](https://www.breathehr.com/en-gb/blog/topic/business-leadership/best-management-styles-and-how-to-use-them)
-2. **7 leadership styles (similar to the above)**
-3. [**The secret sauce of DS management**](https://www.youtube.com/watch?v=qO7sl8\_YtJM)
+1. [Data-science? Agile? Cycles? My method for managing data-science projects in the Hi-tech industry](https://towardsdatascience.com/data-science-agile-cycles-my-method-for-managing-data-science-projects-in-the-hi-tech-industry-b289e8a72818), by Dr. Ori Cohen
+2. [Lessons learned leading AI teams](https://blogs.intuit.com/blog/2020/06/23/lessons-learned-leading-ai-teams/), by Shir Meir Lador
+3. How to avoid conflicts and delays in the AI development [Part 1](https://blogs.intuit.com/blog/2020/12/08/how-to-avoid-conflicts-and-delays-in-the-ai-development-process-part-i/), [Part 2](https://blogs.intuit.com/blog/2021/01/06/how-to-avoid-conflicts-and-delays-in-the-ai-development-process-part-ii/), by Shir Meir Lador
 
-### **Books**
+## Building Teams
+
+## Working with partners
+
+## Culture building
+
+## Settings standarts&#x20;
+
+## Career development
+
+## **Books**&#x20;
 
 1. **People management**
    1. **(good) the effective manager**&#x20;
