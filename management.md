@@ -1,5 +1,15 @@
 # Management
 
+## Topics
+
+1. management
+2. project management
+3. building teams
+4. working with partners
+5. culture building
+6. settings standarts&#x20;
+7. career development
+
 ### **Style**
 
 1. [**7 management styles and how to use them**](https://www.breathehr.com/en-gb/blog/topic/business-leadership/best-management-styles-and-how-to-use-them)
