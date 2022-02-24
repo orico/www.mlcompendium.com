@@ -1,36 +1,5 @@
 # Full-Stack & Ops
 
-### **Literature**
-
-1. [**Designing data-intensive applications reliable maintainable**](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
-   1. [**medium**](https://medium.com/@m\_mcclarty/tech-book-talk-designing-data-intensive-applications-eb4908f2f6d6)
-2. [**Google SRE**](https://landing.google.com/sre/books/)
-   1. [**Site Reliability Engineering**](https://www.amazon.com/dp/149192912X?psc=1\&pf\_rd\_p=0c07d3ef-dd9a-4ce4-8daa-7b9b90db3048\&pf\_rd\_r=F4QGSBSPA6DJJCX10WXK\&pd\_rd\_wg=RfKM8\&pd\_rd\_i=149192912X\&pd\_rd\_w=khBYM\&pd\_rd\_r=5bd80e38-7a30-41bb-ae0e-25a91dd1cb3d\&ref\_=pd\_luc\_rh\_crh\_rh\_sbs\_sem\_01\_03\_t\_ttl\_lh)
-   2. [**Site Reliability Workbook**](https://www.amazon.com/Site-Reliability-Workbook-Practical-Implement/dp/1492029505/ref=sr\_1\_1?dchild=1\&keywords=The+Site+Reliability+Workbook\&link\_code=qs\&qid=1598257953\&sr=8-1\&tag=amznsearchff-20)
-3. [**Designing Distributed systems patterns paradigms**](https://www.amazon.com/Designing-Distributed-Systems-Patterns-Paradigms/dp/1491983647)
-4. [**Building Microservices: Designing Fine-Grained Systems** ](https://www.amazon.com/dp/1491950358/?coliid=I1H3OSVXC7XRBL\&colid=300M9JC4311P3\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it)
-5. [**Jez Humble**](https://www.amazon.com/Jez-Humble/e/B003SNGS8E/ref=dp\_byline\_cont\_pop\_book\_2)
-   1. [**Accelerate software performing organizations** ](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/ref=tmm\_pap\_swatch\_0?\_encoding=UTF8\&qid=\&sr=)
-   2. [**DevOps Handbook.**](https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002/ref=tmm\_pap\_swatch\_0?\_encoding=UTF8\&qid=\&sr=)
-   3. [**Continuous delivery deployment** ](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley-dp-0321601912/dp/0321601912/ref=mt\_other?\_encoding=UTF8\&me=\&qid=)
-   4. **Lean Enterprise**
-6. [**Clean code**](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) **(java) first chapters are good**
-7. [**Clean code in Python**](https://www.packtpub.com/product/clean-code-in-python/9781788835831)
-   1. [**Medium**](https://medium.com/@m\_mcclarty/tech-book-talk-clean-code-in-python-aa2c92c6564f)
-   2. [**git**](https://github.com/zedr/clean-code-python)
-8. [**Domain-Driven Design**](https://www.amazon.com/Domain-Driven-Design-Reference-Definitions-Summaries/dp/1457501198/ref=pd\_cart\_crc\_cko\_mrai\_1\_1/146-7136232-7217867?\_encoding=UTF8\&pd\_rd\_i=1457501198\&pd\_rd\_r=e0b19e54-c0c3-4ad1-abd0-eff99f815aee\&pd\_rd\_w=TP8KJ\&pd\_rd\_wg=ompBT\&pf\_rd\_p=77f3805b-bff9-40ee-9688-bcdb2cd9e197\&pf\_rd\_r=1WF281MJHVQYG506PTRX\&psc=1\&refRID=1WF281MJHVQYG506PTRX)
-9. [**The complete python course** ](https://www.packtpub.com/product/the-complete-python-course-video/9781839217289)
-10. [**pyVideo**](https://pyvideo.org)
-
-### **DESIGN PATTERNS**
-
-1. ****[**Software and architectural design patterns**](https://github.com/DovAmir/awesome-design-patterns)****
-
-![](https://lh4.googleusercontent.com/qgvN9nWhe0NRVvcvILrJsF2UeAqZ4H8CIcAUWOBMsXlFEAxhvNCnfQiFrwtLgiXaN1DiziRZ-cjefQzwaBWjtpE3q5SDRlZ9m6-sdJ0NtFnCs4CB4ZSk9Ay9G9X0U6Gy6cLy8\_nM)
-
-1. ****[**System Design and architecture**](https://github.com/puncsky/system-design-and-architecture)****
-2. ![](https://lh4.googleusercontent.com/UpUWT6Jx5fE\_l9YMZQuCa4c\_-OlpXYYZldQzF3l1A2H-B2Sd8uMQAdekbeeIXNdKdooKShlFSN6bncvUjvOUB3F7-\_drbrFx9ZO6kQ4rrcRoWqyNJjZ33X\_3ewgs0leEndte3Xhw)
-
 ### **CONTINUOUS INTEGRATION**
 
 1. [**Travis**](https://travis-ci.org)
@@ -123,7 +92,7 @@
 
 ### **Prefect**
 
-* [**A better airflow** ](http://airflow)
+* [**A better airflow** ](http://airflow)**?**
 
 ### **Seldon**&#x20;
 
@@ -248,24 +217,7 @@
 
 ###
 
-### **MLOPS**
-
-1. [**Awesome MLOps**](https://github.com/visenger/awesome-mlops)
-
-![](https://lh4.googleusercontent.com/6Dd5yQHT\_iJxIGqiCSmHLs5m4nVb4by\_ovEoBjrJTFcUoEvh7nmiNWpb84TJQcd5IWuSy5vElL6nFsXv5NkOKzo0Juc1ZVzX1jr3BWVgIrfhTIfGggSysNOZABG5-6h4vB8\_kQ9q)
-
-1. [**MLOps Roadmap**](https://github.com/cdfoundation/sig-mlops/blob/master/roadmap/2020/MLOpsRoadmap2020.md)
-2. [**Google’s Practitioners Guide to MLOps: A framework for continuous delivery and automation of machine learning**](https://cloud.google.com/resources/mlops-whitepaper)
-3. [**State of MLOps**](https://ml-ops.org/content/state-of-mlops)
-4. [**Easy mlops with pycaret and mlflow** ](https://towardsdatascience.com/easy-mlops-with-pycaret-mlflow-7fbcbf1e38c6)
-5. [**Challenges and solutions by uguazio**](https://towardsdatascience.com/ml-ops-challenges-solutions-and-future-trends-d2e59b74dc6b)
-
-![](https://lh3.googleusercontent.com/Pq4213qifC0KdKbweorAS7Fag6t1F1hI5eELbfWqOvQJst3tN05n4J\_Sd3dyYT1Rj1NuQ7v-1Eo1x7bUCp8OGv3VSDcWy2c41lbEQjY2YmNAXyoJz9QhjgqFv5Q9QfkkacBvudZc)
-
-## ![](https://lh3.googleusercontent.com/TqEy5NDYAnnuyM0o1j8XkKgl2KynL1Pfy6ZHG1LU7d0Ev6RtVXbCEcMFcakbPMlvYKJ41jmLDGIVazNyWA-wYEf1xKCbTzOFbJttpAp6nIWOJAvEdn1yP14NZBqXmP8b-LI80Y57)
-
-1. **Metaflow, medium** [**1**](https://medium.com/bigdatarepublic/a-review-of-netflixs-metaflow-65c6956e168d) **(high level review),** [**2**](https://medium.com/acing-ai/decoding-netflix-metaflow-2ad84b36199e) **(schema),** [**3**](https://medium.com/analytics-vidhya/metaflow-by-netflix-the-good-the-bad-and-the-ugly-b7fc6a833484)**,** [**\*\*4**](https://towardsdatascience.com/learn-metaflow-in-10-mins-netflixs-python-r-framework-for-data-scientists-2ef124c716e4) **(amazing),** [**5**](https://towardsdatascience.com/be-more-efficient-to-produce-machine-learning-pipeline-with-metaflow-db5f943ebbe7) **(extra),** [**6**](https://docs.metaflow.org/metaflow/data) **(loading and storing data docs!)**
-2. **HyperparameterHunter,** [**Hyperopt, mlflow, unit test, concept drifts, using python and kafka**](https://towardsdatascience.com/putting-ml-in-production-ii-logging-and-monitoring-algorithms-91f174044e4e)
+### ****
 
 #### **EXPERIMENT MANAGEMENT**
 
@@ -320,53 +272,4 @@
    1. [**Aws sagemaker**](https://docs.databricks.com/applications/mlflow/model-examples.html#scikit-learn-model-deployment-on-sagemaker)
    2. [**Medium**](https://towardsdatascience.com/a-different-way-to-deploy-a-python-model-over-spark-2da4d625f73e) **and sklearn random trees**
 6. [**How to productionalize your model using db spark 2.0 on youtube**](https://databricks.com/session/how-to-productionize-your-machine-learning-models-using-apache-spark-mllib-2-x)
-
-#### **A/B testing**
-
-1. (highly recommended - buy) [trustworthy controlled experiments](https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264) by Ron, Diane, Ya
-2. CUPED- [Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data](https://www.researchgate.net/publication/237838291\_Improving\_the\_Sensitivity\_of\_Online\_Controlled\_Experiments\_by\_Utilizing\_Pre-Experiment\_Data) \
-   CUPED is an acronym for _**C**ontrolled experiments **U**sing **P**re-**E**xperiment **D**ata_ \[1]. It is a method that aims to estimate treatment effects in A/B tests more accurately than simple differences in means. As reviewed in the previous section, we traditionally use the observed difference between the sample means" by [Ron Kohavi](https://www.researchgate.net/profile/Ron-Kohavi?\_sg%5B0%5D=KBUqquLoynrhBwAqI\_hp8wiKzS-W7Y8npX533S7mGEz7X8c4nWcZep29ODkgRMRuswnUi5k.FWiITiqXkv15UR3ZCISxP6b6HoRRWHVmgakVys2SaHRGCG5XCLLpGOWG3mTL6OfpsVKgugtvIZ9wPma-9Um2nQ&\_sg%5B1%5D=MURYtShQOHcQBzbrQ5lD4YiDb2Jja-MkN3DecJYDloUHA4q3RgO9v\_LmMEbwkwGEY42idms.PWKAwFNObu6SMB3PUsd91Wg7eNATWgIWXtZNZguBktjkQHx6dNnXtHBRSaDmHZo9STzqyKdchUOlIPlZ0ZO9nA), [Alex Deng](https://www.researchgate.net/profile/Alex-Deng-2?\_sg%5B0%5D=KBUqquLoynrhBwAqI\_hp8wiKzS-W7Y8npX533S7mGEz7X8c4nWcZep29ODkgRMRuswnUi5k.FWiITiqXkv15UR3ZCISxP6b6HoRRWHVmgakVys2SaHRGCG5XCLLpGOWG3mTL6OfpsVKgugtvIZ9wPma-9Um2nQ&\_sg%5B1%5D=MURYtShQOHcQBzbrQ5lD4YiDb2Jja-MkN3DecJYDloUHA4q3RgO9v\_LmMEbwkwGEY42idms.PWKAwFNObu6SMB3PUsd91Wg7eNATWgIWXtZNZguBktjkQHx6dNnXtHBRSaDmHZo9STzqyKdchUOlIPlZ0ZO9nA), [Ya Xu](https://www.researchgate.net/scientific-contributions/Ya-Xu-2010104340?\_sg%5B0%5D=KBUqquLoynrhBwAqI\_hp8wiKzS-W7Y8npX533S7mGEz7X8c4nWcZep29ODkgRMRuswnUi5k.FWiITiqXkv15UR3ZCISxP6b6HoRRWHVmgakVys2SaHRGCG5XCLLpGOWG3mTL6OfpsVKgugtvIZ9wPma-9Um2nQ&\_sg%5B1%5D=MURYtShQOHcQBzbrQ5lD4YiDb2Jja-MkN3DecJYDloUHA4q3RgO9v\_LmMEbwkwGEY42idms.PWKAwFNObu6SMB3PUsd91Wg7eNATWgIWXtZNZguBktjkQHx6dNnXtHBRSaDmHZo9STzqyKdchUOlIPlZ0ZO9nA), [Toby Walker](https://www.researchgate.net/profile/Toby-Walker?\_sg%5B0%5D=KBUqquLoynrhBwAqI\_hp8wiKzS-W7Y8npX533S7mGEz7X8c4nWcZep29ODkgRMRuswnUi5k.FWiITiqXkv15UR3ZCISxP6b6HoRRWHVmgakVys2SaHRGCG5XCLLpGOWG3mTL6OfpsVKgugtvIZ9wPma-9Um2nQ&\_sg%5B1%5D=MURYtShQOHcQBzbrQ5lD4YiDb2Jja-MkN3DecJYDloUHA4q3RgO9v\_LmMEbwkwGEY42idms.PWKAwFNObu6SMB3PUsd91Wg7eNATWgIWXtZNZguBktjkQHx6dNnXtHBRSaDmHZo9STzqyKdchUOlIPlZ0ZO9nA)
-3. [(unread) a/b testing ](https://booking.ai/theres-more-to-experimentation-than-a-b-223fba846876)
-4. [Contextual bandits](https://drive.google.com/file/d/1EiLlajcSanTE19BOFKOTOlzHJxYSxz7w/view) via [personalization in practice](https://booking.ai/personalization-in-practice-2bb4bc680eb3) -&#x20;
-5. [Book - bandit algorithms](https://tor-lattimore.com/downloads/book/book.pdf)
-6. [Bayesian a/b testing](https://towardsdatascience.com/why-you-should-switch-to-bayesian-a-b-testing-364557e0af1a)
-7. (youtube) [Lukas Vermeer: Democratizing Online Controlled Experiments at Booking.com - ELITE CAMP 2018](https://www.youtube.com/watch?v=z81SxsmSfFo)
-8. (Paper) [Top Challenges from the first Practical Online Controlled Experiments Summit](https://www.kdd.org/exploration\_files/June\_2019\_-\_2.TopChallengesInPracticalOnlineControlledExperiments\_.pdf) - "Online controlled experiments (OCEs), also known as A/B tests, have become ubiquitous in evaluating the impact of changes made to software products and services. While the concept of online controlled experiments is simple, there are many practical challenges in running OCEs at scale. To understand the top practical challenges in running OCEs at scale and encourage further academic and industrial exploration, representatives with experience in large-scale experimentation from thirteen different organizations (Airbnb, Amazon, Booking.com, Facebook, Google, LinkedIn, Lyft, Microsoft, Netflix, Twitter, Uber, Yandex, and Stanford University) were invited to the first Practical Online Controlled Experiments Summit. All thirteen organizations sent representatives. Together these organizations have tested more than one hundred thousand experiment treatments last year. Thirty-four experts from these organizations participated in the summit in Sunnyvale, CA, USA on December 13-14, 2018. While there are papers from individual organizations on some of the challenges and pitfalls in running OCEs at scale, this is the first paper to provide the top challenges faced across the industry for running OCEs at scale and some common solutions"
-9. (book) [modern epidemiology](https://www.stata.com/bookstore/modern-epidemiology/) - has a/b testing
-10. [Challenges, Best Practices and Pitfalls in Evaluating Results of Online Controlled Experiments](https://sites.google.com/view/kdd2019-exp-evaluation/) - A/B Testing is the gold standard to estimate the causal relationship between a change in a product and its impact on key outcome measures. It is widely used in the industry to test changes ranging from simple copy change or UI change to more complex changes like using machine learning models to personalize user experience. The key aspect of A/B testing is evaluation of experiment results. Designing the right set of metrics - correct outcome measures, data quality indicators, guardrails that prevent harm to business, and a comprehensive set of supporting metrics to understand the “why” behind the key movements is the #1 challenge practitioners face when trying to scale their experimentation program. On the technical side, improving sensitivity of experiment metrics is a hard problem and an active research area, with large practical implications as more and more small and medium size businesses are trying to adopt A/B testing and suffer from insufficient power. In this tutorial we will discuss challenges, best practices, and pitfalls in evaluating experiment results, focusing on both lessons learned and practical guidelines as well as open research questions.\
-
-
-    Slides:
-
-    * [Part I. Introduction](https://drive.google.com/file/d/13rq3KeqCdsM5EiNcr7jWbphc0wWw12sX/view?usp=sharing)
-    * [Part II. Best Practices](https://drive.google.com/file/d/1q3uf0Voe0oi7aPyxpPoqYxL2Ie\_Vtqnk/view?usp=sharing)
-11. ****[**Increasing experimentation accuracy and speed by using control variates**](https://codeascraft.com/2021/06/02/increasing-experimentation-accuracy-and-speed-by-using-control-variates/) **-** In this article, we share details about our team’s journey to bring the statistical method known as CUPED to Etsy, and how it is now helping other teams make more informed product decisions, as well as shorten the duration of their experiments by up to 20%. We offer some perspectives on what makes such a method possible, what it took us to implement it at scale, and what lessons we have learned along the way.
-12. (Microsoft) [Why Tenant-Randomized A/B Test is Challenging and Tenant-Pairing May Not Work](https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/why-tenant-randomized-a-b-test-is-challenging-and-tenant-pairing-may-not-work/)
-13. (good) [How to Double A/B Testing Speed with CUPED](https://towardsdatascience.com/how-to-double-a-b-testing-speed-with-cuped-f80460825a90) **-** Microsoft’s variance reduction that’s becoming industry standard. "Controlled-experiment Using Pre-Existing Data (CUPED) is a variance reduction technique created by [Microsoft in 2013](https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf). Since then, it has been implemented at [Netflix](https://www.kdd.org/kdd2016/papers/files/adp0945-xieA.pdf), [Booking.com](https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d), [BBC](https://medium.com/bbc-data-science/increasing-experiment-sensitivity-through-pre-experiment-variance-reduction-166d7d00d8fd), and many others.
-
-    In short, CUPED uses pre-experiment data to control for natural variation in an experiment’s north star metric. Be removing natural variation, we can run statistical tests that require a smaller sample size. CUPED can be added to virtually any A/B testing framework; it’s computationally efficient and fairly straightforward to code."
-14. (Netflix) [Improving the Sensitivity of Online Controlled Experiments: Case Studies at Netflix](https://www.kdd.org/kdd2016/papers/files/adp0945-xieA.pdf)
-15. (Booking) [How Booking.com increases the power of online experiments with CUPED](https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d), [comment](https://medium.com/@drsimonj/yes-cuped-could-be-used-like-regression-methods-to-adjust-for-confounders-71c951234fcf)
-16. (BBC) [Increasing experimental power with variance reduction at the BBC ](https://medium.com/bbc-data-science/increasing-experiment-sensitivity-through-pre-experiment-variance-reduction-166d7d00d8fd)- This article discusses how the Experimentation team have been accounting for pre-experiment variance in order to increase the statistical power of their experiments
-17. (TripAdvisor) (good)  [Reducing A/B test measurement variance by 30%+](https://www.tripadvisor.com/engineering/reducing-a-b-test-measurement-variance-by-30/)
-18. (medium) [practitioner guide to ](https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f)
-19. Hubspot
-    1. [Howto Do A/B Testing: 15 Steps for the Perfect Split Test](https://blog.hubspot.com/marketing/how-to-do-a-b-testing)
-    2. [Sample size calculation](https://blog.hubspot.com/marketing/email-a-b-test-sample-size-testing-time)
-20. [statistical tests](https://vkteam.medium.com/practitioners-guide-to-statistical-tests-ed2d580ef04f)
-21. Vidhya on&#x20;
-    1. [A/B Testing Measurement Frameworks  -  Every Data Scientist Should Know](https://www.analyticsvidhya.com/blog/2021/03/a-b-testing-measurement-frameworks%E2%80%8A-%E2%80%8Aevery-data-scientist-should-know/)
-    2. [A/B Testing for Data Science using Python – A Must-Read Guide for Data Scientists](https://www.analyticsvidhya.com/blog/2020/10/ab-testing-data-science/)
-22. (Yandex)  - [Online Evaluation for Effective Web Service Development](https://research.yandex.com/tutorials/online-evaluation/kdd-2018)
-
-![](<../.gitbook/assets/image (4).png>)
-
-#### A/B Testing Tools
-
-1. [R-shiny Tool](https://towardsdatascience.com/cuped-r-shiny-tool-7a4869d77f0a)
-2. [contextualbandits.com](https://www.contextualbandits.com) - adapt your creative according to context and outcomes automatically without A/B-sitting your campaigns.
-
-Factorial Design
-
-1. [wiki](https://en.wikipedia.org/wiki/Factorial\_experiment)
 

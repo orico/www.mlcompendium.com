@@ -1,11 +1,6 @@
-# Data Engineering
+# Tools
 
-Concepts:
 
-1. [Slowly Changing Dimensions (SCD)](https://adatis.co.uk/introduction-to-slowly-changing-dimensions-scd-types/) by adatis - what can you do when the information in your table changes, types 0-6. Image by Adatis.co.uk.\
-   ![](<../../.gitbook/assets/image (17).png>)
-
-Tools
 
 1. [Debezium](https://debezium.io) - an open source distributed platform for change data capture
 2. [Hudi](https://hudi.apache.org) - "Hudi is a rich platform to build streaming data lakes with incremental data pipelines on a self-managing database layer, while being optimized for lake engines and regular batch processing."
@@ -19,7 +14,4 @@ Tools
 7. [Stitch](https://www.stitchdata.com) - Stitch rapidly moves data from 130+ sources into a data warehouse so you can get to answers faster, no coding required.
 8. [SnowPlow](https://snowplowanalytics.com) - Generate [complete, accurate and well-structured event data](https://snowplowanalytics.com/web-and-mobile-data/) across all platforms and channels in a common format, with the Snowplow Behavioral Data Platform.
 9. [Workato](https://www.workato.com) - A SINGLE PLATFORM FOR INTEGRATION & WORKFLOW AUTOMATION ACROSS YOUR ORGANIZATION
-10. [AWS Deequ](https://aws.amazon.com/blogs/big-data/test-data-quality-at-scale-with-deequ/) - Test data quality at scale\
-
-
-&#x20;
+10. [AWS Deequ](https://aws.amazon.com/blogs/big-data/test-data-quality-at-scale-with-deequ/) - Test data quality at scale

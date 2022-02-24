@@ -55,47 +55,33 @@
 * [Timeseries](timeseries.md)
 * [Fourier Transform](fourier-transform.md)
 * [Digital Signal Processing (DSP)](digital-signal-processing-dsp.md)
-
-## Natural Language Processing
-
-* [Natural Language Programming (Many Topics)](natural-language-processing/nlp.md)
-* [String Matching](natural-language-processing/string-matching.md)
-* [Name Matching](natural-language-processing/name-matching.md)
-
-## Graphs
-
-* [Graph Theory](graphs/graph-theory.md)
-* [Social Network Analysis](graphs/social-network-analysis.md)
-
-## Deep Learning
-
-* [Deep Neural Nets](deep-learning/deep-neural-nets.md)
-* [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
-* [Deep Neural Audio](deep-learning/deep-neural-audio.md)
-
-## Business Domains
-
-* [Growth](business-domains/growth.md)
-* [Root Cause Effects (RCE/RCA)](business-domains/root-cause-effects-rce-rca.md)
-* [Log Parsing / Templatization](business-domains/templatization.md)
-* [Fraud Detection](business-domains/fraud-detection.md)
-
-## Additional DS Skills
-
-* [Expanding Your Data Science Skills](additional-ds-skills/expanding-your-data-science-skills.md)
-* [Full-Stack & Ops](additional-ds-skills/full-stack-and-ops.md)
-* [Business](additional-ds-skills/business.md)
-* [Product Management](additional-ds-skills/product-management.md)
-* [User Experience Design (UX)](additional-ds-skills/user-experience-design-ux.md)
-* [Marketing](additional-ds-skills/marketing.md)
-
-***
-
-* [Humor](humor.md)
-
-## Data Engineering
-
-* [Data Pipelines](data-engineering/data-pipelines.md)
-* [Data Engineering](data-engineering/data-engineering.md)
-* [Lakes & Warehouses](data-engineering/lakes-and-warehouses.md)
-* [Data Engineering Questions & Training](data-engineering/data-engineering-questions-and-training.md)
+* [Natural Language Processing](natural-language-processing/README.md)
+  * [Natural Language Programming (Many Topics)](natural-language-processing/nlp.md)
+  * [Name Matching](natural-language-processing/name-matching.md)
+  * [String Matching](natural-language-processing/string-matching.md)
+* [Graphs](graphs/README.md)
+  * [Graph Theory](graphs/graph-theory.md)
+  * [Social Network Analysis](graphs/social-network-analysis.md)
+* [Deep Learning](deep-learning/README.md)
+  * [Deep Neural Nets](deep-learning/deep-neural-nets.md)
+  * [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
+  * [Deep Neural Audio](deep-learning/deep-neural-audio.md)
+* [Experimental Design](experimental-design/README.md)
+  * [A/B Testing](experimental-design/a-b-testing.md)
+  * [Factorial Design](experimental-design/factorial-design.md)
+* [Business Domains](business-domains/README.md)
+  * [Growth](business-domains/growth.md)
+  * [Root Cause Effects (RCE/RCA)](business-domains/root-cause-effects-rce-rca.md)
+  * [Log Parsing / Templatization](business-domains/templatization.md)
+  * [Fraud Detection](business-domains/fraud-detection.md)
+* [MLOPs Engineering](mlops-engineering/README.md)
+  * [Literature](mlops-engineering/literature.md)
+  * [Design Patterns](mlops-engineering/design-patterns.md)
+  * [Full-Stack & Ops](mlops-engineering/full-stack-and-ops.md)
+  * [MLOps](mlops-engineering/mlops.md)
+* [Data Engineering](data-engineering/README.md)
+  * [Patterns](data-engineering/patterns.md)
+  * [Tools](data-engineering/tools.md)
+  * [Lakes & Warehouses](data-engineering/lakes-and-warehouses.md)
+  * [Data Pipelines](data-engineering/data-pipelines.md)
+  * [Data Engineering Questions & Training](data-engineering/data-engineering-questions-and-training.md)
