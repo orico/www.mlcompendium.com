@@ -1,0 +1,6 @@
+# Follow the regularized leader
+
+1. [FTRL the paper](https://static.googleusercontent.com/media/research.google.com/en/pubs/archive/41159.pdf) by McMahan et al.
+2. [FTRL](https://www.quora.com/What-is-an-intuitive-explanation-of-Follow-the-Regularized-Leader-FTRL-algorithm) by nicolo compolongo - "The “Follow the Regularized Leader” algorithm stems from the online learning setting, where the learning process is sequential. In this setting, an online player makes a decision in every round and suffers a loss."
+3. [A thorough medium article](https://medium.com/@dhirajreddy13/factorization-machines-and-follow-the-regression-leader-for-dummies-7657652dce69) by dhiraj reddy
+4. [Keras on FTRL](https://keras.io/api/optimizers/ftrl/) - ""Follow The Regularized Leader" (FTRL) is an optimization algorithm developed at Google for click-through rate prediction in the early 2010s. It is most suitable for shallow models with large and sparse feature spaces. The algorithm is described by [McMahan et al., 2013](https://research.google.com/pubs/archive/41159.pdf). The Keras version has support for both online L2 regularization (the L2 regularization described in the paper above) and shrinkage-type L2 regularization (which is the addition of an L2 penalty to the loss function)."
