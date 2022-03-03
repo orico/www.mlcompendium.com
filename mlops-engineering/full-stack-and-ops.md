@@ -6,6 +6,7 @@
 2. [**Circle CI**](https://circleci.com)
 3. [**TeamCity**](https://www.jetbrains.com/teamcity/)
 4. [**Jenkins**](https://www.jenkins.io)
+5. Github Actions
 
 ### **PACKAGE REPOSITORIES**
 
@@ -211,13 +212,8 @@
 4. [**Scaling ML on the cloud**](https://towardsdatascience.com/scalable-efficient-big-data-analytics-machine-learning-pipeline-architecture-on-cloud-4d59efc092b5)
 5. [**Dapr**](https://github.com/dapr/dapr) **is a portable, serverless, event-driven runtime that makes it easy for developers to build resilient, stateless and stateful microservices that run on the cloud and edge and embraces the diversity of languages and developer frameworks.**
 
-**Dapr codifies the best practices for building microservice applications into open, independent, building blocks that enable you to build portable applications with the language and framework of your choice. Each building block is independent and you can use one, some, or all of them in your application.**
-
-1.
-
-###
-
-### ****
+**Dapr codifies the best practices for building microservice applications into open, independent, building blocks that enable you to build portable applications with the language and framework of your choice. Each building block is independent and you can use one, some, or all of them in your application.**\
+****
 
 #### **EXPERIMENT MANAGEMENT**
 
@@ -272,4 +268,14 @@
    1. [**Aws sagemaker**](https://docs.databricks.com/applications/mlflow/model-examples.html#scikit-learn-model-deployment-on-sagemaker)
    2. [**Medium**](https://towardsdatascience.com/a-different-way-to-deploy-a-python-model-over-spark-2da4d625f73e) **and sklearn random trees**
 6. [**How to productionalize your model using db spark 2.0 on youtube**](https://databricks.com/session/how-to-productionize-your-machine-learning-models-using-apache-spark-mllib-2-x)
+
+### API GATEWAY
+
+1. [what is](https://www.javatpoint.com/introduction-to-api-gateways)
+
+### NGINX
+
+1. ****[**NGINX**](https://www.nginx.com/resources/glossary/nginx/) is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
+2. Cloudflare on [what is a reverse proxy](https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/)
+3. "[**One advantage of using NGINX as an API gateway** ](https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1/#:\~:text=One%20advantage%20of%20using%20NGINX,deploy%20a%20separate%20API%20gateway.)is that it can perform that role while simultaneously acting as a reverse proxy, load balancer, and web server for existing HTTP traffic. If NGINX is already part of your application delivery stack then it is generally unnecessary to deploy a separate API gateway"
 
