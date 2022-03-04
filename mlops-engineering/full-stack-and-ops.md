@@ -179,7 +179,7 @@
 
 ### **SnowFlake / Redshift**
 
-1. **Snoflake** [**Intro and demo**](https://www.youtube.com/watch?v=dUL8GO4ZK9s)
+1. **Snowflake** [**Intro and demo**](https://www.youtube.com/watch?v=dUL8GO4ZK9s)
 2. [**The three pillars - snowflake**](https://towardsdatascience.com/why-you-need-to-know-snowflake-as-a-data-scientist-d4e5a87c2f3d)
 3. [**Snowflake vs redshift on medium**](https://towardsdatascience.com/redshift-or-snowflake-e0e3ea427dbc)
 4. [**SF vs RS**](https://www.xplenty.com/blog/redshift-vs-snowflake/)
