@@ -31,3 +31,8 @@
 ## Use Cases
 
 1. [Hunters on their architecture](https://www.youtube.com/watch?v=S78gCJ3tdc4), airflow, snowflake, snowpipe, flink, rockdb, cluster optimization during ingestion, monitoring metrics, cost.
+
+## Snowflake
+
+1. [(good) Guides ](https://www.snowflake.com/guides/)
+2. [getting started with SF tasks](https://medium.com/snowflake/getting-started-with-snowflake-tasks-945ecd54c77b) - sql or procedures, schedules, B-tree tasks.
