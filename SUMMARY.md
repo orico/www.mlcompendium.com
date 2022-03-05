@@ -83,6 +83,7 @@
   * [Full-Stack & Ops](mlops-engineering/full-stack-and-ops.md)
   * [MLOps](mlops-engineering/mlops.md)
 * [Data Engineering](data-engineering/README.md)
+  * [SQL](data-engineering/sql.md)
   * [Patterns](data-engineering/patterns.md)
   * [Tools](data-engineering/tools.md)
   * [Lakes & Warehouses](data-engineering/lakes-and-warehouses.md)
