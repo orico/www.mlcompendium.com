@@ -23,6 +23,9 @@
 
 ## Career development
 
+1. [development plan for managers](https://www.indeed.com/career-advice/career-development/development-plan-for-managers#:\~:text=What%20is%20a%20development%20plan,specific%20function%20within%20an%20organization.)
+2. [for junior DS](https://medium.com/@mbsahar4/my-development-plan-as-a-junior-data-scientist-ec3c68a2b641)
+
 ## **Books**&#x20;
 
 1. **People management**

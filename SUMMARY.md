@@ -85,7 +85,7 @@
   * [Design Patterns](mlops-engineering/design-patterns.md)
   * [Full-Stack & Ops](mlops-engineering/full-stack-and-ops.md)
   * [MLOps](mlops-engineering/mlops.md)
-  * [MLOps Monitoring & Alerts](mlops-engineering/mlops-monitoring-and-alerts.md)
+  * [MLOps Monitoring & Alerts](mlops-monitoring-and-alerts.md)
 * [Data Engineering](data-engineering/README.md)
   * [SQL](data-engineering/sql.md)
   * [Patterns](data-engineering/patterns.md)
