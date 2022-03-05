@@ -62,6 +62,7 @@ This article provides an overview of TDSP and its main components. We provide a 
     ![](https://lh6.googleusercontent.com/TUBCkjRcavVYjzKkg8aqqsU8Z8Eeogznm9uRIO5mS\_2Hl7lr0MbZGZYy9UFsN0eJ1eAi0by6\_R0CHEqK2IY\_HIVpItxneKpgEsuREH8FFfC5nLKaqQ7Q\_aTFhPJ1bQEP936Ysn0c)
 
     **by** [**Uri Weiss**](https://linkedin.com/in/uriweiss)**. wrong credits?** [**please contact me**](mailto:ori@oricohen.com)**.**
+5. ****[**ML practices for a DS**](https://se-ml.github.io)****
 
 ### **Team Building / Group Cohesion**&#x20;
 
