@@ -1,5 +1,9 @@
 # Benchmarking
 
+## Algorithms
+
+1. [scikit bench](https://github.com/IntelPython/scikit-learn\_bench) - "scikit-learn\_bench benchmarks various implementations of machine learning algorithms across data analytics frameworks. It currently support the scikit-learn, DAAL4PY, cuML, and XGBoost frameworks for commonly used machine learning algorithms."
+
 **Numpy Blas:**
 
 1. [**How do i know which version of blas is installed**](https://stackoverflow.com/questions/37184618/find-out-if-which-blas-library-is-used-by-numpy)
