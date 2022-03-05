@@ -1,4 +1,4 @@
-# Examples
+# NYC TAXI
 
 ### [**NYC taxi pickup problem** ](http://www.vivekchoksi.com/papers/taxi\_pickups.pdf)
 
@@ -13,13 +13,4 @@
 ****
 
 **\*\*\*\* with regression prediction it's best to create dummy variables (i.e., binary variables - exist or doesn't exist) from numeric variables, such as grid\_number to grid\_1, grid\_2 etc..**\
-****\
 ****
-
-### **SURVIVAL ANALYSIS**
-
-1. **A good** [**introduction**](http://www.stat.columbia.edu/\~madigan/W2025/notes/survival.pdf) **for Survival Analysis**
-
-### &#x20;**PROPAGANDA**
-
-1. [**medium**](https://medium.com/@jihwangk/fine-grained-propaganda-detection-and-classification-with-bert-dfad4acaa321)
