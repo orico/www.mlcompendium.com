@@ -105,6 +105,7 @@ You may notice the similarity between these two procedures. In fact, k-means is 
 4. [elbow and mean silhouette](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/#elbow-method),&#x20;
 5. [elbow on medium using mean distance per cluster from the center](https://towardsdatascience.com/what-is-k-ddf36926a752)
 6. [Kneed a library to find the knee in a curve](https://github.com/arvkevi/kneed)
+   1. [how to?](https://stackoverflow.com/questions/47623915/how-to-detect-in-real-time-a-knee-elbow-maximal-curvature-in-a-curve)
 
 ### KNN
 
