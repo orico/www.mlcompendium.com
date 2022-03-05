@@ -77,6 +77,7 @@
   * [Root Cause Effects (RCE/RCA)](business-domains/root-cause-effects-rce-rca.md)
   * [Log Parsing / Templatization](business-domains/templatization.md)
   * [Fraud Detection](business-domains/fraud-detection.md)
+  * [Life Time Value (LTV)](business-domains/life-time-value-ltv.md)
 * [MLOPs Engineering](mlops-engineering/README.md)
   * [Literature](mlops-engineering/literature.md)
   * [Design Patterns](mlops-engineering/design-patterns.md)
