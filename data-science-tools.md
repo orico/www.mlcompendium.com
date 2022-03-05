@@ -190,14 +190,6 @@ Also Insanely fast, [see here](https://www.youtube.com/watch?v=5Zf6DQaf7jk).
 
 [Resize google disk size](https://medium.com/google-cloud/resize-your-persist-disk-on-google-cloud-on-the-fly-b3491277b718), [1,](https://cloud.google.com/compute/docs/disks/add-persistent-disk) \*\*\[2]\([https://www.cloudbooklet.com/how-to-resize-disk-of-a-vm-instance-in-google-cloud/](https://www.cloudbooklet.com/how-to-resize-disk-of-a-vm-instance-in-google-cloud/)),\*\*
 
-## SQL
-
-1. [Introduction, index, keys, joins, aliases etc.](https://www.youtube.com/watch?v=nWeW3sCmD2k), [newer](https://www.youtube.com/watch?v=9ylj9NR0Lcg)
-2. [Sql cheat sheet](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3)
-3. [Primary key](https://www.eukhost.com/blog/webhosting/whats-the-purpose-use-primary-foreign-keys/)
-4. [Foreign key, a key constraint that is included in the primary key allowed values](https://www.1keydata.com/sql/sql-foreign-key.html)
-5. [Index, i.e., book index for fast reading](https://www.tutorialspoint.com/sql/sql-indexes.htm)
-
 ## GIT / Bitbucket
 
 1. [understanding git](https://learngitbranching.js.org)
