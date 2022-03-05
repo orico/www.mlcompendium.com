@@ -128,8 +128,13 @@ M. Hardt, E. Price and N. Srebro (2016), Equality of Opportunity in Supervised L
    5. [Stackoverflow example, predicting tags, pandas keras etc](https://stackoverflow.blog/2019/05/06/predicting-stack-overflow-tags-with-googles-cloud-ai/)
    6. [Intro to shapely and shap](https://towardsdatascience.com/a-new-perspective-on-shapley-values-an-intro-to-shapley-and-shap-6f1c70161e8d?)
    7. [Fiddler on shap](https://medium.com/fiddlerlabs/case-study-explaining-credit-modeling-predictions-with-shap-2a7b3f86ec12)
-   8. [Shapash - a web app for Lime and shap. ](https://github.com/MAIF/shapash)
-5. SHAP advanced
+5. Shapash
+   1. [a web app for Lime and shap. ](https://github.com/MAIF/shapash)
+   2. [using shapash for confidence on XAI.](https://towardsdatascience.com/building-confidence-on-explainability-methods-66b9ee575514) using 3 new metrics
+      1. Consistency - _do different explainability methods give, on average, similar explanations?_
+      2. Stability - _for similar instances, are the explanations similar?_&#x20;
+      3. Compacity - do fewer features drive the model?
+6. SHAP advanced
    1. [Official shap tutorial on their plots, you can never read this too many times.](https://slundberg.github.io/shap/notebooks/plots/decision\_plot.html)
    2. [What are shap values on kaggle](https://www.kaggle.com/dansbecker/shap-values) - whatever you do start with this
    3. [Shap values on kaggle #2](https://www.kaggle.com/dansbecker/advanced-uses-of-shap-values) - continue with this
