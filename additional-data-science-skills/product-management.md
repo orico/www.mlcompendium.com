@@ -58,7 +58,12 @@ This list was compiled thanks to [Sefi Keller](https://www.linkedin.com/in/sefik
 
 [Visual vocabulary for product building - lots of theory and figures](https://productlogic.org/2014/09/13/the-product-triangle-a-visual-vocabulary-for-product-building/)
 
-[Dau, mau, stickiness, wau, wau stickiness, cac, etc](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)\
+[Dau, mau, stickiness, wau, wau stickiness, cac, etc](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
+
+### OUTCOMES
+
+1. [output vs outcomes a product mind set](https://medium.com/product-management-in-minutes/output-vs-outcome-a-product-mindset-499735230ce)
+2. [outcomes vs outputs ](https://medium.com/is-that-product-management/product-management-by-outcomes-vs-outputs-45acdefd1efd)\
 
 
 ### NORTH STAR METRIC
