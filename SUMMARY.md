@@ -69,6 +69,7 @@
   * [DOE Tools](experimental-design/doe-tools.md)
   * [A/B Testing](experimental-design/a-b-testing.md)
   * [Factorial Design](experimental-design/factorial-design.md)
+* [Page 1](page-1.md)
 * [Business Domains](business-domains/README.md)
   * [Follow the regularized leader](business-domains/follow-the-regularized-leader.md)
   * [Growth](business-domains/growth.md)
