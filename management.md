@@ -32,12 +32,7 @@
 
     > “Organizations not only need to strive for autonomous teams, they also need to continuously think about and evolve themselves in order to deliver value quickly to customers” — _Team Topologies_
 
-    \
-
-
 \[1] Book: Skelton, Matthew, and Manuel Pais. Team Topologies: Organizing Business and Technology Teams for Fast Flow. IT Revolution Press, 2019.
-
-
 
 ## Working with partners
 
