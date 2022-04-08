@@ -15,6 +15,24 @@
 
 ## Building Teams
 
+1. Conway's law "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations."
+2. [team topologies](https://teamtopologies.com), [youtube](https://www.youtube.com/c/TeamTopologies/videos)
+   1. [key concepts](https://teamtopologies.com/key-concepts)&#x20;
+   2. DS are "Complicated Subsystem team: Phd Level, great expertise, in depth knowledge.&#x20;
+   3. feature teams are "Stream-aligned team"
+   4. enabling teams help bridge the gap in knowledge for feature teams, such as architecture
+   5. platform team - providing a platform to speed up feature teams.
+3. [team topologies article](https://www.scaledagileframework.com/organizing-agile-teams-and-arts-team-topologies-at-scale/) - A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge in order to understand and make changes to the subsystem. \[1]
+4. [atlassian ](https://www.atlassian.com/devops/frameworks/team-structure)- "it's important to understand that not every team shares the same goals, or will use the same practices and tools. Even the way a team is composed shouldn’t be standardized. Different teams require different structures, depending on the greater context of the company and its appetite for change. "
+5. [good article](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) that talks about conway's law and team topologies by mark mishaev
+   1.  quote 1  "The goal of this team is to reduce the cognitive load of stream-aligned teams working on systems that include or use the complicated subsystem. The team handles the subsystem complexity via specific capabilities and expertise that are typically hard to find or grow.
+
+       Examples of complicated subsystems might include face-recognition algorithms, machine learning approaches, real-time devices drivers, digital signal processing, or any other expertise-based capability that would be hard to embed directly within the stream-aligned team"
+
+\[1] Book: Skelton, Matthew, and Manuel Pais. Team Topologies: Organizing Business and Technology Teams for Fast Flow. IT Revolution Press, 2019.
+
+
+
 ## Working with partners
 
 ## Culture building
