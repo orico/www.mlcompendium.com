@@ -141,7 +141,11 @@ Asking the right questions and asking the client why are they leaving
 [https://productcoalition.com/how-i-formulate-and-use-my-product-requirement-docs-c52692564d0e](https://productcoalition.com/how-i-formulate-and-use-my-product-requirement-docs-c52692564d0e)\
 
 
-### TOOLS
+### Tools
 
 1. [Customer data platform (cdp) vs crm dmp](https://econsultancy.com/what-is-a-customer-data-platform-how-is-it-different-from-a-dmp-or-crm/)
 2. [Mixpanel vs Amplitude](https://mcgaw.io/blog/mixpanel-vs-amplitude/)
+
+### Product managers&#x20;
+
+1. [the AI PM](https://emerj.com/ai-executive-guides/ai-product-manager/)
