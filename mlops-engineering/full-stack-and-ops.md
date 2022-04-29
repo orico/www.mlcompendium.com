@@ -51,7 +51,6 @@
 * [**Compose**](https://docs.docker.com/compose/) **- run multi coker applications.**
 * [**Docker on ubuntu, tutorial**](https://medium.com/fundbox-engineering/overview-d3759e83969c)
 * [**Containerize your ds environment using docker compose**](https://towardsdatascience.com/containerize-your-whole-data-science-environment-or-anything-you-want-with-docker-compose-e962b8ce8ce5) **- Docker-Compose is simply a tool that allows you to describe a collection of multiple containers that can interact via their own network in a very straight forward way,**&#x20;
-* ****[**docker for data science**](https://aoyilmaz.medium.com/docker-in-data-science-and-a-friendly-beginner-to-docker-186fafdfbdeb)****
 
 ### **Kubernetes**
 

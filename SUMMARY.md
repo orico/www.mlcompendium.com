@@ -53,6 +53,7 @@
 * [Timeseries](timeseries.md)
 * [Fourier Transform](fourier-transform.md)
 * [Digital Signal Processing (DSP)](digital-signal-processing-dsp.md)
+* [Propensity Score Matching](propensity-score-matching.md)
 * [Natural Language Processing](natural-language-processing/README.md)
   * [Natural Language Processing (Many Topics)](natural-language-processing/nlp.md)
   * [Name Matching](natural-language-processing/name-matching.md)
