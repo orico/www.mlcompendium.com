@@ -17,7 +17,7 @@
 
 1. A great :P [unit test and logging](https://towardsdatascience.com/unit-testing-and-logging-for-data-science-d7fb8fd5d217?fbclid=IwAR3pze0DtV-2Q4L4ysPyjrInk7LB89mdiodxlEUTv4rv37ZoDzl\_2I4ZbgA) post on medium - it’s actually mine :)
 2. A mind blowing [lecture](https://www.youtube.com/watch?v=1fHGXOfiDO0\&feature=youtu.be\&fbclid=IwAR1bKByLgdYBDoBEr-e6Pw0Un5o0wvOg1yp4C-q4AoWZ1QuBEopTFFn0Gdw) about unit testing your data using Voluptuous & engrade & TDDA lecture
-3. [Great expectations](https://greatexpectations.io), [article](https://github.blog/2020-10-01-keeping-your-data-pipelines-healthy-with-the-great-expectations-github-action/), “TDDA” for Unit tests and CI
+3. [Great expectations](https://greatexpectations.io), [article](https://github.blog/2020-10-01-keeping-your-data-pipelines-healthy-with-the-great-expectations-github-action/), “TDDA” for Unit tests and CI, [Youtube](https://www.youtube.com/watch?v=uM9DB2ca8T8)
 4. [DataProfiler git](https://github.com/capitalone/DataProfiler)
 5. [Unit tests in python](https://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/)
 6. [Unit tests in python - youtube](https://www.youtube.com/watch?v=6tNS--WetLI)
