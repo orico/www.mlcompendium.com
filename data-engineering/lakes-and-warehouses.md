@@ -36,3 +36,4 @@
 
 1. [(good) Guides ](https://www.snowflake.com/guides/)
 2. [getting started with SF tasks](https://medium.com/snowflake/getting-started-with-snowflake-tasks-945ecd54c77b) - sql or procedures, schedules, B-tree tasks.
+3. [cost](https://www.phdata.io/blog/what-is-the-snowflake-data-cloud/)
