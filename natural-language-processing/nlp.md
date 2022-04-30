@@ -1,4 +1,4 @@
-# Natural Language Programming (Many Topics)
+# Natural Language Processing (Many Topics)
 
 ### **NLP - a reality check**
 
@@ -485,7 +485,7 @@
 
     This is the official code accompanying a paper on the [Hebrew Psychological Lexicons](https://www.aclweb.org/anthology/2021.clpsych-1.6.pdf) was presented at CLPsych 2021.
 
-![Summary Hebrew Psych Lexicon](<../.gitbook/assets/image (10).png>)
+![Summary Hebrew Psych Lexicon](<../.gitbook/assets/image (11).png>)
 
 **Reference papers:**
 

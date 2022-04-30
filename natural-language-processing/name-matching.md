@@ -12,7 +12,7 @@
 1. [first and last name dataset](https://github.com/philipperemy/name-dataset), facebook 533M records, philippe remy
 2. [data.world name datasets](https://data.world/datasets/names)
 3. [Kaggle](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-most-common-name-dataset/version/108), Name datasets, by fivethirtyeight\
-   ![](<../.gitbook/assets/image (16).png>)
+   ![](<../.gitbook/assets/image (20).png>)
 4. [gender by name dataset](https://archive.ics.uci.edu/ml/datasets/Gender+by+Name)
 5. [paper](http://www.lrec-conf.org/proceedings/lrec2008/pdf/291\_paper.pdf) - a ground truth dataset for matching coltural diverse romanized person names
 
@@ -21,4 +21,4 @@
 1. [Dedupe](https://www.reddit.com/r/datasets/comments/4zrozk/request\_name\_matching\_dataset/) - a python library for accurate and scalable fuzzy matching record deduplication and entity resolution
 2. [name](https://github.com/bradhackinen/nama) - fast flexible name matching for large datasets
 3. [name matcher](https://github.com/athenianco/names-matcher) by athenianco\
-   ![](<../.gitbook/assets/image (13) (1).png>)
+   ![](<../.gitbook/assets/image (15).png>)

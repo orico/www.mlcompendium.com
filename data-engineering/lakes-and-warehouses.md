@@ -14,11 +14,11 @@
 
 1.  [Data Lake vs Data Warehouse](https://www.talend.com/resources/data-lake-vs-data-warehouse/)
 
-    ![](<../.gitbook/assets/image (12) (1) (1).png>)
+    ![](<../.gitbook/assets/image (21).png>)
 2. [Top 5 differences between DL & DWH](https://www.bluegranite.com/blog/bid/402596/top-five-differences-between-data-lakes-and-data-warehouses)
 3.  [Amazon on DL vs DWH](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)
 
-    ![](<../.gitbook/assets/image (13) (1) (1) (1).png>)
+    ![](<../.gitbook/assets/image (25).png>)
 4.  [Snowflake vs Delta Lake vs Fire Bolt](https://www.firebolt.io/blog/snowflake-vs-databricks-vs-firebolt) - "Databricks Delta Lake and Delta Engine is a lakehouse. You choose it as a data lake, and for data lakehouse-based workloads including ELT for data warehouses, data science and machine learning, even static reporting and dashboards if you don’t mind the performance difference and don’t have a data warehouse.\
 
 
