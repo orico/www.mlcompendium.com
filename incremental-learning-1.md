@@ -7,13 +7,12 @@
 
 ### **Q-LEARN**
 
-* **Markov chain problem, \(state, action, new state, reward\)**
-* **Lots of Exploration in the beginning, then exploitation** 
+* **Markov chain problem, (state, action, new state, reward)**
+* **Lots of Exploration in the beginning, then exploitation**&#x20;
 * **Returns optimal policy.**
-* **Refer to youtube** [**here**](https://www.youtube.com/watch?v=9m_6q_KECTk)
+* **Refer to youtube** [**here**](https://www.youtube.com/watch?v=9m\_6q\_KECTk)
 
 ### **Deep Learning**
 
 1. [**A review paper about RL in DL**](https://arxiv.org/pdf/1701.07274.pdf)
-2. [deep Q-learning](https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/) 
-
+2. [deep Q-learning](https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/)\

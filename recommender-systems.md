@@ -6,10 +6,10 @@
 4. [**Tfidf cosine similarity**](https://towardsdatascience.com/recommender-engine-under-the-hood-7869d5eab072)**,** [**countvec cosine**](https://www.datacamp.com/community/tutorials/recommender-systems-python)
 5. [**Various implementations of CF**](https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0)**, a serious review of algorithms**
 6. [**Collaborative filtering, SVD**](https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75)
-7. [**Part1,**](https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75) ****[**Spotlight, item2vec, Neural nets for Recommender systems**](https://towardsdatascience.com/introduction-to-recommender-system-part-2-adoption-of-neural-network-831972c4cbf7)
+7. [**Part1,**](https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75) **** [**Spotlight, item2vec, Neural nets for Recommender systems**](https://towardsdatascience.com/introduction-to-recommender-system-part-2-adoption-of-neural-network-831972c4cbf7)
 8. [**A general tutorial, has a nice intro**](https://www.datacamp.com/community/tutorials/recommender-systems-python)
-9. **Medium on Movies** 
-   1. **Part 1** [**matrix factorization in movies, users vs movies.**](https://towardsdatascience.com/fast-ai-season-1-episode-5-1-movie-recommendation-using-fastai-a53ed8e41269)[ ****](https://towardsdatascience.com/fast-ai-season-1-episode-5-2-collaborative-filtering-from-scratch-1877640f514a)
+9. **Medium on Movies**&#x20;
+   1. **Part 1** [**matrix factorization in movies, users vs movies.**](https://towardsdatascience.com/fast-ai-season-1-episode-5-1-movie-recommendation-using-fastai-a53ed8e41269)[ **** ](https://towardsdatascience.com/fast-ai-season-1-episode-5-2-collaborative-filtering-from-scratch-1877640f514a)
    2. [**Part 2 using collaborative filtering**](https://towardsdatascience.com/fast-ai-season-1-episode-5-2-collaborative-filtering-from-scratch-1877640f514a) **using open ai**
    3. [**Part 3 using col-filtering with neural nets**](https://towardsdatascience.com/fast-ai-season-1-episode-5-3-collaborative-filtering-using-neural-network-48e49d7f9b36)
 10. **Medium series on collaborative filtering and embeddings** [**Part 1**](https://towardsdatascience.com/collaborative-filtering-and-embeddings-part-1-63b00b9739ce)**,** [**part 2**](https://towardsdatascience.com/collaborative-filtering-and-embeddings-part-2-919da17ecefb)**,** [**git**](https://github.com/shik3519/collaborative-filtering)
@@ -31,4 +31,3 @@
 2. [**Grover prince**](https://github.com/groverpr/Machine-Learning) **,** [**related article**](https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0)
 
 [**Recsys**](https://github.com/ocelma/python-recsys) **git**
-
