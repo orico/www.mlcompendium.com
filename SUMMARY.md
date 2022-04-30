@@ -70,6 +70,7 @@
   * [DOE Tools](experimental-design/doe-tools.md)
   * [A/B Testing](experimental-design/a-b-testing.md)
   * [Factorial Design](experimental-design/factorial-design.md)
+* [Page 1](page-1.md)
 * [Additional Data Science Skills](additional-data-science-skills/README.md)
   * [Expanding Your Data Science Skills](additional-data-science-skills/expanding-your-data-science-skills.md)
   * [Product Management](additional-data-science-skills/product-management.md)
