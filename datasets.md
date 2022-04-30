@@ -9,7 +9,7 @@
 
 1. [Various Bias types](https://queue.acm.org/detail.cfm?id=3466134) by queue.acm
 
-![](<.gitbook/assets/image (18).png>)
+![](<.gitbook/assets/image (12) (1).png>)
 
 1. [Overfitting your test set, a statistican view point, a great article](https://lukeoakdenrayner.wordpress.com/2019/09/19/ai-competitions-dont-produce-useful-models/?fbclid=IwAR1WM5U7imq-2LFPifyCoTPp-MFwPoGROMLr2TZWAp41qgVeLdT-\_2bkLyk\&blogsub=confirming#subscribe-blog), bottom line use bonferroni correction.
 2.  Understanding what is the next stage in DL (& ML) algorithm development: basic approach - [Andrew NG](https://www.youtube.com/watch?v=F1ka6a13S9I) on youtube

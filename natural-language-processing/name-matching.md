@@ -21,4 +21,4 @@
 1. [Dedupe](https://www.reddit.com/r/datasets/comments/4zrozk/request\_name\_matching\_dataset/) - a python library for accurate and scalable fuzzy matching record deduplication and entity resolution
 2. [name](https://github.com/bradhackinen/nama) - fast flexible name matching for large datasets
 3. [name matcher](https://github.com/athenianco/names-matcher) by athenianco\
-   ![](<../.gitbook/assets/image (15).png>)
+   ![](<../.gitbook/assets/image (13) (1).png>)
