@@ -80,7 +80,7 @@
   * [Business](product/business.md)
   * [Marketting](product/marketting.md)
   * [Humor](product/humor.md)
-* [Business Domains](business-domains/README.md)
+* [Business Domains For Data Science](business-domains/README.md)
   * [Follow the regularized leader](business-domains/follow-the-regularized-leader.md)
   * [Growth](business-domains/growth.md)
   * [Root Cause Effects (RCE/RCA)](business-domains/root-cause-effects-rce-rca.md)
