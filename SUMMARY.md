@@ -97,6 +97,7 @@
   * [Full-Stack & Ops](mlops-engineering/full-stack-and-ops.md)
   * [MLOps](mlops-engineering/mlops.md)
   * [MLOps Monitoring & Alerts](mlops-engineering/mlops-monitoring-and-alerts.md)
+* [Model Formats](model-formats.md)
 * [Data Engineering](data-engineering/README.md)
   * [SQL](data-engineering/sql.md)
   * [Patterns](data-engineering/patterns.md)

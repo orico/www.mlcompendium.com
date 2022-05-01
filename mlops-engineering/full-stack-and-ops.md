@@ -25,14 +25,6 @@
 
 ![](https://lh3.googleusercontent.com/-q3xPZ\_ASRimnV37VYLqPZxoKFSQPKSrkIQdnBHaxCPOkP9rTZT7t-6n98Zp4NKwG8QuuFNlk4omZv234Dx8QrBohcVzh7kLoiOwYmfHF5skCBKt6q8zRaHZrn2r481i3QXzr7hH)
 
-### [PMML ](http://www.kdnuggets.com/faq/pmml.html)
-
-\- an XML file that describes a ML model that is transferable between applications.
-
-* [PMML](http://dmg.org/pmml/v4-3/GeneralStructure.html) uses XML to represent mining models.
-* The structure of the models is described by an XML Schema.&#x20;
-* One or more mining models can be contained in a PMML document
-
 ### [Cap theorem](https://towardsdatascience.com/cap-theorem-and-distributed-database-management-systems-5c2be977950e)
 
 * [Cap](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/) 2015
