@@ -38,18 +38,31 @@ This article provides an overview of TDSP and its main components. We provide a 
 ### **STACK**
 
 1. [**Medium on canonical stack**](https://towardsdatascience.com/rise-of-the-canonical-stack-in-machine-learning-724e7d2faa75)
+2.
+
+### **Data Science OKR KPI**
+
+1. [**OKR vs KPI**](https://www.clearpointstrategy.com/okrs-vs-kpis/)**, strategic vs tactical**
+2. [**Difference between KPI targets and goals**](https://bernardmarr.com/default.asp?contentID=1346#:\~:text=The%20terms%20key%20performance%20indicator,NOT%20the%20same%20as%20goals.)
+3. [**Comet ml on medium**](https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1)
+
+![by Cecelia Shao Comet ml](https://lh6.googleusercontent.com/GCeELl5VNGKVhpmNZoG9miSeX4ZrzjtzkZsdRm5\_hCkfXOj7IVmKi\_h0siSRdd511x\_7R4-5z3BiqPHojlySEtQ38giPRdozYeeYKGEo0GDTy2jH-TFNDcGP4F8Cxzp5U9t8ATyf)
+
+1. [**For the Data Driven manager (not ds)**](https://www.klipfolio.com/blog/17-kpi-management-data-driven-manager)
+2. [**Measuring DS business value**](https://blog.dominodatalab.com/measuring-data-science-business-value/)
+3. [**Best KPIS for DS - the best is what not to do**](https://www.quora.com/What-are-the-best-KPIs-for-Data-Science-team)
 
 ### **Being a DS / Researcher**
 
 1. [**A day in a life**](https://towardsdatascience.com/12-things-i-learned-during-my-first-year-as-a-machine-learning-engineer-2991573a9195)
 2. [**Advice for a ds**](https://medium.com/the-data-experience/building-a-data-pipeline-from-scratch-32b712cfb1db)**, business kpi are not research kpi, etc**
-3. [**Review of deep learning papers and co authorship**](https://neurovenge.antonomase.fr/)
+3. [**Review of deep learning papers and co authorship**](https://neurovenge.antonomase.fr)
 4.  **Full stack DS** [**Uri Weiss**](https://linkedin.com/in/uriweiss)
 
     ![](https://lh6.googleusercontent.com/TUBCkjRcavVYjzKkg8aqqsU8Z8Eeogznm9uRIO5mS\_2Hl7lr0MbZGZYy9UFsN0eJ1eAi0by6\_R0CHEqK2IY\_HIVpItxneKpgEsuREH8FFfC5nLKaqQ7Q\_aTFhPJ1bQEP936Ysn0c)
 
     **by** [**Uri Weiss**](https://linkedin.com/in/uriweiss)**. wrong credits?** [**please contact me**](mailto:ori@oricohen.com)**.**
-5. ****[**ML practices for a DS**](https://se-ml.github.io/)****
+5. ****[**ML practices for a DS**](https://se-ml.github.io)****
 
 ### **Team Building / Group Cohesion**&#x20;
 
@@ -81,7 +94,7 @@ This article provides an overview of TDSP and its main components. We provide a 
 
 1. [**ICLR 2019**](https://huyenchip.com/2019/05/12/top-8-trends-from-iclr-2019.html?fbclid=IwAR28Ez8Hs-XMSxcQb2NHfLQvZ5m4C8b4NIZPue00u6MZzrlI90Oqx8TExuU)
 2. [**Medium**](https://medium.com/huggingface/the-best-and-most-current-of-modern-natural-language-processing-5055f409a1d1?fbclid=IwAR22vuGFXHil1Nz4vJr4uhueiKPRMz2T-BSwPXl8kg5iQZ54ppHe5ffecqI)
-3. [**State of ai, a yearly report**](https://www.stateof.ai/)
+3. [**State of ai, a yearly report**](https://www.stateof.ai)
 
 ### **Building Data/DS teams**
 
@@ -98,7 +111,7 @@ This article provides an overview of TDSP and its main components. We provide a 
 * [**Mitchel ML Lectures (too long)**](http://www.cs.cmu.edu/\~ninamf/courses/601sp15/lectures.shtml)
 * [**Quoc Les (google) wrote DNN tutorials and 3H video (not intuitive)**](http://cs.stanford.edu/\~quocle/)
 * [**KDnuggets: numpy, panda, scikit, tutorials.**](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html)
-* [**Deep learning online book (too wordy)**](http://neuralnetworksanddeeplearning.com/)
+* [**Deep learning online book (too wordy)**](http://neuralnetworksanddeeplearning.com)
 * [**Genetic Algorithms - grid search hyper params better than brute force.. obviously**](https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164)
 *
 * [**CNN tutorial**](http://mccormickml.com/2015/01/10/understanding-the-deeplearntoolbox-cnn-example/)
@@ -133,7 +146,7 @@ This article provides an overview of TDSP and its main components. We provide a 
 5. lena [voita](https://lena-voita.github.io/nlp\_course.html)
 
 [\
-](https://spacy.io/usage/spacy-101https://www.machinelearningplus.com/nlp/gensim-tutorial/https://radimrehurek.com/gensim/auto\_examples/https://realpython.com/nltk-nlp-python/https://www.tutorialspoint.com/natural\_language\_toolkit/index.htmhttps://github.com/RaRe-Technologies/gensim/tree/develop/docs/notebookshttps://github.com/yandexdataschool/nlp\_coursehttps:/lena-voita.github.io/nlp\_course.htmlhttps://github.com/fchollet/deep-learning-with-python-notebooks)
+](https://spacy.io/usage/spacy-101https://www.machinelearningplus.com/nlp/gensim-tutorial/https://radimrehurek.com/gensim/auto\_examples/https://realpython.com/nltk-nlp-python/https://www.tutorialspoint.com/natural\_language\_toolkit/index.htmhttps://github.com/RaRe-Technologies/gensim/tree/develop/docs/notebookshttps://github.com/yandexdataschool/nlp\_coursehttps://lena-voita.github.io/nlp\_course.htmlhttps://github.com/fchollet/deep-learning-with-python-notebooks)
 
 
 

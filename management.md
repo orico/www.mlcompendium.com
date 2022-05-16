@@ -5,17 +5,17 @@
 1. [Metrics vs KRs](https://www.perdoo.com/resources/the-difference-between-metrics-kpis-key-results/) - boils down to a starting value.
 2. [OKRs vs KPIs](https://medium.com/@meetfelipe/okr-vs-kpis-what-is-the-difference-ffa54673fcf1) by filipe castro, [1](https://weekdone.com/okr-comparison/okr-vs-kpi), [2](https://www.wrike.com/blog/kpis-vs-okrs-compare-need-successful/), [3](https://www.whatmatters.com/resources/difference-between-okr-kpi)
 
-### **Data Science OKR KPI**
+### Data Science OKR KPI
 
-1. [**OKR vs KPI**](https://www.clearpointstrategy.com/okrs-vs-kpis/)**, strategic vs tactical**
-2. [**Difference between KPI targets and goals**](https://bernardmarr.com/default.asp?contentID=1346)
-3. [**Comet ml on medium**](https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1)
+1. [OKR vs KPI](https://www.clearpointstrategy.com/okrs-vs-kpis/), strategic vs tactical
+2. [Difference between KPI targets and goals](https://bernardmarr.com/default.asp?contentID=1346)
+3. [Comet ml on medium](https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1)
 
 ![by Cecelia Shao Comet ml](https://lh6.googleusercontent.com/GCeELl5VNGKVhpmNZoG9miSeX4ZrzjtzkZsdRm5\_hCkfXOj7IVmKi\_h0siSRdd511x\_7R4-5z3BiqPHojlySEtQ38giPRdozYeeYKGEo0GDTy2jH-TFNDcGP4F8Cxzp5U9t8ATyf)
 
-1. [**For the Data Driven manager (not ds)**](https://www.klipfolio.com/blog/17-kpi-management-data-driven-manager)
-2. [**Measuring DS business value**](https://blog.dominodatalab.com/measuring-data-science-business-value/)
-3. [**Best KPIS for DS - the best is what not to do**](https://www.quora.com/What-are-the-best-KPIs-for-Data-Science-team)
+1. [For the Data Driven manager (not ds)](https://www.klipfolio.com/blog/17-kpi-management-data-driven-manager)
+2. [Measuring DS business value](https://blog.dominodatalab.com/measuring-data-science-business-value/)
+3. [Best KPIS for DS - the best is what not to do](https://www.quora.com/What-are-the-best-KPIs-for-Data-Science-team)
 
 ## Management
 
