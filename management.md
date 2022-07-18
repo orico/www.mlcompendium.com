@@ -51,6 +51,13 @@
 
 \[1] Book: Skelton, Matthew, and Manuel Pais. Team Topologies: Organizing Business and Technology Teams for Fast Flow. IT Revolution Press, 2019.
 
+## Scaling Agile - Organizational Structures
+
+1. The spotify "model" - squads tribes chapters guilds&#x20;
+   1. [failed squad goals](https://www.jeremiahlee.com/posts/failed-squad-goals/), listen on [spotify](https://anchor.fm/jeremiah-oral-lee/episodes/Spotifys-Failed-SquadGoals-edia0p)
+2. ["shape up"](https://basecamp.com/shapeup?ref=JeremiahLee) book (under 200)
+3. [SAFe](https://www.scaledagileframework.com/?ref=JeremiahLee) 5 - scaled agile framework
+
 ## Working with partners
 
 ## Culture building
