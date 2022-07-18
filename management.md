@@ -45,7 +45,15 @@
    1.  Quote  "The goal of this team is to reduce the cognitive load of stream-aligned teams working on systems that include or use the complicated subsystem. The team handles the subsystem complexity via specific capabilities and expertise that are typically hard to find or grow.
 
        Examples of complicated subsystems might include face-recognition algorithms, machine learning approaches, real-time devices drivers, digital signal processing, or any other expertise-based capability that would be hard to embed directly within the stream-aligned team"
-6.  [another good article](https://betterprogramming.pub/your-team-structures-aint-working-let-s-apply-team-topologies-470e8d4f7fe5) by Ryan Dawson
+6.  &#x20;[team patterns building an eng team](https://www.kennethlange.com/team-patterns-how-to-structure-an-engineering-team/) by Kenneth Lange - an alternative to team topologies?
+
+    "In my experience there are four general team patterns that most companies follow. Yes, they have tweaked them to fit their circumstances, but the overall idea behind the pattern remains the same:
+
+    1. **Technology Team:** The team is formed around a technology, such as Android. For example, a team of mobile developers who build and maintain a mobile app.
+    2. **Matrix Team:** The developers report to a Development Manager, but they are “lend out” to cross-functional product or project teams where they do their daily work.
+    3. **Product Team:** The team is oriented around a product area, such as billing. It’s cross-functional, but all people on the team, regardless of their specialization, report to the same line manager.
+    4. **Self-Managed Product Team:** The team is oriented around a product area. But the management of the team is divided into technical leadership, typically handled by an Engineering Lead on the team, and people management, typically handled by an Engineering Manager outside the team."
+7.  [another good article](https://betterprogramming.pub/your-team-structures-aint-working-let-s-apply-team-topologies-470e8d4f7fe5) by Ryan Dawson
 
     > “Organizations not only need to strive for autonomous teams, they also need to continuously think about and evolve themselves in order to deliver value quickly to customers” — _Team Topologies_
 
@@ -54,7 +62,27 @@
 ## Scaling Agile - Organizational Structures
 
 1. The spotify "model" - squads tribes chapters guilds&#x20;
-   1. [failed squad goals](https://www.jeremiahlee.com/posts/failed-squad-goals/), listen on [spotify](https://anchor.fm/jeremiah-oral-lee/episodes/Spotifys-Failed-SquadGoals-edia0p)
+   1. [Scaling agile snapshot 2012](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)
+   2. [Scaling Agile at Spotify](https://www.youtube.com/watch?v=SUR9q\_Qcrk4) 2014 - Joakim Sunden and Anders Ivarsson
+   3. [inside Spotify by Andres Ivarsson](https://theagilerevolution.com/2016/07/06/episode-112-inside-spotify-with-anders-ivarsson/) (spotify) 2016
+   4. Spotify eng culture [p1](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/) [p2](https://engineering.atspotify.com/2014/09/spotify-engineering-culture-part-2/) 2014 [youtube](https://www.youtube.com/watch?v=4GK1NDTWbkY) 2017 by Henrik Kniberg
+   5. [Spotify engineering colture](https://www.youtube.com/watch?v=4GK1NDTWbkY) 2017 youtube
+   6. [how things dont work in spotify and we are trying to solve them](https://www.slideshare.net/jchyip/how-things-still-dont-quite-work-at-spotify-and-how-were-trying-to-solve-it) 2017 and [youtube](https://www.youtube.com/watch?v=VZMf8QJmB98)
+   7.  [you can do better than the spotify model](https://agile2017.sched.com/event/ATal/you-can-do-better-than-the-spotify-model-joakim-sunden-catherine-peck-phillips?ref=JeremiahLee), [video](https://vimeo.com/240125835) - agile 2017 - Joakim Sundén
+
+       "Spotify is used as a framework/model copied by others, but Spotify's model isn't without challenges even for Spotify
+
+       Encouragement that it's always hard AND it's always possible to improve
+
+       It's great to be inspired by others but at the end of the day you need to face your difficulties and solve your problems yourself
+
+       You can succeed with autonomy by never giving up; it comes with challenges and benefits"
+   8. [failed squad goals](https://www.jeremiahlee.com/posts/failed-squad-goals/) 2020, listen on [spotify](https://anchor.fm/jeremiah-oral-lee/episodes/Spotifys-Failed-SquadGoals-edia0p), [blowback response](https://www.jeremiahlee.com/posts/failed-squad-goals/comments/)
+   9. [there is no spotify model for scaling agile](https://vitalitychicago.com/blog/there-is-no-spotify-model-for-scaling-agile/)
+   10. [spotify model sucks](https://www.linkedin.com/pulse/spotify-sucks-erwin-verweij/) by erwin verweij
+   11. [how to structure eng team](https://www.linkedin.com/pulse/how-structure-engineering-team-scale-yotam-hadass) by yotam hadas
+   12. [spotify model - I dont think it means what you think it means](https://medium.com/serious-scrum/you-want-to-adopt-the-spotify-model-i-dont-think-it-means-what-you-think-it-means-7df4316081f) - "Don’t fool yourself and others. The Spotify engineering culture is NOT about their organisational structure. It is how people are allowed to determine what to do. It’s about autonomy. It’s about having a culture of safety. Among others. I advise you to revisit the videos so that you can experience it yourself." - Willem Jan Ageling
+   13. [balancing autonomy with accountability](https://www.scrum.org/resources/blog/balancing-autonomy-accountability) - edwin dando
 2. ["shape up"](https://basecamp.com/shapeup?ref=JeremiahLee) book (under 200)
 3. [SAFe](https://www.scaledagileframework.com/?ref=JeremiahLee) 5 - scaled agile framework
 
