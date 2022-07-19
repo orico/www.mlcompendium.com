@@ -1,6 +1,7 @@
 # MLOps
 
-1. [**Awesome MLOps**](https://github.com/visenger/awesome-mlops)
+1. [ML product lifecycle patterns ](https://towardsdatascience.com/understanding-ml-product-lifecycle-patterns-a39c18302452)
+2. [**Awesome MLOps**](https://github.com/visenger/awesome-mlops)
 
 ![Visenger](https://lh4.googleusercontent.com/6Dd5yQHT\_iJxIGqiCSmHLs5m4nVb4by\_ovEoBjrJTFcUoEvh7nmiNWpb84TJQcd5IWuSy5vElL6nFsXv5NkOKzo0Juc1ZVzX1jr3BWVgIrfhTIfGggSysNOZABG5-6h4vB8\_kQ9q)
 
@@ -16,3 +17,4 @@
 
 1. **Metaflow, medium** [**1**](https://medium.com/bigdatarepublic/a-review-of-netflixs-metaflow-65c6956e168d) **(high level review),** [**2**](https://medium.com/acing-ai/decoding-netflix-metaflow-2ad84b36199e) **(schema),** [**3**](https://medium.com/analytics-vidhya/metaflow-by-netflix-the-good-the-bad-and-the-ugly-b7fc6a833484)**,** [**\*\*4**](https://towardsdatascience.com/learn-metaflow-in-10-mins-netflixs-python-r-framework-for-data-scientists-2ef124c716e4) **(amazing),** [**5**](https://towardsdatascience.com/be-more-efficient-to-produce-machine-learning-pipeline-with-metaflow-db5f943ebbe7) **(extra),** [**6**](https://docs.metaflow.org/metaflow/data) **(loading and storing data docs!)**
 2. **HyperparameterHunter,** [**Hyperopt, mlflow, unit test, concept drifts, using python and kafka**](https://towardsdatascience.com/putting-ml-in-production-ii-logging-and-monitoring-algorithms-91f174044e4e)
+
