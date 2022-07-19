@@ -93,6 +93,7 @@
 ### Prefect
 
 * [A better airflow ](http://airflow)?
+* [ml workflows with prefect](https://www.youtube.com/watch?v=SP6WqCRUkNc)
 
 ### Seldon&#x20;
 
