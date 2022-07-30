@@ -106,4 +106,6 @@
   * [Data Pipelines](data-engineering/data-pipelines.md)
   * [Data Mesh](data-engineering/data-mesh.md)
   * [Data Product](data-engineering/data-product.md)
+  * [Data Strategy](data-engineering/data-strategy.md)
+  * [Data Governance](data-engineering/data-governance.md)
   * [Data Engineering Questions & Training](data-engineering/data-engineering-questions-and-training.md)
