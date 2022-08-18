@@ -4,7 +4,7 @@
 2. [Stitch vs Airflow vs Rivery](https://www.stitchdata.com/vs/airflow/rivery/)
 3. Rivery
 4. Fivertran
-
+5. [Hevo](https://hevodata.com/integrations/pipeline/) - Hevo is a Fully Automated, No-code Data Pipeline Platform that supports 150+ ready-to-use integrations across Databases, SaaS Applications, Cloud Storage, SDKs, and Streaming Services.
 
 
 ETL / ELT
