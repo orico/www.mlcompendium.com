@@ -1200,6 +1200,9 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 13. [**Speeding up BERT Search in Elasticsearch**](https://towardsdatascience.com/speeding-up-bert-search-in-elasticsearch-750f1f34f455) **- Neural Search in Elasticsearch: from vanilla to KNN to hardware acceleration**
 14. [**Ask Me Anything about Vector Search**](https://towardsdatascience.com/ask-me-anything-about-vector-search-4252a01f3889) **- In the Ask Me Anything: Vector Search! session Max Irwin and Dmitry Kan discussed major topics of vector search, ranging from its areas of applicability to comparing it to good ol’ sparse search (TF-IDF/BM25), to its readiness for prime time and what specific engineering elements need further tuning before offering this to users.**
 15. [**Search with BERT vectors in Solr and Elasticsearch**](https://github.com/DmitryKey/bert-solr-search) **- GitHub repository used for experiments with Solr and Elasticsearch using DBPedia abstracts comparing Solr, vanilla Elasticsearch, elastiknn enhanced Elasticsearch, OpenSearch, and GSI APU**
+16. [**Not All Vector Databases Are Made Equal**](https://towardsdatascience.com/milvus-pinecone-vespa-weaviate-vald-gsi-what-unites-these-buzz-words-and-what-makes-each-9c65a3bd0696) **- A detailed comparison of Milvus, Pinecone, Vespa, Weaviate, Vald, GSI and Qdrant**
+17. [**Vector Podcast**](https://dmitry-kan.medium.com/vector-podcast-e27d83ecd0be) **- Podcast hosted by Dmitry Kan, interviewing the makers in the Vector / Neural Search industry. Available on YouTube, Spotify, Apple Podcasts and RSS**
+18. [**Players in Vector Search: Video**](https://dmitry-kan.medium.com/players-in-vector-search-video-2fd390d00d6) **-Video recording and slides of the talk presented on London IR Meetup on the topic of players, algorithms, software and use cases in Vector Search**
 
 ### **TOOLS**
 
