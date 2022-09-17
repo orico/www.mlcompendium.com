@@ -125,6 +125,7 @@
 
 ### Kafka&#x20;
 
+* [Kafka 101 youtube](https://www.youtube.com/watch?v=j4bqyAMMb7o\&list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH)
 * [Web](https://kafka.apache.org/)
 * [Medium - really good short intro](https://medium.com/hacking-talent/kafka-all-you-need-to-know-8c7251b49ad0)
 * [Intro](https://medium.com/@jcbaey/what-is-apache-kafka-e9e73884e367), [Intro 2](https://medium.com/@patelharshali136/apache-kafka-tutorial-kafka-for-beginners-a58140cef84f),&#x20;
@@ -142,6 +143,10 @@ In addition to message routing simplicity, there are places where developers and
 * Intro [1](https://medium.com/@rinu.gour123/role-of-apache-zookeeper-in-kafka-monitoring-configuration-c5bd1a7e4226), [2-usecases](https://medium.com/@bikas.katwal10/zookeeper-introduction-designing-a-distributed-system-using-zookeeper-and-java-7f1b108e236e), [3\*](https://medium.com/@ben2460/about-apache-zookeeper-distributed-lock-1a990315e05c), [4](https://www.tutorialspoint.com/zookeeper/zookeeper\_overview.htm)
 * What is [1](https://medium.com/@gavindya/what-is-zookeeper-db8dfc30fc9b), [2](https://medium.com/rahasak/apache-zookeeper-31b2091657a8)
 * It is a [service discovery in a nutshell, kafka is using it to allow discovery, registration etc of services. So that customers can subscribe and get their publication. ](https://www.quora.com/What-is-ZooKeeper)
+
+### KSQLDB
+
+* KSQLDB 101 uses kafka streams to run queries over kafka, [youtube](https://www.youtube.com/watch?v=oThQzCXjuk4\&list=PLa7VYi0yPIH3ulxsOf5g43\_QiB-HOg5\_Y)
 
 ### ELK
 
