@@ -7,6 +7,9 @@
 3. [Some answers about what is OL,](https://www.quora.com/What-is-the-best-way-to-learn-online-machine-learning) the first one actually talks about S.Shalev’s [other paper.](http://www.cs.huji.ac.il/\~shais/papers/OLsurvey.pdf)
 4. Online learning - Andrew Ng - [coursera](https://www.coursera.org/learn/machine-learning/lecture/ABO2q/online-learning)
 5. [Chip Huyen on online prediction & learning](https://huyenchip.com/2020/12/27/real-time-machine-learning.html)
+6. [River](https://github.com/online-ml/river/) is a Python library for [online machine learning](https://www.wikiwand.com/en/Online\_machine\_learning)\
+   ![](../.gitbook/assets/image.png)
+7.
 
 ### Online Deep Learning (ODL)
 

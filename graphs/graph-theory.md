@@ -50,5 +50,5 @@
 
 ## Graph Tools
 
-1. [Graph-tool](https://graph-tool.skewed.de) is an efficient Python module for manipulation and statistical analysis of graphs
+1. [Graph-tool](https://graph-tool.skewed.de/) is an efficient Python module for manipulation and statistical analysis of graphs
 2. [NetworkX](https://github.com/networkx/networkx) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.\

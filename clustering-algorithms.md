@@ -1,6 +1,6 @@
 # Clustering Algorithms
 
-1. [Vidhya on clustering and methods](https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/)
+1. [Vidhya on clustering and methods](https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/?utm\_source=facebook.com)
 2. [KNN](https://www.youtube.com/watch?v=4ObVzTuFivY) [intuition 2](https://www.youtube.com/watch?v=UqYde-LULfs), [thorough explanation 3](https://towardsdatascience.com/introduction-to-k-nearest-neighbors-3b534bb11d26)  - classify a new sample by looking at the majority vote of its K-nearest neighbours. k=1 special case. Even amount of classes needs an odd K that is not a multiple of the amount of classes in order to break ties.&#x20;
 3. [Determinging the number of clusters, a comparison of several methods, elbow, silhouette etc](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/)
 4. [A good visual example of kmeans / gmm](https://medium.com/sfu-cspmp/distilling-gaussian-mixture-models-701fa9546d9)
@@ -112,7 +112,7 @@ You may notice the similarity between these two procedures. In fact, k-means is 
 1. [Nearpy](https://github.com/pixelogik/NearPy), knn in scale! On github
 2. [finding the optimal K](https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb)
 3. [Benchmark of nearest neighbours libraries](https://github.com/erikbern/ann-benchmarks/)
-4. [billion scale aprox nearest neighbour search](https://big-ann-benchmarks.com)
+4. [billion scale aprox nearest neighbour search](https://big-ann-benchmarks.com/)
 
 ### DBSCAN
 
@@ -123,7 +123,7 @@ You may notice the similarity between these two procedures. In fact, k-means is 
 5. [Custom DBSCAN  “predict”](https://stackoverflow.com/questions/27822752/scikit-learn-predicting-new-points-with-dbscan)
 6. [Haversine distances for](https://kanoki.org/2019/12/27/how-to-calculate-distance-in-python-and-pandas-using-scipy-spatial-and-distance-functions/) dbscan
 7. Optimized dbscans:
-   1. [muDBSCAN](https://githubmemory.com/repo/AdityaAS/MuDBSCAN), [paper](https://adityaas.github.io) - A fast, exact, and scalable algorithm for DBSCAN clustering. This repository contains the implementation for the distributed spatial clustering algorithm proposed in the paper μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality&#x20;
+   1. [muDBSCAN](https://githubmemory.com/repo/AdityaAS/MuDBSCAN), [paper](https://adityaas.github.io/) - A fast, exact, and scalable algorithm for DBSCAN clustering. This repository contains the implementation for the distributed spatial clustering algorithm proposed in the paper μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality&#x20;
    2. [Dbscan multiplex](https://github.com/GGiecold/DBSCAN\_multiplex) - A fast and memory-efficient implementation of DBSCAN (Density-Based Spatial Clustering of Applications with Noise).
    3. [Fast dbscan](https://github.com/harmslab/fast\_dbscan) - A lightweight, fast dbscan implementation for use on peptide strings. It uses pure C for the distance calculations and clustering. This code is then wrapped in python.
    4. [Faster dbscan paper](https://arxiv.org/pdf/1702.08607.pdf)
@@ -161,7 +161,7 @@ What are the algorithm’s [steps](http://nbviewer.jupyter.org/github/scikit-lea
 
 ### SVM CLUSTERING
 
-[Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2099486/#:\~:text=An%20SVM%2Dbased%20clustering%20algorithm,until%20an%20initial%20convergence%20occurs.)
+[Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2099486/)
 
 An SVM-based clustering algorithm is introduced that clusters data with no a priori knowledge of input classes.&#x20;
 

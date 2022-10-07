@@ -44,5 +44,5 @@
 #### A/B Testing Tools
 
 1. [R-shiny Tool](https://towardsdatascience.com/cuped-r-shiny-tool-7a4869d77f0a)
-2. [contextualbandits.com](https://www.contextualbandits.com) - adapt your creative according to context and outcomes automatically without A/B-sitting your campaigns.
+2. [contextualbandits.com](https://www.contextualbandits.com/) - adapt your creative according to context and outcomes automatically without A/B-sitting your campaigns.
 

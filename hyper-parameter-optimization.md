@@ -7,7 +7,7 @@
     ****\
     **Hyperopt has been designed to accommodate Bayesian optimization algorithms based on Gaussian processes and regression trees, but these are not currently implemented.**\
     ****\
-    **All algorithms can be run either serially, or in parallel by communicating via** [**MongoDB**](http://www.mongodb.org)**.**\
+    **All algorithms can be run either serially, or in parallel by communicating via** [**MongoDB**](http://www.mongodb.org/)**.**\
     ****\
     ****[**Mlflow, Hyperparameterhunter,hyperopt, concept drift, unit tests.**](https://towardsdatascience.com/putting-ml-in-production-ii-logging-and-monitoring-algorithms-91f174044e4e)****\
     ****[**Hyperopt**](http://hyperopt.github.io/hyperopt/) **for hyperparameter search**\

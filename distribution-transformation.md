@@ -48,7 +48,7 @@
 
 ![](https://lh4.googleusercontent.com/Vw2mhxsDDXw5qnI-WbQ7cCdeLW7TKQ\_A4KL95c6UhkvyCsOC4vO7AfqsvN1Uw32Mz1cR8bAtxUld4ui-v1mq74ICcPfQiSe1w1o5JTvhgox3urLj9t9ATAz\_d1RGQv94\_cO\_Ye3b)
 
-**Finally: An awesome** [**tutorial (dead),**](http://www.kmdatascience.com/2017/07/box-cox-transformations-in-python.html) **** [**here is a new one**](https://towardsdatascience.com/box-cox-transformation-explained-51d745e34203#:\~:text=scipy.stats.boxcox\(\),the%2095%25%20confidence%20interval\).) **in python with** [**code examples**](https://github.com/kentmacdonald2/Box-Cox-Transformation-Python-Example)**, there is also another code example** [**here**\
+**Finally: An awesome** [**tutorial (dead),**](http://www.kmdatascience.com/2017/07/box-cox-transformations-in-python.html) **** [**here is a new one**](https://towardsdatascience.com/box-cox-transformation-explained-51d745e34203) **in python with** [**code examples**](https://github.com/kentmacdonald2/Box-Cox-Transformation-Python-Example)**, there is also another code example** [**here**\
 ****](https://stackoverflow.com/questions/33944129/python-library-for-data-scaling-centering-and-box-cox-transformation)**“Simply pass a 1-D array into the function and it will return the Box-Cox transformed array and the optimal value for lambda. You can also specify a number, alpha, which calculates the confidence interval for that value. (For example, alpha = 0.05 gives the 95% confidence interval).”** \
 ****
 
@@ -70,8 +70,8 @@
 1. [**What is chi-square and what is a null hypothesis, and how do we calculate observed vs expected and check if we can reject the null and get significant difference.**](https://medium.com/greyatom/goodness-of-fit-using-chi-square-be5bba375caf)
 2. **Analytics vidhya**
    1. [**What is hypothesis testing** ](https://www.analyticsvidhya.com/blog/2015/09/hypothesis-testing-explained/)
-   2. [**Intro to t-tests analytics vidhya**](https://www.analyticsvidhya.com/blog/2019/05/statistics-t-test-introduction-r-implementation/) **- always good**
-   3. [**Anova analysis of variance**](https://www.analyticsvidhya.com/blog/2018/01/anova-analysis-of-variance/?fbclid=IwAR1lMhaoKevShaIDpNoRNPL-V7y\_LMscZSPG\_0Dp1qvCkhDoJgzyt4fMDKM)**, one way, two way, manova**
+   2. [**Intro to t-tests analytics vidhya**](https://www.analyticsvidhya.com/blog/2019/05/statistics-t-test-introduction-r-implementation/?utm\_source=facebook.com\&utm\_medium=social) **- always good**
+   3. [**Anova analysis of variance**](https://www.analyticsvidhya.com/blog/2018/01/anova-analysis-of-variance/?utm\_source=facebook.com\&utm\_medium=social\&fbclid=IwAR1lMhaoKevShaIDpNoRNPL-V7y\_LMscZSPG\_0Dp1qvCkhDoJgzyt4fMDKM)**, one way, two way, manova**
       1. &#x20;**if the means of two or more groups are significantly different from each other. ANOVA checks the impact of one or more factors by comparing the means of different samples.**
       2. **A one-way ANOVA tells us that at least two groups are different from each other. But it won’t tell us which groups are different.**
       3. **For such cases, when the outcome or dependent variable (in our case the test scores) is affected by two independent variables/factors we use a slightly modified technique called two-way ANOVA.**

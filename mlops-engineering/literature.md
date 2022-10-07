@@ -18,4 +18,4 @@
    2. [**git**](https://github.com/zedr/clean-code-python)
 8. [**Domain-Driven Design**](https://www.amazon.com/Domain-Driven-Design-Reference-Definitions-Summaries/dp/1457501198/ref=pd\_cart\_crc\_cko\_mrai\_1\_1/146-7136232-7217867?\_encoding=UTF8\&pd\_rd\_i=1457501198\&pd\_rd\_r=e0b19e54-c0c3-4ad1-abd0-eff99f815aee\&pd\_rd\_w=TP8KJ\&pd\_rd\_wg=ompBT\&pf\_rd\_p=77f3805b-bff9-40ee-9688-bcdb2cd9e197\&pf\_rd\_r=1WF281MJHVQYG506PTRX\&psc=1\&refRID=1WF281MJHVQYG506PTRX)
 9. [**The complete python course** ](https://www.packtpub.com/product/the-complete-python-course-video/9781839217289)
-10. [**pyVideo**](https://pyvideo.org)
+10. [**pyVideo**](https://pyvideo.org/)

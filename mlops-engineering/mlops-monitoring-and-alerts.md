@@ -13,7 +13,7 @@
 ### **Drift**
 
 1. [**Data & concept drifts**](https://deepchecks.com/how-to-monitor-ml-models-in-production/)**,** [**2**](https://www.explorium.ai/blog/understanding-and-handling-data-and-concept-drift/)
-2. **(good)** [**Inferring Concept Drift Without Labeled Data**](https://concept-drift.fastforwardlabs.com)**. also talks about stream-based drift by Cloudera - fast forward labs.**
+2. **(good)** [**Inferring Concept Drift Without Labeled Data**](https://concept-drift.fastforwardlabs.com/)**. also talks about stream-based drift by Cloudera - fast forward labs.**
 3. **Arize.ai**&#x20;
    1. **Data, concept,** [**feature drifts**](https://towardsdatascience.com/using-statistical-distance-metrics-for-machine-learning-observability-4c874cded78) **- various comparisons between train/prod/validation time windows, diff models, a/b testing etc.., and how to measure drifts**
    2. [**Model store, Feature store, evaluation store**](https://towardsdatascience.com/the-only-3-ml-tools-you-need-1aa750778d33)
@@ -29,13 +29,13 @@
 ### Tool Comparisons
 
 1. [State of MLOps](https://www.stateofmlops.com) (by me), [medium](https://towardsdatascience.com/mlops-monitoring-market-review-66904f0863bb) article, open-source [AirTable](https://airtable.com/shr4rfiuOIVjMhvhL).
-2. [MLOps.toys](https://mlops.toys) - A curated list of MLOps projects by [Aporia](https://aporia.com)
-3. [Neptune.AI](https://mlops.neptune.ai) MLOPS tools landscape
+2. [MLOps.toys](https://mlops.toys/) - A curated list of MLOps projects by [Aporia](https://aporia.com)
+3. [Neptune.AI](https://mlops.neptune.ai/) MLOPS tools landscape
 4. [Twimlai](https://twimlai.com/solutions/) ML AI solutions
 5. [Ambiata](https://www.ambiata.com/blog/2020-12-07-mlops-tools/) how to choose the best MLOps tools
 6. [Lakefs](https://lakefs.io/the-state-of-data-engineering-in-2021/) on the state of data engineering - has monitoring and observability inside
 7. [The NLP Pandec](https://github.com/ivan-bilan/The-NLP-Pandect#mlops-for-nlp) - MLOps for NLP
-8. [ml-ops.org](https://ml-ops.org)
+8. [ml-ops.org](https://ml-ops.org/)
 9. [Awesome production ML](https://github.com/EthicalML/awesome-production-machine-learning/)
 
-![Awesome production ML](../.gitbook/assets/image.png)
+![Awesome production ML](<../.gitbook/assets/image (7).png>)

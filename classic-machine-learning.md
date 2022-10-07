@@ -120,7 +120,7 @@
    5. **Bayesian networks**
    6. **Markov networks**
    7. **Factor graphs**
-4. [**GHMM with python wrappers**](http://ghmm.org)**,**
+4. [**GHMM with python wrappers**](http://ghmm.org/)**,**
 5. [**Hmms**](https://github.com/lopatovsky/HMMs) **(old)**
 
 **HMM (**[**what is? And why HIDDEN?)**](https://youtu.be/jY2E6ExLxaw?t=27m38s) **- the idea is that there are things that you CAN OBSERVE and there are things that you CAN'T OBSERVE. From the things you OBSERVE you want to INFER the things you CAN'T OBSERVE (HIDDEN). I.e., you play against someone else in a game, you don't see their choice of action, but you see the result.**\

@@ -153,10 +153,10 @@ Finally, When in doubt, use k-fold cross validation (k=10) and use multiple runs
 
 ### VARIOUS DATASETS
 
-1. [26 of them](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/)
+1. [26 of them](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/?utm\_source=facebook.com\&utm\_medium=social)
 2. [24](https://lionbridge.ai/datasets/25-best-parallel-text-datasets-for-machine-translation-training/)
 3. [Eu-](https://datarepository.wolframcloud.com/resources/Europarl-English-Spanish-Machine-Translation-Dataset-V7)es, [2](https://data.europa.eu/euodp/en/data/dataset/elrc\_339)
-4. 50K -  [ModelDepot](https://modeldepot.io) alone has over 50,000 freely accessible pre-trained models with search functionality to
+4. 50K -  [ModelDepot](https://modeldepot.io/) alone has over 50,000 freely accessible pre-trained models with search functionality to
 5.
 
 ### IMBALANCED DATASETS
