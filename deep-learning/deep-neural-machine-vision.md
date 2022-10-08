@@ -39,7 +39,7 @@
 25. [**A Brief History of CNNs in Image Segmentation: From R-CNN to Mask R-CNN**](https://blog.athelas.com/a-brief-history-of-cnns-in-image-segmentation-from-r-cnn-to-mask-r-cnn-34ea83205de4)**, 2017.**
 26. [**Object Detection for Dummies Part 3: R-CNN Family**](https://lilianweng.github.io/lil-log/2017/12/31/object-recognition-for-dummies-part-3.html)**, 2017.**
 27. [**Object Detection Part 4: Fast Detection Models**](https://lilianweng.github.io/lil-log/2018/12/27/object-detection-part-4.html)**, 2018.**
-28. [**Ikea ASM**](https://ikeaasm.github.io)
+28. [**Ikea ASM**](https://ikeaasm.github.io/)
 29.
 
 ### **RECOGNITION**

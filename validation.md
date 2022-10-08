@@ -17,7 +17,7 @@
 
 1. A great :P [unit test and logging](https://towardsdatascience.com/unit-testing-and-logging-for-data-science-d7fb8fd5d217?fbclid=IwAR3pze0DtV-2Q4L4ysPyjrInk7LB89mdiodxlEUTv4rv37ZoDzl\_2I4ZbgA) post on medium - it’s actually mine :)
 2. A mind blowing [lecture](https://www.youtube.com/watch?v=1fHGXOfiDO0\&feature=youtu.be\&fbclid=IwAR1bKByLgdYBDoBEr-e6Pw0Un5o0wvOg1yp4C-q4AoWZ1QuBEopTFFn0Gdw) about unit testing your data using Voluptuous & engrade & TDDA lecture
-3. [Great expectations](https://greatexpectations.io), [article](https://github.blog/2020-10-01-keeping-your-data-pipelines-healthy-with-the-great-expectations-github-action/), “TDDA” for Unit tests and CI, [Youtube](https://www.youtube.com/watch?v=uM9DB2ca8T8)
+3. [Great expectations](https://greatexpectations.io/), [article](https://github.blog/2020-10-01-keeping-your-data-pipelines-healthy-with-the-great-expectations-github-action/), “TDDA” for Unit tests and CI, [Youtube](https://www.youtube.com/watch?v=uM9DB2ca8T8)
 4. [DataProfiler git](https://github.com/capitalone/DataProfiler)
 5. [Unit tests in python](https://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/)
 6. [Unit tests in python - youtube](https://www.youtube.com/watch?v=6tNS--WetLI)
@@ -39,12 +39,12 @@
 
 ### FAIRNESS, ACCOUNTABILITY & TRANSPARENCY ML
 
-1. FATML [website](https://www.fatml.org) - The past few years have seen growing recognition that machine learning raises novel challenges for ensuring non-discrimination, due process, and understandability in decision-making. In particular, policymakers, regulators, and advocates have expressed fears about the potentially discriminatory impact of machine learning, with many calling for further technical research into the dangers of inadvertently encoding bias into automated decisions.
+1. FATML [website](https://www.fatml.org/) - The past few years have seen growing recognition that machine learning raises novel challenges for ensuring non-discrimination, due process, and understandability in decision-making. In particular, policymakers, regulators, and advocates have expressed fears about the potentially discriminatory impact of machine learning, with many calling for further technical research into the dangers of inadvertently encoding bias into automated decisions.
 
 At the same time, there is increasing alarm that the complexity of machine learning may reduce the justification for consequential decisions to “the algorithm made me do it.”
 
 1. [Principles and best practices](https://www.fatml.org/resources/principles-and-best-practices), [projects](https://www.fatml.org/resources/relevant-projects)
-2. [FAccT](https://facctconference.org) - A computer science conference with a cross-disciplinary focus that brings together researchers and practitioners interested in fairness, accountability, and transparency in socio-technical systems.
+2. [FAccT](https://facctconference.org/) - A computer science conference with a cross-disciplinary focus that brings together researchers and practitioners interested in fairness, accountability, and transparency in socio-technical systems.
 3. [Paper - there is no fairness, enforcing fairness can improve accuracy](https://openreview.net/forum?id=wXoHN-Zoel\&fbclid=IwAR1MZArpfpu8L8ildamF0ngnUbKgD8-9NFBCXVo0JKwS6yP9g-2BJmWUv68)
 4. [Google on responsible ai practices](https://ai.google/responsibilities/responsible-ai-practices/) see also PAIR
 5. [Bengio on ai](https://www.wired.com/story/ai-pioneer-algorithms-understand-why/?fbclid=IwAR03uWEmVSjrOmP4dp77v\_mdjPAXOsKPams\_xsUOKameKbuzY8JN4brGC9o)
@@ -58,7 +58,7 @@ At the same time, there is increasing alarm that the complexity of machine learn
 
 #### FAIRNESS TOOLS
 
-1. [PII tools, by gensim](https://pii-tools.com)
+1. [PII tools, by gensim](https://pii-tools.com/)
 2. [Fair-learn](https://github.com/fairlearn/fairlearn) A Python package to assess and improve fairness of machine learning models.\
    ![](https://lh5.googleusercontent.com/ovdlVfds0jLUJzmmntUN70j5Qbsfq9hberlTf\_evGgDKVGvFVHblHc-EbrbhmTviVRUVXJG9B2TlkcgSwO7vwt43y7tsia1gTjPJitTY2pCNAH\_PWKxkrsXNcfKKHASqT3rW23FC)
 3. [Sk-lego](https://scikit-lego.readthedocs.io/en/latest/fairness.html)
@@ -85,7 +85,7 @@ M. Hardt, E. Price and N. Srebro (2016), Equality of Opportunity in Supervised L
 ![](https://lh3.googleusercontent.com/gQgeZyxlXU37RydzNxXz1VitIZ-vdWr0YGy59EphP1cD8KqEE3VB58CGxxORvdmNuSLeRcRaytp7nJkFZveApPd4Fq8xEOV51ZSuXJsFdkU9EpL8d1cQRKzoCEpBjqARmiRD0NEV)
 
 1. [A curated document about XAI research resources. ](https://docs.google.com/spreadsheets/d/1uQy6a3BfxOXI8Nh3ECH0bqqSc95zpy4eIp\_9JAMBkKg/edit?usp=sharing)
-2. Interpretability and Explainability in Machine Learning [course](https://interpretable-ml-class.github.io) / slides. Understanding, evaluating, rule based, prototype based, risk scores, generalized additive models, explaining black box, visualizing, feature importance, actionable explanations, casual models, human in the loop, connection with debugging.&#x20;
+2. Interpretability and Explainability in Machine Learning [course](https://interpretable-ml-class.github.io/) / slides. Understanding, evaluating, rule based, prototype based, risk scores, generalized additive models, explaining black box, visualizing, feature importance, actionable explanations, casual models, human in the loop, connection with debugging.&#x20;
 3. [Explainable Machine Learning: Understanding the Limits & Pushing the Boundaries](https://drive.google.com/file/d/1xn2dCDAeEEhB\_rex202KxMPqIPj31fZ4/view) a tutorial by Hima Lakkaraju (tutorial [VIDEO](https://www.chilconference.org/tutorial\_T04.html), [youtube](https://www.youtube.com/watch?v=K6-ujR\_67eY), [twitter](https://twitter.com/hima\_lakkaraju/status/1390759698224271361))\
    ![](https://lh3.googleusercontent.com/rO4qszA6Hz3L21ZL3YOJB3GNG9u-Q0rGGQ0QxamCYq6MLwHPxkHhk5GUGhVpMKTM0EJH0SHDIr5Tts9vCvjTKWZzrKDdoaE8jfdLDV3Dstu66HiNYvKmoRBQDAEothlrQM7FSLdD)
 4. [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://arxiv.org/pdf/1811.10154.pdf) by Cinthia rudin&#x20;
@@ -93,7 +93,7 @@ M. Hardt, E. Price and N. Srebro (2016), Equality of Opportunity in Supervised L
 5. [explainML tutorial](https://explainml-tutorial.github.io/neurips20)
 6. [When not to trust explanations :)](https://docs.google.com/presentation/d/10a0PNKwoV3a1XChzvY-T1mWudtzUIZi3sCMzVwGSYfM/edit#slide=id.p)
 7. From the above image: [Paper: Principles and practice of explainable models](https://arxiv.org/abs/2009.11698) - a really good review for everything XAI - “a survey to help industry practitioners (but also data scientists more broadly) understand the field of explainable machine learning better and apply the right tools. Our latter sections build a narrative around a putative data scientist, and discuss how she might go about explaining her models by asking the right questions. From an organization viewpoint, after motivating the area broadly, we discuss the main developments, including the principles that allow us to study transparent models vs opaque models, as well as model-specific or model-agnostic post-hoc explainability approaches. We also briefly reflect on deep learning models, and conclude with a discussion about future research directions.”
-8. [Book: interpretable machine learning](https://christophm.github.io/interpretable-ml-book/agnostic.html), [christoph mulner](https://christophm.github.io)
+8. [Book: interpretable machine learning](https://christophm.github.io/interpretable-ml-book/agnostic.html), [christoph mulner](https://christophm.github.io/)
 9. (great) [Interpretability overview,](https://thegradient.pub/interpretability-in-ml-a-broad-overview/?fbclid=IwAR2ltYQWbS5jixIJzAnFg8dz1A-9y9eGIMxQfpB\_Pp5x9knP1Y4JhQg3xgI) transparent (simultability, decomposability, algorithmic transparency) post-hoc interpretability (text explanation, visual local, explanation by example,), evaluation, utility.&#x20;
 10. [Medium: the great debate](https://medium.com/swlh/the-great-ai-debate-interpretability-1d139167b55)
 
@@ -137,7 +137,7 @@ M. Hardt, E. Price and N. Srebro (2016), Equality of Opportunity in Supervised L
       2. Stability - _for similar instances, are the explanations similar?_&#x20;
       3. Compacity - do fewer features drive the model?
 6. Partial Shap
-   1. [Which Of Your Features Are Overfitting](https://towardsdatascience.com/which-of-your-features-are-overfitting-c46d0762e769)? by Samuele Mazzanti - "Discover “ParShap”: an advanced method to detect which columns make your model underperform on new data" implemented in [pingouin](https://pingouin-stats.org)-stats.
+   1. [Which Of Your Features Are Overfitting](https://towardsdatascience.com/which-of-your-features-are-overfitting-c46d0762e769)? by Samuele Mazzanti - "Discover “ParShap”: an advanced method to detect which columns make your model underperform on new data" implemented in [pingouin](https://pingouin-stats.org/)-stats.
 7. SHAP advanced
    1. [Official shap tutorial on their plots, you can never read this too many times.](https://slundberg.github.io/shap/notebooks/plots/decision\_plot.html)
    2. [What are shap values on kaggle](https://www.kaggle.com/dansbecker/shap-values) - whatever you do start with this
@@ -158,9 +158,9 @@ M. Hardt, E. Price and N. Srebro (2016), Equality of Opportunity in Supervised L
 10. [Language interpretability tool (LIT) -](https://pair-code.github.io/lit/) The Language Interpretability Tool (LIT) is an open-source platform for visualization and understanding of NLP models.
 11. [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://arxiv.org/abs/1811.10154) - “trying to \textit{explain} black box models, rather than creating models that are \textit{interpretable} in the first place, is likely to perpetuate bad practices and can potentially cause catastrophic harm to society. There is a way forward -- it is to design models that are inherently interpretable. This manuscript clarifies the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identifies challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare, and computer vision.”
 12. [Using genetic algorithms](https://towardsdatascience.com/interpreting-black-box-machine-learning-models-with-genetic-algorithms-a803bfd134cb)
-13. [ Google’s what-if tool](https://pair-code.github.io/what-if-tool/demos/image.html) from [PAIR](https://pair.withgoogle.com)
+13. [ Google’s what-if tool](https://pair-code.github.io/what-if-tool/demos/image.html) from [PAIR](https://pair.withgoogle.com/)
 14. [Boruta](https://github.com/scikit-learn-contrib/boruta\_py) ([medium](https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)) was designed to automatically perform feature selection on a dataset using randomized features, i.e., measuring valid features against their shadow/noisy counterparts.
-15. [InterpretML](https://interpret.ml) by Microsoft, [git](https://github.com/interpretml/interpret).
+15. [InterpretML](https://interpret.ml/) by Microsoft, [git](https://github.com/interpretml/interpret).
 16. [Connecting Interpretability and Robustness in Decision Trees through Separation](https://icml.cc/virtual/2021/poster/10107?fbclid=IwAR06qMwbn1cRgWLWtVHf\_fAHEbasc0TNrWCdGiSGsIiv4kmQY1TMeTonC6I), [git](https://github.com/yangarbiter/interpretable-robust-trees?fbclid=IwAR3wqCFzuSPQgv30RVdCLi8FGjajErSvuGQd1Zq1VrkpC\_bNNMgR4r\_nd5w)
 
 ### WHY WE SHOULDN’T TRUST MODELS
@@ -177,7 +177,7 @@ M. Hardt, E. Price and N. Srebro (2016), Equality of Opportunity in Supervised L
 
 1. arize.ai on [model bias](https://arize.com/understanding-bias-in-ml-models/#MLMonitoring).
 
-![](<.gitbook/assets/image (3).png>)
+![](<.gitbook/assets/image (3) (1).png>)
 
 ### DEBIASING MODELS
 

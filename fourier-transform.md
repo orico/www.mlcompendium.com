@@ -12,7 +12,7 @@
 1. Medium on [What is a wavelet and how do we use it for DS](https://towardsdatascience.com/what-is-wavelet-and-how-we-use-it-for-data-science-d19427699cef)
 2. [Medium on the wavelet transform ](https://towardsdatascience.com/the-wavelet-transform-e9cfa85d7b34)
 3. Medium [multiple time series classification using continuous wavelet transformation and scalograms](https://towardsdatascience.com/multiple-time-series-classification-by-using-continuous-wavelet-transformation-d29df97c0442)
-4. [pywavelets](https://pywavelets.readthedocs.io/en/latest/) - PyWavelets is open source wavelet transform software for [Python](http://python.org). It combines a simple high level interface with low level C and Cython performance.
+4. [pywavelets](https://pywavelets.readthedocs.io/en/latest/) - PyWavelets is open source wavelet transform software for [Python](http://python.org/). It combines a simple high level interface with low level C and Cython performance.
 
 
 

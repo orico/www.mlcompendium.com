@@ -2,17 +2,17 @@
 
 ### CONTINUOUS INTEGRATION
 
-1. [Travis](https://travis-ci.org)
-2. [Circle CI](https://circleci.com)
+1. [Travis](https://travis-ci.org/)
+2. [Circle CI](https://circleci.com/)
 3. [TeamCity](https://www.jetbrains.com/teamcity/)
-4. [Jenkins](https://www.jenkins.io)
+4. [Jenkins](https://www.jenkins.io/)
 5. Github Actions
    1. [poetry black pytest](https://medium.com/@vanflymen/blazing-fast-ci-with-github-actions-poetry-black-and-pytest-9e74299dd4a5)
 
 ### PACKAGE REPOSITORIES
 
 1. Pypi - public
-2. [Gemfury](https://gemfury.com) - private
+2. [Gemfury](https://gemfury.com/) - private
 
 ### DEVOPS / SRE&#x20;
 
@@ -24,14 +24,6 @@
 * [Definition](https://dzone.com/articles/dev-vs-ops-and-devops)
 
 ![](https://lh3.googleusercontent.com/-q3xPZ\_ASRimnV37VYLqPZxoKFSQPKSrkIQdnBHaxCPOkP9rTZT7t-6n98Zp4NKwG8QuuFNlk4omZv234Dx8QrBohcVzh7kLoiOwYmfHF5skCBKt6q8zRaHZrn2r481i3QXzr7hH)
-
-### [PMML ](http://www.kdnuggets.com/faq/pmml.html)
-
-\- an XML file that describes a ML model that is transferable between applications.
-
-* [PMML](http://dmg.org/pmml/v4-3/GeneralStructure.html) uses XML to represent mining models.
-* The structure of the models is described by an XML Schema.&#x20;
-* One or more mining models can be contained in a PMML document
 
 ### [Cap theorem](https://towardsdatascience.com/cap-theorem-and-distributed-database-management-systems-5c2be977950e)
 
@@ -52,6 +44,7 @@
 * [Docker on ubuntu, tutorial](https://medium.com/fundbox-engineering/overview-d3759e83969c)
 * [Containerize your ds environment using docker compose](https://towardsdatascience.com/containerize-your-whole-data-science-environment-or-anything-you-want-with-docker-compose-e962b8ce8ce5) - Docker-Compose is simply a tool that allows you to describe a collection of multiple containers that can interact via their own network in a very straight forward way,&#x20;
 * [docker for data science](https://aoyilmaz.medium.com/docker-in-data-science-and-a-friendly-beginner-to-docker-186fafdfbdeb)
+* [using vscode to debug containers](https://nirradi.medium.com/vsc-vs-pycharm-developing-inside-docker-containers-4892c83d30e4)
 
 ### Kubernetes
 
@@ -62,7 +55,7 @@
 
 ### Helm
 
-* [Package manager for kubernetes](https://helm.sh)
+* [Package manager for kubernetes](https://helm.sh/)
 
 ### Kubeflow
 
@@ -91,7 +84,7 @@
 
 ### AirFlow
 
-* [Airflow](https://airflow.apache.org) is a platform created by the community to programmatically author, schedule and monitor workflows.
+* [Airflow](https://airflow.apache.org/) is a platform created by the community to programmatically author, schedule and monitor workflows.
 * [Airflow in 5 minutes](https://medium.com/swlh/apache-airflow-in-5-minutes-c005b4b11b26) by Ashish Kumar
 * [Airflow 2.0 tutorial](https://medium.com/apache-airflow/apache-airflow-2-0-tutorial-41329bbf7211) by Tomasz Urbaszek
 * [Simple  ETL](https://adenilsoncastro.medium.com/apache-airflow-the-etl-02-f4ac25f4d9b4) by Adnilson Castro
@@ -100,6 +93,7 @@
 ### Prefect
 
 * [A better airflow ](http://airflow)?
+* [ml workflows with prefect](https://www.youtube.com/watch?v=SP6WqCRUkNc)
 
 ### Seldon&#x20;
 
@@ -125,13 +119,14 @@
 * [Part 3](https://www.cloudamqp.com/blog/2015-05-27-part3-rabbitmq-for-beginners\_the-management-interface.html) -  managing
 * [Part 4](https://www.cloudamqp.com/blog/2015-09-03-part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html)
 
-### [ActiveMQ ](http://activemq.apache.org)
+### [ActiveMQ ](http://activemq.apache.org/)
 
 \- Apache ActiveMQ™ is the most popular open source, multi-protocol, Java-based messaging serve
 
 ### Kafka&#x20;
 
-* [Web](https://kafka.apache.org)
+* [Kafka 101 youtube](https://www.youtube.com/watch?v=j4bqyAMMb7o\&list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH)
+* [Web](https://kafka.apache.org/)
 * [Medium - really good short intro](https://medium.com/hacking-talent/kafka-all-you-need-to-know-8c7251b49ad0)
 * [Intro](https://medium.com/@jcbaey/what-is-apache-kafka-e9e73884e367), [Intro 2](https://medium.com/@patelharshali136/apache-kafka-tutorial-kafka-for-beginners-a58140cef84f),&#x20;
 * [Kafka in a nutshell](https://medium.com/@aiven\_io/apache-kafka-in-a-nutshell-df10dfcc7dc) - But even these solutions came up short in some cases. For example, RabbitMQ stores messages in DRAM until the DRAM is completely consumed, at which point messages are written to disk, [severely impacting performance](https://blog.mavenhive.in/which-one-to-use-and-when-rabbitmq-vs-apache-kafka-7d5423301b58).
@@ -149,6 +144,10 @@ In addition to message routing simplicity, there are places where developers and
 * What is [1](https://medium.com/@gavindya/what-is-zookeeper-db8dfc30fc9b), [2](https://medium.com/rahasak/apache-zookeeper-31b2091657a8)
 * It is a [service discovery in a nutshell, kafka is using it to allow discovery, registration etc of services. So that customers can subscribe and get their publication. ](https://www.quora.com/What-is-ZooKeeper)
 
+### KSQLDB
+
+* KSQLDB 101 uses kafka streams to run queries over kafka, [youtube](https://www.youtube.com/watch?v=oThQzCXjuk4\&list=PLa7VYi0yPIH3ulxsOf5g43\_QiB-HOg5\_Y)
+
 ### ELK
 
 * [Elastic on ELK](https://www.elastic.co/what-is/elk-stack)
@@ -165,7 +164,7 @@ In addition to message routing simplicity, there are places where developers and
 
 ### Kafka for DS
 
-1. [What is, terminology, use cases](https://sookocheff.com/post/kafka/kafka-in-a-nutshell/#:\~:text=Kafka%20topics%20are%20divided%20into,from%20a%20topic%20in%20parallel.)
+1. [What is, terminology, use cases](https://sookocheff.com/post/kafka/kafka-in-a-nutshell/)
 
 ### Redis for DS
 
@@ -283,5 +282,5 @@ These approaches are:
 
 1. [NGINX](https://www.nginx.com/resources/glossary/nginx/) is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability. In addition to its HTTP server capabilities, NGINX can also function as a proxy server for email (IMAP, POP3, and SMTP) and a reverse proxy and load balancer for HTTP, TCP, and UDP servers.
 2. Cloudflare on [what is a reverse proxy](https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/)
-3. "[One advantage of using NGINX as an API gateway ](https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1/#:\~:text=One%20advantage%20of%20using%20NGINX,deploy%20a%20separate%20API%20gateway.)is that it can perform that role while simultaneously acting as a reverse proxy, load balancer, and web server for existing HTTP traffic. If NGINX is already part of your application delivery stack then it is generally unnecessary to deploy a separate API gateway"
+3. "[One advantage of using NGINX as an API gateway ](https://www.nginx.com/blog/deploying-nginx-plus-as-an-api-gateway-part-1/)is that it can perform that role while simultaneously acting as a reverse proxy, load balancer, and web server for existing HTTP traffic. If NGINX is already part of your application delivery stack then it is generally unnecessary to deploy a separate API gateway"
 

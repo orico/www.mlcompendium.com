@@ -2,9 +2,9 @@
 
 ## **INTERVIEW Qs**
 
-1. [**40 questions on ensembles**](https://www.analyticsvidhya.com/blog/2017/02/40-questions-to-ask-a-data-scientist-on-ensemble-modeling-techniques-skilltest-solution/)
-2. [**30 on trees**](https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-tree-based-models/)
-3. [**30 on knns**](https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-k-nearest-neighbors-algorithm/?fbclid=IwAR0JgeXKfyLGndL2\_eMX7R6HLVY9la97V6QMIYb\_4LnG56N-x1Oe5DsdhqE)
+1. [**40 questions on ensembles**](https://www.analyticsvidhya.com/blog/2017/02/40-questions-to-ask-a-data-scientist-on-ensemble-modeling-techniques-skilltest-solution/?utm\_source=facebook.com\&utm\_medium=social)
+2. [**30 on trees**](https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-tree-based-models/?utm\_source=facebook.com\&utm\_medium=social)
+3. [**30 on knns**](https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-k-nearest-neighbors-algorithm/?utm\_source=facebook.com\&utm\_medium=social\&fbclid=IwAR0JgeXKfyLGndL2\_eMX7R6HLVY9la97V6QMIYb\_4LnG56N-x1Oe5DsdhqE)
 
 ## **Politics**
 
@@ -33,4 +33,4 @@
 
 ## Due Diligence&#x20;
 
-1. [by Inbal Budowski Tal ](https://inbal-budo.medium.com/how-to-run-a-machine-learning-technical-due-diligence-415970f77d5f#)
+1. [by Inbal Budowski Tal ](https://inbal-budo.medium.com/how-to-run-a-machine-learning-technical-due-diligence-415970f77d5f)

@@ -2,11 +2,11 @@
 
 1.  [Machine Learning for Credit Card Fraud Detection](https://fraud-detection-handbook.github.io/fraud-detection-handbook/Foreword.html) - Practical Handbook, [Git](https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook)
 
-    ![](<../.gitbook/assets/image (17).png>)
+    ![](<../.gitbook/assets/image (15) (1).png>)
 2. [Fraud detection](https://towardsdatascience.com/frauddetection-f801b781410b) on money pools, using social network & pool size, future optimizing using f-beta.
 3.  [Fraud detection Objectives.](https://nethone.com/post/beginners-guide-to-machine-learning)
 
-    ![](<../.gitbook/assets/image (13).png>)
+    ![](<../.gitbook/assets/image (13) (1) (1).png>)
 
 Data sets
 

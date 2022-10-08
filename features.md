@@ -159,7 +159,7 @@
 
 ### **FEATURE ENGINEERING**
 
-1. [**Vidhya on FE, anomalies, engineering, imputing**](https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/)
+1. [**Vidhya on FE, anomalies, engineering, imputing**](https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/?utm\_source=outlierdetectionpyod\&utm\_medium=blog)
 2. [**Many types of FE**](https://towardsdatascience.com/understanding-feature-engineering-part-1-continuous-numeric-data-da4e47099a7b)**, including log and box cox transform - a very useful explanation.**
 3. [**Categorical Data**](https://towardsdatascience.com/understanding-feature-engineering-part-2-categorical-data-f54324193e63)
 4. [**Dummy variables and feature hashing**](https://towardsdatascience.com/understanding-feature-engineering-part-2-categorical-data-f54324193e63) **- hashing is really cool.**
@@ -172,7 +172,7 @@
 
 ### **REPRESENTATION LEARNING**
 
-1. [**paper**](https://arxiv.org/abs/1807.03748?\_hsenc=p2ANqtz-8DcgUdDF--k3tWOmhM51lm28wHerZxlXKoGNU6hIu2P4Fj-RuEuciKtbWZZdWmvBg7KGeI44FWUrmpHdZIbAM-pUicgg&\_hsmi=83602348)
+1. [**paper**](https://arxiv.org/abs/1807.03748?utm\_campaign=The%20Batch\&utm\_source=hs\_email\&utm\_medium=email\&utm\_content=83602348&\_hsenc=p2ANqtz-8DcgUdDF--k3tWOmhM51lm28wHerZxlXKoGNU6hIu2P4Fj-RuEuciKtbWZZdWmvBg7KGeI44FWUrmpHdZIbAM-pUicgg&\_hsmi=83602348)
 
 ### **TFIDF**
 
@@ -226,7 +226,7 @@
 
 ### **FEATURE IMPUTING**
 
-1. [**Vidhya on FE, anomalies, engineering, imputing**](https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/)
+1. [**Vidhya on FE, anomalies, engineering, imputing**](https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/?utm\_source=outlierdetectionpyod\&utm\_medium=blog)
 2. [**Fancy impute**](https://pypi.org/project/fancyimpute/)
 
 ###
@@ -237,11 +237,11 @@
 2. [**What is?**](https://feast.dev/blog/what-is-a-feature-store/)
 3. [**Feature store vs data warehouse**](https://www.kdnuggets.com/2020/12/feature-store-vs-data-warehouse.html)
 4. [**Why feature store is not enough**](https://towardsdatascience.com/effective-ai-infrastructure-or-why-feature-store-is-not-enough-43bc2d803401)
-5. [**Feast**](https://docs.feast.dev) **** [**what is 1**](https://feast.dev/blog/what-is-a-feature-store/) **** [**what is 2**](https://neptune.ai/blog/feature-stores-components-of-a-data-science-factory-guide)
+5. [**Feast**](https://docs.feast.dev/) **** [**what is 1**](https://feast.dev/blog/what-is-a-feature-store/) **** [**what is 2**](https://neptune.ai/blog/feature-stores-components-of-a-data-science-factory-guide)
 
 ![](https://lh3.googleusercontent.com/-Syb5MJEHTEHc12GTKNQN8bWnt83zFs\_isY\_CFMISCYQJPLnvt-XdV3B\_ycaRziMns-z0crVA01PpZUHI3Hgw251xhnIh\_LB88cQKMb9\_MNUzmN68cxvBZ6lsEw8FGxzMDX-\_9xo)
 
-1. [**Tecton.ai**](https://www.tecton.ai) **(managed feature store)**\
+1. [**Tecton.ai**](https://www.tecton.ai/) **(managed feature store)**\
    ****![](https://lh3.googleusercontent.com/3NQTUG2PVOIJZbNBYNj-BxZv5A4POEf1KJ20f4nhet\_gaxj4cAJXjXwld9ZG-RoEWnRe-DWfS\_qe1PrSojfXcTtlJZYy4w6\_njyBi9qgsnDr7jnnfqMDMG-8Ea31qWGn5toG4HwI)
 2. [**Iguazio feature store**](https://www.iguazio.com/feature-store/)****\
    ****\

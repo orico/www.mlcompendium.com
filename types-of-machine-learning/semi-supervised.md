@@ -28,7 +28,7 @@ TF-IDF word replacement replaces words in a sentence at random based on the TF-I
 3.  [FixMatch](https://amitness.com/2020/03/fixmatch-semi-supervised/) - FixMatch is a recent semi-supervised approach by Sohn et al. from Google Brain that improved the state of the art in semi-supervised learning(SSL). It is a simpler combination of previous methods such as UDA and ReMixMatch.\
     ![](https://lh6.googleusercontent.com/9gNryK4qk-1VHSlpbSFThr0rTnKe6EDiwSDxqDaW4EEx-rIm9LGqs5uGFYHfMsQtJWd9Ls\_NAnap\_wHHAe\_qOBGcZgMJ7ruGkuxv2nIY8AP1mq82PgDxtgmsVO59G\_rDOnoNvUDk)
 
-    _Image via_ [Amit Chaudhary](https://amitness.com) _wrong credit?_ [_let me know_](mailto:ori@oricohen.com)
+    _Image via_ [Amit Chaudhary](https://amitness.com/) _wrong credit?_ [_let me know_](mailto:ori@oricohen.com)
 4. [Curriculum Labeling: Self-paced Pseudo-Labeling for Semi-Supervised Learning](https://arxiv.org/pdf/2001.06001.pdf)
 5. [FAIR](https://ai.facebook.com/blog/billion-scale-semi-supervised-learning/) [2](https://ai.facebook.com/blog/mapping-the-world-to-help-aid-workers-with-weakly-semi-supervised-learning/) original, [Summarization of FAIR’s student teacher weak/ semi supervision](https://analyticsindiamag.com/how-to-do-machine-learning-when-data-is-unlabelled/)
 6. [Leveraging Just a Few Keywords for Fine-Grained Aspect Detection Through Weakly Supervised Co-Training](https://www.aclweb.org/anthology/D19-1468.pdf)

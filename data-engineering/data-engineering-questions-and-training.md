@@ -91,8 +91,8 @@ By mark smallcombe\
       1. Type validation: [typeguard](https://github.com/agronholm/typeguard)
       2. Data validation [pydantic](https://pydantic-docs.helpmanual.io/usage/dataclasses/)
       3. Test driven: [tdda](https://github.com/tdda/tdda)
-      4. Data quality: [great expectations](https://greatexpectations.io)
-      5. Saas: [SuperConductive by GE](https://superconductive.ai)\
+      4. Data quality: [great expectations](https://greatexpectations.io/)
+      5. Saas: [SuperConductive by GE](https://superconductive.ai/)\
 
 8. File formats
    1. Can you explain the parquet file format? [https://parquet.apache.org/documentation/latest/](https://parquet.apache.org/documentation/latest/)

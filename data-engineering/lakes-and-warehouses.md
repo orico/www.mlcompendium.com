@@ -5,6 +5,7 @@
 1. [What is a DWH? a comprehensive guide](https://www.oracle.com/database/what-is-a-data-warehouse/)
 2. [DataLakeHouse](https://www.firebolt.io/blog/snowflake-vs-databricks-vs-firebolt) - Databricks Delta Lake is a data lake that can store raw unstructured, semi-structured, and structured data. When combined with Delta Engine it becomes a data lakehouse.
 3. [What is SnowFlake](https://www.stitchdata.com/resources/snowflake/), [2](https://www.slalom.com/insights/snowflake-implementation-success) - Snowflake decouples the storage and compute functions, which means organizations that have high storage demands but less need for CPU cycles, or vice versa, don’t have to pay for an integrated bundle that requires them to pay for both. Users can scale up or down as needed and pay for only the resources they use.
+   1. [get started with SF](https://www.phdata.io/blog/getting-started-with-snowflake/)
 4. data mart
    1. [talend on data marts](https://www.talend.com/resources/what-is-data-mart/) + 3 types (dependent, independent, hybrid)
    2. (good) [netsuite on data marts](https://www.netsuite.com/portal/resource/articles/data-warehouse/data-mart.shtml) - the three types ^ + structures (star, snowflake, denormalized) + comparisons
@@ -14,11 +15,11 @@
 
 1.  [Data Lake vs Data Warehouse](https://www.talend.com/resources/data-lake-vs-data-warehouse/)
 
-    ![](<../.gitbook/assets/image (21).png>)
+    ![](<../.gitbook/assets/image (12) (1) (1).png>)
 2. [Top 5 differences between DL & DWH](https://www.bluegranite.com/blog/bid/402596/top-five-differences-between-data-lakes-and-data-warehouses)
 3.  [Amazon on DL vs DWH](https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/)
 
-    ![](<../.gitbook/assets/image (25).png>)
+    ![](<../.gitbook/assets/image (13) (1) (1) (1) (1).png>)
 4.  [Snowflake vs Delta Lake vs Fire Bolt](https://www.firebolt.io/blog/snowflake-vs-databricks-vs-firebolt) - "Databricks Delta Lake and Delta Engine is a lakehouse. You choose it as a data lake, and for data lakehouse-based workloads including ELT for data warehouses, data science and machine learning, even static reporting and dashboards if you don’t mind the performance difference and don’t have a data warehouse.\
 
 

@@ -10,4 +10,4 @@
 
 ## Tools
 
-1. [GrowthAI](https://www.growthai.co) - "a turn key solution to customer lifecycle",  they promise a lot of things that I cant validate.
+1. [GrowthAI](https://www.growthai.co/) - "a turn key solution to customer lifecycle",  they promise a lot of things that I cant validate.

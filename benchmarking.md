@@ -20,7 +20,7 @@
 
 **State of the art in AI:**
 
-1. **In terms of** [**domain X datasets**](https://www.stateoftheart.ai)
+1. **In terms of** [**domain X datasets**](https://www.stateoftheart.ai/)
 
 **Cloud providers:**
 

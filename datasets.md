@@ -9,7 +9,7 @@
 
 1. [Various Bias types](https://queue.acm.org/detail.cfm?id=3466134) by queue.acm
 
-![](<.gitbook/assets/image (18).png>)
+![](<.gitbook/assets/image (12) (1).png>)
 
 1. [Overfitting your test set, a statistican view point, a great article](https://lukeoakdenrayner.wordpress.com/2019/09/19/ai-competitions-dont-produce-useful-models/?fbclid=IwAR1WM5U7imq-2LFPifyCoTPp-MFwPoGROMLr2TZWAp41qgVeLdT-\_2bkLyk\&blogsub=confirming#subscribe-blog), bottom line use bonferroni correction.
 2.  Understanding what is the next stage in DL (& ML) algorithm development: basic approach - [Andrew NG](https://www.youtube.com/watch?v=F1ka6a13S9I) on youtube
@@ -153,10 +153,10 @@ Finally, When in doubt, use k-fold cross validation (k=10) and use multiple runs
 
 ### VARIOUS DATASETS
 
-1. [26 of them](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/)
+1. [26 of them](https://www.analyticsvidhya.com/blog/2018/05/24-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/?utm\_source=facebook.com\&utm\_medium=social)
 2. [24](https://lionbridge.ai/datasets/25-best-parallel-text-datasets-for-machine-translation-training/)
 3. [Eu-](https://datarepository.wolframcloud.com/resources/Europarl-English-Spanish-Machine-Translation-Dataset-V7)es, [2](https://data.europa.eu/euodp/en/data/dataset/elrc\_339)
-4. 50K -  [ModelDepot](https://modeldepot.io) alone has over 50,000 freely accessible pre-trained models with search functionality to
+4. 50K -  [ModelDepot](https://modeldepot.io/) alone has over 50,000 freely accessible pre-trained models with search functionality to
 5.
 
 ### IMBALANCED DATASETS

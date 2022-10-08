@@ -1,6 +1,6 @@
 # Meta Learning
 
-[**What is?**](https://www.automl.org) **Automated Machine Learning provides methods and processes to make Machine Learning available for non-Machine Learning experts, to improve efficiency of Machine Learning and to accelerate research on Machine Learning.**\
+[**What is?**](https://www.automl.org/) **Automated Machine Learning provides methods and processes to make Machine Learning available for non-Machine Learning experts, to improve efficiency of Machine Learning and to accelerate research on Machine Learning.**\
 ****
 
 **Personal note: automl algorithms in this field will bridge the gap and automate several key processes, but it will not allow a practitioner to do serious research or solve business or product problems easily. The importance of this field is to advance each subfield, whether HPO, NAS, etc. these selective novelties can help us solve specific issues, i.e, lets take HPO, we can use it to save time and money on redundant parameter searches, especially when it comes to resource heavy algorithms such as Deep learning (think GPU costs).**\
@@ -16,7 +16,7 @@
 [**Automl.org’s github - it has a backup for the following projects.**](https://github.com/automl)****\
 ****
 
-[**Automl.org**](https://www.automl.org) **is a joint effort between two universitie, freiburg and hannover, their website curates information regarding:**
+[**Automl.org**](https://www.automl.org/) **is a joint effort between two universitie, freiburg and hannover, their website curates information regarding:**
 
 1. **HPO - hyper parameter optimization**
 2. **NAS - neural architecture search**
@@ -45,7 +45,7 @@
 * **(google)** [**H2O AutoML**](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html) **provides automated model selection and ensembling for the** [**H2O machine learning and data analytics platform**](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html)**. (**[**git**](https://github.com/google/automl)**)**
 * [**TransmogrifAI**](https://github.com/salesforce/TransmogrifAI) **is an AutoML library running on top of Spark.**
 * [**MLBoX**](https://github.com/AxeldeRomblay/MLBox) **is an AutoML  library with three components: preprocessing, optimisation and prediction**
-* [**MLJar**](https://mljar.com) **(**[**git**](https://github.com/mljar/mljar-supervised)**)** [**medium**](https://medium.com/@MLJARofficial/mljar-supervised-automl-with-explanations-and-markdown-reports-36d5104e117)**,** [**2**](https://towardsdatascience.com/automating-eda-machine-learning-6ddb76c1eb4d) **- Automated Machine Learning for tabular data mljar builds a complete Machine Learning Pipeline. Perform exploratory analysis, search for a signal in the data, and discover relationships between features in your data with AutoML.  Train top ML models with advanced feature engineering, many algorithms, hyper-parameters tuning, Ensembling, and Stacking. Stay ahead of competitors and predict the future with advanced ML. Deploy your models in the cloud or use them locally**
+* [**MLJar**](https://mljar.com/) **(**[**git**](https://github.com/mljar/mljar-supervised)**)** [**medium**](https://medium.com/@MLJARofficial/mljar-supervised-automl-with-explanations-and-markdown-reports-36d5104e117)**,** [**2**](https://towardsdatascience.com/automating-eda-machine-learning-6ddb76c1eb4d) **- Automated Machine Learning for tabular data mljar builds a complete Machine Learning Pipeline. Perform exploratory analysis, search for a signal in the data, and discover relationships between features in your data with AutoML.  Train top ML models with advanced feature engineering, many algorithms, hyper-parameters tuning, Ensembling, and Stacking. Stay ahead of competitors and predict the future with advanced ML. Deploy your models in the cloud or use them locally**
   * **+ advanced feature engineering**
   * **+ algorithms selection and tuning**
   * **+ automatic documentation**
@@ -67,7 +67,7 @@
 ### **Architecture Search**&#x20;
 
 * [**Auto-PyTorch**](https://github.com/automl/Auto-PyTorch)
-* [**AutoKeras**](https://autokeras.com)
+* [**AutoKeras**](https://autokeras.com/)
 * [**DEvol**](https://github.com/joeddav/devol)
 * [**HyperAS**](https://github.com/maxpumperla/hyperas)**: a combination of Keras and Hyperopt**
 * [**talos**](https://github.com/autonomio/talos)**: Hyperparameter Scanning and Optimization for Keras**
