@@ -10,6 +10,8 @@
    1. [talend on data marts](https://www.talend.com/resources/what-is-data-mart/) + 3 types (dependent, independent, hybrid)
    2. (good) [netsuite on data marts](https://www.netsuite.com/portal/resource/articles/data-warehouse/data-mart.shtml) - the three types ^ + structures (star, snowflake, denormalized) + comparisons
    3. [basic intro](https://study.com/academy/lesson/what-is-a-data-mart-design-types-example.html)
+5. Data Lake
+   1. [monitoring health status at scale](https://towardsdatascience.com/how-to-monitor-data-lake-health-status-at-scale-d0eb058c85aa) using great expectations and spark
 
 ## Comparisons
 
