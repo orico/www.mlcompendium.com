@@ -102,6 +102,7 @@
   * [Data contract](data-mesh/data-contract.md)
   * [Data Product](data-mesh/data-product.md)
 * [Data Engineering](data-engineering/README.md)
+  * [Data Catalogs](data-engineering/data-catalogs.md)
   * [SQL](data-engineering/sql.md)
   * [Patterns](data-engineering/patterns.md)
   * [Tools](data-engineering/tools.md)
