@@ -39,7 +39,7 @@
     2. [A/B Testing for Data Science using Python – A Must-Read Guide for Data Scientists](https://www.analyticsvidhya.com/blog/2020/10/ab-testing-data-science/)
 23. (Yandex)  - [Online Evaluation for Effective Web Service Development](https://research.yandex.com/tutorials/online-evaluation/kdd-2018)
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 #### A/B Testing Tools
 
