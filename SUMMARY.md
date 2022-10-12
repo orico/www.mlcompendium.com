@@ -106,6 +106,7 @@
   * [Patterns](data-engineering/patterns.md)
   * [Tools](data-engineering/tools.md)
   * [Lakes & Warehouses](data-engineering/lakes-and-warehouses.md)
+  * [Database Modeling](data-engineering/database-modeling.md)
   * [Data Pipelines](data-engineering/data-pipelines.md)
   * [Data Strategy](data-engineering/data-strategy.md)
   * [Data Governance](data-engineering/data-governance.md)
