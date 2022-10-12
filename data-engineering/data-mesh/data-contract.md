@@ -8,6 +8,7 @@
    4. the rise of [data contracts](https://dataproducts.substack.com/p/the-rise-of-data-contracts)
    5. [production grade data products](https://dataproducts.substack.com/p/the-production-grade-data-pipeline)
    6. (finally!) [a guide to data contracts p1](https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts)
+   7. (good) c[ontracts, robustness in datamesh (but not only)](https://towardsdatascience.com/data-contracts-ensure-robustness-in-your-data-mesh-architecture-69a3c38f07db), also has about data-sharing agreements.
 
 ## Implementation
 
