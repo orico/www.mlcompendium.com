@@ -9,3 +9,4 @@
 7. Fivertran
    1. [Operators for AirFLow](https://www.fivetran.com/blog/announcing-the-fivetran-airflow-provider)
 8. [Astronomer AirFlow as an orchestrator scheduler for FT, AB, etc](https://www.astronomer.io/blog/best-etl-tools-airflow/)
+9. [The 7 Principles of reliable data pipelines](https://medium.com/bigeye/seven-principles-for-reliable-data-pipelines-e82a82810e4f) - bigeye medium article
