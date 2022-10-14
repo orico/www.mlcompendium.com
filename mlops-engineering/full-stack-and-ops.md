@@ -125,7 +125,7 @@
 
 ### Kafka&#x20;
 
-* [Kafka 101 youtube](https://www.youtube.com/watch?v=j4bqyAMMb7o\&list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH)
+* [Kafka 101 youtube](https://www.youtube.com/watch?v=j4bqyAMMb7o\&list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH), [event sourcing & event storage](https://www.youtube.com/watch?v=p\_sSRwpBkgs\&list=PLa7VYi0yPIH1TXGUoSUqXgPMD2SQXEXxj\&index=1) with Kafka - confluent
 * [Web](https://kafka.apache.org/)
 * [Medium - really good short intro](https://medium.com/hacking-talent/kafka-all-you-need-to-know-8c7251b49ad0)
 * [Intro](https://medium.com/@jcbaey/what-is-apache-kafka-e9e73884e367), [Intro 2](https://medium.com/@patelharshali136/apache-kafka-tutorial-kafka-for-beginners-a58140cef84f),&#x20;
