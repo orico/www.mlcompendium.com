@@ -100,6 +100,7 @@
   * [Model Formats](mlops-engineering/model-formats.md)
   * [AI As Data](mlops-engineering/ai-as-data.md)
 * [Data](data-engineering/README.md)
+  * [Data Observability](data-engineering/data-observability.md)
   * [SQL](data-engineering/sql.md)
   * [Patterns](data-engineering/patterns.md)
   * [Tools](data-engineering/tools.md)
