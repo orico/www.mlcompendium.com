@@ -38,4 +38,4 @@
 8. [ml-ops.org](https://ml-ops.org/)
 9. [Awesome production ML](https://github.com/EthicalML/awesome-production-machine-learning/)
 
-![Awesome production ML](<../.gitbook/assets/image (7) (2).png>)
+![Awesome production ML](<../.gitbook/assets/image (7).png>)
