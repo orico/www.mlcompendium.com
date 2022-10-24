@@ -8,4 +8,4 @@
 6.  (good) [mesh topologies](https://towardsdatascience.com/data-mesh-topologies-and-domain-granularity-65290a4ebb90) - by Piethein Strengholt\
 
 
-    <figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>

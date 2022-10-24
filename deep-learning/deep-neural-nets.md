@@ -570,7 +570,7 @@
 5. [**Disentangled VAE**](https://www.youtube.com/watch?v=9zKuYvjFFS8) **- improves VAE**
 6. **Optimus -** [**pretrained VAE**](https://github.com/ophiry/Optimus)**,** [**paper**](https://arxiv.org/abs/2004.04092)**,** [**Microsoft blog**](https://www.microsoft.com/en-us/research/blog/a-deep-generative-model-trifecta-three-advances-that-work-towards-harnessing-large-scale-power/)\*\*\*\*
 
-![Optimus](<../.gitbook/assets/image (1) (1).png>)
+![Optimus](<../.gitbook/assets/image (1) (1) (1).png>)
 
 ### **SELF ORGANIZING MAPS (SOM)**
 
