@@ -7,5 +7,5 @@
 1. [Striatum](https://github.com/ntucllab/striatum) - contextual bandits in python
 2. [Contextual bandits](https://github.com/david-cortes/contextualbandits) In python by david cortes - "This Python package contains implementations of methods from different papers dealing with contextual bandit problems, as well as adaptations from typical multi-armed bandits strategies. It aims to provide an easy way to prototype and compare ideas, to reproduce research papers that don't provide easily-available implementations of their proposed algorithms, and to serve as a guide in learning about contextual bandits. For details about the implementations, or if you would like to cite this in your research, see ["Adapting multi-armed bandits policies to contextual bandits scenarios"](https://arxiv.org/abs/1811.04383)."\
    \
-   <img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
+   <img src="../.gitbook/assets/image (3).png" alt="" data-size="original">
 
