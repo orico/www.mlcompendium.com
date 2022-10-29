@@ -162,6 +162,7 @@ M. Hardt, E. Price and N. Srebro (2016), Equality of Opportunity in Supervised L
 14. [Boruta](https://github.com/scikit-learn-contrib/boruta\_py) ([medium](https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)) was designed to automatically perform feature selection on a dataset using randomized features, i.e., measuring valid features against their shadow/noisy counterparts.
 15. [InterpretML](https://interpret.ml/) by Microsoft, [git](https://github.com/interpretml/interpret).
 16. [Connecting Interpretability and Robustness in Decision Trees through Separation](https://icml.cc/virtual/2021/poster/10107?fbclid=IwAR06qMwbn1cRgWLWtVHf\_fAHEbasc0TNrWCdGiSGsIiv4kmQY1TMeTonC6I), [git](https://github.com/yangarbiter/interpretable-robust-trees?fbclid=IwAR3wqCFzuSPQgv30RVdCLi8FGjajErSvuGQd1Zq1VrkpC\_bNNMgR4r\_nd5w)
+17. [Interpret Transformers](https://github.com/cdpierse/transformers-interpret) - explain transformers with 2 lines of code.
 
 ### WHY WE SHOULDN’T TRUST MODELS
 
