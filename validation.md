@@ -114,10 +114,6 @@ We show that even on non-convex and non-differentiable models where the theory b
 
 1. [Removing ‘gender bias using pair mean pca](https://stackoverflow.com/questions/48019843/pca-on-word2vec-embeddings)
 2. [Bias detector by intuit](https://github.com/intuit/bias-detector) - Based on first and last name/zip code the package analyzes the probability of the user belonging to different genders/races. Then, the model predictions per gender/race are compared using various bias metrics.
-3.
-4.
-
-###
 
 ### PRIVACY
 
