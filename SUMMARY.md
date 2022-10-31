@@ -29,6 +29,7 @@
 * [Normalization & Scaling](normalization-and-scaling.md)
 * [Regularization](regularization.md)
 * [Validation](validation.md)
+* [INTERPRETABLE & EXPLAINABLE AI (XAI)](interpretable-and-explainable-ai-xai.md)
 * [Meta Learning](meta-learning.md)
 * [Evaluation Metrics](evaluation-metrics.md)
 * [Benchmarking](benchmarking.md)
