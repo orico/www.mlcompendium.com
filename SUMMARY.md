@@ -28,7 +28,7 @@
 * [Dataset Confidence](dataset-confidence.md)
 * [Normalization & Scaling](normalization-and-scaling.md)
 * [Regularization](regularization.md)
-* [Data & Model Validation](validation.md)
+* [DATASETS RELIABILITY & CORRECTNESS](validation.md)
 * [Fairness, Accountability, and Transparency](fairness-accountability-and-transparency.md)
 * [INTERPRETABLE & EXPLAINABLE AI (XAI)](interpretable-and-explainable-ai-xai.md)
 * [Meta Learning](meta-learning.md)
