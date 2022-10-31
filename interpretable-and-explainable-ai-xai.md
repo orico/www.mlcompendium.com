@@ -92,7 +92,9 @@
        3. Compacity - do fewer features drive the model?
 12. Partial Shap
     1. [Which Of Your Features Are Overfitting](https://towardsdatascience.com/which-of-your-features-are-overfitting-c46d0762e769)? by Samuele Mazzanti - "Discover “ParShap”: an advanced method to detect which columns make your model underperform on new data" implemented in [pingouin](https://pingouin-stats.org/)-stats.
-13. SHAP advanced
+13. Shap residuals
+    1. [medium](https://towardsdatascience.com/shapley-residuals-measuring-the-limitations-of-shapley-values-for-explainability-d9cdc3582522)
+14. SHAP advanced
     1. [Official shap tutorial on their plots, you can never read this too many times.](https://slundberg.github.io/shap/notebooks/plots/decision\_plot.html)
     2. [What are shap values on kaggle](https://www.kaggle.com/dansbecker/shap-values) - whatever you do start with this
     3. [Shap values on kaggle #2](https://www.kaggle.com/dansbecker/advanced-uses-of-shap-values) - continue with this
@@ -100,7 +102,7 @@
 
 
         <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-14. [A thorough post about the many ways of explaining a model, from regression, to bayes, to trees, forests, lime, beta, feature selection/elimination](https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html#interpretable-models)
-15. [Trusting models](https://arxiv.org/pdf/1602.04938.pdf)
-16. [Interpret using uncertainty](https://becominghuman.ai/using-uncertainty-to-interpret-your-model-67a97c28fea5)
+15. [A thorough post about the many ways of explaining a model, from regression, to bayes, to trees, forests, lime, beta, feature selection/elimination](https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html#interpretable-models)
+16. [Trusting models](https://arxiv.org/pdf/1602.04938.pdf)
+17. [Interpret using uncertainty](https://becominghuman.ai/using-uncertainty-to-interpret-your-model-67a97c28fea5)
 
