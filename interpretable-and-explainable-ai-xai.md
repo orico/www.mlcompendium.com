@@ -1,4 +1,4 @@
-# INTERPRETABLE & EXPLAINABLE AI (XAI)
+# Interpretable & Explainable AI (XAI)
 
 ## XAI
 
@@ -61,24 +61,33 @@
 ## Shap
 
 1. Intro to shap and lime, [part 1](https://blog.dominodatalab.com/shap-lime-python-libraries-part-1-great-explainers-pros-cons/), [part 2](https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/)
-2. Medium [Intro to lime and shap](https://towardsdatascience.com/explain-nlp-models-with-lime-shap-5c5a9f84d59b)
-3. \*\*\*\* In depth [SHAP](https://towardsdatascience.com/introducing-shap-decision-plots-52ed3b4a1cba)
-4. [Github](https://github.com/slundberg/shap)
-5. [Country happiness using shap](https://sararobinson.dev/2019/03/24/preventing-bias-machine-learning.html)
-6. [Stackoverflow example, predicting tags, pandas keras etc](https://stackoverflow.blog/2019/05/06/predicting-stack-overflow-tags-with-googles-cloud-ai/)
-7. [Intro to shapely and shap](https://towardsdatascience.com/a-new-perspective-on-shapley-values-an-intro-to-shapley-and-shap-6f1c70161e8d?)
-8. [Fiddler on shap](https://medium.com/fiddlerlabs/case-study-explaining-credit-modeling-predictions-with-shap-2a7b3f86ec12)
-9. Shapash
-   1. [shapash git - ](https://github.com/MAIF/shapash)[a web app](https://github.com/MAIF/shapash) (lime and shap)[. ](https://github.com/MAIF/shapash)
-   2. [making models understandable by everyone](https://pub.towardsai.net/shapash-making-ml-models-understandable-by-everyone-8f96ad469eb3) - Yann Golhen
-   3. [using shapash for confidence on XAI.](https://towardsdatascience.com/building-confidence-on-explainability-methods-66b9ee575514)  - francesco marini\
-      using 3 new metrics
-      1. Consistency - _do different explainability methods give, on average, similar explanations?_
-      2. Stability - _for similar instances, are the explanations similar?_&#x20;
-      3. Compacity - do fewer features drive the model?
-10. Partial Shap
+2. A series on Shap, Lime.
+   1. Part I: [Explain Your Model with the SHAP Values](https://towardsdatascience.com/explain-your-model-with-the-shap-values-bc36aac4de3d)
+   2. Part II: [The SHAP with More Elegant Charts](https://dataman-ai.medium.com/the-shap-with-more-elegant-charts-bc3e73fa1c0c)
+   3. Part III: [How Is the Partial Dependent Plot Calculated?](https://dataman-ai.medium.com/how-is-the-partial-dependent-plot-computed-8d2001a0e556)
+   4. Part VI: [An Explanation for eXplainable AI](https://medium.com/analytics-vidhya/an-explanation-for-explainable-ai-xai-d56ae3dacd13)
+   5. Part V: [Explain Any Models with the SHAP Values — Use the KernelExplainer](https://towardsdatascience.com/explain-any-models-with-the-shap-values-use-the-kernelexplainer-79de9464897a)
+   6. Part VI: [The SHAP Values with H2O Models](https://medium.com/dataman-in-ai/the-shap-values-with-h2o-models-773a203b75e3)
+   7. Part VII: [Explain Your Model with LIME](https://medium.com/@Dataman.ai/explain-your-model-with-lime-5a1a5867b423)
+   8. Part VIII: [Explain Your Model with Microsoft’s InterpretML](https://medium.com/@Dataman.ai/explain-your-model-with-microsofts-interpretml-5daab1d693b4)
+3. Medium [Intro to lime and shap](https://towardsdatascience.com/explain-nlp-models-with-lime-shap-5c5a9f84d59b)
+4. \*\*\*\* In depth [SHAP](https://towardsdatascience.com/introducing-shap-decision-plots-52ed3b4a1cba)
+5. [Github](https://github.com/slundberg/shap)
+6. [Country happiness using shap](https://sararobinson.dev/2019/03/24/preventing-bias-machine-learning.html)
+7. [Stackoverflow example, predicting tags, pandas keras etc](https://stackoverflow.blog/2019/05/06/predicting-stack-overflow-tags-with-googles-cloud-ai/)
+8. [Intro to shapely and shap](https://towardsdatascience.com/a-new-perspective-on-shapley-values-an-intro-to-shapley-and-shap-6f1c70161e8d?)
+9. [Fiddler on shap](https://medium.com/fiddlerlabs/case-study-explaining-credit-modeling-predictions-with-shap-2a7b3f86ec12)
+10. Shapash
+    1. [shapash git - ](https://github.com/MAIF/shapash)[a web app](https://github.com/MAIF/shapash) (lime and shap)[. ](https://github.com/MAIF/shapash)
+    2. [making models understandable by everyone](https://pub.towardsai.net/shapash-making-ml-models-understandable-by-everyone-8f96ad469eb3) - Yann Golhen
+    3. [using shapash for confidence on XAI.](https://towardsdatascience.com/building-confidence-on-explainability-methods-66b9ee575514)  - francesco marini\
+       using 3 new metrics
+       1. Consistency - _do different explainability methods give, on average, similar explanations?_
+       2. Stability - _for similar instances, are the explanations similar?_&#x20;
+       3. Compacity - do fewer features drive the model?
+11. Partial Shap
     1. [Which Of Your Features Are Overfitting](https://towardsdatascience.com/which-of-your-features-are-overfitting-c46d0762e769)? by Samuele Mazzanti - "Discover “ParShap”: an advanced method to detect which columns make your model underperform on new data" implemented in [pingouin](https://pingouin-stats.org/)-stats.
-11. SHAP advanced
+12. SHAP advanced
     1. [Official shap tutorial on their plots, you can never read this too many times.](https://slundberg.github.io/shap/notebooks/plots/decision\_plot.html)
     2. [What are shap values on kaggle](https://www.kaggle.com/dansbecker/shap-values) - whatever you do start with this
     3. [Shap values on kaggle #2](https://www.kaggle.com/dansbecker/advanced-uses-of-shap-values) - continue with this
@@ -86,7 +95,6 @@
 
 
         <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-12. Shap [intro](https://towardsdatascience.com/explain-your-model-with-the-shap-values-bc36aac4de3d), [part 2](https://towardsdatascience.com/explain-any-models-with-the-shap-values-use-the-kernelexplainer-79de9464897a) with many algo examples and an explanation about the four plots.
 13. [A thorough post about the many ways of explaining a model, from regression, to bayes, to trees, forests, lime, beta, feature selection/elimination](https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html#interpretable-models)
 14. [Trusting models](https://arxiv.org/pdf/1602.04938.pdf)
 15. [Interpret using uncertainty](https://becominghuman.ai/using-uncertainty-to-interpret-your-model-67a97c28fea5)
