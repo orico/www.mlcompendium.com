@@ -40,3 +40,14 @@
 1. [(good) Guides ](https://www.snowflake.com/guides/)
 2. [getting started with SF tasks](https://medium.com/snowflake/getting-started-with-snowflake-tasks-945ecd54c77b) - sql or procedures, schedules, B-tree tasks.
 3. [cost](https://www.phdata.io/blog/what-is-the-snowflake-data-cloud/)
+
+## Data lake Table Formats
+
+### Apache Iceberg
+
+1. [A short Intro](https://medium.com/expedia-group-tech/a-short-introduction-to-apache-iceberg-d34f628b6799)
+2. [A Primer](https://thedatafreak.medium.com/apache-iceberg-a-primer-75a63470bfa2)
+3. [Benchmarking Delta vs Iceberg vs Hudi](https://databeans-blogs.medium.com/delta-vs-iceberg-vs-hudi-reassessing-performance-cb8157005eb0)
+4. [How we migrated our production data lake to iceberg](https://medium.com/insiderengineering/how-we-migrated-our-production-data-lake-to-apache-iceberg-4d6892eca6e6)
+5. [How we reduced our cost by 90%](https://medium.com/insiderengineering/apache-iceberg-reduced-our-amazon-s3-cost-by-90-997cde5ce931)
+6. [Top 5 Features](https://dipankar-tnt.medium.com/apache-iceberg-features-101-331a254a7ada)
