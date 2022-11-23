@@ -1,5 +1,11 @@
 # Deep Neural Nets
 
+## Perceptron
+
+1. [perceptron](https://towardsdatascience.com/perceptrons-logical-functions-and-the-xor-problem-37ca5025790a) - logical functions and XOR
+
+## DNN
+
 * [**Deep learning notes from Andrew NG’s course.**](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng)
 * **Jay Alammar on NN** [**Part 1**](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)**,** [**Part 2**](http://jalammar.github.io/feedforward-neural-networks-visual-interactive/)
 * [**NN in general**](http://briandolhansky.com/blog/?tag=neural+network#show-archive) **- 5 introductions  tutorials.**
