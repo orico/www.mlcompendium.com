@@ -110,6 +110,7 @@
   * [Tools](data-engineering/tools.md)
   * [Lakes & Warehouses](data-engineering/lakes-and-warehouses.md)
   * [Database Architecture & Modeling](data-engineering/database-architecture-and-modeling.md)
+  * [Data Engineering](data-engineering/data-engineering.md)
   * [Data Mesh](data-engineering/data-mesh/README.md)
     * [Data contract](data-engineering/data-mesh/data-contract.md)
     * [Data Product](data-engineering/data-mesh/data-product.md)
