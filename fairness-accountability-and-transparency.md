@@ -57,7 +57,7 @@ M. Hardt, E. Price and N. Srebro (2016), Equality of Opportunity in Supervised L
 
 1. arize.ai on [model bias](https://arize.com/understanding-bias-in-ml-models/#MLMonitoring).
 
-![](<.gitbook/assets/image (3) (1).png>)
+![](<.gitbook/assets/image (22).png>)
 
 ### DEBIASING MODELS
 

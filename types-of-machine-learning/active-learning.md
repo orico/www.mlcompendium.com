@@ -25,7 +25,7 @@
 21. [Medium on AL](https://news.voyage.auto/active-learning-and-why-not-all-data-is-created-equal-8a43a758c6f9)\*\*\*
 22. [Integrating Human-in-the-Loop (HITL) in machine learning is a necessity, not a choice. Here’s why?](https://medium.com/@supriya2211/integrating-human-in-the-loop-hitl-in-machine-learning-application-is-a-necessity-not-a-choice-f25e131ca84e) By Supriya Ghosh
 
-![Basic Framework for HITL Supriya Ghosh wrong credit? let me know](<../.gitbook/assets/image (12) (1) (1) (1).png>)
+![Basic Framework for HITL Supriya Ghosh wrong credit? let me know](<../.gitbook/assets/image (7).png>)
 
 #### Human In The loop ML book by [Robert munro](https://www.manning.com/books/human-in-the-loop-machine-learning#ref)
 

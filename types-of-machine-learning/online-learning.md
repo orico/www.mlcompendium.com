@@ -8,7 +8,7 @@
 4. Online learning - Andrew Ng - [coursera](https://www.coursera.org/learn/machine-learning/lecture/ABO2q/online-learning)
 5. [Chip Huyen on online prediction & learning](https://huyenchip.com/2020/12/27/real-time-machine-learning.html)
 6. [River](https://github.com/online-ml/river/) is a Python library for [online machine learning](https://www.wikiwand.com/en/Online\_machine\_learning)\
-   ![](<../.gitbook/assets/image (4).png>)
+   ![](<../.gitbook/assets/image (29).png>)
 7.
 
 ### Online Deep Learning (ODL)

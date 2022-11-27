@@ -6,7 +6,7 @@
 
 2. [Classifying Job Titles With Noisy Labels Using REINFORCE ](https://medium.com/@ziprecruiter.engineering/classifying-job-titles-with-noisy-labels-using-reinforce-ce1a4bde05e2)this article has a very nice trick in adding a reward component to the loss function in order to mitigate for unbalanced class label problem, instead of the usual balancing.
 
-![Imbalance Learn comparison](<.gitbook/assets/image (2) (1).png>)
+![Imbalance Learn comparison](<.gitbook/assets/image (17).png>)
 
 ## Label Propagation / Spreading
 

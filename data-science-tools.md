@@ -143,7 +143,7 @@ How to add extensions to jupyter: [extensions](https://codeburst.io/jupyter-note
 
     The system is built around quickly visualizing target values and comparing datasets. Its goal is to help quick analysis of target characteristics, training vs testing data, and other such data characterization tasks."
 
-![by Sweetviz](<.gitbook/assets/image (6).png>)
+![by Sweetviz](<.gitbook/assets/image (24).png>)
 
 ### TIMESERIES
 

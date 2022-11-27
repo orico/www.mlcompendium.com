@@ -8,7 +8,7 @@
 
 * [**Deep learning notes from Andrew NG’s course.**](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng)
 * **Jay Alammar on NN** [**Part 1**](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)**,** [**Part 2**](http://jalammar.github.io/feedforward-neural-networks-visual-interactive/)
-* [**NN in general**](http://briandolhansky.com/blog/?tag=neural+network#show-archive) **- 5 introductions  tutorials.**
+* [**NN in general**](http://briandolhansky.com/blog/?tag=neural+network#show-archive) **- 5 introductions tutorials.**
 * [**Segmentation examples**](https://meetshah1995.github.io/semantic-segmentation/deep-learning/pytorch/visdom/2017/06/01/semantic-segmentation-over-the-years.html)
 
 **MLP: fully connected, input, hidden layers, output. Gradient on the backprop takes a lot of time to calculate. Has vanishing gradient problem, because of multiplications when it reaches the first layers the loss correction is very small (0.1\*0.1\*01 = 0.001), therefore the early layers train slower than the last ones, and the early ones capture the basics structures so they are the more important ones.**
@@ -60,7 +60,7 @@
 
 **RNN - what is RNN by Andrej Karpathy -** [**The Unreasonable Effectiveness of Recurrent Neural Networks**](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)**, basically a lot of information about RNNs and their usage cases**
 
-* **basic NN node with a loop, previous output is merged with current input. for the purpose of remembering history, for time series, to predict the next X based on the previous Y.**&#x20;
+* **basic NN node with a loop, previous output is merged with current input. for the purpose of remembering history, for time series, to predict the next X based on the previous Y.**
 * **1 to N = frame captioning**
 * **N to 1 = classification**
 * **N to N = predict frames in a movie**
@@ -107,7 +107,7 @@
 
 ### **Mini batch (most common)**
 
-* **splits the training dataset into small batches, used to calculate model error and update model coefficients.**&#x20;
+* **splits the training dataset into small batches, used to calculate model error and update model coefficients.**
 * **Implementations may choose to sum the gradient over the mini-batch or take the average of the gradient (reduces variance of gradient) (unclear?)**
 
 **+ Tips on how to choose and train using mini batch in the link above**
@@ -119,7 +119,7 @@
 ![](https://lh5.googleusercontent.com/u6LIUt6HFxzUbztSkBRv5R6Sk53OdmC9R5\_BsSkci96Lr0VVDqrx7VW3UTCkPqz0GX7P4NV4GwKxvaZEQ1XEkVDUTdGFnyA\_GU4rSPeFs601g7HPtUZzVfiTQWiCW5rv4d3JggDU)
 
 * [**Big batches are not the cause for the ‘generalization gap’ between mini and big batches, it is not advisable to use large batches because of the low update rate, however if you change that, authors claim its okay**](https://arxiv.org/abs/1705.08741)**.**
-* [**So what is a batch size in NN (another source)**](https://stats.stackexchange.com/questions/153531/what-is-batch-size-in-neural-network) **- and how to find the “right” number. In general terms a good mini bach between 1 and all samples is a good idea. Figure it out empirically.**&#x20;
+* [**So what is a batch size in NN (another source)**](https://stats.stackexchange.com/questions/153531/what-is-batch-size-in-neural-network) **- and how to find the “right” number. In general terms a good mini bach between 1 and all samples is a good idea. Figure it out empirically.**
 * **one epoch = one forward pass and one backward pass of all the training examples**
 * **batch size = the number of training examples in one forward/backward pass. The higher the batch size, the more memory space you'll need.**
 * **number of iterations = number of passes, each pass using \[batch size] number of examples. To be clear, one pass = one forward pass + one backward pass (we do not count the forward pass and backward pass as two different passes).**
@@ -214,7 +214,7 @@
 
 **Part2:** [**batch/layer/weight normalization**](http://mlexplained.com/2018/01/13/weight-normalization-and-layer-normalization-explained-normalization-in-deep-learning-part-2/) **- This is a good resource for advantages for every layer**
 
-* **Layer, per feature in a batch,**&#x20;
+* **Layer, per feature in a batch,**
 * **weight - divided by the norm**
 
 ![](https://lh3.googleusercontent.com/IqvjdZcCmsI-rAJ4ye0aUIoyrYLXLJTE2XMeRAAMIi0MxRoSzpRaZ6Op6dWgZ1VkjvBNUcuS8Xr0V9jo7jIpE46-7ktlS9QTDf6vmM8LI4N9juxa3CaLY4B5Gkl9oNPd44DjN5Bs)
@@ -239,13 +239,13 @@
 
 [**How to read LOSS graphs (and accuracy on top)**](https://github.com/fchollet/keras/issues/3755)
 
-![](https://lh6.googleusercontent.com/blj3natUcvqK-nEmNjv90zAIM74QbA4x7hQ\_F\_oPGcHxQcdhc0\_NrcPZhWDne2EEnUnJKNDOw4Xt\_cUkhv3cFTFMcqzzBT4NeOPPnmoTfTXLFrEnVwkrlc5PEsZDNCZXdOr0GRZj)![](https://lh4.googleusercontent.com/o39Jcw1o7JeSsKuD\_q-9xGukmT6pWLGs-9sVIumxLRF7dPpf25w8o9e2OBnWbpPc\_p6t9e03D46r34N-8CYZa6fvfcWBVp\_7N06xE0kbrvIzBC5sGWcMymN\_KtPTfRKwHk1-gRcQ)
+![](https://lh6.googleusercontent.com/blj3natUcvqK-nEmNjv90zAIM74QbA4x7hQ\_F\_oPGcHxQcdhc0\_NrcPZhWDne2EEnUnJKNDOw4Xt\_cUkhv3cFTFMcqzzBT4NeOPPnmoTfTXLFrEnVwkrlc5PEsZDNCZXdOr0GRZj) ![](https://lh4.googleusercontent.com/o39Jcw1o7JeSsKuD\_q-9xGukmT6pWLGs-9sVIumxLRF7dPpf25w8o9e2OBnWbpPc\_p6t9e03D46r34N-8CYZa6fvfcWBVp\_7N06xE0kbrvIzBC5sGWcMymN\_KtPTfRKwHk1-gRcQ)
 
 **This indicates that the model is overfitting. It continues to get better and better at fitting the data that it sees (training data) while getting worse and worse at fitting the data that it does not see (validation data).**
 
 [**This is a very good example of a train/test loss and an accuracy behavior.**](https://machinelearningmastery.com/display-deep-learning-model-training-history-in-keras/)
 
-![](https://lh6.googleusercontent.com/GK\_rvndJY76-cgBbBetgSZfwTD7RTZW2UsXUtsEZRUvFW1ACpJw9FMhNwj3LBERvmmPvcuTkkwb5HUcXgi7ua42WqJwAZgFP-3NsyF1qEo9GmACXGQGWGSYh3AR7yY765Qm9QfiO)![](https://lh4.googleusercontent.com/Q46fiZLm9mMhuQnOVJjyZWstXj6Aq1Ctev1cvIUsdrOWiOqxfvNlkJjcW08waf8qCERvvt1AkW-HjDrLvjHiVxKTFzxfX0BmVq4hRUERqrGsNLALeJb75Geb06X21Bgb8z2dA6iw)
+![](https://lh6.googleusercontent.com/GK\_rvndJY76-cgBbBetgSZfwTD7RTZW2UsXUtsEZRUvFW1ACpJw9FMhNwj3LBERvmmPvcuTkkwb5HUcXgi7ua42WqJwAZgFP-3NsyF1qEo9GmACXGQGWGSYh3AR7yY765Qm9QfiO) ![](https://lh4.googleusercontent.com/Q46fiZLm9mMhuQnOVJjyZWstXj6Aq1Ctev1cvIUsdrOWiOqxfvNlkJjcW08waf8qCERvvt1AkW-HjDrLvjHiVxKTFzxfX0BmVq4hRUERqrGsNLALeJb75Geb06X21Bgb8z2dA6iw)
 
 [**Cross entropy formula with soft labels (probability) rather than classes.**](https://stats.stackexchange.com/questions/206925/is-it-okay-to-use-cross-entropy-loss-function-with-soft-labels)
 
@@ -271,7 +271,7 @@
 
 1. **Adagrad performs larger updates for more sparse parameters and smaller updates for less sparse parameter. It has good performance with sparse data and training large-scale neural network. However, its monotonic learning rate usually proves too aggressive and stops learning too early when training deep neural networks.**
 2. **Adadelta is an extension of Adagrad that seeks to reduce its aggressive, monotonically decreasing learning rate.**
-3. **RMSprop adjusts the Adagrad method in a very simple way in an attempt to reduce its aggressive, monotonically decreasing learning rate.**&#x20;
+3. **RMSprop adjusts the Adagrad method in a very simple way in an attempt to reduce its aggressive, monotonically decreasing learning rate.**
 4. [**Adam**](https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/) **is an update to the RMSProp optimizer which is like RMSprop with momentum.**
 
 ![](https://lh6.googleusercontent.com/ixb189Iy\_Z4PuSCZHn48vmBvRDNchESvmANzapkuTNMt5zYp7vl9NLznUzNQYaMuyUQzhLiQgpCPUho9klBdd4W09dcjsdx8D\_yIDvOcOK8Jo2\_p6nDMmLv3QL5ohm07-pJmIo48)
@@ -284,7 +284,7 @@
 
 **Another great comparison -** [**pdf paper**](https://arxiv.org/abs/1609.04747) **and** [**webpage link**](http://ruder.io/optimizing-gradient-descent/) **-**
 
-* **if your input data is sparse, then you likely achieve the best results using one of the adaptive learning-rate methods.**&#x20;
+* **if your input data is sparse, then you likely achieve the best results using one of the adaptive learning-rate methods.**
 * **An additional benefit is that you will not need to tune the learning rate but will likely achieve the best results with the default value.**
 * **In summary, RMSprop is an extension of Adagrad that deals with its radically diminishing learning rates. It is identical to Adadelta, except that Adadelta uses the RMS of parameter updates in the numerator update rule. Adam, finally, adds bias-correction and momentum to RMSprop. Insofar, RMSprop, Adadelta, and Adam are very similar algorithms that do well in similar circumstances. Kingma et al. \[10] show that its bias-correction helps Adam slightly outperform RMSprop towards the end of optimization as gradients become sparser. Insofar, Adam might be the best overall choice**
 
@@ -294,8 +294,8 @@
 
 ![](https://lh5.googleusercontent.com/K8KuSlFCGaOO9qihQGVQf3Cckcy5A2V98Tt\_OKbscmv-ZmmemEVJFs2V9eeydc8Aa\_dk-TXXjsJhiPCD7UAqKcvaMc4xsP0RIJNl0EiZ7ybQ5HsrINup7AYJjSfayQELeOA3WS\_-)
 
-* **The gap between the training and validation accuracy indicates the amount of overfitting.**&#x20;
-* **Two possible cases are shown in the diagram on the left. The blue validation error curve shows very small validation accuracy compared to the training accuracy, indicating strong overfitting (note, it's possible for the validation accuracy to even start to go down after some point).**&#x20;
+* **The gap between the training and validation accuracy indicates the amount of overfitting.**
+* **Two possible cases are shown in the diagram on the left. The blue validation error curve shows very small validation accuracy compared to the training accuracy, indicating strong overfitting (note, it's possible for the validation accuracy to even start to go down after some point).**
 * **NOTE: When you see this in practice you probably want to increase regularization:**
   * **stronger L2 weight penalty**
   * **Dropout**
@@ -343,7 +343,7 @@
 
 [**Selu**](https://towardsdatascience.com/selu-make-fnns-great-again-snn-8d61526802a9) **- better than RELU? Possibly.**
 
-[**Mish**](https://github.com/digantamisra98/Mish)**: A Self Regularized Non-Monotonic Neural Activation Function,** [**yam peleg’s code** ](https://gist.github.com/ypeleg/3af35d07d7f659f387952c9843849772?fbclid=IwAR2x\_Hzlg79\_mo\_zQMJGFbQWORbpdydnllnHoA\_RmUlCLpqKdGwClBuJy8g)
+[**Mish**](https://github.com/digantamisra98/Mish)**: A Self Regularized Non-Monotonic Neural Activation Function,** [**yam peleg’s code**](https://gist.github.com/ypeleg/3af35d07d7f659f387952c9843849772?fbclid=IwAR2x\_Hzlg79\_mo\_zQMJGFbQWORbpdydnllnHoA\_RmUlCLpqKdGwClBuJy8g)
 
 [**Mish, Medium, Keras Code, with benchmarks, computationally expensive.**](https://towardsdatascience.com/mish-8283934a72df)
 
@@ -380,34 +380,34 @@
 2. **What is the diff between a separate layer and inside the lstm layer.**
 3. **What is the diff in practice and intuitively between drop and recurrentdrop**
 
-[**Dropout layers in keras, or dropout regularization:** ](https://machinelearningmastery.com/dropout-regularization-deep-learning-models-keras/)
+[**Dropout layers in keras, or dropout regularization:**](https://machinelearningmastery.com/dropout-regularization-deep-learning-models-keras/)
 
-* **Dropout is a technique where randomly selected neurons are ignored RANDOMLY during training.**&#x20;
+* **Dropout is a technique where randomly selected neurons are ignored RANDOMLY during training.**
 * **contribution to the activation of downstream neurons is temporally removed on the forward pass and any weight updates are not applied to the neuron on the backward pass.**
 * **As a neural network learns, neuron weights settle into their context within the network.**
 * **Weights of neurons are tuned for specific features providing some specialization. Neighboring neurons become to rely on this specialization, which if taken too far can result in a fragile model too specialized to the training data. (overfitting)**
 * **This reliant on context for a neuron during training is referred to complex co-adaptations.**
 * **After dropout, other neurons will have to step in and handle the representation required to make predictions for the missing neurons, which is believed to result in multiple independent internal representations being learned by the network.**
-* **Thus, the effect of dropout is that the network becomes less sensitive to the specific weights of neurons.**&#x20;
+* **Thus, the effect of dropout is that the network becomes less sensitive to the specific weights of neurons.**
 * **This in turn leads to a network with better generalization capability and less likely to overfit the training data.**
 
 [**Another great answer about drop out**](https://www.quora.com/In-Keras-what-is-a-dense-and-a-dropout-layer) **-**
 
-* **as a consequence of the 50% dropout, the neural network will learn different, redundant representations; the network can’t rely on the particular neurons and the combination (or interaction) of these to be present.**&#x20;
+* **as a consequence of the 50% dropout, the neural network will learn different, redundant representations; the network can’t rely on the particular neurons and the combination (or interaction) of these to be present.**
 * **Another nice side effect is that training will be faster.**
-* **Rules:**&#x20;
-  * **Dropout is only applied during training,**&#x20;
-  * **Need to rescale the remaining neuron activations. E.g., if you set 50% of the activations in a given layer to zero, you need to scale up the remaining ones by a factor of 2.**&#x20;
+* **Rules:**
+  * **Dropout is only applied during training,**
+  * **Need to rescale the remaining neuron activations. E.g., if you set 50% of the activations in a given layer to zero, you need to scale up the remaining ones by a factor of 2.**
   * **if the training has finished, you’d use the complete network for testing (or in other words, you set the dropout probability to 0).**
 
 [**Implementation of drop out in keras**](https://datascience.stackexchange.com/questions/18088/convolutional-layer-dropout-layer-in-keras/18098) **is “inverse dropout” - n the Keras implementation, the output values are corrected during training (by dividing, in addition to randomly dropping out the values) instead of during testing (by multiplying). This is called "inverted dropout".**
 
 **Inverted dropout is functionally equivalent to original dropout (as per your link to Srivastava's paper), with a nice feature that the network does not use dropout layers at all during test and prediction. This is explained a little in this** [**Keras issue**](https://github.com/fchollet/keras/issues/3305)**.**
 
-[**Dropout notes and rules of thumb aka “best practice” -** ](http://blog.mrtanke.com/2016/10/09/Keras-Study-Notes-3-Dropout-Regularization-for-Deep-Networks/)
+[**Dropout notes and rules of thumb aka “best practice” -**](http://blog.mrtanke.com/2016/10/09/Keras-Study-Notes-3-Dropout-Regularization-for-Deep-Networks/)
 
 * **dropout value of 20%-50% of neurons with 20% providing a good starting point. (A probability too low has minimal effect and a value too high results in underlearning by the network.)**
-* **Use a large network for better performance, i.e.,  when dropout is used on a larger network, giving the model more of an opportunity to learn independent representations.**
+* **Use a large network for better performance, i.e., when dropout is used on a larger network, giving the model more of an opportunity to learn independent representations.**
 * **Use dropout on VISIBLE AND HIDDEN. Application of dropout at each layer of the network has shown good results.**
 * **Unclear ? Use a large learning rate with decay and a large momentum. Increase your learning rate by a factor of 10 to 100 and use a high momentum value of 0.9 or 0.99.**
 * **Unclear ? Constrain the size of network weights. A large learning rate can result in very large network weights. Imposing a constraint on the size of network weights such as max-norm regularization with a size of 4 or 5 has been shown to improve results.**
@@ -426,8 +426,8 @@
 
 1. [**Dont decay the learning rate, increase batchsize - paper**](https://arxiv.org/abs/1711.00489) **(optimization of a network)**
 2. [**Add one neuron with skip connection, or to every layer in a binary classification network to get global minimum**](https://arxiv.org/abs/1805.08671)**.**
-3. ****[**RESNET, DENSENET UNET**](https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010) **-   the trick behind them, concatenating both f(x) = x**
-4.  ****[**skip connections**](https://www.analyticsvidhya.com/blog/2021/08/all-you-need-to-know-about-skip-connections/) **** by Siravam / Vidhya- **"**Skip Connections (or Shortcut Connections) as the name suggests skips some of the layers in the neural network and feeds the output of one layer as the input to the next layers.
+3. \*\*\*\*[**RESNET, DENSENET UNET**](https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010) **- the trick behind them, concatenating both f(x) = x**
+4.  \*\*\*\*[**skip connections**](https://www.analyticsvidhya.com/blog/2021/08/all-you-need-to-know-about-skip-connections/) \*\*\*\* by Siravam / Vidhya- \*\*"\*\*Skip Connections (or Shortcut Connections) as the name suggests skips some of the layers in the neural network and feeds the output of one layer as the input to the next layers.
 
     Skip Connections were introduced to solve different problems in different architectures. In the case of ResNets, skip connections solved the _degradation problem_ that we addressed earlier whereas, in the case of DenseNets, it ensured **feature reusability**. We’ll discuss them in detail in the following sections.
 
@@ -449,7 +449,7 @@
 
 1. **A machine learning framework for** [**multi-output/multi-label**](https://github.com/scikit-multiflow/scikit-multiflow) **and stream data. Inspired by MOA and MEKA, following scikit-learn's philosophy.** [**https://scikit-multiflow.github.io/**](https://scikit-multiflow.github.io/)
 2. [**Medium on MO, sklearn and keras**](https://towardsdatascience.com/what-data-scientists-should-know-about-multi-output-and-multi-label-training-b9d4be620e11)
-3. [**MO in keras, see functional API on how.**](https://www.pyimagesearch.com/2018/06/04/keras-multiple-outputs-and-multiple-losses//)
+3. [**MO in keras, see functional API on how.**](https://www.pyimagesearch.com/2018/06/04/keras-multiple-outputs-and-multiple-losses/)
 
 ### **FUZZY MULTI LABEL**
 
@@ -460,7 +460,7 @@
 ### **PYTORCH**
 
 1. **Deep learning with pytorch -** [**The book**](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf)
-2. [**Pytorch DL course**](https://atcold.github.io/pytorch-Deep-Learning/)**,** [**git**](https://github.com/Atcold/pytorch-Deep-Learning) **- yann lecun**&#x20;
+2. [**Pytorch DL course**](https://atcold.github.io/pytorch-Deep-Learning/)**,** [**git**](https://github.com/Atcold/pytorch-Deep-Learning) **- yann lecun**
 
 ### **FAST.AI**
 
@@ -507,7 +507,7 @@
 2. **Note: probably doesn't reflect on adam, is there a reference?**
 3. [**Parallel gpu-code for keras. Its a one liner, but remember to scale batches by the amount of GPU used in order to see a (non linear) scaability in training time.**](https://datascience.stackexchange.com/questions/23895/multi-gpu-in-keras)
 4. [**Pitfalls in GPU training, this is a very important post, be aware that you can corrupt your weights using the wrong combination of batches-to-input-size**](http://blog.datumbox.com/5-tips-for-multi-gpu-training-with-keras/)**, in keras-tensorflow. When you do multi-GPU training, it is important to feed all the GPUs with data. It can happen that the very last batch of your epoch has less data than defined (because the size of your dataset can not be divided exactly by the size of your batch). This might cause some GPUs not to receive any data during the last step. Unfortunately some Keras Layers, most notably the Batch Normalization Layer, can’t cope with that leading to nan values appearing in the weights (the running mean and variance in the BN layer).**
-5. [**5 things to be aware of for multi gpu using keras, crucial to look at before doing anything** ](http://blog.datumbox.com/5-tips-for-multi-gpu-training-with-keras/)
+5. [**5 things to be aware of for multi gpu using keras, crucial to look at before doing anything**](http://blog.datumbox.com/5-tips-for-multi-gpu-training-with-keras/)
 
 **KERAS FUNCTIONAL API**
 
@@ -562,7 +562,7 @@
 8. [**Another great presentation on PCA vs AE,**](https://web.cs.hacettepe.edu.tr/\~aykut/classes/fall2016/bbm406/slides/l25-kernel\_pca.pdf) **summarized in the KPCA section of this notebook. +**[**another one**](https://www.cs.toronto.edu/\~urtasun/courses/CSC411/14\_pca.pdf) **+**[**StackE**](https://stats.stackexchange.com/questions/261265/factor-analysis-vs-autoencoders)**xchange**
 9. [**Autoencoder tutorial with python code and how to encode after**](https://ramhiser.com/post/2018-05-14-autoencoders-with-keras/)**,** [**mastery**](https://machinelearningmastery.com/encoder-decoder-attention-sequence-to-sequence-prediction-keras/)
 10. [**Git code for low dimensional auto encoder**](https://github.com/Mylittlerapture/Low-Dimensional-Autoencoder)
-11. [**Bart denoising AE**](https://arxiv.org/pdf/1910.13461.pdf)**, sequence to sequence pre training for NL generation translation and comprehension.**&#x20;
+11. [**Bart denoising AE**](https://arxiv.org/pdf/1910.13461.pdf)**, sequence to sequence pre training for NL generation translation and comprehension.**
 12. [**Attention based seq to seq auto encoder**](https://wanasit.github.io/attention-based-sequence-to-sequence-in-keras.html)**,** [**git**](https://github.com/wanasit/katakana)
 
 [**AE for anomaly detection, fraud detection**](https://medium.com/@curiousily/credit-card-fraud-detection-using-autoencoders-in-keras-tensorflow-for-hackers-part-vii-20e0c85301bd)
@@ -576,12 +576,12 @@
 5. [**Disentangled VAE**](https://www.youtube.com/watch?v=9zKuYvjFFS8) **- improves VAE**
 6. **Optimus -** [**pretrained VAE**](https://github.com/ophiry/Optimus)**,** [**paper**](https://arxiv.org/abs/2004.04092)**,** [**Microsoft blog**](https://www.microsoft.com/en-us/research/blog/a-deep-generative-model-trifecta-three-advances-that-work-towards-harnessing-large-scale-power/)\*\*\*\*
 
-![Optimus](<../.gitbook/assets/image (1) (1) (1).png>)
+![Optimus](<../.gitbook/assets/image (19).png>)
 
 ### **SELF ORGANIZING MAPS (SOM)**
 
 1. **Git**
-   1. [**Sompy**](https://github.com/sevamoo/SOMPY)**,**&#x20;
+   1. [**Sompy**](https://github.com/sevamoo/SOMPY)**,**
    2. **\*\*\***[**minisom!**](https://github.com/JustGlowing/minisom)
    3. [**Many graph examples**](https://medium.com/@s.ganjoo96/self-organizing-maps-b2cf58b74fdb)**,** [**example**](https://github.com/lightsalsa251/Self-Organizing-Map)
 2. [**Step by step with examples, calculations**](https://mc.ai/self-organizing-mapsom/)
@@ -614,7 +614,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 **The encoding in HyperNEAT, called** [**compositional pattern producing networks**](http://en.wikipedia.org/wiki/Compositional\_pattern-producing\_network)\*\*, is designed to represent patterns with regularities such as symmetry, repetition, and repetition with variationץ
 
-(WIKI) **\[**Compositional pattern-producing networks**]\(**[https://en.wikipedia.org/wiki/Compositional\_pattern-producing\_network](https://en.wikipedia.org/wiki/Compositional\_pattern-producing\_network)**)** (CPPNs) are a variation of artificial neural networks (ANNs) that have an architecture whose evolution is guided by genetic algorithms\*\*
+(WIKI) **\[Compositional pattern-producing networks]\(**[https://en.wikipedia.org/wiki/Compositional\_pattern-producing\_network](https://en.wikipedia.org/wiki/Compositional\_pattern-producing\_network)**)** (CPPNs) are a variation of artificial neural networks (ANNs) that have an architecture whose evolution is guided by genetic algorithms\*\*
 
 ![](https://lh6.googleusercontent.com/cAbcsLDWcDOMlX4K53ROOLyiAw6EhJ9ZRDuZmURFtBaje8JtwzU\_KsOh4aeiC8ukdYgBYEm6zqWd7jZ3tStib3JJGYrmxM4wlrgyBJFhlnMHd\_kIcxgO2reEsoE4RPjJLXr3O-R\_)
 
@@ -626,9 +626,9 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 **The** [**RBFN**](http://mccormickml.com/2013/08/15/radial-basis-function-network-rbfn-tutorial/) **approach is more intuitive than the MLP.**
 
-* **An RBFN performs classification by measuring the input’s similarity to examples from the training set.**&#x20;
-* **Each RBFN neuron stores a “prototype”, which is just one of the examples from the training set.**&#x20;
-* **When we want to classify a new input, each neuron computes the Euclidean distance between the input and its prototype.**&#x20;
+* **An RBFN performs classification by measuring the input’s similarity to examples from the training set.**
+* **Each RBFN neuron stores a “prototype”, which is just one of the examples from the training set.**
+* **When we want to classify a new input, each neuron computes the Euclidean distance between the input and its prototype.**
 * **Roughly speaking, if the input more closely resembles the class A prototypes than the class B prototypes, it is classified as class A.**
 
 ![Architecture\_Simple](https://lh6.googleusercontent.com/5oVVPw02w2Pv1kqAGvQ6drOX6Nh7lA72cBDplTbqgd78u25ceNdjufDe8h4pKWNPKC350\_r4V\_TPUn1ionjck1IPJiW0Q4rwivL4sH4LJGaj7V7WZBss8eLSuqpZb5Rv525M4sQ1)
@@ -639,9 +639,9 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 **Under the BNN framework, prediction uncertainty can be categorized into three types:**
 
-1. **Model uncertainty captures our ignorance of the model parameters and can be reduced as more samples are collected.**&#x20;
+1. **Model uncertainty captures our ignorance of the model parameters and can be reduced as more samples are collected.**
 2. **model misspecification**
-3. **inherent noise captures the uncertainty in the data generation process and is irreducible.**&#x20;
+3. **inherent noise captures the uncertainty in the data generation process and is irreducible.**
 
 **Note: in a series of articles, uber explains about time series and leads to a BNN architecture.**
 
@@ -675,7 +675,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 **Old note:** [**The idea behind uncertainty is (**](http://mlg.eng.cam.ac.uk/yarin/blog\_3d801aa532c1ce.html)[**paper here**](https://arxiv.org/pdf/1506.02142.pdf)**) that in order to trust your network’s classification, you drop some of the neurons during prediction, you do this \~100 times and you average the results. Intuitively this will give you confidence in your classification and increase your classification accuracy, because only a partial part of your network participated in the classification, randomly, 100 times. Please note that Softmax doesn't give you certainty.**
 
-[**Medium post on prediction with drop out** ](https://towardsdatascience.com/is-your-algorithm-confident-enough-1b20dfe2db08)
+[**Medium post on prediction with drop out**](https://towardsdatascience.com/is-your-algorithm-confident-enough-1b20dfe2db08)
 
 **The** [**solution for keras**](https://github.com/keras-team/keras/issues/9412) **says to add trainable=true for every dropout layer and add another drop out at the end of the model. Thanks sam.**
 
@@ -707,7 +707,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
   * **Let's say the output probabilities for the boat image above are \[0.2, 0.4, 0.1, 0.3]**
   * **Since weights are randomly assigned for the first training example, output probabilities are also random.**
 * **Step3: Calculate the total error at the output layer (summation over all 4 classes)**
-  * **(L2) Total Error = ∑  ½ (target probability – output probability) ²**
+  * **(L2) Total Error = ∑ ½ (target probability – output probability) ²**
 * **Step4: Use Backpropagation to calculate the gradients of the error with respect to all weights in the network and use gradient descent to update all filter values / weights and parameter values to minimize the output error.**
   * **The weights are adjusted in proportion to their contribution to the total error.**
   * **When the same image is input again, output probabilities might now be \[0.1, 0.1, 0.7, 0.1], which is closer to the target vector \[0, 0, 1, 0].**
@@ -741,9 +741,9 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 **1x1 CNN**
 
 1. [**Mastery**](https://machinelearningmastery.com/introduction-to-1x1-convolutions-to-reduce-the-complexity-of-convolutional-neural-networks/) **on 1x1 cnn, for dim reduction, decreasing feature maps and other usages.**
-   1. **“This is the most common application of this type of filter and in this way, the layer is often called a feature map pooling layer.”**&#x20;
-   2. **“In the paper, the authors propose the need for an MLP convolutional layer and the need for cross-channel pooling to promote learning across channels.”**&#x20;
-   3. **“the 1×1 filter was used explicitly for dimensionality reduction and for increasing the dimensionality of feature maps after pooling in the design of the inception module, used in the GoogLeNet model”**&#x20;
+   1. **“This is the most common application of this type of filter and in this way, the layer is often called a feature map pooling layer.”**
+   2. **“In the paper, the authors propose the need for an MLP convolutional layer and the need for cross-channel pooling to promote learning across channels.”**
+   3. **“the 1×1 filter was used explicitly for dimensionality reduction and for increasing the dimensionality of feature maps after pooling in the design of the inception module, used in the GoogLeNet model”**
    4. **“The 1×1 filter was used as a projection technique to match the number of filters of input to the output of residual modules in the design of the residual network “**
    5.
 
@@ -759,16 +759,16 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 [**Intuitions to the differences between max and average pooling:**](https://stats.stackexchange.com/questions/291451/feature-extracted-by-max-pooling-vs-mean-pooling)
 
-1. **A max-pool layer compressed by taking the maximum activation in a block. If you have a block with mostly small activation, but a small bit of large activation, you will loose the information on the low activations. I think of this as saying "this type of feature was detected in this general area".**&#x20;
+1. **A max-pool layer compressed by taking the maximum activation in a block. If you have a block with mostly small activation, but a small bit of large activation, you will loose the information on the low activations. I think of this as saying "this type of feature was detected in this general area".**
 2. **A mean-pool layer compresses by taking the mean activation in a block. If large activations are balanced by negative activations, the overall compressed activations will look like no activation at all. On the other hand, you retain some information about low activations in the previous example.**
 3. **MAX pooling In other words: Max pooling roughly means that only those features that are most strongly triggering outputs are used in the subsequent layers. You can look at it a little like focusing the network’s attention on what’s most characteristic for the image at hand.**
-4. [**GLOBAL MAX pooling**](https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/)**: In the last few years, experts have turned to global average pooling (GAP) layers to minimize overfitting by reducing the total number of parameters in the model. Similar to max pooling layers, GAP layers are used to reduce the spatial dimensions of a three-dimensional tensor. However, GAP layers perform a more extreme type of dimensionality reduction,**&#x20;
+4. [**GLOBAL MAX pooling**](https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/)**: In the last few years, experts have turned to global average pooling (GAP) layers to minimize overfitting by reducing the total number of parameters in the model. Similar to max pooling layers, GAP layers are used to reduce the spatial dimensions of a three-dimensional tensor. However, GAP layers perform a more extreme type of dimensionality reduction,**
 5. [**Hinton’s controversy thoughts on pooling**](https://mirror2image.wordpress.com/2014/11/11/geoffrey-hinton-on-max-pooling-reddit-ama/)
 
 **Dilated CNN**
 
 1. [**For improved performance**](https://stackoverflow.com/questions/41178576/whats-the-use-of-dilated-convolutions)
-2. ****[**RESNET, DENSENET UNET**](https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010) **-   the trick behind them, concatenating both f(x) = x**
+2. \*\*\*\*[**RESNET, DENSENET UNET**](https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010) **- the trick behind them, concatenating both f(x) = x**
 
 ### **Graph Convolutional Networks**
 
@@ -816,17 +816,17 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 [**Source 1**](https://www.quora.com/What-is-masking-in-a-recurrent-neural-network-RNN)**,** [**source 2**](https://r2rt.com/recurrent-neural-networks-in-tensorflow-iii-variable-length-sequences.html)**,**
 
-**Visual attention RNNS - Same idea as masking but on a window-based cnn.** [**Paper** ](https://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf)
+**Visual attention RNNS - Same idea as masking but on a window-based cnn.** [**Paper**](https://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf)
 
 **LSTM**
 
 * [**The best, hands down, lstm post out there**](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
-* **LSTM -** [**what is?**](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) **the first reference for LSTM on the web, but you should know the background before reading.**&#x20;
+* **LSTM -** [**what is?**](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) **the first reference for LSTM on the web, but you should know the background before reading.**
 * ![](https://lh3.googleusercontent.com/7KJz\_beT-3kClxvDJHNVZP4gEMtn0oUK08yzh\_foRMwqjtrWh8EpC3Yp9oCmH0LOcBzBbA-8E9D-4Dd1TXdWipGjSHXW0GjgMBo4gs-1f8XLpXRjnwN29zhzpJPe2uKIyNXkkqy-)
 * [**Hidden state vs cell state**](https://www.quora.com/How-is-the-hidden-state-h-different-from-the-memory-c-in-an-LSTM-cell) **- you have to understand this concept before you dive in. i.e, Hidden state is overall state of what we have seen so far. Cell state is selective memory of the past. The hidden state (h) carries the information about what an RNN cell has seen over the time and supply it to the present time such that a loss function is not just dependent upon the data it is seeing in this time instant, but also, data it has seen historically.**
 * [**Illustrated rnn lstm gru**](https://towardsdatascience.com/animated-rnn-lstm-and-gru-ef124d06cf45)
 * [**Paper**](https://arxiv.org/pdf/1503.04069.pdf) **- a comparison of many LSTMs variants and they are pretty much the same performance wise**
-* [**Paper**](https://arxiv.org/pdf/1503.04069.pdf)  **- comparison of lstm variants, vanilla is mostly the best, forget and output gates are the most important in terms of performance. Other conclusions in the paper..**
+* [**Paper**](https://arxiv.org/pdf/1503.04069.pdf) **- comparison of lstm variants, vanilla is mostly the best, forget and output gates are the most important in terms of performance. Other conclusions in the paper..**
 * **Master on** [**unrolling RNN’s introductory post**](https://machinelearningmastery.com/rnn-unrolling/)
 * **Mastery on** [**under/over fitting lstms**](https://machinelearningmastery.com/diagnose-overfitting-underfitting-lstm-models/) **- but makes sense for all types of networks**
 * **Mastery on r**[**eturn\_sequence and return\_state in keras LSTM**](https://machinelearningmastery.com/return-sequences-and-return-states-for-lstms-in-keras/)
@@ -846,7 +846,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 *
   * **Mastery on** [**wrapping cnn-lstm with time distributed**](https://machinelearningmastery.com/cnn-long-short-term-memory-networks/)**, as a whole model wrap, or on every layer in the model which is equivalent and preferred.**
 * **Master on** [**visual examples**](https://machinelearningmastery.com/sequence-prediction/) **for sequence prediction**
-* **Unread - sentiment classification of IMDB movies using** [**Keras and LSTM** ](http://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
+* **Unread - sentiment classification of IMDB movies using** [**Keras and LSTM**](http://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
 * [**Very important - how to interpret LSTM neurons in keras**](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/)
 * [**LSTM for time-series**](http://www.jakob-aungiers.com/articles/a/LSTM-Neural-Network-for-Time-Series-Prediction) **- (jakob) single point prediction, sequence prediction and shifted-sequence prediction with code.**
 
@@ -900,7 +900,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 [**number of units in LSTM**](https://www.quora.com/What-is-the-meaning-of-%E2%80%9CThe-number-of-units-in-the-LSTM-cell)
 
-[**Calculate how many params are in an LSTM layer?** ](https://stackoverflow.com/questions/38080035/how-to-calculate-the-number-of-parameters-of-an-lstm-network)
+[**Calculate how many params are in an LSTM layer?**](https://stackoverflow.com/questions/38080035/how-to-calculate-the-number-of-parameters-of-an-lstm-network)
 
 ![](https://lh5.googleusercontent.com/niwCPHMxrR83JzXNLWT8J4dr9S\_GJ4\_Z4SEDMwPQFv6OghMu9S2X2A5cy9wUwTnaAehXU18IIVM4s--tRnANN8AxnMUOogOt6WjF5azZc0ootq5EIHgj9hfxL253oMCWaAm8ftQj)
 
@@ -941,7 +941,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 [**A tutorial about GRU**](https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be) **- To solve the vanishing gradient problem of a standard RNN, GRU uses, so called, update gate and reset gate. Basically, these are two vectors which decide what information should be passed to the output. The special thing about them is that they can be trained to keep information from long ago, without washing it through time or remove information which is irrelevant to the prediction.**
 
 1. **update gate helps the model to determine how much of the past information (from previous time steps) needs to be passed along to the future.**
-2. **Reset gate essentially, this gate is used from the model to decide how much of the past information to forget.**&#x20;
+2. **Reset gate essentially, this gate is used from the model to decide how much of the past information to forget.**
 
 **RECURRENT WEIGHTED AVERAGE (RNN-WA)**
 
@@ -962,11 +962,11 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 ### **GRAPH NEURAL NETWORKS (GNN)**
 
 1. **(amazing)** [**Why i am luke warm about GNN’s**](https://www.singlelunch.com/2020/12/28/why-im-lukewarm-on-graph-neural-networks/) **- really good insight to what they do (compressing data, vs adjacy graphs, vs graphs, high dim relations, etc.)**
-2. (amazing) [Graphical intro to GNNs](https://distill.pub/2021/gnn-intro/)&#x20;
+2. (amazing) [Graphical intro to GNNs](https://distill.pub/2021/gnn-intro/)
 3. [**Learning on graphs youtube - uriel singer**](https://www.youtube.com/watch?v=snLsWos\_1WU\&feature=youtu.be\&fbclid=IwAR0JlvF9aPgKMmeh2zGr3l3j\_8AebOTjknVGyMsz0Y2EvgcqrS0MmLkBTMU)
 4. [**Benchmarking GNN’s, methodology, git, the works.**](https://graphdeeplearning.github.io/post/benchmarking-gnns/)
 5. [**Awesome graph classification on github**](https://github.com/benedekrozemberczki/awesome-graph-classification)
-6. **Octavian in medium on graphs,** [**A really good intro to graph networks, too long too summarize**](https://medium.com/octavian-ai/deep-learning-with-knowledge-graphs-3df0b469a61a)**, clever, mcgraph, regression, classification, embedding on graphs.**&#x20;
+6. **Octavian in medium on graphs,** [**A really good intro to graph networks, too long too summarize**](https://medium.com/octavian-ai/deep-learning-with-knowledge-graphs-3df0b469a61a)**, clever, mcgraph, regression, classification, embedding on graphs.**
 7. [**Application of graph networks**](https://towardsdatascience.com/https-medium-com-aishwaryajadhav-applications-of-graph-neural-networks-1420576be574) _\*\*_
 8. [**Recommender systems using GNN**](https://towardsdatascience.com/recommender-systems-applying-graph-and-nlp-techniques-619dbedd9ecc)**, w2v, pytorch w2v, networkx, sparse matrices, matrix factorization, dictionary optimization, part 1 here** [**(how to find product relations, important: creating negative samples)**](https://eugeneyan.com/2020/01/06/recommender-systems-beyond-the-user-item-matrix)
 9. [**Transformers are GNN**](https://towardsdatascience.com/transformers-are-graph-neural-networks-bca9f75412aa)**, original:** [**Transformers are graphs, not the typical embedding on a graph, but a more holistic approach to understanding text as a graph.**](https://thegradient.pub/transformers-are-graph-neural-networks/)
@@ -975,19 +975,19 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 12. **Really good -** [**Basics deep walk and graphsage**](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) _\*\*_
 13. [**Application of gnn**](https://towardsdatascience.com/https-medium-com-aishwaryajadhav-applications-of-graph-neural-networks-1420576be574)
 14. **Michael Bronstein’s** [**Central page for Graph deep learning articles on Medium**](https://towardsdatascience.com/graph-deep-learning/home) **(worth reading)**
-15. [**GAT graphi attention networks**](https://petar-v.com/GAT/)**, paper, examples - The graph attentional layer utilised throughout these networks is computationally efficient (does not require costly matrix operations, and is parallelizable across all nodes in the graph), allows for (implicitly) assigning different importances to different nodes within a neighborhood while dealing with different sized neighborhoods, and does not depend on knowing the entire graph structure upfront—thus addressing many of the theoretical issues with approaches.**&#x20;
+15. [**GAT graphi attention networks**](https://petar-v.com/GAT/)**, paper, examples - The graph attentional layer utilised throughout these networks is computationally efficient (does not require costly matrix operations, and is parallelizable across all nodes in the graph), allows for (implicitly) assigning different importances to different nodes within a neighborhood while dealing with different sized neighborhoods, and does not depend on knowing the entire graph structure upfront—thus addressing many of the theoretical issues with approaches.**
 16. **Medium on** [**Intro, basics, deep walk, graph sage**](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3)
 
 #### GNN courses
 
 1. [machine learning with graphs by Stanford](http://web.stanford.edu/class/cs224w/?fbclid=IwAR0nQR4lhyKCoTchsGQrcZ5E8EPBt2Bi4d8K8MYX-UN0ygQSxQ5bMoohhis), from ML to GNN.
-2. [Graph deep learning course](https://geometricdeeplearning.com/lectures/) - graphs, sets,  groups,  GNNs. [youtube](https://www.youtube.com/watch?app=desktop\&v=w6Pw4MOzMuo)
+2. [Graph deep learning course](https://geometricdeeplearning.com/lectures/) - graphs, sets, groups, GNNs. [youtube](https://www.youtube.com/watch?app=desktop\&v=w6Pw4MOzMuo)
 
 **Deep walk**
 
 1. [**Git**](https://github.com/phanein/deepwalk)
 2. [**Paper**](https://arxiv.org/abs/1403.6652)
-3. [**Medium**](https://medium.com/@\_init\_/an-illustrated-explanation-of-using-skipgram-to-encode-the-structure-of-a-graph-deepwalk-6220e304d71b)  **and medium on** [**W2v, deep walk, graph2vec, n2v**](https://towardsdatascience.com/graph-embeddings-the-summary-cc6075aba007)
+3. [**Medium**](https://medium.com/@\_init\_/an-illustrated-explanation-of-using-skipgram-to-encode-the-structure-of-a-graph-deepwalk-6220e304d71b) **and medium on** [**W2v, deep walk, graph2vec, n2v**](https://towardsdatascience.com/graph-embeddings-the-summary-cc6075aba007)
 
 **Node2vec**
 
@@ -1031,11 +1031,11 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 ### **SIGNAL PROCESSING NN (FFT, WAVELETS, SHAPELETS)**
 
-1. [**Fourier Transform**](https://www.youtube.com/watch?v=spUNpyF58BY) **- decomposing frequencies**&#x20;
+1. [**Fourier Transform**](https://www.youtube.com/watch?v=spUNpyF58BY) **- decomposing frequencies**
 2. [**WAVELETS On youtube (4 videos)**](https://www.youtube.com/watch?v=QX1-xGVFqmw)**:**
    1. [**used for denoising**](https://www.youtube.com/watch?v=veCvP1mYpww)**, compression, detect edges, detect features with various orientation, analyse signal power, detect and localize transients, change points in time series data and detect optimal signal representation (peaks etc) of time freq analysis of images and data.**
    2. **Can also be used to** [**reconstruct time and frequencies**](https://www.youtube.com/watch?v=veCvP1mYpww)**, analyse images in space, frequencies, orientation, identifying coherent time oscillation in time series**
-   3. **Analyse signal variability and correlation**&#x20;
+   3. **Analyse signal variability and correlation**
    4.
 
 ### **HIERARCHICAL RNN**
@@ -1059,8 +1059,8 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 **PRUNING / KNOWLEDGE DISTILLATION / LOTTERY TICKET**
 
-1. [**Awesome Knowledge distillation** ](https://github.com/dkozlov/awesome-knowledge-distillation)
-2. **Lottery ticket**&#x20;
+1. [**Awesome Knowledge distillation**](https://github.com/dkozlov/awesome-knowledge-distillation)
+2. **Lottery ticket**
    1. [**1**](https://towardsdatascience.com/breaking-down-the-lottery-ticket-hypothesis-ca1c053b3e58)**,** [**2**](https://arxiv.org/pdf/1803.03635.pdf)**-paper**
    2. [**Uber on Lottery ticket, masking weights retraining**](https://eng.uber.com/deconstructing-lottery-tickets/?utm\_campaign=the\_algorithm.unpaid.engagement\&utm\_source=hs\_email\&utm\_medium=email\&utm\_content=72562707&\_hsenc=p2ANqtz--3mi4IwIFWZsW8UaWeuiv2nCzXDXattjRENzdKT-7J6wc7ftReuDXbn39mxCnX5y18o3z7cXfxPXQgysBMJnVnfeYpHg&\_hsmi=72562707)
    3. [**Facebook article and paper**](https://ai.facebook.com/blog/understanding-the-generalization-of-lottery-tickets-in-neural-networks)
@@ -1143,7 +1143,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 **25. Check for hidden dimension errors - confusion due to vectors ->(64, 64, 64)**
 
-**26. Explore Gradient checking -does your backprop work for custon gradients?** [**1**](http://ufldl.stanford.edu/tutorial/supervised/DebuggingGradientChecking/) **\*\*\[**2**]\(**[http://cs231n.github.io/neural-networks-3/#gradcheck](http://cs231n.github.io/neural-networks-3/#gradcheck)**) \*\***[**3**](https://www.coursera.org/learn/machine-learning/lecture/Y3s6r/gradient-checking)**.**
+**26. Explore Gradient checking -does your backprop work for custon gradients?** [**1**](http://ufldl.stanford.edu/tutorial/supervised/DebuggingGradientChecking/) **\*\*\[2]\(**[http://cs231n.github.io/neural-networks-3/#gradcheck](http://cs231n.github.io/neural-networks-3/#gradcheck)**) \*\***[**3**](https://www.coursera.org/learn/machine-learning/lecture/Y3s6r/gradient-checking)**.**
 
 **Training issues**
 
@@ -1177,8 +1177,8 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 ### **VECTOR SIMILARITY SEARCH**
 
-1. [**Faiss**](https://github.com/facebookresearch/faiss) **- a library for efficient similarity search**&#x20;
-2. [**Benchmarking**](https://github.com/erikbern/ann-benchmarks) **- complete with almost everything imaginable**&#x20;
+1. [**Faiss**](https://github.com/facebookresearch/faiss) **- a library for efficient similarity search**
+2. [**Benchmarking**](https://github.com/erikbern/ann-benchmarks) **- complete with almost everything imaginable**
 3. [**Singlestore**](https://www.singlestore.com/solutions/predictive-ml-ai/)
 4. **Elastic search -** [**dense vector**](https://www.elastic.co/guide/en/elasticsearch/reference/7.6/query-dsl-script-score-query.html#vector-functions)
 5. **Google cloud vertex matching engine** [**NN search**](https://cloud.google.com/blog/products/ai-machine-learning/vertex-matching-engine-blazing-fast-and-massively-scalable-nearest-neighbor-search)
@@ -1193,14 +1193,14 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
    2. **Features**
       1. **Low latency**
       2. **High recall**
-      3. **managed**&#x20;
+      3. **managed**
       4. **Filtering**
       5. **scale**
-6. **Pinecone - managed**  [**vector similarity search**](https://www.pinecone.io/) **- Pinecone is a fully managed vector database that makes it easy to add vector search to production applications. No more hassles of benchmarking and tuning algorithms or building and maintaining infrastructure for vector search.**
+6. **Pinecone - managed** [**vector similarity search**](https://www.pinecone.io/) **- Pinecone is a fully managed vector database that makes it easy to add vector search to production applications. No more hassles of benchmarking and tuning algorithms or building and maintaining infrastructure for vector search.**
 7. [**Nmslib**](https://github.com/nmslib/nmslib) **(**[**benchmarked**](https://github.com/erikbern/ann-benchmarks) **- Benchmarks of approximate nearest neighbor libraries in Python) is a Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.**
-8. **scann,**&#x20;
+8. **scann,**
 9. [**Vespa.ai**](https://vespa.ai/) **- Make AI-driven decisions using your data, in real time. At any scale, with unbeatable performance**
-10. [**Weaviate**](https://www.semi.technology/developers/weaviate/current/) **- Weaviate is an** [**open source**](https://github.com/semi-technologies/weaviate) **vector search engine and vector database. Weaviate uses machine learning to vectorize and store data, and to find answers to natural language queries, or any other media type.**&#x20;
+10. [**Weaviate**](https://www.semi.technology/developers/weaviate/current/) **- Weaviate is an** [**open source**](https://github.com/semi-technologies/weaviate) **vector search engine and vector database. Weaviate uses machine learning to vectorize and store data, and to find answers to natural language queries, or any other media type.**
 11. [**Neural Search with BERT and Solr**](https://dmitry-kan.medium.com/list/vector-search-e9b564d14274) **- Indexing BERT vector data in Solr and searching with full traversal**
 12. [**Fun With Apache Lucene and BERT Embeddings**](https://medium.com/swlh/fun-with-apache-lucene-and-bert-embeddings-c2c496baa559) **- This post goes much deeper -- to the similarity search algorithm on Apache Lucene level. It upgrades the code from 6.6 to 8.0**
 13. [**Speeding up BERT Search in Elasticsearch**](https://towardsdatascience.com/speeding-up-bert-search-in-elasticsearch-750f1f34f455) **- Neural Search in Elasticsearch: from vanilla to KNN to hardware acceleration**
@@ -1267,7 +1267,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 2. **A** [**tutorial**](https://blog.myyellowroad.com/unsupervised-sentence-representation-with-deep-learning-104b90079a93) **about w2v skipthought - with code!, specifically language modelling here is important - Our second method is training a language model to represent our sentences. A language model describes the probability of a text existing in a language. For example, the sentence “I like eating bananas” would be more probable than “I like eating convolutions.” We train a language model by slicing windows of n words and predicting what the next word will be in the text**
 3. [**Unread - universal language model fine tuning for text-classification**](https://arxiv.org/abs/1801.06146)
 4. **ELMO -** [**medium**](https://towardsdatascience.com/beyond-word-embeddings-part-2-word-vectors-nlp-modeling-from-bow-to-bert-4ebd4711d0ec)
-5. [**Bert**](https://arxiv.org/abs/1810.04805v1) **\*\*\[**python git**]\(**[https://github.com/CyberZHG/keras-bert](https://github.com/CyberZHG/keras-bert)**)**- We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT representations can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks.\*\* ![](https://lh4.googleusercontent.com/anFY63RxhdYt82bb\_XUGDLRUmj2vuR1I0iJye66cOqgC2gQegXVf2ibkC64LRPIfgUj8Brl7VYUFfxw3gG0KBnwTuqJ2NCohd6mi9YzCkZmHGuDz1QxXl7JUtMv5BpiBJXGnC-Zc)
+5. [**Bert**](https://arxiv.org/abs/1810.04805v1) **\*\*\[python git]\(**[https://github.com/CyberZHG/keras-bert](https://github.com/CyberZHG/keras-bert)**)**- We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT representations can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks.\*\* ![](https://lh4.googleusercontent.com/anFY63RxhdYt82bb\_XUGDLRUmj2vuR1I0iJye66cOqgC2gQegXVf2ibkC64LRPIfgUj8Brl7VYUFfxw3gG0KBnwTuqJ2NCohd6mi9YzCkZmHGuDz1QxXl7JUtMv5BpiBJXGnC-Zc)
 6. [**Open.ai on language modelling**](https://blog.openai.com/language-unsupervised/) **- We’ve obtained state-of-the-art results on a suite of diverse language tasks with a scalable, task-agnostic system, which we’re also releasing. Our approach is a combination of two existing ideas:** [**transformers**](https://arxiv.org/abs/1706.03762) **and** [**unsupervised pre-training**](https://arxiv.org/abs/1511.01432)**.** [**READ PAPER**](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language\_understanding\_paper.pdf)**,** [**VIEW CODE**](https://github.com/openai/finetune-transformer-lm)**.**
 7. **Scikit-learn inspired model finetuning for natural language processing.**
 
@@ -1288,13 +1288,13 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 7. [**Wordrank vs fasttext vs w2v comparison**](https://en.wikipedia.org/wiki/Automatic\_summarization#TextRank\_and\_LexRank) **- the better word similarity algorithm**
 8. [**W2v vs glove vs sppmi vs svd by gensim**](https://rare-technologies.com/making-sense-of-word2vec/)
 9. [**Medium on a gentle intro to d2v**](https://medium.com/scaleabout/a-gentle-introduction-to-doc2vec-db3e8c0cce5e)
-10. [**Doc2vec tutorial by gensim**](https://rare-technologies.com/doc2vec-tutorial/) **-  Doc2vec (aka paragraph2vec, aka sentence embeddings) modifies the word2vec algorithm to unsupervised learning of continuous representations for larger blocks of text, such as sentences, paragraphs or entire documents. - Most importantly this tutorial has crucial information about the implementation parameters that should be read before using it.**
+10. [**Doc2vec tutorial by gensim**](https://rare-technologies.com/doc2vec-tutorial/) **- Doc2vec (aka paragraph2vec, aka sentence embeddings) modifies the word2vec algorithm to unsupervised learning of continuous representations for larger blocks of text, such as sentences, paragraphs or entire documents. - Most importantly this tutorial has crucial information about the implementation parameters that should be read before using it.**
 11. [**Git for word embeddings - taken from mastery’s nlp course**](https://github.com/IshayTelavivi/nlp\_crash\_course)
-12. [**Skip-thought -**](http://mlexplained.com/2017/12/28/an-overview-of-sentence-embedding-methods/) **\*\*\[**git**]\(**[https://github.com/ryankiros/skip-thoughts](https://github.com/ryankiros/skip-thoughts)**)**- Where word2vec attempts to predict surrounding words from certain words in a sentence, skip-thought vector extends this idea to sentences: it predicts surrounding sentences from a given sentence. NOTE: Unlike the other methods, skip-thought vectors require the sentences to be ordered in a semantically meaningful way. This makes this method difficult to use for domains such as social media text, where each snippet of text exists in isolation.\*\*
+12. [**Skip-thought -**](http://mlexplained.com/2017/12/28/an-overview-of-sentence-embedding-methods/) **\*\*\[git]\(**[https://github.com/ryankiros/skip-thoughts](https://github.com/ryankiros/skip-thoughts)**)**- Where word2vec attempts to predict surrounding words from certain words in a sentence, skip-thought vector extends this idea to sentences: it predicts surrounding sentences from a given sentence. NOTE: Unlike the other methods, skip-thought vectors require the sentences to be ordered in a semantically meaningful way. This makes this method difficult to use for domains such as social media text, where each snippet of text exists in isolation.\*\*
 13. [**Fastsent**](http://mlexplained.com/2017/12/28/an-overview-of-sentence-embedding-methods/) **- Skip-thought vectors are slow to train. FastSent attempts to remedy this inefficiency while expanding on the core idea of skip-thought: that predicting surrounding sentences is a powerful way to obtain distributed representations. Formally, FastSent represents sentences as the simple sum of its word embeddings, making training efficient. The word embeddings are learned so that the inner product between the sentence embedding and the word embeddings of surrounding sentences is maximized. NOTE: FastSent sacrifices word order for the sake of efficiency, which can be a large disadvantage depending on the use-case.**
-14. **Weighted sum of words - In this method, each word vector is weighted by the factor** ![\frac{a}{a + p(w)} ](https://lh3.googleusercontent.com/p6He6GoHCb-yA8QgNrn4eIrWTa5i\_7lolQyY6EplDa1l7bmf1IF0y-eNuGOPfMfLKMkyw5qOpkwzoejmNB44Fg9fIwt4bIPkYOSWT7r50wdgdhT7qUiDwyNh1toe21CQFolKp5py) **where** ![a ](https://lh5.googleusercontent.com/qeqpAm9JfrNP8TnZzbUsMBKcsv2v-ZpZbmbM01Uf22HVUBcZMwa5nseCQMW\_XGYNZQQJ1HvYqOMwGfaL\_5NDbrOa\_aJTAsA3JdoHEUaB9XMq-sDUKtR348dq6TJuHEr05hetP0-7) **is a hyperparameter and** ![p(w) ](https://lh6.googleusercontent.com/cPiXavxPJ8voQb9UE8cmzaNsV\_dMWFvG1E5SYJGGm6QrMiA9X\_uNUWjb45L96WWhAKLxvLIF4oOXI2q0m5NQRNNzKgBrogEubQDN5bDXPw66sSOyfdx3dzGxjSvwdGYgpAy60B33) **is the (estimated) word frequency. This is similar to tf-idf weighting, where more frequent terms are weighted downNOTE: Word order and surrounding sentences are ignored as well, limiting the information that is encoded.**
-15. [**Infersent by facebook**](https://github.com/facebookresearch/InferSent) **-** [**paper**](https://arxiv.org/abs/1705.02364)  **InferSent is a sentence embeddings method that provides semantic representations for English sentences. It is trained on natural language inference data and generalizes well to many different tasks. ABSTRACT: we show how universal sentence representations trained using the supervised data of the Stanford Natural Language Inference datasets can consistently outperform unsupervised methods like SkipThought vectors on a wide range of transfer tasks. Much like how computer vision uses ImageNet to obtain features, which can then be transferred to other tasks, our work tends to indicate the suitability of natural language inference for transfer learning to other NLP tasks.**&#x20;
-16. [**Universal sentence encoder - google**](https://tfhub.dev/google/universal-sentence-encoder/1)  **-** [**notebook**](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/semantic\_similarity\_with\_tf\_hub\_universal\_encoder.ipynb#scrollTo=8OKy8WhnKRe\_)**,** [**git**](https://github.com/tensorflow/hub/blob/master/examples/colab/semantic\_similarity\_with\_tf\_hub\_universal\_encoder.ipynb) **The Universal Sentence Encoder encodes text into high dimensional vectors that can be used for text classification, semantic similarity, clustering and other natural language tasks. The model is trained and optimized for greater-than-word length text, such as sentences, phrases or short paragraphs. It is trained on a variety of data sources and a variety of tasks with the aim of dynamically accommodating a wide variety of natural language understanding tasks. The input is variable length English text and the output is a 512 dimensional vector. We apply this model to the** [**STS benchmark**](http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark) **for semantic similarity, and the results can be seen in the** [**example notebook**](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/semantic\_similarity\_with\_tf\_hub\_universal\_encoder.ipynb) **made available. The universal-sentence-encoder model is trained with a deep averaging network (DAN) encoder.**
+14. **Weighted sum of words - In this method, each word vector is weighted by the factor** ![\frac{a}{a + p(w)}](https://lh3.googleusercontent.com/p6He6GoHCb-yA8QgNrn4eIrWTa5i\_7lolQyY6EplDa1l7bmf1IF0y-eNuGOPfMfLKMkyw5qOpkwzoejmNB44Fg9fIwt4bIPkYOSWT7r50wdgdhT7qUiDwyNh1toe21CQFolKp5py) **where** ![a](https://lh5.googleusercontent.com/qeqpAm9JfrNP8TnZzbUsMBKcsv2v-ZpZbmbM01Uf22HVUBcZMwa5nseCQMW\_XGYNZQQJ1HvYqOMwGfaL\_5NDbrOa\_aJTAsA3JdoHEUaB9XMq-sDUKtR348dq6TJuHEr05hetP0-7) **is a hyperparameter and** ![p(w)](https://lh6.googleusercontent.com/cPiXavxPJ8voQb9UE8cmzaNsV\_dMWFvG1E5SYJGGm6QrMiA9X\_uNUWjb45L96WWhAKLxvLIF4oOXI2q0m5NQRNNzKgBrogEubQDN5bDXPw66sSOyfdx3dzGxjSvwdGYgpAy60B33) **is the (estimated) word frequency. This is similar to tf-idf weighting, where more frequent terms are weighted downNOTE: Word order and surrounding sentences are ignored as well, limiting the information that is encoded.**
+15. [**Infersent by facebook**](https://github.com/facebookresearch/InferSent) **-** [**paper**](https://arxiv.org/abs/1705.02364) **InferSent is a sentence embeddings method that provides semantic representations for English sentences. It is trained on natural language inference data and generalizes well to many different tasks. ABSTRACT: we show how universal sentence representations trained using the supervised data of the Stanford Natural Language Inference datasets can consistently outperform unsupervised methods like SkipThought vectors on a wide range of transfer tasks. Much like how computer vision uses ImageNet to obtain features, which can then be transferred to other tasks, our work tends to indicate the suitability of natural language inference for transfer learning to other NLP tasks.**
+16. [**Universal sentence encoder - google**](https://tfhub.dev/google/universal-sentence-encoder/1) **-** [**notebook**](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/semantic\_similarity\_with\_tf\_hub\_universal\_encoder.ipynb#scrollTo=8OKy8WhnKRe\_)**,** [**git**](https://github.com/tensorflow/hub/blob/master/examples/colab/semantic\_similarity\_with\_tf\_hub\_universal\_encoder.ipynb) **The Universal Sentence Encoder encodes text into high dimensional vectors that can be used for text classification, semantic similarity, clustering and other natural language tasks. The model is trained and optimized for greater-than-word length text, such as sentences, phrases or short paragraphs. It is trained on a variety of data sources and a variety of tasks with the aim of dynamically accommodating a wide variety of natural language understanding tasks. The input is variable length English text and the output is a 512 dimensional vector. We apply this model to the** [**STS benchmark**](http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark) **for semantic similarity, and the results can be seen in the** [**example notebook**](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/semantic\_similarity\_with\_tf\_hub\_universal\_encoder.ipynb) **made available. The universal-sentence-encoder model is trained with a deep averaging network (DAN) encoder.**
 17. [**Multi language universal sentence encoder**](https://ai.googleblog.com/2019/07/multilingual-universal-sentence-encoder.html?fbclid=IwAR2fubNOwrxWWxYous7IyQCJ3\_bY0UAdAYO\_yuWONMv-aV3o8hDckSS3FCE) **- no hebrew**
 18. **Pair2vec -** [**paper**](https://arxiv.org/abs/1810.08854) **- paper proposes new methods for learning and using embeddings of word pairs that implicitly represent background knowledge about such relationships. I.e., using p2v information with existing models to increase performance. Experiments show that our pair embeddings can complement individual word embeddings, and that they are perhaps capturing information that eludes the traditional interpretation of the Distributional Hypothesis**
 19. [**Fast text python tutorial**](http://ai.intelligentonlinetools.com/ml/fasttext-word-embeddings-text-classification-python-mlp/)
@@ -1323,7 +1323,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 2. **Fast.ai** [**post**](http://www.fast.ai/2018/04/29/categorical-embeddings/) **regarding embedding for tabular data, i.e., cont and categorical data**
 3. [**Entity embedding for**](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson3-rossman.ipynb) **categorical data +** [**notebook**](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson3-rossman.ipynb)
 4. [**Kaggle taxi competition + code**](http://blog.kaggle.com/2015/07/27/taxi-trajectory-winners-interview-1st-place-team-%F0%9F%9A%95/)
-5. [**Ross man competition - entity embeddings, code missing**](http://blog.kaggle.com/2016/01/22/rossmann-store-sales-winners-interview-3rd-place-cheng-gui/) **+**[**alternative code** ](https://github.com/entron/entity-embedding-rossmann)
+5. [**Ross man competition - entity embeddings, code missing**](http://blog.kaggle.com/2016/01/22/rossmann-store-sales-winners-interview-3rd-place-cheng-gui/) **+**[**alternative code**](https://github.com/entron/entity-embedding-rossmann)
 6. [**CODE TO CREATE EMBEDDINGS straight away, based onthe ideas by cheng guo in keras**](https://github.com/dkn22/embedder)
 7. [**PIN2VEC - pinterest embeddings using the same idea**](https://medium.com/the-graph/applying-deep-learning-to-related-pins-a6fee3c92f5e)
 8. [**Tweet2Vec**](https://github.com/soroushv/Tweet2Vec) **- code in theano,** [**paper**](https://dl.acm.org/citation.cfm?doid=2911451.2914762)**.**
@@ -1331,18 +1331,18 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 10. **Paper:** [**Character neural embeddings for tweet clustering**](https://arxiv.org/pdf/1703.05123.pdf)
 11. **Diff2vec - might be useful on social network graphs,** [**paper**](http://homepages.inf.ed.ac.uk/s1668259/papers/sequence.pdf)**,** [**code**](https://github.com/benedekrozemberczki/diff2vec)
 12. **emoji 2vec (below)**
-13. [**Char2vec**](https://hackernoon.com/chars2vec-character-based-language-model-for-handling-real-world-texts-with-spelling-errors-and-a3e4053a147d) **\*\*\[**Git**]\(**[https://github.com/IntuitionEngineeringTeam/chars2vec](https://github.com/IntuitionEngineeringTeam/chars2vec)**)**, similarity measure for words with types. **\[ \*\***]\([https://arxiv.org/abs/1708.00524](https://arxiv.org/abs/1708.00524))
+13. [**Char2vec**](https://hackernoon.com/chars2vec-character-based-language-model-for-handling-real-world-texts-with-spelling-errors-and-a3e4053a147d) **\*\*\[Git]\(**[https://github.com/IntuitionEngineeringTeam/chars2vec](https://github.com/IntuitionEngineeringTeam/chars2vec)**)**, similarity measure for words with types. **\[ \*\***]\([https://arxiv.org/abs/1708.00524](https://arxiv.org/abs/1708.00524))
 
 **EMOJIS**
 
-1. **1.** [**Deepmoji**](http://datadrivenjournalism.net/featured\_projects/deepmoji\_using\_emojis\_to\_teach\_ai\_about\_emotions)**,**&#x20;
+1. **1.** [**Deepmoji**](http://datadrivenjournalism.net/featured\_projects/deepmoji\_using\_emojis\_to\_teach\_ai\_about\_emotions)**,**
 2. [**hugging face on emotions**](https://medium.com/huggingface/understanding-emotions-from-keras-to-pytorch-3ccb61d5a983)
    1. **how to make a custom pyTorch LSTM with custom activation functions,**
    2. **how the PackedSequence object works and is built,**
    3. **how to convert an attention layer from Keras to pyTorch,**
    4. **how to load your data in pyTorch: DataSets and smart Batching,**
    5. **how to reproduce Keras weights initialization in pyTorch.**
-3. [**Another great emoji paper, how to get vector representations from** ](https://aclweb.org/anthology/S18-1039)
+3. [**Another great emoji paper, how to get vector representations from**](https://aclweb.org/anthology/S18-1039)
 4. [**3. What can we learn from emojis (deep moji)**](https://www.media.mit.edu/posts/what-can-we-learn-from-emojis/)
 5. [**Learning millions of**](https://arxiv.org/pdf/1708.00524.pdf) **for emoji, sentiment, sarcasm,** [**medium**](https://medium.com/@bjarkefelbo/what-can-we-learn-from-emojis-6beb165a5ea0)
 6. [**EMOJI2VEC**](https://tech.instacart.com/deep-learning-with-emojis-not-math-660ba1ad6cdc) **- medium article with keras code, a**[**nother paper on classifying tweets using emojis**](https://arxiv.org/abs/1708.00524)
@@ -1356,7 +1356,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 ### **WORD EMBEDDINGS**
 
-1. [**Medium on Introduction into word embeddings, sentence embeddings, trends in the field.**](https://towardsdatascience.com/deep-transfer-learning-for-natural-language-processing-text-classification-with-universal-1a2c69e5baa9) **The Indian guy,** [**git**](https://nbviewer.jupyter.org/github/dipanjanS/data\_science\_for\_all/blob/master/tds\_deep\_transfer\_learning\_nlp\_classification/Deep%20Transfer%20Learning%20for%20NLP%20-%20Text%20Classification%20with%20Universal%20Embeddings.ipynb) **notebook,** [**his git**](https://github.com/dipanjanS)**,**&#x20;
+1. [**Medium on Introduction into word embeddings, sentence embeddings, trends in the field.**](https://towardsdatascience.com/deep-transfer-learning-for-natural-language-processing-text-classification-with-universal-1a2c69e5baa9) **The Indian guy,** [**git**](https://nbviewer.jupyter.org/github/dipanjanS/data\_science\_for\_all/blob/master/tds\_deep\_transfer\_learning\_nlp\_classification/Deep%20Transfer%20Learning%20for%20NLP%20-%20Text%20Classification%20with%20Universal%20Embeddings.ipynb) **notebook,** [**his git**](https://github.com/dipanjanS)**,**
    1. **Baseline Averaged Sentence Embeddings**
    2. **Doc2Vec**
    3. **Neural-Net Language Models (Hands-on Demo!)**
@@ -1364,7 +1364,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
    5. **Quick-Thought Vectors**
    6. **InferSent**
    7. **Universal Sentence Encoder**
-2. [**Shay palachy on word embedding covering everything from bow to word/doc/sent/phrase.** ](https://medium.com/@shay.palachy/document-embedding-techniques-fed3e7a6a25d)
+2. [**Shay palachy on word embedding covering everything from bow to word/doc/sent/phrase.**](https://medium.com/@shay.palachy/document-embedding-techniques-fed3e7a6a25d)
 3. [**Another intro, not as good as the one above**](https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a)
 4. [**Using sklearn vectorizer to create custom ones, i.e. a vectorizer that does preprocessing and tfidf and other things.**](https://towardsdatascience.com/hacking-scikit-learns-vectorizers-9ef26a7170af)
 5. [**TFIDF - n-gram based top weighted tfidf words**](https://stackoverflow.com/questions/25217510/how-to-see-top-n-entries-of-term-document-matrix-after-tfidf-in-scikit-learn)
@@ -1408,8 +1408,8 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 3. [**Removing ‘gender bias using pair mean pca**](https://stackoverflow.com/questions/48019843/pca-on-word2vec-embeddings)
 4. [**KPCA w2v approach on a very small dataset**](https://medium.com/@vishwanigupta/kpca-skip-gram-model-improving-word-embedding-a6a0cb7aad49)**,** [**similar git**](https://github.com/niitsuma/wordca) **for correspondence analysis,** [**paper**](https://arxiv.org/abs/1605.05087)
 5. [**The best w2v/tfidf/bow/ embeddings post ever**](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/)
-6. [**Chris mccormick ml on w2v,**](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/) **\*\*\[**post #2**]\(**[http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/)**)** - negative sampling “Negative sampling addresses this by having each training sample only modify a small percentage of the weights, rather than all of them. With negative sampling, we are instead going to randomly select just a small number of “negative” words (let’s say 5) to update the weights for. (In this context, a “negative” word is one for which we want the network to output a 0 for). We will also still update the weights for our “positive” word (which is the word “quick” in our current example). The “negative samples” (that is, the 5 output words that we’ll train to output 0) are chosen using a “unigram distribution”. Essentially, the probability for selecting a word as a negative sample is related to its frequency, with more frequent words being more likely to be selected as negative samples.\*\*
-7. [**Chris mccormick on negative sampling and hierarchical soft max**](https://www.youtube.com/watch?v=pzyIWCelt\_E) **training, i.e., huffman binary tree for the vocabulary, learning internal tree nodes ie.,,  the path as the probability vector instead of having len(vocabulary) neurons.**
+6. [**Chris mccormick ml on w2v,**](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/) **\*\*\[post #2]\(**[http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/)**)** - negative sampling “Negative sampling addresses this by having each training sample only modify a small percentage of the weights, rather than all of them. With negative sampling, we are instead going to randomly select just a small number of “negative” words (let’s say 5) to update the weights for. (In this context, a “negative” word is one for which we want the network to output a 0 for). We will also still update the weights for our “positive” word (which is the word “quick” in our current example). The “negative samples” (that is, the 5 output words that we’ll train to output 0) are chosen using a “unigram distribution”. Essentially, the probability for selecting a word as a negative sample is related to its frequency, with more frequent words being more likely to be selected as negative samples.\*\*
+7. [**Chris mccormick on negative sampling and hierarchical soft max**](https://www.youtube.com/watch?v=pzyIWCelt\_E) **training, i.e., huffman binary tree for the vocabulary, learning internal tree nodes ie.,, the path as the probability vector instead of having len(vocabulary) neurons.**
 8. [**Great W2V tutorial**](https://towardsdatascience.com/word2vec-skip-gram-model-part-1-intuition-78614e4d6e0b)
 9. **Another** [**gensim-based w2v tutorial**](http://kavita-ganesan.com/gensim-word2vec-tutorial-starter-code/)**, with starter code and some usage examples of similarity**
 10. [**Clustering using gensim word2vec**](http://ai.intelligentonlinetools.com/ml/k-means-clustering-example-word2vec/)
@@ -1419,9 +1419,9 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 14. [**Negative sampling, why does it work in w2v - didnt read**](https://www.quora.com/How-does-negative-sampling-work-in-Word2vec-models)
 15. [**Semantic contract using w2v/ft - he chose a good food category and selected words that worked best in order to find similar words to good bad etc. lior magen**](https://groups.google.com/forum/#!topic/gensim/wh7B00cc80w)
 16. [**Semantic contract, syn-antonym DS, using w2v, a paper that i havent read**](http://anthology.aclweb.org/P16-2074) **yet but looks promising**
-17. [**Amazing w2v most similar tutorial, examples for vectors, misspellings, semantic contrast  and relations that may or may not be captured in the network.**](https://quomodocumque.wordpress.com/2016/01/15/messing-around-with-word2vec/)
+17. [**Amazing w2v most similar tutorial, examples for vectors, misspellings, semantic contrast and relations that may or may not be captured in the network.**](https://quomodocumque.wordpress.com/2016/01/15/messing-around-with-word2vec/)
 18. [**Followup tutorial about genderfying words using ‘he’ ‘she’ similarity**](https://quomodocumque.wordpress.com/2016/01/15/gendercycle-a-dynamical-system-on-words/)
-19. [**W2v Analogies using predefined anthologies of the**](https://gist.github.com/kylemcdonald/9bedafead69145875b8c) **form x:y::a:b, plus code, plus insights of why it works and doesn't. presence : absence :: happy : unhappy absence : presence :: happy : proud abundant : scarce :: happy : glad refuse : accept :: happy : satisfied accurate : inaccurate :: happy : disappointed admit : deny :: happy : delighted never : always :: happy : Said\_Hirschbeck modern : ancient :: happy : ecstatic**
+19. [**W2v Analogies using predefined anthologies of the**](https://gist.github.com/kylemcdonald/9bedafead69145875b8c) **form x:y:**:a:**b, plus code, plus insights of why it works and doesn't. presence : absence :: happy : unhappy absence : presence :: happy : proud abundant : scarce :: happy : glad refuse : accept :: happy : satisfied accurate : inaccurate :: happy : disappointed admit : deny :: happy : delighted never : always :: happy : Said\_Hirschbeck modern : ancient :: happy : ecstatic**
 20. [**Nlpforhackers on bow, w2v embeddings with code on how to use**](https://nlpforhackers.io/word-embeddings/)
 21. [**Hebrew word embeddings with w2v, ron shemesh, on wiki/twitter**](https://drive.google.com/drive/folders/1qBgdcXtGjse9Kq7k1wwMzD84HH\_Z8aJt?fbclid=IwAR03PeUTGCgluILOQ6EaMR7AgkcRux5rs6Z8HEgWMRvFAwLGqb7-7bznbxM)
 
@@ -1442,7 +1442,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 **SENT2VEC aka “skip-thoughts”**
 
 1. [**Gensim implementation of sent2vec**](https://rare-technologies.com/sent2vec-an-unsupervised-approach-towards-learning-sentence-embeddings/) **- usage examples, parallel training, a detailed comparison against gensim doc2vec**
-2. [**Git implementation** ](https://github.com/ryankiros/skip-thoughts)
+2. [**Git implementation**](https://github.com/ryankiros/skip-thoughts)
 3. [**Another git - worked**](https://github.com/epfml/sent2vec)
 
 **USE - Universal sentence encoder**
@@ -1469,7 +1469,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 2. [**Illustrated self attention - great**](https://towardsdatascience.com/illustrated-self-attention-2d627e33b20a)
 3. [**Jay alamar on attention, the first one is better.**](http://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 4. [**Attention is all you need (paper)**](https://arxiv.org/abs/1706.03762?fbclid=IwAR3-gxVldr\_xW0D9m6QvwyIV5vhvl-crVOc2kEI6HZskodJP678ynJKj1-o)
-5. [**The annotated transformer - reviewing the paper** ](http://nlp.seas.harvard.edu/2018/04/03/attention.html?fbclid=IwAR2\_ZOfUfXcto70apLdT\_StObPwatYHNRPP4OlktcmGfj9uPLhgsZPsAXzE)
+5. [**The annotated transformer - reviewing the paper**](http://nlp.seas.harvard.edu/2018/04/03/attention.html?fbclid=IwAR2\_ZOfUfXcto70apLdT\_StObPwatYHNRPP4OlktcmGfj9uPLhgsZPsAXzE)
 6. [**Lilian weng on attention**](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)**, self, soft vs hard, global vs local, neural turing machines, pointer networks, transformers, snail, self attention GAN.**
 7. [**Understanding attention in rnns**](https://medium.com/datadriveninvestor/attention-in-rnns-321fbcd64f05)
 8. [**Another good intro with gifs to attention**](https://towardsdatascience.com/attn-illustrated-attention-5ec4ad276ee3)
@@ -1489,7 +1489,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
    2. **Dropping the hidden output - HAN or AB BiLSTM**
    3. **Attention concat to input vec**
    4. **Global vs local attention**
-5. **Mastery on** [**attention with lstm encoding / decoding**](https://machinelearningmastery.com/implementation-patterns-encoder-decoder-rnn-architecture-attention/) **- a theoretical discussion about many attention architectures. This adds make-sense information to everything above.**&#x20;
+5. **Mastery on** [**attention with lstm encoding / decoding**](https://machinelearningmastery.com/implementation-patterns-encoder-decoder-rnn-architecture-attention/) **- a theoretical discussion about many attention architectures. This adds make-sense information to everything above.**
    1. **Encoder: The encoder is responsible for stepping through the input time steps and encoding the entire sequence into a fixed length vector called a context vector.**
    2. **Decoder: The decoder is responsible for stepping through the output time steps while reading from the context vector.**
    3. **A problem with the architecture is that performance is poor on long input or output sequences. The reason is believed to be because of the fixed-sized internal representation used by the encoder.**
@@ -1521,7 +1521,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 1. **TRANSFORMERS**
 2. [**Jay alammar on transformers**](http://jalammar.github.io/illustrated-transformer/) **(amazing)**
-3. [**J.A on Bert Elmo**](http://jalammar.github.io/illustrated-bert/) **(amazing)**&#x20;
+3. [**J.A on Bert Elmo**](http://jalammar.github.io/illustrated-bert/) **(amazing)**
 4. [**Jay alammar on a visual guide of bert for the first time**](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
 5. [**J.A on GPT2**](http://jalammar.github.io/illustrated-bert/)
 6. [**Super fast transformers**](http://transformer)
@@ -1530,8 +1530,8 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 9. ![](https://lh6.googleusercontent.com/t2dHec2TFYJhdgHx0k9tuxlIRJ1rqpKLzUfJFwrUOxp1ju-yxBzy7Ho1tx04GaZRUk-Op4FmA9wSFUhC9xsRxcbiX3jmV-Is39iXtpqNypOydikXkeZJJW-GfYOSLHhl6LyhW0e3)
 10. **Hugging face,** [**encoders decoders in transformers for seq2seq**](https://medium.com/huggingface/encoder-decoders-in-transformers-a-hybrid-pre-trained-architecture-for-seq2seq-af4d7bf14bb8)
 11. [**The annotated transformer**](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
-12. [**Large memory layers with product keys**](https://arxiv.org/abs/1907.05242) **- This memory layer allows us to tackle very large scale language modeling tasks. In our experiments we consider a dataset with up to 30 billion words, and we plug our memory layer in a state-of-the-art transformer-based architecture. In particular, we found that a memory augmented model with only 12 layers outperforms a baseline transformer model with 24 layers, while being twice faster at inference time.**&#x20;
-13. [**Adaptive sparse transformers**](https://arxiv.org/abs/1909.00015) **- This sparsity is accomplished by replacing softmax with**&#x20;
+12. [**Large memory layers with product keys**](https://arxiv.org/abs/1907.05242) **- This memory layer allows us to tackle very large scale language modeling tasks. In our experiments we consider a dataset with up to 30 billion words, and we plug our memory layer in a state-of-the-art transformer-based architecture. In particular, we found that a memory augmented model with only 12 layers outperforms a baseline transformer model with 24 layers, while being twice faster at inference time.**
+13. [**Adaptive sparse transformers**](https://arxiv.org/abs/1909.00015) **- This sparsity is accomplished by replacing softmax with**
 
 **α-entmax: a differentiable generalization of softmax that allows low-scoring words to receive precisely zero weight. Moreover, we derive a method to automatically learn the**
 
@@ -1541,7 +1541,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 ### **ELMO**
 
-1. [**Short tutorial on elmo, pretrained, new data, incremental(finetune?)**](https://github.com/PrashantRanjan09/Elmo-Tutorial)**,** [**using elmo  pretrained**](https://github.com/PrashantRanjan09/WordEmbeddings-Elmo-Fasttext-Word2Vec)
+1. [**Short tutorial on elmo, pretrained, new data, incremental(finetune?)**](https://github.com/PrashantRanjan09/Elmo-Tutorial)**,** [**using elmo pretrained**](https://github.com/PrashantRanjan09/WordEmbeddings-Elmo-Fasttext-Word2Vec)
 2. [**Why you cant use elmo to encode words (contextualized)**](https://github.com/allenai/allennlp/issues/1737)
 3. [**Vidhya on elmo**](https://www.analyticsvidhya.com/blog/2019/03/learn-to-use-elmo-to-extract-features-from-text/) **- everything you want to know with code**
 4. [**Sebastien ruder on language modeling embeddings for the purpose of transfer learning, ELMO, ULMFIT, open AI transformer, BILSTM,**](https://thegradient.pub/nlp-imagenet/)
@@ -1572,7 +1572,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 10. [**Building blocks of ulm fit**](https://medium.com/mlreview/understanding-building-blocks-of-ulmfit-818d3775325b)
 11. [**Applying ulmfit on entity level sentiment analysis using business news artcles**](https://github.com/jannenev/ulmfit-language-model)
 12. [**Understanding language modelling using Ulmfit, fine tuning etc**](https://towardsdatascience.com/understanding-language-modelling-nlp-part-1-ulmfit-b557a63a672b)
-13. [**Vidhaya on ulmfit  + colab**](https://www.analyticsvidhya.com/blog/2018/11/tutorial-text-classification-ulmfit-fastai-library/) **“The one cycle policy provides some form of regularisation”,  if you wish to know more about one cycle policy, then feel free to refer to this excellent paper by Leslie Smith – “**[**A disciplined approach to neural network hyper-parameters: Part 1 — learning rate, batch size, momentum, and weight decay**](https://arxiv.org/abs/1803.09820)**”.**
+13. [**Vidhaya on ulmfit + colab**](https://www.analyticsvidhya.com/blog/2018/11/tutorial-text-classification-ulmfit-fastai-library/) **“The one cycle policy provides some form of regularisation”, if you wish to know more about one cycle policy, then feel free to refer to this excellent paper by Leslie Smith – “**[**A disciplined approach to neural network hyper-parameters: Part 1 — learning rate, batch size, momentum, and weight decay**](https://arxiv.org/abs/1803.09820)**”.**
 
 ### **BERT**
 
@@ -1582,9 +1582,9 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
    3. [**Identifying the right meaning with bert**](https://towardsdatascience.com/identifying-the-right-meaning-of-the-words-using-bert-817eef2ac1f0) **- the idea is to classify the word duck into one of three meanings using bert embeddings, which promise contextualized embeddings. I.e., to duck, the Duck, etc**![](https://lh5.googleusercontent.com/WnEaYRk3za14yoiPr0dxf7f3D4iPdmNoLPnQaFi9V94oBd38mTsLvAbqLHeNYsobJmy415hWgGSoMBPrcoIXIJkwK2xHF9QHWO5vKQGI2BEA\_7aQQAppHQeYePFUewj4EQRjlpaF)
    4. [**Google neural machine translation (attention) - too long**](https://arxiv.org/pdf/1609.08144.pdf)
 2. [**What is bert**](https://towardsdatascience.com/breaking-bert-down-430461f60efb)
-3. **(amazing) Deconstructing bert**&#x20;
+3. **(amazing) Deconstructing bert**
    1. **I found some fairly distinctive and surprisingly intuitive attention patterns. Below I identify six key patterns and for each one I show visualizations for a particular layer / head that exhibited the pattern.**
-   2. [**part 1**](https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77) **- attention to the next/previous/ identical/related (same and other sentences), other words predictive of a word, delimeters tokens**&#x20;
+   2. [**part 1**](https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77) **- attention to the next/previous/ identical/related (same and other sentences), other words predictive of a word, delimeters tokens**
    3. **(good)** [**Deconstructing bert part 2**](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1) **- looking at the visualization and attention heads, focusing on Delimiter attention, bag of words attention, next word attention - patterns.**
 4. [**Bert demystified**](https://medium.com/@\_init\_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a) **(read this first!)**
 5. [**Read this after**](https://towardsdatascience.com/understanding-bert-is-it-a-game-changer-in-nlp-7cca943cf3ad)**, the most coherent explanation on bert, 15% masked word prediction and next sentence prediction. Roberta, xlm bert, albert, distilibert.**
@@ -1600,7 +1600,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 6. [**Bert scikit wrapper for pipelines**](https://towardsdatascience.com/build-a-bert-sci-kit-transformer-59d60ddd54a5)
 7. [**What is bert not good at, also refer to the cited paper**](https://towardsdatascience.com/bert-is-not-good-at-7b1ca64818c5) **(is/is not)**
 8. [**Jay Alamar on Bert**](http://jalammar.github.io/illustrated-bert/)
-9. [**Jay Alamar on using distilliBert** ](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
+9. [**Jay Alamar on using distilliBert**](http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
 10. [**sparse bert**](https://github.com/huggingface/transformers/tree/master/examples/movement-pruning)**,** [**paper**](https://arxiv.org/abs/2005.07683) **- When combined with distillation, the approach achieves minimal accuracy loss with down to only 3% of the model parameters.**
 11. **Bert with keras,** [**blog post**](https://www.ctolib.com/Separius-BERT-keras.html)**,** [**colaboratory**](https://colab.research.google.com/gist/HighCWu/3a02dc497593f8bbe4785e63be99c0c3/bert-keras-tutorial.ipynb)
 12. [**Bert with t-hub**](https://github.com/google-research/bert/blob/master/run\_classifier\_with\_tfhub.py)
@@ -1612,7 +1612,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 18. [**Bert question answering**](https://towardsdatascience.com/testing-bert-based-question-answering-on-coronavirus-articles-13623637a4ff?source=email-4dde5994e6c1-1586483206529-newsletter.v2-7f60cf5620c9-----0-------------------b506d4ba\_2902\_4718\_9c95\_a36e33d638e6---48577de843eb----20200410) **on covid19**
 19. [**Codebert**](https://arxiv.org/pdf/2002.08155.pdf?fbclid=IwAR3XXrpuILgnqTHCI1-0LHPT39IJVVaBl9uGXTVAjUwb1xM8NGrKUHrEyac)
 20. [**Bert multilabel classification**](http://towardsdatascience)
-21. [**Tabert**](https://ai.facebook.com/blog/tabert-a-new-model-for-understanding-queries-over-tabular-data/) **-** [**TaBERT**](https://ai.facebook.com/research/publications/tabert-pretraining-for-joint-understanding-of-textual-and-tabular-data/) **is the first model that has been pretrained to learn representations for both natural language sentences and tabular data.**&#x20;
+21. [**Tabert**](https://ai.facebook.com/blog/tabert-a-new-model-for-understanding-queries-over-tabular-data/) **-** [**TaBERT**](https://ai.facebook.com/research/publications/tabert-pretraining-for-joint-understanding-of-textual-and-tabular-data/) **is the first model that has been pretrained to learn representations for both natural language sentences and tabular data.**
 22. [**All the ways that you can compress BERT**](http://mitchgordon.me/machine/learning/2019/11/18/all-the-ways-to-compress-BERT.html?fbclid=IwAR0X2g4VQDpN4otb7YPzn88r5XMg8gRd3NWfm3dd6P0aFZEEtOGKY9QU5ec)
 
 **Pruning - Removes unnecessary parts of the network after training. This includes weight magnitude pruning, attention head pruning, layers, and others. Some methods also impose regularization during training to increase prunability (layer dropout).**
@@ -1630,7 +1630,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 1. [**Bert and nlp in 2019**](https://towardsdatascience.com/2019-year-of-bert-and-transformer-f200b53d05b9)
 2. [**HeBert - bert for hebrwe sentiment and emotions**](https://github.com/avichaychriqui/HeBERT)
 3. [**Kdbuggets on visualizing bert**](https://www.kdnuggets.com/2019/03/deconstructing-bert-part-2-visualizing-inner-workings-attention.html)
-4. [**What does bert look at, analysis of attention**](https://www-nlp.stanford.edu/pubs/clark2019what.pdf) **-  We further show that certain attention heads correspond well to linguistic notions of syntax and coreference. For example, we find heads that attend to the direct objects of verbs, determiners of nouns, objects of prepositions, and coreferent mentions with remarkably high accuracy. Lastly, we propose an attention-based probing classifier and use it to further demonstrate that substantial syntactic information is captured in BERT’s attention**
+4. [**What does bert look at, analysis of attention**](https://www-nlp.stanford.edu/pubs/clark2019what.pdf) **- We further show that certain attention heads correspond well to linguistic notions of syntax and coreference. For example, we find heads that attend to the direct objects of verbs, determiners of nouns, objects of prepositions, and coreferent mentions with remarkably high accuracy. Lastly, we propose an attention-based probing classifier and use it to further demonstrate that substantial syntactic information is captured in BERT’s attention**
 5. [**Bertviz**](https://github.com/jessevig/bertviz) **BertViz is a tool for visualizing attention in the Transformer model, supporting all models from the** [**transformers**](https://github.com/huggingface/transformers) **library (BERT, GPT-2, XLNet, RoBERTa, XLM, CTRL, etc.). It extends the** [**Tensor2Tensor visualization tool**](https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/visualization) **by** [**Llion Jones**](https://medium.com/@llionj) **and the** [**transformers**](https://github.com/huggingface/transformers) **library from** [**HuggingFace**](https://github.com/huggingface)**.**
 6. **PMI-masking** [**paper**](https://openreview.net/forum?id=3Aoft6NWFej)**,** [**post**](https://www.ai21.com/pmi-masking) **- Joint masking of correlated tokens significantly speeds up and improves BERT's pretraining**
 7. **(really good/)** [**Examining bert raw embeddings**](https://towardsdatascience.com/examining-berts-raw-embeddings-fd905cb22df7) **- TL;DR BERT’s raw word embeddings capture useful and separable information (distinct histogram tails) about a word in terms of other words in BERT’s vocabulary. This information can be harvested from both raw embeddings and their transformed versions after they pass through BERT with a Masked language model (MLM) head**
@@ -1667,7 +1667,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 **Label smoothing is a regularization technique (and then some) aimed at improving model performance. Its effect takes place irrespective of label correctness.**
 
-1. [ **Paper: when does label smoothing helps?**](https://arxiv.org/abs/1906.02629) **Smoothing the labels in this way prevents the network from becoming overconfident and label smoothing has been used in many state-of-the-art models, including image classification, language translation and speech recognition...Here we show empirically that in addition to improving generalization, label smoothing improves model calibration which can significantly improve beam-search. However, we also observe that if a teacher network is trained with label smoothing, knowledge distillation into a student network is much less effective.**
+1. [**Paper: when does label smoothing helps?**](https://arxiv.org/abs/1906.02629) **Smoothing the labels in this way prevents the network from becoming overconfident and label smoothing has been used in many state-of-the-art models, including image classification, language translation and speech recognition...Here we show empirically that in addition to improving generalization, label smoothing improves model calibration which can significantly improve beam-search. However, we also observe that if a teacher network is trained with label smoothing, knowledge distillation into a student network is much less effective.**
 2. [**Label smoothing, python code, multi class examples**](https://rickwierenga.com/blog/fast.ai/FastAI2019-12.html)
 
 ![](https://lh4.googleusercontent.com/pScpTAmy9S8uTobVoSLAjSlASouxyA2iBDNxH8VEjBg4indhs57dHWYXoqEZSTfp6Hhwh9i0LboD65o1LXfxv61dMJwnz1dDbm1lhcvVYtvVbW8H6Rhia-lk0bLfDomS3z6kKNlZ)
@@ -1705,15 +1705,15 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
        12. [**Intro to gans**](https://medium.com/datadriveninvestor/deep-learning-generative-adversarial-network-gan-34abb43c0644)
        13. [**Intro to gan in KERAS**](https://towardsdatascience.com/demystifying-generative-adversarial-networks-c076d8db8f44)
 7. **“GAN”** [**using xgboost and gmm for density sampling**](https://edge.skyline.ai/data-synthesizers-on-aws-sagemaker)
-8. [**Reverse engineering** ](https://ai.facebook.com/blog/reverse-engineering-generative-model-from-a-single-deepfake-image/)
+8. [**Reverse engineering**](https://ai.facebook.com/blog/reverse-engineering-generative-model-from-a-single-deepfake-image/)
 
 ## **SIAMESE NETWORKS**
 
 1. [**Siamese for conveyor belt fault prediction**](https://towardsdatascience.com/predictive-maintenance-with-lstm-siamese-network-51ee7df29767)
-2. [**Burlow**](https://arxiv.org/abs/2103.03230)**,** [**fb post**](https://www.facebook.com/yann.lecun/posts/10157682573642143) **- Self-supervised learning (SSL) is rapidly closing the gap with supervised methods on large computer vision benchmarks. A successful approach to SSL is to learn representations which are invariant to distortions of the input sample. However, a recurring issue with this approach is the existence of trivial constant solutions. Most current methods avoid such solutions by careful implementation details. We propose an objective function that naturally avoids such collapse by measuring the cross-correlation matrix between the outputs of two identical networks fed with distorted versions of a sample, and making it as close to the identity matrix as possible. This causes the representation vectors of distorted versions of a sample to be similar, while minimizing the redundancy between the components of these vectors.**&#x20;
+2. [**Burlow**](https://arxiv.org/abs/2103.03230)**,** [**fb post**](https://www.facebook.com/yann.lecun/posts/10157682573642143) **- Self-supervised learning (SSL) is rapidly closing the gap with supervised methods on large computer vision benchmarks. A successful approach to SSL is to learn representations which are invariant to distortions of the input sample. However, a recurring issue with this approach is the existence of trivial constant solutions. Most current methods avoid such solutions by careful implementation details. We propose an objective function that naturally avoids such collapse by measuring the cross-correlation matrix between the outputs of two identical networks fed with distorted versions of a sample, and making it as close to the identity matrix as possible. This causes the representation vectors of distorted versions of a sample to be similar, while minimizing the redundancy between the components of these vectors.**
 
 ## **Gated Multi-Layer Perceptron (GMLP)**
 
-1. \*\*\*\*[**paper**](https://arxiv.org/abs/2105.08050)**,** [**git1**](https://github.com/jaketae/g-mlp)**,** [**git2**](https://github.com/lucidrains/g-mlp-pytorch) **- "**a simple network architecture, gMLP, based on MLPs with gating, and show that it can perform as well as Transformers in key language and vision applications. Our comparisons show that self-attention is not critical for Vision Transformers, as gMLP can achieve the same accuracy."
+1. \*\*\*\*[**paper**](https://arxiv.org/abs/2105.08050)**,** [**git1**](https://github.com/jaketae/g-mlp)**,** [**git2**](https://github.com/lucidrains/g-mlp-pytorch) \*\*- "\*\*a simple network architecture, gMLP, based on MLPs with gating, and show that it can perform as well as Transformers in key language and vision applications. Our comparisons show that self-attention is not critical for Vision Transformers, as gMLP can achieve the same accuracy."
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (14).png>)

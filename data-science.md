@@ -8,7 +8,7 @@ This article provides an overview of TDSP and its main components. We provide a 
 
 ![by The DS lifecycle, Microsoft Documentation](https://lh5.googleusercontent.com/6uVYD4xbDkj2HG\_rfP7fWQUn5eERj0nl\_m-kKPpuyYX4q6R0g95WAduUFmIrSWVOd0P6dptgZG-1gkqWX-PvX4Png\_ocJwI8VVxnj5WaZHCyetwvCLMwaKnp6g5b4goekVy9RuWV)
 
-![by The DS lifecycle, Microsoft Documentation](<.gitbook/assets/image (12).png>)
+![by The DS lifecycle, Microsoft Documentation](<.gitbook/assets/image (26).png>)
 
 [**Google’s famous MLops**](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#mlops\_level\_0\_manual\_process)
 
