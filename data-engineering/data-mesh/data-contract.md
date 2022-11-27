@@ -1,6 +1,14 @@
 # Data contract
 
-A data contract is **a formal agreement between a service and a client that abstractly describes the data to be exchanged**. That is, to communicate, the client and the service do not have to share the same types, only the same data contracts. - [Microsoft](https://learn.microsoft.com/en-us/dotnet/framework/wcf/feature-details/using-data-contracts)
+1. A data contract is **a formal agreement between a service and a client that abstractly describes the data to be exchanged**. That is, to communicate, the client and the service do not have to share the same types, only the same data contracts. - [Microsoft](https://learn.microsoft.com/en-us/dotnet/framework/wcf/feature-details/using-data-contracts)
+2. The following is a set of articles around the topics of data product / contract etc. however the focus is about data contracts and expectations IMO, therefore I place it here. - by Chad sanderson
+   1. [the existential threat of data quality](https://dataproducts.substack.com/p/the-existential-threat-of-data-quality)
+   2. [the death of data modeling part 1](https://dataproducts.substack.com/p/the-death-of-data-modeling-pt-1)
+   3. [data's collaboration problem](https://dataproducts.substack.com/p/datas-collaboration-problem)
+   4. the rise of [data contracts](https://dataproducts.substack.com/p/the-rise-of-data-contracts)
+   5. [production grade data products](https://dataproducts.substack.com/p/the-production-grade-data-pipeline)
+   6. (finally!) [a guide to data contracts p1](https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts)
+   7. (good) c[ontracts, robustness in datamesh (but not only)](https://towardsdatascience.com/data-contracts-ensure-robustness-in-your-data-mesh-architecture-69a3c38f07db), also has about data-sharing agreements.
 
 ## Implementation
 

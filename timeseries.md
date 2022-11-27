@@ -81,7 +81,7 @@
 
 ### **SPLITTING TIME SERIES DATA**
 
-1. **SK-lego** [**With a gap**](https://scikit-lego.readthedocs.io/en/latest/timegapsplit.html)
+1. **SK-lego** [**With a gap**](https://scikit-lego.readthedocs.io/en/latest/timegapsplit.html) **-** [**now with even timeseries split by group**](https://towardsdatascience.com/a-highly-anticipated-time-series-cross-validator-is-finally-here-7dc99f672736)****
 
 ### [**Evaluate forecast accuracy**](https://www.otexts.org/fpp/2/5)
 
