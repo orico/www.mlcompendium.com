@@ -1,5 +1,11 @@
 # Deep Neural Nets
 
+## Perceptron
+
+1. [perceptron](https://towardsdatascience.com/perceptrons-logical-functions-and-the-xor-problem-37ca5025790a) - logical functions and XOR
+
+## DNN
+
 * [**Deep learning notes from Andrew NG’s course.**](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng)
 * **Jay Alammar on NN** [**Part 1**](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)**,** [**Part 2**](http://jalammar.github.io/feedforward-neural-networks-visual-interactive/)
 * [**NN in general**](http://briandolhansky.com/blog/?tag=neural+network#show-archive) **- 5 introductions  tutorials.**
@@ -245,7 +251,7 @@
 
 [**Mastery on cross entropy, brier, roc auc, how to ‘game’ them and calibrate them**](https://machinelearningmastery.com/how-to-score-probability-predictions-in-python/)
 
-[**Game changer paper - a general adaptive loss search in nn**](https://www.reddit.com/r/computervision/comments/bsd82j/a\_general\_and\_adaptive\_robust\_loss\_function/)
+[**Game changer paper - a general adaptive loss search in nn**](https://www.reddit.com/r/computervision/comments/bsd82j/a\_general\_and\_adaptive\_robust\_loss\_function/?utm\_medium=android\_app\&utm\_source=share)
 
 ## **LEARNING RATE REDUCTION**
 
@@ -434,14 +440,14 @@
 
 ## **Deep Learning for NLP**
 
-* **(did not fully read)** [**Yoav Goldberg’s course**](https://docs.google.com/document/d/1Xf\_dqjf7mWmSoYX0HTKnml2mssP5BjrKUs-4E17CbNo/edit#) **syllabus with lots of relevant topics on DL4NLP, including bidirectional RNNS and tree RNNs.**
+* **(did not fully read)** [**Yoav Goldberg’s course**](https://docs.google.com/document/d/1Xf\_dqjf7mWmSoYX0HTKnml2mssP5BjrKUs-4E17CbNo/edit) **syllabus with lots of relevant topics on DL4NLP, including bidirectional RNNS and tree RNNs.**
 * **(did not fully read)** [**CS224d**](http://cs224d.stanford.edu/index.html)**: Deep Learning for Natural Language Processing, with** [**slides etc.**](http://cs224d.stanford.edu/syllabus.html)
 
 [**Deep Learning using Linear Support Vector Machines**](http://deeplearning.net/wp-content/uploads/2013/03/dlsvm.pdf) **- 1-3% decrease in error by replacing the softmax layer with a linear support vector machine**
 
 ## **MULTI LABEL/OUTPUT**
 
-1. **A machine learning framework for** [**multi-output/multi-label**](https://github.com/scikit-multiflow/scikit-multiflow) **and stream data. Inspired by MOA and MEKA, following scikit-learn's philosophy.** [**https://scikit-multiflow.github.io/**](https://scikit-multiflow.github.io)
+1. **A machine learning framework for** [**multi-output/multi-label**](https://github.com/scikit-multiflow/scikit-multiflow) **and stream data. Inspired by MOA and MEKA, following scikit-learn's philosophy.** [**https://scikit-multiflow.github.io/**](https://scikit-multiflow.github.io/)
 2. [**Medium on MO, sklearn and keras**](https://towardsdatascience.com/what-data-scientists-should-know-about-multi-output-and-multi-label-training-b9d4be620e11)
 3. [**MO in keras, see functional API on how.**](https://www.pyimagesearch.com/2018/06/04/keras-multiple-outputs-and-multiple-losses//)
 
@@ -570,7 +576,7 @@
 5. [**Disentangled VAE**](https://www.youtube.com/watch?v=9zKuYvjFFS8) **- improves VAE**
 6. **Optimus -** [**pretrained VAE**](https://github.com/ophiry/Optimus)**,** [**paper**](https://arxiv.org/abs/2004.04092)**,** [**Microsoft blog**](https://www.microsoft.com/en-us/research/blog/a-deep-generative-model-trifecta-three-advances-that-work-towards-harnessing-large-scale-power/)\*\*\*\*
 
-![Optimus](<../.gitbook/assets/image (1).png>)
+![Optimus](<../.gitbook/assets/image (1) (1) (1).png>)
 
 ### **SELF ORGANIZING MAPS (SOM)**
 
@@ -1056,7 +1062,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 1. [**Awesome Knowledge distillation** ](https://github.com/dkozlov/awesome-knowledge-distillation)
 2. **Lottery ticket**&#x20;
    1. [**1**](https://towardsdatascience.com/breaking-down-the-lottery-ticket-hypothesis-ca1c053b3e58)**,** [**2**](https://arxiv.org/pdf/1803.03635.pdf)**-paper**
-   2. [**Uber on Lottery ticket, masking weights retraining**](https://eng.uber.com/deconstructing-lottery-tickets/?\_hsenc=p2ANqtz--3mi4IwIFWZsW8UaWeuiv2nCzXDXattjRENzdKT-7J6wc7ftReuDXbn39mxCnX5y18o3z7cXfxPXQgysBMJnVnfeYpHg&\_hsmi=72562707)
+   2. [**Uber on Lottery ticket, masking weights retraining**](https://eng.uber.com/deconstructing-lottery-tickets/?utm\_campaign=the\_algorithm.unpaid.engagement\&utm\_source=hs\_email\&utm\_medium=email\&utm\_content=72562707&\_hsenc=p2ANqtz--3mi4IwIFWZsW8UaWeuiv2nCzXDXattjRENzdKT-7J6wc7ftReuDXbn39mxCnX5y18o3z7cXfxPXQgysBMJnVnfeYpHg&\_hsmi=72562707)
    3. [**Facebook article and paper**](https://ai.facebook.com/blog/understanding-the-generalization-of-lottery-tickets-in-neural-networks)
 3. [**Knowledge distillation 1**](https://medium.com/neuralmachine/knowledge-distillation-dc241d7c2322)**,** [**2**](https://towardsdatascience.com/knowledge-distillation-a-technique-developed-for-compacting-and-accelerating-neural-nets-732098cde690)**,** [**3**](https://medium.com/neuralmachine/knowledge-distillation-dc241d7c2322)
 4. [**Pruning 1**](https://towardsdatascience.com/scooping-into-model-pruning-in-deep-learning-da92217b84ac)**,** [**2**](https://towardsdatascience.com/pruning-deep-neural-network-56cae1ec5505)
@@ -1071,7 +1077,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 
 1. **Troubleshooting Neural Nets**
 
-**(**[**37 reasons**](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607?fref=gc\&dti=543283492502370)**,** [**10 more**](http://theorangeduck.com/page/neural-network-not-working?fref=gc\&dti=543283492502370)**) - copy pasted and rewritten here for convenience, it's pretty thorough, but long and extensive, you should have some sort of intuition and not go through all of these. The following list is has much more insight and information in the article itself.**
+**(**[**37 reasons**](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607?fref=gc\&dti=543283492502370)**,** [**10 more**](http://theorangeduck.com/page/neural-network-not-working?utm\_campaign=Revue%20newsletter\&utm\_medium=Newsletter\&utm\_source=The%20Wild%20Week%20in%20AI\&fref=gc\&dti=543283492502370)**) - copy pasted and rewritten here for convenience, it's pretty thorough, but long and extensive, you should have some sort of intuition and not go through all of these. The following list is has much more insight and information in the article itself.**
 
 **The author of the original article suggests to turn everything off and then start building your network step by step, i.e., “a divide and conquer ‘debug’ method”.**
 
@@ -1190,16 +1196,19 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
       3. **managed**&#x20;
       4. **Filtering**
       5. **scale**
-6. **Pinecone - managed**  [**vector similarity search**](https://www.pinecone.io) **- Pinecone is a fully managed vector database that makes it easy to add vector search to production applications. No more hassles of benchmarking and tuning algorithms or building and maintaining infrastructure for vector search.**
+6. **Pinecone - managed**  [**vector similarity search**](https://www.pinecone.io/) **- Pinecone is a fully managed vector database that makes it easy to add vector search to production applications. No more hassles of benchmarking and tuning algorithms or building and maintaining infrastructure for vector search.**
 7. [**Nmslib**](https://github.com/nmslib/nmslib) **(**[**benchmarked**](https://github.com/erikbern/ann-benchmarks) **- Benchmarks of approximate nearest neighbor libraries in Python) is a Non-Metric Space Library (NMSLIB): An efficient similarity search library and a toolkit for evaluation of k-NN methods for generic non-metric spaces.**
 8. **scann,**&#x20;
-9. [**Vespa.ai**](https://vespa.ai) **- Make AI-driven decisions using your data, in real time. At any scale, with unbeatable performance**
+9. [**Vespa.ai**](https://vespa.ai/) **- Make AI-driven decisions using your data, in real time. At any scale, with unbeatable performance**
 10. [**Weaviate**](https://www.semi.technology/developers/weaviate/current/) **- Weaviate is an** [**open source**](https://github.com/semi-technologies/weaviate) **vector search engine and vector database. Weaviate uses machine learning to vectorize and store data, and to find answers to natural language queries, or any other media type.**&#x20;
 11. [**Neural Search with BERT and Solr**](https://dmitry-kan.medium.com/list/vector-search-e9b564d14274) **- Indexing BERT vector data in Solr and searching with full traversal**
 12. [**Fun With Apache Lucene and BERT Embeddings**](https://medium.com/swlh/fun-with-apache-lucene-and-bert-embeddings-c2c496baa559) **- This post goes much deeper -- to the similarity search algorithm on Apache Lucene level. It upgrades the code from 6.6 to 8.0**
 13. [**Speeding up BERT Search in Elasticsearch**](https://towardsdatascience.com/speeding-up-bert-search-in-elasticsearch-750f1f34f455) **- Neural Search in Elasticsearch: from vanilla to KNN to hardware acceleration**
 14. [**Ask Me Anything about Vector Search**](https://towardsdatascience.com/ask-me-anything-about-vector-search-4252a01f3889) **- In the Ask Me Anything: Vector Search! session Max Irwin and Dmitry Kan discussed major topics of vector search, ranging from its areas of applicability to comparing it to good ol’ sparse search (TF-IDF/BM25), to its readiness for prime time and what specific engineering elements need further tuning before offering this to users.**
 15. [**Search with BERT vectors in Solr and Elasticsearch**](https://github.com/DmitryKey/bert-solr-search) **- GitHub repository used for experiments with Solr and Elasticsearch using DBPedia abstracts comparing Solr, vanilla Elasticsearch, elastiknn enhanced Elasticsearch, OpenSearch, and GSI APU**
+16. [**Not All Vector Databases Are Made Equal**](https://towardsdatascience.com/milvus-pinecone-vespa-weaviate-vald-gsi-what-unites-these-buzz-words-and-what-makes-each-9c65a3bd0696) **- A detailed comparison of Milvus, Pinecone, Vespa, Weaviate, Vald, GSI and Qdrant**
+17. [**Vector Podcast**](https://dmitry-kan.medium.com/vector-podcast-e27d83ecd0be) **- Podcast hosted by Dmitry Kan, interviewing the makers in the Vector / Neural Search industry. Available on YouTube, Spotify, Apple Podcasts and RSS**
+18. [**Players in Vector Search: Video**](https://dmitry-kan.medium.com/players-in-vector-search-video-2fd390d00d6) **-Video recording and slides of the talk presented on London IR Meetup on the topic of players, algorithms, software and use cases in Vector Search**
 
 ### **TOOLS**
 
@@ -1247,7 +1256,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
       8.
 2. [**From bert to albert**](https://medium.com/@hamdan.hussam/from-bert-to-albert-pre-trained-langaug-models-5865aa5c3762)
 3. [**All the latest buzz algos**](https://www.topbots.com/most-important-ai-nlp-research/#ai-nlp-paper-2018-12)
-4. **A** [**Summary of them**](https://www.topbots.com/ai-nlp-research-pretrained-language-models/?fbclid=IwAR0smqf8qanfMayo4fRH2hFuc5LYA8-Bn5oEp-xedKcRR43QsqXIelIAzEE)
+4. **A** [**Summary of them**](https://www.topbots.com/ai-nlp-research-pretrained-language-models/?utm\_source=facebook\&utm\_medium=group\_post\&utm\_campaign=pretrained\&fbclid=IwAR0smqf8qanfMayo4fRH2hFuc5LYA8-Bn5oEp-xedKcRR43QsqXIelIAzEE)
 5. [**8 pretrained language embeddings**](https://www.analyticsvidhya.com/blog/2019/03/pretrained-models-get-started-nlp/)
 6. [**Hugging face pytorch transformers**](https://github.com/huggingface/pytorch-transformers)
 7. [**Hugging face nlp pretrained**](https://huggingface.co/models?search=Helsinki-NLP%2Fopus-mt\&fbclid=IwAR0YN7qn9uTlCeBOZw4jzWgq9IXq\_9ju1ww\_rVL-f1fa9EjlSP50q05QcmU)
@@ -1300,7 +1309,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 ### **ENTITY EMBEDDINGS**
 
 1. **Star -** [**General purpose embedding paper with code somewhere**](https://arxiv.org/pdf/1709.03856.pdf)
-2. [**Using embeddings on tabular data, specifically categorical - introduction**](http://www.fast.ai/2018/04/29/categorical-embeddings/)**, using fastai without limiting ourselves to pytorch - the material from this post is covered in much more detail starting around 1:59:45 in** [**the Lesson 3 video**](http://course.fast.ai/lessons/lesson3.html) **and continuing in** [**Lesson 4**](http://course.fast.ai/lessons/lesson4.html) **of our free, online** [**Practical Deep Learning for Coders**](http://course.fast.ai) **course. To see example code of how this approach can be used in practice, check out our** [**Lesson 3 jupyter notebook**](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson3-rossman.ipynb)**. Perhaps Saturday and Sunday have similar behavior, and maybe Friday behaves like an average of a weekend and a weekday. Similarly, for zip codes, there may be patterns for zip codes that are geographically near each other, and for zip codes that are of similar socio-economic status. The jupyter notebook doesn't seem to have the embedding example they are talking about.**
+2. [**Using embeddings on tabular data, specifically categorical - introduction**](http://www.fast.ai/2018/04/29/categorical-embeddings/)**, using fastai without limiting ourselves to pytorch - the material from this post is covered in much more detail starting around 1:59:45 in** [**the Lesson 3 video**](http://course.fast.ai/lessons/lesson3.html) **and continuing in** [**Lesson 4**](http://course.fast.ai/lessons/lesson4.html) **of our free, online** [**Practical Deep Learning for Coders**](http://course.fast.ai/) **course. To see example code of how this approach can be used in practice, check out our** [**Lesson 3 jupyter notebook**](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson3-rossman.ipynb)**. Perhaps Saturday and Sunday have similar behavior, and maybe Friday behaves like an average of a weekend and a weekday. Similarly, for zip codes, there may be patterns for zip codes that are geographically near each other, and for zip codes that are of similar socio-economic status. The jupyter notebook doesn't seem to have the embedding example they are talking about.**
 3. [**Rossman on kaggle**](http://blog.kaggle.com/2016/01/22/rossmann-store-sales-winners-interview-3rd-place-cheng-gui/)**, used entity-embeddings,** [**here**](https://www.kaggle.com/c/rossmann-store-sales/discussion/17974)**,** [**github**](https://github.com/entron/entity-embedding-rossmann)**,** [**paper**](https://arxiv.org/abs/1604.06737)
 4. [**Medium on rossman - good**](https://towardsdatascience.com/deep-learning-structured-data-8d6a278f3088)
 5. [**Embedder**](https://github.com/dkn22/embedder) **- git code for a simplified entity embedding above.**
@@ -1546,7 +1555,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 12. [**Elmo on keras using lambda**](https://towardsdatascience.com/elmo-helps-to-further-improve-your-word-embeddings-c6ed2c9df95f)
 13. [**Elmo pretrained models for many languages**](https://github.com/HIT-SCIR/ELMoForManyLangs)**, for** [**russian**](http://docs.deeppavlov.ai/en/master/intro/pretrained\_vectors.html) **too,** [**mean elmo**](https://stackoverflow.com/questions/53061423/how-to-represent-elmo-embeddings-as-a-1d-array/53088523)
 14. [**Ari’s intro on word embeddings part 2, has elmo and some bert**](https://towardsdatascience.com/beyond-word-embeddings-part-2-word-vectors-nlp-modeling-from-bow-to-bert-4ebd4711d0ec)
-15. [**Mean elmo**](https://www.analyticsvidhya.com/blog/2019/03/learn-to-use-elmo-to-extract-features-from-text/?fbclid=IwAR24LwsmhUJshC7gk3P9RIIACCyYYcjlYMa\_NbgdzcNBBhD7g38FM2KTA-Q)**, batches, with code and linear regression i**
+15. [**Mean elmo**](https://www.analyticsvidhya.com/blog/2019/03/learn-to-use-elmo-to-extract-features-from-text/?utm\_source=facebook.com\&utm\_medium=social\&fbclid=IwAR24LwsmhUJshC7gk3P9RIIACCyYYcjlYMa\_NbgdzcNBBhD7g38FM2KTA-Q)**, batches, with code and linear regression i**
 16. [**Elmo projected using TSNE - grouping are not semantically similar**](https://towardsdatascience.com/elmo-contextual-language-embedding-335de2268604)
 
 ### **ULMFIT**
@@ -1558,7 +1567,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 5. [**Fast NLP on how**](http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html)
 6. [**Paper: ulmfit**](https://arxiv.org/abs/1801.06146)
 7. [**Fast.ai on ulmfit**](http://nlp.fast.ai/category/classification.html)**,** [**this too**](https://github.com/fastai/fastai/blob/c502f12fa0c766dda6c2740b2d3823e2deb363f9/nbs/examples/ulmfit.ipynb)
-8. [**Vidhya on ulmfit using fastai**](https://www.analyticsvidhya.com/blog/2018/11/tutorial-text-classification-ulmfit-fastai-library/?fbclid=IwAR0ghBUHEphXrSRZZfkbEOklY1RtveC7XG3I48eH\_LNAfCnRQzgraw-AZWs)
+8. [**Vidhya on ulmfit using fastai**](https://www.analyticsvidhya.com/blog/2018/11/tutorial-text-classification-ulmfit-fastai-library/?utm\_source=facebook.com\&fbclid=IwAR0ghBUHEphXrSRZZfkbEOklY1RtveC7XG3I48eH\_LNAfCnRQzgraw-AZWs)
 9. [**Medium on ulmfit**](https://towardsdatascience.com/explainable-data-efficient-text-classification-888cc7a1af05)
 10. [**Building blocks of ulm fit**](https://medium.com/mlreview/understanding-building-blocks-of-ulmfit-818d3775325b)
 11. [**Applying ulmfit on entity level sentiment analysis using business news artcles**](https://github.com/jannenev/ulmfit-language-model)
@@ -1598,7 +1607,7 @@ HyperNEAT is based on a theory of representation that hypothesizes that a good r
 13. [**Bert on medium with code**](https://medium.com/huggingface/multi-label-text-classification-using-bert-the-mighty-transformer-69714fa3fb3d)
 14. [**Bert on git**](https://github.com/SkullFang/BERT\_NLP\_Classification)
 15. **Finetuning -** [**Better sentiment analysis with bert**](https://medium.com/southpigalle/how-to-perform-better-sentiment-analysis-with-bert-ba127081eda)**, claims 94% on IMDB. official code** [**here**](https://github.com/google-research/bert/blob/master/predicting\_movie\_reviews\_with\_bert\_on\_tf\_hub.ipynb) **“ it creates a single new layer that will be trained to adapt BERT to our sentiment task (i.e. classifying whether a movie review is positive or negative). This strategy of using a mostly trained model is called** [**fine-tuning**](http://wiki.fast.ai/index.php/Fine\_tuning)**.”**
-16. [**Explain bert**](http://exbert.net) **- bert visualization tool.**
+16. [**Explain bert**](http://exbert.net/) **- bert visualization tool.**
 17. **sentenceBERT** [**paper**](https://arxiv.org/pdf/1908.10084.pdf)
 18. [**Bert question answering**](https://towardsdatascience.com/testing-bert-based-question-answering-on-coronavirus-articles-13623637a4ff?source=email-4dde5994e6c1-1586483206529-newsletter.v2-7f60cf5620c9-----0-------------------b506d4ba\_2902\_4718\_9c95\_a36e33d638e6---48577de843eb----20200410) **on covid19**
 19. [**Codebert**](https://arxiv.org/pdf/2002.08155.pdf?fbclid=IwAR3XXrpuILgnqTHCI1-0LHPT39IJVVaBl9uGXTVAjUwb1xM8NGrKUHrEyac)

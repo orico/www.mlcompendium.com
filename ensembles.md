@@ -38,7 +38,7 @@
          2. **Mixture of Experts and Stacking**
    6. [**Strong Learners vs. Weak Learners in Ensemble Learning**](https://machinelearningmastery.com/strong-learners-vs-weak-learners-for-ensemble-learning/?fbclid=IwAR0yQzfYq0JGZu7xYErX2W42jtm949pOYSbKN8jClQCPMwgEUDNyv6uuXFU) **- Weak learners are models that perform slightly better than random guessing. Strong learners are models that have arbitrarily good accuracy.**\
       **Weak and strong learners are tools from computational learning theory and provide the basis for the development of the boosting class of ensemble methods.**
-4. [**Vidhya on trees, bagging boosting, gbm, xgb**](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?fbclid=IwAR1Fji6N01Zc3rhLCJiIq76CX5aC8W0dWmw0hpyceYwMr9Z3QPCbnPu0a2A#three)
+4. [**Vidhya on trees, bagging boosting, gbm, xgb**](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?utm\_source=facebook.com\&utm\_medium=social\&fbclid=IwAR1Fji6N01Zc3rhLCJiIq76CX5aC8W0dWmw0hpyceYwMr9Z3QPCbnPu0a2A#three)
 5. [**Parallel grad boost treest**](http://zhanpengfang.github.io/418home.html)
 6. [**A comprehensive guide to ensembles read!**](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/) **(samuel jefroykin)**
    1. **Basic Ensemble Techniques**

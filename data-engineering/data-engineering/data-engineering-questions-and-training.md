@@ -15,12 +15,12 @@
    10. Have you worked with data science teams? What were your responsibilities?
    11. What are the considerations of choosing spark vs bigquery?
    12. What are the differences between ETL and ELT? [1](https://www.guru99.com/etl-vs-elt.html), [2](https://www.xplenty.com/blog/etl-vs-elt/), [3](https://blog.panoply.io/etl-vs-elt-the-difference-is-in-the-how)\
-       ![](../.gitbook/assets/0)\
+       ![](../../.gitbook/assets/0)\
        By guru99/david taylor
 
-       <img src="../.gitbook/assets/1" alt="" data-size="original">
+       <img src="../../.gitbook/assets/1" alt="" data-size="original">
 
-       <img src="../.gitbook/assets/2" alt="" data-size="original">
+       <img src="../../.gitbook/assets/2" alt="" data-size="original">
 
 By mark smallcombe\
 
@@ -34,11 +34,11 @@ By mark smallcombe\
    6. [What does the CAP Theorem actually say?](https://www.fullstack.cafe/blog/cap-theorem-interview-questions)
    7. how it effect real world application (latency is availability in real world)
    8. [Another great resource for CAP questions](https://github.com/henryr/cap-faq)
-   9. ![](../.gitbook/assets/3)
-   10. ![](../.gitbook/assets/4)
-   11. ![](../.gitbook/assets/5)
-   12. ![](../.gitbook/assets/6)
-   13. ![](../.gitbook/assets/7)\
+   9. ![](../../.gitbook/assets/3)
+   10. ![](../../.gitbook/assets/4)
+   11. ![](../../.gitbook/assets/5)
+   12. ![](../../.gitbook/assets/6)
+   13. ![](../../.gitbook/assets/7)\
 
 2. Explain the difference and the reason to choose using NoSQL {mongoDB | DynamoDB | .. } over Relational database {Postgress |MySQL} and vice versa. Give an example for a project where you had to make this choice, and walk through your reasoning.
 
@@ -91,8 +91,8 @@ By mark smallcombe\
       1. Type validation: [typeguard](https://github.com/agronholm/typeguard)
       2. Data validation [pydantic](https://pydantic-docs.helpmanual.io/usage/dataclasses/)
       3. Test driven: [tdda](https://github.com/tdda/tdda)
-      4. Data quality: [great expectations](https://greatexpectations.io)
-      5. Saas: [SuperConductive by GE](https://superconductive.ai)\
+      4. Data quality: [great expectations](https://greatexpectations.io/)
+      5. Saas: [SuperConductive by GE](https://superconductive.ai/)\
 
 8. File formats
    1. Can you explain the parquet file format? [https://parquet.apache.org/documentation/latest/](https://parquet.apache.org/documentation/latest/)
@@ -106,33 +106,33 @@ By mark smallcombe\
 11. Outage handling and the differences between stream-based processing vs concurrent isolated worker-based processing using
 
 Q: you have a real time stream - what is better? A stream-based processing system, or a worker-based, that can be triggered on different time ranges, in the context of recovery from outage.\
-![](../.gitbook/assets/8)
+![](../../.gitbook/assets/8)
 
 By nielsen Ilai Malka
 
 1. [How to design a](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions) .
 
-![](../.gitbook/assets/9)
+![](../../.gitbook/assets/9)
 
 * How would you design and implement an API rate limiter?
   1. [The twitter question](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system\_design/twitter/README.md)
 
-![](../.gitbook/assets/10)\
+![](../../.gitbook/assets/10)\
 
 
 1. [More than 2000 questions for data engineers](https://github.com/OBenner/data-engineering-interview-questions)
 
-![](../.gitbook/assets/11)\
+![](../../.gitbook/assets/11)\
 
 
 1. [More data engineering questions](https://realpython.com/data-engineer-interview-questions-python/)
 
-![](../.gitbook/assets/12)\
+![](../../.gitbook/assets/12)\
 
 
 1. [Even more qs](https://www.softwaretestinghelp.com/data-engineer-interview-questions/)
 
-![](../.gitbook/assets/13)
+![](../../.gitbook/assets/13)
 
 References:
 

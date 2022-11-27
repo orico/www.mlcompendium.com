@@ -14,7 +14,7 @@
 3. [**SKtime-DL - using keras and DL**](https://github.com/sktime/sktime-dl)
 4. [**TSFresh**](http://tsfresh.readthedocs.io) **- extracts 1200 features, filters them using FDR for time series classification etc**
 5. [**TSlearn**](http://tslearn.readthedocs.io) **- DTW, shapes, shapelets (keras layer), time series kmeans/clustering/svm/svr/KNN/bary centers/PAA/SAX** ![](https://lh5.googleusercontent.com/q4duc9XMnsYnOvbMeBcWLWf6T1uyPMrhBoPZEVVL16hS2UJJTalHA3MUE12kMo308fF1nO-qCGxeDefjvoLz106E7ZjkUTiFriggG98iX6H9vlaROGNnOdNpjEy6zZViK4Tl43mn)
-6. [**DTAIDistance**](https://dtaidistance.readthedocs.io/en/latest/index.html) **- Library for time series distances (e.g. Dynamic Time Warping) used in the** [**DTAI Research Group**](https://dtai.cs.kuleuven.be)**. The library offers a pure Python implementation and a faster implementation in C. The C implementation has only Cython as a dependency. It is compatible with Numpy and Pandas and implemented to avoid unnecessary data copy operations**\
+6. [**DTAIDistance**](https://dtaidistance.readthedocs.io/en/latest/index.html) **- Library for time series distances (e.g. Dynamic Time Warping) used in the** [**DTAI Research Group**](https://dtai.cs.kuleuven.be/)**. The library offers a pure Python implementation and a faster implementation in C. The C implementation has only Cython as a dependency. It is compatible with Numpy and Pandas and implemented to avoid unnecessary data copy operations**\
    ****[**dtaidistance.clustering.hierarchical**](https://dtaidistance.readthedocs.io/en/latest/modules/clustering/hierarchical.html)
 
 [**Ddtaidistance.clustering.kmeans**](https://dtaidistance.readthedocs.io/en/latest/modules/clustering/kmeans.html)
@@ -81,7 +81,7 @@
 
 ### **SPLITTING TIME SERIES DATA**
 
-1. **SK-lego** [**With a gap**](https://scikit-lego.readthedocs.io/en/latest/timegapsplit.html)
+1. **SK-lego** [**With a gap**](https://scikit-lego.readthedocs.io/en/latest/timegapsplit.html) **-** [**now with even timeseries split by group**](https://towardsdatascience.com/a-highly-anticipated-time-series-cross-validator-is-finally-here-7dc99f672736)****
 
 ### [**Evaluate forecast accuracy**](https://www.otexts.org/fpp/2/5)
 
@@ -220,7 +220,7 @@
 * **Dynamic Time Warping using rpy and Python:** [**another blog post**](https://nipunbatra.wordpress.com/2013/06/09/dynamic-time-warping-using-rpy-and-python)
 * **Mining Time-series with Trillions of Points: Dynamic Time Warping at Scale:** [**another blog post**](http://practicalquant.blogspot.com/2012/10/mining-time-series-with-trillions-of.html)
 * **Time Series Analysis and Mining in R (to add R to the mix):** [**yet another blog post**](http://rdatamining.wordpress.com/2011/08/23/time-series-analysis-and-mining-with-r)
-* **And, finally, two tools implementing/supporting DTW, to top it off:** [**R package**](http://rdatamining.wordpress.com/2011/08/23/time-series-analysis-and-mining-with-r) **and** [**Python module**](http://mlpy.sourceforge.net)
+* **And, finally, two tools implementing/supporting DTW, to top it off:** [**R package**](http://rdatamining.wordpress.com/2011/08/23/time-series-analysis-and-mining-with-r) **and** [**Python module**](http://mlpy.sourceforge.net/)
 
 ### **CLUSTERING TS**
 
@@ -290,7 +290,7 @@
 * **Dynamic Time Warping using rpy and Python:** [**another blog post**](https://nipunbatra.wordpress.com/2013/06/09/dynamic-time-warping-using-rpy-and-python)
 * **Mining Time-series with Trillions of Points: Dynamic Time Warping at Scale:** [**another blog post**](http://practicalquant.blogspot.com/2012/10/mining-time-series-with-trillions-of.html)
 * **Time Series Analysis and Mining in R (to add R to the mix):** [**yet another blog post**](http://rdatamining.wordpress.com/2011/08/23/time-series-analysis-and-mining-with-r)
-* **And, finally, two tools implementing/supporting DTW, to top it off:** [**R package**](http://rdatamining.wordpress.com/2011/08/23/time-series-analysis-and-mining-with-r) **and** [**Python module**](http://mlpy.sourceforge.net)
+* **And, finally, two tools implementing/supporting DTW, to top it off:** [**R package**](http://rdatamining.wordpress.com/2011/08/23/time-series-analysis-and-mining-with-r) **and** [**Python module**](http://mlpy.sourceforge.net/)
 
 1. [**Time Series Hierarchical Clustering using Dynamic Time Warping in Python**](https://towardsdatascience.com/time-series-hierarchical-clustering-using-dynamic-time-warping-in-python-c8c9edf2fda5) **-** [**notebook**](https://github.com/avchauzov/\_articles/blob/master/1.1.trajectoriesClustering.ipynb)
 2. [**K-Means with DTW, probably fixed length vectors, using tslearn**](https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3)

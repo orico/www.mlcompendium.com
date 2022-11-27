@@ -13,7 +13,7 @@
 ### **Drift**
 
 1. [**Data & concept drifts**](https://deepchecks.com/how-to-monitor-ml-models-in-production/)**,** [**2**](https://www.explorium.ai/blog/understanding-and-handling-data-and-concept-drift/)
-2. **(good)** [**Inferring Concept Drift Without Labeled Data**](https://concept-drift.fastforwardlabs.com)**. also talks about stream-based drift by Cloudera - fast forward labs.**
+2. **(good)** [**Inferring Concept Drift Without Labeled Data**](https://concept-drift.fastforwardlabs.com/)**. also talks about stream-based drift by Cloudera - fast forward labs.**
 3. **Arize.ai**&#x20;
    1. **Data, concept,** [**feature drifts**](https://towardsdatascience.com/using-statistical-distance-metrics-for-machine-learning-observability-4c874cded78) **- various comparisons between train/prod/validation time windows, diff models, a/b testing etc.., and how to measure drifts**
    2. [**Model store, Feature store, evaluation store**](https://towardsdatascience.com/the-only-3-ml-tools-you-need-1aa750778d33)
@@ -23,19 +23,21 @@
 5. [**Adversarial Validation Approach to Concept Drift Problem in User Targeting Automation Systems at Uber**](https://arxiv.org/abs/2004.03045)  **- Previous research on concept drift mostly proposed model retraining after observing performance decreases. However, this approach is suboptimal because the system fixes the problem only after suffering from poor performance on new data. Here, we introduce an adversarial validation approach to concept drift problems in user targeting automation systems. With our approach, the system detects concept drift in new data before making inference, trains a model, and produces predictions adapted to the new data.**&#x20;
 6. **Drift estimator between data sets using random forest, the formula is in the medium article above, code here at** [**mlBOX**](https://github.com/AxeldeRomblay/MLBox/blob/811dbcb04fc7f5501e82f3e78aa6c119f426ee78/python-package/mlbox/preprocessing/drift/drift\_estimator.py)
 7. [**Alibi-detect**](https://docs.google.com/document/d/1dXELAcJn9KCPSRMDvZoumUyHx8K8Yn7wfFxesSpbNCM/edit#heading=h.y6mpsp4co5t9) **- is an open-source Python library focused on outlier, adversarial, and drift detection, by Seldon.**
+8. [**What is concept drift and why does it go undetected**](https://censius.ai/blogs/what-is-concept-drift-and-why-does-it-go-undetected) **Breaking down concept drit and explaining the best methods to avoid it**
+9. [**How does data drift hamper AI performance **](https://censius.ai/blogs/data-drift-barrier-to-ai-performance) **Understand how data drift affect peak AI performance and how you can detect it**
 
 ![Alibi Detection Drift Features](https://lh4.googleusercontent.com/sASV5qq3CTmv0gx6Tl3DiwACMnwsW9wj1yNHF5sFIFbQr4BFFgAVgfcWsnrHxNnQtQKa-b5-IdbC-OElnQIr117lxaH3TGCuz1CmpgU6mof3i9VkPR3LyzdD9S0ujTmWj7o88Iep)
 
 ### Tool Comparisons
 
 1. [State of MLOps](https://www.stateofmlops.com) (by me), [medium](https://towardsdatascience.com/mlops-monitoring-market-review-66904f0863bb) article, open-source [AirTable](https://airtable.com/shr4rfiuOIVjMhvhL).
-2. [MLOps.toys](https://mlops.toys) - A curated list of MLOps projects by [Aporia](https://aporia.com)
-3. [Neptune.AI](https://mlops.neptune.ai) MLOPS tools landscape
+2. [MLOps.toys](https://mlops.toys/) - A curated list of MLOps projects by [Aporia](https://aporia.com)
+3. [Neptune.AI](https://mlops.neptune.ai/) MLOPS tools landscape
 4. [Twimlai](https://twimlai.com/solutions/) ML AI solutions
 5. [Ambiata](https://www.ambiata.com/blog/2020-12-07-mlops-tools/) how to choose the best MLOps tools
 6. [Lakefs](https://lakefs.io/the-state-of-data-engineering-in-2021/) on the state of data engineering - has monitoring and observability inside
 7. [The NLP Pandec](https://github.com/ivan-bilan/The-NLP-Pandect#mlops-for-nlp) - MLOps for NLP
-8. [ml-ops.org](https://ml-ops.org)
+8. [ml-ops.org](https://ml-ops.org/)
 9. [Awesome production ML](https://github.com/EthicalML/awesome-production-machine-learning/)
 
-![Awesome production ML](../.gitbook/assets/image.png)
+![Awesome production ML](<../.gitbook/assets/image (7).png>)

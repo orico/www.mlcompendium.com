@@ -7,7 +7,7 @@
 3. [How to know pip packages size’](https://stackoverflow.com/questions/34266159/how-to-see-pip-package-sizes-installed) good for removal
 4. [Python type checking tutorial](https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b)
 5. [Import click - command line interface](https://zetcode.com/python/click/)
-6. [Concurrency vs Parallelism (great)](https://stackoverflow.com/questions/1050222/what-is-the-difference-between-concurrency-and-parallelism#:\~:text=Concurrency%20is%20when%20two%20or,e.g.%2C%20on%20a%20multicore%20processor.)
+6. [Concurrency vs Parallelism (great)](https://stackoverflow.com/questions/1050222/what-is-the-difference-between-concurrency-and-parallelism)
 7. [Async in python](https://medium.com/velotio-perspectives/an-introduction-to-asynchronous-programming-in-python-af0189a88bbb)
 8. [Coroutines vs futures](https://stackoverflow.com/questions/34753401/difference-between-coroutine-and-future-task-in-python-3-5)
 9. Coroutines [generators async wait](https://masnun.com/2015/11/13/python-generators-coroutines-native-coroutines-and-async-await.html)
@@ -157,7 +157,7 @@ How to add extensions to jupyter: [extensions](https://codeburst.io/jupyter-note
 3. SCI-KIT LEARN
 4. Pipeline t[o json 1](https://cmry.github.io/notes/serialize), [2](https://cmry.github.io/notes/serialize-sk)
 5. [cuML](https://github.com/rapidsai/cuml) - Multi gpu, multi node-gpu alternative for SKLEARN algorithms
-6. [Gpu TSNE ^](https://www.reddit.com/r/MachineLearning/comments/e0j9cb/p\_2000x\_faster\_rapids\_tsne\_3\_hours\_down\_to\_5/)
+6. [Gpu TSNE ^](https://www.reddit.com/r/MachineLearning/comments/e0j9cb/p\_2000x\_faster\_rapids\_tsne\_3\_hours\_down\_to\_5/?utm\_source=share\&utm\_medium=ios\_app\&utm\_name=iossmf)
 7. [Awesome code examples](http://machinelearningmastery.com/get-your-hands-dirty-with-scikit-learn-now/) about using svm\knn\naive\log regression in sklearn in python, i.e., “fitting a model onto the data”
 8. [Parallelism of numpy, pandas and sklearn using dask and clusters](https://github.com/dask/dask). [Webpage](https://dask.pydata.org/en/latest/), [docs](http://dask-ml.readthedocs.io/en/latest/index.html), [example in jupyter](https://hub.mybinder.org/user/dask-dask-examples-6bi4j3qj/notebooks/machine-learning.ipynb).&#x20;
 
@@ -174,7 +174,7 @@ Also Insanely fast, [see here](https://www.youtube.com/watch?v=5Zf6DQaf7jk).
 
 ## PYCARET
 
-[1. What is? by vidhaya](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?fbclid=IwAR0NZV5fJgXtpoCBfmauCiGQC\_QOK0cbQrpuhhpDBAtEngGG\_NBsRlcVRas) - [PyCaret](https://pycaret.org) is an open-source, machine learning library in Python that helps you from data preparation to model deployment. It is easy to use and you can do almost every data science project task with just one line of code.
+[1. What is? by vidhaya](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/?utm\_source=AVFacebook\&utm\_medium=post\&utm\_campaign=19\_june\_intermediate\_article\&fbclid=IwAR0NZV5fJgXtpoCBfmauCiGQC\_QOK0cbQrpuhhpDBAtEngGG\_NBsRlcVRas) - [PyCaret](https://pycaret.org/) is an open-source, machine learning library in Python that helps you from data preparation to model deployment. It is easy to use and you can do almost every data science project task with just one line of code.
 
 ## NVIDIA TF CUDA CUDNN
 
@@ -192,14 +192,14 @@ Also Insanely fast, [see here](https://www.youtube.com/watch?v=5Zf6DQaf7jk).
 
 ## GIT / Bitbucket
 
-1. [understanding git](https://learngitbranching.js.org)
-2. [pre-commit](https://pre-commit.com)
+1. [understanding git](https://learngitbranching.js.org/)
+2. [pre-commit](https://pre-commit.com/)
 3. [Rewrite git history, all the commands](https://www.youtube.com/watch?v=ElRzTuYln0M)
 4. [Installing git LFS](https://askubuntu.com/questions/799341/how-to-install-git-lfs-on-ubuntu-16-04)
 5. [Use git lfs](https://confluence.atlassian.com/bitbucket/use-git-lfs-with-bitbucket-828781636.html)
-6. [Download git-lfs](https://git-lfs.github.com)
+6. [Download git-lfs](https://git-lfs.github.com/)
 7.  [Git wip](https://carolynvanslyck.com/blog/2020/12/git-wip/) (great)&#x20;
 
     ![](https://lh5.googleusercontent.com/3pMgGGFXb24nH1jqCLAL9IHp0dYH5H2pp\_ZEDDxFvj89nsifmcUH58qHOu0\_jTu6ONJsE2cJXW7qT1vnbZ43bWI2iRdUho24yyaOiHtQ5Ygrx0mWA3GhSMOFKsfS0t51SRwda6nB)
 
-    by [Carolyn Van Slyck](https://carolynvanslyck.com)
+    by [Carolyn Van Slyck](https://carolynvanslyck.com/)

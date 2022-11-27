@@ -9,7 +9,7 @@
 #### **SPACY**&#x20;
 
 1. [**Vidhaya on spacy vs ner**](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/) **- tutorial + code on how to use spacy for pos, dep, ner, compared to nltk/corenlp (sner etc). The results reflect a global score not specific to LOC for example.**
-2. **The** [**spaCy course**](https://course.spacy.io)
+2. **The** [**spaCy course**](https://course.spacy.io/)
 3. **SPACY OPTIMIZATION -** [**LP using CYTHON and SPACY.**](https://medium.com/huggingface/100-times-faster-natural-language-processing-in-python-ee32033bdced)
 4.
 
@@ -19,7 +19,8 @@
 
 ### **NLP DATASETS**
 
-1. [**The bid bad**](https://datasets.quantumstat.com) **600,** [**medium**](https://medium.com/towards-artificial-intelligence/600-nlp-datasets-and-glory-4b0080bf5ab)
+1. [**The bid bad**](https://datasets.quantumstat.com/) **600,** [**medium**](https://medium.com/towards-artificial-intelligence/600-nlp-datasets-and-glory-4b0080bf5ab)
+2. [Amazon 51 Language datasets for NLU](https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding)
 
 ### **NLP Libraries**
 
@@ -42,7 +43,7 @@
 
 ### **TF-IDF**
 
-[**TF-IDF**](http://www.tfidf.com) **- how important is a word to a document in a corpus**
+[**TF-IDF**](http://www.tfidf.com/) **- how important is a word to a document in a corpus**
 
 **TF(t) = (Number of times term t appears in a document) / (Total number of terms in the document).**
 
@@ -62,7 +63,7 @@
 **Data sets:**
 
 1. [**Fast text multilingual**](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)
-2. [**NLP embeddings**](http://vectors.nlpl.eu/repository/#)
+2. [**NLP embeddings**](http://vectors.nlpl.eu/repository/)
 
 ### **Sparse textual content**
 
@@ -161,7 +162,7 @@
 **Collocation**&#x20;
 
 1. **What is collocation? - “the habitual juxtaposition of a particular word with another word or words with a frequency greater than chance.”Medium** [**tutorial**](https://medium.com/@nicharuch/collocations-identifying-phrases-that-act-like-individual-words-in-nlp-f58a93a2f84a)**, quite good, comparing freq/t-test/pmi/chi2 with github code**
-2. **A website dedicated to** [**collocations**](http://www.collocations.de)**, methods, references, metrics.**
+2. **A website dedicated to** [**collocations**](http://www.collocations.de/)**, methods, references, metrics.**
 3. [**Text analysis for sentiment, doing feature selection**](https://streamhacker.com/tag/chi-square/) **a tutorial with chi2(IG?),** [**part 2 with bi-gram collocation in ntlk**](https://streamhacker.com/2010/05/24/text-classification-sentiment-analysis-stopwords-collocations/)
 4. [**Text2vec**](http://text2vec.org/collocations.html) **in R - has ideas on how to use collocations, for downstream tasks, LDA, W2V, etc. also explains about PMI and other metrics, note that gensim metric is unsupervised and probablistic.**
 5. **NLTK on** [**collocations**](http://www.nltk.org/howto/collocations.html)
@@ -205,7 +206,7 @@
 1. [**HebMorph**](https://github.com/synhershko/HebMorph.CorpusSearcher) **last update 7y ago**
 2. [**Hebmorph elastic search**](https://github.com/synhershko/elasticsearch-analysis-hebrew/wiki/Getting-Started) **** [**Hebmorph blog post**](https://code972.com/blog/2013/12/673-hebrew-search-done-right)**, and other** [**blog posts**](https://code972.com/hebmorph)**,** [**youtube**](https://www.youtube.com/watch?v=v8w32wC6ppI)
 3. [**Awesome hebrew nlp git**](https://github.com/iddoberger/awesome-hebrew-nlp)**,** [**git**](https://github.com/synhershko/HebMorph/blob/master/dotNet/HebMorph/HSpell/Constants.cs)
-4. [**Hebrew-nlp service**](https://hebrew-nlp.co.il) **** [**docs**](https://docs.hebrew-nlp.co.il/#/README) **** [**the features**](https://hebrew-nlp.co.il/features) **(morphological analysis, normalization etc),** [**git**](https://github.com/HebrewNLP)
+4. [**Hebrew-nlp service**](https://hebrew-nlp.co.il/) **** [**docs**](https://docs.hebrew-nlp.co.il/#/README) **** [**the features**](https://hebrew-nlp.co.il/features) **(morphological analysis, normalization etc),** [**git**](https://github.com/HebrewNLP)
 5. [**Apache solr stop words (dead)**](https://wiki.apache.org/solr/LanguageAnalysis#Hebrew)
 6. [**SO on hebrew analyzer/stemming**](https://stackoverflow.com/questions/1063856/lucene-hebrew-analyzer)**,** [**here too**](https://stackoverflow.com/questions/20953495/is-there-a-good-stemmer-for-hebrew)
 7. [**Neural sentiment benchmark using two algorithms, for character and word level lstm/gru**](https://github.com/omilab/Neural-Sentiment-Analyzer-for-Modern-Hebrew) **-** [**the paper**](http://aclweb.org/anthology/C18-1190)
@@ -227,12 +228,12 @@
 3. [**mechanical turk calculator**](https://morninj.github.io/mechanical-turk-cost-calculator/)
 4. [**Mturk alternatives**](https://moneypantry.com/amazon-mechanical-turk-crowdsourcing-alternatives/)
    1. [**Workforce / onespace**](https://www.crowdsource.com/workforce/)
-   2. [**Jobby**](https://www.jobboy.com)
-   3. [**Shorttask**](http://www.shorttask.com)
+   2. [**Jobby**](https://www.jobboy.com/)
+   3. [**Shorttask**](http://www.shorttask.com/)
    4. [**Samasource**](https://www.samasource.org/team)
    5. **Figure 8 -** [**pricing**](https://siftery.com/crowdflower/pricing) **-** [**definite guide**](https://www.earnonlineguys.com/figure-eight-tasks-guide/)
 5. [**Brat nlp annotation tool**](http://brat.nlplab.org/?fbclid=IwAR1bDCM3j3nEQb3Hrf9dGCwyRvDVMBXoob4WtVLCWAMBgPraZmkSi123IrI)
-6. [**Prodigy by spacy**](https://prodi.gy)**,**&#x20;
+6. [**Prodigy by spacy**](https://prodi.gy/)**,**&#x20;
    1. [**seed-small sample, many sample tutorial on youtube by ines**](https://www.youtube.com/watch?v=5di0KlKl0fE)
    2. [**How to use prodigy, tutorial on medium plus notebook code inside**](https://medium.com/@david.campion/text-classification-be-lazy-use-prodigy-b0f9d00e9495)
 7. [**Doccano**](https://github.com/chakki-works/doccano) **- prodigy open source alternative butwith users management & statistics out of the box**
@@ -257,7 +258,7 @@
     10. **No experts**
     11. **Measuring reliability kappa/the other kappa.**
 17. [**Label studio**\
-    ****](https://labelstud.io)![](https://lh3.googleusercontent.com/X2kRKqlPnkMZyspKgiJYHR5vyE2NnRfkYJZMxBs\_rfFeGaMl0L07hqCO8VRGnTV\_E9qhroCDYLIlQ1e78EgraeE6wwPE3WJDkzVmR6kQTgv4I-npCh3UkKnuBE\_C1Lo9dQ3QxcEg)
+    ****](https://labelstud.io/)![](https://lh3.googleusercontent.com/X2kRKqlPnkMZyspKgiJYHR5vyE2NnRfkYJZMxBs\_rfFeGaMl0L07hqCO8VRGnTV\_E9qhroCDYLIlQ1e78EgraeE6wwPE3WJDkzVmR6kQTgv4I-npCh3UkKnuBE\_C1Lo9dQ3QxcEg)
 
 **Ideas:**&#x20;
 
@@ -453,7 +454,7 @@
 
 1. [**Sentiment databases**](https://medium.com/@datamonsters/sentiment-analysis-tools-overview-part-1-positive-and-negative-words-databases-ae35431a470c) ****&#x20;
 2. **Movie reviews:** [**IMDB reviews dataset on Kaggle**](https://www.kaggle.com/c/word2vec-nlp-tutorial/data)
-3. **Sentiwordnet – mapping wordnet senses to a polarity model:** [**SentiWordnet Site**](http://sentiwordnet.isti.cnr.it)
+3. **Sentiwordnet – mapping wordnet senses to a polarity model:** [**SentiWordnet Site**](http://sentiwordnet.isti.cnr.it/)
 4. [**Twitter airline sentiment on Kaggle**](https://www.kaggle.com/crowdflower/twitter-airline-sentiment)
 5. [**First GOP Debate Twitter Sentiment**](https://www.kaggle.com/crowdflower/first-gop-debate-twitter-sentiment)
 6. [**Amazon fine foods reviews**](https://www.kaggle.com/snap/amazon-fine-food-reviews)
@@ -485,7 +486,7 @@
 
     This is the official code accompanying a paper on the [Hebrew Psychological Lexicons](https://www.aclweb.org/anthology/2021.clpsych-1.6.pdf) was presented at CLPsych 2021.
 
-![Summary Hebrew Psych Lexicon](<../.gitbook/assets/image (11).png>)
+![Summary Hebrew Psych Lexicon](<../.gitbook/assets/image (11) (1).png>)
 
 **Reference papers:**
 
@@ -530,7 +531,7 @@
 ### **TOPIC MODELING**
 
 ****\
-****[**A very good article about LSA (TFIDV X SVD), pLSA, LDA, and LDA2VEC.**](https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05) **Including code and explanation about dirichlet probability.** [**Lda2vec code**](http://nbviewer.jupyter.org/github/cemoody/lda2vec/blob/master/examples/twenty\_newsgroups/lda2vec/lda2vec.ipynb#)
+****[**A very good article about LSA (TFIDV X SVD), pLSA, LDA, and LDA2VEC.**](https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05) **Including code and explanation about dirichlet probability.** [**Lda2vec code**](http://nbviewer.jupyter.org/github/cemoody/lda2vec/blob/master/examples/twenty\_newsgroups/lda2vec/lda2vec.ipynb)
 
 [**A descriptive comparison for LSA pLSA and LDA**](https://www.reddit.com/r/MachineLearning/comments/10mdtf/lsa\_vs\_plsa\_vs\_lda/)
 
@@ -544,7 +545,7 @@
 
 #### **(TopSBM) topic block modeling**
 
-1. [**Topsbm** ](https://topsbm.github.io)
+1. [**Topsbm** ](https://topsbm.github.io/)
 
 #### **(LDA) Latent Dirichlet Allocation**&#x20;
 

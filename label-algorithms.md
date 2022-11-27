@@ -6,7 +6,7 @@
 
 2. [Classifying Job Titles With Noisy Labels Using REINFORCE ](https://medium.com/@ziprecruiter.engineering/classifying-job-titles-with-noisy-labels-using-reinforce-ce1a4bde05e2)this article has a very nice trick in adding a reward component to the loss function in order to mitigate for unbalanced class label problem, instead of the usual balancing.
 
-![Imbalance Learn comparison](<.gitbook/assets/image (2).png>)
+![Imbalance Learn comparison](<.gitbook/assets/image (2) (1).png>)
 
 ## Label Propagation / Spreading
 
@@ -43,7 +43,7 @@ Neo4j [1](https://dzone.com/articles/graph-algorithms-in-neo4j-label-propagation
 
 ## Label Noise
 
-1. [clean lab](https://github.com/cleanlab/cleanlab) - "`cleanlab` is the data-centric ML ops package for machine learning with noisy labels. `cleanlab` `clean`s `lab`els and supports finding, quantifying, and learning with label errors in datasets. See datasets cleaned with `cleanlab` at [labelerrors.com](https://labelerrors.com). Check out the: [cleanlab code documentation](https://cleanlab.readthedocs.io). `cleanlab` is powered by confident learning, published in this [paper](https://jair.org/index.php/jair/article/view/12125) | [blog](https://l7.curtisnorthcutt.com/confident-learning)."
+1. [clean lab](https://github.com/cleanlab/cleanlab) - "`cleanlab` is the data-centric ML ops package for machine learning with noisy labels. `cleanlab` `clean`s `lab`els and supports finding, quantifying, and learning with label errors in datasets. See datasets cleaned with `cleanlab` at [labelerrors.com](https://labelerrors.com/). Check out the: [cleanlab code documentation](https://cleanlab.readthedocs.io/). `cleanlab` is powered by confident learning, published in this [paper](https://jair.org/index.php/jair/article/view/12125) | [blog](https://l7.curtisnorthcutt.com/confident-learning)."
    1. Reference 1: [Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks](https://openreview.net/forum?id=XccDXrDNLek) by [Curtis G Northcutt](https://openreview.net/profile?id=\~Curtis\_G\_Northcutt1), [Anish Athalye](https://openreview.net/profile?id=\~Anish\_Athalye1), [Jonas Mueller](https://openreview.net/profile?id=\~Jonas\_Mueller1)
    2. Reference 2: [Confident Learning: Estimating Uncertainty in Dataset Labels](https://www.jair.org/index.php/jair/article/view/12125)
    3. can be used for positive unlabeled learning

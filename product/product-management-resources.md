@@ -4,7 +4,7 @@ This list was compiled thanks to [Sefi Keller](https://www.linkedin.com/in/sefik
 
 ### Books
 
-1. The mom test, summaries [1](https://www.wilselby.com/2020/06/the-mom-test-summary-and-insights/#:\~:text=What%20is%20'The%20Mom%20Test,to%20facts%20instead%20of%20opinions.) [2](https://feelinspired.medium.com/things-i-learnt-the-mom-test-by-rob-fitzpatrick-9d9d58ce8098) [3](https://www.slideshare.net/xamde/summary-of-the-mom-test) [4](https://lifeclub.org/books/the-mom-test-rob-fitzpatrick-review-summary) [5](https://booksconcepts.com/the-mom-test-by-rob-fitzpatrick/)
+1. The mom test, summaries [1](https://www.wilselby.com/2020/06/the-mom-test-summary-and-insights/) [2](https://feelinspired.medium.com/things-i-learnt-the-mom-test-by-rob-fitzpatrick-9d9d58ce8098) [3](https://www.slideshare.net/xamde/summary-of-the-mom-test) [4](https://lifeclub.org/books/the-mom-test-rob-fitzpatrick-review-summary) [5](https://booksconcepts.com/the-mom-test-by-rob-fitzpatrick/)
 
 ### GENERAL
 
@@ -22,7 +22,7 @@ This list was compiled thanks to [Sefi Keller](https://www.linkedin.com/in/sefik
 
 ![](https://lh3.googleusercontent.com/soo6\_0ds8ORPwD-5ZPFnze1iR8ZJyTSKn2iYh2HQyKmkaPaVcObm1iP1d4Fa90aYqfX3hYLY1izLUT7rnu87XrDdtWh33eQEafPziD9MCzZrXjWIA2Fxkt-h5pTgcKWy7lXfvtZx)
 
-[Which idea is better? Compare them](https://www.mindtheproduct.com/2017/10/critical-thinking-product-teams-teresa-torres/)&#x20;
+[Which idea is better? Compare them](https://www.mindtheproduct.com/2017/10/critical-thinking-product-teams-teresa-torres/?utm\_campaign=coschedule\&utm\_source=twitter\&utm\_medium=MindTheProduct\&utm\_content=Critical%20Thinking%20for%20Product%20Teams%20by%20Teresa%20Torres)&#x20;
 
 [The best potential metric to move the needle ](https://www.youtube.com/watch?v=ri9X02dPXlY)
 
