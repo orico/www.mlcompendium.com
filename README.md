@@ -1,6 +1,8 @@
 # The Machine & Deep Learning Compendium
 
-Hi! Nearly a year ago I announced the Machine & Deep Learning Compendium, which was a personal list of resources curated in a private Google document, for my own education. That document is now retired in favor of this new interface. I decided to share it as an educational tool in order to allow people to learn and connect to all the great authors that I summarized, quoted, and referenced.&#x20;
+Hi!&#x20;
+
+Nearly a year ago I announced the Machine & Deep Learning Compendium, which was a personal list of resources curated in a private Google document, for my own education. That document is now retired in favor of this new interface. I decided to share it as an educational tool in order to allow people to learn and connect to all the great authors that I summarized, quoted, and referenced.
 
 **PLEASE NOTE: I'm in the midst of restructuring the compendium. I'm taking on this huge effort because the compendium started as my personal list of resources for my own private use without any standardization and without the intention of opening it up for the public, in order to allow readers to easily find topics and for referenced authors to get support back from the community. If you feel like something should be changed, content-wise, please create a PR or contact me and we'll work together to make that happen. My intent is to support both the community and authors and to democratise education.**
 
@@ -12,6 +14,6 @@ Please keep in mind that this is a perpetual work in progress with a variety of 
 
 Please note that on GitHub you should push to master.
 
-I would like to thank the following contributors: [Samuel Jefroykin](https://www.linkedin.com/in/samueljefroykin/), [Sefi Keller](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)&#x20;
+I would like to thank the following contributors: [Samuel Jefroykin](https://www.linkedin.com/in/samueljefroykin/), [Sefi Keller](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)
 
 Many Thanks, [Dr. Ori Cohen](http://cohenori.medium.com) | [LinkedIn](https://www.linkedin.com/in/cohenori/)| [Medium](https://medium.com/@cohenori) | [OriCohen.com](https://www.oricohen.com) | [MLCompendium.com](http://www.mlcompendium.com) | [book.mlcompendium.com](https://book.mlcompendium.com)
