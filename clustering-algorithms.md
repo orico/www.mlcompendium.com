@@ -43,7 +43,14 @@ TOOLS
 
 ![](https://lh4.googleusercontent.com/rUA\_KIAXZ3nSbbFGo0YsQCF7M5JpTm8Sr2jsdfeIuc2RWeF4OqjRTOE0wVGl7tRkJeiIwnPQJyGS-mKI-PFr\_BUR5e8oWQhw1EGnamVbpmXm0rme2Clfn9Bf--6ZZbgNbsslkOIk)
 
-### X-means![](https://lh6.googleusercontent.com/aSlcmQ3DlWOozVCc4583cI-f-wplzHhygD-ecO7r-J9AtqZQhyWSZkvcClpmuHZdvHUp3MZUCNthXaNG-FB8LqmKhwMmZxiPOO665C4Q\_bp9mB6sIhwbxFw2NwrkaOThSruvIc1Q)
+### K-modes
+
+1. "Python implementations of the k-modes and k-prototypes clustering algorithms, for clustering categorical data" - [git](https://github.com/nicodv/kmodes#huang97)
+2. [a guide to clustering mixed types](https://bpostance.github.io/posts/clustering-mixed-data/), i.e., numerics, categoricals
+
+### X-means
+
+![](https://lh6.googleusercontent.com/aSlcmQ3DlWOozVCc4583cI-f-wplzHhygD-ecO7r-J9AtqZQhyWSZkvcClpmuHZdvHUp3MZUCNthXaNG-FB8LqmKhwMmZxiPOO665C4Q\_bp9mB6sIhwbxFw2NwrkaOThSruvIc1Q)
 
 X-means([paper](https://www.cs.cmu.edu/\~dpelleg/download/xmeans.pdf)): \
 
