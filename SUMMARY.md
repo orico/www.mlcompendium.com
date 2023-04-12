@@ -103,17 +103,6 @@
 * [Contextual Bandits](experimental-design/contextual-bandits.md)
 * [Factorial Design](experimental-design/factorial-design.md)
 
-## Product Management
-
-* [Expanding Your Data Science Skills](product/expanding-your-data-science-skills.md)
-* [Product Vision & Strategy](product/product-vision-and-strategy.md)
-* [Product / Program Managers](product/product-managers.md)
-* [Product Management Resources](product/product-management-resources.md)
-* [Product Tools](product/product-tools.md)
-* [User Experience Design (UX)](product/user-experience-design-ux.md)
-* [Business](product/business.md)
-* [Marketting](product/marketting.md)
-
 ## Business Domains
 
 * [Follow the regularized leader](business-domains/follow-the-regularized-leader.md)
@@ -125,6 +114,17 @@
 * [Survival Analysis](business-domains/survival-analysis.md)
 * [Propaganda Detection](business-domains/propaganda-detection.md)
 * [NYC TAXI](business-domains/examples.md)
+
+## Product Management
+
+* [Expanding Your Data Science Skills](product/expanding-your-data-science-skills.md)
+* [Product Vision & Strategy](product/product-vision-and-strategy.md)
+* [Product / Program Managers](product/product-managers.md)
+* [Product Management Resources](product/product-management-resources.md)
+* [Product Tools](product/product-tools.md)
+* [User Experience Design (UX)](product/user-experience-design-ux.md)
+* [Business](product/business.md)
+* [Marketting](product/marketting.md)
 
 ***
 
