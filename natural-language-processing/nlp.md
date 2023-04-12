@@ -1,4 +1,4 @@
-# Natural Language Processing (Many Topics)
+# NLP Models
 
 ### **NLP - a reality check**
 
@@ -54,7 +54,7 @@
 **measures how important a term is**
 
 **TF-IDF is TF\*IDF**\
-****
+
 
 1. [**A much clearer explanation plus python code**](https://stevenloria.com/tf-idf/)**,** [**part 2**](http://blog.christianperone.com/2011/10/machine-learning-text-feature-extraction-tf-idf-part-ii/)
 2. [**Get top tfidf keywords**](https://stackoverflow.com/questions/34232190/scikit-learn-tfidfvectorizer-how-to-get-top-n-terms-with-highest-tf-idf-score)
@@ -68,8 +68,8 @@
 ### **Sparse textual content**
 
 1. **mean(IDF(i) \* w2v word vectors (i)) with or without reducing PC1 from the whole w2 average (amir pupko)**\
-   ****\
-   ****
+   \
+
 
 **def mean\_weighted\_embedding(model, words, idf=1.0):**
 
@@ -82,15 +82,15 @@
 &#x20;       **print('we have an empty list')**
 
 &#x20;       **return \[]**\
-****
+
 
 **idf\_mapping = dict(zip(vectorizer.get\_feature\_names(), vectorizer.idf\_))**&#x20;
 
 **logs\_sequences\_df\['idf\_vectors'] = logs\_sequences\_df.message.apply(lambda x: \[idf\_mapping\[token] for token in splitter(x)])**
 
 **logs\_sequences\_df\['mean\_weighted\_idf\_w2v'] = \[mean\_weighted\_embedding(ft, splitter(logs\_sequences\_df\['message'].iloc\[i]), 1 / np.array(logs\_sequences\_df\['idf\_vectors'].iloc\[i]).reshape(-1,1)) for i in range(logs\_sequences\_df.shape\[0])]**\
-****\
-****
+\
+
 
 1. [**Multiply by TFIDF**](https://towardsdatascience.com/supercharging-word-vectors-be80ee5513d)
 2. **Enriching using lstm-next word (char or word-wise)**
@@ -184,7 +184,7 @@
 
 **How to measure a stemmer?**
 
-1. **References \[**[**1**](https://files.eric.ed.gov/fulltext/EJ1020841.pdf) **** [**2**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.68.2870\&rep=rep1\&type=pdf)**(apr11)** [**3**](http://www.informationr.net/ir/19-1/paper605.html)**(Index compression factor ICF)** [**4**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.8310\&rep=rep1\&type=pdf) **** [**5**](https://pdfs.semanticscholar.org/1c0c/0fa35d4ff8a2f925eb955e48d655494bd167.pdf)**]**
+1. **References \[**[**1**](https://files.eric.ed.gov/fulltext/EJ1020841.pdf) [**2**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.68.2870\&rep=rep1\&type=pdf)**(apr11)** [**3**](http://www.informationr.net/ir/19-1/paper605.html)**(Index compression factor ICF)** [**4**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.16.8310\&rep=rep1\&type=pdf) [**5**](https://pdfs.semanticscholar.org/1c0c/0fa35d4ff8a2f925eb955e48d655494bd167.pdf)**]**
 
 **Phrase modelling**
 
@@ -204,9 +204,9 @@
 **Hebrew NLP tools**
 
 1. [**HebMorph**](https://github.com/synhershko/HebMorph.CorpusSearcher) **last update 7y ago**
-2. [**Hebmorph elastic search**](https://github.com/synhershko/elasticsearch-analysis-hebrew/wiki/Getting-Started) **** [**Hebmorph blog post**](https://code972.com/blog/2013/12/673-hebrew-search-done-right)**, and other** [**blog posts**](https://code972.com/hebmorph)**,** [**youtube**](https://www.youtube.com/watch?v=v8w32wC6ppI)
+2. [**Hebmorph elastic search**](https://github.com/synhershko/elasticsearch-analysis-hebrew/wiki/Getting-Started) [**Hebmorph blog post**](https://code972.com/blog/2013/12/673-hebrew-search-done-right)**, and other** [**blog posts**](https://code972.com/hebmorph)**,** [**youtube**](https://www.youtube.com/watch?v=v8w32wC6ppI)
 3. [**Awesome hebrew nlp git**](https://github.com/iddoberger/awesome-hebrew-nlp)**,** [**git**](https://github.com/synhershko/HebMorph/blob/master/dotNet/HebMorph/HSpell/Constants.cs)
-4. [**Hebrew-nlp service**](https://hebrew-nlp.co.il/) **** [**docs**](https://docs.hebrew-nlp.co.il/#/README) **** [**the features**](https://hebrew-nlp.co.il/features) **(morphological analysis, normalization etc),** [**git**](https://github.com/HebrewNLP)
+4. [**Hebrew-nlp service**](https://hebrew-nlp.co.il/) [**docs**](https://docs.hebrew-nlp.co.il/#/README) [**the features**](https://hebrew-nlp.co.il/features) **(morphological analysis, normalization etc),** [**git**](https://github.com/HebrewNLP)
 5. [**Apache solr stop words (dead)**](https://wiki.apache.org/solr/LanguageAnalysis#Hebrew)
 6. [**SO on hebrew analyzer/stemming**](https://stackoverflow.com/questions/1063856/lucene-hebrew-analyzer)**,** [**here too**](https://stackoverflow.com/questions/20953495/is-there-a-good-stemmer-for-hebrew)
 7. [**Neural sentiment benchmark using two algorithms, for character and word level lstm/gru**](https://github.com/omilab/Neural-Sentiment-Analyzer-for-Modern-Hebrew) **-** [**the paper**](http://aclweb.org/anthology/C18-1190)
@@ -258,7 +258,7 @@
     10. **No experts**
     11. **Measuring reliability kappa/the other kappa.**
 17. [**Label studio**\
-    ****](https://labelstud.io/)![](https://lh3.googleusercontent.com/X2kRKqlPnkMZyspKgiJYHR5vyE2NnRfkYJZMxBs\_rfFeGaMl0L07hqCO8VRGnTV\_E9qhroCDYLIlQ1e78EgraeE6wwPE3WJDkzVmR6kQTgv4I-npCh3UkKnuBE\_C1Lo9dQ3QxcEg)
+    ](https://labelstud.io/)![](https://lh3.googleusercontent.com/X2kRKqlPnkMZyspKgiJYHR5vyE2NnRfkYJZMxBs\_rfFeGaMl0L07hqCO8VRGnTV\_E9qhroCDYLIlQ1e78EgraeE6wwPE3WJDkzVmR6kQTgv4I-npCh3UkKnuBE\_C1Lo9dQ3QxcEg)
 
 **Ideas:**&#x20;
 
@@ -283,8 +283,8 @@
 
 ![](https://lh3.googleusercontent.com/Xo5pBUmwOyqKqnZJvJc2kyjzPZYiZLY4acF\_oK6Su6WsYCVuJygvdgDgjLRhPWdbcVsxO8qs6C1pHuH0ZWVVZ5-Z-F1fRlojJ-MYcaMUx56tE0Z2OxzJ02ieMNEhIAHiLnMwZKPi)
 
-![](https://lh3.googleusercontent.com/Hx9UzYlcDRUIpf9Pt-f4xI9M8EwPapcEcwwXcmKry8VC0OzyI4kbrp7h4E7nOXeMMdR1wdd\_Dwa54THEBpvcwZbjmWHBQQEAzBGtB8RyF40xbx6AV4L9BErGcbRFM-AMHuN7GTq\_)![](https://lh4.googleusercontent.com/1VEsT95na9TLGXNUBwAGMKOdTJDI4cJ5rCirq\_WYhCne-xBmDTjcpJ4Qmoyh7OHW5ilBCnjpJ4U1opy1TK7v6-i4AmsqAbUm42YGg1Ee\_90HFblseEd1K6PyfTA7NTow6B6WsZtE)****\
-****
+![](https://lh3.googleusercontent.com/Hx9UzYlcDRUIpf9Pt-f4xI9M8EwPapcEcwwXcmKry8VC0OzyI4kbrp7h4E7nOXeMMdR1wdd\_Dwa54THEBpvcwZbjmWHBQQEAzBGtB8RyF40xbx6AV4L9BErGcbRFM-AMHuN7GTq\_)![](https://lh4.googleusercontent.com/1VEsT95na9TLGXNUBwAGMKOdTJDI4cJ5rCirq\_WYhCne-xBmDTjcpJ4Qmoyh7OHW5ilBCnjpJ4U1opy1TK7v6-i4AmsqAbUm42YGg1Ee\_90HFblseEd1K6PyfTA7NTow6B6WsZtE)\
+
 
 ![](https://lh3.googleusercontent.com/m1MAdhxW1T3\_-s0i6PHH-xCBfBpQLCqtVpL-WfUvVyR3A\_NT274te37PLRYjfCELOS0YB4zUNCAswBcG0fY4fMDlWh-hmz9kMCVfiM5xqyyZDc5NEfkIYt57O105II8kU5ccVnIG)
 
@@ -438,7 +438,7 @@
     4. [**Wiki on automatic summarization, abstractive vs extractive,** ](https://en.wikipedia.org/wiki/Automatic\_summarization#TextRank\_and\_LexRank)
     5. [**Pyteaser, textteaset, lexrank, pytextrank summarization models &**\
        **rouge-1/n and blue metrics to determine quality of summarization models**\
-       ****](https://rare-technologies.com/text-summarization-in-python-extractive-vs-abstractive-techniques-revisited/)**Bottom line is that textrank is competitive to sumy\_lex**
+       ](https://rare-technologies.com/text-summarization-in-python-extractive-vs-abstractive-techniques-revisited/)**Bottom line is that textrank is competitive to sumy\_lex**
     6. [**Sumy**](https://github.com/miso-belica/sumy)
     7. [**Pyteaser**](https://github.com/xiaoxu193/PyTeaser)
     8. [**Pytextrank**](https://github.com/ceteri/pytextrank)
@@ -452,7 +452,7 @@
 
 #### **Databases**
 
-1. [**Sentiment databases**](https://medium.com/@datamonsters/sentiment-analysis-tools-overview-part-1-positive-and-negative-words-databases-ae35431a470c) ****&#x20;
+1. [**Sentiment databases**](https://medium.com/@datamonsters/sentiment-analysis-tools-overview-part-1-positive-and-negative-words-databases-ae35431a470c)&#x20;
 2. **Movie reviews:** [**IMDB reviews dataset on Kaggle**](https://www.kaggle.com/c/word2vec-nlp-tutorial/data)
 3. **Sentiwordnet – mapping wordnet senses to a polarity model:** [**SentiWordnet Site**](http://sentiwordnet.isti.cnr.it/)
 4. [**Twitter airline sentiment on Kaggle**](https://www.kaggle.com/crowdflower/twitter-airline-sentiment)
@@ -530,8 +530,8 @@
 
 ### **TOPIC MODELING**
 
-****\
-****[**A very good article about LSA (TFIDV X SVD), pLSA, LDA, and LDA2VEC.**](https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05) **Including code and explanation about dirichlet probability.** [**Lda2vec code**](http://nbviewer.jupyter.org/github/cemoody/lda2vec/blob/master/examples/twenty\_newsgroups/lda2vec/lda2vec.ipynb)
+\
+[**A very good article about LSA (TFIDV X SVD), pLSA, LDA, and LDA2VEC.**](https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05) **Including code and explanation about dirichlet probability.** [**Lda2vec code**](http://nbviewer.jupyter.org/github/cemoody/lda2vec/blob/master/examples/twenty\_newsgroups/lda2vec/lda2vec.ipynb)
 
 [**A descriptive comparison for LSA pLSA and LDA**](https://www.reddit.com/r/MachineLearning/comments/10mdtf/lsa\_vs\_plsa\_vs\_lda/)
 
@@ -558,14 +558,14 @@
 
 [**Medium Article about LDA and**](https://medium.com/ml2vec/topic-modeling-is-an-unsupervised-learning-approach-to-clustering-documents-to-discover-topics-fdfbf30e27df) **NMF (Non-negative Matrix factorization)+ code**
 
-[**Medium article on LDA - a good one with pseudo algorithm and proof**](https://medium.com/@jonathan\_hui/machine-learning-latent-dirichlet-allocation-lda-1d9d148f13a4)****\
-****
+[**Medium article on LDA - a good one with pseudo algorithm and proof**](https://medium.com/@jonathan\_hui/machine-learning-latent-dirichlet-allocation-lda-1d9d148f13a4)\
 
-**In case LDA groups together two topics, we can influence the algorithm in a way that makes those two topics separable -** [**this is called Semi Supervised Guided LDA**](https://medium.freecodecamp.org/how-we-changed-unsupervised-lda-to-semi-supervised-guidedlda-e36a95f3a164)****\
-****
+
+**In case LDA groups together two topics, we can influence the algorithm in a way that makes those two topics separable -** [**this is called Semi Supervised Guided LDA**](https://medium.freecodecamp.org/how-we-changed-unsupervised-lda-to-semi-supervised-guidedlda-e36a95f3a164)\
+
 
 * [**LDA tutorials plus code**](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/)**, used this to build my own classes - using gensim mallet wrapper, doesn't work on pyLDAviz, so use** [**this**](http://jeriwieringa.com/2018/07/17/pyLDAviz-and-Mallet/#comment-4018495276) **to fix it**&#x20;
-* [**Introduction to LDA topic modelling, really good,**](http://www.vladsandulescu.com/topic-prediction-lda-user-reviews/) **** [**plus git code**](https://github.com/vladsandulescu/topics)
+* [**Introduction to LDA topic modelling, really good,**](http://www.vladsandulescu.com/topic-prediction-lda-user-reviews/) [**plus git code**](https://github.com/vladsandulescu/topics)
 * [**Sklearn examples using LDA and NMF**](http://scikit-learn.org/stable/auto\_examples/applications/plot\_topics\_extraction\_with\_nmf\_lda.html#sphx-glr-auto-examples-applications-plot-topics-extraction-with-nmf-lda-py)
 * [**Tutorial on lda/nmf on medium**](https://medium.com/mlreview/topic-modeling-with-scikit-learn-e80d33668730) **- using tfidf matrix as input!**
 * [**Gensim and sklearn LDA variants, comparison**](https://gist.github.com/aronwc/8248457)**,** [**python 3**](https://github.com/EricSchles/sklearn\_gensim\_example/blob/master/example.py)
@@ -632,8 +632,8 @@
 3. **When you select a topic, you can see the most representative words for the selected topic. This measure can be a combination of how frequent or how discriminant the word is. You can adjust the weight of each property using the slider.**
 4. **Hovering over a word will adjust the topic sizes according to how representative the word is for the topic.**
 
-**\*\*\*\***[**pyLDAviz paper\*\*\*!**](https://cran.r-project.org/web/packages/LDAvis/vignettes/details.pdf)****\
-****
+**\*\*\*\***[**pyLDAviz paper\*\*\*!**](https://cran.r-project.org/web/packages/LDAvis/vignettes/details.pdf)\
+
 
 [**pyLDAviz - what am i looking at ?**](https://github.com/explosion/spacy-notebooks/blob/master/notebooks/conference\_notebooks/modern\_nlp\_in\_python.ipynb) **by spacy**
 
@@ -652,7 +652,7 @@
 * **Rolling the mouse over a term in the bar chart on the right will cause the topic circles to resize in the plot on the left, to show the strength of the relationship between the topics and the selected term.**
 
 **A more detailed explanation of the pyLDAvis visualization can be found** [**here**](https://cran.r-project.org/web/packages/LDAvis/vignettes/details.pdf)**. Unfortunately, though the data used by gensim and pyLDAvis are the same, they don't use the same ID numbers for topics. If you need to match up topics in gensim's LdaMulticore object and pyLDAvis' visualization, you have to dig through the terms manually.**\
-****
+
 
 1. [**Another great article about LDA**](https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/)**, including algorithm, parameters!! And**
 
@@ -686,8 +686,8 @@
 16. [**Difference between lda in gensim and sklearn a post on rare**](https://github.com/RaRe-Technologies/gensim/issues/457)
 17. [**The best code article on LDA/MALLET**](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/)**, and using** [**sklearn**](https://www.machinelearningplus.com/nlp/topic-modeling-python-sklearn-examples/) **(using clustering for getting group of sentences in each topic)**
 18. [**LDA in gensim, a tutorial by gensim**](https://nbviewer.jupyter.org/github/rare-technologies/gensim/blob/develop/docs/notebooks/atmodel\_tutorial.ipynb)
-19. &#x20;**** [**Lda on medium**](https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21) ****&#x20;
-20. &#x20;**** [**What are the pros and cons of LDA and NMF in topic modeling? Under what situations should we choose LDA or NMF? Is there comparison of two techniques in topic modeling?**](https://www.quora.com/What-are-the-pros-and-cons-of-LDA-and-NMF-in-topic-modeling-Under-what-situations-should-we-choose-LDA-or-NMF-Is-there-comparison-of-two-techniques-in-topic-modeling)
+19. &#x20;[**Lda on medium**](https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21)&#x20;
+20. &#x20;[**What are the pros and cons of LDA and NMF in topic modeling? Under what situations should we choose LDA or NMF? Is there comparison of two techniques in topic modeling?**](https://www.quora.com/What-are-the-pros-and-cons-of-LDA-and-NMF-in-topic-modeling-Under-what-situations-should-we-choose-LDA-or-NMF-Is-there-comparison-of-two-techniques-in-topic-modeling)
 21. [**What is the difference between NMF and LDA? Why are the priors of LDA sparse-induced?**](https://www.quora.com/What-is-the-difference-between-NMF-and-LDA-Why-are-the-priors-of-LDA-sparse-induced)
 22. [**Exploring Topic Coherence over many models and many topics**](http://aclweb.org/anthology/D/D12/D12-1087.pdf) **lda nmf svd, using umass and uci coherence measures**
 23. **\*\*\*** [**Practical topic findings for short sentence text**](http://nbviewer.jupyter.org/github/dolaameng/tutorials/blob/master/topic-finding-for-short-texts/topics\_for\_short\_texts.ipynb) **code**
@@ -725,7 +725,7 @@
 
 1. [**Umass vs C\_v, what are the diff?** ](https://groups.google.com/forum/#!topic/gensim/CsscFah0Ax8)
 2. **Paper: umass, uci, nmpi, cv, cp etv** [**Exploring the Space of Topic Coherence Measures**](http://svn.aksw.org/papers/2015/WSDM\_Topic\_Evaluation/public.pdf)
-3. **Paper:** [**Automatic evaluation of topic coherence**](https://mimno.infosci.cornell.edu/info6150/readings/N10-1012.pdf) ****&#x20;
+3. **Paper:** [**Automatic evaluation of topic coherence**](https://mimno.infosci.cornell.edu/info6150/readings/N10-1012.pdf)&#x20;
 4. **Paper:** [**exploring the space of topic coherence methods**](https://dl.acm.org/citation.cfm?id=2685324)
 5. **Paper:** [**Relation between mutial information / entropy and pmi**](https://svn.spraakdata.gu.se/repos/gerlof/pub/www/Docs/npmi-pfd.pdf)
 6. **Stackexchange:** [**coherence / pmi how to calc**](https://stats.stackexchange.com/questions/158790/topic-similarity-semantic-pmi-between-two-words-wikipedia)
@@ -743,12 +743,12 @@
 
 1. **Code:** [**Evaluating topic coherence, using gensim umass or cv parameter**](https://datascienceplus.com/evaluation-of-topic-modeling-topic-coherence/) **- To conclude, there are many other approaches to evaluate Topic models such as Perplexity, but its poor indicator of the quality of the topics.Topic Visualization is also a good way to assess topic models. Topic Coherence measure is a good way to compare difference topic models based on their human-interpretability.The u\_mass and c\_v topic coherences capture the optimal number of topics by giving the interpretability of these topics a number called coherence score.**
 2. **Formulas:** [**UCI vs UMASS**\
-   ****](http://qpleple.com/topic-coherence-to-evaluate-topic-models/)![](https://lh6.googleusercontent.com/aWrfeNX1FDBZYrIxAUSFw2ZcRQXyHTuxZ\_rgRXBhMPjvMY0sCQx-OlFKBRgId3Eynhv2532ZA5FWxB3Jz4Y8rjfAg5lnjwfxhRcmqfNq7d9rYrxWZrp146xarFHL6OkLSIVXPLEe)
+   ](http://qpleple.com/topic-coherence-to-evaluate-topic-models/)![](https://lh6.googleusercontent.com/aWrfeNX1FDBZYrIxAUSFw2ZcRQXyHTuxZ\_rgRXBhMPjvMY0sCQx-OlFKBRgId3Eynhv2532ZA5FWxB3Jz4Y8rjfAg5lnjwfxhRcmqfNq7d9rYrxWZrp146xarFHL6OkLSIVXPLEe)
 3. [**Inferring the number of topics for gensim's LDA - perplexity, CM, AIC, and BIC**](https://stats.stackexchange.com/questions/322809/inferring-the-number-of-topics-for-gensims-lda-perplexity-cm-aic-and-bic)
 4. [**Perplexity as a measure for LDA**](https://groups.google.com/forum/#!topic/gensim/tgJLVulf5xQ)
 5. [**Finding number of topics using perplexity**](https://groups.google.com/forum/#!topic/gensim/TpuYRxhyIOc)
 6. [**Coherence for tweets**](http://terrierteam.dcs.gla.ac.uk/publications/fang\_sigir\_2016\_examine.pdf)
-7. **Presentation** [**Twitter DLA**](https://www.slideshare.net/akshayubhat/twitter-lda)**,** [**tweet pooling improvements**](http://users.cecs.anu.edu.au/\~ssanner/Papers/sigir13.pdf)**,** [**hierarchical summarization of tweets**](https://www.researchgate.net/publication/322359369\_Hierarchical\_Summarization\_of\_News\_Tweets\_with\_Twitter-LDA)**,** [**twitter LDA in java**](https://sites.google.com/site/lyangwww/code-data) **** [**on github**](https://github.com/minghui/Twitter-LDA)****\
+7. **Presentation** [**Twitter DLA**](https://www.slideshare.net/akshayubhat/twitter-lda)**,** [**tweet pooling improvements**](http://users.cecs.anu.edu.au/\~ssanner/Papers/sigir13.pdf)**,** [**hierarchical summarization of tweets**](https://www.researchgate.net/publication/322359369\_Hierarchical\_Summarization\_of\_News\_Tweets\_with\_Twitter-LDA)**,** [**twitter LDA in java**](https://sites.google.com/site/lyangwww/code-data) [**on github**](https://github.com/minghui/Twitter-LDA)\
    **Papers:** [**TM of twitter timeline**](https://medium.com/@alexisperrier/topic-modeling-of-twitter-timelines-in-python-bb91fa90d98d)**,** [**in twitter aggregation by conversatoin**](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/download/13162/12778)**,** [**twitter topics using LDA**](http://uu.diva-portal.org/smash/get/diva2:904196/FULLTEXT01.pdf)**,** [**empirical study**](https://snap.stanford.edu/soma2010/papers/soma2010\_12.pdf) **,**&#x20;
 
 #### **COHERENCE**&#x20;
@@ -767,7 +767,7 @@
 #### **Non-negative Matrix factorization (NMF)**
 
 [**Medium Article about LDA and**](https://medium.com/ml2vec/topic-modeling-is-an-unsupervised-learning-approach-to-clustering-documents-to-discover-topics-fdfbf30e27df) **NMF (Non-negative Matrix factorization)+ code**\
-****
+
 
 #### **LDA2VEC**
 
@@ -822,7 +822,7 @@
 * [**SNER presentation - combines HMM and MaxEnt features, distributional features, NER has** ](https://nlp.stanford.edu/software/jenny-ner-2007.pdf)
 * [**many applications.**](https://nlp.stanford.edu/software/jenny-ner-2007.pdf)
 * [**How to train SNER, a FAQ with many other answers (read first before doing anything with SNER)**](https://nlp.stanford.edu/software/crf-faq.shtml#a)
-* [**SNER demo - capital letters matter, a minimum of one.**](http://nlp.stanford.edu:8080/ner/process) ****&#x20;
+* [**SNER demo - capital letters matter, a minimum of one.**](http://nlp.stanford.edu:8080/ner/process)&#x20;
 * [**State of the art NER benchmark**](https://github.com/magizbox/underthesea/wiki/TASK-CONLL-2003)
 * [**Review paper, SNER, spacy, stanford wins**](http://www.aclweb.org/anthology/W16-2703)
 * [**Review paper SNER, others on biographical text, stanford wins**](https://arxiv.org/ftp/arxiv/papers/1308/1308.0661.pdf)
@@ -865,7 +865,7 @@
 2. [**Building a Q\&A system part 1**](https://towardsdatascience.com/building-a-question-answering-system-part-1-9388aadff507)
 3. [**Building a Q\&A model**](https://towardsdatascience.com/nlp-building-a-question-answering-model-ed0529a68c54)
 4. [**Vidhya on Q\&A**](https://medium.com/analytics-vidhya/how-i-build-a-question-answering-model-3548878d5db2)
-5. [**Q\&A system using**](https://medium.com/voice-tech-podcast/building-an-intelligent-qa-system-with-nlp-and-milvus-75b496702490) **** [**milvus - An open source embedding vector similarity search engine powered by Faiss, NMSLIB and Annoy**](https://github.com/milvus-io/milvus)
+5. [**Q\&A system using**](https://medium.com/voice-tech-podcast/building-an-intelligent-qa-system-with-nlp-and-milvus-75b496702490) [**milvus - An open source embedding vector similarity search engine powered by Faiss, NMSLIB and Annoy**](https://github.com/milvus-io/milvus)
 6. [**Q\&A system**](https://medium.com/@akshaynavalakha/nlp-question-answering-system-f05825ef35c8)
 7.
 
@@ -888,9 +888,9 @@
 3. [**Fast text LI**](https://fasttext.cc/blog/2017/10/02/blog-post.html?fbclid=IwAR3dtJFRmpoZYq24U9ePlGeC65PT1Gy2Rsz9fH834CZ74Vs70utk2suuFsc)**,** [**facebook post**](https://www.facebook.com/groups/1174547215919768/permalink/1702123316495486/?comment\_id=1704414996266318\&reply\_comment\_id=1705159672858517\&notif\_id=1507280476710677\&notif\_t=group\_comment)
 4. **OPENNLP**
 5. [**Google detect language**](https://cloud.google.com/translate/docs/detecting-language)**,** [**github code**](https://github.com/GoogleCloudPlatform/python-docs-samples/blob/master/translate/cloud-client/snippets.py)**,** [**v3beta**](https://cloud.google.com/translate/docs/detecting-language-v3)
-6. [**Microsoft azure LD,**](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) **** [**2**](https://westcentralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v2-1/operations/56f30ceeeda5650db055a3c7)
+6. [**Microsoft azure LD,**](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) [**2**](https://westcentralus.dev.cognitive.microsoft.com/docs/services/TextAnalytics-v2-1/operations/56f30ceeeda5650db055a3c7)
 7. [**Ibm watson**](https://cloud.ibm.com/apidocs/language-translator)**,** [**2**](https://www.ibm.com/support/knowledgecenter/SS8NLW\_11.0.1/com.ibm.swg.im.infosphere.dataexpl.engine.doc/c\_vse\_language\_detection.html)
-8. [**Amazon,**](https://docs.aws.amazon.com/comprehend/latest/dg/how-languages.html) **** [ **2**](https://aws.amazon.com/comprehend/)
+8. [**Amazon,**](https://docs.aws.amazon.com/comprehend/latest/dg/how-languages.html) [ **2**](https://aws.amazon.com/comprehend/)
 9. [**Lingua - most accurate for java… doesn't seem like its accurate enough**](https://github.com/pemistahl/lingua)
 10. [**LD with infinity gram 99.1 on a lot of data a benchmark for this 2012 method**](https://shuyo.wordpress.com/2012/02/21/language-detection-for-twitter-with-99-1-accuracy/)**,** [**LD with infinity gram**](https://github.com/shuyo/ldig)
 11. [**WiLI dataset for LD, comparison of CLD vs others** ](https://arxiv.org/pdf/1801.07779.pdf)
@@ -975,4 +975,4 @@
 
 1. [**A list of chat bots, pros and cons, example code.**](https://nlpforhackers.io/chatbots-introduction/#more-8595)
 
-### ****
+###

@@ -13,7 +13,7 @@
 2. [**Benchmark**](https://github.com/mariomka/regex-benchmark)**,** [**comparisons**](https://rust-leipzig.github.io/regex/2017/03/28/comparison-of-regex-engines/)**,** [**more**](https://stackoverflow.com/questions/3544225/regular-expression-library-benchmarks)**,** [**many more**](https://stackoverflow.com/questions/11033190/regex-library-benchmark)**,**&#x20;
 3. [**Split on separator but keep the separator**](http://programmaticallyspeaking.com/split-on-separator-but-keep-the-separator-in-python.html)**, in Python**
 4. [**Semantic versioning**](https://regexr.com/39s32)
-5. [**Hyperscan**](https://github.com/intel/hyperscan) **-** [**Hyperscan**](https://www.hyperscan.io/) **** [**(paper)**](https://www.usenix.org/system/files/nsdi19-wang-xiang.pdf) **is a high-performance multiple regex matching library. It follows the regular expression syntax of the commonly-used libpcre library, but is a standalone library with its own C API.**
+5. [**Hyperscan**](https://github.com/intel/hyperscan) **-** [**Hyperscan**](https://www.hyperscan.io/) [**(paper)**](https://www.usenix.org/system/files/nsdi19-wang-xiang.pdf) **is a high-performance multiple regex matching library. It follows the regular expression syntax of the commonly-used libpcre library, but is a standalone library with its own C API.**
 6. [**Re2**](https://github.com/google/re2/tree/abseil/python) **-** [**python**](https://pypi.org/project/re2/) **This is the source code repository for RE2, a regular expression library.**
 
 ![](https://lh3.googleusercontent.com/-YwR-w4Xp3Z-FJH4yUu23QiFSBgr7EqkKGNhvG-c89kpsaHcEBeiqiUO4nEx-8VzEMIeaJosCR6JhDpWO5hqQjfwL2cSXUXapt\_XUa\_OdRmClhigiynQzDBy3zdrq\_Bj4VYaWv2F)

@@ -1,20 +1,20 @@
 # Meta Learning
 
 [**What is?**](https://www.automl.org/) **Automated Machine Learning provides methods and processes to make Machine Learning available for non-Machine Learning experts, to improve efficiency of Machine Learning and to accelerate research on Machine Learning.**\
-****
+
 
 **Personal note: automl algorithms in this field will bridge the gap and automate several key processes, but it will not allow a practitioner to do serious research or solve business or product problems easily. The importance of this field is to advance each subfield, whether HPO, NAS, etc. these selective novelties can help us solve specific issues, i.e, lets take HPO, we can use it to save time and money on redundant parameter searches, especially when it comes to resource heavy algorithms such as Deep learning (think GPU costs).**\
-****
+
 
 **Personal thoughts on optimizations: be advised that optimizing problems will not guarantee a good result, you may over fit your problem in ways you are not aware of, beyond traditional overfitting and better accuracy doesn't guarantee a better result (for example if your dataset is unbalanced, needs imputing, cleaning, etc.).** \
-****\
-****
+\
+
 
 **Always examine the data and results in order to see if they are correct.**\
-****
 
-[**Automl.org’s github - it has a backup for the following projects.**](https://github.com/automl)****\
-****
+
+[**Automl.org’s github - it has a backup for the following projects.**](https://github.com/automl)\
+
 
 [**Automl.org**](https://www.automl.org/) **is a joint effort between two universitie, freiburg and hannover, their website curates information regarding:**
 
@@ -32,10 +32,10 @@
 * **Critically analyze the results obtained.**
 
 **Historically, AFAIK AutoML’s birth started with several methods to optimize each one of the previous processes in ml. IINM,** [**weka’s paper (2012**](https://arxiv.org/abs/1208.3719)**) was the first step in aggregating these ideas into a first public working solution.**\
-****
+
 
 **The following is referenced from AutoML.org:**\
-****
+
 
 ### **ML Systems**
 
@@ -50,8 +50,8 @@
   * **+ algorithms selection and tuning**
   * **+ automatic documentation**
   * **+ ML explanations**\
-    ****\
-    ****
+    \
+
 
 ![](https://lh3.googleusercontent.com/duUZ\_u8kLJ9fhJ1AtGodADX6n3aV4CB9hsLhCV4yANEA0\_Rui8yQBAtBe\_DxHsJP0s-I8mCCRlyMgvZwJFkc0hy0TtejPLqq\_AYmOMXyE73xph8YhEjVQnYeR0lDqI0LTf5YnSOG)
 

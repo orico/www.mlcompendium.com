@@ -2,7 +2,7 @@
 
 ## **Articles**
 
-1. ****[Analytics Vidhya](https://medium.com/analytics-vidhya/fuzzy-name-matching-datasets-1ae28884f226) on fuzzy name matching datasets, by Zaki Jefferson
+1. [Analytics Vidhya](https://medium.com/analytics-vidhya/fuzzy-name-matching-datasets-1ae28884f226) on fuzzy name matching datasets, by Zaki Jefferson
 2. [Fuzzy matching people names](https://towardsdatascience.com/fuzzy-matching-people-names-6e738d6b8fe) by vadim markovtsev
 3. [Name Matching Across datasets](https://ai.nic.in/AI/NameMatchingCaseML) - POC by Centere of Excellence in AI National Informatics Centre
 4. [fuzzy name matching algorithms](https://towardsdatascience.com/python-tutorial-fuzzy-name-matching-algorithms-7a6f43322cc5) by felix kuestahler
