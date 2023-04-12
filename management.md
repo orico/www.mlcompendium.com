@@ -23,6 +23,7 @@
 2. [7 management styles and how to use them](https://www.breathehr.com/en-gb/blog/topic/business-leadership/best-management-styles-and-how-to-use-them)
 3. 7 leadership styles (similar to the above)
 4. [The secret sauce of DS management](https://www.youtube.com/watch?v=qO7sl8\_YtJM) by Shir Meir Lador
+5. rework by Google - [what makes a great manager](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/)
 
 ## Project Management
 
@@ -32,20 +33,21 @@
 
 ## Building Teams
 
-1. Conway's law "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations."
-2. [team topologies](https://teamtopologies.com/), [youtube](https://www.youtube.com/c/TeamTopologies/videos)
+1. rework by google - [understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)&#x20;
+2. Conway's law "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations."
+3. [team topologies](https://teamtopologies.com/), [youtube](https://www.youtube.com/c/TeamTopologies/videos)
    1. [key concepts](https://teamtopologies.com/key-concepts)&#x20;
    2. DS are "Complicated Subsystem team: Phd Level, great expertise, in depth knowledge.&#x20;
    3. feature teams are "Stream-aligned team"
    4. enabling teams help bridge the gap in knowledge for feature teams, such as architecture
    5. platform team - providing a platform to speed up feature teams.
-3. [team topologies article](https://www.scaledagileframework.com/organizing-agile-teams-and-arts-team-topologies-at-scale/) - A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge in order to understand and make changes to the subsystem. \[1]
-4. [atlassian ](https://www.atlassian.com/devops/frameworks/team-structure)- "it's important to understand that not every team shares the same goals, or will use the same practices and tools. Even the way a team is composed shouldn’t be standardized. Different teams require different structures, depending on the greater context of the company and its appetite for change. "
-5. [good article](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) that talks about conway's law and team topologies by mark mishaev
+4. [team topologies article](https://www.scaledagileframework.com/organizing-agile-teams-and-arts-team-topologies-at-scale/) - A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge in order to understand and make changes to the subsystem. \[1]
+5. [atlassian ](https://www.atlassian.com/devops/frameworks/team-structure)- "it's important to understand that not every team shares the same goals, or will use the same practices and tools. Even the way a team is composed shouldn’t be standardized. Different teams require different structures, depending on the greater context of the company and its appetite for change. "
+6. [good article](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) that talks about conway's law and team topologies by mark mishaev
    1.  Quote  "The goal of this team is to reduce the cognitive load of stream-aligned teams working on systems that include or use the complicated subsystem. The team handles the subsystem complexity via specific capabilities and expertise that are typically hard to find or grow.
 
        Examples of complicated subsystems might include face-recognition algorithms, machine learning approaches, real-time devices drivers, digital signal processing, or any other expertise-based capability that would be hard to embed directly within the stream-aligned team"
-6.  &#x20;[team patterns building an eng team](https://www.kennethlange.com/team-patterns-how-to-structure-an-engineering-team/) by Kenneth Lange - an alternative to team topologies?
+7.  &#x20;[team patterns building an eng team](https://www.kennethlange.com/team-patterns-how-to-structure-an-engineering-team/) by Kenneth Lange - an alternative to team topologies?
 
     "In my experience there are four general team patterns that most companies follow. Yes, they have tweaked them to fit their circumstances, but the overall idea behind the pattern remains the same:
 
@@ -53,7 +55,7 @@
     2. **Matrix Team:** The developers report to a Development Manager, but they are “lend out” to cross-functional product or project teams where they do their daily work.
     3. **Product Team:** The team is oriented around a product area, such as billing. It’s cross-functional, but all people on the team, regardless of their specialization, report to the same line manager.
     4. **Self-Managed Product Team:** The team is oriented around a product area. But the management of the team is divided into technical leadership, typically handled by an Engineering Lead on the team, and people management, typically handled by an Engineering Manager outside the team."
-7.  [another good article](https://betterprogramming.pub/your-team-structures-aint-working-let-s-apply-team-topologies-470e8d4f7fe5) by Ryan Dawson
+8.  [another good article](https://betterprogramming.pub/your-team-structures-aint-working-let-s-apply-team-topologies-470e8d4f7fe5) by Ryan Dawson
 
     > “Organizations not only need to strive for autonomous teams, they also need to continuously think about and evolve themselves in order to deliver value quickly to customers” — _Team Topologies_
 
@@ -90,6 +92,13 @@
 ## Working with partners
 
 ## Culture building
+
+## Psychological Safety
+
+1. (great) has a lot of tips on how to measure - [high performing teams need PS](https://www.fearlessculture.design/blog-posts/high-performing-teams-need-psychological-safety)
+2. [high performing teams need psychological safety](https://workplaceinsights.microsoft.com/productivity/high-performing-teams-need-psychological-safety-heres-how-to-create-it/) a summary by microsoft
+3. [five keys to successful google team](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/), 1st one is PS
+4.
 
 ## Settings standarts&#x20;
 
