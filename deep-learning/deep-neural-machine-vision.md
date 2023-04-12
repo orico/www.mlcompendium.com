@@ -3,6 +3,7 @@
 ### **TOOLS**
 
 1. [**Image deduplication**](https://github.com/idealo/imagededup)
+2. [Segment anything by Meta](https://segment-anything.com/demo)
 
 ### **SUPER RESOLUTION**
 
