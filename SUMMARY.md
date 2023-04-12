@@ -47,6 +47,7 @@
 * [Data & Model Tests](data-and-model-tests.md)
 * [Fairness, Accountability, and Transparency](fairness-accountability-and-transparency.md)
 * [Interpretable & Explainable AI (XAI)](interpretable-and-explainable-ai-xai.md)
+* [Federated Learning](validation-and-evaluation/federated-learning.md)
 
 ## Machine Learning
 
@@ -88,6 +89,10 @@
 * [Deep Neural Nets Models](deep-learning/deep-neural-nets.md)
 * [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
 * [Deep Neural Audio](deep-learning/deep-neural-audio.md)
+
+## Foundational Models
+
+* [Large Language Models (LLMs)](foundational-models/large-language-models-llms.md)
 
 ## Experimental Design
 
