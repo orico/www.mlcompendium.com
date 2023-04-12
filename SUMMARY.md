@@ -59,7 +59,7 @@
 * [Decision Trees](decision-trees.md)
 * [Active Learning Algorithms](active-learning-algorithms.md)
 * [Linear Separator Algorithms](linear-separator-algorithms.md)
-* [Regression](machine-learning/regression.md)
+* [Regression](types-of-machine-learning/regression.md)
 * [Ensembles](ensembles.md)
 * [Reinforcement Learning](incremental-learning-1.md)
 * [Incremental Learning](incremental-learning.md)
@@ -114,18 +114,20 @@
 * [Business](product/business.md)
 * [Marketting](product/marketting.md)
 
+## Business Domains
+
+* [Follow the regularized leader](business-domains/follow-the-regularized-leader.md)
+* [Growth](business-domains/growth.md)
+* [Root Cause Effects (RCE/RCA)](business-domains/root-cause-effects-rce-rca.md)
+* [Log Parsing / Templatization](business-domains/templatization.md)
+* [Fraud Detection](business-domains/fraud-detection.md)
+* [Life Time Value (LTV)](business-domains/life-time-value-ltv.md)
+* [Survival Analysis](business-domains/survival-analysis.md)
+* [Propaganda Detection](business-domains/propaganda-detection.md)
+* [NYC TAXI](business-domains/examples.md)
+
 ***
 
-* [Business Domains For Data Science](business-domains/README.md)
-  * [Follow the regularized leader](business-domains/follow-the-regularized-leader.md)
-  * [Growth](business-domains/growth.md)
-  * [Root Cause Effects (RCE/RCA)](business-domains/root-cause-effects-rce-rca.md)
-  * [Log Parsing / Templatization](business-domains/templatization.md)
-  * [Fraud Detection](business-domains/fraud-detection.md)
-  * [Life Time Value (LTV)](business-domains/life-time-value-ltv.md)
-  * [Survival Analysis](business-domains/survival-analysis.md)
-  * [Propaganda Detection](business-domains/propaganda-detection.md)
-  * [NYC TAXI](business-domains/examples.md)
 * [MLOps (www.OpsCompendium.com)](https://oricohen.gitbook.io/the-ops-compendium/mlops/mlops-interview-questions)
 * [DataOps (www.OpsCompendium.com)](https://oricohen.gitbook.io/the-ops-compendium/dataops/data-engineering)
 * [Humor](product/humor.md)
