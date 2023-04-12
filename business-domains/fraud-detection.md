@@ -7,6 +7,13 @@
 3.  [Fraud detection Objectives.](https://nethone.com/post/beginners-guide-to-machine-learning)
 
     ![](<../.gitbook/assets/image (36).png>)
+4. [awesome fraud papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) on github
+5. [credit card fraud using an autoencoder in keras](https://github.com/curiousily/Credit-Card-Fraud-Detection-using-Autoencoders-in-Keras/blob/master/fraud\_detection.ipynb)
+6. [graph fraud papers](https://github.com/safe-graph/graph-fraud-detection-papers)
+7. [Fraud using flink](https://github.com/afedulov/fraud-detection-demo), [docs](https://flink.apache.org/2020/01/15/advanced-flink-application-patterns-vol.1-case-study-of-a-fraud-detection-system/)
+8. [credit card fraud on kaggle](https://github.com/georgymh/ml-fraud-detection)
+9. [deep graph for fraud](https://github.com/safe-graph/DGFraud)
+10. [Transforming Financial Forecasting with Data Science and Machine Learning at Uber](https://www.uber.com/en-IL/blog/transforming-financial-forecasting-machine-learning/)
 
 Data sets
 
