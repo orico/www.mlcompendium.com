@@ -138,3 +138,11 @@
 2. [**Why is XGB faster than SK GBC** ](https://datascience.stackexchange.com/questions/10943/why-is-xgboost-so-much-faster-than-sklearn-gradientboostingclassifier)
 3. [**Good XGB vs GBC**](https://towardsdatascience.com/boosting-algorithm-xgboost-4d9ec0207d) **tutorial**
 4. [**XGB vs GBC**](https://stats.stackexchange.com/questions/282459/xgboost-vs-python-sklearn-gradient-boosted-trees)
+
+## CatBoost
+
+1. (great) [what is so special?](https://hanishrohit.medium.com/whats-so-special-about-catboost-335d64d754ae)
+2. [the fastest algo](https://medium.com/almabetter/catboost-the-fastest-algorithm-c21d44f8b990)
+3. [a new game in ML](https://affine.medium.com/catboost-a-new-game-of-machine-learning-72a7dcea0ac4)
+4. [use it here is why](https://towardsdatascience.com/you-should-use-catboost-heres-why-72f124dcdad7)
+
