@@ -18,6 +18,7 @@
 * [Data Science](data-science.md)
 * [Data Science Tools](data-science-tools.md)
 * [Management](management.md)
+* [Project & Program Management](foundation-knowledge/project-and-program-management.md)
 * [Data Science Management](data-science-management.md)
 * [Calculus](calculus.md)
 * [Probability & Statistics](probability-and-statistics.md)
