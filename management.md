@@ -24,10 +24,6 @@
 3. 7 leadership styles (similar to the above)
 4. [The secret sauce of DS management](https://www.youtube.com/watch?v=qO7sl8\_YtJM) by Shir Meir Lador
 
-## AGILE
-
-1. [Safe agile principles](https://scaledagileframework.com/safe-lean-agile-principles/)
-
 ## Project Management
 
 1. [Data-science? Agile? Cycles? My method for managing data-science projects in the Hi-tech industry](https://towardsdatascience.com/data-science-agile-cycles-my-method-for-managing-data-science-projects-in-the-hi-tech-industry-b289e8a72818), by Dr. Ori Cohen
@@ -89,6 +85,7 @@
    13. [balancing autonomy with accountability](https://www.scrum.org/resources/blog/balancing-autonomy-accountability) - edwin dando
 2. ["shape up"](https://basecamp.com/shapeup?ref=JeremiahLee) book (under 200)
 3. [SAFe](https://www.scaledagileframework.com/?ref=JeremiahLee) 5 - scaled agile framework
+4. [Safe agile principles](https://scaledagileframework.com/safe-lean-agile-principles/)
 
 ## Working with partners
 
