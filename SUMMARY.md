@@ -116,6 +116,7 @@
 * [Survival Analysis](business-domains/survival-analysis.md)
 * [Propaganda Detection](business-domains/propaganda-detection.md)
 * [NYC TAXI](business-domains/examples.md)
+* [Drug Discovery](business-domains/drug-discovery.md)
 
 ## Product Management
 
