@@ -98,7 +98,6 @@
 1. (great) has a lot of tips on how to measure - [high performing teams need PS](https://www.fearlessculture.design/blog-posts/high-performing-teams-need-psychological-safety)
 2. [high performing teams need psychological safety](https://workplaceinsights.microsoft.com/productivity/high-performing-teams-need-psychological-safety-heres-how-to-create-it/) a summary by microsoft
 3. [five keys to successful google team](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/), 1st one is PS
-4.
 
 ## Settings standarts&#x20;
 
