@@ -1,5 +1,7 @@
 # The Machine & Deep Learning Compendium
 
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 Hi! When I announced the Machine & Deep Learning Compendium, it was a personal list of resources curated in a private Google document, for my own education. That document is now retired in favor of this new interface. I decided to share it as an educational tool in order to allow people to learn and connect to all the great authors that I summarized, quoted, and referenced.
 
 **PLEASE NOTE:** I'm in the midst of restructuring the compendium. I'm taking on this huge effort because the compendium started as my personal list of resources for my own private use without any standardization and without the intention of opening it up for the public, in order to allow readers to easily find topics and for referenced authors to get support back from the community. If you feel like something should be changed, content-wise, please create a PR or contact me and we'll work together to make that happen. My intent is to support both the community and authors and to democratize education.

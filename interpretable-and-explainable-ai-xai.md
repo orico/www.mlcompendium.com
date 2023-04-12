@@ -20,22 +20,22 @@
 10. [Medium: the great debate](https://medium.com/swlh/the-great-ai-debate-interpretability-1d139167b55)\
 
 
-    <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 11. [Paper: pitfalls to avoid when interpreting ML models](https://arxiv.org/abs/2007.04131) “A growing number of techniques provide model interpretations, but can lead to wrong conclusions if applied incorrectly. We illustrate pitfalls of ML model interpretation such as bad model generalization, dependent features, feature interactions or unjustified causal interpretations. Our paper addresses ML practitioners by raising awareness of pitfalls and pointing out solutions for correct model interpretation, as well as ML researchers by discussing open issues for further research.” - mulner et al.\
 
 
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 12. \*\*\* [whitening a black box.](https://francescopochetti.com/whitening-a-black-box-how-to-interpret-a-ml-model/) This is very good, includes eli5, lime, shap, many others.
 13. Book: [exploratory model analysis](https://pbiecek.github.io/ema/)&#x20;
 14. [Alibi-explain](https://github.com/SeldonIO/alibi) - White-box and black-box ML model explanation library. [Alibi](https://docs.seldon.io/projects/alibi) is an open source Python library aimed at machine learning model inspection and interpretation. The focus of the library is to provide high-quality implementations of black-box, white-box, local and global explanation methods for classification and regression models.\
 
 
-    <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 15. [Hands on explainable ai](https://www.youtube.com/watch?v=1mNhPoab9JI\&fbclid=IwAR1cV\_\_3zBClI-mq3XpJfgn691xB7EM5gdZpejJ86wnrsVoiGmQFY9P5Uho) youtube, [git](https://github.com/PacktPublishing/Hands-On-Explainable-AI-XAI-with-Python?fbclid=IwAR012IQFa4ce3camoD13iIRyCfQlWPi3HwQs8VDjIGgFnGdcm3xkq7zir-U)
 16. [Explainable methods](https://towardsdatascience.com/interpretable-machine-learning-with-xgboost-9ec80d148d27) are not always consistent and do not agree with each other, this article has a make-sense explanation and flow for using shap and its many plots.\
 
 
-    <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p><a href="https://github.com/raghakot/keras-vis">Keras-vis</a> for cnns, 3 methods, activation maximization, saliency and class activation maps</p></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption><p><a href="https://github.com/raghakot/keras-vis">Keras-vis</a> for cnns, 3 methods, activation maximization, saliency and class activation maps</p></figcaption></figure>
 17. [The notebook!](https://github.com/FraPochetti/KagglePlaygrounds/blob/master/InterpretableML.ipynb) [Blog](https://francescopochetti.com/whitening-a-black-box-how-to-interpret-a-ml-model/)
 18. [More resources!](https://docs.google.com/spreadsheets/d/1uQy6a3BfxOXI8Nh3ECH0bqqSc95zpy4eIp\_9JAMBkKg/edit#gid=0)
 19. [Visualizing the impact of feature attribution baseline](https://distill.pub/2020/attribution-baselines/) - Path attribution methods are a gradient-based way of explaining deep models. These methods require choosing a hyperparameter known as the baseline input. What does this hyperparameter mean, and how important is it? In this article, we investigate these questions using image classification networks as a case study. We discuss several different ways to choose a baseline input and the assumptions that are implicit in each baseline. Although we focus here on path attribution methods, our discussion of baselines is closely connected with the concept of missingness in the feature space - a concept that is critical to interpretability research.
@@ -101,7 +101,7 @@
     4.  How to calculate Shap values per class based on this graph\
 
 
-        <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+        <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 15. [A thorough post about the many ways of explaining a model, from regression, to bayes, to trees, forests, lime, beta, feature selection/elimination](https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html#interpretable-models)
 16. [Trusting models](https://arxiv.org/pdf/1602.04938.pdf)
 17. [Interpret using uncertainty](https://becominghuman.ai/using-uncertainty-to-interpret-your-model-67a97c28fea5)

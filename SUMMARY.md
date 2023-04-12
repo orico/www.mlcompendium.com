@@ -5,7 +5,7 @@
 
 ## Types Of Machine Learning
 
-* [Overview](types-of-machine-learning/types-of-machine-learning.md)
+* [Overview](types-of-machine-learning/README.md)
 * [Model Families](types-of-machine-learning/model-families.md)
 * [Weakly Supervised](types-of-machine-learning/weakly-supervised.md)
 * [Semi Supervised](types-of-machine-learning/semi-supervised.md)
@@ -16,64 +16,61 @@
 
 ## Foundation Knowledge
 
-* [Data Science](foundation-knowledge/data-science.md)
-* [Data Science Tools](foundation-knowledge/data-science-tools.md)
-* [Management](foundation-knowledge/management.md)
-* [Data Science Management](foundation-knowledge/data-science-management.md)
-* [Calculus](foundation-knowledge/calculus.md)
-* [Probability & Statistics](foundation-knowledge/probability-and-statistics.md)
-* [Probability](foundation-knowledge/probability.md)
-* [Feature Types](foundation-knowledge/feature-types.md)
-* [Multi Label Classification](foundation-knowledge/multi-label-classification.md)
-* [Distribution](foundation-knowledge/distribution.md)
-* [Distribution Transformation](foundation-knowledge/distribution-transformation.md)
-* [Normalization & Scaling](foundation-knowledge/normalization-and-scaling.md)
-* [Regularization](foundation-knowledge/regularization.md)
-* [Information Theory](foundation-knowledge/information-theory.md)
-* [Game Theory](foundation-knowledge/game-theory.md)
+* [Data Science](data-science.md)
+* [Data Science Tools](data-science-tools.md)
+* [Management](management.md)
+* [Data Science Management](data-science-management.md)
+* [Calculus](calculus.md)
+* [Probability & Statistics](probability-and-statistics.md)
+* [Probability](probability.md)
+* [Feature Types](feature-types.md)
+* [Multi Label Classification](multi-label-classification.md)
+* [Distribution](distribution.md)
+* [Distribution Transformation](distribution-transformation.md)
+* [Normalization & Scaling](normalization-and-scaling.md)
+* [Regularization](regularization.md)
+* [Information Theory](information-theory.md)
+* [Game Theory](game-theory.md)
+* [Multi CPU Processing](foundation-knowledge/multi-cpu-processing.md)
+* [Benchmarking](foundation-knowledge/benchmarking.md)
 
 ## Validation & Evaluation
 
-* [Features](validation-and-evaluation/features.md)
-* [Evaluation Metrics](validation-and-evaluation/evaluation-metrics.md)
-* [Datasets](validation-and-evaluation/datasets.md)
-* [Dataset Confidence](validation-and-evaluation/dataset-confidence.md)
-* [Hyper Parameter Optimization](validation-and-evaluation/hyper-parameter-optimization.md)
-* [Training Strategies](validation-and-evaluation/training-strategies.md)
-* [Calibration](validation-and-evaluation/calibration.md)
-* [Datasets Reliability & Correctness](validation-and-evaluation/validation.md)
-* [Data & Model Tests](validation-and-evaluation/data-and-model-tests.md)
-* [Fairness, Accountability, and Transparency](validation-and-evaluation/fairness-accountability-and-transparency.md)
-* [Interpretable & Explainable AI (XAI)](validation-and-evaluation/interpretable-and-explainable-ai-xai.md)
-
-***
-
-* [Meta Learning](meta-learning.md)
-* [Benchmarking](benchmarking.md)
-* [Multi CPU Processing](multi-cpu-processing.md)
-* [Algorithms 101](algorithms-101.md)
+* [Features](features.md)
+* [Evaluation Metrics](evaluation-metrics.md)
+* [Datasets](datasets.md)
+* [Dataset Confidence](dataset-confidence.md)
+* [Hyper Parameter Optimization](hyper-parameter-optimization.md)
+* [Training Strategies](training-strategies.md)
+* [Calibration](calibration.md)
+* [Datasets Reliability & Correctness](validation.md)
+* [Data & Model Tests](data-and-model-tests.md)
+* [Fairness, Accountability, and Transparency](fairness-accountability-and-transparency.md)
+* [Interpretable & Explainable AI (XAI)](interpretable-and-explainable-ai-xai.md)
 
 ## Machine Learning
 
-* [Rules, Probabilistic, Regression](machine-learning/classic-machine-learning.md)
-* [Label Algorithms](machine-learning/label-algorithms.md)
-* [Clustering Algorithms](machine-learning/clustering-algorithms.md)
-* [Anomaly Detection](machine-learning/anomaly-detection.md)
-* [Decision Trees](machine-learning/decision-trees.md)
-* [Active Learning Algorithms](machine-learning/active-learning-algorithms.md)
-* [Linear Separator Algorithms](machine-learning/linear-separator-algorithms.md)
-* [Ensembles](machine-learning/ensembles.md)
-* [Reinforcement Learning](machine-learning/incremental-learning-1.md)
-* [Incremental Learning](machine-learning/incremental-learning.md)
-* [Dimensionality Reduction Methods](machine-learning/dimensionality-reduction-methods.md)
-* [Genetic Algorithms & Genetic Programming](machine-learning/genetic-algorithms-and-genetic-programming.md)
-* [Learning Classifier Systems](machine-learning/learning-classifier-systems.md)
-* [Recommender Systems](machine-learning/recommender-systems.md)
-* [Timeseries](machine-learning/timeseries.md)
-* [Fourier Transform](machine-learning/fourier-transform.md)
-* [Digital Signal Processing (DSP)](machine-learning/digital-signal-processing-dsp.md)
-* [Propensity Score Matching](machine-learning/propensity-score-matching.md)
-* [Diffusion models](machine-learning/diffusion-models.md)
+* [Algorithms 101](machine-learning/algorithms-101.md)
+* [Meta Learning (AutoML)](machine-learning/meta-learning.md)
+* [Rules, Probabilistic, Regression](classic-machine-learning.md)
+* [Label Algorithms](label-algorithms.md)
+* [Clustering Algorithms](clustering-algorithms.md)
+* [Anomaly Detection](anomaly-detection.md)
+* [Decision Trees](decision-trees.md)
+* [Active Learning Algorithms](active-learning-algorithms.md)
+* [Linear Separator Algorithms](linear-separator-algorithms.md)
+* [Ensembles](ensembles.md)
+* [Reinforcement Learning](incremental-learning-1.md)
+* [Incremental Learning](incremental-learning.md)
+* [Dimensionality Reduction Methods](dimensionality-reduction-methods.md)
+* [Genetic Algorithms & Genetic Programming](genetic-algorithms-and-genetic-programming.md)
+* [Learning Classifier Systems](learning-classifier-systems.md)
+* [Recommender Systems](recommender-systems.md)
+* [Timeseries](timeseries.md)
+* [Fourier Transform](fourier-transform.md)
+* [Digital Signal Processing (DSP)](digital-signal-processing-dsp.md)
+* [Propensity Score Matching](propensity-score-matching.md)
+* [Diffusion models](diffusion-models.md)
 
 ## Natural Language Processing
 
@@ -83,8 +80,8 @@
 
 ## Classical Graph Models
 
-* [Graph Theory](classical-graph-models/graph-theory.md)
-* [Social Network Analysis](classical-graph-models/social-network-analysis.md)
+* [Graph Theory](graphs/graph-theory.md)
+* [Social Network Analysis](graphs/social-network-analysis.md)
 
 ## Deep Learning
 
@@ -103,14 +100,14 @@
 
 ## Product Management
 
-* [Expanding Your Data Science Skills](product-management/expanding-your-data-science-skills.md)
-* [Product Vision & Strategy](product-management/product-vision-and-strategy.md)
-* [Product / Program Managers](product-management/product-managers.md)
-* [Product Management Resources](product-management/product-management-resources.md)
-* [Product Tools](product-management/product-tools.md)
-* [User Experience Design (UX)](product-management/user-experience-design-ux.md)
-* [Business](product-management/business.md)
-* [Marketting](product-management/marketting.md)
+* [Expanding Your Data Science Skills](product/expanding-your-data-science-skills.md)
+* [Product Vision & Strategy](product/product-vision-and-strategy.md)
+* [Product / Program Managers](product/product-managers.md)
+* [Product Management Resources](product/product-management-resources.md)
+* [Product Tools](product/product-tools.md)
+* [User Experience Design (UX)](product/user-experience-design-ux.md)
+* [Business](product/business.md)
+* [Marketting](product/marketting.md)
 
 ***
 
@@ -126,4 +123,4 @@
   * [NYC TAXI](business-domains/examples.md)
 * [MLOps (www.OpsCompendium.com)](https://oricohen.gitbook.io/the-ops-compendium/mlops/mlops-interview-questions)
 * [DataOps (www.OpsCompendium.com)](https://oricohen.gitbook.io/the-ops-compendium/dataops/data-engineering)
-* [Humor](humor.md)
+* [Humor](product/humor.md)
