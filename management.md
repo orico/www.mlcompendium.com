@@ -41,13 +41,16 @@
    3. feature teams are "Stream-aligned team"
    4. enabling teams help bridge the gap in knowledge for feature teams, such as architecture
    5. platform team - providing a platform to speed up feature teams.
-4. [team topologies article](https://www.scaledagileframework.com/organizing-agile-teams-and-arts-team-topologies-at-scale/) - A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge in order to understand and make changes to the subsystem. \[1]
-5. [atlassian ](https://www.atlassian.com/devops/frameworks/team-structure)- "it's important to understand that not every team shares the same goals, or will use the same practices and tools. Even the way a team is composed shouldn’t be standardized. Different teams require different structures, depending on the greater context of the company and its appetite for change. "
-6. [good article](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) that talks about conway's law and team topologies by mark mishaev
+   6. [team topologies article](https://www.scaledagileframework.com/organizing-agile-teams-and-arts-team-topologies-at-scale/) - A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge in order to understand and make changes to the subsystem. \[1]
+   7. [team topology for ML](https://towardsdatascience.com/team-topology-for-machine-learning-45bddba626e3)
+   8. [team topologies for data engineering](https://medium.com/data-arena/team-topologies-for-data-engineering-teams-a15c5eb3849c)
+   9. [towards data mesh: data domains and team topologies](https://francois-nguyen.blog/2021/03/07/towards-a-data-mesh-part-1-data-domains-and-teams-topologies/)
+4. [atlassian ](https://www.atlassian.com/devops/frameworks/team-structure)- "it's important to understand that not every team shares the same goals, or will use the same practices and tools. Even the way a team is composed shouldn’t be standardized. Different teams require different structures, depending on the greater context of the company and its appetite for change. "
+5. [good article](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) that talks about conway's law and team topologies by mark mishaev
    1.  Quote  "The goal of this team is to reduce the cognitive load of stream-aligned teams working on systems that include or use the complicated subsystem. The team handles the subsystem complexity via specific capabilities and expertise that are typically hard to find or grow.
 
        Examples of complicated subsystems might include face-recognition algorithms, machine learning approaches, real-time devices drivers, digital signal processing, or any other expertise-based capability that would be hard to embed directly within the stream-aligned team"
-7.  &#x20;[team patterns building an eng team](https://www.kennethlange.com/team-patterns-how-to-structure-an-engineering-team/) by Kenneth Lange - an alternative to team topologies?
+6.  &#x20;[team patterns building an eng team](https://www.kennethlange.com/team-patterns-how-to-structure-an-engineering-team/) by Kenneth Lange - an alternative to team topologies?
 
     "In my experience there are four general team patterns that most companies follow. Yes, they have tweaked them to fit their circumstances, but the overall idea behind the pattern remains the same:
 
@@ -55,7 +58,7 @@
     2. **Matrix Team:** The developers report to a Development Manager, but they are “lend out” to cross-functional product or project teams where they do their daily work.
     3. **Product Team:** The team is oriented around a product area, such as billing. It’s cross-functional, but all people on the team, regardless of their specialization, report to the same line manager.
     4. **Self-Managed Product Team:** The team is oriented around a product area. But the management of the team is divided into technical leadership, typically handled by an Engineering Lead on the team, and people management, typically handled by an Engineering Manager outside the team."
-8.  [another good article](https://betterprogramming.pub/your-team-structures-aint-working-let-s-apply-team-topologies-470e8d4f7fe5) by Ryan Dawson
+7.  [another good article](https://betterprogramming.pub/your-team-structures-aint-working-let-s-apply-team-topologies-470e8d4f7fe5) by Ryan Dawson
 
     > “Organizations not only need to strive for autonomous teams, they also need to continuously think about and evolve themselves in order to deliver value quickly to customers” — _Team Topologies_
 
