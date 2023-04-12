@@ -40,3 +40,5 @@
 ## A/B Testing Tools
 
 1. [R-shiny Tool](https://towardsdatascience.com/cuped-r-shiny-tool-7a4869d77f0a)
+2. [Wasabi open source platform](https://www.intuit.com/blog/innovative-thinking/meet-wasabi-an-open-source-ab-testing-platform/), [Git](https://github.com/intuit/wasabi)
+3. [Optimizely](https://www.optimizely.com/)

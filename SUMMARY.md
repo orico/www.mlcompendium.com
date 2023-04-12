@@ -117,6 +117,8 @@
 * [Propaganda Detection](business-domains/propaganda-detection.md)
 * [NYC TAXI](business-domains/examples.md)
 * [Drug Discovery](business-domains/drug-discovery.md)
+* [Intent Recognition](business-domains/intent-recognition.md)
+* [Churn Prediction](business-domains/churn-prediction.md)
 
 ## Product Management
 
