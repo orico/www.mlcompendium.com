@@ -90,6 +90,7 @@
 * [Deep Neural Nets Models](deep-learning/deep-neural-nets.md)
 * [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
 * [Deep Neural Audio](deep-learning/deep-neural-audio.md)
+* [Deep Neural Tabular](deep-learning/deep-neural-tabular.md)
 
 ## Foundational Models
 
