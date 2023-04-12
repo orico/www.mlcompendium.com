@@ -786,9 +786,10 @@
 
 #### **TOP2VEC**
 
-1. [**Git**](https://github.com/ddangelov/Top2Vec)**,** [**paper**](https://arxiv.org/pdf/2008.09470.pdf)
-2. **Topic modeling with distillibert** [**on medium**](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6)**,** [**bertTopic**](https://towardsdatascience.com/interactive-topic-modeling-with-bertopic-1ea55e7d73d8)**!, c-tfidf, umap, hdbscan, merging similar topics, visualization,** [**berTopic (same method as the above)**](https://github.com/MaartenGr/BERTopic)
-3. [**Medium with the same general method**](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6)
+1. [Git](https://github.com/ddangelov/Top2Vec), [paper](https://arxiv.org/pdf/2008.09470.pdf)
+2. Topic modeling with distillibert [on medium](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6), [bertTopic](https://towardsdatascience.com/interactive-topic-modeling-with-bertopic-1ea55e7d73d8)!, c-tfidf, umap, hdbscan, merging similar topics, visualization, [berTopic (same method as the above)](https://github.com/MaartenGr/BERTopic)
+3. [Medium with the same general method](https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6)
+4. [new way of modeling topics](https://towardsdatascience.com/top2vec-new-way-of-topic-modelling-bea165eeac4a)
 
 ### **NAMED ENTITY RECOGNITION (NER)**
 
