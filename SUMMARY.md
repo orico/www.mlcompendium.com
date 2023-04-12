@@ -23,6 +23,7 @@
 * [Calculus](calculus.md)
 * [Probability & Statistics](probability-and-statistics.md)
 * [Probability](probability.md)
+* [Hypothesis Testing](foundation-knowledge/hypothesis-testing.md)
 * [Feature Types](feature-types.md)
 * [Multi Label Classification](multi-label-classification.md)
 * [Distribution](distribution.md)

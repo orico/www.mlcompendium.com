@@ -64,6 +64,8 @@
 
 \[1] Book: Skelton, Matthew, and Manuel Pais. Team Topologies: Organizing Business and Technology Teams for Fast Flow. IT Revolution Press, 2019.
 
+8. [Full cycle DS](https://towardsdatascience.com/fcds-b2d2e6b08d34)
+
 ## Scaling Agile - Agile Approaches
 
 1. The spotify "model" - squads tribes chapters guilds&#x20;
