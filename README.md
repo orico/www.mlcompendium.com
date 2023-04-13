@@ -1,6 +1,6 @@
 # The Machine & Deep Learning Compendium
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Hi! When I created the Machine & Deep Learning Compendium, it was a personal list of resources curated in a private Google document, for my own education. That document is now retired in favor of this new interface. I decided to share it as an educational tool in order to allow people to learn and connect to all the great authors that I summarized, quoted, and referenced.
 
