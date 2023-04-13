@@ -1,8 +1,18 @@
 # Large Language Models (LLMs)
 
-## Articles
+Articles
 
 1. [GPT4 can improve itself](https://www.youtube.com/watch?v=5SgJKZLBrmg)
+2. [Lil Went - Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
+3. [Chip Huyen - Building LLM applicaations for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
+
+## Papers
+
+1. [Chain Of Thought](https://arxiv.org/pdf/2201.11903.pdf) Prompting Elicits Reasoning in Large Language Models - COT is a series of intermediate reasoning steps that significantly improves the ability of large language models to perform complex reasoning, by Jason Wei Xuezhi Wang Dale Schuurmans Maarten Bosma Brian Ichter Fei Xia Ed H. Chi Quoc V. Le Denny Zhou Google Research, Brain Team.
+
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>COT, Google brain.</p></figcaption></figure>
+
+2.
 
 ## Models
 
