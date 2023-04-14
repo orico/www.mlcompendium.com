@@ -16,3 +16,8 @@
 
 1. [**A review paper about RL in DL**](https://arxiv.org/pdf/1701.07274.pdf)
 2. [deep Q-learning](https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/)\
+
+
+## RLHF
+
+1. [illustrated RLHF by Huggingface](https://huggingface.co/blog/rlhf)

@@ -1,14 +1,23 @@
 # Evaluation Metrics
 
-### **A metric learning reality check**
+## **A metric learning reality check**
 
 1. [**Medium**](https://medium.com/@tkm45/updates-to-a-metric-learning-reality-check-730b6914dfe7)
 2. [**Git**](https://github.com/KevinMusgrave/pytorch-metric-learning?fbclid=IwAR3PmPTDgYFok4p095WmkRWLfWhixyjFXkZgFJzeYXs5Y92pofoNZL\_lGTg)
 3. [**Website**](https://kevinmusgrave.github.io/powerful-benchmarker/papers/mlrc/?fbclid=IwAR3jK3-qFphFsO7ocmjeN-zPLkcaQkTAcC78cFUNFVe1BgXzM-iE5PLh3bU)
 
-### **SUPERVISED**
+## **SUPERVISED**
 
-#### **Precision \ Recall \ ROC \ AUC**
+### Accuracy
+
+1. accuracy&#x20;
+
+### Perplexity
+
+1. [perplexity and accuracy in classification](https://medium.com/unpackai/perplexity-and-accuracy-in-classification-114b57bd820d)
+2.
+
+### **Precision \ Recall \ ROC \ AUC**
 
 &#x20;**-** [**Performance Measures**](http://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)**:**
 
