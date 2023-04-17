@@ -97,6 +97,7 @@
 
 * [Prompt](foundational-models/prompt.md)
 * [Large Language Models (LLMs)](foundational-models/large-language-models-llms.md)
+* [Decoding Algorithms For NLP](foundational-models/decoding-algorithms-for-nlp.md)
 * [GPT](foundational-models/gpt.md)
 * [Mix N Match](foundational-models/mix-n-match.md)
 
