@@ -89,13 +89,26 @@
 
 ## Natural Language Processing
 
-* [NLP Models](natural-language-processing/nlp.md)
-* [Annotation & Disagreement](natural-language-processing/annotation-and-disagreement.md)
+* [A Reality Check](natural-language-processing/a-reality-check.md)
+* [NLP Tools](natural-language-processing/nlp.md)
 * [Foundation NLP](natural-language-processing/foundation-nlp.md)
-* [Decoding Algorithms For NLP](natural-language-processing/decoding-algorithms-for-nlp.md)
-* [Topics Modeling](natural-language-processing/topics-modeling.md)
 * [Name Matching](natural-language-processing/name-matching.md)
 * [String Matching](natural-language-processing/string-matching.md)
+* [TF-IDF](natural-language-processing/tf-idf.md)
+* [Language Detection Identification Generation (NLD, NLI, NLG)](natural-language-processing/language-detection-identification-generation-nld-nli-nlg.md)
+* [Topics Modeling](natural-language-processing/topics-modeling.md)
+* [Named Entity Recognition (NER)](natural-language-processing/named-entity-recognition-ner.md)
+* [SEARCH](natural-language-processing/search.md)
+* [Neural NLP](natural-language-processing/neural-nlp.md)
+* [Decoding Algorithms For NLP](natural-language-processing/decoding-algorithms-for-nlp.md)
+* [Multi Language](natural-language-processing/multi-language.md)
+* [Augmentation](natural-language-processing/augmentation.md)
+* [Knowledge Graphs](natural-language-processing/knowledge-graphs.md)
+* [Annotation & Disagreement](natural-language-processing/annotation-and-disagreement.md)
+* [Sentiment Analysis](natural-language-processing/sentiment-analysis.md)
+* [Question Answering](natural-language-processing/question-answering.md)
+* [Summarization](natural-language-processing/summarization.md)
+* [Chat Bots](natural-language-processing/chat-bots.md)
 
 ## Foundational Models
 
