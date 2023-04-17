@@ -91,6 +91,7 @@
 
 * [NLP Models](natural-language-processing/nlp.md)
 * [Decoding Algorithms For NLP](natural-language-processing/decoding-algorithms-for-nlp.md)
+* [Topics Modeling](natural-language-processing/topics-modeling.md)
 * [Name Matching](natural-language-processing/name-matching.md)
 * [String Matching](natural-language-processing/string-matching.md)
 
