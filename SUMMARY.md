@@ -90,6 +90,8 @@
 ## Natural Language Processing
 
 * [NLP Models](natural-language-processing/nlp.md)
+* [Annotation & Disagreement](natural-language-processing/annotation-and-disagreement.md)
+* [Foundation NLP](natural-language-processing/foundation-nlp.md)
 * [Decoding Algorithms For NLP](natural-language-processing/decoding-algorithms-for-nlp.md)
 * [Topics Modeling](natural-language-processing/topics-modeling.md)
 * [Name Matching](natural-language-processing/name-matching.md)
