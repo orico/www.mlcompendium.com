@@ -75,12 +75,6 @@
 * [Propensity Score Matching](propensity-score-matching.md)
 * [Diffusion models](diffusion-models.md)
 
-## Natural Language Processing
-
-* [NLP Models](natural-language-processing/nlp.md)
-* [Name Matching](natural-language-processing/name-matching.md)
-* [String Matching](natural-language-processing/string-matching.md)
-
 ## Classical Graph Models
 
 * [Graph Theory](graphs/graph-theory.md)
@@ -93,11 +87,17 @@
 * [Deep Neural Audio](deep-learning/deep-neural-audio.md)
 * [Deep Neural Tabular](deep-learning/deep-neural-tabular.md)
 
+## Natural Language Processing
+
+* [NLP Models](natural-language-processing/nlp.md)
+* [Decoding Algorithms For NLP](natural-language-processing/decoding-algorithms-for-nlp.md)
+* [Name Matching](natural-language-processing/name-matching.md)
+* [String Matching](natural-language-processing/string-matching.md)
+
 ## Foundational Models
 
 * [Prompt](foundational-models/prompt.md)
 * [Large Language Models (LLMs)](foundational-models/large-language-models-llms.md)
-* [Decoding Algorithms For NLP](foundational-models/decoding-algorithms-for-nlp.md)
 * [GPT](foundational-models/gpt.md)
 * [Mix N Match](foundational-models/mix-n-match.md)
 
