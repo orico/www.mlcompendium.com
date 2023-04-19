@@ -82,7 +82,12 @@
 
 ## Deep Learning
 
-* [Deep Neural Nets Models](deep-learning/deep-neural-nets.md)
+* [Deep Neural Nets Basics](deep-learning/deep-neural-nets.md)
+* [Deep Neural Frameworks](deep-learning/deep-neural-frameworks.md)
+* [Embedding](deep-learning/embedding.md)
+* [Deep Learning Models](deep-learning/deep-learning-models.md)
+* [Deep Network Optimization](deep-learning/deep-network-optimization.md)
+* [Attention](deep-learning/attention.md)
 * [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
 * [Deep Neural Audio](deep-learning/deep-neural-audio.md)
 * [Deep Neural Tabular](deep-learning/deep-neural-tabular.md)
