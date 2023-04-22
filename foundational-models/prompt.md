@@ -14,7 +14,8 @@
 
 ### Prompt Tuning
 
-1. [The power of scale for parameter efficient prompt tuning](https://arxiv.org/abs/2104.08691) **-** it becomes more competitive at scale.
+1. [The power of scale for parameter efficient prompt tuning](https://arxiv.org/abs/2104.08691) **-** it becomes more competitive at scale.&#x20;
+2. [Guiding Frozen Language Models with Learned Soft Prompts](https://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html), [tweet](https://twitter.com/GoogleAI/status/1491915977138720770)
 
 ### Chain Of Thought
 
