@@ -105,6 +105,7 @@
 * [Named Entity Recognition (NER)](natural-language-processing/named-entity-recognition-ner.md)
 * [SEARCH](natural-language-processing/search.md)
 * [Neural NLP](natural-language-processing/neural-nlp.md)
+* [Tokenization](natural-language-processing/tokenization.md)
 * [Decoding Algorithms For NLP](natural-language-processing/decoding-algorithms-for-nlp.md)
 * [Multi Language](natural-language-processing/multi-language.md)
 * [Augmentation](natural-language-processing/augmentation.md)
@@ -117,6 +118,7 @@
 
 ## Foundational Models
 
+* [Methods](foundational-models/methods.md)
 * [Prompt](foundational-models/prompt.md)
 * [Large Language Models (LLMs)](foundational-models/large-language-models-llms.md)
 * [Vision](foundational-models/vision.md)
