@@ -19,6 +19,9 @@
    2. [Version 2.0](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html), [Huggingface](https://huggingface.co/databricks/dolly-v2-12b)
 2. [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
 3. [Bard](https://bard.google.com/)
+4. [StabilityLM](https://github.com/Stability-AI/StableLM)
+   1. Vicuna
+   2. LLaMA
 
 ## Datasets
 
@@ -35,4 +38,5 @@
    * Document Loaders
    * Indexes
 2. [ReAct & LangChain](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
+3. [LangFlow](https://github.com/logspace-ai/langflow), [Medium](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24), [HuggingFace](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24) - is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows.
 
