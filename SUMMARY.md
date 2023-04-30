@@ -119,6 +119,8 @@
 ## Foundational Models
 
 * [Methods](foundational-models/methods.md)
+* [Generative AI](foundational-models/generative-ai.md)
+* [Speech](foundational-models/speech.md)
 * [Prompt](foundational-models/prompt.md)
 * [Large Language Models (LLMs)](foundational-models/large-language-models-llms.md)
 * [Vision](foundational-models/vision.md)

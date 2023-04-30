@@ -329,23 +329,19 @@
 
 ## **ACTIVATION FUNCTIONS**
 
-**(**[**a bunch of observations, seems like a personal list**](http://sentiment-mining.blogspot.co.il/2015/08/the-difference-of-activation-function.html)**) -**
-
-* **Output layer - linear for regression, softmax for classification**
-* **Hidden layers - hyperbolic tangent for shallow networks (less than 3 hidden layers), and ReLU for deep networks**
-
-**ReLU - The purpose of ReLU is to introduce non-linearity, since most of the real-world data we would want our network to learn would be nonlinear (e.g. convolution is a linear operation – element wise matrix multiplication and addition, so we account for nonlinearity by introducing a nonlinear function like ReLU, e.g** [**here**](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) **- search for ReLU).**
-
-* **Relu is quite resistant to vanishing gradient & allows for deactivating neurons and for sparsity.**
-* **Other nonlinear functions such as tanh or sigmoid can also be used instead of ReLU, but ReLU has been found to perform better in most situations.**
-* [**Visual + description of activation functions**](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
-* [**A very good explanation + figures about activations functions**](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
-
-[**Selu**](https://towardsdatascience.com/selu-make-fnns-great-again-snn-8d61526802a9) **- better than RELU? Possibly.**
-
-[**Mish**](https://github.com/digantamisra98/Mish)**: A Self Regularized Non-Monotonic Neural Activation Function,** [**yam peleg’s code**](https://gist.github.com/ypeleg/3af35d07d7f659f387952c9843849772?fbclid=IwAR2x\_Hzlg79\_mo\_zQMJGFbQWORbpdydnllnHoA\_RmUlCLpqKdGwClBuJy8g)
-
-[**Mish, Medium, Keras Code, with benchmarks, computationally expensive.**](https://towardsdatascience.com/mish-8283934a72df)
+1. [**a bunch of observations, seems like a personal list**](http://sentiment-mining.blogspot.co.il/2015/08/the-difference-of-activation-function.html) **-**
+   1. **Output layer - linear for regression, softmax for classification**
+   2. **Hidden layers - hyperbolic tangent for shallow networks (less than 3 hidden layers), and ReLU for deep networks**
+2. **ReLU - The purpose of ReLU is to introduce non-linearity, since most of the real-world data we would want our network to learn would be nonlinear (e.g. convolution is a linear operation – element wise matrix multiplication and addition, so we account for nonlinearity by introducing a nonlinear function like ReLU, e.g** [**here**](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) **- search for ReLU).**
+   1. **Relu is quite resistant to vanishing gradient & allows for deactivating neurons and for sparsity.**
+   2. **Other nonlinear functions such as tanh or sigmoid can also be used instead of ReLU, but ReLU has been found to perform better in most situations.**
+3. [**Visual + description of activation functions**](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
+4. [**A very good explanation + figures about activations functions**](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
+5. [**Selu**](https://towardsdatascience.com/selu-make-fnns-great-again-snn-8d61526802a9) **- better than RELU? Possibly.**
+6. [**Mish**](https://github.com/digantamisra98/Mish)**: A Self Regularized Non-Monotonic Neural Activation Function,** [**yam peleg’s code**](https://gist.github.com/ypeleg/3af35d07d7f659f387952c9843849772?fbclid=IwAR2x\_Hzlg79\_mo\_zQMJGFbQWORbpdydnllnHoA\_RmUlCLpqKdGwClBuJy8g)
+7. [**Mish, Medium, Keras Code, with benchmarks, computationally expensive.**](https://towardsdatascience.com/mish-8283934a72df)
+8. [Gelu](https://paperswithcode.com/method/gelu) (Used by OpenAI
+9. [Deep Learning 101: Transformer Activation Functions Explainer - Sigmoid, ReLU, GELU, Swish](https://www.saltdatalabs.com/blog/deep-learning-101-transformer-activation-functions-explainer-relu-leaky-relu-gelu-elu-selu-softmax-and-more)
 
 ## **OPTIMIZERS**
 
