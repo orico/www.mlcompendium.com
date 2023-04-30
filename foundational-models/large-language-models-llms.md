@@ -6,6 +6,7 @@
 2. [Lil Weng - Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
 3. [Chip Huyen - Building LLM applicaations for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
 4. [How to generate text using different decoding methods for language generation with transformers](https://huggingface.co/blog/how-to-generate)
+5. (great) [a gentle intro to LLMs and Langchain](https://towardsdatascience.com/a-gentle-intro-to-chaining-llms-agents-and-utils-via-langchain-16cd385fca81)
 
 ## Papers
 
@@ -33,4 +34,5 @@
    * Memory
    * Document Loaders
    * Indexes
+2. [ReAct & LangChain](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
 

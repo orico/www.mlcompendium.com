@@ -3,6 +3,7 @@
 ## Articles
 
 1. [Lilian-Weng on prompt engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - this is a very thorough review of the topic
+2. [Awesome Prompts on github](https://github.com/f/awesome-chatgpt-prompts)
 
 ## Papers
 

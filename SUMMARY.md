@@ -121,6 +121,7 @@
 * [Large Language Models (LLMs)](foundational-models/large-language-models-llms.md)
 * [GPT](foundational-models/gpt.md)
 * [Mix N Match](foundational-models/mix-n-match.md)
+* [Stable Diffusion](foundational-models/stable-diffusion.md)
 
 ## Experimental Design
 
