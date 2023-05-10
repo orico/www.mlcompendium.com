@@ -7,6 +7,7 @@
 3. [Chip Huyen - Building LLM applicaations for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
 4. [How to generate text using different decoding methods for language generation with transformers](https://huggingface.co/blog/how-to-generate)
 5. (great) [a gentle intro to LLMs and Langchain](https://towardsdatascience.com/a-gentle-intro-to-chaining-llms-agents-and-utils-via-langchain-16cd385fca81)
+6. [LLMs can explain NN of other LLMs](https://openai.com/research/language-models-can-explain-neurons-in-language-models) by OpenAI
 
 ## Papers
 
@@ -40,6 +41,7 @@
 2. [ReAct & LangChain](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
 3. [LangFlow](https://github.com/logspace-ai/langflow), [Medium](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24), [HuggingFace](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24) - is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows.
 4. [PandasAI](https://github.com/gventuri/pandas-ai) - PandasAI, asking data Qs using LLMs on Panda's DFs with two code lines. 𝚙𝚊𝚗𝚍𝚊𝚜\_𝚊𝚒 = 𝙿𝚊𝚗𝚍𝚊𝚜𝙰𝙸(𝚕𝚕𝚖) & 𝚙𝚊𝚗𝚍𝚊𝚜\_𝚊𝚒.𝚛𝚞𝚗(𝚍𝚏, 𝚙𝚛𝚘𝚖𝚙𝚝='𝚆𝚑𝚒𝚌𝚑 𝚊𝚛𝚎 𝚝𝚑𝚎 𝟻 𝚑𝚊𝚙𝚙𝚒𝚎𝚜𝚝 𝚌𝚘𝚞𝚗𝚝𝚛𝚒𝚎𝚜?')
+5. [LLaMa Index](https://github.com/jerryjliu/llama\_index) - LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
 
 ## Use Cases
 
