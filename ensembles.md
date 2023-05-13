@@ -1,8 +1,9 @@
 # Ensembles
 
-1. [**How to combine several sklearn algorithms into a voting ensemble**](https://www.youtube.com/watch?v=vlTQLb\_a564\&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL\&index=16)
-2. [**Stacking api, MLXTEND**](http://rasbt.github.io/mlxtend/user\_guide/classifier/StackingClassifier/)
-3. **Machine learning Mastery on**&#x20;
+1. (good) [review on voting, bagging, boosting stacking, cascading methodologies](https://www.toptal.com/machine-learning/ensemble-methods-kaggle-machine-learn)
+2. [**How to combine several sklearn algorithms into a voting ensemble**](https://www.youtube.com/watch?v=vlTQLb\_a564\&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL\&index=16)
+3. [**Stacking api, MLXTEND**](http://rasbt.github.io/mlxtend/user\_guide/classifier/StackingClassifier/)
+4. **Machine learning Mastery on**&#x20;
    1. [**stacking neural nets - really good**](https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/)
       1. **Stacked Generalization Ensemble**
       2. **Multi-Class Classification Problem**
@@ -38,9 +39,9 @@
          2. **Mixture of Experts and Stacking**
    6. [**Strong Learners vs. Weak Learners in Ensemble Learning**](https://machinelearningmastery.com/strong-learners-vs-weak-learners-for-ensemble-learning/?fbclid=IwAR0yQzfYq0JGZu7xYErX2W42jtm949pOYSbKN8jClQCPMwgEUDNyv6uuXFU) **- Weak learners are models that perform slightly better than random guessing. Strong learners are models that have arbitrarily good accuracy.**\
       **Weak and strong learners are tools from computational learning theory and provide the basis for the development of the boosting class of ensemble methods.**
-4. [**Vidhya on trees, bagging boosting, gbm, xgb**](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?utm\_source=facebook.com\&utm\_medium=social\&fbclid=IwAR1Fji6N01Zc3rhLCJiIq76CX5aC8W0dWmw0hpyceYwMr9Z3QPCbnPu0a2A#three)
-5. [**Parallel grad boost treest**](http://zhanpengfang.github.io/418home.html)
-6. [**A comprehensive guide to ensembles read!**](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/) **(samuel jefroykin)**
+5. [**Vidhya on trees, bagging boosting, gbm, xgb**](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?utm\_source=facebook.com\&utm\_medium=social\&fbclid=IwAR1Fji6N01Zc3rhLCJiIq76CX5aC8W0dWmw0hpyceYwMr9Z3QPCbnPu0a2A#three)
+6. [**Parallel grad boost treest**](http://zhanpengfang.github.io/418home.html)
+7. [**A comprehensive guide to ensembles read!**](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/) **(samuel jefroykin)**
    1. **Basic Ensemble Techniques**
    2. **2.1 Max Voting**
    3. **2.2 Averaging**
@@ -58,9 +59,9 @@
    15. **4.5 XGB**
    16. **4.6 Light GBM**
    17. **4.7 CatBoost**
-7. [**Kaggler guide to stacking**](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/)
-8. [**Blending vs stacking**](https://www.quora.com/What-are-examples-of-blending-and-stacking-in-Machine-Learning)
-9. [**Kaggle ensemble guide**](https://mlwave.com/kaggle-ensembling-guide/)
+8. [**Kaggler guide to stacking**](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/)
+9. [**Blending vs stacking**](https://www.quora.com/What-are-examples-of-blending-and-stacking-in-Machine-Learning)
+10. [**Kaggle ensemble guide**](https://mlwave.com/kaggle-ensembling-guide/)
 
 ### [**Ensembles in WEKA**](http://machinelearningmastery.com/use-ensemble-machine-learning-algorithms-weka/)&#x20;
 
