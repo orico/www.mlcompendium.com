@@ -30,7 +30,8 @@
 
 ## Tools
 
-1. [LangChain](https://python.langchain.com/en/latest/index.html) - [An amazing tutorial](https://www.python-engineer.com/posts/langchain-crash-course/) in [Youtube](https://www.youtube.com/watch?v=LbT1yp6quS8) by Patrick Loeber about
+1. [Scikit-LLM](https://github.com/iryna-kondr/scikit-llm)
+2. [LangChain](https://python.langchain.com/en/latest/index.html) - [An amazing tutorial](https://www.python-engineer.com/posts/langchain-crash-course/) in [Youtube](https://www.youtube.com/watch?v=LbT1yp6quS8) by Patrick Loeber about
    * LLMs
    * Prompt Templates
    * Chains
@@ -38,10 +39,10 @@
    * Memory
    * Document Loaders
    * Indexes
-2. [ReAct & LangChain](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
-3. [LangFlow](https://github.com/logspace-ai/langflow), [Medium](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24), [HuggingFace](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24) - is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows.
-4. [PandasAI](https://github.com/gventuri/pandas-ai) - PandasAI, asking data Qs using LLMs on Panda's DFs with two code lines. 𝚙𝚊𝚗𝚍𝚊𝚜\_𝚊𝚒 = 𝙿𝚊𝚗𝚍𝚊𝚜𝙰𝙸(𝚕𝚕𝚖) & 𝚙𝚊𝚗𝚍𝚊𝚜\_𝚊𝚒.𝚛𝚞𝚗(𝚍𝚏, 𝚙𝚛𝚘𝚖𝚙𝚝='𝚆𝚑𝚒𝚌𝚑 𝚊𝚛𝚎 𝚝𝚑𝚎 𝟻 𝚑𝚊𝚙𝚙𝚒𝚎𝚜𝚝 𝚌𝚘𝚞𝚗𝚝𝚛𝚒𝚎𝚜?')
-5. [LLaMa Index](https://github.com/jerryjliu/llama\_index) - LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
+3. [ReAct & LangChain](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
+4. [LangFlow](https://github.com/logspace-ai/langflow), [Medium](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24), [HuggingFace](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24) - is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows.
+5. [PandasAI](https://github.com/gventuri/pandas-ai) - PandasAI, asking data Qs using LLMs on Panda's DFs with two code lines. 𝚙𝚊𝚗𝚍𝚊𝚜\_𝚊𝚒 = 𝙿𝚊𝚗𝚍𝚊𝚜𝙰𝙸(𝚕𝚕𝚖) & 𝚙𝚊𝚗𝚍𝚊𝚜\_𝚊𝚒.𝚛𝚞𝚗(𝚍𝚏, 𝚙𝚛𝚘𝚖𝚙𝚝='𝚆𝚑𝚒𝚌𝚑 𝚊𝚛𝚎 𝚝𝚑𝚎 𝟻 𝚑𝚊𝚙𝚙𝚒𝚎𝚜𝚝 𝚌𝚘𝚞𝚗𝚝𝚛𝚒𝚎𝚜?')
+6. [LLaMa Index](https://github.com/jerryjliu/llama\_index) - LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
 
 ## Use Cases
 
