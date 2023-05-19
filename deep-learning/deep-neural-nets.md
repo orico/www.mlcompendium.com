@@ -3,6 +3,12 @@
 ## Perceptron
 
 1. [perceptron](https://towardsdatascience.com/perceptrons-logical-functions-and-the-xor-problem-37ca5025790a) - logical functions and XOR
+2. The chain rule
+   1. [mastery on the chain rule for multi and univariate functions](https://machinelearningmastery.com/the-chain-rule-of-calculus-for-univariate-and-multivariate-functions/)
+   2. [derivative of a sigmoid](https://towardsdatascience.com/understanding-the-derivative-of-the-sigmoid-function-cbfd46fb3716)
+   3. [derivative for ML people](https://towardsdatascience.com/a-quick-introduction-to-derivatives-for-machine-learning-people-3cd913c5cf33)
+3. [Step by step backpropagation example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)&#x20;
+4. [understanding backprop](https://towardsdatascience.com/understanding-backpropagation-algorithm-7bb3aa2f95fd)
 
 ## DNN
 
