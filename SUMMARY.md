@@ -127,6 +127,7 @@
 * [GPT](foundational-models/gpt.md)
 * [Mix N Match](foundational-models/mix-n-match.md)
 * [Stable Diffusion](foundational-models/stable-diffusion.md)
+* [GenAI Applications](foundational-models/genai-applications.md)
 
 ## Experimental Design
 
