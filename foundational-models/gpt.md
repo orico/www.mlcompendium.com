@@ -1,8 +1,15 @@
 # GPT
 
+## Precursor
+
+1. [Proximal Policy Optimization](https://openai.com/research/openai-baselines-ppo) (PPO) - an RL algorithm, PPO is better than state-of-the-art approaches while being much simpler to implement and tune and is the default reinforcement learning algorithm at OpenAI.
+2. [Learning from human preference](https://openai.com/research/learning-from-human-preferences) (human in the loop) - a method used to infer what humans want by being told which of two proposed behaviors is better.
+3. [instructGPT](https://openai.com/research/instruction-following) - arguably better at following user intentions than GPT-3 while also making them more truthful and less toxic, using human in the loop.
+
 ## Articles
 
 1. [what is chatGPT doing and why does it work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) explaining next word prediction in detail.
+2. [Karpathy on building GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY\&t=191s)
 
 ## Competitions
 
