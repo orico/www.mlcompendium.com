@@ -3,8 +3,9 @@
 ## Articles
 
 1. Brex on [prompt engineering](https://github.com/brexhq/prompt-engineering), but goes through the history of language models which is amazing
-2. [Lilian-Weng on prompt engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - this is a very thorough review of the topic
-3. [Awesome Prompts on github](https://github.com/f/awesome-chatgpt-prompts)
+2. [prompt engineering examples](https://www.promptingguide.ai/), a good summary of all the techniques
+3. [Lilian-Weng on prompt engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) - this is a very thorough review of the topic
+4. [Awesome Prompts on github](https://github.com/f/awesome-chatgpt-prompts)
 
 ## Papers
 
