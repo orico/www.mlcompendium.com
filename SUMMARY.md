@@ -122,6 +122,7 @@
 * [Generative AI](foundational-models/generative-ai.md)
 * [Speech](foundational-models/speech.md)
 * [Prompt](foundational-models/prompt.md)
+* [Fairness, Accountability, and Transparency In Prompts](foundational-models/fairness-accountability-and-transparency-in-prompts.md)
 * [Large Language Models (LLMs)](foundational-models/large-language-models-llms.md)
 * [Vision](foundational-models/vision.md)
 * [GPT](foundational-models/gpt.md)
