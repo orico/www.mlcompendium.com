@@ -163,7 +163,7 @@
 * [Product Tools](product/product-tools.md)
 * [User Experience Design (UX)](product/user-experience-design-ux.md)
 * [Business](product/business.md)
-* [Marketting](product/marketting.md)
+* [Marketing](product/marketting.md)
 
 ***
 
