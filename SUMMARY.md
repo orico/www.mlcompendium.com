@@ -54,7 +54,9 @@
 
 * [Algorithms 101](machine-learning/algorithms-101.md)
 * [Meta Learning (AutoML)](machine-learning/meta-learning.md)
-* [Rules, Probabilistic, Regression](classic-machine-learning.md)
+* [Probabilistic, Regression](classic-machine-learning.md)
+* [Data Mining](machine-learning/data-mining.md)
+* [Process Mining](machine-learning/process-mining.md)
 * [Label Algorithms](label-algorithms.md)
 * [Clustering Algorithms](clustering-algorithms.md)
 * [Anomaly Detection](anomaly-detection.md)
