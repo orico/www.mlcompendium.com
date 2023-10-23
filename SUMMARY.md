@@ -155,6 +155,7 @@
 * [Drug Discovery](business-domains/drug-discovery.md)
 * [Intent Recognition](business-domains/intent-recognition.md)
 * [Churn Prediction](business-domains/churn-prediction.md)
+* [Electronic Network Frequency Analysis](business-domains/electronic-network-frequency-analysis.md)
 
 ## Product Management
 
