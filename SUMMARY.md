@@ -93,7 +93,7 @@
 * [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
 * [Deep Neural Tabular](deep-learning/deep-neural-tabular.md)
 
-***
+## Audio
 
 * [Audio](deep-neural-audio/README.md)
   * [Feature Engineering](deep-neural-audio/feature-engineering.md)
