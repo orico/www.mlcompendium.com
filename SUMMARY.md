@@ -91,8 +91,13 @@
 * [Deep Network Optimization](deep-learning/deep-network-optimization.md)
 * [Attention](deep-learning/attention.md)
 * [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
-* [Deep Neural Audio](deep-learning/deep-neural-audio.md)
 * [Deep Neural Tabular](deep-learning/deep-neural-tabular.md)
+
+***
+
+* [Audio](deep-neural-audio/README.md)
+  * [Feature Engineering](deep-neural-audio/feature-engineering.md)
+  * [Deep Neural Audio](deep-neural-audio/deep-neural-audio.md)
 
 ## Natural Language Processing
 
