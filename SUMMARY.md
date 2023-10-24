@@ -95,9 +95,10 @@
 
 ## Audio
 
-* [Audio](deep-neural-audio/README.md)
-  * [Feature Engineering](deep-neural-audio/feature-engineering.md)
-  * [Deep Neural Audio](deep-neural-audio/deep-neural-audio.md)
+* [Terminology](audio/deep-neural-audio.md)
+* [Feature Engineering](audio/feature-engineering.md)
+* [Deep Neural Audio](audio/deep-neural-audio-1.md)
+* [Algorithms](audio/algorithms.md)
 
 ## Natural Language Processing
 
