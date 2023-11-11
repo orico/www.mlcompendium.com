@@ -95,6 +95,7 @@
 
 ## Audio
 
+* [Basics](audio/basics.md)
 * [Terminology](audio/deep-neural-audio.md)
 * [Feature Engineering](audio/feature-engineering.md)
 * [Deep Neural Audio](audio/deep-neural-audio-1.md)
