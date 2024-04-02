@@ -12,6 +12,7 @@
 * [Active Learning](types-of-machine-learning/active-learning.md)
 * [Online Learning](types-of-machine-learning/online-learning.md)
 * [N-Shot Learning](types-of-machine-learning/n-shot-learning.md)
+* [Unlearning](types-of-machine-learning/unlearning.md)
 
 ## Foundation Knowledge
 
