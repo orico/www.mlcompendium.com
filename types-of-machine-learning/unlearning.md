@@ -14,6 +14,8 @@ Machine unlearning (MU) refers to the challenge of erasing a data point's influe
 1. Who's Harry Potter? Approximate Unlearning in LLMs. [Arxiv](https://arxiv.org/abs/2310.02238), [paper](https://browse.arxiv.org/pdf/2310.02238), [Microsoft](https://www.microsoft.com/en-us/research/project/physics-of-agi/articles/whos-harry-potter-making-llms-forget-2/), [medium](https://pub.towardsai.net/who-is-harry-potter-inside-microsoft-researchs-fine-tuning-method-for-unlearning-concepts-in-llms-33dfe8e742a9)&#x20;
 2. [fast yet effective MU](https://arxiv.org/pdf/2111.08947.pdf)
 3. [one shot MU](https://arxiv.org/pdf/2201.05629.pdf)
+4. [A review on MU](https://link.springer.com/article/10.1007/s42979-023-01767-4), Zhang et al.
+5. [Machine Un-learning: An Overview of Techniques, Applications, and Future Directions](https://link.springer.com/article/10.1007/s12559-023-10219-3), Siva et al.
 
 ## Medium
 
