@@ -16,6 +16,7 @@
 5. [**TSlearn**](http://tslearn.readthedocs.io) **- DTW, shapes, shapelets (keras layer), time series kmeans/clustering/svm/svr/KNN/bary centers/PAA/SAX** ![](https://lh5.googleusercontent.com/q4duc9XMnsYnOvbMeBcWLWf6T1uyPMrhBoPZEVVL16hS2UJJTalHA3MUE12kMo308fF1nO-qCGxeDefjvoLz106E7ZjkUTiFriggG98iX6H9vlaROGNnOdNpjEy6zZViK4Tl43mn)
 6. [**DTAIDistance**](https://dtaidistance.readthedocs.io/en/latest/index.html) **- Library for time series distances (e.g. Dynamic Time Warping) used in the** [**DTAI Research Group**](https://dtai.cs.kuleuven.be/)**. The library offers a pure Python implementation and a faster implementation in C. The C implementation has only Cython as a dependency. It is compatible with Numpy and Pandas and implemented to avoid unnecessary data copy operations**\
    [**dtaidistance.clustering.hierarchical**](https://dtaidistance.readthedocs.io/en/latest/modules/clustering/hierarchical.html)
+7. [**Darts**](https://unit8co.github.io/darts/) is a Python library for user-friendly forecasting and anomaly detection on time series. [Forecasting models](https://unit8co.github.io/darts/#forecasting-models) & [Examples](https://unit8co.github.io/darts/#example-usage)
 
 [**Ddtaidistance.clustering.kmeans**](https://dtaidistance.readthedocs.io/en/latest/modules/clustering/kmeans.html)
 
