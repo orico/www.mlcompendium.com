@@ -93,6 +93,7 @@
 * [Attention](deep-learning/attention.md)
 * [Deep Neural Machine Vision](deep-learning/deep-neural-machine-vision.md)
 * [Deep Neural Tabular](deep-learning/deep-neural-tabular.md)
+* [Deep Neural Time Series](deep-learning/deep-neural-time-series.md)
 
 ## Audio
 
@@ -140,6 +141,7 @@
 * [Mix N Match](foundational-models/mix-n-match.md)
 * [Stable Diffusion](foundational-models/stable-diffusion.md)
 * [GenAI Applications](foundational-models/genai-applications.md)
+* [Agents](foundational-models/agents.md)
 
 ## Experimental Design
 
