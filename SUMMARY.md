@@ -142,6 +142,7 @@
 * [Stable Diffusion](foundational-models/stable-diffusion.md)
 * [GenAI Applications](foundational-models/genai-applications.md)
 * [Agents](foundational-models/agents.md)
+* [RAG](foundational-models/rag.md)
 
 ## Experimental Design
 
