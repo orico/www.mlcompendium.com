@@ -180,6 +180,7 @@
 * [User Experience Design (UX)](product-management/user-experience-design-ux.md)
 * [Business](product-management/business.md)
 * [Marketing](product-management/marketting.md)
+* [Ideation](product-management/ideation.md)
 
 ***
 
