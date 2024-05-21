@@ -10,6 +10,7 @@
 
 1. [what is chatGPT doing and why does it work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) explaining next word prediction in detail.
 2. [Karpathy on building GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY\&t=191s)
+3. [Is DPO Superior to PPO for LLM Alignment](https://arxiv.org/pdf/2404.10719)? A Comprehensive Study - "PPO is able to surpass other alignment methods in all cases and achieve state-of-the-art results in challenging code competitions."
 
 ## Competitions
 
