@@ -8,6 +8,7 @@
 4. [How to generate text using different decoding methods for language generation with transformers](https://huggingface.co/blog/how-to-generate)
 5. (great) [a gentle intro to LLMs and Langchain](https://towardsdatascience.com/a-gentle-intro-to-chaining-llms-agents-and-utils-via-langchain-16cd385fca81)
 6. [LLMs can explain NN of other LLMs](https://openai.com/research/language-models-can-explain-neurons-in-language-models) by OpenAI
+7. [Fine tuning LLMs](https://medium.com/@miloszivic99/finetuning-large-language-models-customize-llama-3-8b-for-your-needs-bfe0f43cd239)
 
 ## Papers
 
