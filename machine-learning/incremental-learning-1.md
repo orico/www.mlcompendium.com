@@ -18,8 +18,11 @@
 ### **Deep Learning**
 
 1. [A review paper about RL in DL](https://arxiv.org/pdf/1701.07274.pdf)
-2. [deep Q-learning](https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/)\
-
+2. [deep Q-learning](https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/)
+3. Pytorch
+   1. [DQN](https://pytorch.org/tutorials/intermediate/reinforcement\_q\_learning.html)
+   2. [PPO](https://pytorch.org/tutorials/intermediate/reinforcement\_ppo.html)
+   3. [Mario example](https://pytorch.org/tutorials/intermediate/mario\_rl\_tutorial.html)
 
 ## RLHF
 
