@@ -4,6 +4,13 @@
 
 1. **Deep learning with pytorch -** [**The book**](https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf)
 2. [**Pytorch DL course**](https://atcold.github.io/pytorch-Deep-Learning/)**,** [**git**](https://github.com/Atcold/pytorch-Deep-Learning) **- yann lecun**
+3. **Pytorch Official**
+   1. [**Tutorials**](https://pytorch.org/tutorials/)\
+      ![](<../.gitbook/assets/image (44).png>)
+   2. [**Learning with examples**](https://pytorch.org/tutorials/beginner/pytorch\_with\_examples.html)
+   3. [Learn the Basics](https://pytorch.org/tutorials/beginner/basics/intro.html) || [Quickstart](https://pytorch.org/tutorials/beginner/basics/quickstart\_tutorial.html) || [Tensors](https://pytorch.org/tutorials/beginner/basics/tensorqs\_tutorial.html) || [Datasets & DataLoaders](https://pytorch.org/tutorials/beginner/basics/data\_tutorial.html) || [Transforms](https://pytorch.org/tutorials/beginner/basics/transforms\_tutorial.html) || [Build Model](https://pytorch.org/tutorials/beginner/basics/buildmodel\_tutorial.html) || [Autograd](https://pytorch.org/tutorials/beginner/basics/autogradqs\_tutorial.html) || [Optimization](https://pytorch.org/tutorials/beginner/basics/optimization\_tutorial.html) || [Save & Load Model](https://pytorch.org/tutorials/beginner/basics/saveloadrun\_tutorial.html)
+   4. [60 minute blitz](https://pytorch.org/tutorials/beginner/deep\_learning\_60min\_blitz.html)
+   5. (good) - [youtube series](https://pytorch.org/tutorials/beginner/introyt.html)
 
 ## **FAST.AI**
 
