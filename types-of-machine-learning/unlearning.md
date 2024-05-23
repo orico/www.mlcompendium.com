@@ -9,7 +9,7 @@ Machine unlearning (MU) refers to the challenge of erasing a data point's influe
 3. [Machine Unlearning: The Right to be Forgotten](https://www.kaggle.com/code/tamlhp/machine-unlearning-the-right-to-be-forgotten#sec:algorithms)
 4. (really good) [Awesome MU on Github](https://github.com/tamlhp/awesome-machine-unlearning?tab=readme-ov-file#type-image) ([website](https://awesome-machine-unlearning.github.io/))- a collection of academic articles, published methodology, and datasets on the subject of machine unlearning. model agnostic, intrinsic, and data-driven approaches, evaluation metrics, and datasets.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Who's Harry Potter? Approximate Unlearning in LLMs. [Arxiv](https://arxiv.org/abs/2310.02238), [paper](https://browse.arxiv.org/pdf/2310.02238), [Microsoft](https://www.microsoft.com/en-us/research/project/physics-of-agi/articles/whos-harry-potter-making-llms-forget-2/), [medium](https://pub.towardsai.net/who-is-harry-potter-inside-microsoft-researchs-fine-tuning-method-for-unlearning-concepts-in-llms-33dfe8e742a9)&#x20;
 6. [fast yet effective MU](https://arxiv.org/pdf/2111.08947.pdf)
