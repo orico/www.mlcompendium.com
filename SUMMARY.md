@@ -144,6 +144,7 @@
 * [GenAI Applications](foundational-models/genai-applications.md)
 * [Agents](foundational-models/agents.md)
 * [RAG](foundational-models/rag.md)
+* [Chat UI/UX](foundational-models/chat-ui-ux.md)
 
 ## Experimental Design
 
