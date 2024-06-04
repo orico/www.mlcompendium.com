@@ -58,10 +58,12 @@
 4. [LangFlow](https://github.com/logspace-ai/langflow), [Medium](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24), [HuggingFace](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24) - is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows.
 5. [PandasAI](https://github.com/gventuri/pandas-ai) - PandasAI, asking data Qs using LLMs on Panda's DFs with two code lines. 𝚙𝚊𝚗𝚍𝚊𝚜\_𝚊𝚒 = 𝙿𝚊𝚗𝚍𝚊𝚜𝙰𝙸(𝚕𝚕𝚖) & 𝚙𝚊𝚗𝚍𝚊𝚜\_𝚊𝚒.𝚛𝚞𝚗(𝚍𝚏, 𝚙𝚛𝚘𝚖𝚙𝚝='𝚆𝚑𝚒𝚌𝚑 𝚊𝚛𝚎 𝚝𝚑𝚎 𝟻 𝚑𝚊𝚙𝚙𝚒𝚎𝚜𝚝 𝚌𝚘𝚞𝚗𝚝𝚛𝚒𝚎𝚜?')
 6. [LLaMa Index](https://github.com/jerryjliu/llama\_index) - LlamaIndex (GPT Index) is a project that provides a central interface to connect your LLM's with external data.
-7.  [LLM-foundry](https://github.com/mosaicml/llm-foundry) - LLM training code for Databricks foundation models using MoasicML
-
-    \
-
+7. [LLM-foundry](https://github.com/mosaicml/llm-foundry) - LLM training code for Databricks foundation models using MoasicML
+8. [Awesome ChatGPT - Curated list of awesome tools, demos, docs for ChatGPT and GPT-3](https://github.com/humanloop/awesome-chatgpt)
+9. [GPT4 All Privacy-oriented software for chatting with large language models that run on your own computer.](https://github.com/nomic-ai/gpt4all)
+10. [MinGPT](https://github.com/karpathy/minGPT) - A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training
+11. [NanoGPT](https://github.com/karpathy/nanoGPT) - The simplest, fastest repository for training/finetuning medium-sized GPTs.
+12. [Open-sourced codes for MiniGPT-4 and MiniGPT-v2 ](https://github.com/Vision-CAIR/MiniGPT-4) (https://minigpt-4.github.io, https://minigpt-v2.github.io/)
 
 ## Guardrails
 

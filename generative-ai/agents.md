@@ -7,6 +7,7 @@
     <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 
-3.  [Routing tools/agents](https://www.linkedin.com/blog/engineering/generative-ai/musings-on-building-a-generative-ai-product) - an overall multi tool article, with a routing example - decides if the query is in scope or not, and which AI agent to forward it to. Examples of agents are: job assessment, company understanding, takeaways for posts, etc.
+3. [Routing tools/agents](https://www.linkedin.com/blog/engineering/generative-ai/musings-on-building-a-generative-ai-product) - an overall multi tool article, with a routing example - decides if the query is in scope or not, and which AI agent to forward it to. Examples of agents are: job assessment, company understanding, takeaways for posts, etc.
+4.  AgentGPT - [Assemble, configure, and deploy autonomous AI Agents in your browser](https://github.com/reworkd/AgentGPT)
 
     \
