@@ -31,7 +31,8 @@
 
 ## Instructor
 
-1.  [Instructor model](https://instructor-embedding.github.io/) - "We introduce Instructor👨‍🏫, an instruction-finetuned text embedding model that can generate text embeddings tailored to any task (e.g., classification, retrieval, clustering, text evaluation, etc.) and domains (e.g., science, finance, etc.) by simply providing the task instruction, without any finetuning. Instructor achieves sota on 70 diverse embedding tasks!"
+1. [Training language models to follow instructions with human feedback](https://arxiv.org/pdf/2203.02155) (using RLHF)&#x20;
+2.  [Instructor model](https://instructor-embedding.github.io/) - "We introduce Instructor👨‍🏫, an instruction-finetuned text embedding model that can generate text embeddings tailored to any task (e.g., classification, retrieval, clustering, text evaluation, etc.) and domains (e.g., science, finance, etc.) by simply providing the task instruction, without any finetuning. Instructor achieves sota on 70 diverse embedding tasks!"
 
     <figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
@@ -74,6 +75,12 @@
     ](https://www.databricks.com/blog/announcing-mlflow-28-llm-judge-metrics-and-best-practices-llm-evaluation-rag-applications-part)
 
     <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+
+## Reinforcement Learning for LLM
+
+1. [RLHF: Reinforcement Learning from Human Feedback](https://huyenchip.com/2023/05/02/rlhf.html) by Chip Huyen
+2. [Yoav on RL](https://gist.github.com/yoavg/6bff0fecd65950898eba1bb321cfbd81)
+3. [John Schulman](https://www.youtube.com/watch?v=hhiLw5Q\_UFg) - Reinforcement Learning from Human Feedback: Progress and Challenges
 
 ## Metrics
 
