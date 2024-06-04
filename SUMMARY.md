@@ -102,7 +102,6 @@
 * [Feature Engineering](audio/feature-engineering.md)
 * [Deep Neural Audio](audio/deep-neural-audio-1.md)
 * [Algorithms](audio/algorithms.md)
-* [Deep Neural Audio](audio/deep-neural-audio-2.md)
 
 ## Natural Language Processing
 
