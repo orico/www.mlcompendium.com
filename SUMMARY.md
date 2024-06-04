@@ -140,7 +140,7 @@
 * [Vision](generative-ai/vision.md)
 * [GPT](generative-ai/gpt.md)
 * [Mix N Match](generative-ai/mix-n-match.md)
-* [Stable Diffusion](generative-ai/stable-diffusion.md)
+* [Diffusion Models](generative-ai/stable-diffusion.md)
 * [GenAI Applications](generative-ai/genai-applications.md)
 * [Agents](generative-ai/agents.md)
 * [RAG](generative-ai/rag.md)
