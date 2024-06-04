@@ -2,4 +2,4 @@
 
 1. [DreamBooth](https://dreambooth.github.io/) - "Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation", "_It’s like a photo booth, but once the subject is captured, it can be synthesized wherever your dreams take you…"_
 2. [ Analytical bot, ask a question get an sql query response](https://www.youtube.com/watch?v=fiQy276sd18\&list=PL1FoIGqsXJ\_Dd0twE-V9bwzw2FeZHZmtF) (hebrew).
-3. [how to chat with a document](https://www.youtube.com/watch?v=ih9PBGVVOO4) Youtube
+3. [how to chat with a document](https://www.youtube.com/watch?v=ih9PBGVVOO4) Youtube - In this video, we'll demonstrate how to use OpenAI's GPT-4 API to interact with a 56-page PDF of a Supreme Court legal case. You'll learn about GPT-4's enhanced capabilities, including processing up to 25,000 words and handling more complex instructions. We'll cover using LangChain to assemble chatbot components and Pinecone to store documents as numerical vectors. Finally, we'll show how to create a chat interface to display results alongside the source documents. This approach can be applied to building chatbots for various file formats like PDFs, websites, and Excel sheets.
