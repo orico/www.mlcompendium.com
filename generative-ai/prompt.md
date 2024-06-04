@@ -27,6 +27,10 @@
     <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>COT, Google brain.</p></figcaption></figure>
 2. [self consistency improve chain of though reasoning in language models](https://arxiv.org/abs/2203.11171) - "samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths"
 
-Prompt Hacking Examples
+### Prompt Hacking Examples
 
 1. [Alex bert](https://twitter.com/alexalbert\_\_/status/1636488551817965568)
+
+## Step back promping
+
+1. [STP](https://cobusgreyling.medium.com/a-new-prompt-engineering-technique-has-been-introduced-called-step-back-prompting-b00e8954cacb) - Step-Back Prompting (STP) is prompt approach in which we teach the model to answer a global questions, i.e., the original question is transformed into a stepback question, and the answer to the stepback question is used to formulate the final response.&#x20;

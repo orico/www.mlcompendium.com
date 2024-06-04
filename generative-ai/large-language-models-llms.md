@@ -29,6 +29,12 @@
    1. Vicuna
    2. LLaMA
 
+## Instructor
+
+1.  [Instructor model](https://instructor-embedding.github.io/) - "We introduce Instructor👨‍🏫, an instruction-finetuned text embedding model that can generate text embeddings tailored to any task (e.g., classification, retrieval, clustering, text evaluation, etc.) and domains (e.g., science, finance, etc.) by simply providing the task instruction, without any finetuning. Instructor achieves sota on 70 diverse embedding tasks!"
+
+    <figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+
 ## Datasets
 
 1. [Databricks' 15K QA for Dolly 2.0](https://github.com/databrickslabs/dolly/tree/master/data)
@@ -51,17 +57,23 @@
 
 ## Guardrails
 
-1. [GuardrailsAI](https://hub.guardrailsai.com/)\
-   ![](<../.gitbook/assets/image (50).png>)
-2. [Safeguarding LLMs with Guardrails](https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2)\
-   ![](<../.gitbook/assets/image (47).png>)
+1.  [GuardrailsAI](https://hub.guardrailsai.com/)\
+
+
+    <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+2.  [Safeguarding LLMs with Guardrails](https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2)\
+
+
+    <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 3. [Databricks GR](https://www.databricks.com/blog/implementing-llm-guardrails-safe-and-responsible-generative-ai-deployment-databricks) - Implementing LLM Guardrails for Safe and Responsible Generative AI Deployment on Databricks
 
 ## Best Practices
 
 1. [Best Practices for LLM Evaluation of RAG Applications](https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG)
-2. [Announcing MLflow 2.8 LLM-as-a-judge metrics and Best Practices for LLM Evaluation of RAG Applications, Part 2\
-   ![](<../.gitbook/assets/image (48).png>)](https://www.databricks.com/blog/announcing-mlflow-28-llm-judge-metrics-and-best-practices-llm-evaluation-rag-applications-part)
+2.  [Announcing MLflow 2.8 LLM-as-a-judge metrics and Best Practices for LLM Evaluation of RAG Applications, Part 2\
+    ](https://www.databricks.com/blog/announcing-mlflow-28-llm-judge-metrics-and-best-practices-llm-evaluation-rag-applications-part)
+
+    <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 ## Metrics
 
