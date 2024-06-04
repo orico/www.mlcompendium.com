@@ -19,6 +19,10 @@
 
 1. [The power of scale for parameter efficient prompt tuning](https://arxiv.org/abs/2104.08691) **-** it becomes more competitive at scale.&#x20;
 2. [Guiding Frozen Language Models with Learned Soft Prompts](https://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html), [tweet](https://twitter.com/GoogleAI/status/1491915977138720770)
+3.  (amazing) [prompt engineering guides](https://www.promptingguide.ai/techniques), [github](https://github.com/dair-ai/Prompt-Engineering-Guide)\
+
+
+    <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 ### Chain Of Thought
 

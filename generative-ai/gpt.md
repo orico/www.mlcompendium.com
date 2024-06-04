@@ -22,3 +22,7 @@
 1. Sentence Embeddings
    1. [sentence embedding for semantic search](https://github.com/Muennighoff/sgpt)
    2. [GPT 3 Dense sentence embeddings](https://medium.com/@nils\_reimers/openai-gpt-3-text-embeddings-really-a-new-state-of-the-art-in-dense-text-embeddings-6571fe3ec9d9)
+
+## Virtual assistants
+
+1. [flowGPT](https://flowgpt.com/) - has many bots, prompts.
