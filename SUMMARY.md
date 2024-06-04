@@ -129,22 +129,22 @@
 * [Chat Bots](natural-language-processing/chat-bots.md)
 * [Conversation](natural-language-processing/conversation.md)
 
-## Foundational Models
+## Generative AI
 
-* [Methods](foundational-models/methods.md)
-* [Generative AI](foundational-models/generative-ai.md)
-* [Speech](foundational-models/speech.md)
-* [Prompt](foundational-models/prompt.md)
-* [Fairness, Accountability, and Transparency In Prompts](foundational-models/fairness-accountability-and-transparency-in-prompts.md)
-* [Large Language Models (LLMs)](foundational-models/large-language-models-llms.md)
-* [Vision](foundational-models/vision.md)
-* [GPT](foundational-models/gpt.md)
-* [Mix N Match](foundational-models/mix-n-match.md)
-* [Stable Diffusion](foundational-models/stable-diffusion.md)
-* [GenAI Applications](foundational-models/genai-applications.md)
-* [Agents](foundational-models/agents.md)
-* [RAG](foundational-models/rag.md)
-* [Chat UI/UX](foundational-models/chat-ui-ux.md)
+* [Methods](generative-ai/methods.md)
+* [Gen AI Industry](generative-ai/generative-ai.md)
+* [Speech](generative-ai/speech.md)
+* [Prompt](generative-ai/prompt.md)
+* [Fairness, Accountability, and Transparency In Prompts](generative-ai/fairness-accountability-and-transparency-in-prompts.md)
+* [Large Language Models (LLMs)](generative-ai/large-language-models-llms.md)
+* [Vision](generative-ai/vision.md)
+* [GPT](generative-ai/gpt.md)
+* [Mix N Match](generative-ai/mix-n-match.md)
+* [Stable Diffusion](generative-ai/stable-diffusion.md)
+* [GenAI Applications](generative-ai/genai-applications.md)
+* [Agents](generative-ai/agents.md)
+* [RAG](generative-ai/rag.md)
+* [Chat UI/UX](generative-ai/chat-ui-ux.md)
 
 ## Experimental Design
 

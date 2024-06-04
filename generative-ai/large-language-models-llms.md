@@ -51,9 +51,11 @@
 
 ## Guardrails
 
-1. [Safeguarding LLMs with Guardrails](https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2)\
+1. [GuardrailsAI](https://hub.guardrailsai.com/)\
+   ![](<../.gitbook/assets/image (50).png>)
+2. [Safeguarding LLMs with Guardrails](https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2)\
    ![](<../.gitbook/assets/image (47).png>)
-2. [Databricks GR](https://www.databricks.com/blog/implementing-llm-guardrails-safe-and-responsible-generative-ai-deployment-databricks) - Implementing LLM Guardrails for Safe and Responsible Generative AI Deployment on Databricks
+3. [Databricks GR](https://www.databricks.com/blog/implementing-llm-guardrails-safe-and-responsible-generative-ai-deployment-databricks) - Implementing LLM Guardrails for Safe and Responsible Generative AI Deployment on Databricks
 
 ## Best Practices
 
