@@ -1,6 +1,7 @@
 # Table of contents
 
 * [The Machine & Deep Learning Compendium](README.md)
+  * [Thanks Page](readme/thanks-page.md)
 * [The Ops Compendium](https://book.opscompendium.com)
 
 ## Types Of Machine Learning
