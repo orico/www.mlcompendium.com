@@ -30,13 +30,11 @@ I envision it as a go-to resource for learners of all levels—whether you're an
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-
+Let’s work together to support the community, amplify the voices of authors, and democratize education! If you spot something that could be improved, feel free to contribute via  [GitHub](https://github.com/orico/www.mlcompendium.com/tree/master) or [reach out to](https://www.linkedin.com/in/cohenori/) me directly.
 
 {% embed url="https://towardsdatascience.com/the-last-machine-deep-learning-compendium-youll-ever-need-dc973643c4e1" %}
-The Medium Article
+The ML Compendium Article
 {% endembed %}
-
-Let’s work together to support the community, amplify the voices of authors, and democratize education! If you spot something that could be improved, feel free to contribute via  [GitHub](https://github.com/orico/www.mlcompendium.com/tree/master) or [reach out to](https://www.linkedin.com/in/cohenori/) me directly.
 
 Many Thanks, \
 Dr. Ori Cohen&#x20;
