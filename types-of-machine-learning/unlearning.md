@@ -5,11 +5,11 @@ Machine unlearning (MU) refers to the challenge of erasing a data point's influe
 ## Papers
 
 1. (really good) A [survey](https://arxiv.org/abs/2209.02299) of [MU](https://arxiv.org/pdf/2209.02299.pdf).
-2. [Existing literature on MU](https://github.com/jjbrophy47/machine\_unlearning)
+2. [Existing literature on MU](https://github.com/jjbrophy47/machine_unlearning)
 3. [Machine Unlearning: The Right to be Forgotten](https://www.kaggle.com/code/tamlhp/machine-unlearning-the-right-to-be-forgotten#sec:algorithms)
 4. (really good) [Awesome MU on Github](https://github.com/tamlhp/awesome-machine-unlearning?tab=readme-ov-file#type-image) ([website](https://awesome-machine-unlearning.github.io/))- a collection of academic articles, published methodology, and datasets on the subject of machine unlearning. model agnostic, intrinsic, and data-driven approaches, evaluation metrics, and datasets.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Who's Harry Potter? Approximate Unlearning in LLMs. [Arxiv](https://arxiv.org/abs/2310.02238), [paper](https://browse.arxiv.org/pdf/2310.02238), [Microsoft](https://www.microsoft.com/en-us/research/project/physics-of-agi/articles/whos-harry-potter-making-llms-forget-2/), [medium](https://pub.towardsai.net/who-is-harry-potter-inside-microsoft-researchs-fine-tuning-method-for-unlearning-concepts-in-llms-33dfe8e742a9)&#x20;
 6. [fast yet effective MU](https://arxiv.org/pdf/2111.08947.pdf)
@@ -28,7 +28,7 @@ Machine unlearning (MU) refers to the challenge of erasing a data point's influe
 1. [search results](https://github.com/search?q=unlearning\&type=repositories)
 2. This [repository](https://github.com/cleverhans-lab/machine-unlearning) contains the core code used in the SISA experiments of our [Machine Unlearning](https://arxiv.org/abs/1912.03817) paper along with some example scripts.
 3. [Implementations of various data deletion methods.](https://github.com/ChrisWaites/data-deletion?tab=readme-ov-file) \
-   [Evaluation Doc.](https://docs.google.com/document/d/14B\_aLihLTNE7a2yRQHNRRVwvSOkttakVYFhlayZBNkE/edit)
+   [Evaluation Doc.](https://docs.google.com/document/d/14B_aLihLTNE7a2yRQHNRRVwvSOkttakVYFhlayZBNkE/edit)
 4. This [repository](https://github.com/shash42/Evaluating-Inexact-Unlearning/tree/master) contains the code used in our experiments of our paper on [Evaluating Machine Unlearning](https://arxiv.org/abs/2201.06640) in the src/ folder along with some sample scripts in the scripts/ folder.
 5. #### [This](https://github.com/meghdadk/SCRUB) is a Python implementation of "Towards Unbounded Machine Unlearning"
 6. #### [data deletion](https://github.com/ChrisWaites/data-deletion?tab=readme-ov-file)
