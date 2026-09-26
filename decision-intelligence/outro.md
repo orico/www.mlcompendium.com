@@ -1,5 +1,4 @@
 # Next
 
 Next is Deep Learning.
-Some signals need a representation the classical bias does not build.
-
+Choosing an action and knowing it worked assumed the features were already there; the next chapter is how a network learns features the earlier chapters had to specify by hand.

@@ -1,0 +1,9 @@
+# MLOps Interview Questions
+
+An MLOps interview tests whether you can explain the production path out loud, not just run it. The question bank goes from written lists, to mock interviews you can watch, to tips and a list of questions an interviewer actually asked.
+
+Start with the written lists, which get longer as you go. [10 questions](https://360digitmg.com/mlops-interview-questions-answers) is 360DigiTMG's set of top MLOps questions and answers, aimed at aspiring machine learning engineers and DevOps professionals. [15 questions](https://www.analyticsvidhya.com/blog/2023/02/15-must-read-interview-questions-on-mlops-for-2023/) is the Analytics Vidhya list of MLOps questions you can expect in data science or machine learning interviews. The other [15 questions](https://hashdork.com/top-mlops-interview-questions/) is Jay's HashDork post, which covers what MLOps is, how it works, and its benefits.
+
+Reading answers is not the same as giving them, so the next two are videos. [Mock interview](https://www.youtube.com/watch?v=uZlYXHm8EPg) is Turing's MLOps mock interview with questions for senior MLOps developers. [MLOps at scale](https://www.youtube.com/watch?v=7AOgPspCOaQ) is the Open Data Science and AI Conference lightning interview "MLOps Engineering at Scale".
+
+The last two come from the other side of the table. (good) [MLOps tips](https://medium.com/nlplanet/mlops-tips-from-an-interview-study-952cc3b65801) is Fabio Chiusano's MLOps tips from an interview study. [Interview questions](https://medium.datadriveninvestor.com/data-scientist-mlops-interview-questions-list-from-interviewer-2022-2023-f680c1e90e9f) is Tapan Kumar Patro's list of the questions he actually faced in 2022–23, across DS and algorithms, Python libraries, math, SQL, data science, deployment, MLOps, and system tasks.

@@ -1,18 +1,16 @@
 # Knowledge Graphs
 
-This page is about building knowledge graphs from text and structured sources.
+A knowledge graph stores entities as nodes and their relations as edges, and the question is how to build one from text and from structured sources. The page starts with automatic creation from text with spaCy, then reconciling your own data with outside knowledge, and ends with a Medium series on creating graphs, building them from structured sources, and the semantic models behind them.
 
 The same notes are in [GenAI Applications](../generative-ai/genai-applications.md), [Graph RAG](../generative-ai/rag.md#graph-rag), and [Root Cause Effects (RCE/RCA)](../decision-intelligence/root-cause-effects-rce-rca.md).
 
-1. [Automatic creation of KG using spacy](https://medium.com/data-science/auto-generated-knowledge-graphs-92ca99a81121) and networx
+The fastest start is text you already have. [Automatic creation of KG using spacy](https://medium.com/data-science/auto-generated-knowledge-graphs-92ca99a81121) is Chris Thornton's auto-generated knowledge graphs, built from entity pairs, people, organizations, places, and events, that can be traversed to uncover connections in unstructured data.
 
-   Knowledge graphs can be constructed automatically from text using part-of-speech and dependency parsing. The extraction of entity pairs from grammatical patterns is fast and scalable to large amounts of text using NLP library SpaCy.
+ Knowledge graphs can be constructed automatically from text using part-of-speech and dependency parsing. The extraction of entity pairs from grammatical patterns is fast and scalable to large amounts of text using NLP library SpaCy.
 
-2. [Medium on Reconciling your data and the world of knowledge graphs](https://medium.com/data-science/reconciling-your-data-and-the-world-with-knowledge-graphs-bce66b377b14)
-3. Medium Series:
-   1. [Creating kg](https://medium.com/data-science/knowledge-graphs-at-a-glance-c9119130a9f0)
-   2. [Building from structured sources](https://medium.com/data-science/building-knowledge-graphs-from-structured-sources-346c56c9d40e)
-   3. [Semantic models](https://medium.com/data-science/semantic-models-for-constructing-knowledge-graphs-38c0a1df316a)
+A graph built from your text still has to agree with what the rest of the world knows. [Medium on Reconciling your data and the world of knowledge graphs](https://medium.com/data-science/reconciling-your-data-and-the-world-with-knowledge-graphs-bce66b377b14) is Akash Tandon on that step, starting from knowledge as the core of any successful initiative.
+
+For the full method, Giuseppe Futia's Medium Series goes in order. [Creating kg](https://medium.com/data-science/knowledge-graphs-at-a-glance-c9119130a9f0) is Knowledge Graphs at a Glance, on graphs as a core abstraction for putting human knowledge into intelligent systems, with nodes for real-world entities and edges for their relations. [Building from structured sources](https://medium.com/data-science/building-knowledge-graphs-from-structured-sources-346c56c9d40e) is the second part. [Semantic models](https://medium.com/data-science/semantic-models-for-constructing-knowledge-graphs-38c0a1df316a) covers the semantic models for constructing knowledge graphs, including the mapping from data sources to ontologies, and assumes the earlier introductory articles.
 
 ## Deprecated links
 

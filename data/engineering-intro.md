@@ -3,24 +3,12 @@
 The dataset has to live in a system other people can run.
 After this chapter the reader can place SQL, storage, quality, lineage, and ownership on one path from source to table.
 
-- [SQL](engineering/sql.md)
-- [Tools](engineering/tools.md)
-- [Databases](engineering/lakes-and-warehouses.md)
-- [Database Modeling](engineering/database-architecture-and-modeling.md)
-- [Data Engineering](engineering/data-engineering.md)
-- [Data Architecture](engineering/data-architecture.md)
-- [Data Platforms](engineering/data-platforms.md)
-- [Data Patterns](engineering/patterns.md)
-- [Data Quality](engineering/data-quality.md)
-- [Data Observability](engineering/data-observability.md)
-- [Data Lineage](engineering/data-lineage.md)
-- [Data Contract](engineering/data-contract.md)
-- [Data Governance](engineering/data-governance.md)
-- [Data Mesh](engineering/data-mesh.md)
-- [Data Product](engineering/data-product.md)
-- [Data Strategy](engineering/data-strategy.md)
-- [Data Vision](engineering/data-vision.md)
-- [Data Teams](engineering/data-teams.md)
-- [Data KPIs](engineering/data-kpis.md)
-- [Data Program Management](engineering/data-program-management.md)
+The path starts with asking and storing. A warehouse only answers if you can ask it in SQL, so [SQL](engineering/sql.md) comes first: command groups, keys, indexes, and how sharding differs from partitioning. [Tools](engineering/tools.md) is the shelf for change capture, lakes, pipelines, BI, integration, and quality checks, opened by the job each group is for. Data then has to live somewhere queryable, and [Databases](engineering/lakes-and-warehouses.md) is the choice between lake, warehouse, table format, or a specialized engine. Because storage choices and models decide how a warehouse can be queried later, [Database Modeling](engineering/database-architecture-and-modeling.md) follows with warehouse modeling, Data Vault, data fabric, and virtualization.
 
+With storage in place, the chapter turns to the job and the system around it. [Data Engineering](engineering/data-engineering.md) is the job that makes data usable, which is not the same job as writing product software. A platform needs an architecture before the warehouses and pipelines stack up, and [Data Architecture](engineering/data-architecture.md) is the short list of data-platform architectures and domain-driven design for data. [Data Platforms](engineering/data-platforms.md) is where compute and storage meet so teams can run jobs without reinventing the lake each time. [Data Patterns](engineering/patterns.md) gives the rule for what history looks like when a row changes over time.
+
+Once tables flow, they have to be trusted. Bad rows break models and dashboards, so [Data Quality](engineering/data-quality.md) defines and tests quality instead of assuming it. Pipelines fail quietly unless someone watches freshness, volume, and schema drift, which is [Data Observability](engineering/data-observability.md). When a number is wrong, someone has to walk the path the data took, and that is [Data Lineage](engineering/data-lineage.md). Producers and consumers need a promise about the shape and meaning of a table, the [Data Contract](engineering/data-contract.md).
+
+Trust then becomes ownership. [Data Governance](engineering/data-governance.md) is about who may change the data and what "good" means across teams. A central data team can become the bottleneck, so [Data Mesh](engineering/data-mesh.md) treats domains as owners of data products, and [Data Product](engineering/data-product.md) is the work of treating data as something with users and owners, since a platform nobody adopts is not a product.
+
+The chapter ends with the organization that pays for all of it. [Data Strategy](engineering/data-strategy.md) says what data work is for before the company buys another tool. [Data Vision](engineering/data-vision.md) says what success looks like before the org chart is drawn. [Data Teams](engineering/data-teams.md) is the team shape that can ship analytics. [Data KPIs](engineering/data-kpis.md) measures the return on data spend, not only pipeline uptime. [Data Program Management](engineering/data-program-management.md) is the roles and definitions that keep projects from drifting.
