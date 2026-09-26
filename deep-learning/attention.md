@@ -1,61 +1,53 @@
-These notes moved.
-
-- [Transformers](transformers.md)
-- [Pretrained Language Models](../language-ai/pretrained-language-models.md)
+These notes moved. The illustrated guides and papers on the Transformer architecture and its variants are now in [Transformers](transformers.md), and the notes on ELMo, ULMFiT, BERT, XLNet, GPT-2, and GPT-3 style models are now in [Pretrained Language Models](../language-ai/pretrained-language-models.md).
 
 # Attention
 
-This page collects notes on attention, transformers, contextual embeddings, BERT-family models, and related GAN and label-smoothing material.
+An encoder-decoder squeezes a whole input sequence into one fixed vector, and attention lets the decoder look back at every input step instead. This page starts with the illustrated guides and the papers that introduced attention, then walks how scoring and context vectors work in encoder-decoder RNNs, and ends with Keras attention code; deprecated addresses stay last.
 
-The same notes are in [SEQ2SEQ SEQUENCE TO SEQUENCE](../language-ai/neural-nlp.md#seq2seq-sequence-to-sequence).
+Attention grew out of sequence-to-sequence models, so it shares their notes. The same notes are in [SEQ2SEQ SEQUENCE TO SEQUENCE](../language-ai/neural-nlp.md#seq2seq-sequence-to-sequence).
 
-1. Illustrated attention- AMAZING
-2. Illustrated self attention - great
-3. [Jay alamar on attention, the first one is better.](http://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
-4. [Attention is all you need (paper)](https://arxiv.org/abs/1706.03762)
-5. [The annotated transformer - reviewing the paper](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
-6. [Lilian weng on attention](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html), self, soft vs hard, global vs local, neural turing machines, pointer networks, transformers, snail, self attention GAN.
-7. [Understanding attention in rnns](https://medium.com/datadriveninvestor/attention-in-rnns-321fbcd64f05)
-8. Another good intro with gifs to attention
-9. [Clear insight to what attention is, a must read](http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/)!
-10. [Transformer NN by google](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html) - faster, better, more accurate
-11. Intuitive explanation to attention
-12. [Attention by vidhya](https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/)
-13. [Augmented rnns](https://distill.pub/2016/augmented-rnns/) - including turing / attention / adaptive computation time etc. general overview, not as clear as the one below. <figure><img src="../.gitbook/assets/gimg-6419fa39f213.png" alt=""><figcaption><p>Augmented RNNs overview figure.</p><p>Credit: <a href="https://lh5.googleusercontent.com/5Cxd-2INMRXvO_TsSWX6cXtx_j4moRLqJAhRMdwYFFTDEkPZ6Ph_NbKbC4dVRAP-ctYMJGQdw5RrBO4eboM6FwA4W_U4Rmwv1_wmrG6SC-2dvdF94AnDnHXcBSqKBWZwByynuFGd">copied from the original hosted image</a>.</p></figcaption></figure>
+The best way in is visual. Illustrated attention- AMAZING and Illustrated self attention - great are the two illustrated guides. The Illustrated attention link is at the end of the body, where its address now serves a different article, and the Illustrated self attention address is kept in the deprecated list. Next, [Jay alamar on attention, the first one is better.](http://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) is Jay Alammar's Visualizing A Neural Machine Translation Model, the mechanics of seq2seq models with attention, animated.
+
+From the pictures to the source: [Attention is all you need (paper)](https://arxiv.org/abs/1706.03762) is the paper, and [The annotated transformer - reviewing the paper](http://nlp.seas.harvard.edu/2018/04/03/attention.html) is The Annotated Transformer. For the whole family at once, [Lilian weng on attention](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html), self, soft vs hard, global vs local, neural turing machines, pointer networks, transformers, snail, self attention GAN.
+
+Before the transformer, attention lived inside RNNs. [Understanding attention in rnns](https://medium.com/datadriveninvestor/attention-in-rnns-321fbcd64f05) starts from why even LSTMs, which overcome vanishing gradients, still hit a limit on long sequences. Another good intro with gifs to attention sat beside it. The WildML post, now at https://dennybritz.com/posts/wildml/attention-and-memory-in-deep-learning-and-nlp/, is the [Clear insight to what attention is, a must read](http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/). Google's announcement, [Transformer NN by google](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html), is Jakob Uszkoreit's post on the Transformer as a novel architecture for language understanding, set against RNNs. An Intuitive explanation to attention is the self-attention post linked at the end of the page. [Attention by vidhya](https://www.analyticsvidhya.com/blog/2019/11/comprehensive-guide-attention-mechanism-deep-learning/) is Himanshi Singh's guide to the attention mechanism, its introduction in deep learning, an implementation in Python using Keras, and its applications in computer vision.
+
+Attention is one of several ways to extend an RNN. [Augmented rnns](https://distill.pub/2016/augmented-rnns/) - including turing / attention / adaptive computation time etc. general overview, not as clear as the one below.
+
+<figure><img src="../.gitbook/assets/gimg-6419fa39f213.png" alt=""><figcaption><p>Augmented RNNs overview figure.</p><p>Credit: <a href="https://lh5.googleusercontent.com/5Cxd-2INMRXvO_TsSWX6cXtx_j4moRLqJAhRMdwYFFTDEkPZ6Ph_NbKbC4dVRAP-ctYMJGQdw5RrBO4eboM6FwA4W_U4Rmwv1_wmrG6SC-2dvdF94AnDnHXcBSqKBWZwByynuFGd">copied from the original hosted image</a>.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/gimg-e5938dbbf1a4.png" alt=""><figcaption><p>Augmented RNNs overview figure.</p><p>Credit: <a href="https://lh3.googleusercontent.com/G7aL7maJfczYfXc-Zhg69IHeusTlQxE78b3TGHMd_nrH1f6JXUHosA3K6kg2dZEmOMqWWeF61qhcko260IGUBHUEshL2MW4ZnIh1deTY-OtXnsoluqlOmJsOGHBgsBLIRCKUbFZp">copied from the original hosted image</a>.</p></figcaption></figure>
 
-1. [A really good REVIEW on attention and its many forms, historical changes, etc](https://medium.com/@joealato/attention-in-nlp-734c6fa9d983)
-2. [Medium on comparing cnn / rnn / han](https://medium.com/jatana/report-on-text-classification-using-cnn-rnn-han-f0e887214d5f) - will change on other data, my impression is that the data is too good in this article
-3. Mastery on [rnn vs attention vs global attention](https://machinelearningmastery.com/global-attention-for-encoder-decoder-recurrent-neural-networks/) - a really unclear intro
-4. Mastery on [attention](https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/) - this makes the whole process clear, scoring encoder vs decoder input outputs, normalizing them using softmax (annotation weights), multiplying score and the weight summed on all (i.e., context vector), and then we decode the context vector.
-   1. Soft (above) and hard crisp attention
-   2. Dropping the hidden output - HAN or AB BiLSTM
-   3. Attention concat to input vec
-   4. Global vs local attention
-5. Mastery on [attention with lstm encoding / decoding](https://machinelearningmastery.com/implementation-patterns-encoder-decoder-rnn-architecture-attention/) - a theoretical discussion about many attention architectures. This adds make-sense information to everything above.
-   1. Encoder: The encoder is responsible for stepping through the input time steps and encoding the entire sequence into a fixed length vector called a context vector.
-   2. Decoder: The decoder is responsible for stepping through the output time steps while reading from the context vector.
-   3. A problem with the architecture is that performance is poor on long input or output sequences. The reason is believed to be because of the fixed-sized internal representation used by the encoder.
-      1. Enc-decoder
-      2. Recursive
-      3. Enc-dev with recursive<figure><img src="../.gitbook/assets/gimg-9d21962e5ebd.png" alt=""><figcaption><p>Encoder-decoder attention architecture patterns.</p><p>Credit: <a href="https://lh6.googleusercontent.com/FcrjF3Fo9W5OeKP6E1YaGLDUBwdiB3AYr_r6-XdIO4g4t58RTe5eRFyIU5Jm3bk2mn1KOSxbPV-CF3mN6M7USCg4q_QYhwAoSoTxtJqvCzJPz0ABVwn3D3nQuXXuIWUvz8mNpMlt">copied from the original hosted image</a>.</p></figcaption></figure>
-6. Code on GIT:
-   1. HAN - [GIT](https://github.com/richliao/textClassifier), paper
-   2. [Non penalized self attention](https://github.com/uzaymacar/attention-mechanisms/blob/master/examples/sentiment_classification.py)
-   3. LSTM, [BiLSTM attention](https://github.com/gentaiscool/lstm-attention), [paper](https://arxiv.org/pdf/1805.12307.pdf)
-   4. Tushv89, [Keras layer attention implementation](https://github.com/thushv89/attention_keras)
-   5. Richliao, hierarchical [Attention code for document classification using keras](https://github.com/richliao/textClassifier/blob/master/textClassifierHATT.py), [blog](https://richliao.github.io/supervised/classification/2016/12/26/textclassifier-HATN/), [group chatter](https://groups.google.com/forum/#!topic/keras-users/IWK9opMFavQ)
+The one below is the clearer one. [A really good REVIEW on attention and its many forms, historical changes, etc](https://medium.com/@joealato/attention-in-nlp-734c6fa9d983) starts with the attention mechanism as Bahdanau introduced it, then goes through self-attention, two-way attention, key-value-predict models and hierarchical attention. Whether attention helps depends on the data: [Medium on comparing cnn / rnn / han](https://medium.com/jatana/report-on-text-classification-using-cnn-rnn-han-f0e887214d5f) - will change on other data, my impression is that the data is too good in this article.
 
-note: word level then sentence level embeddings.
+The mechanics come from Jason Brownlee's Machine Learning Mastery. Mastery on [rnn vs attention vs global attention](https://machinelearningmastery.com/global-attention-for-encoder-decoder-recurrent-neural-networks/) introduces global attention as a simplification of attention for encoder-decoder RNNs that is easier to implement. Mastery on [attention](https://machinelearningmastery.com/how-does-attention-work-in-encoder-decoder-recurrent-neural-networks/) - this makes the whole process clear, scoring encoder vs decoder input outputs, normalizing them using softmax (annotation weights), multiplying score and the weight summed on all (i.e., context vector), and then we decode the context vector. Its variants are:
 
-figure= >
+ 1. Soft (above) and hard crisp attention
+ 2. Dropping the hidden output - HAN or AB BiLSTM
+ 3. Attention concat to input vec
+ 4. Global vs local attention
 
-1. [Self Attention pip for keras](https://pypi.org/project/keras-self-attention/), [git](https://github.com/CyberZHG/keras-self-attention)
-2. [Phillip remy on attention in keras, not a single layer, a few of them to make it.](https://github.com/philipperemy/keras-attention-mechanism)
-3. [Self attention with relative positiion representations](https://medium.com/@_init_/how-self-attention-with-relative-position-representations-works-28173b8c245a)
-4. [nMT - jointly learning to align and translate](https://arxiv.org/abs/1409.0473)
-5. [Medium on attention plus code, comparison keras and pytorch](https://medium.com/huggingface/understanding-emotions-from-keras-to-pytorch-3ccb61d5a983)
+Mastery on [attention with lstm encoding / decoding](https://machinelearningmastery.com/implementation-patterns-encoder-decoder-rnn-architecture-attention/) - a theoretical discussion about many attention architectures. This adds make-sense information to everything above. It frames the problem attention solves:
+
+ 1. Encoder: The encoder is responsible for stepping through the input time steps and encoding the entire sequence into a fixed length vector called a context vector.
+ 2. Decoder: The decoder is responsible for stepping through the output time steps while reading from the context vector.
+ 3. A problem with the architecture is that performance is poor on long input or output sequences. The reason is believed to be because of the fixed-sized internal representation used by the encoder.
+
+The implementation patterns it compares are:
+
+ 1. Enc-decoder
+ 2. Recursive
+ 3. Enc-dev with recursive
+
+<figure><img src="../.gitbook/assets/gimg-9d21962e5ebd.png" alt=""><figcaption><p>Encoder-decoder attention architecture patterns.</p><p>Credit: <a href="https://lh6.googleusercontent.com/FcrjF3Fo9W5OeKP6E1YaGLDUBwdiB3AYr_r6-XdIO4g4t58RTe5eRFyIU5Jm3bk2mn1KOSxbPV-CF3mN6M7USCg4q_QYhwAoSoTxtJqvCzJPz0ABVwn3D3nQuXXuIWUvz8mNpMlt">copied from the original hosted image</a>.</p></figcaption></figure>
+
+With the patterns clear, the Code on GIT follows. HAN - [GIT](https://github.com/richliao/textClassifier) is a text classifier for Hierarchical Attention Networks for Document Classification. [Non penalized self attention](https://github.com/uzaymacar/attention-mechanisms/blob/master/examples/sentiment_classification.py) is the sentiment classification example from a family of attention mechanism implementations compatible with TensorFlow 2.0 and Keras. LSTM [BiLSTM attention](https://github.com/gentaiscool/lstm-attention) is an attention-based bidirectional LSTM for a classification task (ICASSP), and its [paper](https://arxiv.org/pdf/1805.12307.pdf) is Attention-Based LSTM for Psychological Stress Detection from Spoken Language Using Distant Supervision. Tushv89 [Keras layer attention implementation](https://github.com/thushv89/attention_keras) is a Keras layer implementation of attention for sequential models. Richliao, hierarchical [Attention code for document classification using keras](https://github.com/richliao/textClassifier/blob/master/textClassifierHATT.py) is the HAN script in that same repo, and his [blog](https://richliao.github.io/supervised/classification/2016/12/26/textclassifier-HATN/) is Richard Liao's Text Classification, Part 3 - Hierarchical attention network. The Keras users [group chatter](https://groups.google.com/forum/#!topic/keras-users/IWK9opMFavQ) is the discussion around it. The note on all of these: word level then sentence level embeddings.
+
+Self-attention in Keras has its own packages. [Self Attention pip for keras](https://pypi.org/project/keras-self-attention/) is the package, and its [git](https://github.com/CyberZHG/keras-self-attention) repo describes an attention mechanism for sequential data that considers the context for each timestamp. [Phillip remy on attention in keras, not a single layer, a few of them to make it.](https://github.com/philipperemy/keras-attention-mechanism) is a Keras attention layer with Luong and Bahdanau scores.
+
+Position is the last piece. [Self attention with relative positiion representations](https://medium.com/@_init_/how-self-attention-with-relative-position-representations-works-28173b8c245a) explains the Shaw et al. paper that modified the Transformer's self-attention to consider the relative distances between sequence elements. The original alignment idea is [nMT - jointly learning to align and translate](https://arxiv.org/abs/1409.0473), Neural Machine Translation by Jointly Learning to Align and Translate. [Medium on attention plus code, comparison keras and pytorch](https://medium.com/huggingface/understanding-emotions-from-keras-to-pytorch-3ccb61d5a983) is Thomas Wolf's Hugging Face post on detecting emotions, sentiments and sarcasm, moving the model from Keras to PyTorch.
+
+The Towards Data Science posts close the page. The Intuitive explanation to attention, an-intuitive-explanation-of-self-attention-4f72709638e1, is at [https://towardsdatascience.com/an-intuitive-explanation-of-self-attention-4f72709638e1](https://towardsdatascience.com/an-intuitive-explanation-of-self-attention-4f72709638e1). Illustrated attention, attn-illustrated-attention-5ec4ad276ee3, is at [https://towardsdatascience.com/attn-illustrated-attention-5ec4ad276ee3](https://towardsdatascience.com/attn-illustrated-attention-5ec4ad276ee3); that address now opens Alex Dremov's Understanding Flash Attention, which writes the algorithm from scratch as a GPU kernel in Triton. For attention inside BERT, deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1 is at [https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1](https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1).
 
 ## Deprecated links
 
@@ -71,14 +63,11 @@ These links and images no longer work. The original wording is kept here. A same
 - fine-tuning. This address no longer opens: http://wiki.fast.ai/index.php/Fine_tuning
 - Towards Data Science: 2019-year-of-bert-and-transformer-f200b53d05b9. This address no longer opens: https://towardsdatascience.com/2019-year-of-bert-and-transformer-f200b53d05b9
 - Towards Data Science: 3-ways-to-make-new-language-models-f3642e3a4816. This address no longer opens: https://towardsdatascience.com/3-ways-to-make-new-language-models-f3642e3a4816
-- Towards Data Science: an-intuitive-explanation-of-self-attention-4f72709638e1. This address no longer opens: https://towardsdatascience.com/an-intuitive-explanation-of-self-attention-4f72709638e1
-- Towards Data Science: attn-illustrated-attention-5ec4ad276ee3. This address no longer opens: https://towardsdatascience.com/attn-illustrated-attention-5ec4ad276ee3
 - Towards Data Science: bert-is-not-good-at-7b1ca64818c5. This address no longer opens: https://towardsdatascience.com/bert-is-not-good-at-7b1ca64818c5
 - Towards Data Science: beyond-word-embeddings-part-2-word-vectors-nlp-modeling-from-bow-to-bert-4ebd4711d0ec. This address no longer opens: https://towardsdatascience.com/beyond-word-embeddings-part-2-word-vectors-nlp-modeling-from-bow-to-bert-4ebd4711d0ec
 - Towards Data Science: breaking-bert-down-430461f60efb. This address no longer opens: https://towardsdatascience.com/breaking-bert-down-430461f60efb
 - Towards Data Science: build-a-bert-sci-kit-transformer-59d60ddd54a5. This address no longer opens: https://towardsdatascience.com/build-a-bert-sci-kit-transformer-59d60ddd54a5
 - Towards Data Science: deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77. This address no longer opens: https://towardsdatascience.com/deconstructing-bert-distilling-6-patterns-from-100-million-parameters-b49113672f77
-- Towards Data Science: deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1. This address no longer opens: https://towardsdatascience.com/deconstructing-bert-part-2-visualizing-the-inner-workings-of-attention-60a16d86b5c1
 - Towards Data Science: demystifying-generative-adversarial-networks-c076d8db8f44. This address no longer opens: https://towardsdatascience.com/demystifying-generative-adversarial-networks-c076d8db8f44
 - Towards Data Science: elmo-contextual-language-embedding-335de2268604. This address no longer opens: https://towardsdatascience.com/elmo-contextual-language-embedding-335de2268604
 - Towards Data Science: elmo-helps-to-further-improve-your-word-embeddings-c6ed2c9df95f. This address no longer opens: https://towardsdatascience.com/elmo-helps-to-further-improve-your-word-embeddings-c6ed2c9df95f

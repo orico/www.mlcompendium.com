@@ -2,33 +2,16 @@
 
 A network learns features the earlier chapters had to specify by hand, and there is no linear-algebra page and no classical computer-vision page in this book.
 After this chapter the reader can follow a net from the gradient to the architecture and can place vision, audio, tabular, and sequence nets on that map.
+The chapter goes in that order: first how a net is trained, then the architectures built on that training, then the modalities those architectures are applied to.
 
 ## Training
 
-- [Calculus](calculus.md)
-- [Game Theory](game-theory.md)
-- [Deep Neural Nets Basics](deep-neural-nets.md)
-- [Deep Network Optimization](deep-network-optimization.md)
-- [Deep Neural Frameworks](deep-neural-frameworks.md)
+Training starts with the gradient, so [Calculus](calculus.md) comes first, as the starting point for the matrix calculus used when differentiating through neural nets. [Game Theory](game-theory.md) follows, for game theory as it shows up in computer science and AI. With those in hand, [Deep Neural Nets Basics](deep-neural-nets.md) covers the building blocks of deep nets (perceptrons, multilayer networks, activations, and loss) and how training runs, from gradient descent, batch size, learning rate, and optimizers to batch normalization, dropout, and reading train/val accuracy. Once a net trains, [Deep Network Optimization](deep-network-optimization.md) is about making it smaller or more teachable through pruning, knowledge distillation, and lottery tickets, and about debugging nets that fail to train. [Deep Neural Frameworks](deep-neural-frameworks.md) closes the part with the libraries used in practice, PyTorch, fast.ai, and Keras, and the NVIDIA CUDA stack that runs them on a GPU.
 
 ## Architectures
 
-- [Autoencoders](autoencoders.md)
-- [Convolutional Nets](convolutional-nets.md)
-- [Recurrent Nets](recurrent-nets.md)
-- [Attention](attention.md)
-- [Transformers](transformers.md)
-- [Bayesian Neural Nets](bayesian-neural-nets.md)
-- [Graph Neural Nets](graph-neural-nets.md)
-- [Siamese Nets](siamese-nets.md)
-- [Other Architectures](other-architectures.md)
-- [Representations](representations.md)
-- [Meta Learning (AutoML)](meta-learning.md)
+The same training loop drives very different shapes of network. [Autoencoders](autoencoders.md) are the reconstruction setups used for dimensionality reduction, with variational autoencoders after the basics. [Convolutional Nets](convolutional-nets.md) are the nets for vision-style feature learning, with capsule nets, transfer learning, and visualization of what they learn. [Recurrent Nets](recurrent-nets.md) handle sequences and time series with back propagation, LSTM and GRU cells, and related variants. The [Attention](attention.md) notes have moved on to the Transformers and pretrained language model pages, and [Transformers](transformers.md) collects the illustrated guides and papers on the Transformer architecture and its family of variants. [Bayesian Neural Nets](bayesian-neural-nets.md) add prediction uncertainty to a net. [Graph Neural Nets](graph-neural-nets.md) cover graph convolutional networks and node-embedding methods such as DeepWalk and Node2vec. [Siamese Nets](siamese-nets.md) learn a similarity between inputs for one-shot learning rather than a flat class label. [Other Architectures](other-architectures.md) gathers the families beyond standard deep nets: self-organizing maps, neuro-evolution, RBFNs, and signal-processing networks. [Representations](representations.md) is the embedding page, from entity embeddings and *2vec techniques to vector similarity search. [Meta Learning (AutoML)](meta-learning.md) ends the part by automating model choice, hyperparameters, and architecture search.
 
 ## Modalities
 
-- [Deep Neural Machine Vision](deep-neural-machine-vision.md)
-- [Deep Neural Audio](deep-neural-audio.md)
-- [Deep Neural Tabular](deep-neural-tabular.md)
-- [Deep Neural Time Series](deep-neural-time-series.md)
-
+The architectures then meet a kind of data. [Deep Neural Machine Vision](deep-neural-machine-vision.md) covers detection, recognition, and segmentation in machine vision. [Deep Neural Audio](deep-neural-audio.md) collects models for speech, sound classification, and related audio tasks. [Deep Neural Tabular](deep-neural-tabular.md) points at TabNet and at surveys of deep learning on tabular data. [Deep Neural Time Series](deep-neural-time-series.md) points at NeuralProphet for deep neural time-series forecasting.

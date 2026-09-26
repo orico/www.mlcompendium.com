@@ -1,10 +1,11 @@
 # Calculus
 
-This page is a starting point for matrix calculus, with a note that help is welcome.
+A deep net is trained by optimizing a loss function, and that means taking derivatives through matrices, not single numbers.
+This page is the starting point for the matrix calculus used when differentiating through neural nets: one explained.ai note to read first, and an open invitation to grow the page.
 
-[Start here!](https://explained.ai/matrix-calculus/)
+The note to read first is [Start here!](https://explained.ai/matrix-calculus/), "The Matrix Calculus You Need For Deep Learning". It starts from the fact that most of us last saw calculus in school, even though derivatives are a critical part of training deep neural networks, and tries to explain all the matrix calculus needed to understand that training while assuming nothing beyond calculus 1.
 
-Help needed to make this page great, [please contact me](mailto:ori@oric).
+That one note is all the page holds for now. Help needed to make this page great, [please contact me](mailto:ori@oric).
 
 ## Deprecated links
 
