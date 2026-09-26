@@ -2,6 +2,8 @@
 
 This page collects fuzzy string matching and regex tooling notes.
 
+The same notes are in [Name Matching](name-matching.md) and [SIMILARITY](../validation-and-evaluation/features.md#similarity).
+
 ## Tools
 
 This section lists fuzzy matching libraries and edit-distance approaches.

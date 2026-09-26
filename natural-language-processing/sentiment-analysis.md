@@ -52,6 +52,8 @@ Reference papers:
 
 This section records how VADER raters were screened and how multilingual tweet agreement was measured.
 
+The same notes are in [Inter agreement](annotation-and-disagreement.md#inter-agreement).
+
 1. For sentiment In Vader -
    1. “Screening for English language reading comprehension – each rater had to individually score an 80% or higher on a standardized college-level reading comprehension test.
    2. Complete an online sentiment rating training and orientation session, and score 90% or higher for matching the known (prevalidated) mean sentiment rating of lexical items which included individual words, emoticons, acronyms, sentences, tweets, and text snippets (e.g., sentence segments, or phrases).

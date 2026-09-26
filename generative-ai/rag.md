@@ -2,6 +2,8 @@
 
 This page collects RAG tutorials and Graph RAG notes.
 
+The same notes are in [GenAI Applications](genai-applications.md), [Search](../natural-language-processing/search.md), [Tools](large-language-models-llms.md#tools), and [Vector databases](../ops/dataops/lakes-and-warehouses.md#vector-databases).
+
 ## Tutorials
 
 This section points at practical RAG write-ups.
@@ -12,6 +14,8 @@ This section points at practical RAG write-ups.
 ## Graph RAG
 
 This section points at Graph RAG explainers.
+
+The same notes are in [Knowledge Graphs](../natural-language-processing/knowledge-graphs.md).
 
 1. [Microsoft on GraphRAG: Unlocking LLM discovery on narrative private data](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)
 

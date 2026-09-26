@@ -69,9 +69,13 @@ Loading and storing data, in the docs.
 
 12. HyperparameterHunter. [Hyperopt, MLflow, unit tests, concept drift, using Python and Kafka](https://medium.com/data-science/putting-ml-in-production-ii-logging-and-monitoring-algorithms-91f174044e4e), Javier Rodriguez Zaurin.
 
+The same notes are in [Drift](mlops-monitoring-and-alerts.md#drift) and [ML Experiment Management](experiment-management.md).
+
 ## Patterns in practice
 
 This section is two end-to-end systems and the tools each one uses.
+
+The same notes are in [MetaFlow](full-stack-and-ops.md#metaflow) and [Prefect](full-stack-and-ops.md#prefect).
 
 - An MLOps end-to-end system, "[You dont need a bigger boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat)", using Metaflow, Snowflake, DBT, Prefect, Great Expectations, Weights & Biases, SageMaker, and Lambda.
 - [A simplistic end-to-end system](https://github.com/jacopotagliabue/post-modern-stack): Snowflake, DBT, S3, CometML, Reclist, and SageMaker.

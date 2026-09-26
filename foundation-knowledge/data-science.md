@@ -6,6 +6,8 @@ This page collects notes on the data-science lifecycle, workflows, teams, course
 
 This section is team data-science lifecycles from Microsoft, Google MLOps, and a Fast.ai checklist.
 
+The same notes are in [MLOps Intro](../ops/mlops/mlops-intro.md).
+
 [Microsoft on Team DS Lifecycle](https://docs.microsoft.com/en-us/azure/architecture/data-science-process/overview) - "The Team Data Science Process (TDSP) is an agile, iterative data science methodology to deliver predictive analytics solutions and intelligent applications efficiently. TDSP helps improve team collaboration and learning by suggesting how team roles work best together. TDSP includes best practices and structures from Microsoft and other industry leaders to help toward successful implementation of data science initiatives. The goal is to help companies fully realize the benefits of their analytics program.
 
 This article provides an overview of TDSP and its main components. We provide a generic description of the process here that can be implemented with different kinds of tools. A more detailed description of the project tasks and roles involved in the lifecycle of the process is provided in additional linked topics. Guidance on how to implement the TDSP using a specific set of Microsoft tools and infrastructure that we use to implement the TDSP in our teams is also provided."
@@ -76,6 +78,8 @@ by [Uri Weiss](https://linkedin.com/in/uriweiss). wrong credits? [please contact
 
 This section contrasts DS vs DA vs MLE and points at team-building references.
 
+The same notes are in [Building Teams](management.md#building-teams) and [Scaling Agile - Agile Approaches](management.md#scaling-agile---agile-approaches).
+
 1. [DS vs DA vs MLE](https://medium.com/@meightpc_14421/data-scientist-vs-data-analysis-vs-ml-engineer-which-job-is-most-suited-for-you-def7b12b3256) - the most intensive diagram post ever. This is the motherload of figure references.
 
 References:
@@ -98,6 +102,8 @@ This section points at Netflix culture and the keeper test.
 
 This section is agile-style methods for data-science research projects.
 
+The same notes are in [Building Teams](management.md#building-teams) and [Scaling Agile - Agile Approaches](management.md#scaling-agile---agile-approaches).
+
 1. [How to manage a data science research team using agile methodology, not scrum and not kanban](https://medium.com/data-science/data-science-agile-cycles-my-method-for-managing-data-science-projects-in-the-hi-tech-industry-b289e8a72818)
 2. [Workflow for data science research projects](https://medium.com/data-science/data-science-project-flow-for-startups-282a93d4508d)
 3. [Tips for data science research management](https://medium.com/data-science/my-best-tips-for-agile-data-science-research-b40365cc979d)
@@ -114,6 +120,8 @@ This section points at ICLR, NLP, and State of AI trend summaries.
 ## Building Data/DS teams
 
 This section is stories and models for how data teams organize.
+
+The same notes are in [Data Teams](../ops/dataops/data-teams.md) and [MLOps Teams](../ops/mlops/mlops-teams.md).
 
 1. [(great) the data team a short story by erik bern](https://erikbern.com/2021/07/07/the-data-team-a-short-story.html)
 2. [Guilds / Gangs / Squads](https://aviranm.medium.com/the-evolution-of-a-guild-a6c7d1927610) by Aviran Mordo
@@ -208,6 +216,8 @@ This section lists books and notebook repos for ML design patterns, gensim, deep
 4. Yandex school, [nlp notebooks](https://github.com/yandexdataschool/nlp_course)
 5. [Machine learning engineering book](http://www.mlebook.com/wiki/doku.php) (i.e., data science)
 6. [Interpretable Machine Learning book](https://christophm.github.io/interpretable-ml-book/)
+
+The same notes are in [Interpretable & Explainable AI (XAI)](../validation-and-evaluation/interpretable-and-explainable-ai-xai.md).
 
 ## Cost
 

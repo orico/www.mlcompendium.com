@@ -22,6 +22,8 @@ This section points at the PyTorch book, Yann LeCun's course, and the official t
 
 This section points at the fast.ai repository.
 
+The same notes are in [FAST.AI](../foundation-knowledge/data-science-tools.md#fastai).
+
 1. [git](https://github.com/fastai/fastai)
 
 ## KERAS
@@ -87,6 +89,8 @@ This part is the functional API: layers in parallel, and graphs with shared feat
 
 This part is the Keras embedding layer, GloVe, word2vec, and fastText.
 
+The same notes are in [Embedding](embedding.md).
+
 1. [Injecting glove to keras embedding layer and using it for classification + what is and how to use the embedding layer in keras.](https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/)
 2. [Keras blog - using GLOVE for pretrained embedding layers.](https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html)
 3. Word embedding using keras, continuous BOW - CBOW, SKIPGRAM, word2vec - really good.
@@ -115,6 +119,8 @@ Keras metrics
 ### LOSS IN KERAS
 
 This part is why training loss is higher than testing loss.
+
+The same notes are in [Cross entropy, relative ent, KL-D, JS-D, soft max](../foundation-knowledge/information-theory.md#cross-entropy-relative-ent-kl-d-js-d-soft-max) and [Perplexity](../validation-and-evaluation/evaluation-metrics.md#perplexity).
 
 [Why is the training loss much higher than the testing loss?](https://keras.io/getting-started/faq/#why-is-the-training-loss-much-higher-than-the-testing-loss) A Keras model has two modes: training and testing. Regularization mechanisms, such as Dropout and L1/L2 weight regularization, are turned off at testing time.
 

@@ -2,6 +2,8 @@
 
 This page collects prompt-engineering articles, papers, and techniques.
 
+The same notes are in [Articles](large-language-models-llms.md#articles), [GPT](gpt.md), [GPT3 is ZERO, ONE, FEW](../types-of-machine-learning/n-shot-learning.md#gpt3-is-zero-one-few), and [Large Language Models (LLMs)](large-language-models-llms.md).
+
 ## Articles
 
 This section lists guides and curated prompt collections.
@@ -26,6 +28,8 @@ This subsection covers automatic and context-aware prompt design.
 ### Prompt Tuning
 
 This subsection covers parameter-efficient soft prompts and related guides.
+
+The same notes are in [Methods](methods.md).
 
 1. [The power of scale for parameter efficient prompt tuning](https://arxiv.org/abs/2104.08691) - it becomes more competitive at scale.
 2. [Guiding Frozen Language Models with Learned Soft Prompts](https://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html), [tweet](https://twitter.com/GoogleAI/status/1491915977138720770)

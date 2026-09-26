@@ -2,6 +2,8 @@
 
 This page collects introductions, tools, deep learning methods, and papers for survival analysis.
 
+The same notes are in [Life Time Value (LTV)](life-time-value-ltv.md).
+
 1. A good [introduction](https://web.archive.org/web/20170712125627/http://www.stat.columbia.edu/~madigan/W2025/notes/survival.pdf) for Survival Analysis, [Intro](https://medium.com/analytics-vidhya/survival-analysis-an-introduction-87a94c98061), [brief intro](https://medium.com/geekculture/survival-analysis-a-brief-introduction-e814f88a7a42), [Intuition](https://medium.com/data-science/survival-analysis-intuition-implementation-in-python-504fde4fcf8e)
 2. [What is?](https://medium.com/inside-machine-learning/survival-analysis-cb5832ffcd78)
 3. [Survival scikit kit](https://scikit-survival.readthedocs.io/en/stable/user_guide/00-introduction.html#What-is-Survival-Analysis?)

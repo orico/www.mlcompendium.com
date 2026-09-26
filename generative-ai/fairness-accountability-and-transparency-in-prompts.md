@@ -2,6 +2,8 @@
 
 This page collects papers on debiasing with prompts and on LLM hallucinations.
 
+The same notes are in [Fairness, Accountability, and Transparency](../validation-and-evaluation/fairness-accountability-and-transparency.md).
+
 ## Debiasing using prompts
 
 This section lists papers on reducing bias with prompt-based methods.

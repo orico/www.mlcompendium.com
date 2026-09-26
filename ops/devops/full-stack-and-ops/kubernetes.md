@@ -2,6 +2,8 @@
 
 This page covers Kubernetes basics and advanced reading, Helm, Kubeflow, and MiniKF.
 
+The same notes are in [DevOps Courses](../devops-courses.md).
+
 ## Kubernetes
 
 This section is beginner and advanced Kubernetes guides, plus a tools list.
@@ -21,6 +23,8 @@ This section is Helm as the package manager for Kubernetes.
 ## Kubeflow
 
 This section is Kubeflow intros, a presentation, and tutorials.
+
+The same notes are in [Kubeflow for data science](../../mlops/full-stack-and-ops.md#kubeflow-for-data-science) and [MLOps Intro](../../mlops/mlops-intro.md).
 
 - [YouTube — the easy way](https://www.youtube.com/watch?v=P5wcE4IwKgQ), [intro](https://medium.com/@amina.alsherif/how-to-get-started-with-kubeflow-187792f3e99), [intro2](https://kubernetes.io/blog/2017/12/introducing-kubeflow-composable/), [intro3](https://medium.com/better-programming/kubeflow-pipelines-with-gpus-1af6a74ec2a)
 - [Really good detailed article, for example it supports many serving options such as Seldon](https://ubuntu.com/blog/ml-serving-models-with-kubeflow-on-ubuntu-part-1)

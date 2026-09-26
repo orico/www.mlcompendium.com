@@ -45,6 +45,9 @@ This section is a reading list of NLP-for-hackers tutorials, from WordNet throug
 13. [Nlp corpora](https://nlpforhackers.io/corpora/) corpuses
 14. [bow/bigrams](https://nlpforhackers.io/language-models/)
 15. [Textrank](https://nlpforhackers.io/textrank-text-summarization/)
+
+The same notes are in [Summarization](summarization.md).
+
 16. [Word cloud](https://nlpforhackers.io/word-clouds/)
 17. [Topic modelling using gensim, lsa, lsi, lda,hdp](https://nlpforhackers.io/topic-modeling/)
 18. [Spacy full tutorial](https://nlpforhackers.io/complete-guide-to-spacy/)
@@ -53,6 +56,8 @@ This section is a reading list of NLP-for-hackers tutorials, from WordNet throug
 ## Synonyms
 
 This section points at a vocabulary library for meanings, synonyms, and related lookup features.
+
+The same notes are in [Augmentation](augmentation.md).
 
 1. Python Module to get Meanings, Synonyms and what not for a given word using vocabulary (also a comparison against word net) [https://vocabulary.readthedocs.io/en/latest/](https://vocabulary.readthedocs.io/en/latest/)
 
@@ -71,11 +76,15 @@ For a given word, using Vocabulary, you can get its
 
 This section points at textacy as a spaCy-based Swiss-army-knife NLP library.
 
+The same notes are in [SPACY](nlp.md#spacy).
+
 1. [textacy](https://textacy.readthedocs.io/en/latest/) is a Python library for performing a variety of natural language processing (NLP) tasks, built on the high-performance spacy library. With the fundamentals — tokenization, part-of-speech tagging, dependency parsing, etc. — delegated to another library, textacy focuses on the tasks that come before and follow after.
 
 ## Collocation
 
 This section is about collocations: word pairs that co-occur more than chance.
+
+The same notes are in [Information Theory](../foundation-knowledge/information-theory.md).
 
 1. What is collocation? - “the habitual juxtaposition of a particular word with another word or words with a frequency greater than chance.”Medium [tutorial](https://medium.com/@nicharuch/collocations-identifying-phrases-that-act-like-individual-words-in-nlp-f58a93a2f84a), quite good, comparing freq/t-test/pmi/chi2 with github code
 2. A website dedicated to [collocations](http://www.collocations.de/), methods, references, metrics.
@@ -93,6 +102,8 @@ This section is about collocations: word pairs that co-occur more than chance.
 ## Language detection
 
 This section links a Google langdetect wrapper and its language list.
+
+The same notes are in [LANGUAGE DETECTION / IDENTIFICATION](language-detection-identification-generation-nld-nli-nlg.md#language-detection--identification).
 
 1. [Using google lang detect](https://github.com/Mimino666/langdetect) - 55 languages af, ar, bg, bn, ca, cs, cy, da, de, el, en, es, et, fa, fi, fr, gu, he,
 
@@ -123,6 +134,8 @@ $$\frac{\mathrm{count}(A\,B)-\mathrm{count}_{\min}}{\mathrm{count}(A)\cdot\mathr
 ## Document classification
 
 This section links hierarchical attention networks for document classification.
+
+The same notes are in [Intent Recognition](../business-domains/intent-recognition.md).
 
 1. [Using hierarchical attention network](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf)
 

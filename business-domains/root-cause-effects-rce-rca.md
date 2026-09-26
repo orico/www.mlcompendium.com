@@ -2,6 +2,8 @@
 
 This page lists papers and resources on root-cause analysis, fault diagnosis, and related graph methods.
 
+The same notes are in [Graph Theory](../classical-graph-models/graph-theory.md) and [Knowledge Graphs](../natural-language-processing/knowledge-graphs.md).
+
 1. [Survey on Models and Techniques for Root-Cause Analysis](https://arxiv.org/pdf/1701.08546.pdf)
 2. [Towards an Approximate Graph Entropy Measure for Identifying Incidents in Network Event Data](http://sro.sussex.ac.uk/id/eprint/59796/1/annet-paper.pdf)
 3. [Process connectivity and fault diagnosis, hazard assessment](https://doi.org/10.2478/v10006-012-0003-z)

@@ -2,6 +2,8 @@
 
 This page is about building knowledge graphs from text and structured sources.
 
+The same notes are in [GenAI Applications](../generative-ai/genai-applications.md), [Graph RAG](../generative-ai/rag.md#graph-rag), and [Root Cause Effects (RCE/RCA)](../business-domains/root-cause-effects-rce-rca.md).
+
 1. [Automatic creation of KG using spacy](https://medium.com/data-science/auto-generated-knowledge-graphs-92ca99a81121) and networx
 
    Knowledge graphs can be constructed automatically from text using part-of-speech and dependency parsing. The extraction of entity pairs from grammatical patterns is fast and scalable to large amounts of text using NLP library SpaCy.

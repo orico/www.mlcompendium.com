@@ -2,11 +2,16 @@
 
 This page lists clustering methods from k-means and GMM through density-based and constrained clustering, with tool links.
 
+The same notes are in [CLUSTERING METRICS](anomaly-detection.md#clustering-metrics), [CLUSTERING TS](timeseries.md#clustering-ts), and [UNSUPERVISED](../validation-and-evaluation/evaluation-metrics.md#unsupervised).
+
 1. [Vidhya on clustering and methods](https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/?utm_source=facebook.com)
 2. [KNN](https://www.youtube.com/watch?v=4ObVzTuFivY) [intuition 2](https://www.youtube.com/watch?v=UqYde-LULfs), thorough explanation 3 - classify a new sample by looking at the majority vote of its K-nearest neighbours. k=1 special case. Even amount of classes needs an odd K that is not a multiple of the amount of classes in order to break ties.
 3. [Determinging the number of clusters, a comparison of several methods, elbow, silhouette etc](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/)
 4. [A good visual example of kmeans / gmm](https://medium.com/sfu-cspmp/distilling-gaussian-mixture-models-701fa9546d9)
 5. Kmeans with DTW, probably fixed length vectors, using tslearn
+
+The same notes are in [Dynamic Time Warping (DTW)](timeseries.md#dynamic-time-warping-dtw).
+
 6. [Kmeans for variable length](https://medium.com/@iliazaitsev/how-to-classify-a-dataset-with-observations-of-various-length-96fab8e95baf), [notebook](https://github.com/devforfu/Blog/blob/master/trees/scikit_learn.py)
 
 TOOLS
@@ -19,6 +24,8 @@ TOOLS
 ### Block Modeling - Distance Matrices
 
 This subsection covers biclustering and clustering from distance or correlation matrices.
+
+The same notes are in [Graph Theory](../classical-graph-models/graph-theory.md).
 
 1. [Biclustering and spectral co clustering](https://scikit-learn.org/stable/modules/biclustering.html)
 2. [Clustering correlation, or distance matrices.](https://stats.stackexchange.com/questions/138325/clustering-a-correlation-matrix)
@@ -131,6 +138,8 @@ This subsection compares k-means++ with kernel k-means and elbow heuristics.
 
 This subsection lists scalable nearest-neighbour libraries and choosing k.
 
+The same notes are in [Interview questions](../foundation-knowledge/data-science-management.md#interview-questions) and [Normalization & Scaling](../foundation-knowledge/normalization-and-scaling.md).
+
 1. [Nearpy](https://github.com/pixelogik/NearPy), knn in scale! On github
 2. finding the optimal K
 3. [Benchmark of nearest neighbours libraries](https://github.com/erikbern/ann-benchmarks/)
@@ -164,6 +173,8 @@ This subsection links spatio-temporal DBSCAN papers and code.
 
 This subsection explains hierarchical DBSCAN and its documentation.
 
+The same notes are in [Anomaly Detection](anomaly-detection.md).
+
 (what is?) HDBSCAN is a clustering algorithm developed by [Campello, Moulavi, and Sander](http://link.springer.com/chapter/10.1007%2F978-3-642-37456-2_14). It extends DBSCAN by converting it into a hierarchical clustering algorithm, and then using a technique to extract a flat clustering based in the stability of clusters.
 
 - [Github code](https://github.com/scikit-learn-contrib/hdbscan)
@@ -193,6 +204,8 @@ This subsection defines the OPTICS density-based ordering algorithm.
 
 This subsection describes an SVM-based clustering paper and algorithm steps.
 
+The same notes are in [Support vector clustering (SVC)](linear-separator-algorithms.md#support-vector-clustering-svc).
+
 [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2099486/)
 
 An SVM-based clustering algorithm is introduced that clusters data with no a priori knowledge of input classes.
@@ -207,6 +220,8 @@ An SVM-based clustering algorithm is introduced that clusters data with no a pri
 ### COP-CLUSTERING
 
 This subsection covers COP-Kmeans with must-link and cannot-link constraints.
+
+The same notes are in [Semi Supervised](../types-of-machine-learning/semi-supervised.md).
 
 Constrained K-means algorithm, [git](https://github.com/Behrouz-Babaki/COP-Kmeans), [paper](https://web.cse.msu.edu/~cse802/notes/ConstrainedKmeans.pdf), is a semi-supervised algorithm.
 

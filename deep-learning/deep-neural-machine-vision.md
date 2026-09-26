@@ -2,6 +2,8 @@
 
 This page collects tools and notes on detection, recognition, and segmentation.
 
+The same notes are in [Machine Vision annotation](../natural-language-processing/annotation-and-disagreement.md#machine-vision-annotation) and [Vision](../generative-ai/vision.md).
+
 ## TOOLS
 
 This section points at image deduplication and Segment Anything.
@@ -18,6 +20,8 @@ This section points at a state-of-the-art comparison.
 ## DETECTION
 
 This section is object detection: the R-CNN family, YOLO, and related code.
+
+The same notes are in [CONVOLUTIONAL NEURAL NET](deep-learning-models.md#convolutional-neural-net) and [Mix N Match](../generative-ai/mix-n-match.md).
 
 <figure><img src="../.gitbook/assets/gimg-14a93cb242ce.png" alt=""><figcaption><p>Detection</p><p>Credit: <a href="https://lh5.googleusercontent.com/Efe-9nD1W6Hes040DI2Zgm2lzh0vnkYVTB95hnK1rmv3DYtfbPt9Bia0iVnSV49xJRs8JYLggj7KvIRGZDpbz4melmLvp0uLwQ-F6wtCjHYwRKjD4rw7DH8p90Gqo-P4DZNpW8fH">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -62,6 +66,8 @@ This section points at image recognition that uses hashtags.
 ## Segmentation
 
 This section points at a ViT segmentation page.
+
+The same notes are in [CONVOLUTIONAL NEURAL NET](deep-learning-models.md#convolutional-neural-net) and [Mix N Match](../generative-ai/mix-n-match.md).
 
 1. [Vit](https://dino-vit-features.github.io/)
 

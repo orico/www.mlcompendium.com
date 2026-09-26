@@ -2,6 +2,8 @@
 
 This page collects collaborative filtering, content-based, and matrix-factorization notes, then evaluation and tools.
 
+The same notes are in [Embedding](../deep-learning/embedding.md), [Multi Armed Bandits](../experimental-design/multi-armed-bandits.md), [SIMILARITY](../validation-and-evaluation/features.md#similarity), [SVD](dimensionality-reduction-methods.md#svd), and [TF-IDF](../natural-language-processing/tf-idf.md).
+
 1. [Beginner guide](https://www.analyticsvidhya.com/blog/2015/08/beginners-guide-learn-content-based-recommender-systems/) vidhya
 2. [Real python on CF](https://realpython.com/build-recommendation-engine-collaborative-filtering/#steps-involved-in-collaborative-filtering)
 3. [Intro to, using item-item or user-item](https://www.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/), validating using imdb data, git
@@ -31,6 +33,8 @@ This page collects collaborative filtering, content-based, and matrix-factorizat
 ## Evaluating Recommender Systems
 
 This section lists evaluation methods, business choice notes, and Microsoft’s accuracy-metrics survey.
+
+The same notes are in [Evaluation Metrics](../validation-and-evaluation/evaluation-metrics.md).
 
 1. An exhaustive list of methods to evaluate
 2. [Choosing the best for your business](https://medium.com/recombee-blog/evaluating-recommender-systems-choosing-the-best-one-for-your-business-c688ab781a35)

@@ -2,9 +2,13 @@
 
 This page collects CNN-for-text and sequence-to-sequence resources.
 
+The same notes are in [Deep Learning for NLP](../deep-learning/deep-neural-nets.md#deep-learning-for-nlp).
+
 ## CONVOLUTION NEURAL NETS (CNN)
 
 This section links CNN approaches for text and 1D sequences.
+
+The same notes are in [CONVOLUTIONAL NEURAL NET](../deep-learning/deep-learning-models.md#convolutional-neural-net).
 
 1. [Cnn for text](https://medium.com/@TalPerry/convolutional-methods-for-text-d5260fd5675f) — tal perry
 2. 1D CNN using KERAS
@@ -12,6 +16,8 @@ This section links CNN approaches for text and 1D sequences.
 ## SEQ2SEQ SEQUENCE TO SEQUENCE
 
 This section is about encoder–decoder seq2seq, teacher forcing, and related tutorials.
+
+The same notes are in [Attention](../deep-learning/attention.md), [Decoding Algorithms For NLP](decoding-algorithms-for-nlp.md), and [Recurrent Neural Net (RNN)](../deep-learning/deep-learning-models.md#recurrent-neural-net-rnn).
 
 1. [Keras blog](https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html) — char-level, token-using embedding layer, teacher forcing
 2. [Teacher forcing explained](https://medium.com/data-science/what-is-teacher-forcing-3da6217fed1c)

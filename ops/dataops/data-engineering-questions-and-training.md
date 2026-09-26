@@ -2,6 +2,8 @@
 
 This page collects interview questions, training prompts, and references for data engineering.
 
+The same notes are in [Data Engineering](data-engineering.md).
+
 ## General
 
 This section lists general interview questions about scale, collaboration, ETL performance, and related topics.
@@ -19,6 +21,8 @@ This section lists general interview questions about scale, collaboration, ETL p
 11. What are the considerations of choosing Spark vs BigQuery?
 12. What are the differences between ETL and ELT? [1](https://www.guru99.com/etl-vs-elt.html), [2](https://www.xplenty.com/blog/etl-vs-elt/)
 
+The same notes are in [Data Pipelines](data-pipelines.md).
+
 <figure><img src="../.gitbook/assets/0" alt=""><figcaption><p>ETL and ELT</p><p>Credit: <a href="https://www.guru99.com/etl-vs-elt.html">guru99/david taylor</a></p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/1" alt=""><figcaption><p>ETL and ELT</p></figcaption></figure>
@@ -28,6 +32,8 @@ This section lists general interview questions about scale, collaboration, ETL p
 ## CAP Theorem
 
 This section lists CAP theorem interview questions and related diagrams.
+
+The same notes are in [Cap theorem](data-engineering.md#cap-theorem).
 
 1. [What Is CAP Theorem?](https://www.fullstack.cafe/blog/cap-theorem-interview-questions)
 2. [Can you 'get around' or 'beat' the CAP Theorem?](https://www.fullstack.cafe/blog/cap-theorem-interview-questions)
@@ -51,6 +57,8 @@ This section lists CAP theorem interview questions and related diagrams.
 ## NoSQL vs relational
 
 This section asks when to choose NoSQL over a relational database and the reverse.
+
+The same notes are in [Database Modeling](database-architecture-and-modeling.md).
 
 Explain the difference and the reason to choose using NoSQL {mongoDB | DynamoDB | .. } over Relational database {Postgress |MySQL} and vice versa. Give an example for a project where you had to make this choice, and walk through your reasoning.
 
@@ -85,6 +93,8 @@ This section lists Athena engine, cost, and performance-tuning questions.
 
 This section lists Spark join strategies, DataFrame vs Dataset, and AQE notes.
 
+The same notes are in [Spark](../mlops/experiment-management.md#spark).
+
 1. [Several spark articles that can be used as candidate questions](https://medium.com/@sivaprasad-mandapati) by sivaprasad mandapati.
 2. [Join strategies #1](https://medium.com/datakaresolutions/optimize-spark-sql-joins-c81b4e3ed7da), [Join strategies #2](https://medium.com/data-science/strategies-of-spark-join-c0e7b4572bcf) — how? Pros and cons. (broadcast hash, shuffle hash, shuffle sort merge, cartesian).
 3. What’s the difference between a data frame and a dataset?
@@ -113,6 +123,8 @@ This section lists BigQuery cost, partitions, clustering, and access questions.
 
 This section lists Airflow basics and using it with Spark.
 
+The same notes are in [Airflow](../mlops/full-stack-and-ops.md#airflow).
+
 1. What is Airflow?
 2. How do you transfer information between tasks in Airflow?
 3. Please give me a real-world example of using Spark and Airflow together
@@ -120,6 +132,8 @@ This section lists Airflow basics and using it with Spark.
 ## Data Validation
 
 This section lists ways to protect against bad data and related tools.
+
+The same notes are in [Data Quality](data-quality.md), [Data Testing](../../validation-and-evaluation/data-and-model-tests.md#data-testing), and [Tools](tools.md).
 
 1. How can you protect yourself from bad data? Data validation, TDDA, monitoring.
 2. Tools:
@@ -132,6 +146,8 @@ This section lists ways to protect against bad data and related tools.
 ## File formats
 
 This section covers Parquet, Spark, and lake table formats such as Hudi, Delta, and Iceberg.
+
+The same notes are in [Data lake table formats](lakes-and-warehouses.md#data-lake-table-formats).
 
 1. Can you explain the parquet file format?
 2. How is this leveraged by Spark? [https://databricks.com/session/spark-parquet-in-depth](https://databricks.com/session/spark-parquet-in-depth)
@@ -146,6 +162,8 @@ This section points at Julien Simon on AWS Glue DataBrew vs Data Wrangler.
 ## CDC
 
 This section defines change data capture and why you need it.
+
+The same notes are in [Tools](tools.md).
 
 [What is a CDC and why do you need it, or how do you use it?](https://rockset.com/blog/change-data-capture-what-it-is-and-how-to-use-it/) — Change data capture (CDC) is the process of recognising when data has been changed in a source system so a downstream process or system can action. A common use case is to reflect (replication) the change in a different target system so that the data in the systems stay in sync.
 
@@ -162,6 +180,8 @@ Q: you have a real time stream — what is better? A stream-based processing sys
 ## System design
 
 This section points at system design interview practice, including an API rate limiter and Twitter.
+
+The same notes are in [System Design](../architecture/system-design.md).
 
 [How to design a](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions).
 

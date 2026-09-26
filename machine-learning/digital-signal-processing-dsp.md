@@ -2,6 +2,8 @@
 
 This page lists SciPy, Librosa, and related notes for signal processing and beat detection.
 
+The same notes are in [Electronic Network Frequency Analysis](../business-domains/electronic-network-frequency-analysis.md) and [Feature Engineering](../audio/feature-engineering.md).
+
 1. [Scipy signal processing](https://docs.scipy.org/doc/scipy/reference/signal.html)
 2. [Script find peaks](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.find_peaks.html)
 3. Beat detection

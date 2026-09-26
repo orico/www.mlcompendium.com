@@ -14,6 +14,8 @@ This subsection defines Platt's SMO and compares libsvm with liblinear.
 
 This subsection summarizes SVM definitions, kernels, and margins.
 
+The same notes are in [ONE CLASS SVM](anomaly-detection.md#one-class-svm).
+
 - [Definition](http://docs.opencv.org/3.0-beta/modules/ml/doc/support_vector_machines.html), [tutorial](https://jakevdp.github.io/PythonDataScienceHandbook/05.07-support-vector-machines.html)**\*\*\*:**
 
 - For Optimal 2-class classifier.
@@ -58,6 +60,8 @@ Math of SVM on youtube:
 
 This subsection links intuition for SVM regularization parameters C and gamma.
 
+The same notes are in [Regularization](../foundation-knowledge/regularization.md).
+
 - (basically punishment for overfitting and raising the non- linear class points higher and lower)
 
 - [How does regularization look like in SVM](https://datascience.stackexchange.com/questions/4943/intuition-for-the-regularization-parameter-in-svm) - controlling ‘C’
@@ -66,6 +70,8 @@ This subsection links intuition for SVM regularization parameters C and gamma.
 ### SUPPORT VECTOR REGRESSION (SVR)
 
 This subsection defines support vector regression and sparse dependence on data.
+
+The same notes are in [Regression](regression.md) and [REGRESSION ALGORITHMS](classic-machine-learning.md#regression-algorithms).
 
 - [Definition Support Vector Regression](http://scikit-learn.org/stable/modules/svm.html#svm-implementation-details).:
 
@@ -95,6 +101,8 @@ Conclusion: In practice libsvm becomes painfully slow at 10k samples. Hence for 
 ### Support vector clustering (SVC)
 
 This subsection links support vector clustering papers and explanations.
+
+The same notes are in [SVM CLUSTERING](clustering-algorithms.md#svm-clustering).
 
 [paper](http://www.jmlr.org/papers/volume2/horn01a/horn01a.pdf), [short explanation](https://www.quora.com/Is-it-possible-to-use-SVMs-for-unsupervised-learning-density-estimation)
 
@@ -145,6 +153,8 @@ A kernel is a magical shortcut to calculate even infinite dimensions!
 ### [Intuition for regularization in SVM](https://datascience.stackexchange.com/questions/4943/intuition-for-the-regularization-parameter-in-svm)
 
 This subsection links grid search and OpenCV SVM hyperparameter guidance.
+
+The same notes are in [Regularization](../foundation-knowledge/regularization.md).
 
 [Grid search for SVM Hyper parameters](http://docs.opencv.org/3.0-beta/modules/ml/doc/support_vector_machines.html) - in openCV. [Example in log space](https://stackoverflow.com/questions/29128074/choosing-the-best-svm-kernel-type-and-parameters-using-opencv-on-python)
 

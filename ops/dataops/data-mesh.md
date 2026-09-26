@@ -2,6 +2,8 @@
 
 This page collects introductions, principles, topologies, and practice notes on data mesh.
 
+The same notes are in [Data Architecture](data-architecture.md) and [Data Fabric](database-architecture-and-modeling.md#data-fabric).
+
 1. What is a [data mesh](https://databricks.com/session_na20/data-mesh-in-practice-how-europes-leading-online-platform-for-fashion-goes-beyond-the-data-lake)? and in practice.
 2. Zhamak Dehghani
    - [Introduction to Data Mesh](https://www.youtube.com/watch?v=_bmYXWCxF_Q)

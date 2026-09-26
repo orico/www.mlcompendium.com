@@ -2,6 +2,8 @@
 
 This page lists courses, libraries, and articles on explaining and interpreting ML models.
 
+The same notes are in [Books & notebooks](../foundation-knowledge/data-science.md#books--notebooks).
+
 ## XAI
 
 This section is a curated list of XAI courses, tools, and papers.
@@ -45,6 +47,9 @@ This section is a curated list of XAI courses, tools, and papers.
 24. [Using genetic algorithms](https://medium.com/data-science/interpreting-black-box-machine-learning-models-with-genetic-algorithms-a803bfd134cb)
 25. [ Google’s what-if tool](https://pair-code.github.io/what-if-tool/demos/image.html) from [PAIR](https://pair.withgoogle.com/)
 26. [Boruta](https://github.com/scikit-learn-contrib/boruta_py) ([medium](https://medium.com/data-science/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)) was designed to automatically perform feature selection on a dataset using randomized features, i.e., measuring valid features against their shadow/noisy counterparts.
+
+The same notes are in [FEATURE SELECTION](features.md#feature-selection).
+
 27. [InterpretML](https://interpret.ml/) by Microsoft, [git](https://github.com/interpretml/interpret).
 28. [Connecting Interpretability and Robustness in Decision Trees through Separation](https://icml.cc/virtual/2021/poster/10107), [git](https://github.com/yangarbiter/interpretable-robust-trees)
 29. [Interpret Transformers](https://github.com/cdpierse/transformers-interpret) - explain transformers with 2 lines of code.
@@ -52,6 +57,8 @@ This section is a curated list of XAI courses, tools, and papers.
 ## Lime
 
 This section explains how LIME works and links tutorials.
+
+The same notes are in [FEATURE IMPORTANCE](features.md#feature-importance).
 
 1. [*** how lime works behind the scenes](https://medium.com/analytics-vidhya/explain-your-model-with-lime-5a1a5867b423)
 2. [LIME to interpret models](https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime) NLP and IMAGE, [github](https://github.com/marcotcr/lime)- In the experiments in [our research paper](http://arxiv.org/abs/1602.04938), we demonstrate that both machine learning experts and lay users greatly benefit from explanations similar to Figures 5 and 6 and are able to choose which models generalize better, improve models by changing them, and get crucial insights into the models' behavior.
@@ -65,6 +72,8 @@ This section introduces Anchor explanations from the LIME authors.
 ## Shap
 
 This section collects SHAP theory, tutorials, and tooling.
+
+The same notes are in [FEATURE IMPORTANCE](features.md#feature-importance).
 
 1. Theory:
    - How Shap values are calculated - [youtube](https://www.youtube.com/watch?v=u7Om2joZWYs).

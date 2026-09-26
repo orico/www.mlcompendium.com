@@ -2,6 +2,8 @@
 
 This page collects precursors, articles, tools, competitions, and assistants around GPT.
 
+The same notes are in [Chat Bots](../natural-language-processing/chat-bots.md), [Decoding Algorithms For NLP](../natural-language-processing/decoding-algorithms-for-nlp.md), [GPT2](../deep-learning/attention.md#gpt2), [GPT3](../deep-learning/attention.md#gpt3), [Large Language Models (LLMs)](large-language-models-llms.md), [Prompt](prompt.md), and [Tokenization](../natural-language-processing/tokenization.md).
+
 ## Precursor
 
 This section lists methods that led into instruction-tuned GPT models.

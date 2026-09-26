@@ -224,6 +224,8 @@ This section notes the role of bias terms in neural networks.
 
 This section links batch, layer, instance, and weight normalization resources.
 
+The same notes are in [Normalization & Scaling](../foundation-knowledge/normalization-and-scaling.md).
+
 
 1. The [best explanation](https://blog.paperspace.com/busting-the-myths-about-batch-normalization/) to what is BN and why to use it, including busting the myth that it solves internal covariance shift - shifting input distribution, and saying that it should come after activations as it makes more sense (it does),also a nice quote on where a layer ends is really good - it can end at the activation (or not). How to use BN in the test, hint: use a moving window. Bn allows us to use 2 parameters to control the input distribution instead of controlling all the weights.
 2. Medium on BN
@@ -270,12 +272,16 @@ Part2: [batch/layer/weight normalization](http://mlexplained.com/2018/01/13/weig
 
 This section points at disciplined hyperparameter search guidance.
 
+The same notes are in [Hyper param optimization](../machine-learning/meta-learning.md#hyper-param-optimization) and [Hyper Parameter Optimization](../validation-and-evaluation/hyper-parameter-optimization.md).
+
 
 1. [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay](https://arxiv.org/abs/1803.09820)
 
 ## LOSS
 
 This section covers training curves, early stopping, and classification losses.
+
+The same notes are in [Cross entropy, relative ent, KL-D, JS-D, soft max](../foundation-knowledge/information-theory.md#cross-entropy-relative-ent-kl-d-js-d-soft-max) and [Perplexity](../validation-and-evaluation/evaluation-metrics.md#perplexity).
 
 
 [Very Basic advice](https://stats.stackexchange.com/questions/232754/reference-to-learn-how-to-interpret-learning-curves-of-deep-convolutional-neural): You should probably switch train/validation repartition to something like 80% training and 20% validation. In most cases it will improve the classifier performance overall (more training data = better performance)
@@ -400,6 +406,8 @@ w=np.random.randn(layer_size[l],layer_size[l-1])*np.sqrt(2/layer_size[l-1])
 
 This section lists common hidden and output activations plus newer options.
 
+The same notes are in [Softmax](../foundation-knowledge/information-theory.md#softmax) and [Temperature](../validation-and-evaluation/calibration.md#temperature).
+
 
 1. [a bunch of observations, seems like a personal list](http://sentiment-mining.blogspot.co.il/2015/08/the-difference-of-activation-function.html) -
    1. Output layer - linear for regression, softmax for classification
@@ -445,6 +453,8 @@ Best description on optimizers with momentum etc, from sgd to nadam, formulas an
 ## DROPOUT LAYERS IN KERAS AND GENERAL
 
 This section explains dropout, inverted dropout, and LSTM dropout modes.
+
+The same notes are in [Regularization](../foundation-knowledge/regularization.md).
 
 
 [A very influential paper about dropout and how beneficial it is - bottom line always use it.](http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)
@@ -516,6 +526,8 @@ Basically do these after you have a working network
 
 This section links transfer-learning fine-tuning workflows.
 
+The same notes are in [DATASET SELECTION](../validation-and-evaluation/datasets.md#dataset-selection), [Methods](../generative-ai/methods.md), [TRAINING METHODOLOGIES](../validation-and-evaluation/datasets.md#training-methodologies), and [Transfer Learning using CNN](deep-learning-models.md#transfer-learning-using-cnn).
+
 
 1. [3 methods to fine tune, cut softmax layer, smaller learning rate, freeze layers](https://flyyufelix.github.io/2016/10/03/fine-tuning-in-keras-part1.html)
 2. [Fine tuning on a sunset of data](https://stats.stackexchange.com/questions/289036/fine-tuning-with-a-subset-of-the-same-data)
@@ -523,6 +535,8 @@ This section links transfer-learning fine-tuning workflows.
 ## Deep Learning for NLP
 
 This section points at NLP course syllabi and linear-SVM output layers.
+
+The same notes are in [Neural NLP](../natural-language-processing/neural-nlp.md).
 
 
 - (did not fully read) [Yoav Goldberg’s course](https://docs.google.com/document/d/1Xf_dqjf7mWmSoYX0HTKnml2mssP5BjrKUs-4E17CbNo/edit) syllabus with lots of relevant topics on DL4NLP, including bidirectional RNNS and tree RNNs.
@@ -533,6 +547,8 @@ Deep Learning using Linear Support Vector Machines - 1-3% decrease in error by r
 ## MULTI LABEL/OUTPUT
 
 This section covers multi-label and multi-output training in sklearn and Keras.
+
+The same notes are in [Multi Label Classification](../foundation-knowledge/multi-label-classification.md).
 
 
 1. A machine learning framework for [multi-output/multi-label](https://github.com/scikit-multiflow/scikit-multiflow) and stream data. Inspired by MOA and MEKA, following scikit-learn's philosophy. [https://scikit-multiflow.github.io/](https://scikit-multiflow.github.io/)
@@ -549,6 +565,8 @@ This section notes soft or probabilistic multi-label targets.
 ## SIAMESE NETWORKS
 
 This section links siamese and self-supervised representation learning.
+
+The same notes are in [N-Shot Learning](../types-of-machine-learning/n-shot-learning.md) and [SIAMESE NETWORKS (one shot)](deep-learning-models.md#siamese-networks-one-shot).
 
 
 1. Siamese for conveyor belt fault prediction

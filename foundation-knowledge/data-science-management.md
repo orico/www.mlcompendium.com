@@ -6,6 +6,8 @@ This page collects management notes for data science: interview questions, polit
 
 This section lists interview question banks on ensembles, trees, and k-NNs.
 
+The same notes are in [Decision Trees](../machine-learning/decision-trees.md), [Ensembles](../machine-learning/ensembles.md), and [KNN](../machine-learning/clustering-algorithms.md#knn).
+
 1. [40 questions on ensembles](https://www.analyticsvidhya.com/blog/2017/02/40-questions-to-ask-a-data-scientist-on-ensemble-modeling-techniques-skilltest-solution/?utm_source=facebook.com&utm_medium=social)
 2. [30 on trees](https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-tree-based-models/?utm_source=facebook.com&utm_medium=social)
 3. [30 on knns](https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-k-nearest-neighbors-algorithm/?utm_source=facebook.com&utm_medium=social)

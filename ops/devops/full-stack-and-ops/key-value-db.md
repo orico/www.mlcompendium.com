@@ -2,6 +2,8 @@
 
 This page covers message brokers and related stores: RabbitMQ, ActiveMQ, Kafka, ksqlDB, and ZooKeeper.
 
+The same notes are in [Redis for data science](../../mlops/full-stack-and-ops.md#redis-for-data-science).
+
 ## RabbitMQ
 
 This section is RabbitMQ as a message broker, with beginner tutorials.
@@ -22,6 +24,8 @@ Apache ActiveMQ™ is the most popular open source, multi-protocol, Java-based m
 ## Kafka
 
 This section is Apache Kafka intros, comparisons, ZooKeeper notes, and an ML-in-Kafka tutorial.
+
+The same notes are in [Implementation](../../dataops/data-contract.md#implementation) and [Kafka for data science](../../mlops/full-stack-and-ops.md#kafka-for-data-science).
 
 Apache Kafka is a distributed event store and stream-processing platform.
 

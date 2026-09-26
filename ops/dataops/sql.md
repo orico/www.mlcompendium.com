@@ -2,6 +2,8 @@
 
 This page is a short SQL reference: the command groups, keys, indexes, and how sharding differs from partitioning.
 
+The same notes are in [Course](data-analytics.md#course).
+
 1. (very good) [DDL, DQL, DML, DCL and TCL](https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/), by GeeksforGeeks
    - DDL, Data Definition Language: create, drop, alter, truncate.
    - DQL, Data Query Language: select.

@@ -2,6 +2,8 @@
 
 This page defines incremental learning and points at streaming and Hoeffding-tree notes.
 
+The same notes are in [Follow the regularized leader](../business-domains/follow-the-regularized-leader.md), [Online Learning](../types-of-machine-learning/online-learning.md), and [Training Strategies](../validation-and-evaluation/training-strategies.md).
+
 (wiki) In computer science, incremental learning is a method of machine learning in which input data is continuously used to extend the existing model's knowledge i.e. to further train the model.
 
 <figure><img src="../.gitbook/assets/gimg-7d218b153230.png" alt=""><figcaption><p>Incremental learning.</p><p>Credit: <a href="https://lh5.googleusercontent.com/zxvV554pWSEERqhi7sfiq57aeDukBBQxbwpkzw8u2ykK8qSGK0LWt7KwriZGJ34SXvFYU6rBi8BFon1K60Bk1_7EpRYm4C7Sv3hgc7_xnU1Vf10LSBPgDog2V_GUGKYt66dmhirD">copied from the original hosted image</a>.</p></figcaption></figure>
@@ -14,5 +16,7 @@ This page defines incremental learning and points at streaming and Hoeffding-tre
 ### Hoeffding tree
 
 This section notes that the Hoeffding tree is treated as state of the art here.
+
+The same notes are in [Decision Trees](decision-trees.md).
 
 - IS STATE OF THE ART

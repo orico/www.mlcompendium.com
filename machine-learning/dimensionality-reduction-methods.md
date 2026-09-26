@@ -36,6 +36,8 @@ Iteratively moving from the left to the right<figure><img src="../.gitbook/asset
 
 This subsection lists PCA tutorials, large-matrix tricks, whitening, and cross-validation advice.
 
+The same notes are in [DIMENSIONALITY REDUCTION](classic-machine-learning.md#dimensionality-reduction) and [PCA for log anomaly detection](../business-domains/templatization.md#pca-for-log-anomaly-detection).
+
 1. Machine learning mastery:
    1. [Expected value, variance, covariance ](https://machinelearningmastery.com/introduction-to-expected-value-variance-and-covariance)
    2. [PCA](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/) **(remove the mean from A, calculate cov(A), calculate eig(cov), A\*eigK = PCA)**
@@ -71,6 +73,8 @@ Whitening has two simple steps:
 
 This subsection links singular value decomposition explanations.
 
+The same notes are in [Recommender Systems](recommender-systems.md).
+
 1. An explanation about SVD’s formulas.
 
 ### KPCA
@@ -89,6 +93,8 @@ This subsection relates autoencoders to PCA and introduces kernel PCA.
 ### LDA - Linear discriminant analysis
 
 This subsection compares PCA and LDA for supervised dimensionality reduction.
+
+The same notes are in [Normalization & Scaling](../foundation-knowledge/normalization-and-scaling.md).
 
 [A comparison / tutorial with code on pca vs lda - read!](http://rstudio-pubs-static.s3.amazonaws.com/84669_cd15214061d44e1493ffee69c5d55925.html)
 
@@ -135,6 +141,8 @@ This subsection points to kernel discriminant analysis in pyDML.
 ### LSA
 
 This subsection explains latent semantic analysis via SVD and compares it to PCA.
+
+The same notes are in [LSA (TFIDF + SVD)](../natural-language-processing/topics-modeling.md#lsa-tfidf--svd).
 
 [LSA](http://mccormickml.com/2016/03/25/lsa-for-text-classification-tutorial/) is quite simple, you just use SVD to perform dimensionality reduction on the tf-idf vectors–that’s really all there is to it! And LSA CLUSTERING
 

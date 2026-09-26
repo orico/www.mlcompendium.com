@@ -2,6 +2,8 @@
 
 This page collects links on customer lifetime value models, libraries, and related reading.
 
+The same notes are in [Survival Analysis](survival-analysis.md).
+
 1. Probabilistic LTV using churn and neural nets
 2. [GitHub Google LTV](https://github.com/google/lifetime_value)
 3. [lifetimes](https://github.com/CamDavidsonPilon/lifetimes)

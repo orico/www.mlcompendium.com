@@ -13,6 +13,9 @@ This section is a playlist-style path from intro through Excel, BI tools, SQL, P
 - PowerBI 33-41 [How to Install Power BI | Building First Visualization | Microsoft Power BI for Beginners](https://www.youtube.com/watch?v=g0m5sEHPU-s&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=34)
 - Tableau 23-31 [Tableau Training For Beginners | Tableau Tutorial | Tableau Tutorial For Beginners | Simplilearn](https://youtube.com/watch?v=UWT14hhjsL0&list=PLEiEAq2VkUUKgEFXH1tBbHwq38oWYDScU&index=24)
 - SQL 3-20 [Installing MySQL and Creating Databases | MySQL for Beginners](https://www.youtube.com/watch?v=wgRwITQHszU&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=4)
+
+The same notes are in [SQL](sql.md).
+
 - SQL questions [Solving Easy SQL Interview Questions on Analyst Builder](https://www.youtube.com/watch?v=ZHaYOC0H5KE&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=70)
 - Python 42-56 [Installing Jupyter Notebooks/Anaconda | Python for Beginners](https://www.youtube.com/watch?v=WUeBzT43JyY&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=43)
 - Pandas 57-64 [Reading in Files in Pandas | Python Pandas Tutorials](https://www.youtube.com/watch?v=dUpyC40cF6Q&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=58)

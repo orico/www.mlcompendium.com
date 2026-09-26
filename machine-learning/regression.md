@@ -2,6 +2,8 @@
 
 This page collects metrics and tutorials for evaluating regression models.
 
+The same notes are in [Feature Types](../foundation-knowledge/feature-types.md), [Normalization & Scaling](../foundation-knowledge/normalization-and-scaling.md), [NYC TAXI](../business-domains/examples.md), [REGRESSION ALGORITHMS](classic-machine-learning.md#regression-algorithms), and [SUPPORT VECTOR REGRESSION (SVR)](linear-separator-algorithms.md#support-vector-regression-svr).
+
 ## Metrics
 
 This section lists coefficient of determination and other regression error metrics.

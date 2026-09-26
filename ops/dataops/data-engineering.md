@@ -2,6 +2,8 @@
 
 This page compares data engineering roles and covers the CAP theorem.
 
+The same notes are in [Data Engineering Questions & Training](data-engineering-questions-and-training.md).
+
 - [Data engineers are not software developers - a comparison](https://betterprogramming.pub/data-engineering-is-not-software-engineering-af81eb8d3949)
 - [Different Types of data engineers](https://medium.com/coriers/different-types-of-data-engineering-teams-6a1056986d3)
    - data infra
@@ -13,6 +15,8 @@ This page compares data engineering roles and covers the CAP theorem.
 ### [Cap theorem](https://medium.com/data-science/cap-theorem-and-distributed-database-management-systems-5c2be977950e)
 
 This subsection points at CAP theorem notes and how the rules have changed.
+
+The same notes are in [CAP Theorem](data-engineering-questions-and-training.md#cap-theorem).
 
 - [Cap](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/) 2015
 - [Cap is changing](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)

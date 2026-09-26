@@ -6,6 +6,8 @@ This page covers pruning, knowledge distillation, lottery tickets, and a long ch
 
 This section collects notes on pruning, knowledge distillation, and the lottery ticket hypothesis.
 
+The same notes are in [BERT](attention.md#bert) and [TRAINING METHODOLOGIES](../validation-and-evaluation/datasets.md#training-methodologies).
+
 1. [Awesome Knowledge distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
 2. Lottery ticket
    1. 1, [2](https://arxiv.org/pdf/1803.03635.pdf)-paper
@@ -56,6 +58,8 @@ This part is mistakes in the data, the labels, and the batches.
 ### Data Normalization/Augmentation
 
 This section collects notes on data normalization/augmentation.
+
+The same notes are in [Normalization & Scaling](../foundation-knowledge/normalization-and-scaling.md).
 
 
 This part is scaling, augmentation, and computing preprocessing on the training set only.

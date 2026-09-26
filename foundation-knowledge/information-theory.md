@@ -2,9 +2,13 @@
 
 This page is about entropy, information gain, cross-entropy, KL divergence, softmax, and related tools.
 
+The same notes are in [Collocation](../natural-language-processing/foundation-nlp.md#collocation) and [MUTUAL INFORMATION COEFFICIENT](../validation-and-evaluation/features.md#mutual-information-coefficient).
+
 ## Entropy / Information Gain
 
 This section points at Shannon entropy implementations and definitions.
+
+The same notes are in [Active Learning](../types-of-machine-learning/active-learning.md).
 
 1. Shannon entropy in python, basically entropy(value counts)
 2. [Mastery on plogp entropy function](https://machinelearningmastery.com/what-is-information-entropy/)
@@ -21,6 +25,8 @@ This section lists Python libraries for information-theoretic measures.
 ## Tutorials
 
 This section walks entropy, cross-entropy, information gain, and Gini for decision trees.
+
+The same notes are in [CART TREES](../machine-learning/decision-trees.md#cart-trees).
 
 [Great tutorial on all of these topics](https://www.bogotobogo.com/python/scikit-learn/scikt_machine_learning_Decision_Tree_Learning_Informatioin_Gain_IG_Impurity_Entropy_Gini_Classification_Error.php)
 
@@ -130,6 +136,8 @@ FINALLY, further reading about decision trees and examples of INFOGAIN and GINI 
 
 This section collects explanations of cross-entropy, KL, JS divergence, and related losses.
 
+The same notes are in [Comparing distributions (distance methods)](distribution.md#comparing-distributions-distance-methods), [LOSS](../deep-learning/deep-neural-nets.md#loss), and [LOSS IN KERAS](../deep-learning/deep-neural-frameworks.md#loss-in-keras).
+
 1. [A really good explanation on all of them](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
 2. [Another good one on all of them](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
 3. [mastery on a gentle intro to CE](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)
@@ -142,6 +150,8 @@ This section collects explanations of cross-entropy, KL, JS divergence, and rela
 ## Softmax
 
 This section explains softmax, NLL, and how they relate to cross-entropy.
+
+The same notes are in [ACTIVATION FUNCTIONS](../deep-learning/deep-neural-nets.md#activation-functions) and [Temperature](../validation-and-evaluation/calibration.md#temperature).
 
 1. [Understanding softmax](https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a59641e86d)
 2. [Softmax and negative likelihood (NLL)](https://ljvmiranda921.github.io/notebook/2017/08/13/softmax-and-the-negative-log-likelihood/)
@@ -156,6 +166,8 @@ Cross entropy indicates the distance between what the model believes the output 
 ## Time series entropy
 
 This section is entropy measures for one-dimensional time series, including EntroPy examples.
+
+The same notes are in [Timeseries](../machine-learning/timeseries.md).
 
 1. [entroPY](https://raphaelvallat.com/entropy/build/html/index.html) - EntroPy is a Python 3 package providing several time-efficient algorithms for computing the complexity of one-dimensional time-series. It can be used for example to extract features from EEG signals.
 

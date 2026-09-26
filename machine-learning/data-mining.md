@@ -6,6 +6,8 @@ This page is about association rules: Apriori, FP-Growth, and how to read suppor
 
 This section lists slides, terms, and a textbook chapter on association analysis.
 
+The same notes are in [Log Parsing / Templatization](../business-domains/templatization.md).
+
 1. [Association rules slides](https://www.slideshare.net/wanaezwani/apriori-and-eclat-algorithm-in-association-rule-mining) — apriori, eclat, fp growth — pretty complete
 2. [Terms](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html) — lift, confidence
 3. [Paper — basic concepts and algo](https://www-users.cs.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf)

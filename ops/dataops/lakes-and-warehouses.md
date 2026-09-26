@@ -18,6 +18,8 @@ This section introduces data warehouses, lakehouses, Snowflake, data marts, and 
 5. Data lake
    - [monitoring health status at scale](https://medium.com/data-science/how-to-monitor-data-lake-health-status-at-scale-d0eb058c85aa) using Great Expectations and Spark
 
+The same notes are in [Data & Model Tests](../../validation-and-evaluation/data-and-model-tests.md).
+
 ## Comparisons
 
 This section compares lakes, warehouses, and major warehouse engines.
@@ -51,6 +53,8 @@ This section compares lakes, warehouses, and major warehouse engines.
 
 This section covers open table formats used on data lakes.
 
+The same notes are in [File formats](data-engineering-questions-and-training.md#file-formats) and [Tools](tools.md).
+
 ### Apache Iceberg
 
 This subsection lists introductions, benchmarks, and migration notes for Apache Iceberg.
@@ -66,11 +70,15 @@ This subsection lists introductions, benchmarks, and migration notes for Apache 
 
 This subsection points at integrating Delta Lake with other platforms.
 
+The same notes are in [Databricks](../mlops/experiment-management.md#databricks).
+
 - [integrating delta lake into other platforms](https://www.databricks.com/blog/integrating-delta-lakehouse-other-platforms)
 
 ## Snowflake
 
 This section lists Snowflake guides, tasks, and cost notes.
+
+The same notes are in [DBT](data-quality.md#dbt) and [Tools](tools.md).
 
 - [(good) Guides](https://www.snowflake.com/guides/)
 - [getting started with SF tasks](https://medium.com/snowflake/getting-started-with-snowflake-tasks-945ecd54c77b) — SQL or procedures, schedules, B-tree tasks.
@@ -79,6 +87,8 @@ This section lists Snowflake guides, tasks, and cost notes.
 ## Feature engineering
 
 This section points at feature engineering in Snowflake.
+
+The same notes are in [FEATURE ENGINEERING](../../validation-and-evaluation/features.md#feature-engineering).
 
 - [Feature engineering in snowflake](https://medium.com/data-science/feature-engineering-in-snowflake-1730a1b84e5b)
 
@@ -91,6 +101,8 @@ This section points at ClickHouse as an open source database for real-time apps 
 ## Vector databases
 
 This section lists a Gartner note and Chroma for embeddings.
+
+The same notes are in [RAG](../../generative-ai/rag.md), [Search](../../natural-language-processing/search.md), and [VECTOR SIMILARITY SEARCH](../../deep-learning/embedding.md#vector-similarity-search).
 
 - Gartner — [Innovation Insight: Vector Databases](https://www.gartner.com/doc/reprints?id=1-2HBZK5EN&ct=240418&st=sb)
 - Chroma — AI native open source embedding database, [github](https://github.com/chroma-core/chroma)

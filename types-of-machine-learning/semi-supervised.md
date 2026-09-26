@@ -2,6 +2,8 @@
 
 This page lists semi-supervised learning surveys, self-training and tri-training methods, and recent consistency-based approaches.
 
+The same notes are in [COP-CLUSTERING](../machine-learning/clustering-algorithms.md#cop-clustering), [Label Propagation / Spreading](../machine-learning/label-algorithms.md#label-propagation--spreading), and [Weakly Supervised](weakly-supervised.md).
+
 1. [Paper review](https://pdfs.semanticscholar.org/3adc/fd254b271bcc2fb7e2a62d750db17e6c2c08.pdf)
 2. [Ruder an overview of proxy labeled for semi supervised (AMAZING)](https://ruder.io/semi-supervised/)
 3. Self training

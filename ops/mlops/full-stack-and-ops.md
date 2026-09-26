@@ -6,6 +6,8 @@ This page is a toolkit list for MLOps: CI, packages, Docker, Kubeflow, workflow 
 
 This section lists continuous integration services used with ML projects.
 
+The same notes are in [Continuous Integration](../devops/full-stack-and-ops/continuous-integration.md).
+
 - [Travis](https://travis-ci.org/)
 - [Circle CI](https://circleci.com/)
 - GitHub Actions
@@ -21,6 +23,8 @@ This section lists public and private Python package repositories.
 ## Docker for data science
 
 This section is Docker setup, images, Compose, and debugging notes for data science.
+
+The same notes are in [Docker](../devops/full-stack-and-ops/docker.md) and [Jupyter](../../foundation-knowledge/data-science-tools.md#jupyter).
 
 - [What are Docker layers](https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612)?
 - [Install on Ubuntu](https://linuxconfig.org/how-to-install-docker-on-ubuntu-18-04-bionic-beaver)
@@ -38,6 +42,8 @@ This section is Docker setup, images, Compose, and debugging notes for data scie
 
 This section is Kubeflow intros, a presentation, and end-to-end tutorials.
 
+The same notes are in [Kubeflow](../devops/full-stack-and-ops/kubernetes.md#kubeflow).
+
 - [YouTube — the easy way](https://www.youtube.com/watch?v=P5wcE4IwKgQ), [intro](https://medium.com/@amina.alsherif/how-to-get-started-with-kubeflow-187792f3e99), [intro2](https://kubernetes.io/blog/2017/12/introducing-kubeflow-composable/), [intro3](https://medium.com/better-programming/kubeflow-pipelines-with-gpus-1af6a74ec2a)
 - [Really good detailed article, for example it supports many serving options such as Seldon](https://ubuntu.com/blog/ml-serving-models-with-kubeflow-on-ubuntu-part-1)
 - [presentation](https://www.oliverwyman.com/content/dam/oliver-wyman/v2/events/2018/March/Google_London_Event/Public%20Introduction%20to%20Kubeflow.pdf)
@@ -51,6 +57,8 @@ This section is Kubeflow intros, a presentation, and end-to-end tutorials.
 
 This section is Apache Airflow intros and data-science DAG tutorials.
 
+The same notes are in [Airflow](../dataops/data-engineering-questions-and-training.md#airflow) and [Data Pipelines](../dataops/data-pipelines.md).
+
 - [Airflow](https://airflow.apache.org/) is a platform created by the community to programmatically author, schedule and monitor workflows.
 - [Airflow in 5 minutes](https://medium.com/swlh/apache-airflow-in-5-minutes-c005b4b11b26) by Ashish Kumar
 - [Airflow 2.0 tutorial](https://medium.com/apache-airflow/apache-airflow-2-0-tutorial-41329bbf7211) by Tomasz Urbaszek
@@ -62,11 +70,15 @@ This section is Apache Airflow intros and data-science DAG tutorials.
 
 This section is Prefect as a workflow alternative, with a video on ML workflows.
 
+The same notes are in [ML Architecture](ml-architecture.md) and [Patterns in practice](mlops.md#patterns-in-practice).
+
 - [ML workflows with Prefect](https://www.youtube.com/watch?v=SP6WqCRUkNc)
 
 ## Seldon
 
 This section is Seldon Core and Seldon Deploy notes for Kubernetes serving.
+
+The same notes are in [MLOps Deployment](mlops-deployment.md).
 
 - Runs in k8s
 - Seldon-core vs seldon-deploy (what are the differences?)
@@ -77,6 +89,8 @@ This section is Seldon Core and Seldon Deploy notes for Kubernetes serving.
 ## Tutorials
 
 This section is end-to-end tutorials that combine Kubernetes, Seldon, and related tools.
+
+The same notes are in [Tutorials](../devops/full-stack-and-ops/tutorials.md).
 
 - [Kubernetes, sklearn, s2i, GCloud, Seldon random serving for A/B testing](https://medium.com/analytics-vidhya/manage-ml-deployments-like-a-boss-deploy-your-first-ab-test-with-sklearn-kubernetes-and-b10ae0819dfe)
 - [Polyaxon — training, Argo package/deployment, Seldon serving](https://medium.com/analytics-vidhya/polyaxon-argo-and-seldon-for-model-training-package-and-deployment-in-kubernetes-fa089ba7d60b)
@@ -91,11 +105,15 @@ This section is Sentry for Python full-stack monitoring.
 
 This section is a Kafka primer on terminology and use cases.
 
+The same notes are in [Kafka](../devops/full-stack-and-ops/key-value-db.md#kafka).
+
 - [What is, terminology, use cases](https://sookocheff.com/post/kafka/kafka-in-a-nutshell/)
 
 ## Redis for data science
 
 This section is Redis basics, clustering, spaCy use, and a long tutorial.
+
+The same notes are in [Key Value DB](../devops/full-stack-and-ops/key-value-db.md).
 
 1. What is, vs [memcached](https://medium.com/@pankaj.itdeveloper/memcached-vs-redis-which-one-to-choose-d5177482dc42)
 2. [Redis cluster](https://medium.com/@inthujan/introduction-to-redis-redis-cluster-6c7760c8ebbc)
@@ -131,6 +149,8 @@ jupyter labextension install @jupyterlab/plotly-extension
 
 This section is model-serving design patterns, Seldon, deep-learning-as-a-service notes, and Dapr.
 
+The same notes are in [MLOps Deployment](mlops-deployment.md).
+
 - ML system design patterns, [res](https://docs.google.com/presentation/d/1pSkklHkBySMnJNODshW8NZVpBSqOsbJBWeEq8RrS0M4/edit#slide=id.g81f938aa2b_0_47), [git](https://github.com/mercari/ml-system-design-pattern)
 - Seldon
 - [Medium on DL as a service by Nir Orman](https://medium.com/data-science/serving-deep-learning-algorithms-as-a-service-6aa610368fde)
@@ -142,6 +162,8 @@ This section is model-serving design patterns, Seldon, deep-learning-as-a-servic
 ## MetaFlow
 
 This section is Metaflow intro videos.
+
+The same notes are in [ML Architecture](ml-architecture.md) and [Patterns in practice](mlops.md#patterns-in-practice).
 
 - [Intro](https://www.youtube.com/watch?v=JCbOI_1ZA5E), and [what is](https://www.youtube.com/watch?v=bxVAniteuQs)?
 

@@ -2,6 +2,8 @@
 
 This page points at vision, strategy, roadmap, and positioning.
 
+The same notes are in [Growth](../business-domains/growth.md).
+
 1. Vision, Strategy, Roadmap. The 4 strategy types: cost, differentiation, focus, quality
 2. [what is?](https://www.youtube.com/watch?v=ebwo_BX_VtU) (youtube) mission, vision, strategy, roadmap, execution. product strategist.
 3. "[Product Strategy: The Missing Link](https://www.youtube.com/watch?v=x4H_gluZI10)" by Inspired Author Marty Cagan of SVPG at Lean Product Meetup youtube.

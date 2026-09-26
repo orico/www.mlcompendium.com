@@ -2,6 +2,8 @@
 
 This page lists embedding methods, vector search tools, language models, and categorical or domain-specific *2vec techniques.
 
+The same notes are in [Augmentation](../natural-language-processing/augmentation.md), [Image embeddings and others](../audio/algorithms.md#image-embeddings-and-others), [KERAS EMBEDDING LAYER](deep-neural-frameworks.md#keras-embedding-layer), [LDA2VEC](../natural-language-processing/topics-modeling.md#lda2vec), [NLP embedding repositories](../natural-language-processing/nlp.md#nlp-embedding-repositories), and [Recommender Systems](../machine-learning/recommender-systems.md).
+
 
 This page lists embedding methods, vector search tools, language models, and categorical or domain-specific *2vec techniques.
 
@@ -19,6 +21,8 @@ This section starts with a from-scratch embedding tutorial.
 ## VECTOR SIMILARITY SEARCH
 
 This section lists libraries and managed services for approximate nearest neighbors.
+
+The same notes are in [A metric learning reality check](../validation-and-evaluation/evaluation-metrics.md#a-metric-learning-reality-check), [Question Answering](../natural-language-processing/question-answering.md), [Search](../natural-language-processing/search.md), and [Vector databases](../ops/dataops/lakes-and-warehouses.md#vector-databases).
 
 
 This section lists libraries and managed services for approximate nearest neighbors.
@@ -70,6 +74,8 @@ This section covers Flair and Hugging Face tooling for embeddings and NLP.
 
 Flair provides NER, PoS tagging, text classification, and combined embeddings.
 
+The same notes are in [Named Entity Recognition (NER)](../natural-language-processing/named-entity-recognition-ner.md).
+
 
 Flair provides NER, PoS tagging, text classification, and combined embeddings.
 
@@ -107,6 +113,8 @@ Youtube [ep1](https://www.youtube.com/watch?v=FKlPCK1uFrc), [2](https://www.yout
 ## LANGUAGE EMBEDDINGS
 
 This section gathers transformer history and embedding survey material.
+
+The same notes are in [Multi Language](../natural-language-processing/multi-language.md).
 
 
 This section gathers transformer history and embedding survey material.
@@ -156,6 +164,9 @@ This section compares sentence and word embedding families with notebooks.
 3. [Another intro, not as good as the one above](https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a)
 4. Using sklearn vectorizer to create custom ones, i.e. a vectorizer that does preprocessing and tfidf and other things.
 5. [TFIDF - n-gram based top weighted tfidf words](https://stackoverflow.com/questions/25217510/how-to-see-top-n-entries-of-term-document-matrix-after-tfidf-in-scikit-learn)
+
+The same notes are in [TF-IDF](../natural-language-processing/tf-idf.md).
+
 6. [Gensim bi-gram phraser/phrases analyser/converter](https://radimrehurek.com/gensim/models/phrases.html)
 7. [Countvectorizer, stemmer, lemmatization code tutorial](https://medium.com/@rnbrown/more-nlp-with-sklearns-countvectorizer-add577a0b8c8)
 8. [Current 2018 best universal word and sentence embeddings -> elmo](https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a)
@@ -167,6 +178,8 @@ This section compares sentence and word embedding families with notebooks.
 ### Language modeling
 
 This section links language-model pretraining, BERT, and GPT-style resources.
+
+The same notes are in [BERT](attention.md#bert), [ELMO](attention.md#elmo), [GPT2](attention.md#gpt2), [GPT3](attention.md#gpt3), and [ULMFIT](attention.md#ulmfit).
 
 
 This section links language-model pretraining, BERT, and GPT-style resources.
@@ -246,6 +259,8 @@ This section covers categorical encoding and cat2vec-style entity embeddings.
 
 This section links entity embeddings for tabular and Kaggle-style data.
 
+The same notes are in [Deep Neural Tabular](deep-neural-tabular.md).
+
 
 This section links entity embeddings for tabular and Kaggle-style data.
 
@@ -305,6 +320,8 @@ EMOJIS
 ### WORD2VEC
 
 This section is a long word2vec reading list with gensim and analogy examples.
+
+The same notes are in [ZERO SHOT LEARNING](../types-of-machine-learning/n-shot-learning.md#zero-shot-learning).
 
 
 This section is a long word2vec reading list with gensim and analogy examples.

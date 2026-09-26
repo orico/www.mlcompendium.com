@@ -2,6 +2,8 @@
 
 This page defines novelty vs outlier detection and lists methods, packages, and silhouette notes.
 
+The same notes are in [ANOMALY DETECTION TS](timeseries.md#anomaly-detection-ts), [Drift](../ops/mlops/mlops-monitoring-and-alerts.md#drift), [Fraud Detection](../business-domains/fraud-detection.md), [HDBSCAN*](clustering-algorithms.md#hdbscan), and [PCA for log anomaly detection](../business-domains/templatization.md#pca-for-log-anomaly-detection).
+
 “whether a new observation belongs to the same distribution as existing observations (it is an inlier), or should be considered as different (it is an outlier).
 
 => Often, this ability is used to clean real data sets
@@ -21,6 +23,9 @@ Two important distinctions must be made:
 5. A survey
 6. [A great tutorial](https://www.analyticsvidhya.com/blog/2019/02/outlier-detection-python-pyod/) about AD using 20 algos in a [single python package](https://github.com/yzhao062/pyod).
 7. [Mastery on classifying rare events using lstm-autoencoder](https://machinelearningmastery.com/lstm-model-architecture-for-rare-event-time-series-forecasting/)
+
+The same notes are in [AUTOENCODERS](../deep-learning/deep-learning-models.md#autoencoders) and [Timeseries](timeseries.md).
+
 8. A [comparison](http://scikit-learn.org/stable/modules/outlier_detection.html#outlier-detection) of One-class SVM versus Elliptic Envelope versus Isolation Forest versus LOF in sklearn. (The examples below illustrate how the performance of the [covariance.EllipticEnvelope](http://scikit-learn.org/stable/modules/generated/sklearn.covariance.EllipticEnvelope.html#sklearn.covariance.EllipticEnvelope) degrades as the data is less and less unimodal. The [svm.OneClassSVM](http://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html#sklearn.svm.OneClassSVM) works better on data with multiple modes and [ensemble.IsolationForest](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html#sklearn.ensemble.IsolationForest) and [neighbors.LocalOutlierFactor](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html#sklearn.neighbors.LocalOutlierFactor) perform well in every cases.)
 9. [Using Autoencoders](https://shiring.github.io/machine_learning/2017/05/01/fraud) — the information is there, but its all over the place.
 10. Twitter anomaly —
@@ -112,6 +117,8 @@ This section assumes a known distribution and flags points far from the fitted s
 
 This section points at one-class SVM resources and the hypersphere formulation.
 
+The same notes are in [SUPPORT VECTOR MACHINES (SVM)](linear-separator-algorithms.md#support-vector-machines-svm).
+
 1. A nice article about ocs, with github code, two methods are described.
 2. [Resources for ocsvm](https://www.quora.com/What-is-a-good-resource-for-understanding-One-Class-SVM-for-distribution-esitmation)
 3. It looks like there are two such methods — The 2nd one: The algorithm obtains a spherical boundary, in feature space, around the data. The volume of this hypersphere is minimized, to minimize the effect of incorporating outliers in the solution.
@@ -121,6 +128,8 @@ The resulting hypersphere is characterized by a center and a radius R>0 as dista
 ### CLUSTERING METRICS
 
 This section is silhouette and related clustering quality notes for embeddings and topics.
+
+The same notes are in [Clustering Algorithms](clustering-algorithms.md).
 
 For community detection, text clusters, etc.
 

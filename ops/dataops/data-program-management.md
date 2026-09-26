@@ -2,6 +2,8 @@
 
 This page points at definitions and role notes for data program management.
 
+The same notes are in [Project & Program Management](../../foundation-knowledge/project-and-program-management.md) and [Project Management](../../foundation-knowledge/management.md#project-management).
+
 1. [What is a data program management? and a manager.](https://www.ddmcd.com/dpm-intro) by Dennis D McDonald.
    - [http://www.ddmcd.com/dpm](http://www.ddmcd.com/dpm)
 2. [https://rebelsguidetopm.com/what-is-a-program-manager/#What_is_a_program](https://rebelsguidetopm.com/what-is-a-program-manager/#What_is_a_program)

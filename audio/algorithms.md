@@ -6,6 +6,8 @@ This page collects algorithms and tools for sound event detection, source separa
 
 This section is about Sound Event Detection models and labels.
 
+The same notes are in [Terminology](deep-neural-audio.md).
+
 1. [YamNet](https://github.com/tensorflow/models/tree/master/research/audioset/yamnet), and real-time sound event detection [GitHub](https://github.com/robertanto/Real-Time-Sound-Event-Detection), [Event types labels list](https://github.com/robertanto/Real-Time-Sound-Event-Detection/blob/main/keras_yamnet/yamnet_class_map.csv) — Relevant labels: 420:430
 
 ## Query-based separation
@@ -17,6 +19,8 @@ This section is about query-based audio source separation.
 ## Audio Source Separation
 
 This section lists open-domain and Wave-U-Net source separation models.
+
+The same notes are in [Terminology](deep-neural-audio.md).
 
 1. [Audio Sep](https://github.com/Audio-AGI/AudioSep) — AudioSep is a foundation model for open-domain sound separation with natural language queries. AudioSep demonstrates strong separation performance and impressive zero-shot generalization ability on numerous tasks such as audio event separation, musical instrument separation, and speech enhancement.
 2. Wave-U-Net
@@ -36,6 +40,8 @@ This section covers blind source separation tools and EM methods.
 
 This section lists embedding, pitch, speaker, and VAD tools, plus a MathWorks pretrained-model list.
 
+The same notes are in [Embedding](../deep-learning/embedding.md).
+
 1. [Openl3](https://github.com/marl/openl3) — OpenL3: Open-source deep audio and image embeddings
 2. [Pitch estimation](https://github.com/marl/crepe)
 3. [Speaker recognition](https://github.com/Anwarvic/Speaker-Recognition) — Speaker recognition is the identification of a person given an audio file. It is used to answer the question "Who is speaking?" Speaker verification (also called speaker authentication) is similar to speaker recognition, but instead of returning the speaker who is speaking, it returns whether the speaker (who is claiming to be a certain one) is truthful or not. Speaker Verification is considered to be a little easier than speaker recognition.
@@ -45,6 +51,8 @@ This section lists embedding, pitch, speaker, and VAD tools, plus a MathWorks pr
 ## Other Tools
 
 This section collects toolkits and write-ups for separation, classification, speech recognition, and annotation.
+
+The same notes are in [Deep Neural Audio](deep-neural-audio-1.md) and [Speech](../generative-ai/speech.md).
 
 1. [KALDI](https://kaldi-asr.org/models.html) speech recognition toolkit with many SOTA models.
 2. [Isolating instruments from stereo music using Convolutional Neural Networks](https://towardsdatascience.medium.com/audio-ai-isolating-vocals-from-stereo-music-using-convolutional-neural-networks-210532383785), [part 2](https://towardsdatascience.medium.com/audio-ai-isolating-instruments-from-stereo-music-using-convolutional-neural-networks-584ababf69de)

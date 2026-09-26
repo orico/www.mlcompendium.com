@@ -2,6 +2,8 @@
 
 This page collects articles, datasets, and tools for fuzzy person-name matching.
 
+The same notes are in [String Matching](string-matching.md).
+
 ## Articles
 
 This section links write-ups on fuzzy name matching across datasets.

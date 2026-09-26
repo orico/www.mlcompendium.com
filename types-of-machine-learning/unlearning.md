@@ -2,6 +2,8 @@
 
 Machine unlearning (MU) refers to the challenge of erasing a data point's influence on the input-output mapping of an ML model.
 
+The same notes are in [Large Language Models (LLMs)](../generative-ai/large-language-models-llms.md).
+
 ## Papers
 
 These entries are surveys, methods, and notable unlearning papers.

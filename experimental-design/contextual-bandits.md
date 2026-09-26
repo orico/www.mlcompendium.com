@@ -2,6 +2,8 @@
 
 This page is about contextual bandits, with a personalization talk and Python tools.
 
+The same notes are in [A/B Testing](a-b-testing.md), [Multi Armed Bandits](multi-armed-bandits.md), and [Reinforcement Learning](../machine-learning/incremental-learning-1.md).
+
 1. [Contextual bandits](https://drive.google.com/file/d/1EiLlajcSanTE19BOFKOTOlzHJxYSxz7w/view) via [personalization in practice](https://booking.ai/personalization-in-practice-2bb4bc680eb3)
 
 ## Tools

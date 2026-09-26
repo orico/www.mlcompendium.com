@@ -3,7 +3,12 @@
 This page lists data tools for change capture, lakes, pipelines, BI, integration, and quality checks.
 
 - [Debezium](https://debezium.io/) — an open source distributed platform for change data capture.
+
+The same notes are in [CDC](data-engineering-questions-and-training.md#cdc).
+
 - [Hudi](https://hudi.apache.org/)
+
+The same notes are in [Data lake table formats](lakes-and-warehouses.md#data-lake-table-formats).
 
 > Hudi is a rich platform to build streaming data lakes with incremental data pipelines on a self-managing database layer, while being optimized for lake engines and regular batch processing.
 
@@ -12,6 +17,8 @@ This page lists data tools for change capture, lakes, pipelines, BI, integration
 > Continuous SQL Pipelines for Cloud Data Lakes. No custom coding. No orchestration. No infrastructure maintenance.
 
 - [DBT](https://www.getdbt.com/)
+
+The same notes are in [DBT](data-quality.md#dbt) and [Snowflake](lakes-and-warehouses.md#snowflake).
 
 > dbt helps data teams work like software engineers—to ship trusted data, faster. collaboratively deploy analytics code following software engineering best practices like modularity, portability, CI/CD, and documentation. Now anyone who knows SQL can build production-grade data pipelines.
 
@@ -33,6 +40,8 @@ This page lists data tools for change capture, lakes, pipelines, BI, integration
 - [SnowPlow](https://snowplowanalytics.com/) — generate [complete, accurate and well-structured event data](http://web.archive.org/web/20220601204852/https://snowplowanalytics.com/web-and-mobile-data/) across all platforms and channels in a common format, with the Snowplow Behavioral Data Platform.
 - [Workato](https://www.workato.com/) — a single platform for integration and workflow automation across your organization.
 - [AWS Deequ](https://aws.amazon.com/blogs/big-data/test-data-quality-at-scale-with-deequ/) — test data quality at scale.
+
+The same notes are in [Data Validation](data-engineering-questions-and-training.md#data-validation).
 
 ## Deprecated links
 

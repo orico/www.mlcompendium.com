@@ -15,14 +15,21 @@ This section is reading on monitoring models, dependencies, features, and produc
 - [Vidhya on monitoring data & models](https://www.analyticsvidhya.com/blog/2019/10/deployed-machine-learning-model-post-production-monitoring/)
 - [Monitor ML features using Amazon SageMaker Feature Store and AWS Glue DataBrew](https://medium.com/data-science/monitor-ml-features-using-amazon-sagemaker-feature-store-and-aws-glue-databrew-c530abcc479a)
 
+The same notes are in [Feature Stores & Feature Pipelines](feature-stores-and-feature-pipelines.md).
+
 ### Drift
 
 This subsection is data drift, concept drift, estimators, and Alibi Detect.
+
+The same notes are in [Anomaly Detection](../../machine-learning/anomaly-detection.md), [Comparing distributions (distance methods)](../../foundation-knowledge/distribution.md#comparing-distributions-distance-methods), [General patterns](mlops.md#general-patterns), [Hyper Parameter Optimization](../../validation-and-evaluation/hyper-parameter-optimization.md), and [Training Strategies](../../validation-and-evaluation/training-strategies.md).
 
 1. [Data & concept drifts](https://deepchecks.com/how-to-monitor-ml-models-in-production/), [2](https://www.explorium.ai/blog/understanding-and-handling-data-and-concept-drift/)
 2. (good) [Inferring Concept Drift Without Labeled Data](https://concept-drift.fastforwardlabs.com/). Also talks about stream-based drift by Cloudera — Fast Forward Labs.
 3. Arize.ai
    - Data, concept, [feature drifts](https://medium.com/data-science/using-statistical-distance-metrics-for-machine-learning-observability-4c874cded78) — various comparisons between train/prod/validation time windows, diff models, A/B testing etc., and how to measure drifts
+
+The same notes are in [A/B Testing](../../experimental-design/a-b-testing.md).
+
    - [Model store, Feature store, evaluation store](https://medium.com/data-science/the-only-3-ml-tools-you-need-1aa750778d33)
    - [Monitor model performance in production](https://medium.com/data-science/the-playbook-to-monitor-your-models-performance-in-production-ec06c1cc3245) — real-time, biased, delayed, and no ground truth.
    - [use cases — i.e., how to use statistical differences/distances](https://medium.com/data-science/using-statistical-distance-metrics-for-machine-learning-observability-4c874cded78)

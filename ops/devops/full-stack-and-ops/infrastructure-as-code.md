@@ -2,6 +2,8 @@
 
 This page is Infrastructure as Code, focused on Terraform courses and a Terraform vs Ansible comparison.
 
+The same notes are in [DevOps Courses](../devops-courses.md).
+
 ## Terraform
 
 This section is Terraform video courses and a comparison with Ansible.

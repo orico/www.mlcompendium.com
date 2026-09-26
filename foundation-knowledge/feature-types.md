@@ -2,6 +2,8 @@
 
 This page distinguishes discrete, categorical, and continuous features, and how they are encoded for regression.
 
+The same notes are in [Regression](../machine-learning/regression.md).
+
 Feature Types - no permission doc
 
 ## Discrete

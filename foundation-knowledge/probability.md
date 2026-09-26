@@ -2,6 +2,8 @@
 
 This page collects notes on probability density functions and kernel density estimation, with Wikipedia crib figures.
 
+The same notes are in [Distribution](distribution.md) and [Probability & Statistics](probability-and-statistics.md).
+
 ## Probability crib figures
 
 These figures are crib sheets from Wikipedia on basic probability ideas.

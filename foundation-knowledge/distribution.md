@@ -2,6 +2,8 @@
 
 This page is about probability distributions: types, the normal, and ways to compare them.
 
+The same notes are in [Distribution Transformation](distribution-transformation.md) and [Probability](probability.md).
+
 ## Types
 
 This section is what a distribution is, with crib figures and links to overviews.
@@ -64,9 +66,15 @@ If the data are not normal, your sample size may or may not be adequate, and it 
 This section is distance-based comparison: histograms, earth mover’s distance, and related papers.
 
 1. Categorical data can be transformed to a histogram i.e., #class / total and then measured for distance between two histograms’, e.g., train and production. Using earth mover distance [python](https://jeremykun.com/2018/03/05/earthmover-distance/) [git wrapper to c](https://github.com/pdinges/python-emd), linear programming, so its slow.
+
+The same notes are in [Drift](../ops/mlops/mlops-monitoring-and-alerts.md#drift).
+
 2. [Earth movers](https://medium.com/data-science/earth-movers-distance-68fff0363ef2).
 3. [EMD paper](http://infolab.stanford.edu/pub/cstr/reports/cs/tr/99/1620/CS-TR-99-1620.ch4.pdf)
 4. Also check KL DIVERGENCE in the information theory section.
+
+The same notes are in [Cross entropy, relative ent, KL-D, JS-D, soft max](information-theory.md#cross-entropy-relative-ent-kl-d-js-d-soft-max).
+
 5. [Bengio](https://arxiv.org/abs/1901.10912) et al, transfer objective for learning to disentangle casual mechanisms - We propose to meta-learn causal structures based on how fast a learner adapts to new distributions arising from sparse distributional changes
 
 ## Deprecated links

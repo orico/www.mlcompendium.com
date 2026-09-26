@@ -2,6 +2,8 @@
 
 This page is about multilabel classification: assigning more than one label per example, and the main ways to do it.
 
+The same notes are in [MULTI LABEL/OUTPUT](../deep-learning/deep-neural-nets.md#multi-labeloutput).
+
 ## What multilabel classification is
 
 This section defines multilabel classification and contrasts it with multiclass.
@@ -21,6 +23,8 @@ I.e., the two approaches are:
 ## Methods and metrics
 
 This section points at tutorials and a paper that cover methods and evaluation metrics.
+
+The same notes are in [Precision Recall ROC AUC](../validation-and-evaluation/evaluation-metrics.md#precision--recall--roc--auc).
 
 Great [PDF](https://users.ics.aalto.fi/jesse/talks/Multilabel-Part01.pdf) that explains about multi label classification and especially metrics, [part 2 here](https://users.ics.aalto.fi/jesse/talks/Multilabel-Part02.pdf)
 

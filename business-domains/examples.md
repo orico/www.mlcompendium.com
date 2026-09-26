@@ -2,6 +2,8 @@
 
 This page is an intro to the well-known NYC taxi pickup problem for regression and related evaluation notes.
 
+The same notes are in [Regression](../machine-learning/regression.md).
+
 ### [NYC taxi pickup problem](http://www.vivekchoksi.com/papers/taxi_pickups.pdf)
 
 This section points at the pickup paper and a second study, plus error measures and a regression tip.

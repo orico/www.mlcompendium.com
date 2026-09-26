@@ -2,6 +2,8 @@
 
 This page is about the Fourier transform for decomposing signals, plus wavelets for data science.
 
+The same notes are in [Electronic Network Frequency Analysis](../business-domains/electronic-network-frequency-analysis.md) and [Feature Engineering](../audio/feature-engineering.md).
+
 ## Fourier Transform
 
 This section says what a Fourier transform is and links Medium math series.

@@ -2,6 +2,8 @@
 
 This page collects regulation, fairness tooling, debiasing methods, and privacy resources.
 
+The same notes are in [Fairness, Accountability, and Transparency In Prompts](../generative-ai/fairness-accountability-and-transparency-in-prompts.md).
+
 ### REGULATION FOR AI
 
 This subsection links EU and Israel AI regulation reports and guidance.
@@ -110,6 +112,8 @@ This subsection explains differential privacy and links a video overview.
 ### ANONYMIZATION
 
 This subsection links an NLP approach to data anonymization.
+
+The same notes are in [Named Entity Recognition (NER)](../natural-language-processing/named-entity-recognition-ner.md).
 
 1. [Using NER (omri mendels)](https://medium.com/data-science/nlp-approaches-to-data-anonymization-1fb5bde6b929)
 

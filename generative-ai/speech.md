@@ -2,6 +2,8 @@
 
 This page collects speech models and how to evaluate them.
 
+The same notes are in [Basics](../audio/basics.md), [Deep Neural Audio](../audio/deep-neural-audio-1.md), [Mix N Match](mix-n-match.md), and [Other Tools](../audio/algorithms.md#other-tools).
+
 ## Models
 
 This section points at Whisper for speech recognition.

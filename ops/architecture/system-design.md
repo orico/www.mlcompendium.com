@@ -2,6 +2,8 @@
 
 This page is a reading and video list for system design interviews, scalability, and guided practice.
 
+The same notes are in [System design](../dataops/data-engineering-questions-and-training.md#system-design).
+
 1. (Amazing) [System Design in a Hurry](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction)
 2. (Amazing) [System Design and architecture](https://github.com/puncsky/system-design-and-architecture)
 

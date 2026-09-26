@@ -2,6 +2,8 @@
 
 This page collects definitions, reading, and notes on product-led growth.
 
+The same notes are in [Business](../product-management/business.md), [Product Vision & Strategy](../product-management/product-vision-and-strategy.md), and [User Experience Design (UX)](../product-management/user-experience-design-ux.md).
+
 1. [Productled.com](https://productled.com/blog/product-led-growth-definition/) — definition and why it is taking off.
 2. [Mixpanel with Ken Rudin](https://mixpanel.com/blog/googles-head-of-user-growth-on-driving-product-usage-and-retention/) on "Google’s head of user growth on driving product usage and retention"
    - Raising feature awareness — through UI changes. Identifying and increasing the adoption of these features is very often a great way to accelerate product growth.

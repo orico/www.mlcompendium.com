@@ -2,6 +2,8 @@
 
 This page collects weak-supervision surveys, Snorkel resources, and papers on noisy labels and MIL.
 
+The same notes are in [Label Propagation / Spreading](../machine-learning/label-algorithms.md#label-propagation--spreading) and [Semi Supervised](semi-supervised.md).
+
 Text classification with extremely small datasets relies heavily on feature engineering methods such as number of hashtags, number of punctuations and other insights that are really good for this type of text.
 
 1. A great [review paper](https://pdfs.semanticscholar.org/3adc/fd254b271bcc2fb7e2a62d750db17e6c2c08.pdf) for weakly supervision, discusses:

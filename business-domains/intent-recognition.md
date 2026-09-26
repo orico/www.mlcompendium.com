@@ -2,6 +2,8 @@
 
 This page points at what intent classification is and how you can use it.
 
+The same notes are in [Chat Bots](../natural-language-processing/chat-bots.md) and [Document classification](../natural-language-processing/foundation-nlp.md#document-classification).
+
 1. [What is intent classification, and how can I use it?](https://web.archive.org/web/20210122060415/https://monkeylearn.com/blog/intent-classification/)
 
 ## Deprecated links

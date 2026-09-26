@@ -2,6 +2,8 @@
 
 This page is an introduction to reinforcement learning, Q-learning, deep RL, and RLHF.
 
+The same notes are in [Contextual Bandits](../experimental-design/contextual-bandits.md) and [Multi Armed Bandits](../experimental-design/multi-armed-bandits.md).
+
 ## Introduction
 
 This section lists books, platforms, lectures, and a noisy-label REINFORCE example.
@@ -10,6 +12,8 @@ This section lists books, platforms, lectures, and a noisy-label REINFORCE examp
 2. Vidhya on [Getting ready for AI based gaming agents – Overview of Open Source Reinforcement Learning Platforms](https://www.analyticsvidhya.com/blog/2016/12/getting-ready-for-ai-based-gaming-agents-overview-of-open-source-reinforcement-learning-platforms/)
 3. Vidhya on [Simple Beginner’s guide to Reinforcement Learning & its implementation](https://www.analyticsvidhya.com/blog/2017/01/introduction-to-reinforcement-learning-implementation/)
 4. ZipRecruiter on [Classifying Job Titles With Noisy Labels Using REINFORCE](https://medium.com/@ziprecruiter.engineering/classifying-job-titles-with-noisy-labels-using-reinforce-ce1a4bde05e2) — Fine-grained job title classification with noisy labels using the REINFORCE algorithm and multi-task learning
+
+The same notes are in [Unbalanced labels](label-algorithms.md#unbalanced-labels).
 
    -> this article has a very nice trick in adding a reward component to the loss function in order to mitigate for unbalanced class label problem, instead of the usual balancing.
 5. David Silver — [Home Page](https://www.davidsilver.uk/teaching/) — [1](https://www.youtube.com/watch?v=2pWv7GOvuf0) [2](https://www.youtube.com/watch?v=lfHX2hHRMVQ) [3](https://www.youtube.com/watch?v=Nd1-UUMVfz4) [4](https://www.youtube.com/watch?v=PnHCvfgC_ZA) [5](https://www.youtube.com/watch?v=0g4j2k_Ggc4) [6](https://www.youtube.com/watch?v=UoPei5o4fps) [7](https://www.youtube.com/watch?v=KHZVXao4qXs) [8](https://www.youtube.com/watch?v=ItMutbeOHtc) [9](https://www.youtube.com/watch?v=sGuiWX07sKw) [10](https://www.youtube.com/watch?v=kZ_AUmFcZtk)
@@ -41,5 +45,7 @@ This section points at deep RL reviews, deep Q-learning, and PyTorch tutorials.
 ## RLHF
 
 This section links Hugging Face’s illustrated RLHF post.
+
+The same notes are in [Reinforcement Learning for LLM](../generative-ai/large-language-models-llms.md#reinforcement-learning-for-llm).
 
 1. [illustrated RLHF by Huggingface](https://huggingface.co/blog/rlhf)

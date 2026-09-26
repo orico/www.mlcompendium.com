@@ -25,6 +25,9 @@ This subsection covers associations across categorical and numeric features.
 2. [**A great article in medium**](https://medium.com/@outside2SDs/an-overview-of-correlation-measures-between-categorical-and-continuous-variables-4c7f85610365)**, covering just about everything with great detail and explaining all the methods plus references.**
 3. **Heat maps for categorical vs target - groupby count per class, normalize by total count to see if you get more grouping in a certain combination of cat/target than others.**
 4. [**Anova**](https://www.researchgate.net/post/Which_test_do_I_use_to_estimate_the_correlation_between_an_independent_categorical_variable_and_a_dependent_continuous_variable)**/**[**log regression**](https://www.statalist.org/forums/forum/general-stata-discussion/general/1470627-correlation-between-continous-and-categorical-variable) [**2\*,**](https://dzone.com/articles/correlation-between-categorical-and-continuous-var-1) [**git**](https://github.com/ShitalKat/Correlation/blob/master/Correlation%20between%20categorical%20and%20continuous%20variables.ipynb)**,** **3**, for numeric/**[**cont vs categorical**](https://www.quora.com/How-can-I-measure-the-correlation-between-continuous-and-categorical-variables) **- high F score from anova hints about association between a feature and a target, i.e.,  the importance of the feature to separating the target.**
+
+The same notes are in [Distribution Transformation](../foundation-knowledge/distribution-transformation.md).
+
 5. **Anova youtube** [**1**](https://www.youtube.com/watch?v=ITf4vHhyGpc)**,** [**2**](https://www.youtube.com/watch?v=-yQb_ZJnFXw)
 
    <figure><img src="../.gitbook/assets/gimg-a5fd74139a1a.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh6.googleusercontent.com/3yJV2mUiy1_z0a7yd2PN4FiJzJukUspYtZDvVHusaWxiNKQWGrV--KQB9-Hytgc3dwLirzIlP_e8tVbTVWGV5Xx-t_zrogDU1t7HbPZXvYq4UuqCtM_cuTDoS0sJC1J92XStN-Mq">copied from the original hosted image</a>.</p></figcaption></figure>
@@ -75,6 +78,8 @@ $$\text{PPS} = (F1_{model} - F1_{naive}) / (1 - F1_{naive})$$\
 
 This section covers MIC and mutual information feature scores.
 
+The same notes are in [Information Theory](../foundation-knowledge/information-theory.md).
+
 [**Paper**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3325791/) **- we present a measure of dependence for two-variable relationships: the maximal information coefficient (MIC). MIC captures a wide range of associations both functional and not, and for functional relationships provides a score that roughly equals the coefficient of determination (R2) of the data relative to the regression function.**\
 
 
@@ -123,6 +128,8 @@ This marker separated sections in the original notes.
 
 This section lists feature selection tutorials and libraries.
 
+The same notes are in [Interpretable & Explainable AI (XAI)](interpretable-and-explainable-ai-xai.md) and [L1 and L2](../foundation-knowledge/regularization.md#l1-and-l2).
+
 **A series of good articles that explain about several techniques for feature selection**
 
 1. [**How to parallelize feature selection on several CPUs,**](https://stackoverflow.com/questions/37037450/multi-label-feature-selection-using-sklearn) **do it per label on each cpu and average the results.**
@@ -158,6 +165,9 @@ This section lists feature selection tutorials and libraries.
 16. [**A complete overview of many methods**](https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/)
     - **(reduction) LDA: Linear discriminant analysis is used to find a linear combination of features that characterizes or separates two or more classes (or levels) of a categorical variable.**
     - **(selection) ANOVA: ANOVA stands for Analysis of variance. It is similar to LDA except for the fact that it is operated using one or more categorical independent features and one continuous dependent feature. It provides a statistical test of whether the means of several groups are equal or not.**
+
+The same notes are in [Distribution Transformation](../foundation-knowledge/distribution-transformation.md).
+
     - **(Selection) Chi-Square: It is a is a statistical test applied to the groups of categorical features to evaluate the likelihood of correlation or association between them using their frequency distribution.**
     - **Wrapper methods:**
        - **Forward Selection: Forward selection is an iterative method in which we start with having no feature in the model. In each iteration, we keep adding the feature which best improves our model till an addition of a new variable does not improve the performance of the model.**
@@ -179,6 +189,8 @@ This section lists feature selection tutorials and libraries.
 
 This section links guides on encoding, text, and embedding features.
 
+The same notes are in [Auto Feature Engineering](../machine-learning/meta-learning.md#auto-feature-engineering), [Box Cox](../foundation-knowledge/distribution-transformation.md#box-cox), and [Feature engineering](../ops/dataops/lakes-and-warehouses.md#feature-engineering).
+
 1. [**Vidhya on FE, anomalies, engineering, imputing**](https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/?utm_source=outlierdetectionpyod&utm_medium=blog)
 2. [**Many types of FE**](https://medium.com/data-science/understanding-feature-engineering-part-1-continuous-numeric-data-da4e47099a7b)**, including log and box cox transform - a very useful explanation.**
 3. [**Categorical Data**](https://medium.com/data-science/understanding-feature-engineering-part-2-categorical-data-f54324193e63)
@@ -186,6 +198,9 @@ This section links guides on encoding, text, and embedding features.
 5. [**Text data**](https://medium.com/data-science/understanding-feature-engineering-part-3-traditional-methods-for-text-data-f6f7d70acd41) **- unigrams, bag of words, N-grams (2,3,..), tfidf matrix, cosine\_similarity(tfidf) ontop of a tfidf matrix, unsupervised hierarchical clustering with similarity measures on top of (cosine\_similarity), LDA for topic modelling in sklearn - pretty awesome, Kmeans(lda),.**
 6. [**Deep learning data for FE**](https://medium.com/data-science/understanding-feature-engineering-part-4-deep-learning-methods-for-text-data-96c44370bbfa)  **-** [**Word embedding using keras, continuous BOW - CBOW, SKIPGRAM, word2vec - really good.**](https://medium.com/data-science/understanding-feature-engineering-part-4-deep-learning-methods-for-text-data-96c44370bbfa)
 7. [**Topic Modelling**](http://chdoig.github.io/pygotham-topic-modeling/#/) **- a fantastic slide show about topic modelling using LDA etc.**
+
+The same notes are in [LDA (Latent Dirichlet Allocation)](../natural-language-processing/topics-modeling.md#lda-latent-dirichlet-allocation).
+
 8. **Dipanjan on feature engineering** [**1**](https://medium.com/data-science/understanding-feature-engineering-part-1-continuous-numeric-data-da4e47099a7b) **- cont numeric** [ **2 -**](https://medium.com/data-science/understanding-feature-engineering-part-2-categorical-data-f54324193e63) **categorical** [**3**](https://medium.com/data-science/understanding-feature-engineering-part-3-traditional-methods-for-text-data-f6f7d70acd41) **- traditional methods**
 9. [**Target encoding git**](https://pypi.org/project/target_encoding/)
 10. [**Category encoding git**](https://pypi.org/project/category-encoders/)
@@ -200,6 +215,8 @@ This subsection links a representation learning paper.
 
 This section notes TF-IDF vectorizer options and retrieval links.
 
+The same notes are in [LSA (TFIDF + SVD)](../natural-language-processing/topics-modeling.md#lsa-tfidf--svd) and [TF-IDF](../natural-language-processing/tf-idf.md).
+
 1. [Max\_features in tf idf](https://stackoverflow.com/questions/46118910/scikit-learn-vectorizer-max-features) -Sometimes it is not effective to transform the whole vocabulary, as the data may have some exceptionally rare words, which, if passed to TfidfVectorizer().fit(), will add unwanted dimensions to inputs in the future. One of the appropriate techniques in this case, for instance, would be to print out word frequences accross documents and then set a certain threshold for them. Imagine you have set a threshold of 50, and your data corpus consists of 100 words. After looking at the word frequences 20 words occur less than 50 times. Thus, you set max\_features=80 and you are good to go. If max\_features is set to None, then the whole corpus is considered during the TF-IDFtransformation. Otherwise, if you pass, say, 5 to max\_features, that would mean creating a feature matrix out of the most 5 frequent words accross text documents.
 2. Understanding Term based retrieval - TFIDF Bm25
 3. [understanding TFIDF and BM25](https://kmwllc.com/index.php/2020/03/20/understanding-tf-idf-and-bm-25/)
@@ -207,6 +224,8 @@ This section notes TF-IDF vectorizer options and retrieval links.
 ### **SIMILARITY**
 
 This section covers vector and text similarity measures.
+
+The same notes are in [Recommender Systems](../machine-learning/recommender-systems.md) and [String Matching](../natural-language-processing/string-matching.md).
 
 1. [**Cosine similarity tutorial**](http://blog.christianperone.com/2013/09/machine-learning-cosine-similarity-for-vector-space-models-part-iii/)
    - [**Cosine vs dot product**](https://datascience.stackexchange.com/questions/744/cosine-similarity-versus-dot-product-as-distance-metrics)
@@ -222,6 +241,8 @@ This section covers vector and text similarity measures.
 ### Distance
 
 This section lists common distance metrics and geo tools.
+
+The same notes are in [Dynamic Time Warping (DTW)](../machine-learning/timeseries.md#dynamic-time-warping-dtw).
 
 1. [Mastery on distance formulas](https://machinelearningmastery.com/distance-measures-for-machine-learning/)
    1. Role of Distance Measures
@@ -241,6 +262,8 @@ This subsection points to GeoPandas for geographic distance.
 ### **FEATURE IMPORTANCE**
 
 This section covers global importance and LIME-style local explanations.
+
+The same notes are in [Lime](interpretable-and-explainable-ai-xai.md#lime) and [Shap](interpretable-and-explainable-ai-xai.md#shap).
 
 **Note: point 2, about lime is used for explainability, please also check that topic, down below.**
 
@@ -270,6 +293,8 @@ This section links imputation libraries and exploration guides.
 ### **FEATURE STORE**
 
 This section describes feature store products and articles.
+
+The same notes are in [Feature Stores & Feature Pipelines](../ops/mlops/feature-stores-and-feature-pipelines.md).
 
 1. **The importance of having one -** medium
 2. [**What is?**](https://feast.dev/blog/what-is-a-feature-store/)

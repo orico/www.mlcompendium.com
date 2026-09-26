@@ -2,9 +2,13 @@
 
 This page collects Databricks notes on ACID, learning resources, Spark APIs, optimizations, and best practices.
 
+The same notes are in [Data Product](data-product.md) and [ML Architecture](../mlops/ml-architecture.md).
+
 ## Databricks
 
 This section covers Databricks concepts, courses, Spark API comparisons, optimizations, and best practices.
+
+The same notes are in [Databricks](../mlops/experiment-management.md#databricks).
 
 - [Databricks is ACID](https://databricks.com/glossary/acid-transactions)
 

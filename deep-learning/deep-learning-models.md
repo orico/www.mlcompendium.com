@@ -7,6 +7,8 @@ This page lists autoencoders, CNN and RNN architectures, graph neural networks, 
 
 This section collects notes on autoencoders.
 
+The same notes are in [Anomaly Detection](../machine-learning/anomaly-detection.md) and [Fraud Detection](../business-domains/fraud-detection.md).
+
 
 1. [How to use AE for dimensionality reduction + code](https://statcompute.wordpress.com/2017/01/15/autoencoder-for-dimensionality-reduction/) - using keras’ functional API
 2. [Keras.io blog post about AE’s](https://blog.keras.io/building-autoencoders-in-keras.html) - regular, deep, sparse, regularized, cnn, variational
@@ -58,6 +60,8 @@ This section collects notes on self organizing maps (som).
 ## NEURO EVOLUTION (GA/GP based)
 
 This section collects notes on neuro evolution (ga/gp based).
+
+The same notes are in [Genetic Algorithms & Genetic Programming](../machine-learning/genetic-algorithms-and-genetic-programming.md).
 
 
 NEAT
@@ -165,6 +169,8 @@ model = keras.Model(inputs, outputs)“
 
 This section collects notes on convolutional neural net.
 
+The same notes are in [CONVOLUTION NEURAL NETS (CNN)](../natural-language-processing/neural-nlp.md#convolution-neural-nets-cnn), [DETECTION](deep-neural-machine-vision.md#detection), and [Segmentation](deep-neural-machine-vision.md#segmentation).
+
 
 <figure><img src="../.gitbook/assets/gimg-fbfc7311dccc.png" alt=""><figcaption><p>CONVOLUTIONAL NEURAL NET</p><p>Credit: <a href="https://lh5.googleusercontent.com/yw2GIv_A_BJLggUjAcF7K3NFbvf9BsGiMS4PQHgLjl6H5sAziuofhepBZOlsWvJnK296FbGTOGYsOdWCmkpyesvuO9BtqcReXIVQy2xT3SOCNIH4riyTrpjL7M2tOOlG6eH_3SEN">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -263,6 +269,8 @@ This section collects notes on capsule neural nets.
 
 This section collects notes on transfer learning using cnn.
 
+The same notes are in [DATASET SELECTION](../validation-and-evaluation/datasets.md#dataset-selection), [Fine tuning](deep-neural-nets.md#fine-tuning), [Methods](../generative-ai/methods.md), and [TRAINING METHODOLOGIES](../validation-and-evaluation/datasets.md#training-methodologies).
+
 
 1. To Add keras book chapter 5 (i think)
 2. [Mastery](https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/) on TL using CNN
@@ -281,6 +289,8 @@ This section collects notes on visualize cnn.
 ## Recurrent Neural Net (RNN)
 
 This section collects notes on recurrent neural net (rnn).
+
+The same notes are in [SEQ2SEQ SEQUENCE TO SEQUENCE](../natural-language-processing/neural-nlp.md#seq2seq-sequence-to-sequence).
 
 
 ### RNN
@@ -315,6 +325,8 @@ Visual attention RNNS - Same idea as masking but on a window-based cnn. [Paper](
 ### LSTM
 
 This section collects notes on lstm.
+
+The same notes are in [LTSM for time series](../machine-learning/timeseries.md#ltsm-for-time-series).
 
 
 - The best, hands down, lstm post out there
@@ -470,6 +482,8 @@ Potential competitor to the transformer
 
 This section collects notes on graph neural networks (gnn).
 
+The same notes are in [Graph Theory](../classical-graph-models/graph-theory.md).
+
 
 1. (amazing) [Why i am luke warm about GNN’s](https://www.singlelunch.com/2020/12/28/why-im-lukewarm-on-graph-neural-networks/) - really good insight to what they do (compressing data, vs adjacy graphs, vs graphs, high dim relations, etc.)
 2. (amazing) [Graphical intro to GNNs](https://distill.pub/2021/gnn-intro/)
@@ -493,6 +507,8 @@ This section collects notes on graph neural networks (gnn).
 
 This section collects notes on gnn courses.
 
+The same notes are in [Graph/GNN courses](../classical-graph-models/graph-theory.md#graphgnn-courses).
+
 
 1. [machine learning with graphs by Stanford](http://web.stanford.edu/class/cs224w/), from ML to GNN.
 2. [Graph deep learning course](https://geometricdeeplearning.com/lectures/) - graphs, sets, groups, GNNs. [youtube](https://www.youtube.com/watch?app=desktop&v=w6Pw4MOzMuo)
@@ -500,6 +516,8 @@ This section collects notes on gnn courses.
 ### Deep walk
 
 This section collects notes on deep walk.
+
+The same notes are in [Graph Theory](../classical-graph-models/graph-theory.md).
 
 
 1. [Git](https://github.com/phanein/deepwalk)
@@ -509,6 +527,8 @@ This section collects notes on deep walk.
 ### Node2vec
 
 This section collects notes on node2vec.
+
+The same notes are in [Graph Topics](../classical-graph-models/graph-theory.md#graph-topics).
 
 
 1. [Git](https://github.com/eliorc/node2vec)
@@ -565,6 +585,8 @@ Nodevectors
 
 This section collects notes on signal processing nn (fft, wavelets, shapelets).
 
+The same notes are in [Feature Engineering](../audio/feature-engineering.md).
+
 
 1. [Fourier Transform](https://www.youtube.com/watch?v=spUNpyF58BY) - decomposing frequencies
 2. [WAVELETS On youtube (4 videos)](https://www.youtube.com/watch?v=QX1-xGVFqmw):
@@ -589,6 +611,8 @@ This section collects notes on nn-sequence analysis.
 ## SIAMESE NETWORKS (one shot)
 
 This section collects notes on siamese networks (one shot).
+
+The same notes are in [N-Shot Learning](../types-of-machine-learning/n-shot-learning.md) and [SIAMESE NETWORKS](deep-neural-nets.md#siamese-networks).
 
 
 1. [Siamese CNN, learns a similarity between images, not to classify](https://medium.com/predict/face-recognition-from-scratch-using-siamese-networks-and-tensorflow-df03e32f8cd0)

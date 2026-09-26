@@ -2,6 +2,8 @@
 
 This page is about AutoML: what it automates, personal caveats, and curated systems from automl.org.
 
+The same notes are in [Model Families](../types-of-machine-learning/model-families.md).
+
 [What is?](https://www.automl.org/) Automated Machine Learning provides methods and processes to make Machine Learning available for non-Machine Learning experts, to improve efficiency of Machine Learning and to accelerate research on Machine Learning.
 
 Personal note: automl algorithms in this field will bridge the gap and automate several key processes, but it will not allow a practitioner to do serious research or solve business or product problems easily. The importance of this field is to advance each subfield, whether HPO, NAS, etc. these selective novelties can help us solve specific issues, i.e, lets take HPO, we can use it to save time and money on redundant parameter searches, especially when it comes to resource heavy algorithms such as Deep learning (think GPU costs).
@@ -35,6 +37,8 @@ The following is referenced from AutoML.org:
 
 This section lists AutoWEKA, auto-sklearn, TPOT, H2O, TransmogrifAI, MLBox, and MLJar.
 
+The same notes are in [Genetic Algorithms & Genetic Programming](genetic-algorithms-and-genetic-programming.md).
+
 - [AutoWEKA](http://www.cs.ubc.ca/labs/beta/Projects/autoweka/) is an approach for the simultaneous selection of a machine learning algorithm and its hyperparameters; combined with the [WEKA](http://www.cs.waikato.ac.nz/ml/weka/) package it automatically yields good models for a wide variety of data sets.
 - [Auto-sklearn](https://automl.github.io/auto-sklearn/master/) is an extension of AutoWEKA using the Python library [scikit-learn](http://scikit-learn.org/stable/) which is a drop-in replacement for regular scikit-learn classifiers and regressors.
 - [TPOT](http://epistasislab.github.io/tpot/) is a data-science assistant which optimizes machine learning pipelines using genetic programming.
@@ -52,6 +56,8 @@ This section lists AutoWEKA, auto-sklearn, TPOT, H2O, TransmogrifAI, MLBox, and 
 ### Hyper param optimization
 
 This section lists Hyperopt, SMAC, Spearmint, BOHB, RoBO, and SMAC3.
+
+The same notes are in [HYPER PARAM GRID SEARCHES](../deep-learning/deep-neural-nets.md#hyper-param-grid-searches) and [Hyper Parameter Optimization](../validation-and-evaluation/hyper-parameter-optimization.md).
 
 - [Hyperopt](http://jaberg.github.io/hyperopt/), including the TPE algorithm
 - [Sequential Model-based Algorithm Configuration (SMAC)](http://aclib.net/SMAC/)
@@ -73,6 +79,8 @@ This section lists Auto-PyTorch, AutoKeras, DEvol, HyperAS, and talos.
 ### Auto Feature Engineering
 
 This section points at automated feature engineering reading by Will Koehrsen.
+
+The same notes are in [FEATURE ENGINEERING](../validation-and-evaluation/features.md#feature-engineering).
 
 1. automated feature engineering on medium by will koehrsen
 

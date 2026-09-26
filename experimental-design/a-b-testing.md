@@ -2,6 +2,8 @@
 
 This page collects books, courses, CUPED and variance-reduction methods, challenges, and related A/B testing notes.
 
+The same notes are in [Contextual Bandits](contextual-bandits.md), [Drift](../ops/mlops/mlops-monitoring-and-alerts.md#drift), [Hypothesis Testing](../foundation-knowledge/hypothesis-testing.md), [Multi Armed Bandits](multi-armed-bandits.md), and [Tutorials](../ops/devops/full-stack-and-ops/tutorials.md).
+
 1. (highly recommended — buy) [Trustworthy controlled experiments](https://www.amazon.com/Trustworthy-Online-Controlled-Experiments-Practical/dp/1108724264) by Ron, Diane, Ya
 2. (really good) [A comprehensive A/B testing course](https://www.dynamicyield.com/lesson/introduction-to-ab-testing/) — dynamic fields
 3. CUPED — [Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data](https://www.researchgate.net/publication/237838291_Improving_the_Sensitivity_of_Online_Controlled_Experiments_by_Utilizing_Pre-Experiment_Data)
@@ -27,6 +29,9 @@ This page collects books, courses, CUPED and variance-reduction methods, challen
     > Controlled-experiment Using Pre-Existing Data (CUPED) is a variance reduction technique created by [Microsoft in 2013](https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf). Since then, it has been implemented at [Netflix](https://www.kdd.org/kdd2016/papers/files/adp0945-xieA.pdf), [Booking.com](https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d), [BBC](https://medium.com/bbc-data-science/increasing-experiment-sensitivity-through-pre-experiment-variance-reduction-166d7d00d8fd), and many others.
 
     In short, CUPED uses pre-experiment data to control for natural variation in an experiment’s north star metric. By removing natural variation, we can run statistical tests that require a smaller sample size. CUPED can be added to virtually any A/B testing framework; it’s computationally efficient and fairly straightforward to code.
+
+The same notes are in [SAMPLE SELECTION](../validation-and-evaluation/datasets.md#sample-selection).
+
 13. (Netflix) [Improving the Sensitivity of Online Controlled Experiments: Case Studies at Netflix](https://www.kdd.org/kdd2016/papers/files/adp0945-xieA.pdf)
 14. (Booking) [How Booking.com increases the power of online experiments with CUPED](https://booking.ai/how-booking-com-increases-the-power-of-online-experiments-with-cuped-995d186fff1d), [comment](https://medium.com/@drsimonj/yes-cuped-could-be-used-like-regression-methods-to-adjust-for-confounders-71c951234fcf)
 15. (BBC) [Increasing experimental power with variance reduction at the BBC](https://medium.com/bbc-data-science/increasing-experiment-sensitivity-through-pre-experiment-variance-reduction-166d7d00d8fd) — This article discusses how the Experimentation team have been accounting for pre-experiment variance in order to increase the statistical power of their experiments

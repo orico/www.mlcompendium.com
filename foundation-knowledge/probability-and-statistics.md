@@ -2,6 +2,8 @@
 
 This page contrasts probability with statistics and collects introductory resources, wiki topics, and sampling notes.
 
+The same notes are in [Probability](probability.md).
+
 [Coursera course](https://www.youtube.com/watch?v=WkOinijQmPU&list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ&index=1) on probabilities - for data science, actually quite good in explaining a lot of the basic tools,prob, conditional, distributions, sampling, CI, hypothesis, etc.
 
 - A great resource for proba/bayes/b-networks/etc (adam bali)
@@ -104,6 +106,8 @@ Some [calculations](https://www.mathsisfun.com/data/probability.html) to get you
 ### STATISTICAL SAMPLING AND RESAMPLING
 
 This section links an overview of sampling, resampling, and sampling error.
+
+The same notes are in [TRAIN / TEST / CROSS VALIDATION](../validation-and-evaluation/datasets.md#train--test--cross-validation).
 
 1. [What is? Method for sampling/resampling, and sampling errors explained.](https://machinelearningmastery.com/statistical-sampling-and-resampling/) (cross validation etc)
 

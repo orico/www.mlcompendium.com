@@ -2,6 +2,8 @@
 
 This page is about logging with Logz.io intros and overviews.
 
+The same notes are in [ELK](elk.md).
+
 ## Logz.io
 
 This section is Logz.io intro and overview videos.

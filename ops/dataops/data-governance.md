@@ -2,6 +2,8 @@
 
 This page collects definitions, build guides, and starting steps for data governance.
 
+The same notes are in [Data Fabric](database-architecture-and-modeling.md#data-fabric) and [Data Lineage](data-lineage.md).
+
 1. [Definition](https://www.cleverrepublic.com/what-is/data-governance/), taken from DAMA
 2. [What is](https://www.imperva.com/learn/data-security/data-governance/) — by Imperva
 3. How to build [part 1](https://www.phdata.io/blog/snowflake-data-governance/), [part 2](https://www.phdata.io/blog/snowflake-data-governance-2/)

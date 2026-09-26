@@ -2,11 +2,15 @@
 
 This page is about transforming skewed data toward normality, especially Box-Cox, plus related nonparametric tests.
 
+The same notes are in [CORRELATION](../validation-and-evaluation/features.md#correlation), [Distribution](distribution.md), and [FEATURE SELECTION](../validation-and-evaluation/features.md#feature-selection).
+
 [Top 3 methods for handling skewed data](https://medium.com/data-science/top-3-methods-for-handling-skewed-data-1334e0debf45). Log, square root, box cox transformations
 
 ## Box Cox
 
 This section is the Box-Cox power transformation: what lambda does, and how to check normality after.
+
+The same notes are in [FEATURE ENGINEERING](../validation-and-evaluation/features.md#feature-engineering).
 
 [Power transformations](https://machinelearningmastery.com/power-transforms-with-scikit-learn/)
 
@@ -63,6 +67,8 @@ Finally: An awesome tutorial (dead), here is a new one in python with [code exam
 
 This section defines the Mann–Whitney U test as a nonparametric comparison of two samples.
 
+The same notes are in [Hypothesis Testing](hypothesis-testing.md).
+
 ([what is?](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test)) - the Mann–Whitney U test is a [nonparametric](https://en.wikipedia.org/wiki/Nonparametric_statistics) [test](https://en.wikipedia.org/wiki/Statistical_hypothesis_test) of the [null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) that it is equally likely that a randomly selected value from one sample will be less than or greater than a randomly selected value from a second sample.
 
 In other words: This test can be used to determine whether two independent samples were selected from populations having the same distribution.
@@ -72,6 +78,8 @@ Unlike the [t-test](https://en.wikipedia.org/wiki/T-test) it does not require th
 ## Null hypothesis
 
 This section points at chi-square, t-tests, and ANOVA notes tied to the null hypothesis.
+
+The same notes are in [Hypothesis Testing](hypothesis-testing.md).
 
 1. [What is chi-square and what is a null hypothesis, and how do we calculate observed vs expected and check if we can reject the null and get significant difference.](https://medium.com/greyatom/goodness-of-fit-using-chi-square-be5bba375caf)
 2. Analytics vidhya

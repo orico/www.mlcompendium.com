@@ -28,6 +28,8 @@ This subsection is which BLAS NumPy uses and how they compare.
 
 This subsection points at the GLUE / SuperGLUE leaderboard.
 
+The same notes are in [BERT](../deep-learning/attention.md#bert).
+
 1. [Glue / super glue](https://gluebenchmark.com/leaderboard/)
 
 ### State of the art in AI

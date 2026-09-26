@@ -12,6 +12,8 @@ This section links word-based neural language models.
 
 This section compares char-based and word-based neural generation.
 
+The same notes are in [Large Language Models (LLMs)](../generative-ai/large-language-models-llms.md).
+
 1. [Using RNN](https://www.aclweb.org/anthology/C16-1103)
 2. [Using language modeling](https://medium.com/@shivambansal36/language-modelling-text-generation-using-lstms-deep-learning-for-nlp-ed36b224b275)
 3. [Word based vs char based](https://datascience.stackexchange.com/questions/13138/what-is-the-difference-between-word-based-and-char-based-text-generation-rnns) - Word-based LMs display higher accuracy and lower computational cost than char-based LMs. However, char-based RNN LMs better model languages with a rich morphology such as Finish, Turkish, Russian etc. Using word-based RNN LMs to model such languages is difficult if possible at all and is not advised. Char-based RNN LMs can mimic grammatically correct sequences for a wide range of languages, require bigger hidden layer and computationally more expensive while word-based RNN LMs train faster and generate more coherent texts and yet even these generated texts are far from making actual sense.
@@ -21,6 +23,8 @@ This section compares char-based and word-based neural generation.
 ## LANGUAGE DETECTION / IDENTIFICATION
 
 This section compares CLD, fastText, and cloud language-ID APIs.
+
+The same notes are in [Language detection](foundation-nlp.md#language-detection).
 
 1. [A qualitative comparison of google, azure, amazon, ibm LD LI](https://medium.com/activewizards-machine-learning-company/comparison-of-the-most-useful-text-processing-apis-e4b4c1e6626a)
 2. [CLD2](https://github.com/CLD2Owners/cld2/tree/master/docs), [CLD3](https://github.com/google/cld3), [PYCLD](https://github.com/aboSamoor/pycld2)2, [POLYGLOT wraps CLD](https://polyglot.readthedocs.io/en/latest/Detection.html), [alex ott cld stats](https://gist.github.com/alexott/dd43fa8d1db4b8202d55c6325b2c69c2), [cld comparison vs tika langid](http://blog.mikemccandless.com/2011/10/accuracy-and-performance-of-googles.html)
@@ -82,8 +86,13 @@ Papers:
 
 This section covers neural MT, LASER, BLEU, and transliteration.
 
+The same notes are in [Augmentation](augmentation.md) and [Metrics](../generative-ai/large-language-models-llms.md#metrics).
+
 1. [State of the art methods for neural machine translation](https://www.topbots.com/ai-nlp-research-neural-machine-translation/) - a review of papers
 2. LASER: [Zero shot multi lang-translation by facebook](https://code.fb.com/ai-research/laser-multilingual-sentence-embeddings/), [github](https://github.com/facebookresearch/LASER)
+
+The same notes are in [Multi Language](multi-language.md).
+
 3. [How to use laser on medium](https://medium.com/the-artificial-impostor/multilingual-similarity-search-using-pretrained-bidirectional-lstm-encoder-e34fac5958b0)
 4. Stanford coreNLP language POS/NER/DEP PARSE etc for [53 languages](https://www.analyticsvidhya.com/blog/2019/02/stanfordnlp-nlp-library-python)
 5. [Using embedding spaces](https://rare-technologies.com/translation-matrix-in-gensim-python/) w2v by gensim

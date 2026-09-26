@@ -2,9 +2,13 @@
 
 This page covers experiment tracking tools, Spark APIs, and Databricks notes for training and deploying models.
 
+The same notes are in [General patterns](mlops.md#general-patterns) and [Hyper Parameter Optimization](../../validation-and-evaluation/hyper-parameter-optimization.md).
+
 ## Experiment platforms
 
 This section lists experiment management products and short notes on each one.
+
+The same notes are in [Weights & Biases](mlops-course.md#weights--biases).
 
 - [All the alternatives](https://blog.valohai.com/top-machine-learning-platforms)
 - Cnvrg.io
@@ -19,6 +23,8 @@ This section lists experiment management products and short notes on each one.
 
 This section is Spark API primers and related reading.
 
+The same notes are in [Spark](../dataops/data-engineering-questions-and-training.md#spark).
+
 - [RDDs vs datasets vs dataframes](https://databricks.com/blog/2016/07/14/a-tale-of-three-apache-spark-apis-rdds-dataframes-and-datasets.html)
 - [What are RDDs?](https://www.quora.com/What-are-resilient-distributed-datasets-RDDs-How-do-they-help-Spark-with-its-awesome-speed)
 - [Keras, TF, Spark](https://medium.com/qubida-analytics-blog/build-a-deep-learning-image-classification-pipeline-with-spark-keras-and-tensorflow-3bf26fda15e6)
@@ -27,6 +33,8 @@ This section is Spark API primers and related reading.
 ## Databricks
 
 This section is Databricks tools, Spark ML, MLflow, and spark-sklearn notes.
+
+The same notes are in [Databricks](../dataops/data-platforms.md#databricks) and [Databricks Delta Lake](../dataops/lakes-and-warehouses.md#databricks-delta-lake).
 
 1. [Koalas](https://github.com/databricks/koalas) — pandas API on Apache Spark
 2. [Intro to DB on Spark](https://www.youtube.com/watch?v=DqihOzZl5jM&list=PLTPXxbhUt-YV-CwJTiE36C-0le8wlFJ5G&index=5), has some basic sklearn-like tools and other custom operations such as a single-vector-based aggregator for using features as an input to a model

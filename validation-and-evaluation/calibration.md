@@ -2,6 +2,8 @@
 
 This page explains why predicted probabilities need calibration and how to adjust them in classical models and neural nets.
 
+The same notes are in [Evaluation Metrics](evaluation-metrics.md).
+
 [Why do we need to calibrate models, or in other words, dont trust predict_proba to give you probabilities](https://medium.com/data-science/pythons-predict-proba-doesn-t-actually-predict-probabilities-and-how-to-fix-it-f582c21d63fc)
 
 ## Classic Model Calibration
@@ -49,6 +51,8 @@ This section links to neural-network calibration papers, blog posts, and tempera
 ### Temperature
 
 This subsection collects softmax temperature scaling explanations and a BNN dropout trick.
+
+The same notes are in [ACTIVATION FUNCTIONS](../deep-learning/deep-neural-nets.md#activation-functions) and [Softmax](../foundation-knowledge/information-theory.md#softmax).
 
 1. (great) [Softmax temperature](https://medium.com/mlearning-ai/softmax-temperature-5492e4007f71) by Harshit
 2. [Interactive demo](https://lukesalamone.github.io/posts/what-is-temperature/)

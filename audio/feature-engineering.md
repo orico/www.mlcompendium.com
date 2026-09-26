@@ -2,6 +2,8 @@
 
 This page collects links on Fourier transforms, Mel spectrograms, MFCC, and related audio features.
 
+The same notes are in [Basics](basics.md), [Digital Signal Processing (DSP)](../machine-learning/digital-signal-processing-dsp.md), [Fourier Transform](../machine-learning/fourier-transform.md), and [SIGNAL PROCESSING NN (FFT, WAVELETS, SHAPELETS)](../deep-learning/deep-learning-models.md#signal-processing-nn-fft-wavelets-shapelets).
+
 1. Fourier transform
    1. [YouTube](https://www.youtube.com/watch?v=7Tk6BAJ3mm8)
 2. [Read this first](https://jonathan-hui.medium.com/speech-recognition-feature-extraction-mfcc-plp-5455f5a69dd9), by Jonathan Hui — A/D, boost, Mel-frequency cepstral coefficients (MFCC), Perceptual Linear Prediction (PLP), Hanning vs Hamming, window, discrete Fourier transform (DFT), IDFT.

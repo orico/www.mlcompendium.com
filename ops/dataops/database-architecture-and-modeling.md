@@ -2,11 +2,15 @@
 
 This page covers database types, warehouse modeling, data fabric, virtualization, and deployment tools.
 
+The same notes are in [NoSQL vs relational](data-engineering-questions-and-training.md#nosql-vs-relational).
+
 - [Types of DBs](https://simonatta.medium.com/database-types-2dac81461709)
 
 ## Data Warehouse
 
 This section points at a guide from strategy to implementation for data warehouses.
+
+The same notes are in [Data Patterns](patterns.md).
 
 - (good) [a guide from strategy to implementation](https://www.analytics8.com/blog/what-is-a-data-warehouse/)
 
@@ -20,6 +24,8 @@ This section defines data vault modeling and how hubs, links, and satellites fit
 ## Data Fabric
 
 This section defines data fabric and points at NetApp, IBM, Gartner, and mesh-vs-fabric comparisons.
+
+The same notes are in [Data Catalogs](data-catalogs.md), [Data Governance](data-governance.md), and [Data Mesh](data-mesh.md).
 
 1. [Data Fabric](https://preetihemant.medium.com/modern-data-architecture-models-69e90b725a05) is a data architecture that follows a set of steps that determine its flow. The first step takes data through an integration phase. In the integration phase, data is ingested and then cleaned, transformed and loaded into storage. Then, there is the data quality phase where quality assessment is performed on the stored data. This data is then made available for different use cases through a combination of a data lake and a data warehouse. Typical use cases are BI, analytics and machine learning. Data governance policies are defined for the ingested data and a data catalog is used for discoverability — by Preeti Hemant.
 2. (short) [Netapp](https://www.netapp.com/data-fabric/what-is-data-fabric/)

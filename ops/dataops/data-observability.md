@@ -2,6 +2,8 @@
 
 This page lists tools for watching data health and the DataOps cycle.
 
+The same notes are in [Data Quality](data-quality.md).
+
 ## Tools
 
 This section lists Monte Carlo, BigEye, Databand, and DQOps.

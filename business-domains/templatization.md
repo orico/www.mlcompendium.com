@@ -2,6 +2,8 @@
 
 This page collects tools, methods, papers, and notes on log parsing, templatization, and log-based anomaly detection.
 
+The same notes are in [ASSOCIATION RULES](../machine-learning/data-mining.md#association-rules).
+
 - [Awesome log analysis](https://github.com/logpai/awesome-log-analysis)
 
 <figure><img src="../.gitbook/assets/gimg-994a97533e75.png" alt=""><figcaption><p>Awesome log analysis.</p><p>Credit: <a href="https://lh6.googleusercontent.com/PM_BNp146KH_xeEkpCfptSnhvjgluGa9WpxORgpRPqE3CmDMDhGEdRW2ldG1IXV9ZhJXIvJQkEvmNPALe7kw6Xb8JHY-5NRfql27kS2Cf4wgkBKOqDCsmhYhcZolYDy-1ycekXgx">copied from the original hosted image</a>.</p></figcaption></figure>
@@ -27,6 +29,8 @@ This section notes findings from applying word vectors (GloVe) to logs.
 ## CRF for templatization
 
 This section is about an NLP-style CRF approach to log template generation.
+
+The same notes are in [CONDITIONAL RANDOM FIELDS (CRF)](../machine-learning/classic-machine-learning.md#conditional-random-fields-crf).
 
 - [Towards an NLP based log template generation algorithm for system log analysis](http://www.3at.work/papers/cfi2014.pdf) — CRF for templatization, i.e. NER style.
 
@@ -89,6 +93,8 @@ This section describes fixed, sliding, and session windows for turning logs into
 ## PCA for log anomaly detection
 
 This section notes supervised methods and an unsupervised PCA approach based on projected vector length.
+
+The same notes are in [Anomaly Detection](../machine-learning/anomaly-detection.md) and [PCA](../machine-learning/dimensionality-reduction-methods.md#pca).
 
 - Many Supervised methods and most importantly a cool unsupervised method - > PCA for anomaly based on the length of the projected transformed sample vector by dividing the first and last PC vectors:
 - PCA was first applied in log-based anomaly detection by Xu et al. [47]. In their anomaly detection method, each log sequence is vectorized as an event count vector. After that, PCA is employed to find patterns between the dimensions of event count vectors. Employing PCA, two subspace are generated, namely normal space Sn and anomaly space Sa. Sn is constructed by the first k principal components and Sn is constructed by the remaining (n−k), where n is the original dimension. Then, the projection ya = (1−P P T )y of an event count vector y to Sa is calculated, where P = [v1,v2, ...,vk,] is the first k principal components. If the length of ya is larger

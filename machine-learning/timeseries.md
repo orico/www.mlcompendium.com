@@ -2,6 +2,8 @@
 
 This page collects time-series forecasting, decomposition, stationarity, DTW, clustering, and anomaly-detection resources.
 
+The same notes are in [Anomaly Detection](anomaly-detection.md), [Time series entropy](../foundation-knowledge/information-theory.md#time-series-entropy), and [Timeseries](../foundation-knowledge/data-science-tools.md#timeseries).
+
 1. [Random walk](https://machinelearningmastery.com/gentle-introduction-random-walk-times-series-forecasting-python/) - what is?
 
 <figure><img src="../.gitbook/assets/gimg-71b2444e4eb4.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/EIjqJgNQyohogF9eaHNDSpOJHaXag5MgHLlShTtkSHRaEU0EitX_ZPMbVDE2cbHr02bzT46Io9sJH7EkeTTrW49KMbBbYe6Xh9yFp2Tq_0LA-CZdb7X0ZZNvMs0k4hj8epypkKft">copied from the original hosted image</a>.</p></figcaption></figure>
@@ -166,6 +168,8 @@ Multi-step forecast using a window of “1” and a typical sample “time, meas
 
 This article explains about ML Methods for Sequential Supervised Learning - Six methods that have been applied to solve sequential supervised learning problems:
 
+The same notes are in [CONDITIONAL RANDOM FIELDS (CRF)](classic-machine-learning.md#conditional-random-fields-crf) and [MARKOV MODELS / HIDDEN MARKOV MODEL](classic-machine-learning.md#markov-models--hidden-markov-model).
+
 1. sliding-window methods - converts a sequential supervised problem into a classical supervised problem
 2. recurrent sliding windows
 3. hidden Markov models
@@ -226,6 +230,8 @@ This subsection links a MATLAB-oriented Kalman filter video.
 
 This subsection describes LSTM gates and sunspot prediction walkthroughs.
 
+The same notes are in [Deep Neural Time Series](../deep-learning/deep-neural-time-series.md) and [LSTM](../deep-learning/deep-learning-models.md#lstm).
+
 There are three types of gates within a unit:
 
 - Forget Gate: conditionally decides what information to throw away from the block.
@@ -256,6 +262,8 @@ This subsection compiles DTW-based time-series classification resources.
 
 This subsection warns about rolling-window pitfalls and lists tslearn clustering.
 
+The same notes are in [Clustering Algorithms](clustering-algorithms.md).
+
 1. Clustering time series, subsequences with a rolling window, the pitfall.
 2. [Clustering using tslearn](https://tslearn.readthedocs.io/en/stable/user_guide/clustering.html)
 3. [Kmeans for variable length](https://medium.com/@iliazaitsev/how-to-classify-a-dataset-with-observations-of-various-length-96fab8e95baf), [notebook](https://github.com/devforfu/Blog/blob/master/trees/scikit_learn.py)
@@ -263,6 +271,8 @@ This subsection warns about rolling-window pitfalls and lists tslearn clustering
 ### ANOMALY DETECTION TS
 
 This subsection surveys time-series anomaly detection methods and toolkits.
+
+The same notes are in [Anomaly Detection](anomaly-detection.md).
 
 1. [What is stationary (process](https://en.wikipedia.org/wiki/Stationary_process)), stationary time series analysis (shay palachi),
 2. [mastery on arimas](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
@@ -299,6 +309,8 @@ This subsection surveys time-series anomaly detection methods and toolkits.
 ### Dynamic Time Warping (DTW)
 
 This subsection covers DTW myths, code, and hierarchical clustering examples.
+
+The same notes are in [Clustering Algorithms](clustering-algorithms.md) and [Distance](../validation-and-evaluation/features.md#distance).
 
 DTW, ie., how to compute a better distance for two time series.
 

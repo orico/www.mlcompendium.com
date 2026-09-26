@@ -2,6 +2,8 @@
 
 This page collects introductory reading on diffusion models.
 
+The same notes are in [Diffusion Models](../generative-ai/stable-diffusion.md).
+
 1. [Lilian Weng on diffusion](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 2. [Diffusion models made easy](https://medium.com/data-science/diffusion-models-made-easy-8414298ce4da) — J. Rafid.
 

@@ -2,6 +2,8 @@
 
 This page collects definitions, people, traits that spread in networks, and tools for social network analysis.
 
+The same notes are in [Graph Theory](graph-theory.md).
+
 1. [Wiki](https://en.wikipedia.org/wiki/Social_network)
 2. [Paper: algorithmic approach to social networks](http://web.archive.org/web/20240712194953/http://www.cs.carleton.edu/faculty/dlibenno/papers/thesis/thesis.pdf)
 3. [Steve Borgatti](https://sites.google.com/site/steveborgatti/home)

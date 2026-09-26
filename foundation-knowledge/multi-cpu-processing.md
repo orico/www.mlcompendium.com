@@ -6,6 +6,9 @@ This page collects notes on multiprocessing with NumPy, Pandas, Dask, and relate
 
 1. [Pandas on multi process](https://github.com/nalepae/pandarallel)
 2. [Dask](https://docs.dask.org/en/latest/) - youtube [intros](https://www.youtube.com/channel/UCj9eavqmvwaCyKhIlu2GaoA)
+
+The same notes are in [Pandas](data-science-tools.md#pandas).
+
    1. Diagnostic [dashboards](https://www.youtube.com/watch?v=N_GqzcuGLCY)
    2. [Distributed sklearn](https://www.youtube.com/watch?v=5Zf6DQaf7jk) (amazing)
 3. Dask vs swifter vs vectorize

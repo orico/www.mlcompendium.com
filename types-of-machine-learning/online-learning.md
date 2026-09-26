@@ -2,6 +2,8 @@
 
 This page covers classical online learning and online deep learning references and tools.
 
+The same notes are in [Active Learning Algorithms](../machine-learning/active-learning-algorithms.md), [Follow the regularized leader](../business-domains/follow-the-regularized-leader.md), [Incremental Learning](../machine-learning/incremental-learning.md), and [Training Strategies](../validation-and-evaluation/training-strategies.md).
+
 ### Online (Classical) Learning
 
 Classical online learning updates the model as labeled examples arrive in a stream.

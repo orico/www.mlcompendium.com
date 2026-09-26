@@ -2,6 +2,8 @@
 
 This page is a ChatGPT answer describing DataOps, MLOps, GitOps, DevOps, and DevSecOps.
 
+The same notes are in [Definitions](devsecops/tbd.md), [DevOps Strategy](devops/devops-strategy.md), [MLOps Intro](mlops/mlops-intro.md), and [Ops Definition Comparisons](ops-definitions.md).
+
 I asked ChatGPT: "what are DataOps, MLOps, GitOps, DevOps and the DevSecOps professions?"
 
 The answer:

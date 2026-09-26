@@ -2,12 +2,16 @@
 
 This page covers Hellinger splits, CART, KD-trees, random forests, and extremely randomized trees.
 
+The same notes are in [Hoeffding tree](incremental-learning.md#hoeffding-tree), [IMBALANCED DATASETS](../validation-and-evaluation/datasets.md#imbalanced-datasets), [Interview questions](../foundation-knowledge/data-science-management.md#interview-questions), and [Unbalanced labels](label-algorithms.md#unbalanced-labels).
+
 - [Using hellinger distance to split supervised datasets, instead of gini and entropy. Claims better results.](https://medium.com/@evgeni.dubov/classifying-imbalanced-data-using-hellinger-distance-f6a4330d6f9a)
 - Visualize decision forests: [forests](https://medium.com/data-science/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)
 
 ### [CART TREES](http://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/)
 
 This section explains CART splits with SSE and Gini, early stopping, and pruning.
+
+The same notes are in [REGRESSION ALGORITHMS](classic-machine-learning.md#regression-algorithms) and [Tutorials](../foundation-knowledge/information-theory.md#tutorials).
 
 explains about the similarities and how to measure. which is the best split? based on SSE and GINI (good info about gini here).
 
@@ -30,6 +34,8 @@ This section is KD-trees for nearest neighbours and related applications.
 
 This section is random forests as an ensemble feature transform and imbalance handling.
 
+The same notes are in [Ensembles](ensembles.md).
+
 [Using an ensemble of trees to create a high dimensional and sparse representation of the data and classifying using a linear classifier](http://scikit-learn.org/stable/auto_examples/ensemble/plot_feature_transformation.html#sphx-glr-auto-examples-ensemble-plot-feature-transformation-py)
 
 [How do deal with imbalanced data in Random-forest](http://statistics.berkeley.edu/sites/default/files/tech-reports/666.pdf) —
@@ -40,6 +46,8 @@ This section is random forests as an ensemble feature transform and imbalance ha
 ### EXTRA TREES
 
 This section compares random forests and extremely randomized trees.
+
+The same notes are in [Ensembles](ensembles.md).
 
 1. A comparison between random forest and extra trees for the original article address.
 

@@ -2,6 +2,8 @@
 
 This page points at TabNet and at surveys of deep learning on tabular data.
 
+The same notes are in [ENTITY EMBEDDINGS](embedding.md#entity-embeddings).
+
 1. Tabnet
    1. [papers with code](https://paperswithcode.com/paper/tabnet-attentive-interpretable-tabular/review/)
    2. [paper](https://arxiv.org/abs/1908.07442)

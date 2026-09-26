@@ -2,6 +2,8 @@
 
 This page defines data contracts and points at articles and implementation options.
 
+The same notes are in [Data Product](data-product.md) and [Data Quality](data-quality.md).
+
 1. A data contract is **a formal agreement between a service and a client that abstractly describes the data to be exchanged**. That is, to communicate, the client and the service do not have to share the same types, only the same data contracts. — [Microsoft](https://learn.microsoft.com/en-us/dotnet/framework/wcf/feature-details/using-data-contracts)
 2. The following is a set of articles around the topics of data product / contract etc. however the focus is about data contracts and expectations IMO, therefore I place it here. — by Chad Sanderson
    - [the existential threat of data quality](https://dataproducts.substack.com/p/the-existential-threat-of-data-quality)
@@ -35,6 +37,8 @@ This section covers JSON Schema, protobuf, gRPC, and schema registries for manag
    - protobuf what and why? by [Swaminathan Muthuveerappan](https://medium.com/@swamim?source=post_page-----fcb324a64564--------------------------------)
    - off topic — [how to choose between grpc, graphql, rest](https://ashish-bania.medium.com/the-exhaustive-guide-to-choosing-between-grpc-graphql-and-rest-b7e4fd6d547e)
 - Managing proto files and other schema types such as avro or json schema can be done in [kafka's schema registry](https://docs.confluent.io/platform/current/schema-registry/index.html).
+
+The same notes are in [Kafka](../devops/full-stack-and-ops/key-value-db.md#kafka).
 
 ## Deprecated links
 

@@ -22,12 +22,16 @@ This section is about non-negative matrix factorization for topics.
 
 This section covers LSA, pLSA, LDA, and lda2vec overviews.
 
+The same notes are in [LSA](../machine-learning/dimensionality-reduction-methods.md#lsa), [TF-IDF](tf-idf.md), and [TFIDF](../validation-and-evaluation/features.md#tfidf).
+
 1. [A very good article about LSA (TFIDV X SVD), pLSA, LDA, and LDA2VEC.](https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05) Including code and explanation about Dirichlet probability. [Lda2vec code](http://nbviewer.jupyter.org/github/cemoody/lda2vec/blob/master/examples/twenty_newsgroups/lda2vec/lda2vec.ipynb)
 2. [A descriptive comparison for LSA pLSA and LDA](https://www.reddit.com/r/MachineLearning/comments/10mdtf/lsa_vs_plsa_vs_lda/)
 
 ## LDA (Latent Dirichlet Allocation)
 
 This section is a long reading list on LDA practice, parameters, and evaluation.
+
+The same notes are in [FEATURE ENGINEERING](../validation-and-evaluation/features.md#feature-engineering).
 
 - A [great summation](https://cs.stanford.edu/~ppasupat/a9online/1140.html) about topic modeling, Pros and Cons! (LSA, pLSA, LDA)
 
@@ -245,6 +249,8 @@ Conclusion: The results of the first experiment show that if we are using the on
 
 This section points at lda2vec hybrids of LDA and word embeddings.
 
+The same notes are in [Embedding](../deep-learning/embedding.md).
+
 1. “if you want to rework your own topic models that, say, jointly correlate an article’s topics with votes or predict topics over users then you might be interested in [lda2vec](https://github.com/cemoody/lda2vec).”
 2. [Datacamp intro](https://www.datacamp.com/community/tutorials/lda2vec-topic-model)
 3. [Original blog](https://multithreaded.stitchfix.com/blog/2016/05/27/lda2vec/#topic=38&lambda=1&term=) - I just learned about these papers which are quite similar: [Gaussian LDA for Topic Word Embeddings](http://www.aclweb.org/anthology/P15-1077) and [Nonparametric Spherical Topic Modeling with Word Embeddings](http://arxiv.org/abs/1604.00126).
@@ -261,6 +267,8 @@ This section points at lda2vec hybrids of LDA and word embeddings.
 ## TOP2VEC
 
 This section points at Top2Vec and BERT-based topic modeling.
+
+The same notes are in [BERT](../deep-learning/attention.md#bert).
 
 1. [Git](https://github.com/ddangelov/Top2Vec), [paper](https://arxiv.org/pdf/2008.09470.pdf)
 2. Topic modeling with distillibert [on medium](https://medium.com/data-science/topic-modeling-with-bert-779f7db187e6), [bertTopic](https://medium.com/data-science/interactive-topic-modeling-with-bertopic-1ea55e7d73d8)!, c-tfidf, umap, hdbscan, merging similar topics, visualization, [berTopic (same method as the above)](https://github.com/MaartenGr/BERTopic)

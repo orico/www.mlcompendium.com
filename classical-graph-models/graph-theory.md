@@ -2,9 +2,13 @@
 
 This page collects graph and GNN courses, community-detection topics, centrality algorithms, and graph tools.
 
+The same notes are in [Block Modeling - Distance Matrices](../machine-learning/clustering-algorithms.md#block-modeling---distance-matrices), [Deep walk](../deep-learning/deep-learning-models.md#deep-walk), [Fraud Detection](../business-domains/fraud-detection.md), [GRAPH NEURAL NETWORKS (GNN)](../deep-learning/deep-learning-models.md#graph-neural-networks-gnn), [Root Cause Effects (RCE/RCA)](../business-domains/root-cause-effects-rce-rca.md), and [Social Network Analysis](social-network-analysis.md).
+
 ## Graph/GNN courses
 
 This section lists courses on machine learning with graphs and geometric deep learning.
+
+The same notes are in [GNN courses](../deep-learning/deep-learning-models.md#gnn-courses).
 
 1. [Machine learning with graphs by Stanford](http://web.stanford.edu/class/cs224w/), from ML to GNN.
 2. [Graph deep learning course](https://geometricdeeplearning.com/lectures/) — graphs, sets, groups, GNNs. [YouTube](https://www.youtube.com/watch?v=w6Pw4MOzMuo)
@@ -26,6 +30,9 @@ This section covers community detection, connectivity, embeddings, and related g
 4. [Louvain community](https://github.com/taynaud/python-louvain/)
 5. Girvan–Newman [gist](https://gist.github.com/chelsea1992/6c725a24d358763097bebe8223c2014a), [this worked](https://github.com/ZwEin27/Community-Detection), [this is potentially good too](https://github.com/riteshkasat/Community-Detection-Algorithm), [another](https://github.com/ServiceCutter/girvan-newman), [another](https://github.com/ZwEin27/Community-Detection), [another](https://github.com/kjahan/community)
 6. [Node2vec](https://github.com/eliorc/Medium/blob/master/Nod2Vec-FIFA17-Example.ipynb), [paper](https://arxiv.org/pdf/1607.00653.pdf), [medium1](https://towardsdatascience.medium.com/think-your-data-different-ddc435f70850), [medium 2](https://towardsdatascience.medium.com/node2vec-embeddings-for-graph-data-32a866340fef) — tutorial — [code](https://github.com/eliorc/node2vec), [git code](https://github.com/eliorc/Medium/blob/master/Nod2Vec-FIFA17-Example.ipynb), [original py2 code](https://github.com/aditya-grover/node2vec), [taboola code for their medium paper](https://github.com/taboola/node2vec-example/blob/master/node2vec.ipynb)
+
+The same notes are in [Node2vec](../deep-learning/deep-learning-models.md#node2vec).
+
 7. [Evaluation metrics for community detection](https://stackoverflow.com/questions/28952104/evaluation-metrics-for-community-detection-algorithms)
 8. [Review for community detection algorithms](https://arxiv.org/pdf/0906.0612.pdf) — [paper](https://arxiv.org/abs/0906.0612)
 9. [Term: community structure](https://en.wikipedia.org/wiki/Community_structure#Algorithms_for_finding_communities)

@@ -2,6 +2,8 @@
 
 This page collects extractive and abstractive summarization papers, code, and TextRank notes.
 
+The same notes are in [NLP for hackers tutorials](foundation-nlp.md#nlp-for-hackers-tutorials).
+
 <figure><img src="../.gitbook/assets/gimg-24182903c3d9.png" alt=""><figcaption><p>Jatana unsupervised text summarization overview.</p><p>Credit: <a href="https://lh4.googleusercontent.com/eoFe8uZJHAZ8cil1x7TZ-rENzkfkQE3wVr5fHGbeS17h2GlsSMJcFzZ4plUDHd7TN1gsZ6OKKp-WelNVaHmFhOVXxPltjxSN_USk3s5Ro_L1Ct-yLiST1q7ST5k5W80CkyHZj7eM">copied from the original hosted image</a>.</p></figcaption></figure>
 
 1. [Email summarization but with a great intro (see image above)](https://medium.com/jatana/unsupervised-text-summarization-using-sentence-embeddings-adb15ce83db1)
@@ -40,6 +42,9 @@ This page collects extractive and abstractive summarization papers, code, and Te
     3. [Medium on methods, freq, LSA, linking words, sentences,bayesian, graph ranking, hmm, crf,](https://medium.com/sciforce/towards-automatic-text-summarization-extractive-methods-e8439cd54715)
     4. [Wiki on automatic summarization, abstractive vs extractive,](https://en.wikipedia.org/wiki/Automatic_summarization#TextRank_and_LexRank)
     5. [Pyteaser, textteaset, lexrank, pytextrank summarization models & rouge-1/n and blue metrics to determine quality of summarization models](https://rare-technologies.com/text-summarization-in-python-extractive-vs-abstractive-techniques-revisited/) Bottom line is that textrank is competitive to sumy_lex
+
+The same notes are in [Metrics](../generative-ai/large-language-models-llms.md#metrics).
+
     6. [Sumy](https://github.com/miso-belica/sumy)
     7. [Pyteaser](https://github.com/xiaoxu193/PyTeaser)
     8. [Pytextrank](https://github.com/ceteri/pytextrank)

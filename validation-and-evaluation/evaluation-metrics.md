@@ -2,9 +2,13 @@
 
 This page collects metric-learning notes and supervised and unsupervised evaluation measures.
 
+The same notes are in [Calibration](calibration.md) and [Evaluating Recommender Systems](../machine-learning/recommender-systems.md#evaluating-recommender-systems).
+
 ## A metric learning reality check
 
 This section links to updates, code, and a benchmark site for metric learning.
+
+The same notes are in [A Reality Check](../natural-language-processing/a-reality-check.md) and [VECTOR SIMILARITY SEARCH](../deep-learning/embedding.md#vector-similarity-search).
 
 1. [**Medium**](https://medium.com/@tkm45/updates-to-a-metric-learning-reality-check-730b6914dfe7)
 2. [**Git**](https://github.com/KevinMusgrave/pytorch-metric-learning)
@@ -24,11 +28,15 @@ This subsection is a placeholder for accuracy as a basic classification metric.
 
 This subsection links perplexity to classification accuracy.
 
+The same notes are in [LOSS](../deep-learning/deep-neural-nets.md#loss), [LOSS IN KERAS](../deep-learning/deep-neural-frameworks.md#loss-in-keras), and [Metrics](../generative-ai/large-language-models-llms.md#metrics).
+
 1. [perplexity and accuracy in classification](https://medium.com/unpackai/perplexity-and-accuracy-in-classification-114b57bd820d)
 
 ### Precision \ Recall \ ROC \ AUC
 
 This subsection defines precision, recall, F1, ROC, and related formulas and links.
+
+The same notes are in [Methods and metrics](../foundation-knowledge/multi-label-classification.md#methods-and-metrics).
 
 - [Performance Measures](http://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/):
 
@@ -145,6 +153,8 @@ This heading compares ROC and PR curves and defines AUC.
 ### UNSUPERVISED
 
 This subsection links cluster-count selection methods for k-means.
+
+The same notes are in [Clustering Algorithms](../machine-learning/clustering-algorithms.md).
 
 1. Silhouette Analysis vs Elbow Method vs Davies-Bouldin Index: Selecting the optimal number of clusters for KMeans clustering
 

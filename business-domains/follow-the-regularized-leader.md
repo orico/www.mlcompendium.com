@@ -2,6 +2,8 @@
 
 This page collects notes and links on the Follow the Regularized Leader (FTRL) algorithm.
 
+The same notes are in [Incremental Learning](../machine-learning/incremental-learning.md), [Online Learning](../types-of-machine-learning/online-learning.md), and [Regularization](../foundation-knowledge/regularization.md).
+
 1. [FTRL the paper](https://research.google.com/pubs/archive/41159.pdf) by McMahan et al.
 2. [FTRL](https://www.quora.com/What-is-an-intuitive-explanation-of-Follow-the-Regularized-Leader-FTRL-algorithm) by Nicolo Compolongo:
 

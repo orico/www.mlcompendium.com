@@ -2,11 +2,16 @@
 
 This page collects tutorials, papers, and practical notes on active learning and human-in-the-loop labeling.
 
+The same notes are in [Active Learning Algorithms](../machine-learning/active-learning-algorithms.md) and [Annotation & Disagreement](../natural-language-processing/annotation-and-disagreement.md).
+
 1. If you need to start somewhere start [here](https://www.datacamp.com/community/tutorials/active-learning) - types of AL, the methodology, examples, sample selection functions.
 2. A thorough [review paper](http://burrsettles.com/pub/settles.activelearning.pdf) about AL
 3. [The book on AL](http://burrsettles.com/pub/settles.activelearning.pdf)
 4. [Choose your model first, then do AL, from lighttag](https://www.lighttag.io/blog/active-learning-optimization-is-not-imporvement/)
    1. The alternative is Query by committee - Importantly, the active learning method we presented above is the most naive form of what is called "uncertainty sampling" where we chose to sample based on how uncertain our model was. An alternative approach, called Query by Committee, maintains a collection of models (the committee) and selecting the most "controversial" data point to label next, that is one where the models disagreed on. Using such a committee may allow us to overcome the restricted hypothesis a single model can express, though at the onset of a task we still have no way of knowing what hypothesis we should be using.
+
+The same notes are in [Ensembles](../machine-learning/ensembles.md) and [Entropy / Information Gain](../foundation-knowledge/information-theory.md#entropy--information-gain).
+
    2. [Paper](https://arxiv.org/pdf/1807.04801.pdf): warning against transferring actively sampled datasets to other models
 5. [How to increase accuracy with AL ](http://www.ijcte.org/papers/910-AC0013.pdf)
 6. [AL with model selection](https://ojs.aaai.org/index.php/AAAI/article/download/9014/8873) - paper

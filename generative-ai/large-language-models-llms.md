@@ -2,6 +2,8 @@
 
 This page collects papers, models, tools, methods, and use cases for large language models.
 
+The same notes are in [GPT](gpt.md), [GPT3 is ZERO, ONE, FEW](../types-of-machine-learning/n-shot-learning.md#gpt3-is-zero-one-few), [NEURAL LANGUAGE GENERATION](../natural-language-processing/language-detection-identification-generation-nld-nli-nlg.md#neural-language-generation), [Prompt](prompt.md), and [Unlearning](../types-of-machine-learning/unlearning.md).
+
 ## Papers
 
 This section lists early LLM papers on generative pre-training and few-shot learning.
@@ -46,6 +48,8 @@ This section points at a Dolly training dataset.
 
 This section lists libraries and UIs for building with LLMs.
 
+The same notes are in [Agents](agents.md) and [RAG](rag.md).
+
 1. [Scikit-LLM](https://github.com/iryna-kondr/scikit-llm)
 2. [LangChain](https://python.langchain.com/en/latest/index.html)
    1. [An amazing tutorial](http://web.archive.org/web/20260506162130/https://www.python-engineer.com/posts/langchain-crash-course/) in [Youtube](https://www.youtube.com/watch?v=LbT1yp6quS8) by Patrick Loeber about
@@ -71,6 +75,8 @@ This section lists libraries and UIs for building with LLMs.
 ## Articles
 
 This section collects explainers on prompting, production LLMs, decoding, and related topics.
+
+The same notes are in [Prompt](prompt.md).
 
 1. [GPT4 can improve itself](https://www.youtube.com/watch?v=5SgJKZLBrmg)
 2. [Lil Weng - Prompt Engineering](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
@@ -108,6 +114,8 @@ This section points at Databricks notes on LLM and RAG evaluation.
 
 This section collects notes on RLHF.
 
+The same notes are in [RLHF](../machine-learning/incremental-learning-1.md#rlhf).
+
 1. [RLHF: Reinforcement Learning from Human Feedback](https://huyenchip.com/2023/05/02/rlhf.html) by Chip Huyen
 2. [Yoav on RL](https://gist.github.com/yoavg/6bff0fecd65950898eba1bb321cfbd81)
 3. [John Schulman](https://www.youtube.com/watch?v=hhiLw5Q_UFg) - Reinforcement Learning from Human Feedback: Progress and Challenges
@@ -115,6 +123,8 @@ This section collects notes on RLHF.
 ## Metrics
 
 This section explains ROUGE for summarization evaluation.
+
+The same notes are in [LANGUAGE TRANSLATION](../natural-language-processing/language-detection-identification-generation-nld-nli-nlg.md#language-translation), [Perplexity](../validation-and-evaluation/evaluation-metrics.md#perplexity), and [Summarization](../natural-language-processing/summarization.md).
 
 1. [Understanding ROUGE](https://dataman-ai.medium.com/understand-rouge-9ade61b0e0bc) - a family of metrics that evaluate the performance of a LLM in text summarization, i.e., ROUGE-1, ROUGE-2, ROUGE-L, for unigrams, bi grams, LCS, respectively.
 

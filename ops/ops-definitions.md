@@ -2,6 +2,8 @@
 
 This page compares DevOps with nearby operations roles, and it quotes a definition of AIOps.
 
+The same notes are in [Definitions](chatgpt-definitions.md).
+
 - [Dev vs ops, vs devops vs sre: history and details by Google.](https://www.youtube.com/watch?v=tEylFyxbDLE&list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj&index=2)
 - [SRE vs DevOps](https://medium.com/hackernoon/sre-vs-devops-the-dilemma-f7054714525c)
 - [CloudOps vs DevOps](https://victorops.com/blog/what-is-cloudops-vs-devops)

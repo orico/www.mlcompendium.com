@@ -115,11 +115,15 @@ This marker separated sections in the original notes.
 
 This subsection lists split strategies, transfer learning, bootstrapping, and student–teacher training.
 
+The same notes are in [Fine tuning](../deep-learning/deep-neural-nets.md#fine-tuning), [Methods](../generative-ai/methods.md), and [Transfer Learning using CNN](../deep-learning/deep-learning-models.md#transfer-learning-using-cnn).
+
 1. Train test split
 2. Cross validation
 3. Transfer learning - using a pre existing classifier similar to your domain, usually trained on millions of samples. fine-tuned on new data in order to create a new classifier that utilizes that information in the new domain. Examples such as w2v or classic resnet fine-tuning.
 4. Bootstrapping training- using a similar dataset, such as yelp, with 5 stars to create a pos/neg sentiment classifier based on 1 star and 5 stars. Finally using that to label or sample select from an unlabelled dataset, in order to create a new classifier or just to sample for annotation etc.
 5. [Student-teacher paradigm](https://developers.facebook.com/videos/2019/from-visual-recognition-to-reasoning/) (facebook), using a big labelled dataset to train a teacher classifier, predicting on unlabelled data, choosing the best classified examples based on probability, using those to train a new student model, finally fine-tune on the labeled dataset to create a more robust model, which is expected to know the unlabelled dataset and the labelled dataset with higher accuracy. With respect to the fully supervised teacher model / baseline.
+
+The same notes are in [PRUNING / KNOWLEDGE DISTILLATION / LOTTERY TICKET](../deep-learning/deep-network-optimization.md#pruning--knowledge-distillation--lottery-ticket).
 
    <figure><img src="../.gitbook/assets/gimg-0cc4c443ecb9.png" alt=""><figcaption><p>Student–teacher paradigm.</p><p>Credit: <a href="https://lh6.googleusercontent.com/U7Zn0WtBMVLvvN4rinTJhzRU4P8zMJB_1SNiGPQzboJfltWzdTUmcoDcc_0lx94qlfHW4QU11wftCujikfvR3StMxOPCE3FTWPhwPqsfCrYj29NIVt8jb1PlU3hv7hq2Y1DscOWH">copied from the original hosted image</a>.</p></figcaption></figure>
 6. Yoav’s method for transfer learning for languages - train a classifier on labelled data from english and spanish, fine tune using left out spanish data, stop before overfitting. This can be generalized to other domains.
@@ -135,6 +139,8 @@ This subsection links a hands-on deep learning transfer learning guide and a dia
 ### TRAIN / TEST / CROSS VALIDATION
 
 This subsection compares split and cross-validation strategies and links holdout diagrams.
+
+The same notes are in [STATISTICAL SAMPLING AND RESAMPLING](../foundation-knowledge/probability-and-statistics.md#statistical-sampling-and-resampling).
 
 Scikit-lego on group-based splitting and transformation
 
@@ -170,6 +176,8 @@ This subsection lists public dataset and model hubs for practice and translation
 ### IMBALANCED DATASETS
 
 This subsection covers resampling, cost-sensitive learning, and CNN imbalance findings.
+
+The same notes are in [Decision Trees](../machine-learning/decision-trees.md) and [Unbalanced labels](../machine-learning/label-algorithms.md#unbalanced-labels).
 
 1. ([the BEST resource and a great api for python)](http://contrib.scikit-learn.org/imbalanced-learn/stable/over_sampling.html) with visual samples - it actually works well on clustering.
 2. [Mastery on](https://machinelearningmastery.com/cost-sensitive-learning-for-imbalanced-classification/) cost sensitive sampling
@@ -228,6 +236,8 @@ This marker separated sections in the original notes.
 
 This subsection covers survey sample size and training data quantity advice.
 
+The same notes are in [A/B Testing](../experimental-design/a-b-testing.md).
+
 1. [How to choose your sample size from a population based on confidence interval](https://www.checkmarket.com/blog/how-to-estimate-your-population-and-survey-sample-size/)
 
    <figure><img src="../.gitbook/assets/gimg-02ac465d3915.png" alt=""><figcaption><p>Sample size from a population.</p><p>Credit: <a href="https://lh3.googleusercontent.com/gzSA5OXGcheJTZbY8Vj10NOBmumc9-v87G0G1sKF8cRP8rQegw5vE_hvadFSZLNwY9p6ZQ7bgL61RIcSwv-gBUUycp_0dx6yCpDgr3G2JAKVt4-Bq9Hpqri65B0Jr57MDqUekf-d">copied from the original hosted image</a>.</p></figcaption></figure>
@@ -260,6 +270,8 @@ This is a really wonderful study with far-reaching implications that could even 
 
 This subsection links dataset cartography and a Medium post on distilling datasets.
 
+The same notes are in [Dataset Confidence](dataset-confidence.md).
+
 1. Medium on  this [Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics](https://arxiv.org/abs/2009.10795). What I found interesting about this paper is that it challenges the common approach of “the more the merrier” when it comes to training data, and shifts the focus from the quantity of the data to the quality of the data.
 
 ###
@@ -269,6 +281,8 @@ This marker separated sections in the original notes.
 ### DATASET SELECTION
 
 This subsection links transfer-learning source-model selection.
+
+The same notes are in [Fine tuning](../deep-learning/deep-neural-nets.md#fine-tuning), [Methods](../generative-ai/methods.md), and [Transfer Learning using CNN](../deep-learning/deep-learning-models.md#transfer-learning-using-cnn).
 
 1. [Medium](https://medium.com/@amielmeiseles/how-to-choose-the-best-source-model-for-transfer-learning-41d5c91c1338)
 

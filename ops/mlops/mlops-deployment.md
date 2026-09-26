@@ -2,6 +2,8 @@
 
 This page is about deploying models, starting with Lightning for PyTorch.
 
+The same notes are in [Seldon](full-stack-and-ops.md#seldon) and [Serving models](full-stack-and-ops.md#serving-models).
+
 ## Lightning
 
 This section is Lightning, a framework for training and deploying PyTorch models.

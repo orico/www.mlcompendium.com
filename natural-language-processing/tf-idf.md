@@ -2,6 +2,8 @@
 
 This page defines TF-IDF and notes sparse-text tricks that weight word vectors with IDF.
 
+The same notes are in [Embedding Foundation Knowledge](../deep-learning/embedding.md#embedding-foundation-knowledge), [LSA (TFIDF + SVD)](topics-modeling.md#lsa-tfidf--svd), [Recommender Systems](../machine-learning/recommender-systems.md), and [TFIDF](../validation-and-evaluation/features.md#tfidf).
+
 [TF-IDF](http://www.tfidf.com/) — how important is a word to a document in a corpus
 
 $$TF(t) = \frac{\text{Number of times term } t \text{ appears in a document}}{\text{Total number of terms in the document}}.$$

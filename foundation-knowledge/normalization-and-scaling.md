@@ -2,6 +2,8 @@
 
 This page compares normalization and scaling choices, including when to standardize versus normalize.
 
+The same notes are in [BATCH NORMALIZATION](../deep-learning/deep-neural-nets.md#batch-normalization), [Data Normalization/Augmentation](../deep-learning/deep-network-optimization.md#data-normalizationaugmentation), [KNN](../machine-learning/clustering-algorithms.md#knn), [LDA - Linear discriminant analysis](../machine-learning/dimensionality-reduction-methods.md#lda---linear-discriminant-analysis), and [Regression](../machine-learning/regression.md).
+
 1. [A comparison of normalization / scaling techniques in sklearn](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)
 2. [Another great explanation on sklearn and (general) scaling](http://benalexkeen.com/feature-scaling-with-scikit-learn/) - normal, min max, etc.
 3. [Normalization/standardize features](http://machinelearningmastery.com/normalize-standardize-machine-learning-data-weka/)

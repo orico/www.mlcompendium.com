@@ -6,12 +6,16 @@ This page collects notes on OKRs, KPIs, management traits, teams, agile scaling,
 
 This section contrasts metrics, KPIs, and key results.
 
+The same notes are in [Data KPIs](../ops/dataops/data-kpis.md) and [North star metric](../product-management/product-management-resources.md#north-star-metric).
+
 1. [Metrics vs KRs](https://www.perdoo.com/resources/the-difference-between-metrics-kpis-key-results/) - boils down to a starting value.
 2. [OKRs vs KPIs](https://medium.com/@meetfelipe/okr-vs-kpis-what-is-the-difference-ffa54673fcf1) by filipe castro, [1](https://weekdone.com/okr-comparison/okr-vs-kpi), [2](https://www.wrike.com/blog/kpis-vs-okrs-compare-need-successful/), [3](https://www.whatmatters.com/resources/difference-between-okr-kpi)
 
 ### Data Science OKR KPI
 
 This subsection is OKRs and KPIs as they apply to data science work.
+
+The same notes are in [Data KPIs](../ops/dataops/data-kpis.md).
 
 1. [OKR vs KPI](https://www.clearpointstrategy.com/okrs-vs-kpis/), strategic vs tactical
 2. [Difference between KPI targets and goals](https://bernardmarr.com/default.asp?contentID=1346)
@@ -37,6 +41,8 @@ This section lists traits and styles for managing people and data-science teams.
 
 This section is how to run data-science and AI project work.
 
+The same notes are in [Data Program Management](../ops/dataops/data-program-management.md), [Product / Program Managers](../product-management/product-managers.md), and [Project & Program Management](project-and-program-management.md).
+
 1. [Data-science? Agile? Cycles? My method for managing data-science projects in the Hi-tech industry](https://medium.com/data-science/data-science-agile-cycles-my-method-for-managing-data-science-projects-in-the-hi-tech-industry-b289e8a72818), by Dr. Ori Cohen
 2. [Lessons learned leading AI teams](https://blogs.intuit.com/blog/2020/06/23/lessons-learned-leading-ai-teams/), by Shir Meir Lador
 3. How to avoid conflicts and delays in the AI development [Part 1](https://blogs.intuit.com/blog/2020/12/08/how-to-avoid-conflicts-and-delays-in-the-ai-development-process-part-i/), [Part 2](https://blogs.intuit.com/blog/2021/01/06/how-to-avoid-conflicts-and-delays-in-the-ai-development-process-part-ii/), by Shir Meir Lador
@@ -44,6 +50,8 @@ This section is how to run data-science and AI project work.
 ## Building Teams
 
 This section is team effectiveness, Conway’s law, and team topologies for DS/ML.
+
+The same notes are in [Agile for data-science-research](data-science.md#agile-for-data-science-research), [Data Teams](../ops/dataops/data-teams.md), [MLOps Teams](../ops/mlops/mlops-teams.md), and [Team Building / Group Cohesion](data-science.md#team-building--group-cohesion).
 
 1. rework by google - [understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
 2. Conway's law "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations."
@@ -81,6 +89,8 @@ This section is team effectiveness, Conway’s law, and team topologies for DS/M
 ## Scaling Agile - Agile Approaches
 
 This section covers Spotify-style scaling, Shape Up, and SAFe.
+
+The same notes are in [Agile for data-science-research](data-science.md#agile-for-data-science-research) and [Team Building / Group Cohesion](data-science.md#team-building--group-cohesion).
 
 1. The spotify "model" - squads tribes chapters guilds
    1. [Scaling agile snapshot 2012](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)

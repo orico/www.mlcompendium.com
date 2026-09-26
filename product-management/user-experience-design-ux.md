@@ -17,3 +17,5 @@ This page points at UX references and growth-design case studies.
    <figure><img src="../.gitbook/assets/gimg-2904f057d446.png" alt=""><figcaption><p>Invision blog</p><p>Credit: <a href="https://lh3.googleusercontent.com/GtlwM90rJ0br-DZst5pSJm7Nt6XjzS07mDkkAmNspPHBCj9aciUqTgp2_rII3SriiNnHrCuuooosrW6tYxjMT6DjhpW2xoQ3ojCecFDVOm8Dj_JqTJWM0NZAYB1a7H_D-C8VbOzF">copied from the original hosted image</a>.</p></figcaption></figure>
 
 4. **(really good) Growth design** [**Case Studies**](https://growth.design/case-studies/)
+
+The same notes are in [Growth](../business-domains/growth.md).

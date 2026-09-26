@@ -65,6 +65,8 @@ This part is pyenv install and usage notes.
 
 This section is Jupyter, Colab, profiling, and notebook-as-module tooling.
 
+The same notes are in [Docker](../ops/devops/full-stack-and-ops/docker.md) and [Docker for data science](../ops/mlops/full-stack-and-ops.md#docker-for-data-science).
+
 - [Cloud GPUS cheap](https://www.paperspace.com/gradient)
 - [Importing a notebook as a module](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Importing%20Notebooks.html)
 - Important [colaboratory commands for jupytr](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)
@@ -129,6 +131,8 @@ This section is efficient NumPy and vectorization benchmarks.
 
 This section is Pandas loading, reshaping, speed, time series, and validation.
 
+The same notes are in [Multi CPU Processing](multi-cpu-processing.md).
+
 1. [Great introductory tutorial](http://nikgrozev.com/2015/12/27/pandas-in-jupyter-quickstart-and-useful-snippets/#loading_csv_files) about using pandas, loading, loading from zip, seeing the table’s features, accessing rows & columns, boolean operations, calculating on a whole row/column with a simple function and on two columns even, dealing with time/date parsing.
 2. [Visualizing pandas pivoting and reshaping functions by Jay Alammar](http://jalammar.github.io/visualizing-pandas-pivoting-and-reshaping/) - pivot melt stack unstack
 3. [How to beautify pandas dataframe using html display](https://stackoverflow.com/questions/26873127/show-dataframe-as-table-in-ipython-notebook)
@@ -151,6 +155,9 @@ This section is Pandas loading, reshaping, speed, time series, and validation.
 13. [Row and column sum in pandas and numpy](http://blog.mathandpencil.com/column-and-row-sums)
 14. [Dataframe Validation In Python](https://www.youtube.com/watch?time_continue=905&v=1fHGXOfiDO0) - A Practical Introduction - Yotam Perkal - PyCon Israel 2018
 15. In this talk, I will present the problem and give a practical overview (accompanied by Jupyter Notebook code examples) of three libraries that aim to address it: Voluptuous - Which uses Schema definitions in order to validate data [[https://github.com/alecthomas/voluptuous](https://github.com/alecthomas/voluptuous)] Engarde - A lightweight way to explicitly state your assumptions about the data and check that they're actually true [[https://github.com/TomAugspurger/engarde](https://github.com/TomAugspurger/engarde)] * TDDA - Test Driven Data Analysis [ [https://github.com/tdda/tdda](https://github.com/tdda/tdda)]. By the end of this talk, you will understand the Importance of data validation and get a sense of how to integrate data validation principles as part of the ML pipeline.
+
+The same notes are in [Data & Model Tests](../validation-and-evaluation/data-and-model-tests.md).
+
 16. [Stop using itterows](https://medium.com/@rtjeannier/pandas-101-cont-9d061cb73bfc), use apply.
 17. [(great) Group and Aggregate by One or More Columns in Pandas](https://jamesrledoux.com/code/group-by-aggregate-pandas)
 18. [Pandas Groupby: Summarising, Aggregating, and Grouping data in Python](https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/#applying-multiple-functions-to-columns-in-groups)
@@ -172,6 +179,8 @@ This subsection lists Pandas profiling-style EDA tools.
 ## Timeseries
 
 This section is Pandas time-series manipulation and resampling.
+
+The same notes are in [Timeseries](../machine-learning/timeseries.md).
 
 1. (good) [Pandas time series manipulation](https://medium.com/data-science/practical-guide-for-time-series-analysis-with-pandas-196b8b46858f)
 2. [Using resample](https://medium.com/data-science/using-the-pandas-resample-function-a231144194c4)
@@ -207,6 +216,8 @@ Also Insanely fast, [see here](https://www.youtube.com/watch?v=5Zf6DQaf7jk).
 ## FAST.AI
 
 This section points at medium notes covering fast.ai courses.
+
+The same notes are in [FAST.AI](../deep-learning/deep-neural-frameworks.md#fastai).
 
 1. [Medium](https://medium.com/@hiromi_suenaga/deep-learning-2-part-1-lesson-1-602f73869197) on all fast.ai courses, 14 posts
 

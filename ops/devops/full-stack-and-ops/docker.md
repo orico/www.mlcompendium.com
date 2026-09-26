@@ -2,6 +2,8 @@
 
 This page is Docker setup, images, Compose, debugging notes, and Source-to-Image.
 
+The same notes are in [DevOps Courses](../devops-courses.md), [Docker for data science](../../mlops/full-stack-and-ops.md#docker-for-data-science), and [Jupyter](../../../foundation-knowledge/data-science-tools.md#jupyter).
+
 - [What are Docker layers](https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612)?
 - [Install on Ubuntu](https://linuxconfig.org/how-to-install-docker-on-ubuntu-18-04-bionic-beaver)
 - [Many Jupyter Docker images (Spark too)](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)

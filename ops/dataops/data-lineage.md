@@ -2,6 +2,8 @@
 
 This page defines data lineage, why it matters, and points at articles and vendors.
 
+The same notes are in [Data Governance](data-governance.md) and [Data Quality](data-quality.md).
+
 Data lineage refers to the detailed history of data as it moves through various stages and transformations in an information system. It is essentially the life cycle of data, from its origins to its endpoint, including how it is modified and processed over time. Understanding data lineage is crucial for several reasons:
 
 - Traceability — it helps track where data comes from, which is vital for debugging issues, understanding dependencies, and ensuring data quality.
@@ -30,6 +32,8 @@ This section lists guides that explain data lineage in more depth.
 ## Data lineage vendors
 
 This section lists vendors and open tools that manage data lineage.
+
+The same notes are in [Data Catalogs](data-catalogs.md).
 
 {% cards %}
 {% card title="Octopai" href="https://octopai.com/" %}

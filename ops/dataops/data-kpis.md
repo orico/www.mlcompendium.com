@@ -2,6 +2,8 @@
 
 This page is about measuring the return on data and analytics.
 
+The same notes are in [Data Science OKR KPI](../../foundation-knowledge/management.md#data-science-okr-kpi) and [OKRs & KPIs](../../foundation-knowledge/management.md#okrs--kpis).
+
 - [How to measure ROI of data analytics](https://medium.com/be-data-driven/how-to-measure-the-roi-of-data-analytics-2d2ac172754a)
 
 ## Deprecated links

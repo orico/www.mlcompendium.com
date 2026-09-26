@@ -2,6 +2,8 @@
 
 This page is an introduction to MLOps: building blocks, reading lists, Analytics Vidhya guides, and the “without Ops” series.
 
+The same notes are in [Definitions](../chatgpt-definitions.md) and [Life cycle](../../foundation-knowledge/data-science.md#life-cycle).
+
 1. A [great intro about MLOps](https://betterprogramming.pub/mlops-and-mlflops-795781d17989), what are the basic building blocks that you need to understand, in comparison to Data Engineering & DevOps — by Andrew Blance.
 2. [Awesome MLOps on GitHub](https://github.com/visenger/awesome-mlops)
 3. Analytics Vidhya
@@ -13,6 +15,9 @@ This page is an introduction to MLOps: building blocks, reading lists, Analytics
       - [The tip of the iceberg](https://www.analyticsvidhya.com/blog/2022/09/how-is-mlops-different-from-devops/) i.e., adding model + data to DevOps methodologies.
       - [Another comparison, has some more details](https://www.analyticsvidhya.com/blog/2020/11/mlops-the-why-and-the-what/) — ML challenges, components
    - [MLOps & Kubernetes](https://www.analyticsvidhya.com/blog/2022/09/mlops-and-use-of-kubernetes/) — a very sparse intro
+
+The same notes are in [Kubeflow](../devops/full-stack-and-ops/kubernetes.md#kubeflow).
+
    - [High level E2E architecture and explanations](https://www.analyticsvidhya.com/blog/2023/02/mlops-end-to-end-mlops-architecture-and-workflow/)
    - [High level E2E concepts](https://www.analyticsvidhya.com/blog/2021/07/deepdive-into-the-emerging-concpet-of-machine-learning-operations-or-mlops/)
 4. MLOps without Ops series [Part 1](https://medium.com/data-science/mlops-without-much-ops-d17f502f76e8), [Part 2](https://medium.com/data-science/ml-and-mlops-at-a-reasonable-scale-31d2c0782d9c), Ciro Greco, [Part 3](https://medium.com/data-science/hagakure-for-mlops-the-four-pillars-of-ml-at-reasonable-scale-5a09bd073da), [Part 4](https://medium.com/data-science/the-modern-data-pattern-d34d42216c81)

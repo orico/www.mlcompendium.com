@@ -2,6 +2,8 @@
 
 This page collects introductions and tutorials on design of experiments, including Python, R, and Matlab examples.
 
+The same notes are in [Factorial Design](factorial-design.md).
+
 1. (good) [The 7 steps of DoE](https://towardsdatascience.medium.com/design-of-experiments-for-your-change-management-8f70880efcdd)
 2. (good) [Experimental Design for Data Science](https://towardsdatascience.medium.com/designing-experiments-in-data-science-23360d2ddf84)
 3. [Vidhya on DOE, has a good explanation on why and how we can experiment with less variables](https://www.analyticsvidhya.com/blog/2015/10/guide-design-of-experiments-case-study/)

@@ -2,6 +2,8 @@
 
 This page collects NER papers, spaCy/SNER notes, and BiLSTM-CRF tutorials.
 
+The same notes are in [ANONYMIZATION](../validation-and-evaluation/fairness-accountability-and-transparency.md#anonymization), [BERT](../deep-learning/attention.md#bert), [CONDITIONAL RANDOM FIELDS (CRF)](../machine-learning/classic-machine-learning.md#conditional-random-fields-crf), [FLAIR](../deep-learning/embedding.md#flair), and [SPACY](nlp.md#spacy).
+
 1. [State of the art LSTM architectures using NN](https://web.archive.org/web/20180123225955/http://blog.paralleldots.com/data-science/named-entity-recognition-milestone-models-papers-and-technologies/)
 2. Medium: [Ner free datasets](https://medium.com/data-science/deep-learning-for-ner-1-public-datasets-and-annotation-methods-8b1ad5e98caf) and [bilstm implementation](https://medium.com/data-science/deep-learning-for-named-entity-recognition-2-implementing-the-state-of-the-art-bidirectional-lstm-4603491087f1) using glove embeddings
 3. Easy to implement in keras! They are based on the following [paper](https://arxiv.org/abs/1511.08308)

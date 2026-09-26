@@ -2,6 +2,8 @@
 
 This page links to a framework for designing a continuous training strategy.
 
+The same notes are in [Drift](../ops/mlops/mlops-monitoring-and-alerts.md#drift), [Incremental Learning](../machine-learning/incremental-learning.md), and [Online Learning](../types-of-machine-learning/online-learning.md).
+
 **(amazing)** Framework for a successful training strategy, periodic, performance based, driven by data changes, dynamic window size, dynamic data selection, what to retrain and the level
 
 ## Deprecated links

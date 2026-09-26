@@ -67,6 +67,8 @@ In other words:
 
 This subsection collects HMM tutorials, software, and explanatory videos.
 
+The same notes are in [Timeseries](timeseries.md).
+
 HMM tutorials
 
 1. HMM tutorial
@@ -143,6 +145,8 @@ This subsection links IOHMM code and a probabilistic-machine-learning reference.
 
 This subsection lists CRF intros, comparisons, and Python wrappers.
 
+The same notes are in [CRF for templatization](../business-domains/templatization.md#crf-for-templatization), [Named Entity Recognition (NER)](../natural-language-processing/named-entity-recognition-ner.md), and [Timeseries](timeseries.md).
+
 1. [Make sense intro to CRF, comparison against HMM ](https://medium.com/ml2vec/overview-of-conditional-random-fields-68a2a20fa541)
 2. [HMM, CRF, MEMM](https://medium.com/@Alibaba_Cloud/hmm-memm-and-crf-a-comparative-analysis-of-statistical-modeling-methods-49fc32a73586)
 3. [Another crf article](https://medium.com/@phylypo/nlp-text-segmentation-using-conditional-random-fields-e8ff1d2b6060)
@@ -157,6 +161,8 @@ This subsection lists CRF intros, comparisons, and Python wrappers.
 
 This section lists regression libraries, trees, SVR, logistic regression, and error metrics.
 
+The same notes are in [Regression](regression.md) and [SUPPORT VECTOR REGRESSION (SVR)](linear-separator-algorithms.md#support-vector-regression-svr).
+
 1. Sk-lego to fit with intervals a linear regressor on top of non linear data
 
 <figure><img src="../.gitbook/assets/gimg-cda337febb72.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/7yCwBKFpFonYWiaBrAy1AeM10-3YMc_HJayDR9-whuLp3K5TRxoIVeyP8EJqqQeO0MImgFpQFGuLa3mVo0tr-390ns4dErivP7jDNsE7NaJXo5k2l6Od4aJpKLrzpM1lZ73USG_Y">copied from the original hosted image</a>.</p></figcaption></figure>
@@ -169,6 +175,9 @@ This section lists regression libraries, trees, SVR, logistic regression, and er
    <figure><img src="../.gitbook/assets/gimg-8b37986fda51.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/IP4Qg9ynzzWdjcFVqiy9TJfOzX7l8_9t8upL8ORVj4zHie6p1GKnuOoWBvth6yXCBQjmGi6W8wXVNPfBQkNwJqdo29TB6y3YTe23PsMOwgES9uF6U_8iGaYu8jHvmG2zvjriT3QV">copied from the original hosted image</a>.</p></figcaption></figure>
 2. Linear regression TBC
 3. CART - [classification and regression tree](http://www.simafore.com/blog/bid/62482/2-main-differences-between-classification-and-regression-trees), basically the diff between classification and regression trees - instead of IG we use sum squared error
+
+The same notes are in [CART TREES](decision-trees.md#cart-trees).
+
 4. SVR - regression based svm, with kernel only.
 5. [NNR](https://deeplearning4j.org/linear-regression)- regression based NN, one output node
 6. [LOGREG](http://www.statisticssolutions.com/what-is-logistic-regression/) - Logistic regression - is used as a classification algo to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables. Output is BINARY. I.e., If the likelihood of killing the bug is > 0.5 it is assumed dead, if it is < 0.5 it is assumed alive.
@@ -201,6 +210,8 @@ This subsection describes Gaussian kernel regression and its link to RBF network
 #### DIMENSIONALITY REDUCTION
 
 This subsection contrasts principal component regression with partial least squares.
+
+The same notes are in [PCA](dimensionality-reduction-methods.md#pca).
 
 PRINCIPAL COMPONENT REGRESSION (PCR) / PARTIAL LEAST SQUARES (PLS)
 

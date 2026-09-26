@@ -2,6 +2,8 @@
 
 This page collects notes on attention, transformers, contextual embeddings, BERT-family models, and related GAN and label-smoothing material.
 
+The same notes are in [SEQ2SEQ SEQUENCE TO SEQUENCE](../natural-language-processing/neural-nlp.md#seq2seq-sequence-to-sequence).
+
 1. Illustrated attention- AMAZING
 2. Illustrated self attention - great
 3. [Jay alamar on attention, the first one is better.](http://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
@@ -81,6 +83,8 @@ In both cases, the metrics do not appear to be representative of the extent of l
 ### ELMO
 This section lists ELMo tutorials, AllenNLP resources, and transfer-learning write-ups.
 
+The same notes are in [Language modeling](embedding.md#language-modeling).
+
 1. [Short tutorial on elmo, pretrained, new data, incremental(finetune?)](https://github.com/PrashantRanjan09/Elmo-Tutorial), [using elmo pretrained](https://github.com/PrashantRanjan09/WordEmbeddings-Elmo-Fasttext-Word2Vec)
 2. [Why you cant use elmo to encode words (contextualized)](https://github.com/allenai/allennlp/issues/1737)
 3. [Vidhya on elmo](https://www.analyticsvidhya.com/blog/2019/03/learn-to-use-elmo-to-extract-features-from-text/) - everything you want to know with code
@@ -101,6 +105,8 @@ This section lists ELMo tutorials, AllenNLP resources, and transfer-learning wri
 ### ULMFIT
 This section covers ULMFiT papers, Fast.ai tutorials, and text-classification walkthroughs.
 
+The same notes are in [Language modeling](embedding.md#language-modeling).
+
 1. [Tutorial and code by vidhya](https://www.analyticsvidhya.com/blog/2018/11/tutorial-text-classification-ulmfit-fastai-library/), [medium](https://medium.com/analytics-vidhya/tutorial-on-text-classification-nlp-using-ulmfit-and-fastai-library-in-python-2f15a2aac065)
 2. [Paper](https://arxiv.org/abs/1801.06146)
 3. [Ruder on transfer learning](http://ruder.io/nlp-imagenet/)
@@ -117,6 +123,8 @@ This section covers ULMFiT papers, Fast.ai tutorials, and text-classification wa
 
 ### BERT
 This section gathers BERT papers, fine-tuning guides, compression notes, and analysis tools.
+
+The same notes are in [GLUE](../foundation-knowledge/benchmarking.md#glue), [Language modeling](embedding.md#language-modeling), [Named Entity Recognition (NER)](../natural-language-processing/named-entity-recognition-ner.md), [PRUNING / KNOWLEDGE DISTILLATION / LOTTERY TICKET](deep-network-optimization.md#pruning--knowledge-distillation--lottery-ticket), [Tokenization](../natural-language-processing/tokenization.md), and [TOP2VEC](../natural-language-processing/topics-modeling.md#top2vec).
 
 1. [The BERT PAPER](https://arxiv.org/pdf/1810.04805.pdf)
    1. [Prerequisite about transformers and attention - this is not enough](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
@@ -188,11 +196,15 @@ Pre-train vs. Downstream - Some methods only compress BERT w.r.t. certain downst
 ### GPT2
 This section notes GPT-2 language modeling and PyTorch exploration posts.
 
+The same notes are in [GPT](../generative-ai/gpt.md) and [Language modeling](embedding.md#language-modeling).
+
 1. [the GPT-2](https://medium.com/dair-ai/experimenting-with-openais-improved-language-model-abf73bc123b9) small algorithm was trained on the task of language modeling — which tests a program’s ability to predict the next word in a given sentence — by ingesting huge numbers of articles, blogs, and websites. By using just this data it achieved state-of-the-art scores on a number of unseen language tests, an achievement known as zero-shot learning. It can also perform other writing-related tasks, such as translating text from one language to another, summarizing long articles, and answering trivia questions.
 2. [Medium code](https://medium.com/dair-ai/explore-pretrained-language-models-with-pytorch-1b1e06b7510c) for GPT=2 - big algo
 
 ### GPT3
 This section points at GPT-3 zero-shot commentary and large-model training infrastructure.
+
+The same notes are in [GPT](../generative-ai/gpt.md), [GPT3 is ZERO, ONE, FEW](../types-of-machine-learning/n-shot-learning.md#gpt3-is-zero-one-few), and [Language modeling](embedding.md#language-modeling).
 
 1. [GPT3](https://medium.com/swlh/all-hail-gpt-3-389c7f1fcb3b) on medium - language models can be used to produce good results on zero-shot, one-shot, or few-shot learning.
 2. [Fit More and Train Faster With ZeRO via DeepSpeed and FairScale](https://huggingface.co/blog/zero-deepspeed-fairscale)

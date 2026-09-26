@@ -2,6 +2,8 @@
 
 This page lists integration tools, ETL vs ELT notes, orchestrators, and pipeline platforms.
 
+The same notes are in [Airflow](../mlops/full-stack-and-ops.md#airflow) and [General](data-engineering-questions-and-training.md#general).
+
 - [Decision guide for data integration tools](https://www.metaplane.dev/blog/decision-guide-to-choosing-a-data-integration-tool)
 - [ETL vs ELT](https://www.qlik.com/us/etl/etl-vs-elt), [2](https://www.guru99.com/etl-vs-elt.html)
 - [What is reverse ETL (ELT)](https://torbjornzetterlund.com/what-is-reverse-etl/)?

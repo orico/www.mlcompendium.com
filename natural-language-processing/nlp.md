@@ -6,6 +6,8 @@ This page collects spaCy, embedding repositories, datasets, and library comparis
 
 This section is spaCy tutorials, the course, and Cython speed tips.
 
+The same notes are in [Named Entity Recognition (NER)](named-entity-recognition-ner.md) and [Swiss army knife libraries](foundation-nlp.md#swiss-army-knife-libraries).
+
 1. [Vidhaya on spacy vs ner](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/) — tutorial + code on how to use spacy for pos, dep, ner, compared to nltk/corenlp (sner etc). The results reflect a global score not specific to LOC for example.
 2. The [spaCy course](https://course.spacy.io/)
 3. SPACY OPTIMIZATION — [LP using CYTHON and SPACY.](https://medium.com/huggingface/100-times-faster-natural-language-processing-in-python-ee32033bdced)
@@ -13,6 +15,8 @@ This section is spaCy tutorials, the course, and Cython speed tips.
 ### NLP embedding repositories
 
 This section points at a public NLP embedding repository.
+
+The same notes are in [Embedding](../deep-learning/embedding.md).
 
 1. [Nlpl](http://vectors.nlpl.eu/repository/)
 

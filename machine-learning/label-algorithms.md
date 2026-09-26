@@ -6,15 +6,21 @@ This page covers unbalanced labels, label propagation / spreading, and label noi
 
 This section points at imbalanced-learn and a REINFORCE trick for noisy, unbalanced labels.
 
+The same notes are in [Decision Trees](decision-trees.md), [IMBALANCED DATASETS](../validation-and-evaluation/datasets.md#imbalanced-datasets), and [Introduction](incremental-learning-1.md#introduction).
+
 1. [imbalance learn](https://imbalanced-learn.org/stable/auto_examples/over-sampling/plot_comparison_over_sampling.html#sphx-glr-auto-examples-over-sampling-plot-comparison-over-sampling-py) — is an open-source, MIT-licensed library that provides tools when dealing with classification with imbalanced classes.
 
 2. [Classifying Job Titles With Noisy Labels Using REINFORCE](https://medium.com/@ziprecruiter.engineering/classifying-job-titles-with-noisy-labels-using-reinforce-ce1a4bde05e2) this article has a very nice trick in adding a reward component to the loss function in order to mitigate for unbalanced class label problem, instead of the usual balancing.
+
+The same notes are in [Reinforcement Learning](incremental-learning-1.md).
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Imbalance Learn comparison.</p></figcaption></figure>
 
 ## Label Propagation / Spreading
 
 This section is semi-supervised label propagation and spreading on a graph Laplacian.
+
+The same notes are in [Semi Supervised](../types-of-machine-learning/semi-supervised.md) and [Weakly Supervised](../types-of-machine-learning/weakly-supervised.md).
 
 Note: very much related to weakly and semi supervision, i.e., we have small amounts of labels and we want to generalize the labels to other samples, see also weak supervision methods.
 
@@ -49,6 +55,8 @@ Neo4j 1, 2, 3,
 ## Label Noise
 
 This section is cleanlab, PU-learning, and pumml for positive-unlabeled data.
+
+The same notes are in [Annotation & Disagreement](../natural-language-processing/annotation-and-disagreement.md).
 
 1. [clean lab](https://github.com/cleanlab/cleanlab) — "`cleanlab` is the data-centric ML ops package for machine learning with noisy labels. `cleanlab` `clean`s `lab`els and supports finding, quantifying, and learning with label errors in datasets. See datasets cleaned with `cleanlab` at [labelerrors.com](https://labelerrors.com/). Check out the: [cleanlab code documentation](https://cleanlab.readthedocs.io/). `cleanlab` is powered by confident learning, published in this [paper](https://jair.org/index.php/jair/article/view/12125) | [blog](https://l7.curtisnorthcutt.com/confident-learning)."
    1. Reference 1: [Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks](https://openreview.net/forum?id=XccDXrDNLek) by [Curtis G Northcutt](https://openreview.net/profile?id=~Curtis_G_Northcutt1), [Anish Athalye](https://openreview.net/profile?id=~Anish_Athalye1), [Jonas Mueller](https://openreview.net/profile?id=~Jonas_Mueller1)

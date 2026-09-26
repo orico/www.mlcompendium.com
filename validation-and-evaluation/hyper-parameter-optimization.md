@@ -2,6 +2,8 @@
 
 This page points at Hyperopt, HyperparameterHunter, and a comparison of optimizers.
 
+The same notes are in [Drift](../ops/mlops/mlops-monitoring-and-alerts.md#drift), [HYPER PARAM GRID SEARCHES](../deep-learning/deep-neural-nets.md#hyper-param-grid-searches), and [Hyper param optimization](../machine-learning/meta-learning.md#hyper-param-optimization).
+
 1. [**Using HyperOpt**](http://hyperopt.github.io/hyperopt/)
 
    **Random Search**
@@ -13,6 +15,8 @@ This page points at Hyperopt, HyperparameterHunter, and a comparison of optimize
    **All algorithms can be run either serially, or in parallel by communicating via** [**MongoDB**](http://www.mongodb.org/)**.**
 
    **Mlflow, Hyperparameterhunter, hyperopt, concept drift, unit tests.**
+
+The same notes are in [ML Experiment Management](../ops/mlops/experiment-management.md).
 
    [**Hyperopt**](http://hyperopt.github.io/hyperopt/) **for hyperparameter search**
 2. [**HyperparameterHunter**](https://github.com/HunterMcGushion/hyperparameter_hunter)

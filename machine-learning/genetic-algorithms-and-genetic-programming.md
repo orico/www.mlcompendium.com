@@ -2,6 +2,8 @@
 
 This page contrasts genetic algorithms and genetic programming, with quotes from peterjwest and johnIdol.
 
+The same notes are in [Learning Classifier Systems](learning-classifier-systems.md), [ML Systems](meta-learning.md#ml-systems), and [NEURO EVOLUTION (GA/GP based)](../deep-learning/deep-learning-models.md#neuro-evolution-gagp-based).
+
 [What is the difference?](https://stackoverflow.com/questions/3819977/what-are-the-differences-between-genetic-algorithms-and-genetic-programming) Genetic programming and genetic algorithms are very similar. They are both used to evolve the answer to a problem, by comparing the fitness of each candidate in a population of potential candidates over many generations.
 
 Each generation, new candidates are found by randomly changing (mutation) or swapping parts (crossover) of other candidates. The least 'fit' candidates are removed from the population. — peterjwest

@@ -77,6 +77,8 @@ This section is the difference between output and outcomes.
 
 This section is how a north-star metric is chosen and when it changes.
 
+The same notes are in [OKRs & KPIs](../foundation-knowledge/management.md#okrs--kpis).
+
 1. [Using trees and logreg to determine metrics that outperform intuition only, by linkedIN](http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/companion/p617.pdf)
 2. [In-company northstar metrics, when to change and why](https://amplitude.com/blog/evolving-the-product-north-star-metric)
 3. [Another one about finding your northstar, actually understanding that more indepth data leads to a](https://www.sisense.com/blog/find-north-star/)

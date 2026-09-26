@@ -2,6 +2,8 @@
 
 This page defines Learning Classifier Systems (LCS) and the XCS variant, with toolkit links.
 
+The same notes are in [Genetic Algorithms & Genetic Programming](genetic-algorithms-and-genetic-programming.md).
+
 ### LCS
 
 This section is the Wikipedia definition of learning classifier systems.

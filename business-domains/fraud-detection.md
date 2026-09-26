@@ -2,6 +2,8 @@
 
 This page collects handbooks, methods, papers, tools, and dataset notes for fraud detection.
 
+The same notes are in [Anomaly Detection](../machine-learning/anomaly-detection.md).
+
 1. [Machine Learning for Credit Card Fraud Detection](https://fraud-detection-handbook.github.io/fraud-detection-handbook/Foreword.html) — Practical Handbook, [Git](https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook)
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Machine Learning for Credit Card Fraud Detection — Practical Handbook.</p></figcaption></figure>
@@ -12,7 +14,13 @@ This page collects handbooks, methods, papers, tools, and dataset notes for frau
 
 3. [Awesome fraud papers](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers) on GitHub
 4. [Credit card fraud using an autoencoder in Keras](https://github.com/curiousily/Credit-Card-Fraud-Detection-using-Autoencoders-in-Keras/blob/master/fraud_detection.ipynb)
+
+The same notes are in [AUTOENCODERS](../deep-learning/deep-learning-models.md#autoencoders).
+
 5. [Graph fraud papers](https://github.com/safe-graph/graph-fraud-detection-papers)
+
+The same notes are in [Graph Theory](../classical-graph-models/graph-theory.md).
+
 6. [Fraud using Flink](https://github.com/afedulov/fraud-detection-demo), [docs](https://flink.apache.org/2020/01/15/advanced-flink-application-patterns-vol.1-case-study-of-a-fraud-detection-system/)
 7. [Credit card fraud on Kaggle](https://github.com/georgymh/ml-fraud-detection)
 8. [Deep graph for fraud](https://github.com/safe-graph/DGFraud)

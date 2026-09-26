@@ -2,6 +2,8 @@
 
 This page collects voting, bagging, boosting, stacking, and related ensemble reading.
 
+The same notes are in [Active Learning](../types-of-machine-learning/active-learning.md), [EXTRA TREES](decision-trees.md#extra-trees), [Interview questions](../foundation-knowledge/data-science-management.md#interview-questions), and [RANDOM FOREST](decision-trees.md#random-forest).
+
 1. (good) [review on voting, bagging, boosting stacking, cascading methodologies](https://www.toptal.com/machine-learning/ensemble-methods-kaggle-machine-learn)
 2. [How to combine several sklearn algorithms into a voting ensemble](https://www.youtube.com/watch?v=vlTQLb_a564&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=16)
 3. [Stacking api, MLXTEND](http://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier/)

@@ -2,6 +2,8 @@
 
 This page collects deep learning models and write-ups for speech, sound classification, and related audio tasks.
 
+The same notes are in [Other Tools](algorithms.md#other-tools) and [Speech](../generative-ai/speech.md).
+
 1. [Audio Deep Learning Made Simple: Automatic Speech Recognition (ASR), How it Works](https://towardsdatascience.medium.com/audio-deep-learning-made-simple-automatic-speech-recognition-asr-how-it-works-716cfce4c706)
 2. [Learning from Audio: Pitch and Chromagrams](https://towardsdatascience.medium.com/learning-from-audio-pitch-and-chromagrams-5158028a505)
 3. Audio deep learning made simple by Ketan Doshi

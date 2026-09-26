@@ -2,6 +2,8 @@
 
 This page collects annotation tools, myths, crowdsourcing notes, and inter-annotator agreement metrics.
 
+The same notes are in [Active Learning](../types-of-machine-learning/active-learning.md) and [Label Noise](../machine-learning/label-algorithms.md#label-noise).
+
 ## Tools
 
 This section lists annotation tools, weak supervision, and disagreement packages.
@@ -105,6 +107,8 @@ This section opens the disagreement and agreement-metric notes.
 
 This section covers Cohen, Fleiss, Krippendorff, and related agreement metrics.
 
+The same notes are in [Ground Truth](sentiment-analysis.md#ground-truth).
+
 **\*\*\* [The best tutorial on agreements, cohen, david, kappa, krip etc.](https://dkpro.github.io/dkpro-statistics/inter-rater-agreement-tutorial.pdf)
 
 1. Cohens kappa (two people)
@@ -187,6 +191,8 @@ This section is about troubleshooting agreement metrics when accuracy looks high
 ## Machine Vision annotation
 
 This section points at CVAT for vision annotation.
+
+The same notes are in [Deep Neural Machine Vision](../deep-learning/deep-neural-machine-vision.md).
 
 1. [CVAT](https://venturebeat.com/2019/03/05/intel-open-sources-cvat-a-toolkit-for-data-labeling/)
 

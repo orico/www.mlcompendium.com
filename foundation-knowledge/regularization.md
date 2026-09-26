@@ -2,6 +2,8 @@
 
 This page is about regularization: a penalty added to a loss so that a model which fits noise is discouraged.
 
+The same notes are in [DROPOUT LAYERS IN KERAS AND GENERAL](../deep-learning/deep-neural-nets.md#dropout-layers-in-keras-and-general), [Follow the regularized leader](../business-domains/follow-the-regularized-leader.md), [Intuition for regularization in SVM](../machine-learning/linear-separator-algorithms.md#intuition-for-regularization-in-svm), and [Regularization and influence](../machine-learning/linear-separator-algorithms.md#regularization-and-influence).
+
 ## What regularization is
 
 This section is the definition: a penalty on a model that fits noise, and how lambda changes which models are ruled out.
@@ -39,6 +41,8 @@ Watch this. It also explains ISO surfaces, the Lp norm, and sparseness.
 ## L1 and L2
 
 These links point at L1 for sparse models and at formulas that compare L1 with L2.
+
+The same notes are in [FEATURE SELECTION](../validation-and-evaluation/features.md#feature-selection).
 
 [L1, for sparse models](https://stats.stackexchange.com/questions/45643/why-l1-norm-for-sparse-models)
 

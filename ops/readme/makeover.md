@@ -24,6 +24,7 @@
 - Towards Data Science links were searched on Medium, and only the same article was used.
 - This book had no wrong-credit note, no TODO, and no did-not-watch note. One systemML notebooks item was marked didnt read. That address does not open, so the note stays with the address under Deprecated links.
 - A replacement article names its author when the article itself gives that name.
+- A section that is the same subject as another page or heading gets one sentence linking there.
 
 There are 738 URL occurrences in the rewritten pages. One address used twice counts twice, and one occurrence can sit in more than one row.
 
