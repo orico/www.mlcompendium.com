@@ -1,3 +1,3 @@
 # DevOps Tools
 
-This page is the DevOps tools section.
+A model only reaches users through a stack of operations tools, and this section walks that stack from code to promise. Tutorials comes first with two end-to-end examples, then Continuous Integration for landing code, Docker for packaging the environment, and Kubernetes for orchestrating the containers. Cloud Objects, Key Value DB, and API Gateway cover serverless compute, the messages and state passed between services, and the single front door in front of them. Infrastructure As code turns the cloud resources into code, Logs and ELK follow the trail a production system leaves and make it searchable, and SLO closes the section with measurable objectives for uptime.
