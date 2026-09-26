@@ -1,9 +1,17 @@
 # Data & Model Tests
 
+This page collects resources for unit testing models and validating data in ML pipelines.
+
+The same notes are in [Lakes and warehouses](../ops/dataops/lakes-and-warehouses.md#lakes-and-warehouses) and [Pandas](../foundation-knowledge/data-science-tools.md#pandas).
+
 ## Model Testing
 
-1. A great :P [unit test and logging](https://towardsdatascience.com/unit-testing-and-logging-for-data-science-d7fb8fd5d217?fbclid=IwAR3pze0DtV-2Q4L4ysPyjrInk7LB89mdiodxlEUTv4rv37ZoDzl\_2I4ZbgA) post on medium - it’s actually mine :)
-2. A mind blowing [lecture](https://www.youtube.com/watch?v=1fHGXOfiDO0\&feature=youtu.be\&fbclid=IwAR1bKByLgdYBDoBEr-e6Pw0Un5o0wvOg1yp4C-q4AoWZ1QuBEopTFFn0Gdw) about unit testing your data using Voluptuous & engrade & TDDA lecture
+This section lists posts and tutorials on unit tests, mocks, and pytest for data science code.
+
+The same notes are in [Continuous Integration](../ops/devops/full-stack-and-ops/continuous-integration.md).
+
+1. A great :P [unit test and logging](https://cohenori.medium.com/unit-testing-and-logging-for-data-science-d7fb8fd5d217) post on medium - it's actually mine :)
+2. A mind blowing [lecture](https://www.youtube.com/watch?v=1fHGXOfiDO0&feature=youtu.be) about unit testing your data using Voluptuous & engrade & TDDA lecture
 3. [Unit tests in python](https://jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/)
 4. [Unit tests in python - youtube](https://www.youtube.com/watch?v=6tNS--WetLI)
 5. [Unit tests asserts](https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug)
@@ -14,6 +22,9 @@
 
 ## Data Testing
 
+This section points to Great Expectations, related articles, and DataProfiler for pipeline checks.
+
+The same notes are in [Data Quality](../ops/dataops/data-quality.md) and [Data Validation](../ops/dataops/data-engineering-questions-and-training.md#data-validation).
+
 1. [Great expectations](https://greatexpectations.io/), [article](https://github.blog/2020-10-01-keeping-your-data-pipelines-healthy-with-the-great-expectations-github-action/), “TDDA” for Unit tests and CI, [Youtube](https://www.youtube.com/watch?v=uM9DB2ca8T8)
 2. [DataProfiler git](https://github.com/capitalone/DataProfiler)
-

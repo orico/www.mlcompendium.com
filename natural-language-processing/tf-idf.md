@@ -1,56 +1,63 @@
 # TF-IDF
 
-[**TF-IDF**](http://www.tfidf.com/) **- how important is a word to a document in a corpus**
+This page defines TF-IDF and notes sparse-text tricks that weight word vectors with IDF.
 
-**TF(t) = (Number of times term t appears in a document) / (Total number of terms in the document).**
+The same notes are in [Embedding Foundation Knowledge](../deep-learning/embedding.md#embedding-foundation-knowledge), [LSA (TFIDF + SVD)](topics-modeling.md#lsa-tfidf--svd), [Recommender Systems](../machine-learning/recommender-systems.md), and [TFIDF](../validation-and-evaluation/features.md#tfidf).
 
-**Frequency of word in doc / all words in document (normalized bcz docs have diff sizes)**
+[TF-IDF](http://www.tfidf.com/) — how important is a word to a document in a corpus
 
-**IDF(t) = log\_e(Total number of documents / Number of documents with term t in it).**
+$$TF(t) = \frac{\text{Number of times term } t \text{ appears in a document}}{\text{Total number of terms in the document}}.$$
 
-**measures how important a term is**
+Frequency of word in doc / all words in document (normalized bcz docs have diff sizes)
 
-**TF-IDF is TF\*IDF**\
+$$IDF(t) = \log_e\left(\frac{\text{Total number of documents}}{\text{Number of documents with term } t \text{ in it}}\right).$$
 
+measures how important a term is
 
-1. [**A much clearer explanation plus python code**](https://stevenloria.com/tf-idf/)**,** [**part 2**](http://blog.christianperone.com/2011/10/machine-learning-text-feature-extraction-tf-idf-part-ii/)
-2. [**Get top tfidf keywords**](https://stackoverflow.com/questions/34232190/scikit-learn-tfidfvectorizer-how-to-get-top-n-terms-with-highest-tf-idf-score)
-3. [**Print top features**](https://gist.github.com/StevenMaude/ea46edc315b0f94d03b9)
+TF-IDF is TF*IDF
 
-**Data sets:**
+1. [A much clearer explanation plus python code](https://stevenloria.com/tf-idf/), [part 2](http://blog.christianperone.com/2011/10/machine-learning-text-feature-extraction-tf-idf-part-ii/)
+2. [Get top tfidf keywords](https://stackoverflow.com/questions/34232190/scikit-learn-tfidfvectorizer-how-to-get-top-n-terms-with-highest-tf-idf-score)
+3. [Print top features](https://gist.github.com/StevenMaude/ea46edc315b0f94d03b9)
 
-1. [**Fast text multilingual**](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)
-2. [**NLP embeddings**](http://vectors.nlpl.eu/repository/)
+Data sets:
 
-### **Sparse textual content**
+1. [Fast text multilingual](https://github.com/facebookresearch/fastText/blob/main/docs/crawl-vectors.md)
+2. [NLP embeddings](http://vectors.nlpl.eu/repository/)
 
-1. **mean(IDF(i) \* w2v word vectors (i)) with or without reducing PC1 from the whole w2 average (amir pupko)**\
-   \
+### Sparse textual content
 
+This section is about weighting embeddings with IDF when text is sparse.
 
-**def mean\_weighted\_embedding(model, words, idf=1.0):**
+mean(IDF(i) * w2v word vectors (i)) with or without reducing PC1 from the whole w2 average (amir pupko)
 
-&#x20;   **if words:**
+```python
+def mean_weighted_embedding(model, words, idf=1.0):
+    if words:
+        return np.mean(idf * model[words], axis=0)
+    else:
+        print('we have an empty list')
+        return []
 
-&#x20;       **return np.mean(idf \* model\[words], axis=0)a**
+idf_mapping = dict(zip(vectorizer.get_feature_names(), vectorizer.idf_))
 
-&#x20;   **else:**
+logs_sequences_df['idf_vectors'] = logs_sequences_df.message.apply(lambda x: [idf_mapping[token] for token in splitter(x)])
 
-&#x20;       **print('we have an empty list')**
+logs_sequences_df['mean_weighted_idf_w2v'] = [mean_weighted_embedding(ft, splitter(logs_sequences_df['message'].iloc[i]), 1 / np.array(logs_sequences_df['idf_vectors'].iloc[i]).reshape(-1,1)) for i in range(logs_sequences_df.shape[0])]
+```
 
-&#x20;       **return \[]**\
+1. [Multiply by TFIDF](https://medium.com/data-science/supercharging-word-vectors-be80ee5513d)
+2. Enriching using lstm-next word (char or word-wise)
+3. Using external wiktionary/pedia data for certain words, phrases
+4. Finding clusters of relevant data and figuring out if you can enrich based on the content of the clusters
+5. [Applying deep nlp methods without big data, i.e., sparseness](https://medium.com/data-science/lessons-learned-from-applying-deep-learning-for-nlp-without-big-data-d470db4f27bf)
 
+## Deprecated links
 
-**idf\_mapping = dict(zip(vectorizer.get\_feature\_names(), vectorizer.idf\_))**&#x20;
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
 
-**logs\_sequences\_df\['idf\_vectors'] = logs\_sequences\_df.message.apply(lambda x: \[idf\_mapping\[token] for token in splitter(x)])**
-
-**logs\_sequences\_df\['mean\_weighted\_idf\_w2v'] = \[mean\_weighted\_embedding(ft, splitter(logs\_sequences\_df\['message'].iloc\[i]), 1 / np.array(logs\_sequences\_df\['idf\_vectors'].iloc\[i]).reshape(-1,1)) for i in range(logs\_sequences\_df.shape\[0])]**\
-\
-
-
-1. [**Multiply by TFIDF**](https://towardsdatascience.com/supercharging-word-vectors-be80ee5513d)
-2. **Enriching using lstm-next word (char or word-wise)**
-3. **Using external wiktionary/pedia data for certain words, phrases**
-4. **Finding clusters of relevant data and figuring out if you can enrich based on the content of the clusters**
-5. [**Applying deep nlp methods without big data, i.e., sparseness**](https://towardsdatascience.com/lessons-learned-from-applying-deep-learning-for-nlp-without-big-data-d470db4f27bf?\_branch\_match\_id=584170448791192656)
+- Fast text multilingual This address no longer opens: https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
+- Multiply by TFIDF This address no longer opens: https://towardsdatascience.com/supercharging-word-vectors-be80ee5513d
+- Applying deep nlp methods without big data, i.e., sparseness This address no longer opens: https://towardsdatascience.com/lessons-learned-from-applying-deep-learning-for-nlp-without-big-data-d470db4f27bf?_branch_match_id=584170448791192656

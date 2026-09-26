@@ -1,4 +1,6 @@
 # Product Tools
 
+This page compares customer-data tools and product-analytics tools.
+
 1. [Customer data platform (cdp) vs crm dmp](https://econsultancy.com/what-is-a-customer-data-platform-how-is-it-different-from-a-dmp-or-crm/)
 2. [Mixpanel vs Amplitude](https://mcgaw.io/blog/mixpanel-vs-amplitude/)

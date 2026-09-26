@@ -2,7 +2,6 @@
 
 * [The Machine & Deep Learning Compendium](README.md)
   * [Thanks Page](readme/thanks-page.md)
-* [The Ops Compendium](https://www.opscompendium.com/)
 
 ## Types Of Machine Learning
 
@@ -184,8 +183,85 @@
 * [Marketing](product-management/marketting.md)
 * [Ideation](product-management/ideation.md)
 
+## Ops
+
+* [Ops](ops/README.md)
+  * [Definitions](ops/chatgpt-definitions.md)
+    * [Ops Definition Comparisons](ops/ops-definitions.md)
+
+## MLOps
+
+* [MLOps Intro](ops/mlops/mlops-intro.md)
+* [MLOps Teams](ops/mlops/mlops-teams.md)
+* [MLOps Literature](ops/mlops/literature.md)
+* [MLOps Course](ops/mlops/mlops-course.md)
+* [MLOps Patterns](ops/mlops/mlops.md)
+* [ML Experiment Management](ops/mlops/experiment-management.md)
+* [ML Model Monitoring & Alerts](ops/mlops/mlops-monitoring-and-alerts.md)
+* [MLOps Tools](ops/mlops/full-stack-and-ops.md)
+* [MLOps Deployment](ops/mlops/mlops-deployment.md)
+* [Feature Stores & Feature Pipelines](ops/mlops/feature-stores-and-feature-pipelines.md)
+* [Model Formats](ops/mlops/model-formats.md)
+* [AI As Data](ops/mlops/ai-as-data.md)
+* [MLOps Interview Questions](ops/mlops/mlops-interview-questions.md)
+* [ML Architecture](ops/mlops/ml-architecture.md)
+
+## DataOps
+
+* [SQL](ops/dataops/sql.md)
+* [Tools](ops/dataops/tools.md)
+* [Databases](ops/dataops/lakes-and-warehouses.md)
+* [Database Modeling](ops/dataops/database-architecture-and-modeling.md)
+* [Data Analytics](ops/dataops/data-analytics.md)
+* [Data Engineering](ops/dataops/data-engineering.md)
+* [Data Pipelines](ops/dataops/data-pipelines.md)
+* [Data Strategy](ops/dataops/data-strategy.md)
+* [Data Vision](ops/dataops/data-vision.md)
+* [Data Teams](ops/dataops/data-teams.md)
+* [Data Catalogs](ops/dataops/data-catalogs.md)
+* [Data Governance](ops/dataops/data-governance.md)
+* [Data Quality](ops/dataops/data-quality.md)
+* [Data Observability](ops/dataops/data-observability.md)
+* [Data Program Management](ops/dataops/data-program-management.md)
+* [Data KPIs](ops/dataops/data-kpis.md)
+* [Data Mesh](ops/dataops/data-mesh.md)
+* [Data Contract](ops/dataops/data-contract.md)
+* [Data Product](ops/dataops/data-product.md)
+* [Data Engineering Questions & Training](ops/dataops/data-engineering-questions-and-training.md)
+* [Data Patterns](ops/dataops/patterns.md)
+* [Data Architecture](ops/dataops/data-architecture.md)
+* [Data Platforms](ops/dataops/data-platforms.md)
+* [Data Lineage](ops/dataops/data-lineage.md)
+
+## DevOps
+
+* [DevOps Strategy](ops/devops/devops-strategy.md)
+* [DevOps Tools](ops/devops/full-stack-and-ops/README.md)
+  * [Tutorials](ops/devops/full-stack-and-ops/tutorials.md)
+  * [Continuous Integration](ops/devops/full-stack-and-ops/continuous-integration.md)
+  * [Docker](ops/devops/full-stack-and-ops/docker.md)
+  * [Kubernetes](ops/devops/full-stack-and-ops/kubernetes.md)
+  * [Cloud Objects](ops/devops/full-stack-and-ops/cloud-objects.md)
+  * [Key Value DB](ops/devops/full-stack-and-ops/key-value-db.md)
+  * [API Gateway](ops/devops/full-stack-and-ops/api-gateway.md)
+  * [Infrastructure As code](ops/devops/full-stack-and-ops/infrastructure-as-code.md)
+  * [Logs](ops/devops/full-stack-and-ops/logs.md)
+  * [ELK](ops/devops/full-stack-and-ops/elk.md)
+  * [SLO](ops/devops/full-stack-and-ops/slo.md)
+* [DevOps Courses](ops/devops/devops-courses.md)
+
+## DevSecOps
+
+* [Definitions](ops/devsecops/tbd.md)
+* [Tools](ops/devsecops/tools.md)
+* [Concepts](ops/devsecops/concepts.md)
+
+## Architecture
+
+* [Problems](ops/architecture/problems.md)
+* [Development Concepts](ops/architecture/development-concepts.md)
+* [System Design](ops/architecture/system-design.md)
+
 ***
 
-* [MLOps (www.OpsCompendium.com)](https://oricohen.gitbook.io/the-ops-compendium/mlops/mlops-interview-questions)
-* [DataOps (www.OpsCompendium.com)](https://oricohen.gitbook.io/the-ops-compendium/dataops/data-engineering)
 * [Humor](humor.md)

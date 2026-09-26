@@ -1,38 +1,69 @@
 # Decision Trees
 
-* [**Using hellinger distance to split supervised datasets, instead of gini and entropy. Claims better results.**](https://medium.com/@evgeni.dubov/classifying-imbalanced-data-using-hellinger-distance-f6a4330d6f9a)
-* **Visualize decision** [**trees**](https://towardsdatascience.com/interactive-visualization-of-decision-trees-with-jupyter-widgets-ca15dd312084)**,** [**forests**](https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)
+This page covers Hellinger splits, CART, KD-trees, random forests, and extremely randomized trees.
 
-### [**CART TREES**](http://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/)&#x20;
+The same notes are in [Hoeffding tree](incremental-learning.md#hoeffding-tree), [IMBALANCED DATASETS](../validation-and-evaluation/datasets.md#imbalanced-datasets), [Interview questions](../foundation-knowledge/data-science-management.md#interview-questions), and [Unbalanced labels](label-algorithms.md#unbalanced-labels).
 
-**explains about the similarities and how to measure. which is the best split? based on SSE and GINI (good info about gini here).**
+- [Using hellinger distance to split supervised datasets, instead of gini and entropy. Claims better results.](https://medium.com/@evgeni.dubov/classifying-imbalanced-data-using-hellinger-distance-f6a4330d6f9a)
+- Visualize decision forests: [forests](https://medium.com/data-science/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)
 
-* **For classification the Gini cost function is used which provides an indication of how “pure” the leaf nodes are (how mixed the training data assigned to each node is).**
+### [CART TREES](http://machinelearningmastery.com/classification-and-regression-trees-for-machine-learning/)
 
-**Gini = sum(pk \* (1 – pk))**
+This section explains CART splits with SSE and Gini, early stopping, and pruning.
 
-* **Early stop - 1 sample per node is overfitting, 5-10 are good**
-* **Pruning - evaluate what happens if the lead nodes are removed, if there is a big drop, we need it.**
+The same notes are in [REGRESSION ALGORITHMS](classic-machine-learning.md#regression-algorithms) and [Tutorials](../foundation-knowledge/information-theory.md#tutorials).
 
-### **KDTREE**&#x20;
+explains about the similarities and how to measure. which is the best split? based on SSE and GINI (good info about gini here).
 
-1. [**Similar to a binary search tree, just by using the median and selecting a feature randomly for each level.**](https://www.youtube.com/watch?v=TLxWtXEbtFE)
-2. [**Used to find nearest neighbours.**](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)&#x20;
-3. [**Many applications of using KD tree, reduce color space, Database key search, etc**](https://www.quora.com/What-is-a-kd-tree-and-what-is-it-used-for)
+- For classification the Gini cost function is used which provides an indication of how “pure” the leaf nodes are (how mixed the training data assigned to each node is).
 
-### **RANDOM FOREST**
+Gini = sum(pk * (1 – pk))
 
-[**Using an ensemble of trees to create a high dimensional and sparse representation of the data and classifying using a linear classifier**](http://scikit-learn.org/stable/auto\_examples/ensemble/plot\_feature\_transformation.html#sphx-glr-auto-examples-ensemble-plot-feature-transformation-py)\
+- Early stop — 1 sample per node is overfitting, 5-10 are good
+- Pruning — evaluate what happens if the lead nodes are removed, if there is a big drop, we need it.
 
+### KDTREE
 
-[**How do deal with imbalanced data in Random-forest**](http://statistics.berkeley.edu/sites/default/files/tech-reports/666.pdf) **-**&#x20;
+This section is KD-trees for nearest neighbours and related applications.
 
-1. **One is based on cost sensitive learning.**&#x20;
-2. **Other is based on a sampling technique**&#x20;
+1. [Similar to a binary search tree, just by using the median and selecting a feature randomly for each level.](https://www.youtube.com/watch?v=TLxWtXEbtFE)
+2. [Used to find nearest neighbours.](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+3. [Many applications of using KD tree, reduce color space, Database key search, etc](https://www.quora.com/What-is-a-kd-tree-and-what-is-it-used-for)
 
-### **EXTRA TREES**
+### RANDOM FOREST
 
-1. [**A comparison between random forest and extra trees**\
-   ](https://www.thekerneltrip.com/statistics/random-forest-vs-extra-tree/)**Fig. 1: Comparison of random forests and extra trees in presence of irrelevant predictors. In blue are presented the results from the random forest and red for the extra trees. The results are quite striking: Extra Trees perform consistently better when there are a few relevant predictors and many noisy ones**![Comparison of random forests and extra trees in presence of irrelevant predictors](https://lh3.googleusercontent.com/frZzCFNyzH8WZmbb0IIy\_-e-wsqwclzspkGC9p2AIpRHOH1L-AEWAfQqvy96s26rts-VmSNHN8LSJMvNMjXtIv5qcE3j\_MZQjnbM2ped7g7oy0Nli59cv1YhM\_cGH2G2Ne67MSwM)
-2. [**Difference between RF and ET**](https://stats.stackexchange.com/questions/175523/difference-between-random-forest-and-extremely-randomized-trees)
-3. [**Differences #2**](https://stackoverflow.com/questions/22409855/randomforestclassifier-vs-extratreesclassifier-in-scikit-learn)
+This section is random forests as an ensemble feature transform and imbalance handling.
+
+The same notes are in [Ensembles](ensembles.md).
+
+[Using an ensemble of trees to create a high dimensional and sparse representation of the data and classifying using a linear classifier](http://scikit-learn.org/stable/auto_examples/ensemble/plot_feature_transformation.html#sphx-glr-auto-examples-ensemble-plot-feature-transformation-py)
+
+[How do deal with imbalanced data in Random-forest](http://statistics.berkeley.edu/sites/default/files/tech-reports/666.pdf) —
+
+1. One is based on cost sensitive learning.
+2. Other is based on a sampling technique
+
+### EXTRA TREES
+
+This section compares random forests and extremely randomized trees.
+
+The same notes are in [Ensembles](ensembles.md).
+
+1. A comparison between random forest and extra trees for the original article address.
+
+Fig. 1: Comparison of random forests and extra trees in presence of irrelevant predictors. In blue are presented the results from the random forest and red for the extra trees. The results are quite striking: Extra Trees perform consistently better when there are a few relevant predictors and many noisy ones
+
+<figure><img src="../.gitbook/assets/gimg-a7e3fe15e11e.png" alt=""><figcaption><p>Comparison of random forests and extra trees in presence of irrelevant predictors.</p><p>Credit: <a href="https://lh3.googleusercontent.com/frZzCFNyzH8WZmbb0IIy_-e-wsqwclzspkGC9p2AIpRHOH1L-AEWAfQqvy96s26rts-VmSNHN8LSJMvNMjXtIv5qcE3j_MZQjnbM2ped7g7oy0Nli59cv1YhM_cGH2G2Ne67MSwM">copied from the original hosted image</a>.</p></figcaption></figure>
+
+2. [Difference between RF and ET](https://stats.stackexchange.com/questions/175523/difference-between-random-forest-and-extremely-randomized-trees)
+3. [Differences #2](https://stackoverflow.com/questions/22409855/randomforestclassifier-vs-extratreesclassifier-in-scikit-learn)
+
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+
+- Visualize decision trees. This address no longer opens: https://towardsdatascience.com/interactive-visualization-of-decision-trees-with-jupyter-widgets-ca15dd312084
+- Visualize decision forests. This address no longer opens: https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c
+- A comparison between random forest and extra trees. This address no longer opens: https://www.thekerneltrip.com/statistics/random-forest-vs-extra-tree/

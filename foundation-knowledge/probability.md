@@ -1,38 +1,59 @@
 # Probability
 
-![by en.wikipedia.org](https://lh6.googleusercontent.com/9S5NKsR3t2sboezqW5ehsAxbjt4JE7SUaNB9RTvhQnW4WgaeOROOSYrld5hfXDA2bApG\_3mwtgUEq6fbrwBKzceevdNwNppmWRoQLgnQknVBHZ7O15xlQP9IzYdZBIKAMa9yLfzz)
+This page collects notes on probability density functions and kernel density estimation, with Wikipedia crib figures.
 
-![by en.wikipedia.org](https://lh4.googleusercontent.com/p-jCke8I8OrR2T\_SGXui54kTIJTWuE3ZguFv1lckkcZktBbZTMEUg9Ay0kPIj\_yzM0XM9kt9QJyt-m0tI7ntQNPVAJzv21o5-1DGY1l7trnBjYmAaxbjSVhTnFKd9nVpzVddGD0k)
+The same notes are in [Distribution](distribution.md) and [Probability & Statistics](probability-and-statistics.md).
 
-![by en.wikipedia.org](https://lh5.googleusercontent.com/uPYrn2f4iHu\_DmAsb2iNqVhBHWW45dM42RuUySlETPgdwEuqfBqmi2IAS2sPrSK\_Jo-C3TIes5nhbrMy1EZA8vHgjphfT8izv1SIpARzqjfbuy86MUei1igeogo5t-8Xe9KWzYXw)
+## Probability crib figures
 
-![by en.wikipedia.org](https://lh3.googleusercontent.com/vays0BSzI-zCZnLBLuoafnt0QRE25toMq449bgTsyp2vf23n6ZAi-ShaBDa73v-V\_aonwcpdy6EPsEYbiW40z9F2rgickFYFuuEDo0VVdisAet4GZ0rlMGjBvtT4LeyYQ6F\_Wb5A)
+These figures are crib sheets from Wikipedia on basic probability ideas.
 
-### **PDF (PROBABILITY DENSITY FUNCTION)**
+<figure><img src="../.gitbook/assets/gimg-c0758b95a577.png" alt=""><figcaption><p>Probability crib figure.</p><p>Credit: by <a href="https://en.wikipedia.org/">en.wikipedia.org</a>.</p></figcaption></figure>
 
-1. [**Tutorial in scipy**](https://oneau.wordpress.com/2011/02/28/simple-statistics-with-scipy/)
-2. [**Array-based tutorial in python with PDF and KDE**](http://firsttimeprogrammer.blogspot.co.il/2015/01/how-to-estimate-probability-density.html)
-3. [**Summary of univariate distribution including pdf methods**](https://www.johndcook.com/blog/distributions\_scipy/)
+<figure><img src="../.gitbook/assets/gimg-548a6386a5ac.png" alt=""><figcaption><p>Probability crib figure.</p><p>Credit: by <a href="https://en.wikipedia.org/">en.wikipedia.org</a>.</p></figcaption></figure>
 
-### **Kernel Density Estimation**
+<figure><img src="../.gitbook/assets/gimg-17d46a314d25.png" alt=""><figcaption><p>Probability crib figure.</p><p>Credit: by <a href="https://en.wikipedia.org/">en.wikipedia.org</a>.</p></figcaption></figure>
 
-**This** [**tutorial**](https://mglerner.github.io/posts/histograms-and-kernel-density-estimation-kde-2.html?p=28) **actually explains why we should use KDE over a Histogram, it explains the cons of histograms and how KDE helps solve some issue that we usually encounter in ‘Sparse’ histograms where the distribution is hard to figure out.**
+<figure><img src="../.gitbook/assets/gimg-e31bb8b7775a.png" alt=""><figcaption><p>Probability crib figure.</p><p>Credit: by <a href="https://en.wikipedia.org/">en.wikipedia.org</a>.</p></figcaption></figure>
 
-* **Supposedly a better** [**implementation**](https://github.com/Daniel-B-Smith/KDE-for-SciPy) **of KDE than SCIPY**&#x20;
+## PDF (probability density function)
 
-**How to use KDE? A** [**tutorial**](http://pythonhosted.org/PyQt-Fit/KDE\_tut.html) **about kernel density and how to use it in python. Has several good graphs and shows use cases.**
+This section points at tutorials on PDFs in SciPy and related univariate methods.
 
-**Video tutorials about Kernel Density:**
+1. [Tutorial in scipy](https://oneau.wordpress.com/2011/02/28/simple-statistics-with-scipy/)
+2. [Array-based tutorial in python with PDF and KDE](http://firsttimeprogrammer.blogspot.co.il/2015/01/how-to-estimate-probability-density.html)
+3. [Summary of univariate distribution including pdf methods](https://www.johndcook.com/blog/distributions_scipy/)
 
-1. [**KDE** ](https://www.youtube.com/watch?v=gPWsDh59zdo)
-2. **Non parametric** [**Kernel Regression Estimation**](https://www.youtube.com/watch?v=ncF7ArjJFqM)
-3. **Non parametric** [**Sieve Estimation**](https://www.youtube.com/watch?v=cqecz-DL-jI)
-4. [**Semi- nonparametric estimation**](https://www.youtube.com/watch?v=G1N53K530To)
+## Kernel Density Estimation
 
-[**Udacity Video Tutorial**](https://www.youtube.com/watch?v=MEP35FcrQGs\&list=PLAwxTw4SYaPn-ttWkPiUL7NP3lLRdUniJ\&index=80) **- pretty good**\
+This section explains why KDE helps when histograms are sparse, and lists tools and videos.
 
+This tutorial actually explains why we should use KDE over a Histogram, it explains the cons of histograms and how KDE helps solve some issue that we usually encounter in ‘Sparse’ histograms where the distribution is hard to figure out.
 
-1. **IMPORTANT:** [**Comparison and benchmarks of various KDE algo’s**](https://jakevdp.github.io/blog/2013/12/01/kernel-density-estimation/)
-2. [**Histograms and density plots**](https://towardsdatascience.com/histograms-and-density-plots-in-python-f6bda88f5ac0)
-3. [**SK LEARN**](http://scikit-learn.org/stable/modules/density.html#kernel-density-estimation)
-4. [**Gaussian KDE in scipy, version 2**](https://www.youtube.com/watch?v=MEP35FcrQGs\&list=PLAwxTw4SYaPn-ttWkPiUL7NP3lLRdUniJ\&index=80)
+- Supposedly a better [implementation](https://github.com/Daniel-B-Smith/KDE-for-SciPy) of KDE than SciPy
+
+How to use KDE? A [tutorial](http://pythonhosted.org/PyQt-Fit/KDE_tut.html) about kernel density and how to use it in python. Has several good graphs and shows use cases.
+
+### Video tutorials about Kernel Density
+
+These YouTube links are video tutorials on KDE and related nonparametric estimation.
+
+1. [KDE](https://www.youtube.com/watch?v=gPWsDh59zdo)
+2. Non parametric [Kernel Regression Estimation](https://www.youtube.com/watch?v=ncF7ArjJFqM)
+3. Non parametric [Sieve Estimation](https://www.youtube.com/watch?v=cqecz-DL-jI)
+4. [Semi- nonparametric estimation](https://www.youtube.com/watch?v=G1N53K530To)
+
+[Udacity Video Tutorial](https://www.youtube.com/watch?v=MEP35FcrQGs&list=PLAwxTw4SYaPn-ttWkPiUL7NP3lLRdUniJ&index=80) - pretty good
+
+1. IMPORTANT: [Comparison and benchmarks of various KDE algo’s](https://jakevdp.github.io/blog/2013/12/01/kernel-density-estimation/)
+2. [Histograms and density plots](https://medium.com/data-science/histograms-and-density-plots-in-python-f6bda88f5ac0)
+3. [SK LEARN](http://scikit-learn.org/stable/modules/density.html#kernel-density-estimation)
+4. [Gaussian KDE in scipy, version 2](https://www.youtube.com/watch?v=MEP35FcrQGs&list=PLAwxTw4SYaPn-ttWkPiUL7NP3lLRdUniJ&index=80)
+
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+
+- This tutorial. This address no longer opens: https://mglerner.github.io/posts/histograms-and-kernel-density-estimation-kde-2.html?p=28

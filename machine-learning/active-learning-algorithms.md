@@ -1,6 +1,12 @@
 # Active Learning Algorithms
 
-### **PASSIVE AGGRESSIVE CLASSIFIER**&#x20;
+This page is about active-style learning for large streams, starting with the Passive Aggressive classifier.
 
-1. [**The Passive Aggressive**](https://www.quora.com/Classification-machine-learning-What-is-an-intuitive-explanation-of-the-Passive-Aggressive-classifier) **(PA) algorithm is perfect for classifying massive streams of data (e.g. Twitter). It's easy to implement and very fast, but does not provide global guarantees like the support-vector machine (SVM).**
-2. [**Youtube, seems like active learning in stream..?**](https://www.youtube.com/watch?v=TJU8NfDdqNQ)
+The same notes are in [Active Learning](../types-of-machine-learning/active-learning.md) and [Online Learning](../types-of-machine-learning/online-learning.md).
+
+### Passive Aggressive classifier
+
+This section is the Passive Aggressive (PA) classifier for massive data streams.
+
+1. [The Passive Aggressive](https://www.quora.com/Classification-machine-learning-What-is-an-intuitive-explanation-of-the-Passive-Aggressive-classifier) (PA) algorithm is perfect for classifying massive streams of data (e.g. Twitter). It is easy to implement and very fast, but does not provide global guarantees like the support-vector machine (SVM).
+2. [YouTube, seems like active learning in stream..?](https://www.youtube.com/watch?v=TJU8NfDdqNQ)
