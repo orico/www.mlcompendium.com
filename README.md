@@ -20,7 +20,7 @@ A makeover of this book was done. [How it was done](readme/makeover.md).
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The Machine and Deep Learning Compendium.</p></figcaption></figure>
 
-Covering **502 topics**, the ML and DL Compendium includes summaries, links, and articles across a wide array of subjects, including LLMs. These range from modern machine learning algorithms and deep learning techniques to specialized areas like NLP, audio processing, computer vision (classic and deep), time-series analysis, anomaly detection, and graphs. It also goes deep into strategic themes like data science management, team building, and practical essentials like product management, design, and technology stacks from a data science perspective.
+Covering **502 topics**, the ML and DL Compendium includes summaries, links, and articles across a wide array of subjects, including LLMs. These range from modern machine learning algorithms and deep learning techniques to specialized areas like NLP, audio processing, computer vision (classic and deep), time-series analysis, anomaly detection, and graphs. It also goes deep into strategic themes like data science management, team building, and practical essentials like product management, design, and technology stacks from a data science perspective. The [Ops](ops/README.md) half of this book covers how you build, ship, govern, and run the system.
 
 The ML and DL Compendium is completely open and now lives on [GitHub](https://github.com/orico/www.mlcompendium.com/) (please star it!). Driven by my belief in knowledge-sharing and education, this project will always remain not-for-profit and free.
 
@@ -44,4 +44,4 @@ Many thanks,
 
 Dr. Ori Cohen
 
-[My Website](https://www.oricohen.com/) | [Medium](https://medium.com/@cohenori) | [LinkedIn](https://www.linkedin.com/in/cohenori/) | [ML Compendium](http://www.mlcompendium.com/) | [Ops Compendium](https://www.opscompendium.com/) | [State of GenAI](https://stateofgenai.com/) | [State Of MLOps](https://stateofmlops.com/) |
+[My Website](https://www.oricohen.com/) | [Medium](https://medium.com/@cohenori) | [LinkedIn](https://www.linkedin.com/in/cohenori/) | [ML Compendium](http://www.mlcompendium.com/) | [Ops](ops/README.md) | [State of GenAI](https://stateofgenai.com/) | [State Of MLOps](https://stateofmlops.com/) |
