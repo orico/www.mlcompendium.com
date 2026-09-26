@@ -1,5 +1,3 @@
-# Thanks Page
 
-This page names people who contributed.
-
-I would like to thank the following contributors: [Samuel Jefroykin](https://www.linkedin.com/in/samueljefroykin/), [Sefi Keller](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)
+This page moved.
+- [Thanks Page](../start/thanks-page.md)

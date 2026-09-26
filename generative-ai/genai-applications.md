@@ -4,7 +4,7 @@ This page collects applications built with generative models.
 
 1. [DreamBooth](https://dreambooth.github.io/)
 
-The same notes are in [Diffusion Models](stable-diffusion.md).
+The same notes are in [Diffusion Models](diffusion-models.md).
 
    > Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation
 
@@ -19,7 +19,7 @@ The same notes are in [RAG](rag.md).
 5. [BioGPT](https://github.com/microsoft/BioGPT): [Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.
 6. [Extrapolating knowledge graphs from unstructured text using GPT-3](https://github.com/varunshenoy/GraphGPT)
 
-The same notes are in [Knowledge Graphs](../natural-language-processing/knowledge-graphs.md).
+The same notes are in [Knowledge Graphs](../language-ai/knowledge-graphs.md).
 
 7. [Interact with your documents using the power of GPT, 100% privately, no data leaks](https://github.com/zylon-ai/private-gpt)
 8. [GPT4 & LangChain Chatbot for large PDF docs](https://github.com/mayooear/gpt4-pdf-chatbot-langchain)
@@ -36,3 +36,5 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - Generative Pre-trained Transformer for Biomedical Text Generation and Mining, by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu. This address no longer opens: https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9
+
+[Developing A Virtual Psychologist With Gen-AI](https://pub.towardsai.net/developing-a-virtual-psychologist-with-gen-ai-f2e87c7d7c28) (October 2024) is an application on this page, and the constraint on it lives in Responsible AI.
