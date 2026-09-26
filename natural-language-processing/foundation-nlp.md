@@ -7,7 +7,7 @@ This page collects foundational NLP notes: chunking, collocations, stemming, Heb
 This section lists basic NLP pipelines, classification benchmarks, and keyword extraction.
 
 1. [Benchmarking tokenizers for optimalprocessing speed](https://medium.com/data-science/benchmarking-python-nlp-tokenizers-3ac4735100c5)
-2. Using nltk with gensim 
+2. Using nltk with gensim
 3. [Multiclass text classification with svm/nb/mean w2v/](https://medium.com/data-science/multi-class-text-classification-model-comparison-and-selection-5eb066197568)d2v - tutorial with code and notebook.
 4. [Basic pipeline for keyword extraction](https://medium.com/analytics-vidhya/automated-keyword-extraction-from-articles-using-nlp-bfd864f41b34)
 5. DL for text classification
@@ -58,14 +58,14 @@ This section points at a vocabulary library for meanings, synonyms, and related 
 
 For a given word, using Vocabulary, you can get its
 
-* Meaning
-* Synonyms
-* Antonyms
-* Part of speech : whether the word is a noun, interjection or an adverb et el
-* Translate : Translate a phrase from a source language to the desired language.
-* Usage example : a quick example on how to use the word in a sentence
-* Pronunciation
-* Hyphenation : shows the particular stress points(if any)
+- Meaning
+- Synonyms
+- Antonyms
+- Part of speech : whether the word is a noun, interjection or an adverb et el
+- Translate : Translate a phrase from a source language to the desired language.
+- Usage example : a quick example on how to use the word in a sentence
+- Pronunciation
+- Hyphenation : shows the particular stress points(if any)
 
 ### Swiss army knife libraries
 
@@ -119,7 +119,6 @@ Phrase modeling is another approach to learning combinations of tokens that toge
 $$\frac{\mathrm{count}(A\,B)-\mathrm{count}_{\min}}{\mathrm{count}(A)\cdot\mathrm{count}(B)}\cdot N>\mathrm{threshold}$$
 
 1. [ SO on PE.](https://www.quora.com/Whats-the-best-way-to-extract-phrases-from-a-corpus-of-text-using-Python)
-2.
 
 ## Document classification
 

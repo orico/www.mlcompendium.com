@@ -44,10 +44,8 @@ This subsection answers whether Box-Cox guarantees a normal result.
 - The method checks for the smallest standard deviation.
 - The assumption is that among all transformations with Lambda values between -5 and +5, transformed data has the highest likelihood – but not a guarantee – to be normally distributed when standard deviation is the smallest.
 - It is absolutely necessary to always check the transformed data for normality using a probability plot. (d)
-
-+ Additionally, the Box-Cox Power transformation only works if all the data is positive and greater than 0.
-
-+ Achieved easily by adding a constant ‘c’ to all data such that it all becomes positive before it is transformed. The transformation equation is then:
+- Additionally, the Box-Cox Power transformation only works if all the data is positive and greater than 0.
+- Achieved easily by adding a constant ‘c’ to all data such that it all becomes positive before it is transformed. The transformation equation is then:
 
 [COMMON TRANS: FORMULAS (based on the actual formula)](http://www.statisticshowto.com/box-cox-transformation/)
 
@@ -59,7 +57,7 @@ Finally: An awesome tutorial (dead), here is a new one in python with [code exam
 
 <figure><img src="../.gitbook/assets/gimg-f209afaf26e3.png" alt=""><figcaption><p>Box-Cox transformed array and lambda.</p></figcaption></figure>
 
-* Maybe there is a slight problem in the python vs R code, details here, but needs investigating.
+- Maybe there is a slight problem in the python vs R code, details here, but needs investigating.
 
 ## Mann-Whitney U test
 

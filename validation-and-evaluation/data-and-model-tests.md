@@ -22,11 +22,3 @@ This section points to Great Expectations, related articles, and DataProfiler fo
 
 1. [Great expectations](https://greatexpectations.io/), [article](https://github.blog/2020-10-01-keeping-your-data-pipelines-healthy-with-the-great-expectations-github-action/), “TDDA” for Unit tests and CI, [Youtube](https://www.youtube.com/watch?v=uM9DB2ca8T8)
 2. [DataProfiler git](https://github.com/capitalone/DataProfiler)
-
-## Deprecated links
-
-{% hint style="warning" %}
-These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
-{% endhint %}
-
-- A great :P unit test and logging post on medium - it's actually mine :). This address no longer opens: https://towardsdatascience.com/unit-testing-and-logging-for-data-science-d7fb8fd5d217

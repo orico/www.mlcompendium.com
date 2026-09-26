@@ -11,7 +11,7 @@ This section lists books, platforms, lectures, and a noisy-label REINFORCE examp
 3. Vidhya on [Simple Beginner’s guide to Reinforcement Learning & its implementation](https://www.analyticsvidhya.com/blog/2017/01/introduction-to-reinforcement-learning-implementation/)
 4. ZipRecruiter on [Classifying Job Titles With Noisy Labels Using REINFORCE](https://medium.com/@ziprecruiter.engineering/classifying-job-titles-with-noisy-labels-using-reinforce-ce1a4bde05e2) — Fine-grained job title classification with noisy labels using the REINFORCE algorithm and multi-task learning
 
-    -> this article has a very nice trick in adding a reward component to the loss function in order to mitigate for unbalanced class label problem, instead of the usual balancing.
+   -> this article has a very nice trick in adding a reward component to the loss function in order to mitigate for unbalanced class label problem, instead of the usual balancing.
 5. David Silver — [Home Page](https://www.davidsilver.uk/teaching/) — [1](https://www.youtube.com/watch?v=2pWv7GOvuf0) [2](https://www.youtube.com/watch?v=lfHX2hHRMVQ) [3](https://www.youtube.com/watch?v=Nd1-UUMVfz4) [4](https://www.youtube.com/watch?v=PnHCvfgC_ZA) [5](https://www.youtube.com/watch?v=0g4j2k_Ggc4) [6](https://www.youtube.com/watch?v=UoPei5o4fps) [7](https://www.youtube.com/watch?v=KHZVXao4qXs) [8](https://www.youtube.com/watch?v=ItMutbeOHtc) [9](https://www.youtube.com/watch?v=sGuiWX07sKw) [10](https://www.youtube.com/watch?v=kZ_AUmFcZtk)
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>David Silver teaching materials.</p></figcaption></figure>

@@ -22,8 +22,8 @@ This section lists open and commercial LLM releases.
 2. [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
 3. [Bard](https://bard.google.com/)
 4. [StabilityLM](https://github.com/Stability-AI/StableLM)
-   1. Vicuna
-   2. LLaMA
+   - Vicuna
+   - LLaMA
 
 ## Instructor
 
@@ -49,13 +49,13 @@ This section lists libraries and UIs for building with LLMs.
 1. [Scikit-LLM](https://github.com/iryna-kondr/scikit-llm)
 2. [LangChain](https://python.langchain.com/en/latest/index.html)
    1. [An amazing tutorial](http://web.archive.org/web/20260506162130/https://www.python-engineer.com/posts/langchain-crash-course/) in [Youtube](https://www.youtube.com/watch?v=LbT1yp6quS8) by Patrick Loeber about
-      * LLMs
-        * Prompt Templates
-        * Chains
-        * Agents and Tools
-        * Memory
-        * Document Loaders
-        * Indexes
+      - LLMs
+         - Prompt Templates
+         - Chains
+         - Agents and Tools
+         - Memory
+         - Document Loaders
+         - Indexes
    2. [Langchain in 13 minutes](https://www.youtube.com/watch?v=aywZrzNaKjs)
 3. [ReAct & LangChain](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
 4. [LangFlow](https://github.com/logspace-ai/langflow), [Medium](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24), [HuggingFace](https://medium.com/logspace/language-models-on-steroids-441cfcc66b24) - is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows.

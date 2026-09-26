@@ -20,7 +20,7 @@ This section lists annotation tools, weak supervision, and disagreement packages
    4. Samasource
    5. Figure 8 - pricing - definite guide
 5. [Brat nlp annotation tool](http://brat.nlplab.org/)
-6. [Prodigy by spacy](https://prodi.gy/), 
+6. [Prodigy by spacy](https://prodi.gy/),
    1. [seed-small sample, many sample tutorial on youtube by ines](https://www.youtube.com/watch?v=5di0KlKl0fE)
    2. [How to use prodigy, tutorial on medium plus notebook code inside](https://medium.com/@david.campion/text-classification-be-lazy-use-prodigy-b0f9d00e9495)
 7. [Doccano](https://github.com/chakki-works/doccano) - prodigy open source alternative butwith users management & statistics out of the box
@@ -52,7 +52,7 @@ Ideas:
 
 1. Active learning for a group (or single) of annotators, we have to wait for all annotations to finish each big batch in order to retrain the model.
 2. Annotate a small group, automatic labelling using knn
-3. Find a nearest neighbor for out optimal set of keywords per “category, 
+3. Find a nearest neighbor for out optimal set of keywords per “category,
 4. For a group of keywords, find their knn neighbors in w2v-space, alternatively find k clusters in w2v space that has those keywords. For a new word/mean sentence vector in the ‘category’ find the minimal distance to the new cluster (either one of approaches) and this is new annotation.
 
 ## Myths
@@ -60,12 +60,12 @@ Ideas:
 This section lists seven common myths about annotation quality.
 
 1. 7 myths of annotation
-   1. Myth One: One Truth Most data collection efforts assume that there is one correct interpretation for every input example. 
-   2. Myth Two: Disagreement Is Bad To increase the quality of annotation data, disagreement among the annotators should be avoided or reduced. 
-   3. Myth Three: Detailed Guidelines Help When specific cases continuously cause disagreement, more instructions are added to limit interpretations. 
-   4. Myth Four: One Is Enough Most annotated examples are evaluated by one person. 
-   5. Myth Five: Experts Are Better Human annotators with domain knowledge provide better annotated data. 
-   6. Myth Six: All Examples Are Created Equal The mathematics of using ground truth treats every example the same; either you match the correct result or not. 
+   1. Myth One: One Truth Most data collection efforts assume that there is one correct interpretation for every input example.
+   2. Myth Two: Disagreement Is Bad To increase the quality of annotation data, disagreement among the annotators should be avoided or reduced.
+   3. Myth Three: Detailed Guidelines Help When specific cases continuously cause disagreement, more instructions are added to limit interpretations.
+   4. Myth Four: One Is Enough Most annotated examples are evaluated by one person.
+   5. Myth Five: Experts Are Better Human annotators with domain knowledge provide better annotated data.
+   6. Myth Six: All Examples Are Created Equal The mathematics of using ground truth treats every example the same; either you match the correct result or not.
    7. Myth Seven: Once Done, Forever Valid Once human annotated data is collected for a task, it is used over and over with no update. New annotated data is not aligned with previous data.
 
 ## Crowd Sourcing
@@ -93,9 +93,9 @@ This section is about [Crowd Sourcing ](https://www.youtube.com/watch?v=ktZLuXPX
 
 <figure><img src="../.gitbook/assets/gimg-bd667d6736a1.png" alt=""><figcaption><p>Crowdsourcing annotation notes.</p><p>Credit: <a href="https://lh4.googleusercontent.com/s8A8VcNA22GZ5FtBnQaAJvxyJmw7jgEIp4LFw28z5OxoZwAfuoShsSSDSRa7Loqud-caBFY9lQK1xhbUrlwyhox2btt7hLMfbb_L59BzFGxxgX35p-5bJdInEIkuWf6vBmmioaWe">copied from the original hosted image</a>.</p></figcaption></figure>
 
-* Conclusions: 
-  * Experts are the same as a crowd
-  * Costs a lot less \$$$.
+- Conclusions:
+   - Experts are the same as a crowd
+   - Costs a lot less \$$$.
 
 ## Disagreement
 
@@ -119,38 +119,37 @@ This section covers Cohen, Fleiss, Krippendorff, and related agreement metrics.
 
 The Kappa statistic varies from 0 to 1, where.**
 
-* 0 = agreement equivalent to chance.
-* 0.1 – 0.20 = slight agreement.
-* 0.21 – 0.40 = fair agreement.
-* 0.41 – 0.60 = moderate agreement.
-* 0.61 – 0.80 = substantial agreement.
-* 0.81 – 0.99 = near perfect agreement
-* 1 = perfect agreement.
+- 0 = agreement equivalent to chance.
+- 0.1 – 0.20 = slight agreement.
+- 0.21 – 0.40 = fair agreement.
+- 0.41 – 0.60 = moderate agreement.
+- 0.61 – 0.80 = substantial agreement.
+- 0.81 – 0.99 = near perfect agreement
+- 1 = perfect agreement.
 
 1. Fleiss’ kappa, from 3 people and above.
 
 Kappa ranges from 0 to 1, where:
 
-* 0 is no agreement (or agreement that you would expect to find by chance),
-* 1 is perfect agreement.
-* Fleiss’s Kappa is an extension of Cohen’s kappa for three raters or more. In addition, the assumption with Cohen’s kappa is that your raters are deliberately chosen and fixed. With Fleiss’ kappa, the assumption is that your raters were chosen at random from a larger population.
-* [Kendall’s Tau](https://www.statisticshowto.datasciencecentral.com/kendalls-tau/) is used when you have ranked data, like two people ordering 10 candidates from most preferred to least preferred.
-* Krippendorff’s alpha is useful when you have multiple raters and multiple possible ratings.
+- 0 is no agreement (or agreement that you would expect to find by chance),
+- 1 is perfect agreement.
+- Fleiss’s Kappa is an extension of Cohen’s kappa for three raters or more. In addition, the assumption with Cohen’s kappa is that your raters are deliberately chosen and fixed. With Fleiss’ kappa, the assumption is that your raters were chosen at random from a larger population.
+- [Kendall’s Tau](https://www.statisticshowto.datasciencecentral.com/kendalls-tau/) is used when you have ranked data, like two people ordering 10 candidates from most preferred to least preferred.
+- Krippendorff’s alpha is useful when you have multiple raters and multiple possible ratings.
 
-1. Krippendorfs alpha 
-
-* [Ignores missing data entirely](https://deepsense.ai/multilevel-classification-cohen-kappa-and-krippendorff-alpha/).
-* Can handle various sample sizes, categories, and numbers of raters.
-* Applies to any [measurement level](https://www.statisticshowto.datasciencecentral.com/scales-of-measurement/) (i.e. ([nominal, ordinal, interval, ratio](https://www.statisticshowto.datasciencecentral.com/nominal-ordinal-interval-ratio/)).
-* Values range from 0 to 1, where 0 is perfect disagreement and 1 is perfect agreement. Krippendorff suggests: “\[I]t is customary to require α ≥ .800. Where tentative conclusions are still acceptable, α ≥ .667 is the lowest conceivable limit (2004, p. 241).”
-* [Supposedly multi label](https://stackoverflow.com/questions/57256287/calculate-kappa-score-for-multi-label-image-classifcation)
+1. Krippendorfs alpha
+   - [Ignores missing data entirely](https://deepsense.ai/multilevel-classification-cohen-kappa-and-krippendorff-alpha/).
+   - Can handle various sample sizes, categories, and numbers of raters.
+   - Applies to any [measurement level](https://www.statisticshowto.datasciencecentral.com/scales-of-measurement/) (i.e. ([nominal, ordinal, interval, ratio](https://www.statisticshowto.datasciencecentral.com/nominal-ordinal-interval-ratio/)).
+   - Values range from 0 to 1, where 0 is perfect disagreement and 1 is perfect agreement. Krippendorff suggests: “\[I]t is customary to require α ≥ .800. Where tentative conclusions are still acceptable, α ≥ .667 is the lowest conceivable limit (2004, p. 241).”
+   - [Supposedly multi label](https://stackoverflow.com/questions/57256287/calculate-kappa-score-for-multi-label-image-classifcation)
 
 1. MACE - the new kid on the block. -
 
  learns in an unsupervised fashion to 
 
 1. a) identify which annotators are trustworthy and
-2.  b) predict the correct underlying labels. We match performance of more complex state-of-the-art systems and perform well even under adversarial conditions
+2. b) predict the correct underlying labels. We match performance of more complex state-of-the-art systems and perform well even under adversarial conditions
 3. MACE does exactly that. It tries to find out which annotators are more trustworthy and upweighs their answers.
 4. [Git](https://github.com/dirkhovy/MACE) -
 
@@ -163,8 +162,6 @@ ns (like those from Amazon's MechanicalTurk), we usually want to
 3. evaluate item and task difficulty
 
 MACE solves all of these problems, by learning competence estimates for each annotators and computing the most likely answer based on those competences.
-
-1.
 
 Calculating agreement
 
@@ -218,5 +215,4 @@ These links and images no longer work. The original wording is kept here. A same
 - Website, krippensorf vs fleiss calculator This address no longer opens: https://nlp-ml.io/jg/software/ira/
 - Interpretation of kappa values This address no longer opens: https://towardsdatascience.com/interpretation-of-kappa-values-2acd1ca7b18f
 - Interpreting agreement This address no longer opens: http://web2.cs.columbia.edu/~julia/courses/CS6998/Interrater_agreement.Kappa_statistic.pdf
-
 - MACE. This address no longer opens: https://www.isi.edu/publications/licensed-sw/mace/

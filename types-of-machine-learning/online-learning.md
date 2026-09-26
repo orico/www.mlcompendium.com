@@ -29,5 +29,4 @@ These links and images no longer work. The original wording is kept here. A same
 
 
 - Hedge back propagation (HDP), Autonomous DL, Qactor. This address no longer opens: https://towardsdatascience.com/online-deep-learning-odl-and-hedge-back-propagation-277f338a14b2
-
 - coursera. This address no longer opens: https://www.coursera.org/learn/machine-learning/lecture/ABO2q/online-learning

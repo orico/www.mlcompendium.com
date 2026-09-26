@@ -40,11 +40,11 @@ These repositories implement or catalog machine unlearning and data deletion.
 4. This [repository](https://github.com/shash42/Evaluating-Inexact-Unlearning/tree/master) contains the code used in our experiments of our paper on [Evaluating Machine Unlearning](https://arxiv.org/abs/2201.06640) in the src/ folder along with some sample scripts in the scripts/ folder.
 5. #### [This](https://github.com/meghdadk/SCRUB) is a Python implementation of "Towards Unbounded Machine Unlearning"
 
-This list item points at the SCRUB repo for unbounded machine unlearning.
+   This list item points at the SCRUB repo for unbounded machine unlearning.
 
 6. #### data deletion
 
-This list item links again to the Chris Waites data-deletion repository.
+   This list item links again to the Chris Waites data-deletion repository.
 
 ## Community
 

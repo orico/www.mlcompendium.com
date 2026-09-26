@@ -55,12 +55,12 @@ NOTE: Entropy can be generalized as a formula for N > 2 classes:
 
 (We want to grow a simple tree) awesome pdf tutorial→ a good attribute prefers attributes that split the data so that each successor node is as pure as possible
 
-* i.e., the distribution of examples in each node is so that it mostly contains examples of a single class
-* In other words: We want a measure that prefers attributes that have a high degree of „order“:
-* Maximum order: All examples are of the same class
-* Minimum order: All classes are equally likely → Entropy is a measure for (un-)orderedness Another interpretation:
-* Entropy is the amount of information that is contained
-* all examples of the same class → no information
+- i.e., the distribution of examples in each node is so that it mostly contains examples of a single class
+- In other words: We want a measure that prefers attributes that have a high degree of „order“:
+- Maximum order: All examples are of the same class
+- Minimum order: All classes are equally likely → Entropy is a measure for (un-)orderedness Another interpretation:
+- Entropy is the amount of information that is contained
+- all examples of the same class → no information
 
 <figure><img src="../.gitbook/assets/gimg-c3fc62bc4be7.png" alt=""><figcaption><p>Entropy as unorderedness in the class distribution of S.</p><p>Credit: <a href="https://lh3.googleusercontent.com/s4tfIeHpR4H9GimwTPjFVoV0nCKwEUQYRFpz93x-d5jZCxDFIub8jiK7PFbkSNU1X__OXHK7XLSH_BO0xUQIjS6HEnHfUEiuY0KWJpb1ZX0NowqyKG4A2guA3wN_b52UKeVluv9f">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -69,8 +69,8 @@ Entropy is the amount of unorderedness in the class distribution of S
 
 IMAGE above:
 
-* Maximal value when the equal class distribution
-* Minimal value when only one class is in S
+- Maximal value when the equal class distribution
+- Minimal value when only one class is in S
 
 So basically if we have the outlook attribute and it has 3 categories, we calculate the entropy for E(feature=category) for all 3.
 
@@ -102,8 +102,8 @@ There are some disadvantages with INFO GAIN, done use it when an attribute has m
 
 Information gain is biased towards choosing attributes with a large number of values and causes:
 
-* Overfitting
-* fragmentation
+- Overfitting
+- fragmentation
 
 <figure><img src="../.gitbook/assets/gimg-b7008514d45b.png" alt=""><figcaption><p>Information Gain bias toward attributes with many values.</p><p>Credit: <a href="https://lh5.googleusercontent.com/vGjXAG-G2hmkJkt4xhcxycm5BG6LM-sRPOWnXOrXuCFpSGOQSBcL2mZUoVRhsqRTrr83wXKRDp5rF2hqYn1DGnJdIGvWezoSxy9zOmy2e5Yqc_OIJ6sXXA1YAbZksmY4-f0JWaDp">copied from the original hosted image</a>.</p></figcaption></figure>
 

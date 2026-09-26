@@ -92,8 +92,7 @@ This section links Hugging Face model hubs, tutorials, and emotion-classificatio
 
 
 1. [Git](https://github.com/huggingface/transformers)
-2.
-   1. [Hugging face pytorch transformers](https://github.com/huggingface/pytorch-transformers)
+2. [Hugging face pytorch transformers](https://github.com/huggingface/pytorch-transformers)
 3. [Hugging face nlp pretrained](https://huggingface.co/models?search=Helsinki-NLP%2Fopus-mt)
 4. [hugging face on emotions](https://medium.com/huggingface/understanding-emotions-from-keras-to-pytorch-3ccb61d5a983)
    1. how to make a custom pyTorch LSTM with custom activation functions,
@@ -492,5 +491,4 @@ These links and images no longer work. The original wording is kept here. A same
 - paper. This address no longer opens: http://homepages.inf.ed.ac.uk/s1668259/papers/sequence.pdf
 - Using gensim fast text - recommendation against using the fb version. This address no longer opens: https://blog.manash.me/how-to-use-pre-trained-word-vectors-from-facebooks-fasttext-a71e6d55f27
 - Paper. This address no longer opens: http://workshop.colips.org/dstc6/papers/track2_paper18_zhuang.pdf
-
 - Intro to word embeddings - lots of images. This address no longer opens: https://www.springboard.com/blog/introduction-word-embeddings/

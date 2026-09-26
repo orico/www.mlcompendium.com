@@ -4,24 +4,24 @@ This page contrasts probability with statistics and collects introductory resour
 
 [Coursera course](https://www.youtube.com/watch?v=WkOinijQmPU&list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ&index=1) on probabilities - for data science, actually quite good in explaining a lot of the basic tools,prob, conditional, distributions, sampling, CI, hypothesis, etc.
 
-* A great resource for proba/bayes/b-networks/etc (adam bali)
+- A great resource for proba/bayes/b-networks/etc (adam bali)
 
 ### Difference between
 
 This section states how probability and statistics invert the same uncertainty problem.
 
-* [Difference between](https://stats.stackexchange.com/questions/665/whats-the-difference-between-probability-and-statistics)
-* I.e, Probability deals with predicting the likelihood of future events, while statistics involves the analysis of the frequency of past events.
-* The problems considered by probability and statistics are inverse to each other.
-* In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
+- [Difference between](https://stats.stackexchange.com/questions/665/whats-the-difference-between-probability-and-statistics)
+- I.e, Probability deals with predicting the likelihood of future events, while statistics involves the analysis of the frequency of past events.
+- The problems considered by probability and statistics are inverse to each other.
+- In probability theory we consider some underlying process which has some randomness or uncertainty modeled by random variables, and we figure out what happens.
 
-=> Underlying process + randomness and random variables -> what happens next?
+  => Underlying process + randomness and random variables -> what happens next?
 
-* In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
+- In statistics we observe something that has happened, and try to figure out what underlying process would explain those observations.
 
-=> observe what happened -> what is the underlying process?
+  => observe what happened -> what is the underlying process?
 
-* Finally, probability theory is mainly concerned with the deductive part, statistics with the inductive part of modeling processes with uncertainty
+- Finally, probability theory is mainly concerned with the deductive part, statistics with the inductive part of modeling processes with uncertainty
 
 ### Introduction to statistics
 
@@ -67,40 +67,39 @@ This section links Math is Fun probability topics from events through random var
 
 This section points at Data Science Central article series on statistical concepts.
 
-1. [25 concepts](https://www.datasciencecentral.com/profiles/blogs/25-statistical-concepts-explained-in-simple-english-part-2) (part 2), [29 more concepts](https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1) (part1) & [part 3](https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-2?fbclid=IwAR0VQFeBaJsm3ouEf7sV5WAupE1cI3PXhzWe9-lUYkZ_XCCF72_3r8w5hrI) in statistics.
+- [25 concepts](https://www.datasciencecentral.com/profiles/blogs/25-statistical-concepts-explained-in-simple-english-part-2) (part 2), [29 more concepts](https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1) (part1) & [part 3](https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-2?fbclid=IwAR0VQFeBaJsm3ouEf7sV5WAupE1cI3PXhzWe9-lUYkZ_XCCF72_3r8w5hrI) in statistics.
 
 ### Wiki
 
 This section lists Wikipedia entries on marginal, joint, and conditional probability.
 
-1. [Marginal probability](https://en.wikipedia.org/wiki/Marginal_distribution)
-2. [Joint probability](https://en.wikipedia.org/wiki/Joint_probability_distribution)
-3. [Conditional probability](https://en.wikipedia.org/wiki/Probability)
-4. [Chain rule](https://en.wikipedia.org/wiki/Chain_rule_(probability)) - derivatives using the chain rule, on [khan](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-1a/v/chain-rule-introduction)
+- [Marginal probability](https://en.wikipedia.org/wiki/Marginal_distribution)
+- [Joint probability](https://en.wikipedia.org/wiki/Joint_probability_distribution)
+- [Conditional probability](https://en.wikipedia.org/wiki/Probability)
+- [Chain rule](https://en.wikipedia.org/wiki/Chain_rule_(probability)) - derivatives using the chain rule, on [khan](https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-2-new/ab-3-1a/v/chain-rule-introduction)
 
 ### Recommended Courses
 
 This section recommends probability courses and a friendly confidence-interval article.
 
-1. Another great course on probability, distribution types, conditional, joint, chain, etc.
-2. [Kahn](https://www.khanacademy.org/math/precalculus/prob-comb) academy
-3. [A really good intro](https://www.youtube.com/watch?v=5NMxiOGL39M) to probability, conditional, joint, etc.
-
-* [What are confidence intervals?](https://medium.com/data-science/a-very-friendly-introduction-to-confidence-intervals-9add126e714)
+- Another great course on probability, distribution types, conditional, joint, chain, etc.
+- [Kahn](https://www.khanacademy.org/math/precalculus/prob-comb) academy
+- [A really good intro](https://www.youtube.com/watch?v=5NMxiOGL39M) to probability, conditional, joint, etc.
+- [What are confidence intervals?](https://medium.com/data-science/a-very-friendly-introduction-to-confidence-intervals-9add126e714)
 
 (another angle) [The main difference between probability and statistics has to do with knowledge](https://www.thoughtco.com/probability-vs-statistics-3126368)
 
-* what are the known facts? Inherent in both probability and statistics is a [population](https://www.thoughtco.com/what-is-a-population-in-statistics-3126308),
-* every individual we are interested in studying, and a sample, consisting of the individuals that are selected from the population.
-* in probability: would start with us knowing everything about the composition of a population, and then would ask, “What is the likelihood that a selection, or sample, from the population, has certain characteristics?”
-* In statistics: we have no knowledge about the types of socks in the drawer. we infer properties about the population on the basis of a random sample.
+- what are the known facts? Inherent in both probability and statistics is a [population](https://www.thoughtco.com/what-is-a-population-in-statistics-3126308),
+- every individual we are interested in studying, and a sample, consisting of the individuals that are selected from the population.
+- in probability: would start with us knowing everything about the composition of a population, and then would ask, “What is the likelihood that a selection, or sample, from the population, has certain characteristics?”
+- In statistics: we have no knowledge about the types of socks in the drawer. we infer properties about the population on the basis of a random sample.
 
 Some [calculations](https://www.mathsisfun.com/data/probability.html) to get you into probability:
 
-* Finding out the probability of an event
-* Of two consecutive events (multiplication)
-* Of several events (sum)
-* Etc..
+- Finding out the probability of an event
+- Of two consecutive events (multiplication)
+- Of several events (sum)
+- Etc..
 
 ### STATISTICAL SAMPLING AND RESAMPLING
 

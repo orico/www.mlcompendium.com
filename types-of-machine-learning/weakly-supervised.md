@@ -5,10 +5,10 @@ This page collects weak-supervision surveys, Snorkel resources, and papers on no
 Text classification with extremely small datasets relies heavily on feature engineering methods such as number of hashtags, number of punctuations and other insights that are really good for this type of text.
 
 1. A great [review paper](https://pdfs.semanticscholar.org/3adc/fd254b271bcc2fb7e2a62d750db17e6c2c08.pdf) for weakly supervision, discusses:
-   1. Incomplete supervision
-   2. Inaccurate
-   3. Inexact
-   4. Active learning
+   - Incomplete supervision
+   - Inaccurate
+   - Inexact
+   - Active learning
 2. Stanford on weakly
 3. [Stanford ai on snorkel](http://ai.stanford.edu/blog/weak-supervision/)
 4. [Intro to Snorkel](https://medium.com/@towardsai/data-centric-ai-with-snorkel-ai-the-enterprise-ai-platform-a8ed0803c24c)
@@ -26,6 +26,5 @@ These links and images no longer work. The original wording is kept here. A same
 
 
 - Text classification with extremely small datasets. This address no longer opens: https://towardsdatascience.com/text-classification-with-extremely-small-datasets-333d322caee2
-
 - Stanford on. This address no longer opens: https://dawn.cs.stanford.edu/2017/07/16/weak-supervision/
 - Hazy research on weak and snorkel. This address no longer opens: https://hazyresearch.github.io/snorkel/blog/ws_blog_post.html

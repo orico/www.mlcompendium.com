@@ -12,7 +12,7 @@ This page lists clustering methods from k-means and GMM through density-based an
 TOOLS
 
 1. [pyClustering
- ](https://pyclustering.github.io/docs/0.10.1/html/index.html)<figure><img src="../.gitbook/assets/gimg-b2c3ce433b2d.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh5.googleusercontent.com/Wyc8biCZCBvmybSOytsjJYmdhQUVq5F5Kl4tj6luvww9uXVywkBWzCHlsnUaz07KTyIRi98_vIembQVnhWWRv6DYK_DhUKC9NNg8mRJPk0cg0Ov4EV66pg7dZW4K7HPEq-xy6axz">copied from the original hosted image</a>.</p></figcaption></figure>
+   ](https://pyclustering.github.io/docs/0.10.1/html/index.html)<figure><img src="../.gitbook/assets/gimg-b2c3ce433b2d.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh5.googleusercontent.com/Wyc8biCZCBvmybSOytsjJYmdhQUVq5F5Kl4tj6luvww9uXVywkBWzCHlsnUaz07KTyIRi98_vIembQVnhWWRv6DYK_DhUKC9NNg8mRJPk0cg0Ov4EV66pg7dZW4K7HPEq-xy6axz">copied from the original hosted image</a>.</p></figcaption></figure>
 
 ###
 
@@ -26,7 +26,6 @@ This subsection covers biclustering and clustering from distance or correlation 
 <figure><img src="../.gitbook/assets/gimg-fc8b3473b627.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/SdPIjYLt8PksdDmmQDPUn24U1DyNOGyZfsV3V8OxqdU62NzahrACouK7eD5hUkjL_brbtfRq4uvEUk6FiHR_vLzr2hbnT774XElKXsZmK3RGnuLGyzFXtxTJyNmnsnrbfxj7Bvv3">copied from the original hosted image</a>.</p></figcaption></figure>
 
 1. Any of the “precomputed” algorithms in sklearn, just remember to [do 1-distanceMatrix](https://github.com/scikit-learn/scikit-learn/issues/6787). I.e., using dbscan/hdbscan/optics, you need a dissimilarity matrix.
-2.
 
 ### [Kmeans](https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/04.2-Clustering-KMeans.ipynb)
 
@@ -40,11 +39,11 @@ This subsection summarizes k-medoids versus k-means.
 
 \- basically k-means with a most center object rather than a center virtual point that was based on mean distance from all points, we keep choosing medoids samples based on minimised SSE
 
-* k-medoid is a classical partitioning technique of clustering that clusters the data set of n objects into k clusters known a priori.
-* It is more robust to noise and outliers as compared to [k-means](https://en.wikipedia.org/wiki/K-means) because it minimizes a sum of pairwise dissimilarities instead of a sum of squared Euclidean distances.
-* A [medoid](https://en.wikipedia.org/wiki/Medoid) can be defined as the object of a cluster whose average dissimilarity to all the objects in the cluster is minimal. i.e. it is a most centrally located point in the cluster.
-* Does Not scale to many samples, its O(K\*n-K)^2
-* Randomized resampling can assure efficiency and quality.
+- k-medoid is a classical partitioning technique of clustering that clusters the data set of n objects into k clusters known a priori.
+- It is more robust to noise and outliers as compared to [k-means](https://en.wikipedia.org/wiki/K-means) because it minimizes a sum of pairwise dissimilarities instead of a sum of squared Euclidean distances.
+- A [medoid](https://en.wikipedia.org/wiki/Medoid) can be defined as the object of a cluster whose average dissimilarity to all the objects in the cluster is minimal. i.e. it is a most centrally located point in the cluster.
+- Does Not scale to many samples, its O(K\*n-K)^2
+- Randomized resampling can assure efficiency and quality.
 
 [From youtube (okay video)](https://www.youtube.com/watch?v=OWpRBCrx5-M)
 
@@ -121,12 +120,12 @@ You may notice the similarity between these two procedures. In fact, k-means is 
 This subsection compares k-means++ with kernel k-means and elbow heuristics.
 
 1. [A comparison of kmeans++ vs kernel kmeans](https://sandipanweb.wordpress.com/2016/08/29/kernel-k-means-and-cluster-evaluation/)
-2. Kernel Kmeans is part of TSLearn 
+2. Kernel Kmeans is part of TSLearn
 3. Elbow method,
 4. [elbow and mean silhouette](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/#elbow-method),
 5. elbow on medium using mean distance per cluster from the center
 6. [Kneed a library to find the knee in a curve](https://github.com/arvkevi/kneed)
- 1. [how to?](https://stackoverflow.com/questions/47623915/how-to-detect-in-real-time-a-knee-elbow-maximal-curvature-in-a-curve)
+   1. [how to?](https://stackoverflow.com/questions/47623915/how-to-detect-in-real-time-a-knee-elbow-maximal-curvature-in-a-curve)
 
 ### KNN
 
@@ -148,10 +147,10 @@ This subsection collects DBSCAN tutorials, GPS use, and optimized implementation
 5. [Custom DBSCAN “predict”](https://stackoverflow.com/questions/27822752/scikit-learn-predicting-new-points-with-dbscan)
 6. [Haversine distances for](https://kanoki.org/2019/12/27/how-to-calculate-distance-in-python-and-pandas-using-scipy-spatial-and-distance-functions/) dbscan
 7. Optimized dbscans:
- 1. muDBSCAN, paper - A fast, exact, and scalable algorithm for DBSCAN clustering. This repository contains the implementation for the distributed spatial clustering algorithm proposed in the paper μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality
- 2. [Dbscan multiplex](https://github.com/GGiecold/DBSCAN_multiplex) - A fast and memory-efficient implementation of DBSCAN (Density-Based Spatial Clustering of Applications with Noise).
- 3. [Fast dbscan](https://github.com/harmslab/fast_dbscan) - A lightweight, fast dbscan implementation for use on peptide strings. It uses pure C for the distance calculations and clustering. This code is then wrapped in python.
- 4. [Faster dbscan paper](https://arxiv.org/pdf/1702.08607.pdf)
+   1. muDBSCAN, paper - A fast, exact, and scalable algorithm for DBSCAN clustering. This repository contains the implementation for the distributed spatial clustering algorithm proposed in the paper μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality
+   2. [Dbscan multiplex](https://github.com/GGiecold/DBSCAN_multiplex) - A fast and memory-efficient implementation of DBSCAN (Density-Based Spatial Clustering of Applications with Noise).
+   3. [Fast dbscan](https://github.com/harmslab/fast_dbscan) - A lightweight, fast dbscan implementation for use on peptide strings. It uses pure C for the distance calculations and clustering. This code is then wrapped in python.
+   4. [Faster dbscan paper](https://arxiv.org/pdf/1702.08607.pdf)
 
 ### ST-DBSCAN
 
@@ -167,9 +166,9 @@ This subsection explains hierarchical DBSCAN and its documentation.
 
 (what is?) HDBSCAN is a clustering algorithm developed by [Campello, Moulavi, and Sander](http://link.springer.com/chapter/10.1007%2F978-3-642-37456-2_14). It extends DBSCAN by converting it into a hierarchical clustering algorithm, and then using a technique to extract a flat clustering based in the stability of clusters.
 
-* [Github code](https://github.com/scikit-learn-contrib/hdbscan)
-* (great) [Documentation](http://hdbscan.readthedocs.io/en/latest/basic_hdbscan.html) with examples, for clustering, outlier detection, comparison, benchmarking and analysis!
-* ([jupytr example](http://nbviewer.jupyter.org/github/scikit-learn-contrib/hdbscan/blob/master/notebooks/How%20HDBSCAN%20Works.ipynb)) - take a look and see how to use it, usage examples are also in the docs and github
+- [Github code](https://github.com/scikit-learn-contrib/hdbscan)
+- (great) [Documentation](http://hdbscan.readthedocs.io/en/latest/basic_hdbscan.html) with examples, for clustering, outlier detection, comparison, benchmarking and analysis!
+- ([jupytr example](http://nbviewer.jupyter.org/github/scikit-learn-contrib/hdbscan/blob/master/notebooks/How%20HDBSCAN%20Works.ipynb)) - take a look and see how to use it, usage examples are also in the docs and github
 
 What are the algorithm’s [steps](http://nbviewer.jupyter.org/github/scikit-learn-contrib/hdbscan/blob/master/notebooks/How%20HDBSCAN%20Works.ipynb):
 
@@ -185,10 +184,10 @@ This subsection defines the OPTICS density-based ordering algorithm.
 
 ([What is?](https://en.wikipedia.org/wiki/OPTICS_algorithm)) Ordering points to identify the clustering structure (OPTICS) is an algorithm for finding density-based[\[1\]](https://en.wikipedia.org/wiki/OPTICS_algorithm#cite_note-1) [clusters](https://en.wikipedia.org/wiki/Cluster_analysis) in spatial data
 
-* Its basic idea is similar to [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN),[\[3\]](https://en.wikipedia.org/wiki/OPTICS_algorithm#cite_note-3)
-* it addresses one of DBSCAN's major weaknesses: the problem of detecting meaningful clusters in data of varying density.
-* (How?) the points of the database are (linearly) ordered such that points which are spatially closest become neighbors in the ordering.
-* a special distance is stored for each point that represents the density that needs to be accepted for a cluster in order to have both points belong to the same cluster. (This is represented as a [dendrogram](https://en.wikipedia.org/wiki/Dendrogram).)
+- Its basic idea is similar to [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN),[\[3\]](https://en.wikipedia.org/wiki/OPTICS_algorithm#cite_note-3)
+- it addresses one of DBSCAN's major weaknesses: the problem of detecting meaningful clusters in data of varying density.
+- (How?) the points of the database are (linearly) ordered such that points which are spatially closest become neighbors in the ordering.
+- a special distance is stored for each point that represents the density that needs to be accepted for a cluster in order to have both points belong to the same cluster. (This is represented as a [dendrogram](https://en.wikipedia.org/wiki/Dendrogram).)
 
 ### SVM CLUSTERING
 

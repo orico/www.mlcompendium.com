@@ -29,17 +29,15 @@ This section covers LSA, pLSA, LDA, and lda2vec overviews.
 
 This section is a long reading list on LDA practice, parameters, and evaluation.
 
-* A [great summation](https://cs.stanford.edu/~ppasupat/a9online/1140.html) about topic modeling, Pros and Cons! (LSA, pLSA, LDA)
+- A [great summation](https://cs.stanford.edu/~ppasupat/a9online/1140.html) about topic modeling, Pros and Cons! (LSA, pLSA, LDA)
 
-1. (LDA) Latent Dirichlet Allocation 
+1. (LDA) Latent Dirichlet Allocation
 2. LDA is already taken by the above algorithm!
-3. [Latent Dirichlet allocation (LDA) -](https://algorithmia.com/algorithms/nlp/LDA) This algorithm takes a group of documents (anything that is made of up text), and returns a number of topics (which are made up of a number of words) most relevant to these documents.  
+3. [Latent Dirichlet allocation (LDA) -](https://algorithmia.com/algorithms/nlp/LDA) This algorithm takes a group of documents (anything that is made of up text), and returns a number of topics (which are made up of a number of words) most relevant to these documents.
 4. [Medium Article about LDA and](https://medium.com/ml2vec/topic-modeling-is-an-unsupervised-learning-approach-to-clustering-documents-to-discover-topics-fdfbf30e27df) NMF (Non-negative Matrix factorization)+ code
 5. [Medium article on LDA - a good one with pseudo algorithm and proof](https://medium.com/@jonathan_hui/machine-learning-latent-dirichlet-allocation-lda-1d9d148f13a4)
-
 6. In case LDA groups together two topics, we can influence the algorithm in a way that makes those two topics separable - [this is called Semi Supervised Guided LDA](https://medium.freecodecamp.org/how-we-changed-unsupervised-lda-to-semi-supervised-guidedlda-e36a95f3a164)
-
-7. [LDA tutorials plus code](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/), used this to build my own classes - using gensim mallet wrapper, doesn't work on pyLDAviz, so use [this](http://jeriwieringa.com/2018/07/17/pyLDAviz-and-Mallet/#comment-4018495276) to fix it 
+7. [LDA tutorials plus code](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/), used this to build my own classes - using gensim mallet wrapper, doesn't work on pyLDAviz, so use [this](http://jeriwieringa.com/2018/07/17/pyLDAviz-and-Mallet/#comment-4018495276) to fix it
 8. [Introduction to LDA topic modelling, really good,](http://www.vladsandulescu.com/topic-prediction-lda-user-reviews/) [plus git code](https://github.com/vladsandulescu/topics)
 9. [Sklearn examples using LDA and NMF](http://scikit-learn.org/stable/auto_examples/applications/plot_topics_extraction_with_nmf_lda.html#sphx-glr-auto-examples-applications-plot-topics-extraction-with-nmf-lda-py)
 10. [Tutorial on lda/nmf on medium](https://medium.com/mlreview/topic-modeling-with-scikit-learn-e80d33668730) - using tfidf matrix as input!
@@ -88,10 +86,10 @@ This section is a long reading list on LDA practice, parameters, and evaluation.
 30. [Jupyter notebook](http://nbviewer.jupyter.org/github/dolaameng/tutorials/blob/master/topic-finding-for-short-texts/topics_for_short_texts.ipynb) for kmeans, lda, svd,nmf comparison - advice is to keep nmf or other as a baseline to measure against LDA.
 31. [Gensim on LDA](https://rare-technologies.com/what-is-topic-coherence/) with [code ](https://nbviewer.jupyter.org/github/dsquareindia/gensim/blob/280375fe14adea67ce6384ba7eabf362b05e6029/docs/notebooks/topic_coherence_tutorial.ipynb)
 32. [Medium on lda with sklearn](https://medium.com/mlreview/topic-modeling-with-scikit-learn-e80d33668730)
-33. Selecting the number of topics in LDA, blog 1, [blog2](http://www.rpubs.com/MNidhi/NumberoftopicsLDA), [using preplexity](https://stackoverflow.com/questions/21355156/topic-models-cross-validation-with-loglikelihood-or-perplexity), [prep and aic bic](https://stats.stackexchange.com/questions/322809/inferring-the-number-of-topics-for-gensims-lda-perplexity-cm-aic-and-bic), [coherence](https://stackoverflow.com/questions/17421887/how-to-determine-the-number-of-topics-for-lda), [coherence2](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/#17howtofindtheoptimalnumberoftopicsforlda), [coherence 3 with tutorial](https://datascienceplus.com/evaluation-of-topic-modeling-topic-coherence/), un[clear](https://community.rapidminer.com/discussion/51283/what-is-the-best-number-of-topics-on-lda), [unclear with analysis of stopword % inclusion](https://markhneedham.com/blog/2015/03/24/topic-modelling-working-out-the-optimal-number-of-topics/), [selecting number of topics](https://www.quora.com/What-are-the-best-ways-of-selecting-number-of-topics-in-LDA): This Quora thread discusses practical ways to choose the number of LDA topics, including perplexity, coherence, heuristics, and when a simpler topic count is preferred even if a coherence peak is higher., [paper: heuristic approach](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4597325/), elbow method, [using cv](http://freerangestats.info/blog/2017/01/05/topic-model-cv), [Paper: new stability metric](https://github.com/derekgreene/topic-stability) + gh code, 
+33. Selecting the number of topics in LDA, blog 1, [blog2](http://www.rpubs.com/MNidhi/NumberoftopicsLDA), [using preplexity](https://stackoverflow.com/questions/21355156/topic-models-cross-validation-with-loglikelihood-or-perplexity), [prep and aic bic](https://stats.stackexchange.com/questions/322809/inferring-the-number-of-topics-for-gensims-lda-perplexity-cm-aic-and-bic), [coherence](https://stackoverflow.com/questions/17421887/how-to-determine-the-number-of-topics-for-lda), [coherence2](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/#17howtofindtheoptimalnumberoftopicsforlda), [coherence 3 with tutorial](https://datascienceplus.com/evaluation-of-topic-modeling-topic-coherence/), un[clear](https://community.rapidminer.com/discussion/51283/what-is-the-best-number-of-topics-on-lda), [unclear with analysis of stopword % inclusion](https://markhneedham.com/blog/2015/03/24/topic-modelling-working-out-the-optimal-number-of-topics/), [selecting number of topics](https://www.quora.com/What-are-the-best-ways-of-selecting-number-of-topics-in-LDA): This Quora thread discusses practical ways to choose the number of LDA topics, including perplexity, coherence, heuristics, and when a simpler topic count is preferred even if a coherence peak is higher., [paper: heuristic approach](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4597325/), elbow method, [using cv](http://freerangestats.info/blog/2017/01/05/topic-model-cv), [Paper: new stability metric](https://github.com/derekgreene/topic-stability) + gh code,
 34. [Selecting the top K words in LDA](https://stats.stackexchange.com/questions/199263/choosing-words-in-a-topic-which-cut-off-for-lda-topics)
 35. Presentation: best practices for LDA
-36. [Medium on guidedLDA](https://medium.freecodecamp.org/how-we-changed-unsupervised-lda-to-semi-supervised-guidedlda-e36a95f3a164) - switching from LDA to a variation of it that is guided by the researcher / data 
+36. [Medium on guidedLDA](https://medium.freecodecamp.org/how-we-changed-unsupervised-lda-to-semi-supervised-guidedlda-e36a95f3a164) - switching from LDA to a variation of it that is guided by the researcher / data
 37. Medium on lda - [another introductory](https://medium.com/data-science/thats-mental-using-lda-topic-modeling-to-investigate-the-discourse-on-mental-health-over-time-11da252259c3), [la times](https://medium.com/swiftworld/topic-modeling-of-new-york-times-articles-11688837d32f)
 38. [Topic modelling through time](https://tedunderwood.com/category/methodology/topic-modeling/)
 39. [Mallet vs nltk](https://stackoverflow.com/questions/7476180/topic-modelling-in-mallet-vs-nltk), [params](https://github.com/RaRe-Technologies/gensim/issues/193), [params](https://groups.google.com/forum/#!topic/gensim/tOoc1Q0Ump0)
@@ -99,7 +97,7 @@ This section is a long reading list on LDA practice, parameters, and evaluation.
 41. [Lda vs w2v (doesn't make sense to compare](https://stats.stackexchange.com/questions/145485/lda-vs-word2vec/145488), [again here](https://stats.stackexchange.com/questions/145485/lda-vs-word2vec)
 42. [Adding lda features to w2v for classification](https://stackoverflow.com/questions/48140319/add-lda-topic-modelling-features-to-word2vec-sentiment-classification)
 43. [Spacy and gensim on 20 news groups](https://www.shanelynn.ie/word-embeddings-in-python-with-spacy-and-gensim/)
-44. The best topic modelling explanation including [Usages](https://nlpforhackers.io/topic-modeling/), insights,  a great read, with code  - shows how to find similar docs by topic in gensim, and shows how to transform unseen documents and do similarity using sklearn: 
+44. The best topic modelling explanation including [Usages](https://nlpforhackers.io/topic-modeling/), insights,  a great read, with code  - shows how to find similar docs by topic in gensim, and shows how to transform unseen documents and do similarity using sklearn:
     1. Text classification – Topic modeling can improve classification by grouping similar words together in topics rather than using each word as a feature
     2. Recommender Systems – Using a similarity measure we can build recommender systems. If our system would recommend articles for readers, it will recommend articles with a topic structure similar to the articles the user has already read.
     3. Uncovering Themes in Texts – Useful for detecting trends in online publications for example
@@ -123,8 +121,8 @@ This section is a long reading list on LDA practice, parameters, and evaluation.
 52. Difference between lda in gensim and sklearn a post on rare
 53. [The best code article on LDA/MALLET](https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/), and using [sklearn](https://www.machinelearningplus.com/nlp/topic-modeling-python-sklearn-examples/) (using clustering for getting group of sentences in each topic)
 54. [LDA in gensim, a tutorial by gensim](https://nbviewer.jupyter.org/github/rare-technologies/gensim/blob/develop/docs/notebooks/atmodel_tutorial.ipynb)
-55.  [Lda on medium](https://medium.com/data-science/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21) 
-56.  [What are the pros and cons of LDA and NMF in topic modeling? Under what situations should we choose LDA or NMF? Is there comparison of two techniques in topic modeling?](https://www.quora.com/What-are-the-pros-and-cons-of-LDA-and-NMF-in-topic-modeling-Under-what-situations-should-we-choose-LDA-or-NMF-Is-there-comparison-of-two-techniques-in-topic-modeling)
+55. [Lda on medium](https://medium.com/data-science/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21)
+56. [What are the pros and cons of LDA and NMF in topic modeling? Under what situations should we choose LDA or NMF? Is there comparison of two techniques in topic modeling?](https://www.quora.com/What-are-the-pros-and-cons-of-LDA-and-NMF-in-topic-modeling-Under-what-situations-should-we-choose-LDA-or-NMF-Is-there-comparison-of-two-techniques-in-topic-modeling)
 57. [What is the difference between NMF and LDA? Why are the priors of LDA sparse-induced?](https://www.quora.com/What-is-the-difference-between-NMF-and-LDA-Why-are-the-priors-of-LDA-sparse-induced)
 58. [Exploring Topic Coherence over many models and many topics](http://aclweb.org/anthology/D/D12/D12-1087.pdf) lda nmf svd, using umass and uci coherence measures
 59. \*\*\* [Practical topic findings for short sentence text](http://nbviewer.jupyter.org/github/dolaameng/tutorials/blob/master/topic-finding-for-short-texts/topics_for_short_texts.ipynb) code
@@ -139,7 +137,7 @@ This section is a long reading list on LDA practice, parameters, and evaluation.
 68. [Topic modelling dynamic presentation](http://chdoig.github.io/pygotham-topic-modeling/#/)
 69. Paper: [Topic modelling and event identification from twitter data](https://arxiv.org/abs/1608.02519), says LDA vs NMI (NMF?) and using coherence to analyze
 70. [Just another medium article about ™](https://medium.com/square-corner-blog/topic-modeling-optimizing-for-human-interpretability-48a81f6ce0ed)
-71. [What is Wrong with Topic Modeling? (and How to Fix it Using Search-based SE)](https://www.researchgate.net/publication/307303102_What_is_Wrong_with_Topic_Modeling_and_How_to_Fix_it_Using_Search-based_SE) LDADE's tunings dramatically reduces topic instability. 
+71. [What is Wrong with Topic Modeling? (and How to Fix it Using Search-based SE)](https://www.researchgate.net/publication/307303102_What_is_Wrong_with_Topic_Modeling_and_How_to_Fix_it_Using_Search-based_SE) LDADE's tunings dramatically reduces topic instability.
 72. [Talk about topic modelling](https://tedunderwood.com/category/methodology/topic-modeling/)
 73. [Intro to topic modelling](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/)
 74. [Detecting topics in twitter](https://github.com/heerme/twitter-topics) github code
@@ -172,21 +170,21 @@ This section explains how to read pyLDAvis topic plots.
    3. When you select a topic, you can see the most representative words for the selected topic. This measure can be a combination of how frequent or how discriminant the word is. You can adjust the weight of each property using the slider.
    4. Hovering over a word will adjust the topic sizes according to how representative the word is for the topic.
    5. \*\*\*\*[pyLDAviz paper\*\*\*!](https://cran.r-project.org/web/packages/LDAvis/vignettes/details.pdf)
-   6.  [pyLDAviz - what am i looking at ?](https://github.com/explosion/spacy-notebooks/blob/master/notebooks/conference_notebooks/modern_nlp_in_python.ipynb) by spacy. 
+   6. [pyLDAviz - what am i looking at ?](https://github.com/explosion/spacy-notebooks/blob/master/notebooks/conference_notebooks/modern_nlp_in_python.ipynb) by spacy.
 
-       There are a lot of moving parts in the visualization. Here's a brief summary:
+      There are a lot of moving parts in the visualization. Here's a brief summary:
 
-       1. On the left, there is a plot of the "distance" between all of the topics (labeled as the Intertopic Distance Map)
-       2. The plot is rendered in two dimensions according a [multidimensional scaling (MDS)](https://en.wikipedia.org/wiki/Multidimensional_scaling) algorithm. Topics that are generally similar should be appear close together on the plot, while dissimilar topics should appear far apart.
-       3. The relative size of a topic's circle in the plot corresponds to the relative frequency of the topic in the corpus.
-       4. An individual topic may be selected for closer scrutiny by clicking on its circle, or entering its number in the "selected topic" box in the upper-left.
-       5. On the right, there is a bar chart showing top terms.
-       6. When no topic is selected in the plot on the left, the bar chart shows the top-30 most "salient" terms in the corpus. A term's saliency is a measure of both how frequent the term is in the corpus and how "distinctive" it is in distinguishing between different topics.
-       7. When a particular topic is selected, the bar chart changes to show the top-30 most "relevant" terms for the selected topic. The relevance metric is controlled by the parameter $$\lambda$$, which can be adjusted with a slider above the bar chart.
-          1. Setting the $$\lambda$$ parameter close to 1.0 (the default) will rank the terms solely according to their probability within the topic.
-          2. Setting $$\lambda$$ close to 0.0 will rank the terms solely according to their "distinctiveness" or "exclusivity" within the topic — i.e., terms that occur only in this topic, and do not occur in other topics.
-          3. Setting $$\lambda$$ to values between 0.0 and 1.0 will result in an intermediate ranking, weighting term probability and exclusivity accordingly.
-          4. Rolling the mouse over a term in the bar chart on the right will cause the topic circles to resize in the plot on the left, to show the strength of the relationship between the topics and the selected term.
+      1. On the left, there is a plot of the "distance" between all of the topics (labeled as the Intertopic Distance Map)
+      2. The plot is rendered in two dimensions according a [multidimensional scaling (MDS)](https://en.wikipedia.org/wiki/Multidimensional_scaling) algorithm. Topics that are generally similar should be appear close together on the plot, while dissimilar topics should appear far apart.
+      3. The relative size of a topic's circle in the plot corresponds to the relative frequency of the topic in the corpus.
+      4. An individual topic may be selected for closer scrutiny by clicking on its circle, or entering its number in the "selected topic" box in the upper-left.
+      5. On the right, there is a bar chart showing top terms.
+      6. When no topic is selected in the plot on the left, the bar chart shows the top-30 most "salient" terms in the corpus. A term's saliency is a measure of both how frequent the term is in the corpus and how "distinctive" it is in distinguishing between different topics.
+      7. When a particular topic is selected, the bar chart changes to show the top-30 most "relevant" terms for the selected topic. The relevance metric is controlled by the parameter $$\lambda$$, which can be adjusted with a slider above the bar chart.
+         1. Setting the $$\lambda$$ parameter close to 1.0 (the default) will rank the terms solely according to their probability within the topic.
+         2. Setting $$\lambda$$ close to 0.0 will rank the terms solely according to their "distinctiveness" or "exclusivity" within the topic — i.e., terms that occur only in this topic, and do not occur in other topics.
+         3. Setting $$\lambda$$ to values between 0.0 and 1.0 will result in an intermediate ranking, weighting term probability and exclusivity accordingly.
+         4. Rolling the mouse over a term in the bar chart on the right will cause the topic circles to resize in the plot on the left, to show the strength of the relationship between the topics and the selected term.
    7. A more detailed explanation of the pyLDAvis visualization can be found [here](https://cran.r-project.org/web/packages/LDAvis/vignettes/details.pdf). Unfortunately, though the data used by gensim and pyLDAvis are the same, they don't use the same ID numbers for topics. If you need to match up topics in gensim's LdaMulticore object and pyLDAvis' visualization, you have to dig through the terms manually.
    8. Youtube on LDAvis explained
    9. Presentation: [More visualization options including ldavis](https://speakerdeck.com/bmabey/visualizing-topic-models?slide=17)
@@ -204,7 +202,7 @@ This section is about topic coherence metrics such as UMass, UCI, and C_v.
 
 1. [Umass vs C\_v, what are the diff? ](https://groups.google.com/forum/#!topic/gensim/CsscFah0Ax8)
 2. Paper: umass, uci, nmpi, cv, cp etv [Exploring the Space of Topic Coherence Measures](http://svn.aksw.org/papers/2015/WSDM_Topic_Evaluation/public.pdf)
-3. Paper: [Automatic evaluation of topic coherence](https://mimno.infosci.cornell.edu/info6150/readings/N10-1012.pdf) 
+3. Paper: [Automatic evaluation of topic coherence](https://mimno.infosci.cornell.edu/info6150/readings/N10-1012.pdf)
 4. Paper: [exploring the space of topic coherence methods](https://dl.acm.org/citation.cfm?id=2685324)
 5. Paper: [Relation between mutial information / entropy and pmi](https://svn.spraakdata.gu.se/repos/gerlof/pub/www/Docs/npmi-pfd.pdf)
 6. Stackexchange: [coherence / pmi how to calc](https://stats.stackexchange.com/questions/158790/topic-similarity-semantic-pmi-between-two-words-wikipedia)
@@ -239,7 +237,7 @@ Conclusion: The results of the first experiment show that if we are using the on
 12. [Diff term weighting schemas for topic modeling, code plus paper](https://github.com/cipriantruica/TM_TESTS)
 13. [Workaround for pyLDAvis using LDA-Mallet](http://jeriwieringa.com/2018/07/17/pyLDAviz-and-Mallet/#comment-4018495276)
 14. [pyLDAvis paper](http://www.aclweb.org/anthology/W14-3110)
-15. Visualizing LDA topics results 
+15. Visualizing LDA topics results
 16. [Visualizing trends, topics, sentiment, heat maps, entities](https://github.com/Lissy93/twitter-sentiment-visualisation) - really good
 17. Topic stability Metric, a novel method, compared against jaccard, spearman, silhouette.: [Measuring LDA Topic Stability from Clusters of Replicated Runs](https://arxiv.org/pdf/1808.08098.pdf)
 
@@ -255,7 +253,7 @@ This section points at lda2vec hybrids of LDA and word embeddings.
 6. [Original Git](https://github.com/cemoody/lda2vec) + [Excellent notebook example](http://nbviewer.jupyter.org/github/cemoody/lda2vec/blob/master/examples/twenty_newsgroups/lda2vec/lda2vec.ipynb#topic=0&lambda=1&term=)
 7. [Tf implementation](https://github.com/meereeum/lda2vec-tf), [another more recent one tf 1.5](https://github.com/nateraw/Lda2vec-Tensorflow)
 8. [Another blog explaining about lda etc](https://datawarrior.wordpress.com/tag/lda2vec/), [post](https://datawarrior.wordpress.com/2016/02/15/lda2vec-a-hybrid-of-lda-and-word2vec/), [post](https://datawarrior.wordpress.com/2016/04/20/local-and-global-words-and-topics/)
-9. [Lda2vec in tf](https://github.com/meereeum/lda2vec-tf), [tf 1.5](https://github.com/nateraw/Lda2vec-Tensorflow), 
+9. [Lda2vec in tf](https://github.com/meereeum/lda2vec-tf), [tf 1.5](https://github.com/nateraw/Lda2vec-Tensorflow),
 10. [Comparing lda2vec to lda](https://medium.com/scaleabout/a-gentle-introduction-to-doc2vec-db3e8c0cce5e)
 11. Youtube: [lda/doc2vec with pca examples](https://www.youtube.com/watch?v=i3Opb3-QNX4)
 12. [Example on gh](https://github.com/BoPengGit/LDA-Doc2Vec-example-with-PCA-LDAvis-visualization/blob/master/Doc2Vec/Doc2Vec2.py) on jupyter**
@@ -293,6 +291,5 @@ These links and images no longer work. The original wording is kept here. A same
 - on medium This address no longer opens: https://towardsdatascience.com/topic-modeling-with-bert-779f7db187e6
 - bertTopic This address no longer opens: https://towardsdatascience.com/interactive-topic-modeling-with-bertopic-1ea55e7d73d8
 - new way of modeling topics This address no longer opens: https://towardsdatascience.com/top2vec-new-way-of-topic-modelling-bea165eeac4a
-
 - Difference between lda in gensim and sklearn a post on rare. This address no longer opens: https://github.com/RaRe-Technologies/gensim/issues/457
 - in twitter aggregation by conversatoin. This address no longer opens: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/download/13162/12778

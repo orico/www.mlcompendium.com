@@ -63,20 +63,20 @@ This section records how VADER raters were screened and how multilingual tweet a
 
 [Multilingual Twitter Sentiment Classification: The Role of Human Annotators](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155036)
 
-* 1.6 million tweets labelled
-* 13 languages
-* Evaluated 6 pretrained classification models
-* 10 CFV
-* SVM / NB
-* Annotator agreements.
-  * about 15% were intentionally duplicated to be annotated twice,
-  * by the same annotator
-  * by two different annotators
-* Self-agreement from multiple annotations of the same annotator
-* Inter-agreement from multiple annotations by different annotators
-* The confidence intervals for the agreements are estimated by bootstrapping [[12](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155036#pone.0155036.ref012)].
-* It turns out that the self-agreement is a good measure to identify low quality annotators,
-* the inter-annotator agreement provides a good estimate of the objective difficulty of the task, unless it is too low.
+- 1.6 million tweets labelled
+- 13 languages
+- Evaluated 6 pretrained classification models
+- 10 CFV
+- SVM / NB
+- Annotator agreements.
+   - about 15% were intentionally duplicated to be annotated twice,
+   - by the same annotator
+   - by two different annotators
+- Self-agreement from multiple annotations of the same annotator
+- Inter-agreement from multiple annotations by different annotators
+- The confidence intervals for the agreements are estimated by bootstrapping [[12](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155036#pone.0155036.ref012)].
+- It turns out that the self-agreement is a good measure to identify low quality annotators,
+- the inter-annotator agreement provides a good estimate of the objective difficulty of the task, unless it is too low.
 
 Alpha was developed to measure the agreement between human annotators, but can also be used to measure the agreement between classification models and a gold standard. It generalizes several specialized agreement measures, takes ordering of classes into account, and accounts for the agreement by chance. Alpha is defined as follows:
 

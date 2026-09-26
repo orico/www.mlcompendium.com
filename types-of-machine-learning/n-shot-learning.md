@@ -28,8 +28,8 @@ Multiple category vectors? Multilabel zero-shot also in the video
 
 GPT-3 style prompting treats zero-, one-, and few-shot use as how many examples you put in the prompt.
 
-1. [Prompt Engineering Tips & Tricks](https://blog.andrewcantino.com/blog/2021/04/21/prompt-engineering-tips-and-tricks/)
-2. [Open GPT3 prompt engineering](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29)
+- [Prompt Engineering Tips & Tricks](https://blog.andrewcantino.com/blog/2021/04/21/prompt-engineering-tips-and-tricks/)
+- [Open GPT3 prompt engineering](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29)
 
 ## Deprecated links
 

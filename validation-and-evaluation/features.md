@@ -16,7 +16,6 @@ This subsection contrasts correlation and covariance scales.
 1. **Correlation is between -1 to 1, covariance is -inf to inf, units in covariance affect the scale, so correlation is preferred, it is normalized.**
    **Correlation is a measure of association. Correlation is used for bivariate analysis. It is a measure of how well the two variables are related.**
    **Covariance is also a measure of association. Covariance is a measure of the relationship between two random variables.**
-2.
 
 #### **CORRELATION BETWEEN FEATURE TYPES**
 
@@ -26,11 +25,11 @@ This subsection covers associations across categorical and numeric features.
 2. [**A great article in medium**](https://medium.com/@outside2SDs/an-overview-of-correlation-measures-between-categorical-and-continuous-variables-4c7f85610365)**, covering just about everything with great detail and explaining all the methods plus references.**
 3. **Heat maps for categorical vs target - groupby count per class, normalize by total count to see if you get more grouping in a certain combination of cat/target than others.**
 4. [**Anova**](https://www.researchgate.net/post/Which_test_do_I_use_to_estimate_the_correlation_between_an_independent_categorical_variable_and_a_dependent_continuous_variable)**/**[**log regression**](https://www.statalist.org/forums/forum/general-stata-discussion/general/1470627-correlation-between-continous-and-categorical-variable) [**2\*,**](https://dzone.com/articles/correlation-between-categorical-and-continuous-var-1) [**git**](https://github.com/ShitalKat/Correlation/blob/master/Correlation%20between%20categorical%20and%20continuous%20variables.ipynb)**,** **3**, for numeric/**[**cont vs categorical**](https://www.quora.com/How-can-I-measure-the-correlation-between-continuous-and-categorical-variables) **- high F score from anova hints about association between a feature and a target, i.e.,  the importance of the feature to separating the target.**
-5.  **Anova youtube** [**1**](https://www.youtube.com/watch?v=ITf4vHhyGpc)**,** [**2**](https://www.youtube.com/watch?v=-yQb_ZJnFXw)
+5. **Anova youtube** [**1**](https://www.youtube.com/watch?v=ITf4vHhyGpc)**,** [**2**](https://www.youtube.com/watch?v=-yQb_ZJnFXw)
 
-<figure><img src="../.gitbook/assets/gimg-a5fd74139a1a.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh6.googleusercontent.com/3yJV2mUiy1_z0a7yd2PN4FiJzJukUspYtZDvVHusaWxiNKQWGrV--KQB9-Hytgc3dwLirzIlP_e8tVbTVWGV5Xx-t_zrogDU1t7HbPZXvYq4UuqCtM_cuTDoS0sJC1J92XStN-Mq">copied from the original hosted image</a>.</p></figcaption></figure>
+   <figure><img src="../.gitbook/assets/gimg-a5fd74139a1a.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh6.googleusercontent.com/3yJV2mUiy1_z0a7yd2PN4FiJzJukUspYtZDvVHusaWxiNKQWGrV--KQB9-Hytgc3dwLirzIlP_e8tVbTVWGV5Xx-t_zrogDU1t7HbPZXvYq4UuqCtM_cuTDoS0sJC1J92XStN-Mq">copied from the original hosted image</a>.</p></figcaption></figure>
 
-    **image by multiple possible sources,** [**rayhanul islam**](https://www.quora.com/How-can-I-measure-the-correlation-between-continuous-and-categorical-variables)**,** [**statistics for fun**](https://www.facebook.com/statneil/photos/a.787373884990868/839856346409288/?type=3)**.**
+   **image by multiple possible sources,** [**rayhanul islam**](https://www.quora.com/How-can-I-measure-the-correlation-between-continuous-and-categorical-variables)**,** [**statistics for fun**](https://www.facebook.com/statneil/photos/a.787373884990868/839856346409288/?type=3)**.**
 6. **Cat vs cat**, many metrics - on medium
 
 #### **CORRELATION VISUALIZATION**
@@ -139,32 +138,31 @@ This section lists feature selection tutorials and libraries.
 11. [**Stability selection and recursive feature elimination (RFE).**](http://blog.datadive.net/selecting-good-features-part-iv-stability-selection-rfe-and-everything-side-by-side/) **are wrapper methods in sklearn for the purpose of feature selection.** [**RFE in sklearn**](http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
 12. [**Kernel feature selection via conditional covariance minimization**](http://bair.berkeley.edu/blog/2018/01/23/kernels/) **(netanel d.)**
 13. [**Github class that does the following**](https://medium.com/data-science/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0)**:**
-    1. **Features with a high percentage of missing values**
-    2. **Collinear (highly correlated) features**
-    3. **Features with zero importance in a tree-based model**
-    4. **Features with low importance**
-    5. **Features with a single unique value**
+    - **Features with a high percentage of missing values**
+    - **Collinear (highly correlated) features**
+    - **Features with zero importance in a tree-based model**
+    - **Features with low importance**
+    - **Features with a single unique value**
 14. [**Machinelearning mastery on FS**](https://machinelearningmastery.com/feature-selection-machine-learning-python/)**:**
-    1. **Univariate Selection.**
-    2. **Recursive Feature Elimination.**
-    3. **Principle Component Analysis.**
-    4. **Feature Importance.**
+    - **Univariate Selection.**
+    - **Recursive Feature Elimination.**
+    - **Principle Component Analysis.**
+    - **Feature Importance.**
 15. [**Sklearn tutorial on FS:**](http://scikit-learn.org/stable/modules/feature_selection.html)
-    1. **Low variance**
-    2. **Univariate kbest**
-    3. **RFE**
-    4. **selectFromModel using \_coef \_important\_features**
-    5. **Linear models with L1 (svm recommended L2)**
-    6. **Tree based importance**
+    - **Low variance**
+    - **Univariate kbest**
+    - **RFE**
+    - **selectFromModel using \_coef \_important\_features**
+    - **Linear models with L1 (svm recommended L2)**
+    - **Tree based importance**
 16. [**A complete overview of many methods**](https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/)
-    1. **(reduction) LDA: Linear discriminant analysis is used to find a linear combination of features that characterizes or separates two or more classes (or levels) of a categorical variable.**
-    2. **(selection) ANOVA: ANOVA stands for Analysis of variance. It is similar to LDA except for the fact that it is operated using one or more categorical independent features and one continuous dependent feature. It provides a statistical test of whether the means of several groups are equal or not.**
-    3. **(Selection) Chi-Square: It is a is a statistical test applied to the groups of categorical features to evaluate the likelihood of correlation or association between them using their frequency distribution.**
-    4. **Wrapper methods:**
-       1. **Forward Selection: Forward selection is an iterative method in which we start with having no feature in the model. In each iteration, we keep adding the feature which best improves our model till an addition of a new variable does not improve the performance of the model.**
-       2. **Backward Elimination: In backward elimination, we start with all the features and removes the least significant feature at each iteration which improves the performance of the model. We repeat this until no improvement is observed on removal of features.**
-       3. **Recursive Feature elimination: It is a greedy optimization algorithm which aims to find the best performing feature subset. It repeatedly creates models and keeps aside the best or the worst performing feature at each iteration. It constructs the next model with the left features until all the features are exhausted. It then ranks the features based on the order of their elimination.**
-    5.
+    - **(reduction) LDA: Linear discriminant analysis is used to find a linear combination of features that characterizes or separates two or more classes (or levels) of a categorical variable.**
+    - **(selection) ANOVA: ANOVA stands for Analysis of variance. It is similar to LDA except for the fact that it is operated using one or more categorical independent features and one continuous dependent feature. It provides a statistical test of whether the means of several groups are equal or not.**
+    - **(Selection) Chi-Square: It is a is a statistical test applied to the groups of categorical features to evaluate the likelihood of correlation or association between them using their frequency distribution.**
+    - **Wrapper methods:**
+       - **Forward Selection: Forward selection is an iterative method in which we start with having no feature in the model. In each iteration, we keep adding the feature which best improves our model till an addition of a new variable does not improve the performance of the model.**
+       - **Backward Elimination: In backward elimination, we start with all the features and removes the least significant feature at each iteration which improves the performance of the model. We repeat this until no improvement is observed on removal of features.**
+       - **Recursive Feature elimination: It is a greedy optimization algorithm which aims to find the best performing feature subset. It repeatedly creates models and keeps aside the best or the worst performing feature at each iteration. It constructs the next model with the left features until all the features are exhausted. It then ranks the features based on the order of their elimination.**
 17. [**Relief**](https://medium.com/@yashdagli98/feature-selection-using-relief-algorithms-with-python-example-3c2006e18f83) **-** [**GIT**](https://github.com/GrantRVD/ReliefF) [**git2**](https://pypi.org/project/ReliefF/#description) **a new family of feature selection trying to optimize the distance of two samples from the selected one, one which should be closer the other farther.**
 
 **“The weight updation of attributes works on a simple idea (line 6). That if instance Rᵢ and H have different value (i.e the diff value is large), that means that attribute separates two instance with the same class which is not desirable, thus we reduce the attributes weight. On the other hand, if the instance Rᵢ and M have different value, that means the attribute separates the two instance with different class, which is desirable.”**
@@ -211,9 +209,9 @@ This section notes TF-IDF vectorizer options and retrieval links.
 This section covers vector and text similarity measures.
 
 1. [**Cosine similarity tutorial**](http://blog.christianperone.com/2013/09/machine-learning-cosine-similarity-for-vector-space-models-part-iii/)
-   1. [**Cosine vs dot product**](https://datascience.stackexchange.com/questions/744/cosine-similarity-versus-dot-product-as-distance-metrics)
-   2. [**Cosine vs dot product 2**](https://blog.christianperone.com/2013/09/machine-learning-cosine-similarity-for-vector-space-models-part-iii/)
-   3. [**Fast cosine similarity**](https://stackoverflow.com/questions/51425300/python-fast-cosine-distance-with-cython) **implementation**
+   - [**Cosine vs dot product**](https://datascience.stackexchange.com/questions/744/cosine-similarity-versus-dot-product-as-distance-metrics)
+   - [**Cosine vs dot product 2**](https://blog.christianperone.com/2013/09/machine-learning-cosine-similarity-for-vector-space-models-part-iii/)
+   - [**Fast cosine similarity**](https://stackoverflow.com/questions/51425300/python-fast-cosine-distance-with-cython) **implementation**
 2. **Edit distance similarity**
 3. [**Diff lib similarity and soundex**](https://datascience.stackexchange.com/questions/12575/similarity-between-two-words)
 4. [**Soft cosine and cosine**](https://www.machinelearningplus.com/nlp/gensim-tutorial/)
@@ -282,11 +280,10 @@ This section describes feature store products and articles.
 <figure><img src="../.gitbook/assets/gimg-dd2ce0c86341.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh3.googleusercontent.com/-Syb5MJEHTEHc12GTKNQN8bWnt83zFs_isY_CFMISCYQJPLnvt-XdV3B_ycaRziMns-z0crVA01PpZUHI3Hgw251xhnIh_LB88cQKMb9_MNUzmN68cxvBZ6lsEw8FGxzMDX-_9xo">copied from the original hosted image</a>.</p></figcaption></figure>
 
 1. [**Tecton.ai**](https://www.tecton.ai/) **(managed feature store)**\
-<figure><img src="../.gitbook/assets/gimg-2ef7cc3daf21.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh3.googleusercontent.com/3NQTUG2PVOIJZbNBYNj-BxZv5A4POEf1KJ20f4nhet_gaxj4cAJXjXwld9ZG-RoEWnRe-DWfS_qe1PrSojfXcTtlJZYy4w6_njyBi9qgsnDr7jnnfqMDMG-8Ea31qWGn5toG4HwI">copied from the original hosted image</a>.</p></figcaption></figure>
+   <figure><img src="../.gitbook/assets/gimg-2ef7cc3daf21.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh3.googleusercontent.com/3NQTUG2PVOIJZbNBYNj-BxZv5A4POEf1KJ20f4nhet_gaxj4cAJXjXwld9ZG-RoEWnRe-DWfS_qe1PrSojfXcTtlJZYy4w6_njyBi9qgsnDr7jnnfqMDMG-8Ea31qWGn5toG4HwI">copied from the original hosted image</a>.</p></figcaption></figure>
 2. [**Iguazio feature store**](https://www.iguazio.com/feature-store/)\
    \
-<figure><img src="../.gitbook/assets/gimg-3d5cd4bcc8e9.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh3.googleusercontent.com/RWd1x9OSefMVbp_X6JYdfIy_Kz9hM_x7Wtg0mvm3mWUt_hvvi6gWATMcMDDUJrv1jGYhXUlVtBnlI4oCPm0nXkDWxMrzUpD1gLUefWv0fczK3XGRCQqqN6iDQ5yc2-4MbT7U304r">copied from the original hosted image</a>.</p></figcaption></figure>
-3.
+   <figure><img src="../.gitbook/assets/gimg-3d5cd4bcc8e9.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh3.googleusercontent.com/RWd1x9OSefMVbp_X6JYdfIy_Kz9hM_x7Wtg0mvm3mWUt_hvvi6gWATMcMDDUJrv1jGYhXUlVtBnlI4oCPm0nXkDWxMrzUpD1gLUefWv0fczK3XGRCQqqN6iDQ5yc2-4MbT7U304r">copied from the original hosted image</a>.</p></figcaption></figure>
 
 ## Deprecated links
 

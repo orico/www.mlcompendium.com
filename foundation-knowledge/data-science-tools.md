@@ -29,27 +29,27 @@ This subsection points at Real Python asyncio intros.
 
 This subsection points at clean-code-in-Python notes.
 
-* [Clean code in python git](https://github.com/zedr/clean-code-python)
-* [About the book](https://medium.com/@m_mcclarty/tech-book-talk-clean-code-in-python-aa2c92c6564f)
+- [Clean code in python git](https://github.com/zedr/clean-code-python)
+- [About the book](https://medium.com/@m_mcclarty/tech-book-talk-clean-code-in-python-aa2c92c6564f)
 
 ### Virtual Environments
 
 This subsection compares venv, pyenv, pipenv, and Jupyter kernels.
 
-* [stack overflow on pyenv / venv / etc](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
-* [Guide to pyenv & pyenv virtualenv](https://medium.com/swlh/a-guide-to-python-virtual-environments-8af34aa106ac)
-* [Managing virtual env with pyenv](https://medium.com/data-science/managing-virtual-environment-with-pyenv-ae6f3fb835f8)
-* Just use venv
-* [Summary on all the *envs](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
-* [A really good primer on virtual environments](https://realpython.com/python-virtual-environments-a-primer/)
-* [Introduction to venv](http://cewing.github.io/training.python_web/html/presentations/venv_intro.html) complementary to the above
-* [Pipenv](https://pipenv.readthedocs.io/en/latest/)
-* [A great intro to pipenv](https://realpython.com/pipenv-guide/)
-* [A complementary to pipenv above](https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv)
-* [Comparison between all *env](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
-* pyenv, virtualenv and using them with Jupyter - a make sense tutorial and instructions on how to use all.
-* Create isolated Jupyter ipython kernels with pyenv and virtualenv by alfredo motta
-* [Jupyter Notebook in a virtual env](https://medium.com/data-science/jupyter-notebooks-i-getting-started-with-jupyter-notebooks-f529449797d2) by Christine Egan
+- [stack overflow on pyenv / venv / etc](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+- [Guide to pyenv & pyenv virtualenv](https://medium.com/swlh/a-guide-to-python-virtual-environments-8af34aa106ac)
+- [Managing virtual env with pyenv](https://medium.com/data-science/managing-virtual-environment-with-pyenv-ae6f3fb835f8)
+- Just use venv
+- [Summary on all the *envs](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+- [A really good primer on virtual environments](https://realpython.com/python-virtual-environments-a-primer/)
+- [Introduction to venv](http://cewing.github.io/training.python_web/html/presentations/venv_intro.html) complementary to the above
+- [Pipenv](https://pipenv.readthedocs.io/en/latest/)
+- [A great intro to pipenv](https://realpython.com/pipenv-guide/)
+- [A complementary to pipenv above](https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv)
+- [Comparison between all *env](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+- pyenv, virtualenv and using them with Jupyter - a make sense tutorial and instructions on how to use all.
+- Create isolated Jupyter ipython kernels with pyenv and virtualenv by alfredo motta
+- [Jupyter Notebook in a virtual env](https://medium.com/data-science/jupyter-notebooks-i-getting-started-with-jupyter-notebooks-f529449797d2) by Christine Egan
 
 #### PYENV
 
@@ -65,24 +65,24 @@ This part is pyenv install and usage notes.
 
 This section is Jupyter, Colab, profiling, and notebook-as-module tooling.
 
-* [Cloud GPUS cheap](https://www.paperspace.com/gradient)
-* [Importing a notebook as a module](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Importing%20Notebooks.html)
-* Important [colaboratory commands for jupytr](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)
-* Timing and profiling in Jupyter
-* ([Debugging in Jupyter, how?)](https://kawahara.ca/how-to-debug-a-jupyter-ipython-notebook/) - put a one liner before the code and query the variables inside a function.
-* [28 tips n tricks for jupyter](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
-* Jupyter notebooks as a module
-  1. [Nbdev](https://github.com/fastai/nbdev), on [fast.ai](https://nbdev.fast.ai/)
-  2. [jupytext](https://github.com/mwouts/jupytext)
-* Virtual environments in jupyter
-  1. Enter your project directory
-  2. $ python -m venv projectname
-  3. $ source projectname/bin/activate
-  4. (venv) $ pip install ipykernel
-  5. (venv) $ ipython kernel install --user --name=projectname
-  6. Run jupyter notebook * (not entirely sure how this works out when you have multiple notebook processes, can we just reuse the same server?)
-  7. Connect to the new server at port 8889
-* [Virtual env with jupyter](https://janakiev.com/til/jupyter-virtual-envs/)
+- [Cloud GPUS cheap](https://www.paperspace.com/gradient)
+- [Importing a notebook as a module](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Importing%20Notebooks.html)
+- Important [colaboratory commands for jupytr](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)
+- Timing and profiling in Jupyter
+- ([Debugging in Jupyter, how?)](https://kawahara.ca/how-to-debug-a-jupyter-ipython-notebook/) - put a one liner before the code and query the variables inside a function.
+- [28 tips n tricks for jupyter](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+- Jupyter notebooks as a module
+   1. [Nbdev](https://github.com/fastai/nbdev), on [fast.ai](https://nbdev.fast.ai/)
+   2. [jupytext](https://github.com/mwouts/jupytext)
+- Virtual environments in jupyter
+   1. Enter your project directory
+   2. $ python -m venv projectname
+   3. $ source projectname/bin/activate
+   4. (venv) $ pip install ipykernel
+   5. (venv) $ ipython kernel install --user --name=projectname
+   6. Run jupyter notebook * (not entirely sure how this works out when you have multiple notebook processes, can we just reuse the same server?)
+   7. Connect to the new server at port 8889
+- [Virtual env with jupyter](https://janakiev.com/til/jupyter-virtual-envs/)
 
 ([how does reshape work?)](http://anie.me/numpy-reshape-transpose-theano-dimshuffle/) - a shape of (2,4,6) is like a tree of 2->4 and each one has more leaves 4->6.
 
@@ -220,13 +220,13 @@ This section defines PyCaret as a one-line ML library from prep to deploy.
 
 This section is install notes for TensorFlow, CUDA, and cuDNN.
 
-* [Install TF](https://www.tensorflow.org/install/install_linux#NVIDIARequirements)
-* [Install cuda on ubuntu](https://devtalk.nvidia.com/default/topic/1030495/cuda-setup-and-installation/install-a-specific-cuda-version-for-ubuntu-16-04/), [official linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)
-* [Replace cuda version](https://askubuntu.com/questions/959835/how-to-remove-cuda-9-0-and-install-cuda-8-0-instead)
-* [Cuda 9 download](https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1704&target_type=runfilelocal)
-* [Install cudnn](https://askubuntu.com/questions/1033489/the-easy-way-install-nvidia-drivers-cuda-cudnn-and-tensorflow-gpu-on-ubuntu-1)
-* [Installing everything easily](https://askubuntu.com/questions/1033489/the-easy-way-install-nvidia-drivers-cuda-cudnn-and-tensorflow-gpu-on-ubuntu-1)
-* [Failed](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch) to initialize NVML: Driver/library version mismatch
+- [Install TF](https://www.tensorflow.org/install/install_linux#NVIDIARequirements)
+- [Install cuda on ubuntu](https://devtalk.nvidia.com/default/topic/1030495/cuda-setup-and-installation/install-a-specific-cuda-version-for-ubuntu-16-04/), [official linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/)
+- [Replace cuda version](https://askubuntu.com/questions/959835/how-to-remove-cuda-9-0-and-install-cuda-8-0-instead)
+- [Cuda 9 download](https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1704&target_type=runfilelocal)
+- [Install cudnn](https://askubuntu.com/questions/1033489/the-easy-way-install-nvidia-drivers-cuda-cudnn-and-tensorflow-gpu-on-ubuntu-1)
+- [Installing everything easily](https://askubuntu.com/questions/1033489/the-easy-way-install-nvidia-drivers-cuda-cudnn-and-tensorflow-gpu-on-ubuntu-1)
+- [Failed](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch) to initialize NVML: Driver/library version mismatch
 
 ## GCP
 

@@ -45,11 +45,3 @@ Many thanks,
 Dr. Ori Cohen
 
 [My Website](https://www.oricohen.com/) | [Medium](https://medium.com/@cohenori) | [LinkedIn](https://www.linkedin.com/in/cohenori/) | [ML Compendium](http://www.mlcompendium.com/) | [Ops Compendium](https://www.opscompendium.com/) | [State of GenAI](https://stateofgenai.com/) | [State Of MLOps](https://stateofmlops.com/) |
-
-## Deprecated links
-
-{% hint style="warning" %}
-These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
-{% endhint %}
-
-- The ML Compendium Article. This address no longer opens: https://towardsdatascience.com/the-last-machine-deep-learning-compendium-youll-ever-need-dc973643c4e1

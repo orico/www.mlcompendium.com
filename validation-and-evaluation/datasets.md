@@ -15,10 +15,9 @@ This subsection explains bias and variance diagnostics with Andrew Ng-style exam
 
 1. [Various Bias types](https://queue.acm.org/detail.cfm?id=3466134) by queue.acm
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Various bias types.</p></figcaption></figure>
-
-1. [Overfitting your test set, a statistican view point, a great article](https://lukeoakdenrayner.wordpress.com/2019/09/19/ai-competitions-dont-produce-useful-models/), bottom line use bonferroni correction.
-2.  Understanding what is the next stage in DL (& ML) algorithm development: basic approach - [Andrew NG](https://www.youtube.com/watch?v=F1ka6a13S9I) on youtube
+   <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Various bias types.</p></figcaption></figure>
+2. [Overfitting your test set, a statistican view point, a great article](https://lukeoakdenrayner.wordpress.com/2019/09/19/ai-competitions-dont-produce-useful-models/), bottom line use bonferroni correction.
+3. Understanding what is the next stage in DL (& ML) algorithm development: basic approach - [Andrew NG](https://www.youtube.com/watch?v=F1ka6a13S9I) on youtube
 
     Terms: training, validation, test.
 
@@ -63,11 +62,11 @@ This subsection explains bias and variance diagnostics with Andrew Ng-style exam
 
     Solution:  do it al
 
-* Underfitting = Get more data
-* Overfitting = Early stop, regularization, reason: models detail & noise.
-* Happens more in non parametric (and non linear) algorithms such as decision trees.
-* Bottom line, bigger model or more data will solve most issues.
-* In practice advice with [regularized linear regression.](http://www.holehouse.org/mlclass/10_Advice_for_applying_machine_learning.html)
+- Underfitting = Get more data
+- Overfitting = Early stop, regularization, reason: models detail & noise.
+- Happens more in non parametric (and non linear) algorithms such as decision trees.
+- Bottom line, bigger model or more data will solve most issues.
+- In practice advice with [regularized linear regression.](http://www.holehouse.org/mlclass/10_Advice_for_applying_machine_learning.html)
 
 <figure><img src="../.gitbook/assets/gimg-2ea62bce8904.png" alt=""><figcaption><p>Bias and variance situations.</p><p>Credit: <a href="https://lh4.googleusercontent.com/Zg_aGmWE7DxzEUboiliygq923F9Dj6kwmXuCZ2-D4uti4R5HApLcTC-TDaHyb4BLvqRZns6dgTgxABzOObqPvtHIl9Enm5wGCtkC27gNRsnCjzhDxZwaHdwJUTRGu-MpSGvyl72q">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -122,9 +121,8 @@ This subsection lists split strategies, transfer learning, bootstrapping, and st
 4. Bootstrapping training- using a similar dataset, such as yelp, with 5 stars to create a pos/neg sentiment classifier based on 1 star and 5 stars. Finally using that to label or sample select from an unlabelled dataset, in order to create a new classifier or just to sample for annotation etc.
 5. [Student-teacher paradigm](https://developers.facebook.com/videos/2019/from-visual-recognition-to-reasoning/) (facebook), using a big labelled dataset to train a teacher classifier, predicting on unlabelled data, choosing the best classified examples based on probability, using those to train a new student model, finally fine-tune on the labeled dataset to create a more robust model, which is expected to know the unlabelled dataset and the labelled dataset with higher accuracy. With respect to the fully supervised teacher model / baseline.
 
-<figure><img src="../.gitbook/assets/gimg-0cc4c443ecb9.png" alt=""><figcaption><p>Student–teacher paradigm.</p><p>Credit: <a href="https://lh6.googleusercontent.com/U7Zn0WtBMVLvvN4rinTJhzRU4P8zMJB_1SNiGPQzboJfltWzdTUmcoDcc_0lx94qlfHW4QU11wftCujikfvR3StMxOPCE3FTWPhwPqsfCrYj29NIVt8jb1PlU3hv7hq2Y1DscOWH">copied from the original hosted image</a>.</p></figcaption></figure>
-
-1. Yoav’s method for transfer learning for languages - train a classifier on labelled data from english and spanish, fine tune using left out spanish data, stop before overfitting. This can be generalized to other domains.
+   <figure><img src="../.gitbook/assets/gimg-0cc4c443ecb9.png" alt=""><figcaption><p>Student–teacher paradigm.</p><p>Credit: <a href="https://lh6.googleusercontent.com/U7Zn0WtBMVLvvN4rinTJhzRU4P8zMJB_1SNiGPQzboJfltWzdTUmcoDcc_0lx94qlfHW4QU11wftCujikfvR3StMxOPCE3FTWPhwPqsfCrYj29NIVt8jb1PlU3hv7hq2Y1DscOWH">copied from the original hosted image</a>.</p></figcaption></figure>
+6. Yoav’s method for transfer learning for languages - train a classifier on labelled data from english and spanish, fine tune using left out spanish data, stop before overfitting. This can be generalized to other domains.
 
 #### TRANSFER LEARNING
 
@@ -132,7 +130,7 @@ This subsection links a hands-on deep learning transfer learning guide and a dia
 
 1. In deep learning
 
-<figure><img src="../.gitbook/assets/gimg-1254419245f4.png" alt=""><figcaption><p>Transfer learning.</p><p>Credit: <a href="https://lh3.googleusercontent.com/xUFaHrHjaypItfpjfzNEZ_Zv2BZJWieQuoBGLXfEnqNJr1PjQXt6D-TJpgaSfhU-BmoMiNqVfQFXMwBFIuvnxRYM6yZS2fxLfd9RoYRto8Bm5oeQZekUqQzO1HZP203PRu3wQT07">copied from the original hosted image</a>.</p></figcaption></figure>
+   <figure><img src="../.gitbook/assets/gimg-1254419245f4.png" alt=""><figcaption><p>Transfer learning.</p><p>Credit: <a href="https://lh3.googleusercontent.com/xUFaHrHjaypItfpjfzNEZ_Zv2BZJWieQuoBGLXfEnqNJr1PjQXt6D-TJpgaSfhU-BmoMiNqVfQFXMwBFIuvnxRYM6yZS2fxLfd9RoYRto8Bm5oeQZekUqQzO1HZP203PRu3wQT07">copied from the original hosted image</a>.</p></figcaption></figure>
 
 ### TRAIN / TEST / CROSS VALIDATION
 
@@ -150,11 +148,11 @@ Scikit-lego on group-based splitting and transformation
 
 “[The training](https://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set) set is used to fit the models; the validation set is used to estimate prediction error for model selection; the test set is used for assessment of the generalization error of the final chosen model. Ideally, the test set should be kept in a “vault,” and be brought out only at the end of the data analysis”
 
-* Random Split tests 66\33 - problem: variance each time we rerun.
-* Multiple times random split tests - problem: samples may not be included in train\test or selected multiple times.
-* Cross validation - pretty good, diff random seed results in diff mean accuracy, variance due to randomness
-* Multiple cross validation - accounts for the randomness of the CV
-* Statistical significance ( t-test)  on multi CV - are two samples drawn from the same population? (no difference). If “yes”, not significant, even if the mean and std deviations differ.
+- Random Split tests 66\33 - problem: variance each time we rerun.
+- Multiple times random split tests - problem: samples may not be included in train\test or selected multiple times.
+- Cross validation - pretty good, diff random seed results in diff mean accuracy, variance due to randomness
+- Multiple cross validation - accounts for the randomness of the CV
+- Statistical significance ( t-test)  on multi CV - are two samples drawn from the same population? (no difference). If “yes”, not significant, even if the mean and std deviations differ.
 
 Finally, When in doubt, use k-fold cross validation (k=10) and use multiple runs of k-fold cross validation with statistical significance tests.
 
@@ -168,7 +166,6 @@ This subsection lists public dataset and model hubs for practice and translation
 2. [24](https://lionbridge.ai/datasets/25-best-parallel-text-datasets-for-machine-translation-training/)
 3. [Eu-](https://datarepository.wolframcloud.com/resources/Europarl-English-Spanish-Machine-Translation-Dataset-V7)es, [2](https://data.europa.eu/euodp/en/data/dataset/elrc_339)
 4. 50K -  [ModelDepot](https://modeldepot.io/) alone has over 50,000 freely accessible pre-trained models with search functionality to
-5.
 
 ### IMBALANCED DATASETS
 
@@ -198,31 +195,30 @@ General Rules:
 Balancing data sets ([wiki](https://en.wikipedia.org/wiki/Oversampling_and_undersampling_in_data_analysis), [scikit learn](https://github.com/scikit-learn-contrib/imbalanced-learn) & [examples in SKLEARN](http://contrib.scikit-learn.org/imbalanced-learn/auto_examples/index.html)):
 
 1. Oversampling the minority class
-   1. (Random) duplication of samples
-   2. SMOTE (in weka + needs to be installed & paper) - find k nearest neighbours,
+   - (Random) duplication of samples
+   - SMOTE (in weka + needs to be installed & paper) - find k nearest neighbours,
 
-$$\text{New\_Sample} = (\text{random num in [0,1]}) * \text{vec(ki,current\_sample)}$$
+      $$\text{New\_Sample} = (\text{random num in [0,1]}) * \text{vec(ki,current\_sample)}$$
 
-* (in weka) The nearestNeighbors parameter says how many nearest neighbor instances (surrounding the currently considered instance) are used to build an in between synthetic instance. The default value is 5. Thus the attributes of 5 nearest neighbors of a real existing instance are used to compute a new synthetic one.
-* (in weka) The percentage parameter says how many synthetic instances are created based on the number of the class with less instances (by default - you can also use the majority class by setting the -Coption). The default value is 100. This means if you have 25 instances in your minority class, again 25 instances are created synthetically from these (using their nearest neighbours' values). With 200% 50 synthetic instances are created and so on.
-
-1. ADASYN - shifts the classification boundary to the minority class, synthetic data generated for majority class.
+      - (in weka) The nearestNeighbors parameter says how many nearest neighbor instances (surrounding the currently considered instance) are used to build an in between synthetic instance. The default value is 5. Thus the attributes of 5 nearest neighbors of a real existing instance are used to compute a new synthetic one.
+      - (in weka) The percentage parameter says how many synthetic instances are created based on the number of the class with less instances (by default - you can also use the majority class by setting the -Coption). The default value is 100. This means if you have 25 instances in your minority class, again 25 instances are created synthetically from these (using their nearest neighbours' values). With 200% 50 synthetic instances are created and so on.
+   - ADASYN - shifts the classification boundary to the minority class, synthetic data generated for majority class.
 2. Undersampling the majority class
-   1. Remove samples
-   2. Cluster centroids - replaces a cluster of samples (k-means) with a centroid.
-   3. Tomek links - cleans overlapping samples between classes in the majority class.
-   4. Penalizing the majority class during training
+   - Remove samples
+   - Cluster centroids - replaces a cluster of samples (k-means) with a centroid.
+   - Tomek links - cleans overlapping samples between classes in the majority class.
+   - Penalizing the majority class during training
 3. Combined over and under (hybrid) - i.e., SMOTE and tomek/ENN
 4. Ensemble sampling
-   1. EasyEnsemble
-   2. BalanceCascade
+   - EasyEnsemble
+   - BalanceCascade
 5. Dont balance, try algorithms that perform well with unbalanced DS
-   1. Decision trees - C4.5\5\CART\Random Forest
-   2. SVM
+   - Decision trees - C4.5\5\CART\Random Forest
+   - SVM
 6. Penalize Models -
-   1. added costs for misclassification on the minority class during training such as penalized-SVM
-   2. a [CostSensitiveClassifier](http://weka.sourceforge.net/doc.dev/weka/classifiers/meta/CostSensitiveClassifier.html) meta classifier in Weka that wraps classifiers and applies a custom penalty matrix for miss classification.
-   3. complex
+   - added costs for misclassification on the minority class during training such as penalized-SVM
+   - a [CostSensitiveClassifier](http://weka.sourceforge.net/doc.dev/weka/classifiers/meta/CostSensitiveClassifier.html) meta classifier in Weka that wraps classifiers and applies a custom penalty matrix for miss classification.
+   - complex
 
 ##
 
@@ -234,9 +230,8 @@ This subsection covers survey sample size and training data quantity advice.
 
 1. [How to choose your sample size from a population based on confidence interval](https://www.checkmarket.com/blog/how-to-estimate-your-population-and-survey-sample-size/)
 
-<figure><img src="../.gitbook/assets/gimg-02ac465d3915.png" alt=""><figcaption><p>Sample size from a population.</p><p>Credit: <a href="https://lh3.googleusercontent.com/gzSA5OXGcheJTZbY8Vj10NOBmumc9-v87G0G1sKF8cRP8rQegw5vE_hvadFSZLNwY9p6ZQ7bgL61RIcSwv-gBUUycp_0dx6yCpDgr3G2JAKVt4-Bq9Hpqri65B0Jr57MDqUekf-d">copied from the original hosted image</a>.</p></figcaption></figure>
-
-1. [Data advice, should we get more data? How much](https://machinelearningmastery.com/much-training-data-required-machine-learning/)
+   <figure><img src="../.gitbook/assets/gimg-02ac465d3915.png" alt=""><figcaption><p>Sample size from a population.</p><p>Credit: <a href="https://lh3.googleusercontent.com/gzSA5OXGcheJTZbY8Vj10NOBmumc9-v87G0G1sKF8cRP8rQegw5vE_hvadFSZLNwY9p6ZQ7bgL61RIcSwv-gBUUycp_0dx6yCpDgr3G2JAKVt4-Bq9Hpqri65B0Jr57MDqUekf-d">copied from the original hosted image</a>.</p></figcaption></figure>
+2. [Data advice, should we get more data? How much](https://machinelearningmastery.com/much-training-data-required-machine-learning/)
 
 Gibbs sampling: - Gibbs Sampling is a MCMC method to draw samples from a potentially really really complicated, high dimensional distribution, where analytically, it’s hard to draw samples from it. The usual suspect would be those nasty integrals when computing the normalizing constant of the distribution, especially in Bayesian inference. Now Gibbs Sampler can draw samples from any distribution, provided you can provide all of the conditional distributions of the joint distribution analytically.
 
@@ -294,6 +289,5 @@ These links and images no longer work. The original wording is kept here. A same
 - Advice on many things, including learning curves. This address no longer opens: https://blog.acolyer.org/2018/03/28/deep-learning-scaling-is-predictable-empirically/amp/?fbclid=IwAR0V1X1vuCZYmeku12YHJI7wwK7RCKEyE2Q7aRDDT58hjRPzAOrHfvo98WY
 - Medium on  this Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics. This address no longer opens: https://towardsdatascience.com/data-maps-datasets-can-be-distilled-too-1991c3c260d6. This address no longer opens: https://arxiv.org/abs/2009.10795
 - In deep learning. This address no longer opens: https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
-
 - Scikit-lego on group-based splitting and transformation. This address no longer opens: https://web.archive.org/web/2020/https://scikit-lego.readthedocs.io/en/latest/meta.html#Grouped-Prediction
 - Gibbs sampling. This address no longer opens: https://web.archive.org/web/2020/https://wiseodd.github.io/techblog/2015/10/09/gibbs-sampling/

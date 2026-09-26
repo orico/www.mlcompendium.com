@@ -20,11 +20,10 @@ This section covers isotonic and Platt scaling, sklearn tools, and when softmax 
    **However, not all classifiers provide well-calibrated probabilities, some being over-confident while others being under-confident. Thus, a separate calibration of predicted probabilities is often desirable as a postprocessing. This example illustrates two different methods for this calibration and evaluates the quality of the returned probabilities using Brier’s score**
 9. **Example** [1](http://scikit-learn.org/stable/auto_examples/calibration/plot_calibration.html#sphx-glr-auto-examples-calibration-plot-calibration-py) **- binary class below,** [2](http://scikit-learn.org/stable/auto_examples/calibration/plot_calibration_multiclass.html#sphx-glr-auto-examples-calibration-plot-calibration-multiclass-py) **- 3 class moving prob vectors to a well defined location,** [3](http://scikit-learn.org/stable/auto_examples/calibration/plot_compare_calibration.html#sphx-glr-auto-examples-calibration-plot-compare-calibration-py) **- comparison of non calibrated models, only logreg is calibrated naturally**
 
-<figure><img src="../.gitbook/assets/gimg-eab6cc5ec48e.png" alt=""><figcaption><p>Sklearn calibration examples.</p><p>Credit: <a href="https://lh4.googleusercontent.com/pgzEadilkxa1ihkvs-8aw5wBnxfAaBBfLsutGQ38mAWcANEKQEOowO_6A5O6tbaj7DgeRt1vDBk74IYCFBqQX61lTo5YHhFE5NXJu7J5XYYsRzhjLIyoeaPz59WlF4NDDjUNgzsp">copied from the original hosted image</a>.</p></figcaption></figure>
-
-1. [Mastery on why we need calibration](https://machinelearningmastery.com/calibrated-classification-model-in-scikit-learn/)
-2. [Why softmax is not good as an uncertainty measure for DNN](https://stats.stackexchange.com/questions/309642/why-is-softmax-output-not-a-good-uncertainty-measure-for-deep-learning-models)
-3. [If a model doesn't have probabilities use the decision function](http://scikit-learn.org/stable/auto_examples/calibration/plot_calibration_curve.html#sphx-glr-auto-examples-calibration-plot-calibration-curve-py)
+   <figure><img src="../.gitbook/assets/gimg-eab6cc5ec48e.png" alt=""><figcaption><p>Sklearn calibration examples.</p><p>Credit: <a href="https://lh4.googleusercontent.com/pgzEadilkxa1ihkvs-8aw5wBnxfAaBBfLsutGQ38mAWcANEKQEOowO_6A5O6tbaj7DgeRt1vDBk74IYCFBqQX61lTo5YHhFE5NXJu7J5XYYsRzhjLIyoeaPz59WlF4NDDjUNgzsp">copied from the original hosted image</a>.</p></figcaption></figure>
+10. [Mastery on why we need calibration](https://machinelearningmastery.com/calibrated-classification-model-in-scikit-learn/)
+11. [Why softmax is not good as an uncertainty measure for DNN](https://stats.stackexchange.com/questions/309642/why-is-softmax-output-not-a-good-uncertainty-measure-for-deep-learning-models)
+12. [If a model doesn't have probabilities use the decision function](http://scikit-learn.org/stable/auto_examples/calibration/plot_calibration_curve.html#sphx-glr-auto-examples-calibration-plot-calibration-curve-py)
 
 **y_pred = clf.predict(X_test)**
 
@@ -72,6 +71,5 @@ These links and images no longer work. The original wording is kept here. A same
 - How to speed up isotonic regression for sklearn. This address no longer opens: http://tullo.ch/articles/speeding-up-isotonic-regression/
 - **How do we do isotonic and sigmoid calibration - read** this. This address no longer opens: http://tullo.ch/articles/speeding-up-isotonic-regression/
 - Calibration post. This address no longer opens: http://geoffpleiss.com/nn_calibration
-
 - this. This address no longer opens: https://web.archive.org/web/2020/http://tullo.ch/articles/speeding-up-isotonic-regression/
 - Calibration post. This address no longer opens: https://web.archive.org/web/2020/http://geoffpleiss.com/nn_calibration

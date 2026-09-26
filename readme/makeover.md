@@ -27,6 +27,7 @@
 - A TODO that pointed at a readable page or file was summarized the same way.
 - A video marked did-not-watch was summarized from its subtitle text, without downloading the video.
 - A replacement article names its author when the article itself gives that name.
+
 There are 4018 URL occurrences in the rewritten pages. One address used twice counts twice, and one occurrence can sit in more than one row.
 
 | Count | What it means | Number |

@@ -42,10 +42,10 @@ This section lists AutoWEKA, auto-sklearn, TPOT, H2O, TransmogrifAI, MLBox, and 
 - [TransmogrifAI](https://github.com/salesforce/TransmogrifAI) is an AutoML library running on top of Spark.
 - [MLBoX](https://github.com/AxeldeRomblay/MLBox) is an AutoML library with three components: preprocessing, optimisation and prediction
 - [MLJar](https://mljar.com/) ([git](https://github.com/mljar/mljar-supervised)) [medium](https://medium.com/@MLJARofficial/mljar-supervised-automl-with-explanations-and-markdown-reports-36d5104e117), 2 — Automated Machine Learning for tabular data mljar builds a complete Machine Learning Pipeline. Perform exploratory analysis, search for a signal in the data, and discover relationships between features in your data with AutoML. Train top ML models with advanced feature engineering, many algorithms, hyper-parameters tuning, Ensembling, and Stacking. Stay ahead of competitors and predict the future with advanced ML. Deploy your models in the cloud or use them locally
- - + advanced feature engineering
- - + algorithms selection and tuning
- - + automatic documentation
- - + ML explanations
+   - + advanced feature engineering
+   - + algorithms selection and tuning
+   - + automatic documentation
+   - + ML explanations
 
 <figure><img src="../.gitbook/assets/gimg-677053d62777.png" alt=""><figcaption><p>MLJar AutoML.</p><p>Credit: <a href="https://lh3.googleusercontent.com/duUZ_u8kLJ9fhJ1AtGodADX6n3aV4CB9hsLhCV4yANEA0_Rui8yQBAtBe_DxHsJP0s-I8mCCRlyMgvZwJFkc0hy0TtejPLqq_AYmOMXyE73xph8YhEjVQnYeR0lDqI0LTf5YnSOG">copied from the original hosted image</a>.</p></figcaption></figure>
 

@@ -20,15 +20,16 @@ This section lists Python time-series libraries and feature-extraction tools.
 5. [TSlearn](http://tslearn.readthedocs.io) - DTW, shapes, shapelets (keras layer), time series kmeans/clustering/svm/svr/KNN/bary centers/PAA/SAX
 
 <figure><img src="../.gitbook/assets/gimg-0700069a56bf.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh5.googleusercontent.com/q4duc9XMnsYnOvbMeBcWLWf6T1uyPMrhBoPZEVVL16hS2UJJTalHA3MUE12kMo308fF1nO-qCGxeDefjvoLz106E7ZjkUTiFriggG98iX6H9vlaROGNnOdNpjEy6zZViK4Tl43mn">copied from the original hosted image</a>.</p></figcaption></figure>
+
 6. [DTAIDistance](https://dtaidistance.readthedocs.io/en/latest/index.html) - Library for time series distances (e.g. Dynamic Time Warping) used in the [DTAI Research Group](https://dtai.cs.kuleuven.be/). The library offers a pure Python implementation and a faster implementation in C. The C implementation has only Cython as a dependency. It is compatible with Numpy and Pandas and implemented to avoid unnecessary data copy operations
- [dtaidistance.clustering.hierarchical](https://dtaidistance.readthedocs.io/en/latest/modules/clustering/hierarchical.html)
+   [dtaidistance.clustering.hierarchical](https://dtaidistance.readthedocs.io/en/latest/modules/clustering/hierarchical.html)
 7. [Darts](https://unit8co.github.io/darts/) is a Python library for user-friendly forecasting and anomaly detection on time series. [Forecasting models](https://unit8co.github.io/darts/#forecasting-models) & [Examples](https://unit8co.github.io/darts/#example-usage)
 
 [Ddtaidistance.clustering.kmeans](https://dtaidistance.readthedocs.io/en/latest/modules/clustering/kmeans.html)
 
 [Dtaidistance.clustering.medoids](https://dtaidistance.readthedocs.io/en/latest/modules/clustering/medoids.html)
 
-* Identify anomalies, outliers or abnormal behaviour (see for example the [anomatools package](https://github.com/Vincent-Vercruyssen/anomatools)).
+- Identify anomalies, outliers or abnormal behaviour (see for example the [anomatools package](https://github.com/Vincent-Vercruyssen/anomatools)).
 
 <figure><img src="../.gitbook/assets/gimg-bf36052b3a66.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh3.googleusercontent.com/7nxg_PC85TDLAnkrIt2lNm3VhLRcFKwlGlEZOd4Ua7UnPFGctGheUcyzzIwVW39N8cAW7fF8cwvMJUySX6K4rkQNz1C5kGRL5P4LIPB0lNUl9gIietACvRxm4nokLL1Chr57024F">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -38,7 +39,6 @@ The recommended method for perform active semi-supervised clustering using DTAID
 
 1. [Affine warp](https://github.com/ahwillia/affinewarp), a neural net with time warping - as part of the following manuscript, which focuses on analysis of large-scale neural recordings (though this code can be also be applied to many other data types)
 2. [Neural warp](https://github.com/josifgrabocka/neuralwarp) - [NeuralWarp](https://arxiv.org/pdf/1812.08306.pdf): Time-Series Similarity with Warping Networks
-3.
 
 [A great introduction into time series](https://medium.com/making-sense-of-data/time-series-next-value-prediction-using-regression-over-a-rolling-window-228f0acae363) - “The approach is to come up with a list of features that captures the temporal aspects so that the auto correlation information is not lost.” basically tells us to take sequence features and create (auto)-correlated new variables using a time window, i.e., “Time series forecasts as regression that factor in autocorrelation as well.”. we can transform raw features into other type of features that explain the relationship in time between features. we measure success using loss functions, MAE RMSE MAPE RMSEP AC-ERROR-RATE
 
@@ -48,9 +48,9 @@ The recommended method for perform active semi-supervised clustering using DTAID
 
 [Time series patterns: ](https://www.otexts.org/fpp/2/1)
 
-* A trend (a,b,c) exists when there is a long-term increase or decrease in the data.
-* A seasonal (a - big waves) pattern occurs when a time series is affected by seasonal factors such as the time of the year or the day of the week. The monthly sales induced by the change in cost at the end of the calendar year.
-* A cycle (a) occurs when the data exhibit rises and falls that are not of a fixed period - sometimes years.
+- A trend (a,b,c) exists when there is a long-term increase or decrease in the data.
+- A seasonal (a - big waves) pattern occurs when a time series is affected by seasonal factors such as the time of the year or the day of the week. The monthly sales induced by the change in cost at the end of the calendar year.
+- A cycle (a) occurs when the data exhibit rises and falls that are not of a fixed period - sometimes years.
 
 [Some statistical measures](https://www.otexts.org/fpp/2/2) (mean, median, percentiles, iqr, std dev, bivariate statistics - correlation between variables)
 
@@ -64,26 +64,26 @@ Autocorrelation measures the linear relationship between lagged values of a time
 
 L8 is correlated, and has a high measure of 0.83
 
-* White-noise has autocorrelation of 0.<figure><img src="../.gitbook/assets/gimg-0ff80aebaef9.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/G2xzLwQkZaWNkLQseUHw2A1PHdq5zx0en1EZRhIKfK8m4QdxFvZ0k5wDNZDj3xMDV8IygVeQRBAeRHEtrVCULdlr9HKRuP3cjNHFwT996Ul07FXP-e8SlDFCOSQiXPdWo01ldecp">copied from the original hosted image</a>.</p></figcaption></figure>
+- White-noise has autocorrelation of 0.<figure><img src="../.gitbook/assets/gimg-0ff80aebaef9.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/G2xzLwQkZaWNkLQseUHw2A1PHdq5zx0en1EZRhIKfK8m4QdxFvZ0k5wDNZDj3xMDV8IygVeQRBAeRHEtrVCULdlr9HKRuP3cjNHFwT996Ul07FXP-e8SlDFCOSQiXPdWo01ldecp">copied from the original hosted image</a>.</p></figcaption></figure>
 
 ### [Forecasting methods](https://www.otexts.org/fpp/2/3)
 
 This subsection lists simple benchmark forecasts from the forecasting textbook.
 
-* Average: Forecasts of all future values are equal to the mean of the historical data.
-* Naive: Forecasts are simply set to be the value of the last observation.
-* Seasonal Naive: forecast to be equal to the last observed value from the same season of the year
-* Drift: A variation on the naïve method is to allow the forecasts to increase or decrease over time, the drift is set to be the average change seen in the historical data.
+- Average: Forecasts of all future values are equal to the mean of the historical data.
+- Naive: Forecasts are simply set to be the value of the last observation.
+- Seasonal Naive: forecast to be equal to the last observed value from the same season of the year
+- Drift: A variation on the naïve method is to allow the forecasts to increase or decrease over time, the drift is set to be the average change seen in the historical data.
 
 ### [Data Transformations](https://www.otexts.org/fpp/2/4)
 
 This subsection links log, Box-Cox, and calendar adjustments for series.
 
-* Log
-* Box cox
-* Back transform
-* Calendrical adjustments
-* Inflation adjustment
+- Log
+- Box cox
+- Back transform
+- Calendrical adjustments
+- Inflation adjustment
 
 Transforming time series data to tabular (in order to use tabular based approach)
 
@@ -99,13 +99,13 @@ This subsection covers forecast accuracy metrics and dummy-variable pitfalls.
 
 <figure><img src="../.gitbook/assets/gimg-4520aee72acc.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/-t5303-rJtTF8gUP5GRrHwx9gVJTaM5zObpxRFO5iD1jgkSC-qxX1Q8-7fPnP1cb9Vo3reKMtL5f_d41XvX0xjHxTlCtHOJ7i99aaHj7YLSa_vu4E5nCg1IQCWi5YyZvQt-O1TJ3">copied from the original hosted image</a>.</p></figcaption></figure>
 
-* Dummy variables: sunday, monday, tues,wed,thurs, friday. NO SATURDAY!
-* notice that only six dummy variables are needed to code seven categories. That is because the seventh category (in this case Sunday) is specified when the dummy variables are all set to zero. Many beginners will try to add a seventh dummy variable for the seventh category. This is known as the "dummy variable trap" because it will cause the regression to fail.
-* Outliers: If there is an outlier in the data, rather than omit it, you can use a dummy variable to remove its effect. In this case, the dummy variable takes value one for that observation and zero everywhere else.
-* Public holidays: For daily data, the effect of public holidays can be accounted for by including a dummy variable predictor taking value one on public holidays and zero elsewhere.
-* Easter: is different from most holidays because it is not held on the same date each year and the effect can last for several days. In this case, a dummy variable can be used with value one where any part of the holiday falls in the particular time period and zero otherwise.
-* Trading days: The number of trading days in a month can vary considerably and can have a substantial effect on sales data. To allow for this, the number of trading days in each month can be included as a predictor. An alternative that allows for the effects of different days of the week has the following predictors. # Mondays in month;# Tuesdays in month;# Sundays in month.
-* Advertising: $advertising for previous month;$advertising for two months previously
+- Dummy variables: sunday, monday, tues,wed,thurs, friday. NO SATURDAY!
+- notice that only six dummy variables are needed to code seven categories. That is because the seventh category (in this case Sunday) is specified when the dummy variables are all set to zero. Many beginners will try to add a seventh dummy variable for the seventh category. This is known as the "dummy variable trap" because it will cause the regression to fail.
+- Outliers: If there is an outlier in the data, rather than omit it, you can use a dummy variable to remove its effect. In this case, the dummy variable takes value one for that observation and zero everywhere else.
+- Public holidays: For daily data, the effect of public holidays can be accounted for by including a dummy variable predictor taking value one on public holidays and zero elsewhere.
+- Easter: is different from most holidays because it is not held on the same date each year and the effect can last for several days. In this case, a dummy variable can be used with value one where any part of the holiday falls in the particular time period and zero otherwise.
+- Trading days: The number of trading days in a month can vary considerably and can have a substantial effect on sales data. To allow for this, the number of trading days in each month can be included as a predictor. An alternative that allows for the effects of different days of the week has the following predictors. # Mondays in month;# Tuesdays in month;# Sundays in month.
+- Advertising: $advertising for previous month;$advertising for two months previously
 
 ### [Rolling window analysis](https://link.springer.com/chapter/10.1007%2F978-0-387-32348-0_9)
 
@@ -119,8 +119,8 @@ This subsection describes moving-average trend–cycle estimation.
 
 estimate the trend cycle
 
-* 3-5-7-9? If its too large its going to flatten the curve, too low its going to be similar to the actual curve.
-* two tier moving average, first 4 then 2 on the resulted moving average.
+- 3-5-7-9? If its too large its going to flatten the curve, too low its going to be similar to the actual curve.
+- two tier moving average, first 4 then 2 on the resulted moving average.
 
 [Visual example](https://www.youtube.com/watch?v=_YXoRTQQI3U) of ARIMA algorithm - captures the time series trend or forecast.
 
@@ -153,8 +153,8 @@ All time series have a level, most have noise, and the trend and seasonality are
 
 One step forecast using a window of “1” and a typical sample “time, measure1, measure2”:
 
-* linear/nonlinear classifiers: predict a single output value - using the t-1 previous line, i.e., “measure1 t, measure 2 t, measure 1 t+1, measure 2 t+1 (as the class)”
-* Neural networks: predict multiple output values, i.e., “measure1 t, measure 2 t, measure 1 t+1(class1), measure 2 t+1(class2)”
+- linear/nonlinear classifiers: predict a single output value - using the t-1 previous line, i.e., “measure1 t, measure 2 t, measure 1 t+1, measure 2 t+1 (as the class)”
+- Neural networks: predict multiple output values, i.e., “measure1 t, measure 2 t, measure 1 t+1(class1), measure 2 t+1(class2)”
 
 One-Step Forecast: This is where the next time step (t+1) is predicted.
 
@@ -162,7 +162,7 @@ Multi-Step Forecast: This is where two or more future time steps are to be predi
 
 Multi-step forecast using a window of “1” and a typical sample “time, measure1”, i.e., using the current value input we label it as the two future input labels:
 
-* “measure1 t, measure1 t+1(class), measure1 t+2(class1)”
+- “measure1 t, measure1 t+1(class), measure1 t+2(class1)”
 
 This article explains about ML Methods for Sequential Supervised Learning - Six methods that have been applied to solve sequential supervised learning problems:
 
@@ -202,17 +202,17 @@ This subsection lists short-series forecasting advice and pmdarima.
 2. PDarima - Pmdarima‘s auto_arima function is extremely useful when building an ARIMA model as it helps us identify the most optimal p,d,q parameters and return a fitted ARIMA model.
 3. [Min sample size for short seasonal time series](https://robjhyndman.com/papers/shortseasonal.pdf)
 4. [More mastery on short time series.](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
- 1. Autoregression (AR)
- 2. Moving Average (MA)
- 3. Autoregressive Moving Average (ARMA)
- 4. Autoregressive Integrated Moving Average (ARIMA)
- 5. Seasonal Autoregressive Integrated Moving-Average (SARIMA)
- 6. Seasonal Autoregressive Integrated Moving-Average with Exogenous Regressors (SARIMAX)
- 7. Vector Autoregression (VAR)
- 8. Vector Autoregression Moving-Average (VARMA)
- 9. Vector Autoregression Moving-Average with Exogenous Regressors (VARMAX)
- 10. Simple Exponential Smoothing (SES)
- 11. Holt Winter’s Exponential Smoothing (HWES)
+   1. Autoregression (AR)
+   2. Moving Average (MA)
+   3. Autoregressive Moving Average (ARMA)
+   4. Autoregressive Integrated Moving Average (ARIMA)
+   5. Seasonal Autoregressive Integrated Moving-Average (SARIMA)
+   6. Seasonal Autoregressive Integrated Moving-Average with Exogenous Regressors (SARIMAX)
+   7. Vector Autoregression (VAR)
+   8. Vector Autoregression Moving-Average (VARMA)
+   9. Vector Autoregression Moving-Average with Exogenous Regressors (VARMAX)
+   10. Simple Exponential Smoothing (SES)
+   11. Holt Winter’s Exponential Smoothing (HWES)
 
 Predicting actual Values of time series using observations
 
@@ -228,14 +228,14 @@ This subsection describes LSTM gates and sunspot prediction walkthroughs.
 
 There are three types of gates within a unit:
 
-* Forget Gate: conditionally decides what information to throw away from the block.
-* Input Gate: conditionally decides which values from the input to update the memory state.
-* Output Gate: conditionally decides what to output based on input and the memory of the block.
+- Forget Gate: conditionally decides what information to throw away from the block.
+- Input Gate: conditionally decides which values from the input to update the memory state.
+- Output Gate: conditionally decides what to output based on input and the memory of the block.
 
 Using lstm to predict sun spots, has some autocorrelation usage
 
-* [Part 1](https://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html)
-* [Part 2](https://www.business-science.io/timeseries-analysis/2018/07/01/keras-lstm-sunspots-part2.html)
+- [Part 1](https://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html)
+- [Part 2](https://www.business-science.io/timeseries-analysis/2018/07/01/keras-lstm-sunspots-part2.html)
 
 ### CLASSIFICATION
 
@@ -243,14 +243,14 @@ This subsection compiles DTW-based time-series classification resources.
 
 1. [Stackexchange](https://stats.stackexchange.com/questions/131281/dynamic-time-warping-clustering/131284) - Yes, you can use DTW approach for classification and clustering of time series. I've compiled the following resources, which are focused on this very topic (I've recently answered a similar question, but not on this site, so I'm copying the contents here for everybody's convenience):
 
-* UCR Time Series Classification/Clustering: main page, software page and corresponding paper
-* Time Series Classification and Clustering with Python: a blog post
-* Capital Bikeshare: Time Series Clustering: another blog post
-* Time Series Classification and Clustering: [ipython notebook](http://nbviewer.ipython.org/github/alexminnaar/time-series-classification-and-clustering/blob/master/Time%20Series%20Classification%20and%20Clustering.ipynb)
-* Dynamic Time Warping using rpy and Python: [another blog post](https://nipunbatra.wordpress.com/2013/06/09/dynamic-time-warping-using-rpy-and-python)
-* Mining Time-series with Trillions of Points: Dynamic Time Warping at Scale: another blog post
-* Time Series Analysis and Mining in R (to add R to the mix): yet another blog post
-* And, finally, two tools implementing/supporting DTW, to top it off: R package and Python module
+- UCR Time Series Classification/Clustering: main page, software page and corresponding paper
+- Time Series Classification and Clustering with Python: a blog post
+- Capital Bikeshare: Time Series Clustering: another blog post
+- Time Series Classification and Clustering: [ipython notebook](http://nbviewer.ipython.org/github/alexminnaar/time-series-classification-and-clustering/blob/master/Time%20Series%20Classification%20and%20Clustering.ipynb)
+- Dynamic Time Warping using rpy and Python: [another blog post](https://nipunbatra.wordpress.com/2013/06/09/dynamic-time-warping-using-rpy-and-python)
+- Mining Time-series with Trillions of Points: Dynamic Time Warping at Scale: another blog post
+- Time Series Analysis and Mining in R (to add R to the mix): yet another blog post
+- And, finally, two tools implementing/supporting DTW, to top it off: R package and Python module
 
 ### CLUSTERING TS
 
@@ -273,22 +273,22 @@ This subsection surveys time-series anomaly detection methods and toolkits.
 7. [Awesome TS anomaly detection](https://github.com/rob-med/awesome-TS-anomaly-detection) on github
 8. [Transfer learning toolkit](https://github.com/FuzhenZhuang/Transfer-Learning-Toolkit), [paper and benchmarks](https://arxiv.org/pdf/1911.08967.pdf)
 9. [Ransac is a good baseline](https://medium.com/@iamhatesz/random-sample-consensus-bd2bb7b1be75) - random sample consensus for outlier detection
- 1. [Ransac](https://medium.com/@angel.manzur/got-outliers-ransac-them-f12b6b5f606e), [2](https://medium.com/@saurabh.dasgupta1/outlier-detection-using-the-ransac-algorithm-de52670adb4a), 3, 4, 5, 6
- 2. You can feed ransac with tsfresh/tslearn features.
+   1. [Ransac](https://medium.com/@angel.manzur/got-outliers-ransac-them-f12b6b5f606e), [2](https://medium.com/@saurabh.dasgupta1/outlier-detection-using-the-ransac-algorithm-de52670adb4a), 3, 4, 5, 6
+   2. You can feed ransac with tsfresh/tslearn features.
 10. [Anomaly detection for time series](https://medium.com/@jetnew/anomaly-detection-of-time-series-data-e0cb6b382e33),
 11. AD for TS, recommended by DTAIDistance, [anomatools](https://github.com/Vincent-Vercruyssen/anomatools)
 12. STL:
- 1. [AD where anomalies coincide with seasonal peaks!!](https://medium.com/@richa.mishr01/anomaly-detection-in-seasonal-time-series-where-anomalies-coincide-with-seasonal-peaks-9859a6a6b8ba)
- 2. [AD challenges, stationary, seasonality, trend](https://cloudfabrix.com/blog/aiops/anomaly-detection-time-series-data/)
- 3. [Rt anomaly detection for time series pinterest](https://medium.com/pinterest-engineering/building-a-real-time-anomaly-detection-system-for-time-series-at-pinterest-a833e6856ddd) using stl decomposition
- 4. [AD](https://medium.com/wwblog/anomaly-detection-using-stl-76099c9fd5a7)
+    1. [AD where anomalies coincide with seasonal peaks!!](https://medium.com/@richa.mishr01/anomaly-detection-in-seasonal-time-series-where-anomalies-coincide-with-seasonal-peaks-9859a6a6b8ba)
+    2. [AD challenges, stationary, seasonality, trend](https://cloudfabrix.com/blog/aiops/anomaly-detection-time-series-data/)
+    3. [Rt anomaly detection for time series pinterest](https://medium.com/pinterest-engineering/building-a-real-time-anomaly-detection-system-for-time-series-at-pinterest-a833e6856ddd) using stl decomposition
+    4. [AD](https://medium.com/wwblog/anomaly-detection-using-stl-76099c9fd5a7)
 13. Sliding windows
- 1. [Solving sliding window problems](https://medium.com/outco/how-to-solve-sliding-window-problems-28d67601a66)
- 2. [Rolling window regression](https://medium.com/making-sense-of-data/time-series-next-value-prediction-using-regression-over-a-rolling-window-228f0acae363)
+    1. [Solving sliding window problems](https://medium.com/outco/how-to-solve-sliding-window-problems-28d67601a66)
+    2. [Rolling window regression](https://medium.com/making-sense-of-data/time-series-next-value-prediction-using-regression-over-a-rolling-window-228f0acae363)
 14. Forecasting using Arima 1, [2](http://alkaline-ml.com/pmdarima/)
 15. Auto arima 1, [2](https://stackoverflow.com/questions/22770352/auto-arima-equivalent-for-python), [3](https://www.analyticsvidhya.com/blog/2018/08/auto-arima-time-series-modeling-python-r/)
 16. [Twitters ESD test](https://medium.com/@elisha_12808/time-series-anomaly-detection-with-twitters-esd-test-50cce409ced1) for outliers, using z-score and t test
- 1. Another esd test inside here
+    1. Another esd test inside here
 17. [Minimal sample size for seasonal forecasting](https://robjhyndman.com/papers/shortseasonal.pdf)
 18. [Golden signals](https://www.usenix.org/conference/srecon19asia/presentation/chen-yu), [youtube](https://www.youtube.com/watch?v=3T9ZzQQiPSo)
 19. [Graph-based Anomaly Detection and Description: A Survey](https://arxiv.org/pdf/1404.4679.pdf)
@@ -320,14 +320,14 @@ Myth 3: There is a need (and room) for improvements in the speed of DTW for data
 
 1. (duplicate above in classification) [Stackexchange](https://stats.stackexchange.com/questions/131281/dynamic-time-warping-clustering/131284) - Yes, you can use DTW approach for classification and clustering of time series. I've compiled the following resources, which are focused on this very topic (I've recently answered a similar question, but not on this site, so I'm copying the contents here for everybody's convenience):
 
-* UCR Time Series Classification/Clustering: main page, software page and corresponding paper
-* Time Series Classification and Clustering with Python: a blog post
-* Capital Bikeshare: Time Series Clustering: another blog post
-* Time Series Classification and Clustering: [ipython notebook](http://nbviewer.ipython.org/github/alexminnaar/time-series-classification-and-clustering/blob/master/Time%20Series%20Classification%20and%20Clustering.ipynb)
-* Dynamic Time Warping using rpy and Python: [another blog post](https://nipunbatra.wordpress.com/2013/06/09/dynamic-time-warping-using-rpy-and-python)
-* Mining Time-series with Trillions of Points: Dynamic Time Warping at Scale: another blog post
-* Time Series Analysis and Mining in R (to add R to the mix): yet another blog post
-* And, finally, two tools implementing/supporting DTW, to top it off: R package and Python module
+- UCR Time Series Classification/Clustering: main page, software page and corresponding paper
+- Time Series Classification and Clustering with Python: a blog post
+- Capital Bikeshare: Time Series Clustering: another blog post
+- Time Series Classification and Clustering: [ipython notebook](http://nbviewer.ipython.org/github/alexminnaar/time-series-classification-and-clustering/blob/master/Time%20Series%20Classification%20and%20Clustering.ipynb)
+- Dynamic Time Warping using rpy and Python: [another blog post](https://nipunbatra.wordpress.com/2013/06/09/dynamic-time-warping-using-rpy-and-python)
+- Mining Time-series with Trillions of Points: Dynamic Time Warping at Scale: another blog post
+- Time Series Analysis and Mining in R (to add R to the mix): yet another blog post
+- And, finally, two tools implementing/supporting DTW, to top it off: R package and Python module
 
 1. Time Series Hierarchical Clustering using Dynamic Time Warping in Python - notebook
 2. K-Means with DTW, probably fixed length vectors, using tslearn

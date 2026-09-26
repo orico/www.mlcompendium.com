@@ -2,16 +2,16 @@
 
 This page covers PCA, t-SNE, LDA, LSA, ICA, kernel PCA, and manifold methods with tutorials and comparisons.
 
-* A series on DR for dummies on medium part 1 2 3
-* A small blog post about PCA, AE & TSNE in tensorflow
-* Visualizing PCA/TSNE using plots
+- A series on DR for dummies on medium part 1 2 3
+- A small blog post about PCA, AE & TSNE in tensorflow
+- Visualizing PCA/TSNE using plots
 
 <figure><img src="../.gitbook/assets/gimg-e1e0b712641f.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/z9DLl6o7PnbmU-Ub12O7rCCa5JtoOoP9ip64dgNFl_Vhvzm5BTG93g2JXkKKJNt1C4F9LfY_3HhDkB__7W1ELuPcrluKUAjrbBgLShBEonQlvccbqzg08xG1YdX3tTYsr5i5aa6O">copied from the original hosted image</a>.</p></figcaption></figure>
 
-* [Parallex by uber for tsne \ pca visualization](https://github.com/uber-research/parallax)
-* About tsne / ae / pca
-* [Does dim-reduction loses information - yes and no, in pca yes only if you use less than the entire matrix](https://stats.stackexchange.com/questions/66060/does-dimension-reduction-always-lose-some-information)
-* [Performance comparison between dim-reduction implementations, tsne etc.](https://umap-learn.readthedocs.io/en/latest/benchmarking.html)<figure><img src="../.gitbook/assets/gimg-b9baa8528058.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/4ylgV9z3E2_t9aXh8za1o3g88jOXf4pOs1QS_IB4vhnM_VKSCCxENuEZ095s5t0D4XXhBlOe9kaMu1F94YTx_AggRmFBVs3pT3Z30FiIM9uq5WGceoj4dEIxazyLrQpcRLD3GbCf">copied from the original hosted image</a>.</p></figcaption></figure>
+- [Parallex by uber for tsne \ pca visualization](https://github.com/uber-research/parallax)
+- About tsne / ae / pca
+- [Does dim-reduction loses information - yes and no, in pca yes only if you use less than the entire matrix](https://stats.stackexchange.com/questions/66060/does-dimension-reduction-always-lose-some-information)
+- [Performance comparison between dim-reduction implementations, tsne etc.](https://umap-learn.readthedocs.io/en/latest/benchmarking.html)<figure><img src="../.gitbook/assets/gimg-b9baa8528058.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/4ylgV9z3E2_t9aXh8za1o3g88jOXf4pOs1QS_IB4vhnM_VKSCCxENuEZ095s5t0D4XXhBlOe9kaMu1F94YTx_AggRmFBVs3pT3Z30FiIM9uq5WGceoj4dEIxazyLrQpcRLD3GbCf">copied from the original hosted image</a>.</p></figcaption></figure>
 
 ###
 
@@ -37,14 +37,14 @@ Iteratively moving from the left to the right<figure><img src="../.gitbook/asset
 This subsection lists PCA tutorials, large-matrix tricks, whitening, and cross-validation advice.
 
 1. Machine learning mastery:
- 1. [Expected value, variance, covariance ](https://machinelearningmastery.com/introduction-to-expected-value-variance-and-covariance)
- 2. [PCA](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/) **(remove the mean from A, calculate cov(A), calculate eig(cov), A\*eigK = PCA)**
- 3. [EigenDecomposition](https://machinelearningmastery.com/introduction-to-eigendecomposition-eigenvalues-and-eigenvectors/) **- what is an eigen vector - simply put its a vector that satisfies A\*v = lambda\*v, how to use eig() and how to confirm an eigenvector/eigenvalue and reconstruct the original A matrix.**
- 4. [SVD](https://machinelearningmastery.com/singular-value-decomposition-for-machine-learning)
- 5. What is missing is how the EigenDecomposition is calculated.
+   1. [Expected value, variance, covariance ](https://machinelearningmastery.com/introduction-to-expected-value-variance-and-covariance)
+   2. [PCA](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/) **(remove the mean from A, calculate cov(A), calculate eig(cov), A\*eigK = PCA)**
+   3. [EigenDecomposition](https://machinelearningmastery.com/introduction-to-eigendecomposition-eigenvalues-and-eigenvectors/) **- what is an eigen vector - simply put its a vector that satisfies A\*v = lambda\*v, how to use eig() and how to confirm an eigenvector/eigenvalue and reconstruct the original A matrix.**
+   4. [SVD](https://machinelearningmastery.com/singular-value-decomposition-for-machine-learning)
+   5. What is missing is how the EigenDecomposition is calculated.
 2. [PCA on large matrices!](https://amedee.me/post/pca-large-matrices/)
- 1. Randomized svd
- 2. Incremental svd
+   1. Randomized svd
+   2. Incremental svd
 3. [PCA on Iris](http://sebastianraschka.com/Articles/2015_pca_in_3_steps.html)
 4. (did not read) [What is PCA?](https://stats.stackexchange.com/questions/222/what-are-principal-component-scores)
 5. (did not read) [What is a covariance matrix?](https://en.wikipedia.org/wiki/Covariance_matrix)
@@ -102,15 +102,15 @@ PCA vs LDA:
 
 Both Linear Discriminant Analysis (LDA) and Principal Component Analysis (PCA) are linear transformation techniques used for dimensionality reduction.
 
-* PCA can be described as an “unsupervised” algorithm, since it “ignores” class labels and its goal is to find the directions (the so-called principal components) that maximize the variance in a dataset.
-* In contrast to PCA, LDA is “supervised” and computes the directions (“linear discriminants”) that will represent the axes that maximize the separation between multiple classes.
+- PCA can be described as an “unsupervised” algorithm, since it “ignores” class labels and its goal is to find the directions (the so-called principal components) that maximize the variance in a dataset.
+- In contrast to PCA, LDA is “supervised” and computes the directions (“linear discriminants”) that will represent the axes that maximize the separation between multiple classes.
 
 Although it might sound intuitive that LDA is superior to PCA for a multi-class classification task where the class labels are known, this might not always the case.
 
 For example, comparisons between classification accuracies for image recognition after using PCA or LDA show that:
 
-* PCA tends to outperform LDA if the number of samples per class is relatively small ([PCA vs. LDA](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=908974), A.M. Martinez et al., 2001).
-* In practice, it is also not uncommon to use both LDA and PCA in combination:
+- PCA tends to outperform LDA if the number of samples per class is relatively small ([PCA vs. LDA](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=908974), A.M. Martinez et al., 2001).
+- In practice, it is also not uncommon to use both LDA and PCA in combination:
 
 Best Practice: PCA for dimensionality reduction can be followed by an LDA. But before we skip to the results of the respective linear transformations, let us quickly recapitulate the purposes of PCA and LDA: PCA finds the axes with maximum variance for the whole data set where LDA tries to find the axes for best class separability. In practice, often a LDA is done followed by a PCA for dimensionality reduction.
 
@@ -144,10 +144,10 @@ Here is a very nice [tutorial about LSA,](https://technowiki.wordpress.com/2011/
 
 PCA vs LSA: ([intuition1](https://stats.stackexchange.com/questions/65699/lsa-vs-pca-document-clustering), [intuition2](https://math.stackexchange.com/questions/3869/what-is-the-intuitive-relationship-between-svd-and-pca))
 
-* reduction of the dimensionality
-* noise reduction
-* incorporating relations between terms into the representation.
-* SVD and PCA and "total least-squares" (and several other names) are the same thing. It computes the orthogonal transform that decorrelates the variables and keeps the ones with the largest variance. There are two numerical approaches: one by SVD of the (centered) data matrix, and one by Eigen decomposition of this matrix "squared" (covariance).
+- reduction of the dimensionality
+- noise reduction
+- incorporating relations between terms into the representation.
+- SVD and PCA and "total least-squares" (and several other names) are the same thing. It computes the orthogonal transform that decorrelates the variables and keeps the ones with the largest variance. There are two numerical approaches: one by SVD of the (centered) data matrix, and one by Eigen decomposition of this matrix "squared" (covariance).
 
 [LSA vs W2V](https://arxiv.org/pdf/1610.01520.pdf)
 

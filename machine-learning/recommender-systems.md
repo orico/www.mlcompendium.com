@@ -11,12 +11,12 @@ This page collects collaborative filtering, content-based, and matrix-factorizat
 7. [Part1,](https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75) Spotlight, item2vec, Neural nets for Recommender systems
 8. [A general tutorial, has a nice intro](https://www.datacamp.com/community/tutorials/recommender-systems-python)
 9. Medium on Movies
- 1. Part 1 matrix factorization in movies, users vs movies
- 2. Part 2 using collaborative filtering using open ai
- 3. Part 3 using col-filtering with neural nets
+   1. Part 1 matrix factorization in movies, users vs movies
+   2. Part 2 using collaborative filtering using open ai
+   3. Part 3 using col-filtering with neural nets
 10. Medium series on collaborative filtering and embeddings Part 1, part 2; [git](https://github.com/shik3519/collaborative-filtering)
 11. [Movie recommender systems](https://www.kaggle.com/rounakbanik/movie-recommender-systems) on kaggle
- 1. [On git](https://github.com/jaypatel00174/Movie-Recommendation)
+    1. [On git](https://github.com/jaypatel00174/Movie-Recommendation)
 12. Matrix factorization
 13. [Collaborative filtering with binary countvec data, item-item, didnt work well on another domain](https://medium.com/radon-dev/item-item-collaborative-filtering-with-binary-or-unary-data-e8f0b465b2c3)
 14. Netflix competition, matrix factorization over classical algorithms, a survey paper

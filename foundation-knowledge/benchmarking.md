@@ -40,46 +40,46 @@ This subsection points at domain × dataset SOTA tracking.
 
 This subsection is hardware benchmarks across cloud providers (gensim series).
 
-* [Part 1](https://rare-technologies.com/machine-learning-hardware-benchmarks/), [part 2 y gensim](https://rare-technologies.com/machine-learning-benchmarks-hardware-providers-gpu-part-2/)
+- [Part 1](https://rare-technologies.com/machine-learning-hardware-benchmarks/), [part 2 y gensim](https://rare-technologies.com/machine-learning-benchmarks-hardware-providers-gpu-part-2/)
 
 ### Datasets
 
 This subsection points at EFF AI metrics benchmarks.
 
-* EFF FF Benchmarks in AI
+- EFF FF Benchmarks in AI
 
 ### Hardware
 
 This subsection compares GPUs and CPU vs GPU for deep learning.
 
-* [Nvidia](https://www.phoronix.com/scan.php?page=article&item=nvidia-rtx2080ti-tensorflow&num=1) 1070 vs 1080 vs 2080
-* [Cpu vs GPU benchmarking for CNN/Test/LTSM/BDLTSM](http://minimaxir.com/2017/07/cpu-or-gpu/) - google and amazon vs gpu
-* [Nvidia GPUs](https://www.pugetsystems.com/labs/hpc/TitanXp-vs-GTX1080Ti-for-Machine-Learning-937/) - titax Xp/1080TI/1070 on googlenet
-* March/17 - [Nvidia GPUs for desktop](https://medium.com/@timcamber/deep-learning-pc-build-5cffa71ad97), in terms of price and cuda units, the bottom line is 1060-1080.
-* [Another bench up to 2013](http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/) - regarding many GPUS vs CPUs in terms of BW
+- [Nvidia](https://www.phoronix.com/scan.php?page=article&item=nvidia-rtx2080ti-tensorflow&num=1) 1070 vs 1080 vs 2080
+- [Cpu vs GPU benchmarking for CNN/Test/LTSM/BDLTSM](http://minimaxir.com/2017/07/cpu-or-gpu/) - google and amazon vs gpu
+- [Nvidia GPUs](https://www.pugetsystems.com/labs/hpc/TitanXp-vs-GTX1080Ti-for-Machine-Learning-937/) - titax Xp/1080TI/1070 on googlenet
+- March/17 - [Nvidia GPUs for desktop](https://medium.com/@timcamber/deep-learning-pc-build-5cffa71ad97), in terms of price and cuda units, the bottom line is 1060-1080.
+- [Another bench up to 2013](http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/) - regarding many GPUS vs CPUs in terms of BW
 
 ### Platforms
 
 This subsection compares deep-learning frameworks on CPU and GPU.
 
-* Cntk vs tensorflow
-* [CNTK, TEnsor, torch, etc on cpu and gpu](https://arxiv.org/pdf/1608.07249.pdf)
+- Cntk vs tensorflow
+- [CNTK, TEnsor, torch, etc on cpu and gpu](https://arxiv.org/pdf/1608.07249.pdf)
 
 ### Algorithms (classifiers)
 
 This subsection compares classifier accuracy, speed, memory, and 2D visualization.
 
-* [Comparing](https://martin-thoma.com/comparing-classifiers/) accuracy, speed, memory and 2D visualization of classifiers:
+- [Comparing](https://martin-thoma.com/comparing-classifiers/) accuracy, speed, memory and 2D visualization of classifiers:
 
 [SVM,](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) [k-nearest neighbors,](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) [Random Forest,](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) [AdaBoost Classifier,](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html) [Gradient Boosting,](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html) [Naive, Bayes,](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html) [LDA,](http://scikit-learn.org/0.16/modules/generated/sklearn.lda.LDA.html) [QDA,](http://scikit-learn.org/0.16/modules/generated/sklearn.qda.QDA.html) [RBMs,](http://scikit-learn.org/stable/modules/generated/sklearn.neural_network.BernoulliRBM.html) [Logistic Regression,](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) [RBM](http://scikit-learn.org/stable/modules/generated/sklearn.neural_network.BernoulliRBM.html) + Logistic Regression Classifier
 
-* [LSTM vs cuDNN LSTM](https://chainer.org/general/2017/03/15/Performance-of-LSTM-Using-CuDNN-v5.html) - batch size of power 2 matters, the latter is faster.
+- [LSTM vs cuDNN LSTM](https://chainer.org/general/2017/03/15/Performance-of-LSTM-Using-CuDNN-v5.html) - batch size of power 2 matters, the latter is faster.
 
 ### Scaling networks and predicting performance of NN
 
 This subsection is about predicting train time and accuracy when scaling networks across GPUs.
 
-* [A great overview of NN types](https://www.youtube.com/watch?v=lgK0BlXdOCw&feature=youtu.be), but the idea behind the video is to create a system that can predict train time and possibly accuracy when scaling networks using multiple GPUs, there is also a nice slide about general hardware recommendations.
+- [A great overview of NN types](https://www.youtube.com/watch?v=lgK0BlXdOCw&feature=youtu.be), but the idea behind the video is to create a system that can predict train time and possibly accuracy when scaling networks using multiple GPUs, there is also a nice slide about general hardware recommendations.
 
 <figure><img src="../.gitbook/assets/gimg-5fcba0363084.png" alt=""><figcaption><p>Hardware recommendations when scaling networks across GPUs.</p>
 <p>Credit: <a href="https://lh4.googleusercontent.com/mmxNCa6J3W7s3h1LUkxzEBzKxvSOlCFTzEYgaE1zcOFJV59SCQ4j5jKWMvP9JZGmaGE29VJiALogJlgK8x_V_nUo2fvBPRaXA41K1t9w39WDLM_aKVHh-yithcHZE-A0x9zSvBAy">copied from the original hosted image</a>.</p>
@@ -89,7 +89,7 @@ This subsection is about predicting train time and accuracy when scaling network
 
 This subsection points at the XTREME multilingual multi-task benchmark.
 
-* [XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization](https://github.com/google-research/xtreme/blob/master/README.md)
+- [XTREME: A Massively Multilingual Multi-task Benchmark for Evaluating Cross-lingual Generalization](https://github.com/google-research/xtreme/blob/master/README.md)
 
 #### Multi-Task Learning
 

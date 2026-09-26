@@ -18,8 +18,8 @@ This page collects books, courses, CUPED and variance-reduction methods, challen
 
    Slides:
 
-   * [Part I. Introduction](https://drive.google.com/file/d/13rq3KeqCdsM5EiNcr7jWbphc0wWw12sX/view?usp=sharing)
-   * [Part II. Best Practices](https://drive.google.com/file/d/1q3uf0Voe0oi7aPyxpPoqYxL2Ie_Vtqnk/view?usp=sharing)
+   - [Part I. Introduction](https://drive.google.com/file/d/13rq3KeqCdsM5EiNcr7jWbphc0wWw12sX/view?usp=sharing)
+   - [Part II. Best Practices](https://drive.google.com/file/d/1q3uf0Voe0oi7aPyxpPoqYxL2Ie_Vtqnk/view?usp=sharing)
 10. [Increasing experimentation accuracy and speed by using control variates](https://codeascraft.com/2021/06/02/increasing-experimentation-accuracy-and-speed-by-using-control-variates/) — In this article, we share details about our team’s journey to bring the statistical method known as CUPED to Etsy, and how it is now helping other teams make more informed product decisions, as well as shorten the duration of their experiments by up to 20%. We offer some perspectives on what makes such a method possible, what it took us to implement it at scale, and what lessons we have learned along the way.
 11. (Microsoft) [Why Tenant-Randomized A/B Test is Challenging and Tenant-Pairing May Not Work](https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/articles/why-tenant-randomized-a-b-test-is-challenging-and-tenant-pairing-may-not-work/)
 12. (good) [How to Double A/B Testing Speed with CUPED](https://towardsdatascience.medium.com/how-to-double-a-b-testing-speed-with-cuped-f80460825a90) — Microsoft’s variance reduction that’s becoming industry standard.

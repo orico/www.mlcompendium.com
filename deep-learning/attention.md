@@ -204,8 +204,7 @@ This section covers XLNet explanations and code.
 2. [git](https://github.com/zihangdai/xlnet)
 3. CLIP
 4. (keras) [Implementation of a dual encoder](https://keras.io/examples/nlp/nl_image_search/) model for retrieving images that match natural language queries. - The example demonstrates how to build a dual encoder (also known as two-tower) neural network model to search for images using natural language. The model is inspired by the [CLIP](https://openai.com/blog/clip/) approach, introduced by Alec Radford et al. The idea is to train a vision encoder and a text encoder jointly to project the representation of images and their captions into the same embedding space, such that the caption embeddings are located near the embeddings of the images they describe.
-5.
-   1. Adversarial methodologies
+5. Adversarial methodologies
 6. What is label [flipping and smoothing](https://datascience.stackexchange.com/questions/55359/how-label-smoothing-and-label-flipping-increases-the-performance-of-a-machine-le/56662) and usage for making a model more robust against adversarial methodologies - 0
 
 Label flipping is a training technique where one selectively manipulates the labels in order to make the model more robust against label noise and associated attacks - the specifics depend a lot on the nature of the noise. Label flipping bears no benefit only under the assumption that all labels are (and will always be) correct and that no adversaries exist. In cases where noise tolerance is desirable, training with label flipping is beneficial.
@@ -286,7 +285,6 @@ These links and images no longer work. The original wording is kept here. A same
 - Towards Data Science: transfer-learning-using-elmo-embedding-c4a7e415103c. This address no longer opens: https://towardsdatascience.com/transfer-learning-using-elmo-embedding-c4a7e415103c
 - Towards Data Science: understanding-bert-is-it-a-game-changer-in-nlp-7cca943cf3ad. This address no longer opens: https://towardsdatascience.com/understanding-bert-is-it-a-game-changer-in-nlp-7cca943cf3ad
 - Towards Data Science: understanding-language-modelling-nlp-part-1-ulmfit-b557a63a672b. This address no longer opens: https://towardsdatascience.com/understanding-language-modelling-nlp-part-1-ulmfit-b557a63a672b
-
 - paper. This address no longer opens: https://www.cs.cmu.edu/~diyiy/docs/naacl16.pdf
 - A survey of long term context in transformers.. This address no longer opens: https://www.pragmatic.ml/a-survey-of-methods-for-incorporating-long-term-context/
 - tutorial. This address no longer opens: https://allennlp.org/tutorials

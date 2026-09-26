@@ -8,8 +8,8 @@ This page compares normalization and scaling choices, including when to standard
 
 - Data has varying scales.
 - Normalize between range 0 to 1.
-  - When the algorithm you are using does not make assumptions about the distribution of your data, such as k-nearest neighbors and artificial neural networks.
+   - When the algorithm you are using does not make assumptions about the distribution of your data, such as k-nearest neighbors and artificial neural networks.
 - Standardize, mean of 0 and a std of 1:
-  - When the algorithm assumes a Gaussian dist, such as linear regression, logistic regression and linear discriminant analysis. LR, LogR, LDA
+   - When the algorithm assumes a Gaussian dist, such as linear regression, logistic regression and linear discriminant analysis. LR, LogR, LDA
 
 Generally, it is a good idea to standardize data that has a Gaussian (bell curve) distribution and normalize otherwise. In general terms, we should test 0,1 or -1,1 empirically and possibly match the range to the NN gates/activation function etc.

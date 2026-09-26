@@ -30,12 +30,12 @@ This article provides an overview of TDSP and its main components. We provide a 
 
 > "When I used to do consulting, I’d always seek to understand an organization’s context for developing data projects, based on these considerations:
 >
-> * Strategy: What is the organization trying to do (objective) and what can it change to do it better (levers)?
-> * Data: Is the organization capturing necessary data and making it available?
-> * Analytics: What kinds of insights would be useful to the organization?
-> * Implementation: What organizational capabilities does it have?
-> * Maintenance: What systems are in place to track changes in the operational environment?
-> * Constraints: What constraints need to be considered in each of the above areas?"
+> - Strategy: What is the organization trying to do (objective) and what can it change to do it better (levers)?
+> - Data: Is the organization capturing necessary data and making it available?
+> - Analytics: What kinds of insights would be useful to the organization?
+> - Implementation: What organizational capabilities does it have?
+> - Maintenance: What systems are in place to track changes in the operational environment?
+> - Constraints: What constraints need to be considered in each of the above areas?"
 
 ## Workflows
 
@@ -126,18 +126,18 @@ This section is stories and models for how data teams organize.
 
 This section lists video and tutorial courses for ML and deep learning.
 
-* [DEEPNET.TV YOUTUBE (excellent)](https://www.youtube.com/channel/UC9OeZkIwhzfv-_Cb7fCikLQ)
-* [Mitchel ML Lectures (too long)](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml)
-* [Quoc Les (google) wrote DNN tutorials and 3H video (not intuitive)](http://cs.stanford.edu/~quocle/)
-* [KDnuggets: numpy, panda, scikit, tutorials.](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html)
-* [Deep learning online book (too wordy)](http://neuralnetworksanddeeplearning.com/)
-* [Genetic Algorithms - grid search hyper params better than brute force.. obviously](https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164)
-* [CNN tutorial](http://mccormickml.com/2015/01/10/understanding-the-deeplearntoolbox-cnn-example/)
-* [Introduction to programming in scikit](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-intro.ipynb)
-* [SVM in scikit python](https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/03.1-Classification-SVMs.ipynb)
-* [Sklearn scipy PCA tutorial](https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/04.1-Dimensionality-PCA.ipynb)
-* [RNN](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-* [Matrix Multiplication](http://www.mathwarehouse.com/algebra/matrix/multiply-matrix.php) - linear algebra
+- [DEEPNET.TV YOUTUBE (excellent)](https://www.youtube.com/channel/UC9OeZkIwhzfv-_Cb7fCikLQ)
+- [Mitchel ML Lectures (too long)](http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml)
+- [Quoc Les (google) wrote DNN tutorials and 3H video (not intuitive)](http://cs.stanford.edu/~quocle/)
+- [KDnuggets: numpy, panda, scikit, tutorials.](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html)
+- [Deep learning online book (too wordy)](http://neuralnetworksanddeeplearning.com/)
+- [Genetic Algorithms - grid search hyper params better than brute force.. obviously](https://medium.com/@harvitronix/lets-evolve-a-neural-network-with-a-genetic-algorithm-code-included-8809bece164)
+- [CNN tutorial](http://mccormickml.com/2015/01/10/understanding-the-deeplearntoolbox-cnn-example/)
+- [Introduction to programming in scikit](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-intro.ipynb)
+- [SVM in scikit python](https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/03.1-Classification-SVMs.ipynb)
+- [Sklearn scipy PCA tutorial](https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/04.1-Dimensionality-PCA.ipynb)
+- [RNN](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Matrix Multiplication](http://www.mathwarehouse.com/algebra/matrix/multiply-matrix.php) - linear algebra
 
 ## Deep learning Course
 

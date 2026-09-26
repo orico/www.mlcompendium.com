@@ -6,62 +6,62 @@ This page collects voting, bagging, boosting, stacking, and related ensemble rea
 2. [How to combine several sklearn algorithms into a voting ensemble](https://www.youtube.com/watch?v=vlTQLb_a564&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=16)
 3. [Stacking api, MLXTEND](http://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier/)
 4. Machine learning Mastery on
- 1. [stacking neural nets — really good](https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/)
- 1. Stacked Generalization Ensemble
- 2. Multi-Class Classification Problem
- 3. Multilayer Perceptron Model
- 4. Train and Save Sub-Models
- 5. Separate Stacking Model
- 6. Integrated Stacking Model
- 2. [How to Combine Predictions for Ensemble Learning](https://machinelearningmastery.com/combine-predictions-for-ensemble-learning/)
- 1. Plurality Voting.
- 2. Majority Voting.
- 3. Unanimous Voting.
- 4. Weighted Voting.
- 3. [Essence of Stacking Ensembles for Machine Learning](https://machinelearningmastery.com/essence-of-stacking-ensembles-for-machine-learning/)
- 1. Voting Ensembles
- 2. Weighted Average
- 3. Blending Ensemble
- 4. Super Learner Ensemble
- 4. [Dynamic Ensemble Selection (DES) for Classification in Python](https://machinelearningmastery.com/dynamic-ensemble-selection-in-python/) — Dynamic Ensemble Selection algorithms operate much like DCS algorithms, except predictions are made using votes from multiple classifier models instead of a single best model. In effect, each region of the input feature space is owned by a subset of models that perform best in that region.
- 1. k-Nearest Neighbor Oracle (KNORA) With Scikit-Learn
- 1. KNORA-Eliminate (KNORA-E)
- 2. KNORA-Union (KNORA-U)
- 2. Hyperparameter Tuning for KNORA
- 1. Explore k in k-Nearest Neighbor
- 2. Explore Algorithms for Classifier Pool
- 5. [A Gentle Introduction to Mixture of Experts Ensembles](https://machinelearningmastery.com/mixture-of-experts/)
- 1. Mixture of Experts
- 1. Subtasks
- 2. Expert Models
- 3. Gating Model
- 4. Pooling Method
- 2. Relationship With Other Techniques
- 1. Mixture of Experts and Decision Trees
- 2. Mixture of Experts and Stacking
- 6. [Strong Learners vs. Weak Learners in Ensemble Learning](https://machinelearningmastery.com/strong-learners-vs-weak-learners-for-ensemble-learning/) — Weak learners are models that perform slightly better than random guessing. Strong learners are models that have arbitrarily good accuracy.
+   1. [stacking neural nets — really good](https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/)
+      1. Stacked Generalization Ensemble
+      2. Multi-Class Classification Problem
+      3. Multilayer Perceptron Model
+      4. Train and Save Sub-Models
+      5. Separate Stacking Model
+      6. Integrated Stacking Model
+   2. [How to Combine Predictions for Ensemble Learning](https://machinelearningmastery.com/combine-predictions-for-ensemble-learning/)
+      1. Plurality Voting.
+      2. Majority Voting.
+      3. Unanimous Voting.
+      4. Weighted Voting.
+   3. [Essence of Stacking Ensembles for Machine Learning](https://machinelearningmastery.com/essence-of-stacking-ensembles-for-machine-learning/)
+      1. Voting Ensembles
+      2. Weighted Average
+      3. Blending Ensemble
+      4. Super Learner Ensemble
+   4. [Dynamic Ensemble Selection (DES) for Classification in Python](https://machinelearningmastery.com/dynamic-ensemble-selection-in-python/) — Dynamic Ensemble Selection algorithms operate much like DCS algorithms, except predictions are made using votes from multiple classifier models instead of a single best model. In effect, each region of the input feature space is owned by a subset of models that perform best in that region.
+      1. k-Nearest Neighbor Oracle (KNORA) With Scikit-Learn
+         1. KNORA-Eliminate (KNORA-E)
+         2. KNORA-Union (KNORA-U)
+      2. Hyperparameter Tuning for KNORA
+         1. Explore k in k-Nearest Neighbor
+         2. Explore Algorithms for Classifier Pool
+   5. [A Gentle Introduction to Mixture of Experts Ensembles](https://machinelearningmastery.com/mixture-of-experts/)
+      1. Mixture of Experts
+         1. Subtasks
+         2. Expert Models
+         3. Gating Model
+         4. Pooling Method
+      2. Relationship With Other Techniques
+         1. Mixture of Experts and Decision Trees
+         2. Mixture of Experts and Stacking
+   6. [Strong Learners vs. Weak Learners in Ensemble Learning](https://machinelearningmastery.com/strong-learners-vs-weak-learners-for-ensemble-learning/) — Weak learners are models that perform slightly better than random guessing. Strong learners are models that have arbitrarily good accuracy.
 
- Weak and strong learners are tools from computational learning theory and provide the basis for the development of the boosting class of ensemble methods.
+      Weak and strong learners are tools from computational learning theory and provide the basis for the development of the boosting class of ensemble methods.
 5. [Vidhya on trees, bagging boosting, gbm, xgb](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/#three)
 6. [Parallel grad boost treest](http://zhanpengfang.github.io/418home.html)
 7. [A comprehensive guide to ensembles read!](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/) (samuel jefroykin)
- 1. Basic Ensemble Techniques
- 2. 2.1 Max Voting
- 3. 2.2 Averaging
- 4. 2.3 Weighted Average
- 5. Advanced Ensemble Techniques
- 6. 3.1 Stacking
- 7. 3.2 Blending
- 8. 3.3 Bagging
- 9. 3.4 Boosting
- 10. Algorithms based on Bagging and Boosting
- 11. 4.1 Bagging meta-estimator
- 12. 4.2 Random Forest
- 13. 4.3 AdaBoost
- 14. 4.4 GBM
- 15. 4.5 XGB
- 16. 4.6 Light GBM
- 17. 4.7 CatBoost
+   1. Basic Ensemble Techniques
+   2. 2.1 Max Voting
+   3. 2.2 Averaging
+   4. 2.3 Weighted Average
+   5. Advanced Ensemble Techniques
+   6. 3.1 Stacking
+   7. 3.2 Blending
+   8. 3.3 Bagging
+   9. 3.4 Boosting
+   10. Algorithms based on Bagging and Boosting
+   11. 4.1 Bagging meta-estimator
+   12. 4.2 Random Forest
+   13. 4.3 AdaBoost
+   14. 4.4 GBM
+   15. 4.5 XGB
+   16. 4.6 Light GBM
+   17. 4.7 CatBoost
 8. [Kaggler guide to stacking](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/)
 9. [Blending vs stacking](https://www.quora.com/What-are-examples-of-blending-and-stacking-in-Machine-Learning)
 10. Kaggle ensemble guide

@@ -52,8 +52,8 @@ This is partly due to the Central Limit Theorem, which says that if you average 
 - It may not exactly match the real world, but it is close enough that this one simplifying assumption allows you to predict lots of things, and the predictions are often pretty reasonable.
 - Statistically convenient.
 - Represented by basic statistics
-  - Average
-  - Variance (or standard deviation) - the average of what's left when you take away the average, but to the power of 2.
+   - Average
+   - Variance (or standard deviation) - the average of what's left when you take away the average, but to the power of 2.
 
 In a statistical test, you need the data to be normal to guarantee that your p-values are accurate with your given sample size.
 

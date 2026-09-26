@@ -30,7 +30,7 @@ This section is Keras: an introduction, metrics, the functional API, embeddings,
 
 [A make sense introduction into keras](https://www.youtube.com/playlist?list=PLFxrZqbLojdKuK7Lm6uamegEFGW2wki6P), has several videos on the topic, going through many network types, creating custom activation functions, going through examples.
 
-+ Two extra videos from the same author, [examples](https://www.youtube.com/watch?v=6RdflAr66-E) and [examples-2](https://www.youtube.com/watch?v=fDKdITMBAGk)
+- Two extra videos from the same author, [examples](https://www.youtube.com/watch?v=6RdflAr66-E) and [examples-2](https://www.youtube.com/watch?v=fDKdITMBAGk)
 
 Didn't read:
 
@@ -127,7 +127,6 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - Word embedding using keras, continuous BOW - CBOW, SKIPGRAM, word2vec - really good. This address no longer opens: https://towardsdatascience.com/understanding-feature-engineering-part-4-deep-learning-methods-for-text-data-96c44370bbfa
-
 - The book. This address no longer opens: https://pytorch.org/assets/deep-learning/Deep-Learning-with-PyTorch.pdf
 - Pytorch DL course. This address no longer opens: https://atcold.github.io/pytorch-Deep-Learning/
 - Stateful LSTM. This address no longer opens: https://github.com/fchollet/keras/blob/master/examples/stateful_lstm.py

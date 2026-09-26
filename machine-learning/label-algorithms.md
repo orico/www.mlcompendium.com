@@ -34,11 +34,11 @@ Note: very much related to weakly and semi supervision, i.e., we have small amou
 
 1. [Git](https://github.com/benedekrozemberczki/LabelPropagation), [incremental LP](https://github.com/johny-c/incremental-label-propagation)
 2. [Git2](https://github.com/yamaguchiyuto/label_propagation/)
- 1. Harmonic Function (HMN) [Zhu+, ICML03]
- 2. Local and Global Consistency (LGC) [Zhou+, NIPS04]
- 3. Partially Absorbing Random Walk (PARW) [Wu+, NIPS12]
- 4. OMNI-Prop (OMNIProp) [Yamaguchi+, AAAI15]
- 5. Confidence-Aware Modulated Label Propagation (CAMLP) [Yamaguchi+, SDM16]
+   1. Harmonic Function (HMN) [Zhu+, ICML03]
+   2. Local and Global Consistency (LGC) [Zhou+, NIPS04]
+   3. Partially Absorbing Random Walk (PARW) [Wu+, NIPS12]
+   4. OMNI-Prop (OMNIProp) [Yamaguchi+, AAAI15]
+   5. Confidence-Aware Modulated Label Propagation (CAMLP) [Yamaguchi+, SDM16]
 
 <figure><img src="../.gitbook/assets/gimg-cfbad8f6ef70.png" alt=""><figcaption><p>Label propagation variants.</p><p>Credit: <a href="https://lh6.googleusercontent.com/O7nhJu4DU47zpTRkJy53CloKGW6Msk7jZIhMdsI3VePsRgzJji3XCG0Nmlpv4F3rBmb4eS-fTRMUyuTfwaHE9k687ScSFYQmadOkIKRNaRMBvW-PiRs1vGeINYTV8uYZ3tjmcdRk">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -51,9 +51,9 @@ Neo4j 1, 2, 3,
 This section is cleanlab, PU-learning, and pumml for positive-unlabeled data.
 
 1. [clean lab](https://github.com/cleanlab/cleanlab) — "`cleanlab` is the data-centric ML ops package for machine learning with noisy labels. `cleanlab` `clean`s `lab`els and supports finding, quantifying, and learning with label errors in datasets. See datasets cleaned with `cleanlab` at [labelerrors.com](https://labelerrors.com/). Check out the: [cleanlab code documentation](https://cleanlab.readthedocs.io/). `cleanlab` is powered by confident learning, published in this [paper](https://jair.org/index.php/jair/article/view/12125) | [blog](https://l7.curtisnorthcutt.com/confident-learning)."
- 1. Reference 1: [Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks](https://openreview.net/forum?id=XccDXrDNLek) by [Curtis G Northcutt](https://openreview.net/profile?id=~Curtis_G_Northcutt1), [Anish Athalye](https://openreview.net/profile?id=~Anish_Athalye1), [Jonas Mueller](https://openreview.net/profile?id=~Jonas_Mueller1)
- 2. Reference 2: [Confident Learning: Estimating Uncertainty in Dataset Labels](https://www.jair.org/index.php/jair/article/view/12125)
- 3. can be used for positive unlabeled learning
+   1. Reference 1: [Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks](https://openreview.net/forum?id=XccDXrDNLek) by [Curtis G Northcutt](https://openreview.net/profile?id=~Curtis_G_Northcutt1), [Anish Athalye](https://openreview.net/profile?id=~Anish_Athalye1), [Jonas Mueller](https://openreview.net/profile?id=~Jonas_Mueller1)
+   2. Reference 2: [Confident Learning: Estimating Uncertainty in Dataset Labels](https://www.jair.org/index.php/jair/article/view/12125)
+   3. can be used for positive unlabeled learning
 2. [PULearn](https://github.com/pulearn/pulearn) — "Positive-unlabeled learning (aka PU-learning) is a machine learning scenario for binary classification where the training set consists of a set of positively-labeled examples and an additional unlabeled set that contains positive and negative examples in unknown proportions (so no training example is explicitly labeled as negative). Positive-unlabeled learning methods aim to incorporate the unique structure of this scenario into the learning process, in a way that improves generalization of the learned notion of the positive class, when compared to simply treating all unlabeled examples as negative examples, or alternatively discarding them and training a one-class classifier over only the positive samples."
 3. [PUMML](https://github.com/ncfrey/pumml), Medium — "Positive and Unlabeled Materials Machine Learning (pumml) is a code that uses semi-supervised machine learning to classify materials from only positive and unlabeled examples."
 

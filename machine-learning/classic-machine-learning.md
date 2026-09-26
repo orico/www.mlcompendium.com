@@ -22,9 +22,8 @@ This subsection covers Bayes theorem, belief networks, and maximum likelihood.
 2. [Introduction To BBS](https://codesachin.wordpress.com/2017/03/10/an-introduction-to-bayesian-belief-networks/) - a very good blog post
 3. A complementing SLIDE presentation that shows how to build the network’s tables
 4. A very nice presentation regarding BBS
-5.
-6. [Maximum Likelihood](http://mathworld.wolfram.com/MaximumLikelihood.html) (log likelihood) - proofs for bernoulli, normal, poisson.
-7. [Another example](https://codesachin.wordpress.com/2017/03/10/an-introduction-to-bayesian-belief-networks/)
+5. [Maximum Likelihood](http://mathworld.wolfram.com/MaximumLikelihood.html) (log likelihood) - proofs for bernoulli, normal, poisson.
+6. [Another example](https://codesachin.wordpress.com/2017/03/10/an-introduction-to-bayesian-belief-networks/)
 
 #### MARKOV MODELS
 
@@ -32,31 +31,31 @@ This subsection explains random versus stochastic wording and introductory Marko
 
 Random vs Stochastic ([here](https://math.stackexchange.com/questions/114373/whats-the-difference-between-stochastic-and-random) and [here](https://math.stackexchange.com/questions/569951/what-is-the-difference-between-a-random-vector-and-a-stochastic-process)):
 
-* A variable is 'random'.
-* A process is 'stochastic'.
+- A variable is 'random'.
+- A process is 'stochastic'.
 
 Apart from this difference the two words are synonyms
 
 In other words:
 
-* A random vector is a generalization of a single random variables to many.
-* A stochastic process is a sequence of random variables, or a sequence of random vectors (and then you have a vector-stochastic process).
+- A random vector is a generalization of a single random variables to many.
+- A stochastic process is a sequence of random variables, or a sequence of random vectors (and then you have a vector-stochastic process).
 
 (What is a Markov Model?) A Markov Model is a stochastic(random) model which models temporal or sequential data, i.e., data that are ordered.
 
-* It provides a way to model the dependencies of current information (e.g. weather) with previous information.
-* It is composed of states, transition scheme between states, and emission of outputs (discrete or continuous). 
-* Several goals can be accomplished by using Markov models: 
- * Learn statistics of sequential data. 
- * Do prediction or estimation. 
- * Recognize patterns.
+- It provides a way to model the dependencies of current information (e.g. weather) with previous information.
+- It is composed of states, transition scheme between states, and emission of outputs (discrete or continuous).
+- Several goals can be accomplished by using Markov models:
+   - Learn statistics of sequential data.
+   - Do prediction or estimation.
+   - Recognize patterns.
 
 ([sunny cloudy explanation](http://techeffigytutorials.blogspot.co.il/2015/01/markov-chains-explained.html)) Markov Chains is a probabilistic process, that relies on the current state to predict the next state.
 
-* to be effective the current state has to be dependent on the previous state in some way
-* if it looks cloudy outside, the next state we expect is rain.
-* If the rain starts to subside into cloudiness, the next state will most likely be sunny.
-* Not every process has the Markov Property, such as the Lottery, this weeks winning numbers have no dependence to the previous weeks winning numbers.
+- to be effective the current state has to be dependent on the previous state in some way
+- if it looks cloudy outside, the next state we expect is rain.
+- If the rain starts to subside into cloudiness, the next state will most likely be sunny.
+- Not every process has the Markov Property, such as the Lottery, this weeks winning numbers have no dependence to the previous weeks winning numbers.
 
 1. They show how to build an order 1 markov table of probabilities, predicting the next state given the current.
 2. Then it shows the state diagram built from this table.
@@ -71,10 +70,10 @@ This subsection collects HMM tutorials, software, and explanatory videos.
 HMM tutorials
 
 1. HMM tutorial
- 1. Part 1, 2, 3, 4
+   1. Part 1, 2, 3, 4
 2. Medium
- 1. Intro to HMM / MM
- 2. [Paper like example](https://medium.com/@kangeugine/hidden-markov-model-7681c22f5b9)
+   1. Intro to HMM / MM
+   2. [Paper like example](https://medium.com/@kangeugine/hidden-markov-model-7681c22f5b9)
 3. HMM with sklearn and networkx
 
 HMM variants
@@ -82,13 +81,13 @@ HMM variants
 1. [Stack exchange on hmm](https://datascience.stackexchange.com/questions/8460/python-library-to-implement-hidden-markov-models)
 2. [HMM LEARN](https://github.com/hmmlearn/hmmlearn) (sklearn, still being developed)
 3. [Pomegranate](https://pomegranate.readthedocs.io/en/latest/) (this is good)
- 1. General mixture models
- 2. Hmm
- 3. Basyes classifiers and naive bayes
- 4. Markov changes
- 5. Bayesian networks
- 6. Markov networks
- 7. Factor graphs
+   1. General mixture models
+   2. Hmm
+   3. Basyes classifiers and naive bayes
+   4. Markov changes
+   5. Bayesian networks
+   6. Markov networks
+   7. Factor graphs
 4. [GHMM with python wrappers](http://ghmm.org/),
 5. [Hmms](https://github.com/lopatovsky/HMMs) (old)
 
@@ -101,9 +100,9 @@ This youtube video [part1](https://www.youtube.com/watch?v=TPRoLreU9lA) - explai
 
 It breaks down the formula to:
 
-* transition probability formula - the probability of going from Zk to Zk+1
-* emission probability formula - the probability of going from Zk to Xk
-* (Pi) Initial distribution - the probability of Z1=i for i=1..m
+- transition probability formula - the probability of going from Zk to Zk+1
+- emission probability formula - the probability of going from Zk to Xk
+- (Pi) Initial distribution - the probability of Z1=i for i=1..m
 
 <figure><img src="../.gitbook/assets/gimg-b1373985e3c7.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh5.googleusercontent.com/4H0tKAQZosxj0cGmCcy98By6AqS3BooOvgBBLftz2Q85jeHWCUf2Ur9wGOa_OwvsC46lVOVk8i6j2uZHgRgf0DIeyOkLaY-m3NgLUUDaFVhqiFYtFlUdaYxSy0qwXPSJ2Je-zcfP">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -127,9 +126,9 @@ OBSERVED DATA -> INFER -> what you CANT OBSERVE (HIDDEN).
 
 Considering this model:
 
-* where P(X0) is the initial state for happy or sad
-* Where P(Xt | X t-1) is the transition model from time-1 to time
-* Where P(Yt | Xt) is the observation model for happy and sad (X) in 4 situations (w, sad, crying, facebook)
+- where P(X0) is the initial state for happy or sad
+- Where P(Xt | X t-1) is the transition model from time-1 to time
+- Where P(Yt | Xt) is the observation model for happy and sad (X) in 4 situations (w, sad, crying, facebook)
 
 <figure><img src="../.gitbook/assets/gimg-4b6256a7a198.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/5MOIyOwwg7VU39m2L2OqNM8VWatLz4bXCN3i1x6c9cQSJWaEeR6leubji6Bt0F-ptUJcXGYuIKjtTUmeh9iZCumgy6PPYESHzaBXOWk2fjeidWXaUIa2lNQsFW3wFhdP2BHWfKwW">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -167,23 +166,23 @@ This section lists regression libraries, trees, SVR, logistic regression, and er
 <figure><img src="../.gitbook/assets/gimg-7e832f5c64c1.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh3.googleusercontent.com/P1FIn55eoT2vzJ86cyyFMLklCph_Sk0KsFJiMgH4VMYstg9iED7hOP8fR8lVt9u5e0nVXsc8wTvb5iX3BgePkGY7p6BkHkDsyVywRZHWKNOpMJGSiJFFBGzkB3j76MHypzlwxE4g">copied from the original hosted image</a>.</p></figcaption></figure>
 
 1. [Lightning](https://github.com/scikit-learn-contrib/lightning) - lightning is a library for large-scale linear classification, regression and ranking in Python.
- <figure><img src="../.gitbook/assets/gimg-8b37986fda51.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/IP4Qg9ynzzWdjcFVqiy9TJfOzX7l8_9t8upL8ORVj4zHie6p1GKnuOoWBvth6yXCBQjmGi6W8wXVNPfBQkNwJqdo29TB6y3YTe23PsMOwgES9uF6U_8iGaYu8jHvmG2zvjriT3QV">copied from the original hosted image</a>.</p></figcaption></figure>
+   <figure><img src="../.gitbook/assets/gimg-8b37986fda51.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/IP4Qg9ynzzWdjcFVqiy9TJfOzX7l8_9t8upL8ORVj4zHie6p1GKnuOoWBvth6yXCBQjmGi6W8wXVNPfBQkNwJqdo29TB6y3YTe23PsMOwgES9uF6U_8iGaYu8jHvmG2zvjriT3QV">copied from the original hosted image</a>.</p></figcaption></figure>
 2. Linear regression TBC
 3. CART - [classification and regression tree](http://www.simafore.com/blog/bid/62482/2-main-differences-between-classification-and-regression-trees), basically the diff between classification and regression trees - instead of IG we use sum squared error
 4. SVR - regression based svm, with kernel only.
 5. [NNR](https://deeplearning4j.org/linear-regression)- regression based NN, one output node
 6. [LOGREG](http://www.statisticssolutions.com/what-is-logistic-regression/) - Logistic regression - is used as a classification algo to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables. Output is BINARY. I.e., If the likelihood of killing the bug is > 0.5 it is assumed dead, if it is < 0.5 it is assumed alive.
 
-* Assumes binary outcome
-* Assumes no outliers
-* Assumes no intercorrelations among predictors (inputs?)
+- Assumes binary outcome
+- Assumes no outliers
+- Assumes no intercorrelations among predictors (inputs?)
 
 Regression Measurements:
 
 1. R^2 - [several reasons it can be too high.](http://blog.minitab.com/blog/adventures-in-statistics-2/five-reasons-why-your-r-squared-can-be-too-high)
- 1. Too many variables
- 2. Overfitting
- 3. Time series - seasonality trends can cause this
+   1. Too many variables
+   2. Overfitting
+   3. Time series - seasonality trends can cause this
 2. [RMSE vs MAE](https://medium.com/human-in-a-machine-world/mae-and-rmse-which-metric-is-better-e60ac3bde13d)
 
 #### KERNEL REGRESSION
@@ -192,10 +191,10 @@ This subsection describes Gaussian kernel regression and its link to RBF network
 
 [Gaussian Kernel Regression](http://mccormickml.com/2014/02/26/kernel-regression/) does–it takes a weighted average of the surrounding points
 
-* variance, sigma^2. Informally, this parameter will control the smoothness of your approximated function.
-* Smaller values of sigma will cause the function to overfit the data points, while larger values will cause it to underfit
-* There is a proposed method to find sigma in the post!
-* Gaussian Kernel Regression is equivalent to creating an RBF Network with the following properties: - described in the post
+- variance, sigma^2. Informally, this parameter will control the smoothness of your approximated function.
+- Smaller values of sigma will cause the function to overfit the data points, while larger values will cause it to underfit
+- There is a proposed method to find sigma in the post!
+- Gaussian Kernel Regression is equivalent to creating an RBF Network with the following properties: - described in the post
 
 <figure><img src="../.gitbook/assets/gimg-1489877d6d16.png" alt=""><figcaption><p>Gaussian kernel regression.</p><p>Credit: <a href="https://lh4.googleusercontent.com/V9zIvIq9putPPvzrwOOSayDsZllNCgwMhMvYNBu2rSYGSLFI9LfIxzjMWy2Z0wSw4T1CwOqQBd5qX45pgAq4lpfUbMR0CiGmu5rec38RTusLA1Fg5XaqqPZ3D4zvIQoR2Kb5w8fb">copied from the original hosted image</a>.</p></figcaption></figure>
 

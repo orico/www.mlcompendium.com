@@ -34,19 +34,19 @@ This block follows Robert Munro’s human-in-the-loop machine learning book and 
 1. [GIT](https://github.com/rmunro/pytorch_active_learning)
 2. [Active transfer learning](https://medium.com/pytorch/active-transfer-learning-with-pytorch-71ed889f08c1)
 3. [Uncertainty sampling](https://medium.com/data-science/uncertainty-sampling-cheatsheet-ec57bc067c0b)
-   1. Least Confidence: difference between the most confident prediction and 100% confidence
-   2. Margin of Confidence: difference between the top two most confident predictions
-   3. Ratio of Confidence: ratio between the top two most confident predictions
-   4. Entropy: difference between all predictions, as defined by information theory
+   - Least Confidence: difference between the most confident prediction and 100% confidence
+   - Margin of Confidence: difference between the top two most confident predictions
+   - Ratio of Confidence: ratio between the top two most confident predictions
+   - Entropy: difference between all predictions, as defined by information theory
 
 <figure><img src="../.gitbook/assets/gimg-2b1ae57527ed.png" alt=""><figcaption><p>Uncertainty sampling.</p><p>Credit: <a href="https://lh3.googleusercontent.com/GK8uZ-WZg-0QFkXuxjR9iUM9tAhKJUeW-LApwTbknab37JXvvMQlQc-bvK2GpF5HGqoFCabSGzwWoSIzL6TdHg9_WclZhopIbn6s4JO3eG6-_yX8Q1S8C9tU90gvDGL_kSPNFU1J">by Robert (Munro) Monarch</a>.</p></figcaption></figure>
 
 [Diversity sampling](https://medium.com/data-science/diversity-sampling-cheatsheet-32619693c304) - you want to make sure that it covers as diverse a set of data and real-world demographics as possible.
 
-1. Model-based Outliers: sampling for low activation in your logits and hidden layers to find items that are confusing to your model because of lack of information
-2. Cluster-based Sampling: using Unsupervised Machine Learning to sample data from all the meaningful trends in your data’s feature-space
-3. Representative Sampling: sampling items that are the most representative of the target domain for your model, relative to your current training data
-4. Real-world diversity: using sampling strategies that increase fairness when trying to support real-world diversity
+- Model-based Outliers: sampling for low activation in your logits and hidden layers to find items that are confusing to your model because of lack of information
+- Cluster-based Sampling: using Unsupervised Machine Learning to sample data from all the meaningful trends in your data’s feature-space
+- Representative Sampling: sampling items that are the most representative of the target domain for your model, relative to your current training data
+- Real-world diversity: using sampling strategies that increase fairness when trying to support real-world diversity
 
 <figure><img src="../.gitbook/assets/gimg-62f33b9e5a8d.png" alt=""><figcaption><p>Diversity sampling.</p><p>Credit: <a href="https://lh6.googleusercontent.com/fsXyZEAvwEbhm7sGt7EcfxDz85zTKEwz4VvRdxzpXSaB2t_5jZ3g3mjdClqUcORG8PgmtUNFAKF8nrIRYGCfl5bNVxjvYt9bn0NxmsM2U7J4NtebGxXKQSaXaZubAKx9s4v29-FP">by Robert (Munro) Monarch</a>.</p></figcaption></figure>
 
@@ -86,5 +86,4 @@ These links and images no longer work. The original wording is kept here. A same
 - Uncertainty sampling. This address no longer opens: https://towardsdatascience.com/uncertainty-sampling-cheatsheet-ec57bc067c0b
 - Diversity sampling - you want to make sure that it covers as diverse a set of data and real-world demographics as possible. This address no longer opens: https://towardsdatascience.com/https-towardsdatascience-com-diversity-sampling-cheatsheet-32619693c304
 - Combine uncertainty sampling and diversity sampling. This address no longer opens: https://towardsdatascience.com/advanced-active-learning-cheatsheet-d6710cba7667
-
 - Practical Online Active Learning for Classification. This address no longer opens: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.87.5536&rep=rep1&type=pdf

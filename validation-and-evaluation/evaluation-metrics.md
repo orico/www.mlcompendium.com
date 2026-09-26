@@ -25,7 +25,6 @@ This subsection is a placeholder for accuracy as a basic classification metric.
 This subsection links perplexity to classification accuracy.
 
 1. [perplexity and accuracy in classification](https://medium.com/unpackai/perplexity-and-accuracy-in-classification-114b57bd820d)
-2.
 
 ### Precision \ Recall \ ROC \ AUC
 
@@ -65,9 +64,9 @@ $$\text{F1\_Score} = 2 * \frac{\text{Precision} * \text{Recall}}{\text{Precision
 
 **------------------------------------**
 
-* **Accuracy = (1 – Error) = (TP + TN)/(PP + NP) = Pr(C), the probability of a correct classification.**
-* **Sensitivity (recall) = TP/(TP + FN) = TP/PP = the ability of the test to detect disease in a population of diseased individuals.**
-* **Specificity = TN/(TN + FP) = TN / NP = the ability of the test to correctly rule out the disease in a disease-free population.**
+- **Accuracy = (1 – Error) = (TP + TN)/(PP + NP) = Pr(C), the probability of a correct classification.**
+- **Sensitivity (recall) = TP/(TP + FN) = TP/PP = the ability of the test to detect disease in a population of diseased individuals.**
+- **Specificity = TN/(TN + FP) = TN / NP = the ability of the test to correctly rule out the disease in a disease-free population.**
 
 **(**[What are ?)](http://machinelearningmastery.com/assessing-comparing-classifier-performance-roc-curves-2/) **Sensitivity and specificity against ROC and AUC.**
 
@@ -90,15 +89,15 @@ This heading groups tutorials on thresholds, precision, recall, and intuition.
 
 **Recall**
 
-* **one day, your girlfriend asks you: ‘Sweetie, do you remember all birthday surprises from me?’**
-* **This simple question makes your life in danger. To extend your life, you need to recall all 10 surprising events from your memory.**
-* **So, recall is the ratio of a number of events you can correctly recall to a number of all correct events. If you can recall all 10 events correctly, then, your recall ratio is 1.0 (100%). If you can recall 7 events correctly, your recall ratio is 0.7 (70%).**
+- **one day, your girlfriend asks you: ‘Sweetie, do you remember all birthday surprises from me?’**
+- **This simple question makes your life in danger. To extend your life, you need to recall all 10 surprising events from your memory.**
+- **So, recall is the ratio of a number of events you can correctly recall to a number of all correct events. If you can recall all 10 events correctly, then, your recall ratio is 1.0 (100%). If you can recall 7 events correctly, your recall ratio is 0.7 (70%).**
 
 **Precision**
 
-* **For example, you answers 15 times, 10 events are correct and 5 events are wrong. This means you can recall all events but it’s not so precise.**
-* **So, precision is the ratio of a number of events you can correctly recall to a number all events you recall (mix of correct and wrong recalls). In other words, it is how precise of your recall.**
-* **From the previous example (10 real events, 15 answers: 10 correct answers, 5 wrong answers), you get 100% recall but your precision is only 66.67% (10 / 15).**
+- **For example, you answers 15 times, 10 events are correct and 5 events are wrong. This means you can recall all events but it’s not so precise.**
+- **So, precision is the ratio of a number of events you can correctly recall to a number all events you recall (mix of correct and wrong recalls). In other words, it is how precise of your recall.**
+- **From the previous example (10 real events, 15 answers: 10 correct answers, 5 wrong answers), you get 100% recall but your precision is only 66.67% (10 / 15).**
 
 [**Confusion matrix wise**](http://www.kdnuggets.com/faq/precision-recall.html)**: bottom line is recall (% correct out of positive cases), right column is precision (% of  POS  predictions) & % accuracy in diagonal**
 
@@ -106,8 +105,8 @@ This heading groups tutorials on thresholds, precision, recall, and intuition.
 
 [**F1 score**](http://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)**:**
 
-* **conveys the balance between the precision and the recall**
-* $$2*((precision*recall)/(precision+recall))$$
+- **conveys the balance between the precision and the recall**
+- $$2*((precision*recall)/(precision+recall))$$
 
 Yet another(pretty good) source
 
@@ -115,13 +114,13 @@ Yet another(pretty good) source
 
 **(How to use precision and recall?) answer by aurelien geron:**
 
-* **In a binary classifier, the decision function is the function that produces a score for the positive class.**
-* **In a logistic regression classifier, that decision function is simply a linear combination of the input features.**
-* **If that score is greater than some threshold that you choose, then the classifier "predicts" the positive class, or else it predicts the negative class.**
-* **If you want your model to have high precision (at the cost of a low recall), then you must set the threshold pretty high. This way, the model will only predict the positive class when it is absolutely certain. For example, you may want this if the classifier is selecting videos that are safe for kids: it's better to err on the safe side.**
-* **Conversely, if you want high recall (at the cost of a low precision) then you must use a low threshold. For example, if the classifier is used to detect intruders in a nuclear plant, then you probably want to detect all actual intruders, even if it means getting a lot of false alarms (called "false positives").**
-* **If you make a few assumptions about the distribution of the data (i.e., the positive and negative class are separated by a linear boundary plus Gaussian noise), then computing the logistic of the score gives you the probability that the instance belongs to the positive class. A score of 0 corresponds to the 50% probability. So by default, a LogisticClassifier predicts the positive class if it estimates the probability to be greater than 50%. In general, this sounds like a reasonable default threshold, but really it all depends on what you want to do with the classifier.**
-* **If the assumptions I mentioned above were perfect, then if the Logistic Classifier outputs a probability of X% for an instance, it means there is exactly X% chance that it's positive. But in practice, the assumptions are imperfect, so I try to always make it clear that we are talking about an "estimated probability", not an actual probability.**
+- **In a binary classifier, the decision function is the function that produces a score for the positive class.**
+- **In a logistic regression classifier, that decision function is simply a linear combination of the input features.**
+- **If that score is greater than some threshold that you choose, then the classifier "predicts" the positive class, or else it predicts the negative class.**
+- **If you want your model to have high precision (at the cost of a low recall), then you must set the threshold pretty high. This way, the model will only predict the positive class when it is absolutely certain. For example, you may want this if the classifier is selecting videos that are safe for kids: it's better to err on the safe side.**
+- **Conversely, if you want high recall (at the cost of a low precision) then you must use a low threshold. For example, if the classifier is used to detect intruders in a nuclear plant, then you probably want to detect all actual intruders, even if it means getting a lot of false alarms (called "false positives").**
+- **If you make a few assumptions about the distribution of the data (i.e., the positive and negative class are separated by a linear boundary plus Gaussian noise), then computing the logistic of the score gives you the probability that the instance belongs to the positive class. A score of 0 corresponds to the 50% probability. So by default, a LogisticClassifier predicts the positive class if it estimates the probability to be greater than 50%. In general, this sounds like a reasonable default threshold, but really it all depends on what you want to do with the classifier.**
+- **If the assumptions I mentioned above were perfect, then if the Logistic Classifier outputs a probability of X% for an instance, it means there is exactly X% chance that it's positive. But in practice, the assumptions are imperfect, so I try to always make it clear that we are talking about an "estimated probability", not an actual probability.**
 
 #### ROC CURVES
 
@@ -148,7 +147,6 @@ This heading compares ROC and PR curves and defines AUC.
 This subsection links cluster-count selection methods for k-means.
 
 1. Silhouette Analysis vs Elbow Method vs Davies-Bouldin Index: Selecting the optimal number of clusters for KMeans clustering
-2.
 
 ##
 
@@ -168,7 +166,6 @@ These links and images no longer work. The original wording is kept here. A same
 - Another (bad) source **for explaining, precision, recall, accuracy, true positive rate etc.** This address no longer opens: https://chrisalbon.com/machine-learning/precision_recall_and_F1_scores.html
 - What is ROC AUC and PR AUC and when to use then (i.e for imbalanced data use PRAUC). This address no longer opens: http://www.chioka.in/differences-between-roc-auc-and-pr-auc/
 - Silhouette Analysis vs Elbow Method vs Davies-Bouldin Index: Selecting the optimal number of clusters for KMeans clustering. This address no longer opens: https://gdcoder.com/silhouette-analysis-vs-elbow-method-vs-davies-bouldin-index-selecting-the-optimal-number-of-clusters-for-kmeans-clustering/
-
 - Yet another(pretty good) source. This address no longer opens: https://web.archive.org/web/2020/http://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
 - What is ROC AUC and PR AUC and when to use then (i.e for imbalanced data use PRAUC). This address no longer opens: https://web.archive.org/web/2020/http://www.chioka.in/differences-between-roc-auc-and-pr-auc/
 - Silhouette Analysis vs Elbow Method vs Davies-Bouldin Index: Selecting the optimal number of clusters for KMeans clustering. This address no longer opens: https://web.archive.org/web/2020/https://gdcoder.com/silhouette-analysis-vs-elbow-method-vs-davies-bouldin-index-selecting-the-optimal-number-of-clusters-for-kmeans-clustering/

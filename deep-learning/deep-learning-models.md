@@ -91,14 +91,14 @@ A great HyperNeat tutorial on Medium.
 This section collects notes on radial basis function network (rbfn).
 
 
-+ [RBF layer in Keras.](https://github.com/PetraVidnerova/rbf_keras/blob/master/test.py)
+- [RBF layer in Keras.](https://github.com/PetraVidnerova/rbf_keras/blob/master/test.py)
 
 The [RBFN](http://mccormickml.com/2013/08/15/radial-basis-function-network-rbfn-tutorial/) approach is more intuitive than the MLP.
 
-* An RBFN performs classification by measuring the input’s similarity to examples from the training set.
-* Each RBFN neuron stores a “prototype”, which is just one of the examples from the training set.
-* When we want to classify a new input, each neuron computes the Euclidean distance between the input and its prototype.
-* Roughly speaking, if the input more closely resembles the class A prototypes than the class B prototypes, it is classified as class A.
+- An RBFN performs classification by measuring the input’s similarity to examples from the training set.
+- Each RBFN neuron stores a “prototype”, which is just one of the examples from the training set.
+- When we want to classify a new input, each neuron computes the Euclidean distance between the input and its prototype.
+- Roughly speaking, if the input more closely resembles the class A prototypes than the class B prototypes, it is classified as class A.
 
 <figure><img src="../.gitbook/assets/gimg-6fdc79788c53.png" alt=""><figcaption><p>Architecture\_Simple</p><p>Credit: <a href="https://lh6.googleusercontent.com/5oVVPw02w2Pv1kqAGvQ6drOX6Nh7lA72cBDplTbqgd78u25ceNdjufDe8h4pKWNPKC350_r4V_TPUn1ionjck1IPJiW0Q4rwivL4sH4LJGaj7V7WZBss8eLSuqpZb5Rv525M4sQ1">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -111,9 +111,9 @@ BNN - (what is?) [Bayesian neural network (BNN)](http://edwardlib.org/tutorials/
 
 Under the BNN framework, prediction uncertainty can be categorized into three types:
 
-1. Model uncertainty captures our ignorance of the model parameters and can be reduced as more samples are collected.
-2. model misspecification
-3. inherent noise captures the uncertainty in the data generation process and is irreducible.
+- Model uncertainty captures our ignorance of the model parameters and can be reduced as more samples are collected.
+- model misspecification
+- inherent noise captures the uncertainty in the data generation process and is irreducible.
 
 Note: in a series of articles, uber explains about time series and leads to a BNN architecture.
 
@@ -170,25 +170,25 @@ This section collects notes on convolutional neural net.
 
 ([an excellent and thorough explanation about LeNet](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)) -
 
-* Convolution Layer primary purpose is to extract features from the input image. Convolution preserves the spatial relationship between pixels by learning image features using small squares of input data.
-* ReLU (more in the activation chapter) - The purpose of ReLU is to introduce non-linearity in our ConvNet
-* Spatial Pooling (also called subsampling or downsampling) reduces the dimensionality of each feature map but retains the most important information. Spatial Pooling can be of different types: Max, Average, Sum etc.
-* Dense / Fully Connected - a traditional Multi Layer Perceptron that uses a softmax activation function in the output layer to classify. The output from the convolutional and pooling layers represent high-level features of the input image. The purpose of the Fully Connected layer is to use these features for classifying the input image into various classes based on the training dataset.
+- Convolution Layer primary purpose is to extract features from the input image. Convolution preserves the spatial relationship between pixels by learning image features using small squares of input data.
+- ReLU (more in the activation chapter) - The purpose of ReLU is to introduce non-linearity in our ConvNet
+- Spatial Pooling (also called subsampling or downsampling) reduces the dimensionality of each feature map but retains the most important information. Spatial Pooling can be of different types: Max, Average, Sum etc.
+- Dense / Fully Connected - a traditional Multi Layer Perceptron that uses a softmax activation function in the output layer to classify. The output from the convolutional and pooling layers represent high-level features of the input image. The purpose of the Fully Connected layer is to use these features for classifying the input image into various classes based on the training dataset.
 
 The overall training process of the Convolutional Network may be summarized as below:
 
-* Step1: We initialize all filters and parameters / weights with random values
-* Step2: The network takes a single training image as input, goes through the forward propagation step (convolution, ReLU and pooling operations along with forward propagation in the Fully Connected layer) and finds the output probabilities for each class.
- * Let's say the output probabilities for the boat image above are \[0.2, 0.4, 0.1, 0.3]
- * Since weights are randomly assigned for the first training example, output probabilities are also random.
-* Step3: Calculate the total error at the output layer (summation over all 4 classes)
- * (L2) Total Error = ∑ ½ (target probability – output probability) ²
-* Step4: Use Backpropagation to calculate the gradients of the error with respect to all weights in the network and use gradient descent to update all filter values / weights and parameter values to minimize the output error.
- * The weights are adjusted in proportion to their contribution to the total error.
- * When the same image is input again, output probabilities might now be \[0.1, 0.1, 0.7, 0.1], which is closer to the target vector \[0, 0, 1, 0].
- * This means that the network has learnt to classify this particular image correctly by adjusting its weights / filters such that the output error is reduced.
- * Parameters like number of filters, filter sizes, architecture of the network etc. have all been fixed before Step 1 and do not change during training process – only the values of the filter matrix and connection weights get updated.
-* Step5: Repeat steps 2-4 with all images in the training set.
+- Step1: We initialize all filters and parameters / weights with random values
+- Step2: The network takes a single training image as input, goes through the forward propagation step (convolution, ReLU and pooling operations along with forward propagation in the Fully Connected layer) and finds the output probabilities for each class.
+   - Let's say the output probabilities for the boat image above are \[0.2, 0.4, 0.1, 0.3]
+   - Since weights are randomly assigned for the first training example, output probabilities are also random.
+- Step3: Calculate the total error at the output layer (summation over all 4 classes)
+   - (L2) Total Error = ∑ ½ (target probability – output probability) ²
+- Step4: Use Backpropagation to calculate the gradients of the error with respect to all weights in the network and use gradient descent to update all filter values / weights and parameter values to minimize the output error.
+   - The weights are adjusted in proportion to their contribution to the total error.
+   - When the same image is input again, output probabilities might now be \[0.1, 0.1, 0.7, 0.1], which is closer to the target vector \[0, 0, 1, 0].
+   - This means that the network has learnt to classify this particular image correctly by adjusting its weights / filters such that the output error is reduced.
+   - Parameters like number of filters, filter sizes, architecture of the network etc. have all been fixed before Step 1 and do not change during training process – only the values of the filter matrix and connection weights get updated.
+- Step5: Repeat steps 2-4 with all images in the training set.
 
 The above steps train the ConvNet – this essentially means that all the weights and parameters of the ConvNet have now been optimized to correctly classify images from the training set.
 
@@ -198,11 +198,11 @@ Illustrated 10 CNNS architectures
 
 [A study that deals with class imbalance in CNN’s](https://arxiv.org/pdf/1710.05381.pdf) - we systematically investigate the impact of class imbalance on classification performance of convolutional neural networks (CNNs) and compare frequently used methods to address the issue
 
-1. Over sampling
-2. Undersampling
-3. Thresholding probabilities (ROC?)
-4. Cost sensitive classification -different cost to misclassification
-5. One class - novelty detection. This is a concept learning technique that recognizes positive instances rather than discriminating between two classes
+- Over sampling
+- Undersampling
+- Thresholding probabilities (ROC?)
+- Cost sensitive classification -different cost to misclassification
+- One class - novelty detection. This is a concept learning technique that recognizes positive instances rather than discriminating between two classes
 
 Using several imbalance scenarios, on several known data sets, such as MNIST<figure><img src="../.gitbook/assets/gimg-6ad0d3273dd9.png" alt=""><figcaption><p>CONVOLUTIONAL NEURAL NET</p><p>Credit: <a href="https://lh5.googleusercontent.com/dsLGbR3YBUjsDjRuOiC5FSrfef4MoK2Y1J-wPzn4NmIJWxg3wP7aY8TvP1EXr8p6a4T5wjcFqv2teT11KlXaMQFh3eWOYRT-5Vn-xlAlacyckL7DDsAx4sJG5lt_tJC4rF2ytfhs">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -216,11 +216,10 @@ CONV-1D
 1x1 CNN
 
 1. [Mastery](https://machinelearningmastery.com/introduction-to-1x1-convolutions-to-reduce-the-complexity-of-convolutional-neural-networks/) on 1x1 cnn, for dim reduction, decreasing feature maps and other usages.
-   1. “This is the most common application of this type of filter and in this way, the layer is often called a feature map pooling layer.”
-   2. “In the paper, the authors propose the need for an MLP convolutional layer and the need for cross-channel pooling to promote learning across channels.”
-   3. “the 1×1 filter was used explicitly for dimensionality reduction and for increasing the dimensionality of feature maps after pooling in the design of the inception module, used in the GoogLeNet model”
-   4. “The 1×1 filter was used as a projection technique to match the number of filters of input to the output of residual modules in the design of the residual network “
-   5.
+   - “This is the most common application of this type of filter and in this way, the layer is often called a feature map pooling layer.”
+   - “In the paper, the authors propose the need for an MLP convolutional layer and the need for cross-channel pooling to promote learning across channels.”
+   - “the 1×1 filter was used explicitly for dimensionality reduction and for increasing the dimensionality of feature maps after pooling in the design of the inception module, used in the GoogLeNet model”
+   - “The 1×1 filter was used as a projection technique to match the number of filters of input to the output of residual modules in the design of the residual network “
 
 MASKED R-CNN
 
@@ -234,11 +233,11 @@ MAX AVERAGE POOLING
 
 [Intuitions to the differences between max and average pooling:](https://stats.stackexchange.com/questions/291451/feature-extracted-by-max-pooling-vs-mean-pooling)
 
-1. A max-pool layer compressed by taking the maximum activation in a block. If you have a block with mostly small activation, but a small bit of large activation, you will loose the information on the low activations. I think of this as saying "this type of feature was detected in this general area".
-2. A mean-pool layer compresses by taking the mean activation in a block. If large activations are balanced by negative activations, the overall compressed activations will look like no activation at all. On the other hand, you retain some information about low activations in the previous example.
-3. MAX pooling In other words: Max pooling roughly means that only those features that are most strongly triggering outputs are used in the subsequent layers. You can look at it a little like focusing the network’s attention on what’s most characteristic for the image at hand.
-4. GLOBAL MAX pooling: In the last few years, experts have turned to global average pooling (GAP) layers to minimize overfitting by reducing the total number of parameters in the model. Similar to max pooling layers, GAP layers are used to reduce the spatial dimensions of a three-dimensional tensor. However, GAP layers perform a more extreme type of dimensionality reduction,
-5. [Hinton’s controversy thoughts on pooling](https://mirror2image.wordpress.com/2014/11/11/geoffrey-hinton-on-max-pooling-reddit-ama/)
+- A max-pool layer compressed by taking the maximum activation in a block. If you have a block with mostly small activation, but a small bit of large activation, you will loose the information on the low activations. I think of this as saying "this type of feature was detected in this general area".
+- A mean-pool layer compresses by taking the mean activation in a block. If large activations are balanced by negative activations, the overall compressed activations will look like no activation at all. On the other hand, you retain some information about low activations in the previous example.
+- MAX pooling In other words: Max pooling roughly means that only those features that are most strongly triggering outputs are used in the subsequent layers. You can look at it a little like focusing the network’s attention on what’s most characteristic for the image at hand.
+- GLOBAL MAX pooling: In the last few years, experts have turned to global average pooling (GAP) layers to minimize overfitting by reducing the total number of parameters in the model. Similar to max pooling layers, GAP layers are used to reduce the spatial dimensions of a three-dimensional tensor. However, GAP layers perform a more extreme type of dimensionality reduction,
+- [Hinton’s controversy thoughts on pooling](https://mirror2image.wordpress.com/2014/11/11/geoffrey-hinton-on-max-pooling-reddit-ama/)
 
 Dilated CNN
 
@@ -267,10 +266,10 @@ This section collects notes on transfer learning using cnn.
 
 1. To Add keras book chapter 5 (i think)
 2. [Mastery](https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/) on TL using CNN
-   1. Classifier: The pre-trained model is used directly to classify new images.
-   2. Standalone Feature Extractor: The pre-trained model, or some portion of the model, is used to pre-process images and extract relevant features.
-   3. Integrated Feature Extractor: The pre-trained model, or some portion of the model, is integrated into a new model, but layers of the pre-trained model are frozen during training.
-   4. Weight Initialization: The pre-trained model, or some portion of the model, is integrated into a new model, and the layers of the pre-trained model are trained in concert with the new model.
+   - Classifier: The pre-trained model is used directly to classify new images.
+   - Standalone Feature Extractor: The pre-trained model, or some portion of the model, is used to pre-process images and extract relevant features.
+   - Integrated Feature Extractor: The pre-trained model, or some portion of the model, is integrated into a new model, but layers of the pre-trained model are frozen during training.
+   - Weight Initialization: The pre-trained model, or some portion of the model, is integrated into a new model, and the layers of the pre-trained model are trained in concert with the new model.
 
 ## VISUALIZE CNN
 
@@ -293,11 +292,11 @@ a basic NN node with a loop, previous output is merged with current input (using
 
 (What is RNN?) by Andrej Karpathy - [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/), basically a lot of information about RNNs and their usage cases 1 to N = frame captioning
 
-* N to 1 = classification
-* N to N = predict frames in a movie
-* N\2 with time delay to N\2 = predict supply and demand
-* Vanishing gradient is 100 times worse.
-* Gate networks like LSTM solves vanishing gradient.
+- N to 1 = classification
+- N to N = predict frames in a movie
+- N\2 with time delay to N\2 = predict supply and demand
+- Vanishing gradient is 100 times worse.
+- Gate networks like LSTM solves vanishing gradient.
 
 (how to initialize?) Benchmarking RNN networks for text - don't worry about initialization, use normalization and GRU for big networks.
 
@@ -318,35 +317,34 @@ Visual attention RNNS - Same idea as masking but on a window-based cnn. [Paper](
 This section collects notes on lstm.
 
 
-* The best, hands down, lstm post out there
-* LSTM - [what is?](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) the first reference for LSTM on the web, but you should know the background before reading.
-* <figure><img src="../.gitbook/assets/gimg-c4d0c51d0864.png" alt=""><figcaption><p>LSTM</p><p>Credit: <a href="https://lh3.googleusercontent.com/7KJz_beT-3kClxvDJHNVZP4gEMtn0oUK08yzh_foRMwqjtrWh8EpC3Yp9oCmH0LOcBzBbA-8E9D-4Dd1TXdWipGjSHXW0GjgMBo4gs-1f8XLpXRjnwN29zhzpJPe2uKIyNXkkqy-">copied from the original hosted image</a>.</p></figcaption></figure>
-* [Hidden state vs cell state](https://www.quora.com/How-is-the-hidden-state-h-different-from-the-memory-c-in-an-LSTM-cell) - you have to understand this concept before you dive in. i.e, Hidden state is overall state of what we have seen so far. Cell state is selective memory of the past. The hidden state (h) carries the information about what an RNN cell has seen over the time and supply it to the present time such that a loss function is not just dependent upon the data it is seeing in this time instant, but also, data it has seen historically.
-* Illustrated rnn lstm gru
-* [Paper](https://arxiv.org/pdf/1503.04069.pdf) - a comparison of many LSTMs variants and they are pretty much the same performance wise
-* [Paper](https://arxiv.org/pdf/1503.04069.pdf) - comparison of lstm variants, vanilla is mostly the best, forget and output gates are the most important in terms of performance. Other conclusions in the paper..
-* Master on [unrolling RNN’s introductory post](https://machinelearningmastery.com/rnn-unrolling/)
-* Mastery on [under/over fitting lstms](https://machinelearningmastery.com/diagnose-overfitting-underfitting-lstm-models/) - but makes sense for all types of networks
-* Mastery on r[eturn\_sequence and return\_state in keras LSTM](https://machinelearningmastery.com/return-sequences-and-return-states-for-lstms-in-keras/)
- * That return sequences return the hidden state output for each input time step.
- * That return state returns the hidden state output and cell state for the last input time step.
- * That return sequences and return state can be used at the same time.
-* Mastery on [understanding stateful vs stateless](https://machinelearningmastery.com/understanding-stateful-lstm-recurrent-neural-networks-python-keras/), [stateful stateless for time series](https://machinelearningmastery.com/stateful-stateless-lstm-time-series-forecasting-python/)
-* Mastery on [timedistributed layer](https://machinelearningmastery.com/timedistributed-layer-for-long-short-term-memory-networks-in-python/) and seq2seq
- * TimeDistributed Layer - used to connect 3d inputs from lstms to dense layers, in order to utilize the time element. Otherwise it gets flattened when the connection is direct, nulling the lstm purpose. Note: nice trick that doesn't increase the dense layer structure multiplied by the number of dense neurons. It loops for each time step! I.e., The TimeDistributed achieves this trick by applying the same Dense layer (same weights) to the LSTMs outputs for one time step at a time. In this way, the output layer only needs one connection to each LSTM unit (plus one bias).
+- The best, hands down, lstm post out there
+- LSTM - [what is?](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) the first reference for LSTM on the web, but you should know the background before reading.
+- <figure><img src="../.gitbook/assets/gimg-c4d0c51d0864.png" alt=""><figcaption><p>LSTM</p><p>Credit: <a href="https://lh3.googleusercontent.com/7KJz_beT-3kClxvDJHNVZP4gEMtn0oUK08yzh_foRMwqjtrWh8EpC3Yp9oCmH0LOcBzBbA-8E9D-4Dd1TXdWipGjSHXW0GjgMBo4gs-1f8XLpXRjnwN29zhzpJPe2uKIyNXkkqy-">copied from the original hosted image</a>.</p></figcaption></figure>
+- [Hidden state vs cell state](https://www.quora.com/How-is-the-hidden-state-h-different-from-the-memory-c-in-an-LSTM-cell) - you have to understand this concept before you dive in. i.e, Hidden state is overall state of what we have seen so far. Cell state is selective memory of the past. The hidden state (h) carries the information about what an RNN cell has seen over the time and supply it to the present time such that a loss function is not just dependent upon the data it is seeing in this time instant, but also, data it has seen historically.
+- Illustrated rnn lstm gru
+- [Paper](https://arxiv.org/pdf/1503.04069.pdf) - a comparison of many LSTMs variants and they are pretty much the same performance wise
+- [Paper](https://arxiv.org/pdf/1503.04069.pdf) - comparison of lstm variants, vanilla is mostly the best, forget and output gates are the most important in terms of performance. Other conclusions in the paper..
+- Master on [unrolling RNN’s introductory post](https://machinelearningmastery.com/rnn-unrolling/)
+- Mastery on [under/over fitting lstms](https://machinelearningmastery.com/diagnose-overfitting-underfitting-lstm-models/) - but makes sense for all types of networks
+- Mastery on r[eturn\_sequence and return\_state in keras LSTM](https://machinelearningmastery.com/return-sequences-and-return-states-for-lstms-in-keras/)
+   - That return sequences return the hidden state output for each input time step.
+   - That return state returns the hidden state output and cell state for the last input time step.
+   - That return sequences and return state can be used at the same time.
+- Mastery on [understanding stateful vs stateless](https://machinelearningmastery.com/understanding-stateful-lstm-recurrent-neural-networks-python-keras/), [stateful stateless for time series](https://machinelearningmastery.com/stateful-stateless-lstm-time-series-forecasting-python/)
+- Mastery on [timedistributed layer](https://machinelearningmastery.com/timedistributed-layer-for-long-short-term-memory-networks-in-python/) and seq2seq
+   - TimeDistributed Layer - used to connect 3d inputs from lstms to dense layers, in order to utilize the time element. Otherwise it gets flattened when the connection is direct, nulling the lstm purpose. Note: nice trick that doesn't increase the dense layer structure multiplied by the number of dense neurons. It loops for each time step! I.e., The TimeDistributed achieves this trick by applying the same Dense layer (same weights) to the LSTMs outputs for one time step at a time. In this way, the output layer only needs one connection to each LSTM unit (plus one bias).
 
 For this reason, the number of training epochs needs to be increased to account for the smaller network capacity. I doubled it from 500 to 1000 to match the first one-to-one example
 
-* Sequence Learning Problem
-* One-to-One LSTM for Sequence Prediction
-* Many-to-One LSTM for Sequence Prediction (without TimeDistributed)
-* Many-to-Many LSTM for Sequence Prediction (with TimeDistributed)
-*
- * Mastery on [wrapping cnn-lstm with time distributed](https://machinelearningmastery.com/cnn-long-short-term-memory-networks/), as a whole model wrap, or on every layer in the model which is equivalent and preferred.
-* Master on [visual examples](https://machinelearningmastery.com/sequence-prediction/) for sequence prediction
-* Unread - sentiment classification of IMDB movies using [Keras and LSTM](http://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
-* [Very important - how to interpret LSTM neurons in keras](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/)
-* [LSTM for time-series](http://www.jakob-aungiers.com/articles/a/LSTM-Neural-Network-for-Time-Series-Prediction) - (jakob) single point prediction, sequence prediction and shifted-sequence prediction with code.
+- Sequence Learning Problem
+- One-to-One LSTM for Sequence Prediction
+- Many-to-One LSTM for Sequence Prediction (without TimeDistributed)
+- Many-to-Many LSTM for Sequence Prediction (with TimeDistributed)
+- Mastery on [wrapping cnn-lstm with time distributed](https://machinelearningmastery.com/cnn-long-short-term-memory-networks/), as a whole model wrap, or on every layer in the model which is equivalent and preferred.
+- Master on [visual examples](https://machinelearningmastery.com/sequence-prediction/) for sequence prediction
+- Unread - sentiment classification of IMDB movies using [Keras and LSTM](http://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
+- [Very important - how to interpret LSTM neurons in keras](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/)
+- [LSTM for time-series](http://www.jakob-aungiers.com/articles/a/LSTM-Neural-Network-for-Time-Series-Prediction) - (jakob) single point prediction, sequence prediction and shifted-sequence prediction with code.
 
 Stateful vs Stateless: crucial for understanding how to leverage LSTM networks:
 
@@ -416,10 +414,10 @@ BRNN are especially useful when the context of the input is needed. For example,
 
 .. It allows you to specify the merge mode, that is how the forward and backward outputs should be combined before being passed on to the next layer. The options are:
 
-* ‘sum‘: The outputs are added together.
-* ‘mul‘: The outputs are multiplied together.
-* ‘concat‘: The outputs are concatenated together (the default), providing double the number of outputs to the next layer.
-* ‘ave‘: The average of the outputs is taken.
+- ‘sum‘: The outputs are added together.
+- ‘mul‘: The outputs are multiplied together.
+- ‘concat‘: The outputs are concatenated together (the default), providing double the number of outputs to the next layer.
+- ‘ave‘: The average of the outputs is taken.
 
 The default mode is to concatenate, and this is the method often used in studies of bidirectional LSTMs.
 
@@ -447,8 +445,8 @@ This section collects notes on gru.
 
 A tutorial about GRU - To solve the vanishing gradient problem of a standard RNN, GRU uses, so called, update gate and reset gate. Basically, these are two vectors which decide what information should be passed to the output. The special thing about them is that they can be trained to keep information from long ago, without washing it through time or remove information which is irrelevant to the prediction.
 
-1. update gate helps the model to determine how much of the past information (from previous time steps) needs to be passed along to the future.
-2. Reset gate essentially, this gate is used from the model to decide how much of the past information to forget.
+- update gate helps the model to determine how much of the past information (from previous time steps) needs to be passed along to the future.
+- Reset gate essentially, this gate is used from the model to decide how much of the past information to forget.
 
 RECURRENT WEIGHTED AVERAGE (RNN-WA)
 
@@ -456,9 +454,8 @@ What is? (a type of cell that converges to higher accuracy faster than LSTM.
 
 it implements attention into the recurrent neural network:
 
-1. the keras implementation is available at [https://github.com/keisuke-nakata/rwa](https://github.com/keisuke-nakata/rwa)
-
-2. the whitepaper is at [https://arxiv.org/pdf/1703.01253.pdf](https://arxiv.org/pdf/1703.01253.pdf)
+- the keras implementation is available at [https://github.com/keisuke-nakata/rwa](https://github.com/keisuke-nakata/rwa)
+- the whitepaper is at [https://arxiv.org/pdf/1703.01253.pdf](https://arxiv.org/pdf/1703.01253.pdf)
 
 <figure><img src="../.gitbook/assets/gimg-cec32ffb3999.png" alt=""><figcaption><p>GRU</p><p>Credit: <a href="https://lh6.googleusercontent.com/OgNIg0_EssPKTLuvrFf2cz3R89QeP4FYh7kLrk0J-_AIDjcgaVirW_d668aFDlPXW8mSF2CBtHDgCpiQoFDgc12bChOeePfbyWq1-ybMDdZSga6ezEdr16dKjiFEok8Oajn5XLFm">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -574,7 +571,6 @@ This section collects notes on signal processing nn (fft, wavelets, shapelets).
    1. [used for denoising](https://www.youtube.com/watch?v=veCvP1mYpww), compression, detect edges, detect features with various orientation, analyse signal power, detect and localize transients, change points in time series data and detect optimal signal representation (peaks etc) of time freq analysis of images and data.
    2. Can also be used to [reconstruct time and frequencies](https://www.youtube.com/watch?v=veCvP1mYpww), analyse images in space, frequencies, orientation, identifying coherent time oscillation in time series
    3. Analyse signal variability and correlation
-   4.
 
 ## HIERARCHICAL RNN
 
@@ -632,7 +628,6 @@ These links and images no longer work. The original wording is kept here. A same
 - Towards Data Science: teaching-a-variational-autoencoder-vae-to-draw-mnist-characters-978675c95776. This address no longer opens: https://towardsdatascience.com/teaching-a-variational-autoencoder-vae-to-draw-mnist-characters-978675c95776
 - Towards Data Science: transformers-are-graph-neural-networks-bca9f75412aa. This address no longer opens: https://towardsdatascience.com/transformers-are-graph-neural-networks-bca9f75412aa
 - Towards Data Science: understanding-gru-networks-2ef37df6c9be. This address no longer opens: https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be
-
 - Examples of vanilla, multi layer, CNN and sparse AE’s. This address no longer opens: https://wiseodd.github.io/techblog/2016/12/03/autoencoders/
 - Hinton’s coursera course. This address no longer opens: https://www.coursera.org/learn/neural-networks/lecture/JiT1i/from-pca-to-autoencoders-5-mins
 - Another great presentation on PCA vs AE,. This address no longer opens: https://web.cs.hacettepe.edu.tr/~aykut/classes/fall2016/bbm406/slides/l25-kernel_pca.pdf

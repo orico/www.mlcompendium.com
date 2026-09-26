@@ -25,11 +25,11 @@ Two important distinctions must be made:
 9. [Using Autoencoders](https://shiring.github.io/machine_learning/2017/05/01/fraud) — the information is there, but its all over the place.
 10. Twitter anomaly —
 11. Microsoft anomaly — a well documented black box, i cant find a description of the algorithm, just hints to what they sort of did
- 1. [up/down trend, dynamic range, tips and dips](https://blogs.technet.microsoft.com/machinelearning/2014/11/05/anomaly-detection-using-machine-learning-to-detect-abnormalities-in-time-series-data/)
- 2. [Api here](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/apps-anomaly-detection-api)
+    1. [up/down trend, dynamic range, tips and dips](https://blogs.technet.microsoft.com/machinelearning/2014/11/05/anomaly-detection-using-machine-learning-to-detect-abnormalities-in-time-series-data/)
+    2. [Api here](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/apps-anomaly-detection-api)
 12. STL and [LSTM for anomaly prediction](https://github.com/omri374/moda/blob/master/moda/example/lstm/LSTM_AD.ipynb) by microsoft
- 1. Medium on AD
- 2. Medium on AD using mahalanobis, AE and
+    1. Medium on AD
+    2. Medium on AD using mahalanobis, AE and
 
 ### OUTLIER DETECTION
 
@@ -57,8 +57,8 @@ SUOD is therefore proposed to address the challenge at three complementary level
 
 1. [Skyline](https://github.com/earthgecko/skyline)
 2. Scikit-lego outliers
- 1. <figure><img src="../.gitbook/assets/gimg-a2e83f028e2a.png" alt=""><figcaption><p>Scikit-lego outliers.</p><p>Credit: <a href="https://lh3.googleusercontent.com/unjrP1o3wqwUvv_J0WeX_9BZw8qrq9ToBVjSAHc1bWxOo3idh6CSLsVPTKSNovXve0-IOG5vaL5yqn4sg0a6OfvSM_X5t41wK-P_NFHjOzmmJyHKsv8I6se62OZtyildGKI5ZlrV">copied from the original hosted image</a>.</p></figcaption></figure>
- 2. <figure><img src="../.gitbook/assets/gimg-d3e77feb78ab.png" alt=""><figcaption><p>Scikit-lego outliers.</p><p>Credit: <a href="https://lh5.googleusercontent.com/bafZPqSAbvczD3CE2yIPsPlTaYZ5qSAMdz4l7WqeuhQK-XjONBQDP0-tTYXjFcnMPlvljiMr1_fvMlAFCLRtATsI3mcaXjxbcjcSD97OxVzVR41qecC1BZo9DKdYag7e97g2Jirk">copied from the original hosted image</a>.</p></figcaption></figure>
+   1. <figure><img src="../.gitbook/assets/gimg-a2e83f028e2a.png" alt=""><figcaption><p>Scikit-lego outliers.</p><p>Credit: <a href="https://lh3.googleusercontent.com/unjrP1o3wqwUvv_J0WeX_9BZw8qrq9ToBVjSAHc1bWxOo3idh6CSLsVPTKSNovXve0-IOG5vaL5yqn4sg0a6OfvSM_X5t41wK-P_NFHjOzmmJyHKsv8I6se62OZtyildGKI5ZlrV">copied from the original hosted image</a>.</p></figcaption></figure>
+   2. <figure><img src="../.gitbook/assets/gimg-d3e77feb78ab.png" alt=""><figcaption><p>Scikit-lego outliers.</p><p>Credit: <a href="https://lh5.googleusercontent.com/bafZPqSAbvczD3CE2yIPsPlTaYZ5qSAMdz4l7WqeuhQK-XjONBQDP0-tTYXjFcnMPlvljiMr1_fvMlAFCLRtATsI3mcaXjxbcjcSD97OxVzVR41qecC1BZo9DKdYag7e97g2Jirk">copied from the original hosted image</a>.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/gimg-c69974b4f0f1.png" alt=""><figcaption><p>Scikit-lego outliers.</p><p>Credit: <a href="https://lh5.googleusercontent.com/9bBkl9p2YSeKumH3C2nwIpGdQvBYqt63JHtQsfJfS2wJqRJBWcLyHpZ1yuFEHh4tFdcUAc9dm-ihYYIa_h9Doa_AZpv273V0T5kEpGRfigyNXtRmR2XQWYQAVc9VFaQ-r6LPuA1-">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -97,8 +97,8 @@ This section defines LOF as a local density ratio against k-nearest neighbours.
 - It measures the local density deviation of a given data point with respect to its neighbors. The idea is to detect the samples that have a substantially lower density than their neighbors.
 - In practice the local density is obtained from the k-nearest neighbors.
 - The LOF score of an observation is equal to the ratio of the average local density of his k-nearest neighbors, and its own local density:
- - a normal instance is expected to have a local density similar to that of its neighbors,
- - while abnormal data are expected to have much smaller local density.
+   - a normal instance is expected to have a local density similar to that of its neighbors,
+   - while abnormal data are expected to have much smaller local density.
 
 ### ELLIPTIC ENVELOPE
 

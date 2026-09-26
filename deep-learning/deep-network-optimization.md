@@ -121,6 +121,5 @@ These links and images no longer work. The original wording is kept here. A same
 - Pruning 1. This address no longer opens: https://towardsdatascience.com/scooping-into-model-pruning-in-deep-learning-da92217b84ac
 - Pruning 2. This address no longer opens: https://towardsdatascience.com/pruning-deep-neural-network-56cae1ec5505
 - Teacher-student knowledge distillation. This address no longer opens: https://towardsdatascience.com/model-distillation-and-compression-for-recommender-systems-in-pytorch-5d81c0f2c0ec
-
 - Uber on Lottery ticket, masking weights retraining. This address no longer opens: https://eng.uber.com/deconstructing-lottery-tickets/?utm_campaign=the_algorithm.unpaid.engagement&utm_source=hs_email&utm_medium=email&utm_content=72562707&_hsenc=p2ANqtz--3mi4IwIFWZsW8UaWeuiv2nCzXDXattjRENzdKT-7J6wc7ftReuDXbn39mxCnX5y18o3z7cXfxPXQgysBMJnVnfeYpHg&_hsmi=72562707
 - 3. This address no longer opens: https://www.coursera.org/learn/machine-learning/lecture/Y3s6r/gradient-checking

@@ -25,10 +25,10 @@ Knoldus (original blog links are in Deprecated links):
 4. [A very good visual example of a transaction DB with the apriori algorithm step by step](http://www.lessons2all.com/Apriori.php)
 5. [Python 3.0 code](http://adataanalyst.com/machine-learning/apriori-algorithm-python-3-0/)
 6. [Mlxtnd](http://rasbt.github.io/mlxtend/api_subpackages/mlxtend.frequent_patterns/) [tutorial](https://www.geeksforgeeks.org/implementing-apriori-algorithm-in-python/)
- 1. Apriori
- 2. Rules
- 3. pgrowth
- 4. fpmax
+   1. Apriori
+   2. Rules
+   3. pgrowth
+   4. fpmax
 
 **FP Growth**
 
