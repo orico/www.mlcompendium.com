@@ -1,15 +1,7 @@
 # Training Strategies
 
-This page links to a framework for designing a continuous training strategy.
+A model that scored well once still has to be retrained as the data moves, and the question is when and how. The page answers it with one framework for a continuous training strategy: periodic and performance-based retraining driven by data changes, window size, and what to retrain.
 
 The same notes are in [Drift](../ai-engineering/mlops/mlops-monitoring-and-alerts.md#drift), [Incremental Learning](../decision-intelligence/incremental-learning.md), and [Online Learning](../problem-framing/online-learning.md).
 
-**(amazing)** Framework for a successful training strategy, periodic, performance based, driven by data changes, dynamic window size, dynamic data selection, what to retrain and the level
-
-## Deprecated links
-
-{% hint style="warning" %}
-These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
-{% endhint %}
-
-- **(amazing) Framework for a successful training strategy**, periodic, performance based, driven by data changes, dynamic window size, dynamic data selection, what to retrain and the level. This address no longer opens: https://towardsdatascience.com/framework-for-a-successful-continuous-training-strategy-8c83d17bb9dc
+The **(amazing) Framework for a successful training strategy** is [https://towardsdatascience.com/framework-for-a-successful-continuous-training-strategy-8c83d17bb9dc](https://towardsdatascience.com/framework-for-a-successful-continuous-training-strategy-8c83d17bb9dc). It lays out the choices in order: periodic, performance based, driven by data changes, dynamic window size, dynamic data selection, what to retrain and the level.
