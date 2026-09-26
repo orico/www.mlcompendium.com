@@ -2,7 +2,7 @@
 
 This page collects speech models and how to evaluate them.
 
-The same notes are in [Basics](../audio/basics.md), [Deep Neural Audio](../audio/deep-neural-audio-1.md), [Mix N Match](mix-n-match.md), and [Other Tools](../audio/algorithms.md#other-tools).
+The same notes are in [Basics](../predictive-ml/audio-basics.md), [Deep Neural Audio](../deep-learning/deep-neural-audio.md), [Mix N Match](mix-n-match.md), and [Other Tools](../predictive-ml/audio-algorithms.md#other-tools).
 
 ## Models
 

@@ -2,7 +2,7 @@
 
 This page collects frameworks and products for building LLM agents.
 
-The same notes are in [Chat Bots](../natural-language-processing/chat-bots.md) and [Tools](large-language-models-llms.md#tools).
+The same notes are in [Chat Bots](chat-bots.md) and [Tools](large-language-models-llms.md#tools).
 
 1. [AutoGen](https://github.com/microsoft/autogen) by [microsoft](https://microsoft.github.io/autogen/)
 
@@ -20,3 +20,7 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - AgentOps - Build your next agent with evals, observability, and replays. This address no longer opens: https://app.agentops.ai/start
+
+See also [Self-Healing Agentic Systems](https://cohenori.medium.com/the-rise-of-self-healing-systems-fe653869b7fc) (January 2026).
+
+See also [Agents-Driven Organizations](https://cohenori.medium.com/agents-driven-organizations-4bc300fc5283) (January 2026).

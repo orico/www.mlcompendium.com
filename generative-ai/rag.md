@@ -2,7 +2,7 @@
 
 This page collects RAG tutorials and Graph RAG notes.
 
-The same notes are in [GenAI Applications](genai-applications.md), [Search](../natural-language-processing/search.md), [Tools](large-language-models-llms.md#tools), and [Vector databases](../ops/dataops/lakes-and-warehouses.md#vector-databases).
+The same notes are in [GenAI Applications](genai-applications.md), [Search](../language-ai/search.md), [Tools](large-language-models-llms.md#tools), and [Vector databases](../data/engineering/lakes-and-warehouses.md#vector-databases).
 
 ## Tutorials
 
@@ -15,7 +15,7 @@ This section points at practical RAG write-ups.
 
 This section points at Graph RAG explainers.
 
-The same notes are in [Knowledge Graphs](../natural-language-processing/knowledge-graphs.md).
+The same notes are in [Knowledge Graphs](../language-ai/knowledge-graphs.md).
 
 1. [Microsoft on GraphRAG: Unlocking LLM discovery on narrative private data](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)
 
@@ -26,3 +26,5 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - Understanding Graph RAG. This address no longer opens: https://towardsdatascience.com/an-easy-way-to-comprehend-how-graphrag-works-6d53f8b540d0
+
+[Q&A Bot Using Gen-AI](https://pub.towardsai.net/q-a-bot-using-gen-ai-2ab934b180af) (October 2024) is a retrieval bot built the way this page describes.

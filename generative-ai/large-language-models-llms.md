@@ -2,7 +2,7 @@
 
 This page collects papers, models, tools, methods, and use cases for large language models.
 
-The same notes are in [GPT](gpt.md), [GPT3 is ZERO, ONE, FEW](../types-of-machine-learning/n-shot-learning.md#gpt3-is-zero-one-few), [NEURAL LANGUAGE GENERATION](../natural-language-processing/language-detection-identification-generation-nld-nli-nlg.md#neural-language-generation), [Prompt](prompt.md), and [Unlearning](../types-of-machine-learning/unlearning.md).
+The same notes are in [GPT](large-language-models-llms.md), [GPT3 is ZERO, ONE, FEW](../problem-framing/n-shot-learning.md#gpt3-is-zero-one-few), [NEURAL LANGUAGE GENERATION](../language-ai/language-detection-identification-generation-nld-nli-nlg.md#neural-language-generation), [Prompt](prompt.md), and [Unlearning](../responsible-ai/unlearning.md).
 
 ## Papers
 
@@ -114,7 +114,7 @@ This section points at Databricks notes on LLM and RAG evaluation.
 
 This section collects notes on RLHF.
 
-The same notes are in [RLHF](../machine-learning/incremental-learning-1.md#rlhf).
+The same notes are in [RLHF](../decision-intelligence/reinforcement-learning.md#rlhf).
 
 1. [RLHF: Reinforcement Learning from Human Feedback](https://huyenchip.com/2023/05/02/rlhf.html) by Chip Huyen
 2. [Yoav on RL](https://gist.github.com/yoavg/6bff0fecd65950898eba1bb321cfbd81)
@@ -124,7 +124,7 @@ The same notes are in [RLHF](../machine-learning/incremental-learning-1.md#rlhf)
 
 This section explains ROUGE for summarization evaluation.
 
-The same notes are in [LANGUAGE TRANSLATION](../natural-language-processing/language-detection-identification-generation-nld-nli-nlg.md#language-translation), [Perplexity](../validation-and-evaluation/evaluation-metrics.md#perplexity), and [Summarization](../natural-language-processing/summarization.md).
+The same notes are in [LANGUAGE TRANSLATION](../language-ai/language-detection-identification-generation-nld-nli-nlg.md#language-translation), [Perplexity](../evals/evaluation-metrics.md#perplexity), and [Summarization](../language-ai/summarization.md).
 
 1. [Understanding ROUGE](https://dataman-ai.medium.com/understand-rouge-9ade61b0e0bc) - a family of metrics that evaluate the performance of a LLM in text summarization, i.e., ROUGE-1, ROUGE-2, ROUGE-L, for unigrams, bi grams, LCS, respectively.
 
@@ -143,3 +143,47 @@ These links and images no longer work. The original wording is kept here. A same
 - An amazing tutorial in Youtube by Patrick Loeber. This address no longer opens: https://www.python-engineer.com/posts/langchain-crash-course/
 - (great) a gentle intro to LLMs and Langchain. This address no longer opens: https://towardsdatascience.com/a-gentle-intro-to-chaining-llms-agents-and-utils-via-langchain-16cd385fca81
 - Safeguarding LLMs with Guardrails. This address no longer opens: https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2
+# GPT
+
+This page collects precursors, articles, tools, competitions, and assistants around GPT.
+
+The same notes are in [Chat Bots](chat-bots.md), [Decoding Algorithms For NLP](../language-ai/decoding-algorithms-for-nlp.md), [GPT2](../language-ai/pretrained-language-models.md#gpt2), [GPT3](../language-ai/pretrained-language-models.md#gpt3), [Large Language Models (LLMs)](large-language-models-llms.md), [Prompt](prompt.md), and [Tokenization](../language-ai/tokenization.md).
+
+## Precursor
+
+This section lists methods that led into instruction-tuned GPT models.
+
+1. [Proximal Policy Optimization](https://openai.com/research/openai-baselines-ppo) (PPO) - an RL algorithm, PPO is better than state-of-the-art approaches while being much simpler to implement and tune and is the default reinforcement learning algorithm at OpenAI.
+2. [Learning from human preference](https://openai.com/research/learning-from-human-preferences) (human in the loop) - a method used to infer what humans want by being told which of two proposed behaviors is better.
+3. [instructGPT](https://openai.com/research/instruction-following) - arguably better at following user intentions than GPT-3 while also making them more truthful and less toxic, using human in the loop.
+
+## Tools
+
+This section points at sentence-embedding tools related to GPT.
+
+1. Sentence Embeddings
+   1. [sentence embedding for semantic search](https://github.com/Muennighoff/sgpt)
+   2. [GPT 3 Dense sentence embeddings](https://medium.com/@nils_reimers/openai-gpt-3-text-embeddings-really-a-new-state-of-the-art-in-dense-text-embeddings-6571fe3ec9d9)
+
+## Articles
+
+This section collects explanations and studies of how GPT-style models work and align.
+
+1. [what is chatGPT doing and why does it work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) explaining next word prediction in detail.
+2. [Karpathy on building GPT](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=191s)
+3. [Is DPO Superior to PPO for LLM Alignment](https://arxiv.org/pdf/2404.10719)? A Comprehensive Study -
+
+   > PPO is able to surpass other alignment methods in all cases and achieve state-of-the-art results in challenging code competitions.
+
+## Competitions
+
+This section points at hackathon result sheets.
+
+1. GPT 4 [Hackathon code results](https://docs.google.com/spreadsheets/d/1tmfn8jKb7T1x7PpyO7rD023tH2zc_WDg_OHh0aVXIrw/edit#gid=174517450)
+2. [LangChain Gen Hackathon](https://docs.google.com/spreadsheets/d/1GqwPo1FpAbe_awmNZW5ZMH69yc5QtEr7ZYw-ckaz_mQ/edit#gid=795016726)
+
+## Virtual assistants
+
+This section points at a catalog of bots and prompts.
+
+1. [flowGPT](https://flowgpt.com/) - has many bots, prompts.

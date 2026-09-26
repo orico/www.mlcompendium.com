@@ -2,7 +2,7 @@
 
 This page collects prompt-engineering articles, papers, and techniques.
 
-The same notes are in [Articles](large-language-models-llms.md#articles), [GPT](gpt.md), [GPT3 is ZERO, ONE, FEW](../types-of-machine-learning/n-shot-learning.md#gpt3-is-zero-one-few), and [Large Language Models (LLMs)](large-language-models-llms.md).
+The same notes are in [Articles](large-language-models-llms.md#articles), [GPT](large-language-models-llms.md), [GPT3 is ZERO, ONE, FEW](../problem-framing/n-shot-learning.md#gpt3-is-zero-one-few), and [Large Language Models (LLMs)](large-language-models-llms.md).
 
 ## Articles
 
@@ -60,3 +60,7 @@ This subsection points at an example of prompt hacking.
 This subsection describes step-back prompting (STP).
 
 1. [STP](https://cobusgreyling.medium.com/a-new-prompt-engineering-technique-has-been-introduced-called-step-back-prompting-b00e8954cacb) - Step-Back Prompting (STP) is prompt approach in which we teach the model to answer a global questions, i.e., the original question is transformed into a stepback question, and the answer to the stepback question is used to formulate the final response.
+
+[Using LLMs as black box classifiers](https://cohenori.medium.com/understanding-scikit-llm-86441a5af370) (May 2023) uses the prompting on this page.
+
+[LLM Token Economy & Optimization](https://cohenori.medium.com/llm-token-economy-optimization-d1c3feea880b) (April 2023) is the cost note for a prompt.

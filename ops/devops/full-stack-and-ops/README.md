@@ -1,3 +1,3 @@
-# DevOps Tools
 
-This page is the DevOps tools section.
+This page moved.
+- [DevOps Tools](../../../ai-engineering/devops/full-stack-and-ops/README.md)
