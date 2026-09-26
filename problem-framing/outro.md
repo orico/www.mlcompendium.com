@@ -1,5 +1,4 @@
 # Next
 
 Next is Evals.
-A framed problem still needs a score and a split before a learner is trusted.
-
+Once the task and the learning setting are named, a framed problem still needs a score, a split, and a baseline before a learner is trusted.
