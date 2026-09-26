@@ -1,8 +1,8 @@
 # Data Lineage
 
-This page defines data lineage, why it matters, and points at articles and vendors.
+When a number is wrong, someone has to walk the path the data took. The page defines data lineage and why it matters, then points at a few good articles, and ends with the vendors that build lineage tools.
 
-The same notes are in [Data Governance](data-governance.md) and [Data Quality](data-quality.md).
+Lineage is where governance and quality meet: you cannot own or trust a number you cannot trace. The same notes are in [Data Governance](data-governance.md) and [Data Quality](data-quality.md).
 
 Data lineage refers to the detailed history of data as it moves through various stages and transformations in an information system. It is essentially the life cycle of data, from its origins to its endpoint, including how it is modified and processed over time. Understanding data lineage is crucial for several reasons:
 
@@ -12,11 +12,11 @@ Data lineage refers to the detailed history of data as it moves through various 
 - Impact Analysis — it allows organizations to assess the potential impact of changes in the data environment. This is crucial for risk management and strategic planning.
 - Audit and Reporting — data lineage provides transparency for audits, ensuring that all data used in financial reporting, for instance, is accurate and verifiable.
 
-Tools and systems that manage data lineage collect metadata from various parts of data handling systems, providing a visual or documented trail of how data flows through software and systems, which transformations it undergoes, and how it is used in different analyses and decisions. This capability is particularly important in complex systems where data is handled across various platforms and services.
+Those reasons all depend on the trail actually existing. Tools and systems that manage data lineage collect metadata from various parts of data handling systems, providing a visual or documented trail of how data flows through software and systems, which transformations it undergoes, and how it is used in different analyses and decisions. This capability is particularly important in complex systems where data is handled across various platforms and services.
 
 ## Good articles
 
-This section lists guides that explain data lineage in more depth.
+The definition above is the short version; these three articles are the longer reads. The first two answer what data lineage is, from Octopai and Ardoq, and the third is Select Star's complete guide to its benefits, techniques, and best practices.
 
 {% cards %}
 {% card title="What is Data Lineage?" href="https://www.octopai.com/what-is-data-lineage/" %}
@@ -31,9 +31,11 @@ This section lists guides that explain data lineage in more depth.
 
 ## Data lineage vendors
 
-This section lists vendors and open tools that manage data lineage.
+Once the trail is understood, someone has to collect it, and that is what the lineage vendors sell. Many of them are also data catalogs.
 
 The same notes are in [Data Catalogs](../datasets/data-catalogs.md).
+
+The cards below are Octopai, Collibra, Azure Purview, Cloudera, Alation, and the open-source Apache Atlas. Alation now presents its product as the Alation Intelligence Operating System, aimed at getting enterprise AI right and keeping it right.
 
 {% cards %}
 {% card title="Octopai" href="https://octopai.com/" %}

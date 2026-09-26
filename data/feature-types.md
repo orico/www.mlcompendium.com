@@ -1,39 +1,22 @@
 # Feature Types
 
-This page distinguishes discrete, categorical, and continuous features, and how they are encoded for regression.
-
+A model needs to know whether a column is a label, an ordered rank, or a real number, because encoding and regression treat those differently.
+This page separates variable types, then discrete features, then continuous ones, and how categorical predictors become indicators.
 The same notes are in [Regression](../predictive-ml/regression.md).
 
-Feature Types - no permission doc
-
-## Discrete
-
-This section covers discrete features: numbers and categorical labels.
-
-- Numbers
-- Categorical
-- Categorical data are variables that contain label values rather than numeric values.
-
-The number of possible values is often limited to a fixed set.
-
-- Categorical variables are often called [nominal](https://en.wikipedia.org/wiki/Nominal_category).
-- Labels, usually discrete values such as gender, country of origin, marital status, high-school graduate
-
-## Continuous
-
-This section is continuous features: real-number values on a continuous scale.
-
-Continuous (the opposite of discrete): real-number values, measured on a continuous scale: height, weight.
-
-In order to compute a regression, categorical predictors must be re-expressed as numeric: some form of indicator variables (0/1) with a separate indicator for each level of the factor.
-
-Discrete with many values are often treated as continuous, i.e. zone numbers -> binary
+The original Feature Types handout, a no permission doc, used to sit here; it no longer opens and is kept at the end of the page.
 
 ## Variable types
 
-This note lists nominal, ordinal, and interval variable types.
+Before a column can be called discrete or continuous, it needs a measurement level. The [Variable types:](http://www.socialresearchmethods.net/kb/measlevl.php) note on levels of measurement is the reference for the three used here: nominal (weather), ordinal (order var 1,2,3), and interval (range).
 
-[Variable types:](http://www.socialresearchmethods.net/kb/measlevl.php) Nominal (weather), ordinal (order var 1,2,3), interval (range)
+## Discrete
+
+The measurement levels split first into discrete features, which come as numbers or as categories. Categorical data are variables that contain label values rather than numeric values, and the number of possible values is often limited to a fixed set. Categorical variables are often called [nominal](https://en.wikipedia.org/wiki/Nominal_category), which is the Wikipedia entry on the nominal category. Those labels are usually discrete values such as gender, country of origin, marital status, or high-school graduate.
+
+## Continuous
+
+Continuous is the opposite of discrete: real-number values, measured on a continuous scale, such as height and weight. The two meet at the regression step. In order to compute a regression, categorical predictors must be re-expressed as numeric: some form of indicator variables (0/1) with a separate indicator for each level of the factor. The boundary also runs the other way, since discrete features with many values are often treated as continuous, i.e. zone numbers -> binary.
 
 ## Deprecated links
 

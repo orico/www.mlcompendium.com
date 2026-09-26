@@ -1,17 +1,12 @@
 # Normalization & Scaling
 
+Features on different scales pull a model toward the loud columns, so the work is to put them on a shared scale without inventing signal.
 This page compares normalization and scaling choices, including when to standardize versus normalize.
 
 The same notes are in [BATCH NORMALIZATION](../deep-learning/deep-neural-nets.md#batch-normalization), [Data Normalization/Augmentation](../deep-learning/deep-network-optimization.md#data-normalizationaugmentation), [KNN](../predictive-ml/nearest-neighbors.md#knn), [LDA - Linear discriminant analysis](../predictive-ml/dimensionality-reduction-methods.md#lda---linear-discriminant-analysis), and [Regression](../predictive-ml/regression.md).
 
-1. [A comparison of normalization / scaling techniques in sklearn](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py)
-2. [Another great explanation on sklearn and (general) scaling](http://benalexkeen.com/feature-scaling-with-scikit-learn/) - normal, min max, etc.
-3. [Normalization/standardize features](http://machinelearningmastery.com/normalize-standardize-machine-learning-data-weka/)
+The problem is easiest to see on real columns. [A comparison of normalization / scaling techniques in sklearn](http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py) compares the effect of different scalers on data with outliers, using two California Housing features, median income in a block and average house occupancy, that have very different scales and contain some very large outliers. Ben Alex Keen's Feature Scaling with scikit-learn is [Another great explanation on sklearn and (general) scaling](http://benalexkeen.com/feature-scaling-with-scikit-learn/) - normal, min max, etc. Jason Brownlee's [Normalization/standardize features](http://machinelearningmastery.com/normalize-standardize-machine-learning-data-weka/) does the same in Weka, starting from the point that raw data often has attributes with varying scales, one in kilograms and another a count, and that carefully choosing a rescaling method can often give a boost in performance.
 
-- Data has varying scales.
-- Normalize between range 0 to 1.
-   - When the algorithm you are using does not make assumptions about the distribution of your data, such as k-nearest neighbors and artificial neural networks.
-- Standardize, mean of 0 and a std of 1:
-   - When the algorithm assumes a Gaussian dist, such as linear regression, logistic regression and linear discriminant analysis. LR, LogR, LDA
+Because data has varying scales, the choice is between two targets. Normalize to a range of 0 to 1 when the algorithm you are using does not make assumptions about the distribution of your data, such as k-nearest neighbors and artificial neural networks. Standardize to a mean of 0 and a std of 1 when the algorithm assumes a Gaussian dist, such as linear regression, logistic regression and linear discriminant analysis (LR, LogR, LDA).
 
 Generally, it is a good idea to standardize data that has a Gaussian (bell curve) distribution and normalize otherwise. In general terms, we should test 0,1 or -1,1 empirically and possibly match the range to the NN gates/activation function etc.
