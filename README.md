@@ -16,6 +16,8 @@ layout:
 
 This page introduces the Machine and Deep Learning Compendium and where it lives.
 
+A makeover of this book was done. [How it was done](readme/makeover.md).
+
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>The Machine and Deep Learning Compendium.</p></figcaption></figure>
 
 Covering **502 topics**, the ML and DL Compendium includes summaries, links, and articles across a wide array of subjects, including LLMs. These range from modern machine learning algorithms and deep learning techniques to specialized areas like NLP, audio processing, computer vision (classic and deep), time-series analysis, anomaly detection, and graphs. It also goes deep into strategic themes like data science management, team building, and practical essentials like product management, design, and technology stacks from a data science perspective.
