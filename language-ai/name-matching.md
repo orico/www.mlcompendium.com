@@ -1,43 +1,28 @@
 # Name Matching
 
-This page collects articles, datasets, and tools for fuzzy person-name matching.
-The sections below group articles, public name datasets, and matching libraries for that problem.
+Matching person names across two lists is fuzzy string matching with a harder twist: spelling, romanization, and culture all vary for the same identity. The page first reads how others solved it, then lists the public name datasets to test against, and ends with the libraries that do the matching.
 
 The same notes are in [String Matching](string-matching.md).
 
 ## Articles
 
-This section links write-ups on fuzzy name matching across datasets.
-
-1. [Analytics Vidhya](https://medium.com/analytics-vidhya/fuzzy-name-matching-datasets-1ae28884f226) on fuzzy name matching datasets, by Zaki Jefferson
-- [Fuzzy matching people names](https://medium.com/data-science/fuzzy-matching-people-names-6e738d6b8fe)
-3. Name Matching Across datasets — POC by Centere of Excellence in AI National Informatics Centre
-- [fuzzy name matching algorithms](https://medium.com/data-science/python-tutorial-fuzzy-name-matching-algorithms-7a6f43322cc5)
+The problem is best understood through people who had to solve it. [Analytics Vidhya](https://medium.com/analytics-vidhya/fuzzy-name-matching-datasets-1ae28884f226) on fuzzy name matching datasets, by Zaki Jefferson, frames it across datasets. [Fuzzy matching people names](https://medium.com/data-science/fuzzy-matching-people-names-6e738d6b8fe) starts from a concrete case: given two unordered lists with real people names, match identities in between. Name Matching Across datasets — POC by Centere of Excellence in AI National Informatics Centre was the government proof of concept; its address no longer opens and is kept at the end of the page. For the algorithms themselves, [fuzzy name matching algorithms](https://medium.com/data-science/python-tutorial-fuzzy-name-matching-algorithms-7a6f43322cc5) is Felix Kuestahler's Python tutorial, the fifth article in his series on Python data exploration.
 
 ## Datasets
 
-This section lists public name datasets used for matching work.
-
-- GitHub - philipperemy/name-dataset: The Python library for names. facebook 533M records, philippe remy [first and last name dataset](https://github.com/philipperemy/name-dataset)
-- To the data.world Open Data Community. [data.world name datasets](https://data.world/datasets/names)
-- FiveThirtyEight Most Common Name Dataset. FiveThirtyEight Most Common Name Dataset. [Kaggle](https://www.kaggle.com/datasets/fivethirtyeight/fivethirtyeight-most-common-name-dataset)
+An algorithm is only as convincing as the names it was tested on. The largest is the [first and last name dataset](https://github.com/philipperemy/name-dataset), philipperemy/name-dataset, the Python library for names built from facebook 533M records, by philippe remy. The data.world open data community keeps [data.world name datasets](https://data.world/datasets/names), and FiveThirtyEight's Most Common Name Dataset is on [Kaggle](https://www.kaggle.com/datasets/fivethirtyeight/fivethirtyeight-most-common-name-dataset).
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>Kaggle name datasets by fivethirtyeight.</p></figcaption></figure>
 
-- UCI Machine Learning Repository. UCI Machine Learning Repository. [gender by name dataset](https://archive.ics.uci.edu/ml/datasets/Gender+by+Name)
-5. [paper](http://www.lrec-conf.org/proceedings/lrec2008/pdf/291_paper.pdf) — a ground truth dataset for matching coltural diverse romanized person names
+The figure shows those FiveThirtyEight name datasets as they appear on Kaggle. When gender is the attribute to predict or control for, the UCI Machine Learning Repository has the [gender by name dataset](https://archive.ics.uci.edu/ml/datasets/Gender+by+Name). For evaluation across cultures, the [paper](http://www.lrec-conf.org/proceedings/lrec2008/pdf/291_paper.pdf) — a ground truth dataset for matching coltural diverse romanized person names.
 
 ## Tools
 
-This section points at libraries for name matching and deduplication.
-
-1. [Dedupe](https://www.reddit.com/r/datasets/comments/4zrozk/request_name_matching_dataset/) — a python library for accurate and scalable fuzzy matching record deduplication and entity resolution
-2. [name](https://github.com/bradhackinen/nama) — fast flexible name matching for large datasets
-- Contribute to athenianco/names-matcher development by creating an account on GitHub. [name matcher](https://github.com/athenianco/names-matcher)
+With articles and data in hand, the remaining piece is a library that matches at scale. [Dedupe](https://www.reddit.com/r/datasets/comments/4zrozk/request_name_matching_dataset/) — a python library for accurate and scalable fuzzy matching record deduplication and entity resolution. [name](https://github.com/bradhackinen/nama) — fast flexible name matching for large datasets. The athenianco repository is the [name matcher](https://github.com/athenianco/names-matcher) shown below.
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Name matcher by athenianco.</p></figcaption></figure>
 
-- Kaggle: Your Home for Data Science. Kaggle, Name datasets, by fivethirtyeight. [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-most-common-name-dataset/version/108](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-most-common-name-dataset/version/108)
+To test any of these tools, the Kaggle, Name datasets, by fivethirtyeight are also linked at a fixed version: [https://www.kaggle.com/fivethirtyeight/fivethirtyeight-most-common-name-dataset/version/108](https://www.kaggle.com/fivethirtyeight/fivethirtyeight-most-common-name-dataset/version/108)
 
 ## Deprecated links
 

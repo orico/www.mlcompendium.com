@@ -1,10 +1,12 @@
 # Business
 
-Data scientists still need go-to-market vocabulary. This page points at the Unusual Ventures field guide as that introduction.
+Data scientists still need go-to-market vocabulary before they can talk to the people who sell what they build. The page points at one field guide as that introduction and then shows its index and two of its sections.
 
 The same notes are in [Growth](growth.md).
 
 [Unusual Ventures](https://www.field-guide.unusual.vc/) - "A tactical field guide provides you with all of the best practices and tools founders need to solve the most challenging early-stage problems". However, I see this as a guide for a data scientist who wants to understand what go-to-market, product-led growth, and other topics in that space are, and who needs a good introduction.
+
+The index below shows how the guide is laid out, and the two figures after it are the product field guide and the modern GTM field guide, the two parts a data scientist will read first.
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Mgd48oS5_duTKOVE_Et%2F-MkVBtp7BJSNV_p-NgWd%2F-MkVDHbsRF_b2_Ogjkgu%2Fimage.png?alt=media&token=65daf790-ac08-431e-a3cb-3d1a5cb2843d" alt=""><figcaption><p>Unusual Ventures Field guide Index</p></figcaption></figure>
 

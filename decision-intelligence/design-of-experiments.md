@@ -1,21 +1,13 @@
 # Design Of Experiments
 
-This page is about design of experiments: how to plan tests so you learn from fewer runs.
-It collects introductions and tutorials, including Python, R, and Matlab examples already linked below.
+A test that changes one thing at a time burns runs; design of experiments plans the tests so you learn from fewer of them. The reading below goes from why and how to experiment, through introductions, to worked Python, R, and Matlab examples. The same notes are in [Factorial Design](factorial-design.md).
 
-The same notes are in [Factorial Design](factorial-design.md).
+The two (good) starting points frame the problem before any tooling. (good) [The 7 steps of DoE](https://towardsdatascience.medium.com/design-of-experiments-for-your-change-management-8f70880efcdd) is Chris Kuo's Design of Experiments for Your Change Management, written for data science professionals who have faced the challenges it lists. (good) [Experimental Design for Data Science](https://towardsdatascience.medium.com/designing-experiments-in-data-science-23360d2ddf84) is the same question asked as experimental design in data science. [Vidhya on DOE, has a good explanation on why and how we can experiment with less variables](https://www.analyticsvidhya.com/blog/2015/10/guide-design-of-experiments-case-study/) is the Guest Blog beginner's guide, with a case study on banner advertisement, that treats DoE as a common analytical technique to design the right testing framework.
 
-- (good) [The 7 steps of DoE](https://towardsdatascience.medium.com/design-of-experiments-for-your-change-management-8f70880efcdd)
-- (good) [Experimental Design for Data Science](https://towardsdatascience.medium.com/designing-experiments-in-data-science-23360d2ddf84)
-- Design of experiments or DoE is a common analytical technique to design the right testing framework, by Guest Blog. [Vidhya on DOE, has a good explanation on why and how we can experiment with less variables](https://www.analyticsvidhya.com/blog/2015/10/guide-design-of-experiments-case-study/)
-- [Intro to DOE](https://towardsdatascience.medium.com/an-introduction-to-design-of-experiments-3e86ea3ef7f6)
-- [2.](https://medium.com/swlh/a-design-of-experiments-6ab225ba9ab5)
-- [Design of experiments overview of types, with PyDoe](https://towardsdatascience.medium.com/design-your-engineering-experiment-plan-with-a-simple-python-command-35a6ba52fa35)
-- Design-of-experiment (DOE) generator for science, engineering, and statistics - tirthajyoti/Design-of-experiment-Python. with multiple examples. [Git](https://github.com/tirthajyoti/Design-of-experiment-Python)
-- [Design of Experiments (DOE) with python](https://medium.com/mlearning-ai/design-of-experiments-doe-with-python-be88f5c013f5)
-- [Response Optimization with Design of Experiments and python](https://towardsdatascience.medium.com/response-optimization-with-design-of-experiments-and-python-63f9afb3f26f)
-- [Factorial Design using Matlab](https://medium.com/@shrutiavinodh/full-factorial-design-using-matlab-ccb98315b0d8)
-- [DOE with R](https://towardsdatascience.medium.com/design-of-experiments-with-r-e54167fac490)
+With the why in place, the introductions name the idea itself. An intro to DOE used to open this run; that address no longer opens and is kept at the end of the page. [2.](https://medium.com/swlh/a-design-of-experiments-6ab225ba9ab5) is Nicolus Rotich's A Design of Experiments, which starts from why we say "a design of experiments" the way we say "a school of fish", even though we are used to "a set of experiments".
+
+The rest turns the plan into code. [Design of experiments overview of types, with PyDoe](https://towardsdatascience.medium.com/design-your-engineering-experiment-plan-with-a-simple-python-command-35a6ba52fa35) is Tirthajyoti Sarkar creating the experimental design with a simple Python command; the update notes that the code is now the standard library `doepy`, installed with `pip install doepy` and used to generate design tables. Its source, with multiple examples, is the [Git](https://github.com/tirthajyoti/Design-of-experiment-Python) repo tirthajyoti/Design-of-experiment-Python, a design-of-experiment (DOE) generator for science, engineering, and statistics. [Design of Experiments (DOE) with python](https://medium.com/mlearning-ai/design-of-experiments-doe-with-python-be88f5c013f5) is Andrea Castiglioni's introduction through a simple case study with and without interactions. Its follow-up, [Response Optimization with Design of Experiments and python](https://towardsdatascience.medium.com/response-optimization-with-design-of-experiments-and-python-63f9afb3f26f), moves from mean effects and interactions in a 2-level DOE to looking for the maximum response of the system. Outside Python, [Factorial Design using Matlab](https://medium.com/@shrutiavinodh/full-factorial-design-using-matlab-ccb98315b0d8) is the full factorial experiment, two or more factors with discrete values and every combination of them, run in MATLAB. [DOE with R](https://towardsdatascience.medium.com/design-of-experiments-with-r-e54167fac490) is Design of Experiments with R, opening on an image by Hans Reniers.
+
 ## Deprecated links
 
 {% hint style="warning" %}
@@ -23,3 +15,4 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - Medium on various papers that are tagged as experimental design. This address no longer opens: https://towardsdatascience.com/tagged/experimental-design
+- Intro to DOE. This address no longer opens: https://towardsdatascience.medium.com/an-introduction-to-design-of-experiments-3e86ea3ef7f6

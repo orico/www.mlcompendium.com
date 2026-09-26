@@ -3,11 +3,6 @@
 Raw values are rarely on the scale or in the shape a learner expects.
 After this chapter the reader can scale, transform, impute, and annotate features, and can point at a pipeline that does it.
 
-- [Distribution Transformation](distribution-transformation.md)
-- [Normalization & Scaling](normalization-and-scaling.md)
-- [Data Pipelines](processing/data-pipelines.md)
-- [Feature Engineering](feature-engineering.md)
-- [Annotation & Disagreement](annotation-and-disagreement.md)
+The chapter starts with shape, because skewed data breaks tests that assume a normal shape: [Distribution Transformation](distribution-transformation.md) transforms the column, mainly with Box-Cox, and then checks whether normality actually arrived. Shape is only half of it, since features on different scales pull a model toward the loud columns, and [Normalization & Scaling](normalization-and-scaling.md) puts them on a shared scale without inventing signal. Those steps have to run somewhere repeatable, so [Data Pipelines](processing/data-pipelines.md) moves data from source systems into a place a model or warehouse can use and asks which integration path and orchestrator own that path. With clean columns flowing, [Feature Engineering](feature-engineering.md) builds features, fills gaps, and measures how alike two rows are. The last input is the label itself, and [Annotation & Disagreement](annotation-and-disagreement.md) treats labels as work product that annotators disagree on, from myths and agreement metrics to the tools that run that loop.
 
-
-[Cleaning Data With AI Denoisers](https://pub.towardsai.net/cleaning-data-with-ai-denoisers-be1bdea0fe20) (October 2024) shows this step on a real table.
+To see this step on a real table, [Cleaning Data With AI Denoisers](https://pub.towardsai.net/cleaning-data-with-ai-denoisers-be1bdea0fe20) (October 2024) shows this step on a real table: it presents AI denoisers as algorithms that reduce noise in data such as images, audio, and video, where traditional denoising relies on filters and statistical methods.

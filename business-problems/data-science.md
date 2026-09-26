@@ -12,7 +12,7 @@ Once the day is clear, the work is a stack, not a single model. The full-stack D
 <p>Credit: by <a href="https://linkedin.com/in/uriweiss">Uri Weiss</a>.</p>
 </figcaption></figure>
 
-The credit on that figure is [Uri Weiss](https://linkedin.com/in/uriweiss). If that credit is wrong, [please contact me](mailto:ori@oricohen.com). The practices that sit under the diagram, the engineering habits a DS still has to keep, are on the [ML practices for a DS](https://se-ml.github.io/) page for software engineering for machine learning.
+If the credit to [Uri Weiss](https://linkedin.com/in/uriweiss) on that figure is wrong, [please contact me](mailto:ori@oricohen.com). The practices that sit under the diagram, the engineering habits a DS still has to keep, are on the [ML practices for a DS](https://se-ml.github.io/) page for software engineering for machine learning.
 
 ## Life cycle
 
@@ -69,7 +69,7 @@ A stack does not tell a research team how to plan the week. Research is not a ba
 
 The method only holds if the team knows which job is which. The same notes are in [Building Teams](../ai-product/management.md#building-teams) and [Scaling Agile - Agile Approaches](../ai-product/management.md#scaling-agile---agile-approaches).
 
-[DS vs DA vs MLE](https://medium.com/@meightpc_14421/data-scientist-vs-data-analysis-vs-ml-engineer-which-job-is-most-suited-for-you-def7b12b3256) is the diagram-heavy comparison of data scientist, data analyst, and ML engineer. That distinction is the motherlode of the figures people reuse when they argue about the role.
+[DS vs DA vs MLE](https://medium.com/@meightpc_14421/data-scientist-vs-data-analysis-vs-ml-engineer-which-job-is-most-suited-for-you-def7b12b3256) is the diagram-heavy comparison of data scientist, data analyst, and ML engineer, a distinction that is the motherlode of the figures people reuse when they argue about the role.
 
 The team then has to form. The references are a roadmap and the classic stages, not a new org chart:
 
@@ -107,7 +107,7 @@ Deep learning sits on a core ML course, not the other way around. [Recommended: 
 
 ## NLP Courses
 
-After the core ML lectures, language is its own stack. [spacy](https://spacy.io/usage/spacy-101) is the 101, the concepts in spaCy's own terms. [gensim](https://www.machinelearningplus.com/nlp/gensim-tutorial/) is Selva Prabhakaran's tutorial for the library billed as topic modeling for humans. [2](https://radimrehurek.com/gensim/auto_examples/) is the official gensim examples. [nltk](https://realpython.com/nltk-nlp-python/) is the Real Python NLTK path. The second [2](https://www.tutorialspoint.com/natural_language_toolkit/index.htm) is TutorialsPoint's NLTK index, starting from language as a method of communication you can speak, read, and write. The [yandex](#life-cycle) pointer on this page is an anchor back to the lifecycle, not a separate course. [voita](https://lena-voita.github.io/nlp_course.html) is Lena Voita's course: interactive lectures, research exercises, and papers with summaries.
+After the core ML lectures, language is its own stack. [spacy](https://spacy.io/usage/spacy-101) is the 101, the concepts in spaCy's own terms. [gensim](https://www.machinelearningplus.com/nlp/gensim-tutorial/) is Selva Prabhakaran's tutorial for the library billed as topic modeling for humans. [2](https://radimrehurek.com/gensim/auto_examples/) is the official gensim examples. [nltk](https://realpython.com/nltk-nlp-python/) is the Real Python NLTK path. The second [2](https://www.tutorialspoint.com/natural_language_toolkit/index.htm) is TutorialsPoint's NLTK index, starting from language as a method of communication you can speak, read, and write. The [yandex](#life-cycle) pointer is an anchor back to the lifecycle section above rather than a separate course, and the Yandex course repo itself is in the notebooks below. [voita](https://lena-voita.github.io/nlp_course.html) is Lena Voita's course: interactive lectures, research exercises, and papers with summaries.
 
 ## Predictive Analytics Course
 

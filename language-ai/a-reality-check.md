@@ -1,11 +1,10 @@
 # A Reality Check
 
-This page points at a metric-learning reality check: after datasets are normalized, many NLP algorithms show little metric progress.
-It links a benchmark, paper, and medium note that make that metric stall visible after normalization.
+Before reading any NLP leaderboard, it is worth asking whether the gains survive a fair comparison. The metric-learning reality check says many do not: once datasets are normalized, many algorithms show little metric progress. The page gives the benchmark, the paper, and the follow-up note that make that stall visible.
 
 The same notes are in [A metric learning reality check](../evals/evaluation-metrics.md#a-metric-learning-reality-check).
 
-[A powerful benchmark](https://github.com/KevinMusgrave/powerful-benchmarker), [paper](https://arxiv.org/pdf/2003.08505.pdf), [medium](https://medium.com/@tkm45/updates-to-a-metric-learning-reality-check-730b6914dfe7) — normalizing data sets allows us to see that there wasn't any advancement in terms of metrics in many NLP algorithms.
+The tool behind the comparison is [A powerful benchmark](https://github.com/KevinMusgrave/powerful-benchmarker), a library for ML benchmarking. The argument itself is the [paper](https://arxiv.org/pdf/2003.08505.pdf), "A Metric Learning Reality Check", and the [medium](https://medium.com/@tkm45/updates-to-a-metric-learning-reality-check-730b6914dfe7) post carries the updates to it — together they show that normalizing data sets allows us to see that there wasn't any advancement in terms of metrics in many NLP algorithms.
 
 ## Deprecated links
 

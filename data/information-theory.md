@@ -1,43 +1,33 @@
 # Information Theory
 
-A model that ranks classes or splits trees needs a measure of surprise and a measure of how wrong a predicted distribution is.
-This page moves from entropy and information gain, through the cross-entropy and divergence family and softmax, into tools, tutorials, time-series entropy, and complement objective training.
+A model that ranks classes or splits trees needs a measure of surprise and a measure of how wrong a predicted distribution is. The page starts with entropy and information gain, moves through the cross-entropy and divergence family and softmax, and then turns to tools, tutorials, time-series entropy, and complement objective training.
 The same notes are in [Collocation](../language-ai/foundation-nlp.md#collocation) and [MUTUAL INFORMATION COEFFICIENT](dependence-and-selection.md#mutual-information-coefficient).
 
 ## Entropy / Information Gain
 
-This section opens with Shannon entropy and information gain before the divergence family.
+Surprise comes first, because every later measure on the page is built from it.
 
 The same notes are in [Active Learning](../problem-framing/active-learning.md).
 
-1. Shannon entropy in python, basically entropy(value counts)
-- A Gentle Introduction to Information Entropy - MachineLearningMastery.com. [Mastery on plogp entropy function](https://machinelearningmastery.com/what-is-information-entropy/)
-- Four different ways to calculate entropy in Python - entropy_calculation_in_python.py. [Entropy functions](https://gist.github.com/jaradc/eeddf20932c0347928d0da5a09298147)
+Shannon entropy in python is, basically, entropy(value counts): count how often each value appears, turn the counts into probabilities, and sum p log p. MachineLearningMastery's "A Gentle Introduction to Information Entropy" is the [Mastery on plogp entropy function](https://machinelearningmastery.com/what-is-information-entropy/) walkthrough, and the [Entropy functions](https://gist.github.com/jaradc/eeddf20932c0347928d0da5a09298147) gist shows four different ways to calculate entropy in Python.
 
 ## Cross entropy, relative ent, KL-D, JS-D, soft max
 
-After entropy, this section collects cross-entropy, KL, JS divergence, and related losses.
+Entropy measures one distribution; training needs a measure between two, the true one and the predicted one.
 
 The same notes are in [Comparing distributions (distance methods)](distribution.md#comparing-distributions-distance-methods), [LOSS](../deep-learning/deep-neural-nets.md#loss), and [LOSS IN KERAS](../deep-learning/deep-neural-frameworks.md#loss-in-keras).
 
-- Kullback–Leibler divergence is a very useful way to measure the difference between two probability distributions. [A really good explanation on all of them](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
-- Computer vision, deep learning and image processing stuff by Raúl Gómez Bruballa, PhD in computer vision. [Another good one on all of them](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
-- A Gentle Introduction to Cross-Entropy for Machine Learning - MachineLearningMastery.com. [mastery on a gentle intro to CE](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)
-4. [Mastery on entropy](https://machinelearningmastery.com/divergence-between-probability-distributions/), kullback leibler divergence (asymmetry), jensen-shannon divergence (symmetry) (has code)
-5. [Entropy, mutual information and KL Divergence by AurelienGeron](https://www.techleer.com/articles/496-a-short-introduction-to-entropy-cross-entropy-and-kl-divergence-aurelien-geron/)
-6. Gensim on divergence metrics such as KL jaccard etc, pros and cons, lda is a mess on small data.
-7. [Advise on KLD](https://datascience.stackexchange.com/questions/9262/calculating-kl-divergence-in-python)ivergence
-8. Neural machine translation using pytorch and CE
+Kullback–Leibler divergence is a very useful way to measure the difference between two probability distributions, and Count Bayesie's "Kullback-Leibler Divergence Explained" is [A really good explanation on all of them](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained). From the loss side, Raúl Gómez Bruballa's post on categorical and binary cross-entropy, softmax loss, logistic loss, focal loss, and all those confusing names is [Another good one on all of them](https://gombru.github.io/2018/05/23/cross_entropy_loss/). MachineLearningMastery's "A Gentle Introduction to Cross-Entropy for Machine Learning" is the [mastery on a gentle intro to CE](https://machinelearningmastery.com/cross-entropy-for-machine-learning/), and the [Mastery on entropy](https://machinelearningmastery.com/divergence-between-probability-distributions/) follow-up covers divergence between distributions: kullback leibler divergence (asymmetry), jensen-shannon divergence (symmetry) (has code).
+
+The same family is tied together in [Entropy, mutual information and KL Divergence by AurelienGeron](https://www.techleer.com/articles/496-a-short-introduction-to-entropy-cross-entropy-and-kl-divergence-aurelien-geron/). Gensim also has notes on divergence metrics such as KL jaccard etc, pros and cons, lda is a mess on small data. For computing it by hand, the Stack Exchange question on calculating KL divergence in Python, where every pair of lists returned the same value, is the [Advise on KLD](https://datascience.stackexchange.com/questions/9262/calculating-kl-divergence-in-python)ivergence thread. Neural machine translation using pytorch and CE is where the same loss shows up in a full model.
 
 ## Softmax
 
-With the divergence family named, this section explains softmax, NLL, and how they relate to cross-entropy.
+Cross-entropy needs a predicted distribution to compare against, and softmax is what turns a network's scores into one.
 
 The same notes are in [ACTIVATION FUNCTIONS](../deep-learning/deep-neural-nets.md#activation-functions) and [Temperature](../responsible-ai/calibration.md#temperature).
 
-- [Understanding softmax](https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a59641e86d)
-- In this notebook I will explain the softmax function, its relationship with the negative log-likelihood, and its derivative when doing the backpropagation al.., by LJ V. MIRANDA. [Softmax and negative likelihood (NLL)](https://ljvmiranda921.github.io/notebook/2017/08/13/softmax-and-the-negative-log-likelihood/)
-3. [Softmax vs cross entropy](https://www.quora.com/Is-the-softmax-loss-the-same-as-the-cross-entropy-loss) - Softmax loss and cross-entropy loss terms are used interchangeably in industry. Technically, there is no term as such Softmax loss. people use the term "softmax loss" when referring to "cross-entropy loss". The softmax classifier is a linear classifier that uses the cross-entropy loss function. In other words, the gradient of the above function tells a softmax classifier how exactly to update its weights using some optimization like [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent).
+[Understanding softmax](https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a59641e86d) is Uniqtech Learning's short explanation of the activation function that turns logits into probabilities that sum to one. LJ V. MIRANDA's notebook, [Softmax and negative likelihood (NLL)](https://ljvmiranda921.github.io/notebook/2017/08/13/softmax-and-the-negative-log-likelihood/), explains the softmax function, its relationship with the negative log-likelihood, and its derivative during backpropagation. The naming question is settled in [Softmax vs cross entropy](https://www.quora.com/Is-the-softmax-loss-the-same-as-the-cross-entropy-loss) - Softmax loss and cross-entropy loss terms are used interchangeably in industry. Technically, there is no term as such Softmax loss. people use the term "softmax loss" when referring to "cross-entropy loss". The softmax classifier is a linear classifier that uses the cross-entropy loss function. In other words, the gradient of the above function tells a softmax classifier how exactly to update its weights using some optimization like [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent).
 
 The softmax() part simply normalises your network predictions so that they can be interpreted as probabilities. Once your network is predicting a probability distribution over labels for each input, the log loss is equivalent to the cross entropy between the true label distribution and the network predictions. As the name suggests, softmax function is a “soft” version of max function. Instead of selecting one maximum value, it breaks the whole (1) with maximal element getting the largest portion of the distribution, but other smaller elements getting some of it as well.
 
@@ -47,23 +37,17 @@ Cross entropy indicates the distance between what the model believes the output 
 
 ## Tools
 
-After the theory, this section lists Python libraries for information-theoretic measures.
-
-- Installation — entropy 0.1.3 documentation. [EntroPy](https://raphaelvallat.com/entropy/build/html/index.html)
-- Installation — antropy 0.2.2 documentation. / [AntroPy](https://raphaelvallat.com/antropy/)
-- AntroPy: entropy and complexity of (EEG) time-series in Python - raphaelvallat/antropy. [[Git](https://github.com/raphaelvallat/antropy)
-2. [PyInform](https://github.com/ELIFE-ASU/PyInform) [[Docs](https://elife-asu.github.io/PyInform/index.html)]- PyInform is a python library of information-theoretic measures for time series data. PyInform is backed by the [Inform](https://github.com/elife-asu/inform) C library.
-- GitHub - nikdon/pyEntropy: Entropy for Python. [PyEntropy](https://github.com/nikdon/pyEntropy)
+Once the measures are clear, computing them should not mean writing them from scratch. [EntroPy](https://raphaelvallat.com/entropy/build/html/index.html) is the entropy 0.1.3 documentation, and [AntroPy](https://raphaelvallat.com/antropy/) has its own 0.2.2 documentation; the AntroPy [[Git](https://github.com/raphaelvallat/antropy) repo describes it as entropy and complexity of (EEG) time-series in Python. [PyInform](https://github.com/ELIFE-ASU/PyInform) [[Docs](https://elife-asu.github.io/PyInform/index.html)]- PyInform is a python library of information-theoretic measures for time series data. PyInform is backed by the [Inform](https://github.com/elife-asu/inform) C library, a cross platform library for information analysis of dynamical systems. [PyEntropy](https://github.com/nikdon/pyEntropy) is one more package, entropy for Python.
 
 ## Tutorials
 
-Beside the tools, this section walks entropy, cross-entropy, information gain, and Gini for decision trees.
+The libraries compute the numbers; the tutorials show why a decision tree wants them.
 
 The same notes are in [CART TREES](../predictive-ml/decision-trees.md#cart-trees).
 
-[Great tutorial on all of these topics](https://www.bogotobogo.com/python/scikit-learn/scikt_machine_learning_Decision_Tree_Learning_Informatioin_Gain_IG_Impurity_Entropy_Gini_Classification_Error.php)
+The scikit-learn decision tree learning tutorial on entropy, Gini, and information gain is the [Great tutorial on all of these topics](https://www.bogotobogo.com/python/scikit-learn/scikt_machine_learning_Decision_Tree_Learning_Informatioin_Gain_IG_Impurity_Entropy_Gini_Classification_Error.php).
 
-[Entropy](https://www.techleer.com/articles/496-a-short-introduction-to-entropy-cross-entropy-and-kl-divergence-aurelien-geron/) - lack of order or lack of predictability ([excellent slide lecture by Aurelien Geron](https://www.youtube.com/watch?time_continue=3&v=ErfnhcEV1O8))
+[Entropy](https://www.techleer.com/articles/496-a-short-introduction-to-entropy-cross-entropy-and-kl-divergence-aurelien-geron/) - lack of order or lack of predictability ([excellent slide lecture by Aurelien Geron](https://www.youtube.com/watch?time_continue=3&v=ErfnhcEV1O8)). The figures below come from that short introduction to entropy, cross-entropy, and KL-divergence.
 
 <figure><img src="../.gitbook/assets/gimg-102a11303beb.png" alt=""><figcaption><p>Entropy, cross-entropy, and KL divergence (Aurelien Geron).</p><p>Credit: <a href="https://lh6.googleusercontent.com/_MSZGPguSXitn80COZLJ3rOIScBmTXNR6LIOLt3UiyfwNYeTQHUOAVzK1bpaSeoHRPImGnJiHFqsS8Tl3ETkGs32KNgDWwVpJ3nTfxJ7gfzambo0AwY8VBvAKwDKK-7GWoOLdONT">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -92,26 +76,14 @@ NOTE: Entropy can be generalized as a formula for N > 2 classes:
 <figure><img src="../.gitbook/assets/gimg-f9ecbbfbc2b3.png" alt=""><figcaption><p>Entropy generalized as a formula for N > 2 classes.</p><p>Credit: <a href="https://lh6.googleusercontent.com/N-CK4gLV67dfxLjDbty1SnsWsNlBm2GLM2TXL8HXef2EzsFZxvY4urwUnFiSE2A4SSBRQrFKuluQzb7cm0mTKUIUuwxbqj1NbC-4igh3pGIMrBjSFN7lppKJAktDvLNNJGflwo_A">copied from the original hosted image</a>.</p></figcaption></figure>
 
 
-(We want to grow a simple tree) awesome pdf tutorial→ a good attribute prefers attributes that split the data so that each successor node is as pure as possible
-
-- i.e., the distribution of examples in each node is so that it mostly contains examples of a single class
-- In other words: We want a measure that prefers attributes that have a high degree of „order“:
-- Maximum order: All examples are of the same class
-- Minimum order: All classes are equally likely → Entropy is a measure for (un-)orderedness Another interpretation:
-- Entropy is the amount of information that is contained
-- all examples of the same class → no information
+The same loss logic now carries over to trees. The notes below follow an awesome pdf tutorial whose address no longer opens and is kept at the end of the page. (We want to grow a simple tree): a good attribute prefers attributes that split the data so that each successor node is as pure as possible, i.e., the distribution of examples in each node is so that it mostly contains examples of a single class. In other words: We want a measure that prefers attributes that have a high degree of „order“. Maximum order: All examples are of the same class. Minimum order: All classes are equally likely → Entropy is a measure for (un-)orderedness. Another interpretation: Entropy is the amount of information that is contained, and all examples of the same class → no information.
 
 <figure><img src="../.gitbook/assets/gimg-c3fc62bc4be7.png" alt=""><figcaption><p>Entropy as unorderedness in the class distribution of S.</p><p>Credit: <a href="https://lh3.googleusercontent.com/s4tfIeHpR4H9GimwTPjFVoV0nCKwEUQYRFpz93x-d5jZCxDFIub8jiK7PFbkSNU1X__OXHK7XLSH_BO0xUQIjS6HEnHfUEiuY0KWJpb1ZX0NowqyKG4A2guA3wN_b52UKeVluv9f">copied from the original hosted image</a>.</p></figcaption></figure>
 
 
-Entropy is the amount of unorderedness in the class distribution of S
+Entropy is the amount of unorderedness in the class distribution of S. In the IMAGE above it has its maximal value when the equal class distribution holds, and its minimal value when only one class is in S.
 
-IMAGE above:
-
-- Maximal value when the equal class distribution
-- Minimal value when only one class is in S
-
-So basically if we have the outlook attribute and it has 3 categories, we calculate the entropy for E(feature=category) for all 3.
+That is the entropy of one node; a split has one node per category. So basically if we have the outlook attribute and it has 3 categories, we calculate the entropy for E(feature=category) for all 3.
 
 <figure><img src="../.gitbook/assets/gimg-fbedcd82edef.png" alt=""><figcaption><p>Entropy for each category of an attribute such as Outlook.</p><p>Credit: <a href="https://lh5.googleusercontent.com/aTcovXALgA4bT15GabT1Z3ce7GpKoMkAUVAly_v7Jn2EgcKmSr2eq18ANSU1TxHJt2-_Lfk-fSoiF9DimirF57D0-bNQrAtfBp3hT3205e-C4XQEn87w2lu8m8LZl3f7RYlCtnIn">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -139,10 +111,7 @@ There are some properties to Entropy that influence INFO GAIN (?):
 
 There are some disadvantages with INFO GAIN, done use it when an attribute has many number values, such as “day” (date wise) 05/07, 06/07, 07/07..31/07 etc.
 
-Information gain is biased towards choosing attributes with a large number of values and causes:
-
-- Overfitting
-- fragmentation
+Information gain is biased towards choosing attributes with a large number of values, and that bias causes overfitting and fragmentation.
 
 <figure><img src="../.gitbook/assets/gimg-b7008514d45b.png" alt=""><figcaption><p>Information Gain bias toward attributes with many values.</p><p>Credit: <a href="https://lh5.googleusercontent.com/vGjXAG-G2hmkJkt4xhcxycm5BG6LM-sRPOWnXOrXuCFpSGOQSBcL2mZUoVRhsqRTrr83wXKRDp5rF2hqYn1DGnJdIGvWezoSxy9zOmy2e5Yqc_OIJ6sXXA1YAbZksmY4-f0JWaDp">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -161,19 +130,17 @@ Therefore, we define the alternative, which is the GINI INDEX. It measures impur
 <figure><img src="../.gitbook/assets/gimg-0c4b7812badf.png" alt=""><figcaption><p>Gini index, average Gini, and Gini Gain.</p><p>Credit: <a href="https://lh4.googleusercontent.com/RbRnfwnEtsIcgYsZah90PVP-DoX0E2qEqBImKmyQGxEMMegWenzsMa2rNa18_F_jXTsscGVFK5X_FX9Vs6pWizuiXOgzSvCxy57a5_ny_48XzB09CWARY7wvbl6O3tYoho_ykza8">copied from the original hosted image</a>.</p></figcaption></figure>
 
 
-FINALLY, further reading about decision trees and examples of INFOGAIN and GINI here.
+FINALLY, further reading about decision trees and examples of INFOGAIN and GINI here used to point at the same pdf tutorial, which is kept at the end of the page.
 
-[Variational bounds on mutual information](https://arxiv.org/abs/1905.06922v1)
+Beyond trees, mutual information itself is hard to estimate, and [Variational bounds on mutual information](https://arxiv.org/abs/1905.06922v1) is the arXiv paper "On Variational Bounds of Mutual Information".
 
 ## Time series entropy
 
-After the tutorials, this section is entropy measures for one-dimensional time series, including EntroPy examples.
+The tree measures treat each row on its own; a time series asks how predictable the sequence is.
 
 The same notes are in [Timeseries](../predictive-ml/forecasting.md).
 
-1. [entroPY](https://raphaelvallat.com/entropy/build/html/index.html) - EntroPy is a Python 3 package providing several time-efficient algorithms for computing the complexity of one-dimensional time-series. It can be used for example to extract features from EEG signals.
-
-[Approximate entropy paper](https://journals.physiology.org/doi/pdf/10.1152/ajpheart.2000.278.6.H2039)
+[entroPY](https://raphaelvallat.com/entropy/build/html/index.html) - EntroPy is a Python 3 package providing several time-efficient algorithms for computing the complexity of one-dimensional time-series. It can be used for example to extract features from EEG signals. The [Approximate entropy paper](https://journals.physiology.org/doi/pdf/10.1152/ajpheart.2000.278.6.H2039) is behind one of its measures, approximate entropy. The calls below compute each of them on a series x:
 
 ```python
 print(perm_entropy(x, order=3, normalize=True)) # Permutation entropy
@@ -184,7 +151,7 @@ print(sample_entropy(x, order=2, metric='chebyshev')) # Sample entropy
 print(lziv_complexity('01111000011001', normalize=True)) # Lempel-Ziv complexity
 ```
 
-- PyInform — PyInform 0.2.0 documentation. [PyInform](https://elife-asu.github.io/PyInform/index.html)
+For measures beyond those, the [PyInform](https://elife-asu.github.io/PyInform/index.html) 0.2.0 documentation lists the information-theoretic measures shown in the two figures below.
 
 <figure><img src="../.gitbook/assets/gimg-15c13866e888.png" alt=""><figcaption><p>PyInform information-theoretic measures.</p><p>Credit: <a href="https://lh3.googleusercontent.com/2XcbUSTQe6BCTd2Hgmj-VU_ErIDRzSbfUucWtiqXRSaPdoYVKtcEs4AwvIjKYoFteF_Ndl5yhdvy24vFX-4x24Bap21_hAyYwDeX0Xh0u5PHUqj9Jc2KacINx6HtckWwNAHEcsMM">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -193,10 +160,7 @@ print(lziv_complexity('01111000011001', normalize=True)) # Lempel-Ziv complexity
 
 ## Complement Objective Training
 
-Closing the page, this section explains COT as a second training step beside cross-entropy.
-
-- Complement Objective Training is a simple way to use incorrect-class probabilities and get more from labeled data in PyTorch Lightning. Article by [LightTag](https://www.lighttag.io/blog/complement-objective-training-with-pytorch-lightning/)
-- [paper](https://arxiv.org/pdf/1903.01182.pdf)
+Cross-entropy, from earlier on the page, only pushes up the correct class; complement objective training also uses the wrong ones. Complement Objective Training is a simple way to use incorrect-class probabilities and get more from labeled data in PyTorch Lightning. Article by [LightTag](https://www.lighttag.io/blog/complement-objective-training-with-pytorch-lightning/), and the method's [paper](https://arxiv.org/pdf/1903.01182.pdf) is on arXiv.
 
 COT is a technique to effectively provide explicit negative feedback to our model. The technique gives us non-zero gradients with respect to incorrect classes, which are used to update the model's parameters.
 

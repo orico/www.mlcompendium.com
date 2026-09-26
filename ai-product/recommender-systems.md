@@ -1,65 +1,38 @@
 # Recommender Systems
 
-Users need a next item. This page is the recommendation task first, then how to evaluate those systems, then the tools.
+Users need a next item, and a recommender has to predict which one. The page starts with the recommendation task itself (content-based methods, collaborative filtering, and matrix factorization), then asks how to evaluate those systems, and ends with the tools that implement them.
 
 The same notes are in [Embedding](../deep-learning/representations.md), [Multi Armed Bandits](../decision-intelligence/multi-armed-bandits.md), [SIMILARITY](../data/feature-engineering.md#similarity), [SVD](../predictive-ml/dimensionality-reduction-methods.md#svd), and [TF-IDF](../language-ai/tf-idf.md).
 
 ## The recommendation task
 
-These notes are collaborative filtering, content-based methods, and matrix factorization for that task.
+The task has two classic answers: recommend items similar to what the user liked, or recommend what similar users liked. The first is content-based. [Beginner guide](https://www.analyticsvidhya.com/blog/2015/08/beginners-guide-learn-content-based-recommender-systems/) is Shuvayan's guide to content based recommender systems, their workings, applications, and limitations, with a step-by-step build. The second is collaborative filtering, and [Real python on CF](https://realpython.com/build-recommendation-engine-collaborative-filtering/#steps-involved-in-collaborative-filtering) walks the steps involved in it. [Intro to, using item-item or user-item](https://www.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/) is Ethan Rosenthal's introduction, written because he found Andrew Ng's course lacking on recommender systems, which he sees as completing the triumvirate of machine learning pillars for data science after regression and classification.
 
-- Explore content based recommender systems, their workings, applications, and limitations, by Shuvayan. [Beginner guide](https://www.analyticsvidhya.com/blog/2015/08/beginners-guide-learn-content-based-recommender-systems/)
-2. [Real python on CF](https://realpython.com/build-recommendation-engine-collaborative-filtering/#steps-involved-in-collaborative-filtering)
-- Intro to Recommender Systems: Collaborative Filtering | Ethan Rosenthal. [Intro to, using item-item or user-item](https://www.ethanrosenthal.com/2015/11/02/intro-to-collaborative-filtering/)
-- Tfidf cosine similarity [countvec cosine](https://www.datacamp.com/community/tutorials/recommender-systems-python)
-5. Various implementations of CF; a serious review of algorithms
-- Introduction to Recommender System. Part 1 (Collaborative Filtering, Singular Value Decomposition) | HackerNoon. [Collaborative filtering, SVD](https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75)
-- Introduction to Recommender System. Part 1 (Collaborative Filtering, Singular Value Decomposition) | HackerNoon. [Part1,](https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75)
-8. [A general tutorial, has a nice intro](https://www.datacamp.com/community/tutorials/recommender-systems-python)
-9. Medium on Movies
- 1. Part 1 matrix factorization in movies, users vs movies
- 2. Part 2 using collaborative filtering using open ai
- 3. Part 3 using col-filtering with neural nets
-10. Medium series on collaborative filtering and embeddings Part 1, part 2; [git](https://github.com/shik3519/collaborative-filtering)
-- Explore and run AI code with Kaggle Notebooks | Using data from The Movies Dataset. [Movie recommender systems](https://www.kaggle.com/rounakbanik/movie-recommender-systems)
- - GitHub - jaypatel00174/Movie-Recommendation: Basic of Recommendation Models. [On git](https://github.com/jaypatel00174/Movie-Recommendation)
-12. Matrix factorization
-- [Collaborative filtering with binary countvec data, item-item, didnt work well on another domain](https://medium.com/radon-dev/item-item-collaborative-filtering-with-binary-or-unary-data-e8f0b465b2c3)
-14. Netflix competition, matrix factorization over classical algorithms, a survey paper
-15. Movie similarity based on genre
-- [Similar entities, matrix multiplication](https://medium.com/wbaa/https-medium-com-ingwbaa-boosting-selection-of-the-most-similar-entities-in-large-scale-datasets-450b3242e618) high sparsity
-17. [Euclidean distance with high sparse data](https://stats.stackexchange.com/questions/117354/euclidean-distance-with-sparse-and-high-dimension-data)
-- Implementation of collaborative filtering using fastai and pytorch - collaborative-filtering/cf-scratch-movielens/collaborative filtering from scratch.ipynb at master · shik3519/collaborative-filtering. Excel & fastai   Excel fastai [git](https://github.com/shik3519/collaborative-filtering/blob/master/cf-scratch-movielens/collaborative%20filtering%20from%20scratch.ipynb)
-- [CF for movie recommendation](https://medium.com/@wwwbbb8510/python-implementation-of-baseline-item-based-collaborative-filtering-2ba7c8960590)
-- [Comparison item vs user cf](https://medium.com/@wwwbbb8510/comparison-of-user-based-and-item-based-collaborative-filtering-f58a1c8a3f1d)
-21. [build a recommendation engine with collaborative filtering](https://realpython.com/build-recommendation-engine-collaborative-filtering/)
+The simplest content-based version is Tfidf cosine similarity, and [countvec cosine](https://www.datacamp.com/community/tutorials/recommender-systems-python) is the DataCamp beginner tutorial on recommender systems in Python that shows it. Various implementations of CF; a serious review of algorithms is listed in the tools section below. [Collaborative filtering, SVD](https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75) is HackerNoon's introduction, which defines a recommender system as one that predicts the future preference of a set of items for a user and recommends the top items, needed because the Internet gives people too many options; the same piece is listed as [Part1,](https://hackernoon.com/introduction-to-recommender-system-part-1-collaborative-filtering-singular-value-decomposition-44c9659c5e75) of the series. The DataCamp tutorial is also [A general tutorial, has a nice intro](https://www.datacamp.com/community/tutorials/recommender-systems-python).
+
+Movies are the standard playground. Medium on Movies was a three-part series (Part 1 matrix factorization in movies, users vs movies; Part 2 using collaborative filtering using open ai; Part 3 using col-filtering with neural nets), and its sources are kept at the end of the page. The Medium series on collaborative filtering and embeddings Part 1, part 2 is also gone, but its [git](https://github.com/shik3519/collaborative-filtering) repo remains. [Movie recommender systems](https://www.kaggle.com/rounakbanik/movie-recommender-systems) is a Kaggle notebook using data from The Movies Dataset, and the basics of recommendation models are [On git](https://github.com/jaypatel00174/Movie-Recommendation).
+
+Matrix factorization is the next step past neighbours; its summary is kept at the end of the page. Real data is often binary rather than rated: [Collaborative filtering with binary countvec data, item-item, didnt work well on another domain](https://medium.com/radon-dev/item-item-collaborative-filtering-with-binary-or-unary-data-e8f0b465b2c3) is a simple, non state of the art write-up of item-item collaborative filtering with binary or unary data, since most examples use the MovieLens 1–5 star ratings. The Netflix competition, matrix factorization over classical algorithms, a survey paper, and Movie similarity based on genre used to sit here and are kept at the end of the page.
+
+Similarity at scale is its own problem. [Similar entities, matrix multiplication](https://medium.com/wbaa/https-medium-com-ingwbaa-boosting-selection-of-the-most-similar-entities-in-large-scale-datasets-450b3242e618) high sparsity: comparing very large feature vectors usually means a sparse matrix multiplication followed by selecting the top-n results, and a customized Cython function improves speed by about 40% over SciPy and NumPy. The distance itself also breaks down: [Euclidean distance with high sparse data](https://stats.stackexchange.com/questions/117354/euclidean-distance-with-sparse-and-high-dimension-data) is the question of comparing objects built from texts whose length varies a lot.
+
+To build one yourself, Excel & fastai   Excel fastai [git](https://github.com/shik3519/collaborative-filtering/blob/master/cf-scratch-movielens/collaborative%20filtering%20from%20scratch.ipynb) is collaborative filtering from scratch on MovieLens, implemented with fastai and pytorch. [CF for movie recommendation](https://medium.com/@wwwbbb8510/python-implementation-of-baseline-item-based-collaborative-filtering-2ba7c8960590) is Bin Wang's Python implementation of baseline item-based collaborative filtering, and its related article is the [Comparison item vs user cf](https://medium.com/@wwwbbb8510/comparison-of-user-based-and-item-based-collaborative-filtering-f58a1c8a3f1d). The Real Python piece in full is [build a recommendation engine with collaborative filtering](https://realpython.com/build-recommendation-engine-collaborative-filtering/).
 
 ## Evaluating Recommender Systems
 
-Once recommenders exist, these notes are how to evaluate them for the business and for accuracy.
+Once recommenders exist, the question is which one is better, for the business and for accuracy.
 
 The same notes are in [Evaluation Metrics](../evals/evaluation-metrics.md).
 
-1. An exhaustive list of methods to evaluate
-- [Choosing the best for your business](https://medium.com/recombee-blog/evaluating-recommender-systems-choosing-the-best-one-for-your-business-c688ab781a35)
-- [Evaluating](https://medium.com/the-owl/evaluating-recommender-systems-749570354976)
-4. [survey of accuracy eval metrics for RS by Microsoft](https://www.jmlr.org/papers/volume10/gunawardana09a/gunawardana09a.pdf)
-- [Building a validation framework](https://medium.com/moosend-engineering-data-science/building-a-validation-framework-for-recommender-systems-a-quest-ec173a24b56f)
-6. Evaluation Metrics for RS
-7. [offline vs online validation](https://www.quora.com/How-do-I-validate-my-recommendation-system-without-prior-user-interaction-data)
-8. [Evaluating RS](https://tzin.bgu.ac.il/~shanigu/Publications/EvaluationMetrics.17.pdf)
+An exhaustive list of methods to evaluate used to open this list and is kept at the end of the page. For the business view, [Choosing the best for your business](https://medium.com/recombee-blog/evaluating-recommender-systems-choosing-the-best-one-for-your-business-c688ab781a35) starts from the rise of Software-as-a-Service recommender systems, which are no longer a privilege of large companies building their own in-house. [Evaluating](https://medium.com/the-owl/evaluating-recommender-systems-749570354976) is Saumyadeepta Sen's post on the metrics used for recommender systems, after earlier posts on classification metrics. The accuracy side is formalized in the [survey of accuracy eval metrics for RS by Microsoft](https://www.jmlr.org/papers/volume10/gunawardana09a/gunawardana09a.pdf). Metrics then need a process: [Building a validation framework](https://medium.com/moosend-engineering-data-science/building-a-validation-framework-for-recommender-systems-a-quest-ec173a24b56f) is Dimitris Apostolopoulos on building a validation framework for a recommender system. Evaluation Metrics for RS is kept at the end of the page. The hardest case is having no history at all: [offline vs online validation](https://www.quora.com/How-do-I-validate-my-recommendation-system-without-prior-user-interaction-data) answers how to validate a recommendation system without prior user interaction data, including a detailed rebuttal of a paper on how much traffic recommenders actually cause. [Evaluating RS](https://tzin.bgu.ac.il/~shanigu/Publications/EvaluationMetrics.17.pdf) is the paper for a designer choosing between candidate approaches, where the first step is deciding which properties of the application matter.
 
 ## TOOLS
 
-After evaluation, these tools are Surprise, Grover Prince’s repo, and python-recsys.
+After evaluation, the work is implementation, and the tools here are Surprise, Grover Prince’s repo, and python-recsys.
 
-- A Python scikit for building and analyzing recommender systems - NicolasHug/Surprise. [Surprise](https://github.com/NicolasHug/Surprise)
-- FAQ — Surprise 1 documentation. FAQ — Surprise 1 documentation. [docs](https://surprise.readthedocs.io/en/stable/FAQ.html#how-to-get-the-top-n-recommendations-for-each-user)
-- GitHub - groverpr/Machine-Learning: Notes for machine learning. related article [Grover prince](https://github.com/groverpr/Machine-Learning)
-- A python library for implementing a recommender system - ocelma/python-recsys. [Recsys](https://github.com/ocelma/python-recsys)
+[Surprise](https://github.com/NicolasHug/Surprise) is a Python scikit for building and analyzing recommender systems, and its [docs](https://surprise.readthedocs.io/en/stable/FAQ.html#how-to-get-the-top-n-recommendations-for-each-user) FAQ shows how to get the top-N recommendations for each user. The related article for Grover Prince's notes for machine learning is [Grover prince](https://github.com/groverpr/Machine-Learning). [Recsys](https://github.com/ocelma/python-recsys) is a python library for implementing a recommender system.
 
-- Towards Data Science. Various implementations of CF. [https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0](https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0)
-- Towards Data Science. Towards Data Science. related article. [https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0](https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0)
+Various implementations of CF are compared in the Towards Data Science article [https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0](https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0), which is also the related article for the repos above: [https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0](https://towardsdatascience.com/various-implementations-of-collaborative-filtering-100385c6dfe0)
 
 [Body Transformation Product Recommendation Using Gen-AI](https://cohenori.medium.com/body-transformation-product-recommendation-using-gen-ai-d5f294442ec4) (August 2025) is a recommender built as a product.
 

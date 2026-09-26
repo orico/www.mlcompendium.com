@@ -1,9 +1,8 @@
 # Bayesian Neural Network (BNN)
 
-This page collects notes on Bayesian neural networks and prediction uncertainty.
-It starts from what a BNN is and how uncertainty types show up in the forecasting and anomaly settings already described below.
+A softmax score is not a confidence measure, so a network that forecasts or flags anomalies also needs to say how unsure it is. This page starts from what a BNN is and the three types of prediction uncertainty, then shows the practical trick of running prediction with dropout many times, how Uber applies it to time series, and how to do it in Keras.
 
-BNN - (what is?) [Bayesian neural network (BNN)](http://edwardlib.org/tutorials/bayesian-neural-network) according to Uber - architecture that more accurately forecasts time series predictions and uncertainty estimations at scale. “how Uber has successfully applied this model to large-scale time series anomaly detection, enabling better accommodate rider demand during high-traffic intervals.”
+BNN - (what is?) [Bayesian neural network (BNN)](http://edwardlib.org/tutorials/bayesian-neural-network) is the starting reference. According to Uber, it is an architecture that more accurately forecasts time series predictions and uncertainty estimations at scale. “how Uber has successfully applied this model to large-scale time series anomaly detection, enabling better accommodate rider demand during high-traffic intervals.” The Uber post itself is kept at the end of the page.
 
 Under the BNN framework, prediction uncertainty can be categorized into three types:
 
@@ -11,21 +10,15 @@ Under the BNN framework, prediction uncertainty can be categorized into three ty
 - model misspecification
 - inherent noise captures the uncertainty in the data generation process and is irreducible.
 
-Note: in a series of articles, uber explains about time series and leads to a BNN architecture.
+Note: in a series of articles, uber explains about time series and leads to a BNN architecture. The first step is Neural networks - training on multi-signal raw data, training X and Y are window-based and the window size(lag) is determined in advance. Vanilla LSTM did not work properly, therefore an architecture of (the note stops here; the encoder-decoder answer comes further down). Those Uber articles are kept at the end of the page.
 
-1. Neural networks - training on multi-signal raw data, training X and Y are window-based and the window size(lag) is determined in advance.
+Regarding point 1: ‘run prediction with dropout 100 times’. The [MEDIUM with code how to do it.](https://medium.com/hal24k-techblog/how-to-generate-neural-network-confidence-intervals-with-keras-e4c0b78ebbdf) is Sam Blake's post on how to generate neural network confidence intervals with Keras.
 
-Vanilla LSTM did not work properly, therefore an architecture of
+The reason to bother is the softmax itself. [Why do we need a confidence measure when we have a softmax probability layer?](https://hjweide.github.io/quantifying-uncertainty-in-neural-networks) The blog post explains, for example, that with a CNN of apples, oranges, cat and dogs, a non related example such as a frog image may influence the network to decide its an apple, therefore we can’t rely on the probability as a confidence measure. The ‘run prediction with dropout 100 times’ should give us a confidence measure because it draws each weight from a bernoulli distribution.
 
-Regarding point 1: ‘run prediction with dropout 100 times’
+“By applying dropout to all the weight layers in a neural network, we are essentially drawing each weight from a [Bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution). In practice, this mean that we can sample from the distribution by running several forward passes through the network. This is referred to as [Monte Carlo dropout](http://arxiv.org/abs/1506.02158).” The Monte Carlo dropout link is the paper Bayesian Convolutional Neural Networks with Bernoulli Approximate Variational Inference.
 
- [MEDIUM with code how to do it.](https://medium.com/hal24k-techblog/how-to-generate-neural-network-confidence-intervals-with-keras-e4c0b78ebbdf)
-
-[Why do we need a confidence measure when we have a softmax probability layer?](https://hjweide.github.io/quantifying-uncertainty-in-neural-networks) The blog post explains, for example, that with a CNN of apples, oranges, cat and dogs, a non related example such as a frog image may influence the network to decide its an apple, therefore we can’t rely on the probability as a confidence measure. The ‘run prediction with dropout 100 times’ should give us a confidence measure because it draws each weight from a bernoulli distribution.
-
-“By applying dropout to all the weight layers in a neural network, we are essentially drawing each weight from a [Bernoulli distribution](https://en.wikipedia.org/wiki/Bernoulli_distribution). In practice, this mean that we can sample from the distribution by running several forward passes through the network. This is referred to as [Monte Carlo dropout](http://arxiv.org/abs/1506.02158).”
-
-Taken from Yarin Gal’s blog post . In this figure we see how sporadic is the signal from a forward pass (black line) compared to a much cleaner signal from 100 dropout passes.
+Taken from Yarin Gal’s blog post (kept at the end of the page). In this figure we see how sporadic is the signal from a forward pass (black line) compared to a much cleaner signal from 100 dropout passes.
 
 <figure><img src="../.gitbook/assets/gimg-0e7e49d6a27a.png" alt=""><figcaption><p>Bayesian Neural Network (BNN)</p><p>Credit: <a href="https://lh5.googleusercontent.com/FlcvG689kstX36ya8JNaeIE6C5HeXhL7IKG3wMt5zTacLqJVmb9W6kqpby_e3IMV6iWc7rrIJ8F6IMwKEM6hUiuHnLaJiLp4KBPkTird_AB4GW8i5-5n_DOOm-cZEQYUsM6TWotp">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -39,13 +32,11 @@ Going back to uber, they are actually using this idea to predict time series wit
 
 Note: this is probably applicable in other types of networks.
 
-Phd Thesis by Yarin, he talks about uncertainty in Neural networks and using BNNs. he may have proved this thesis, but I did not read it. This blog post links to his full Phd.
+The theory behind it is the Phd Thesis by Yarin, where he talks about uncertainty in Neural networks and using BNNs. he may have proved this thesis, but I did not read it. This blog post links to his full Phd; both are kept at the end of the page.
 
 Old note: The idea behind uncertainty is ([paper here](https://arxiv.org/pdf/1506.02142.pdf)) that in order to trust your network’s classification, you drop some of the neurons during prediction, you do this ~100 times and you average the results. Intuitively this will give you confidence in your classification and increase your classification accuracy, because only a partial part of your network participated in the classification, randomly, 100 times. Please note that Softmax doesn't give you certainty.
 
-Medium post on prediction with drop out
-
-The [solution for keras](https://github.com/keras-team/keras/issues/9412) says to add trainable=true for every dropout layer and add another drop out at the end of the model. Thanks sam.
+A Medium post on prediction with drop out was noted here as well. In Keras, the [solution for keras](https://github.com/keras-team/keras/issues/9412) says to add trainable=true for every dropout layer and add another drop out at the end of the model. Thanks sam. The snippet from that thread:
 
 “import keras
 

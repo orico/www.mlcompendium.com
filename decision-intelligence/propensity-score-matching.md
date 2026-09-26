@@ -1,15 +1,11 @@
 # Propensity Score Matching
 
-This page is about propensity score matching and propensity modeling for observational comparisons.
-It lists tools and reading already linked below, with deprecated addresses kept at the end.
+When the treatment was not randomized, a fair comparison has to be built from observational data, and propensity score matching and propensity modeling are how. The page starts with the Python tool and its introduction, then the broader meaning of propensity, its types and use cases, and a logistic regression example, with a deprecated address kept at the end.
 
-- Propensity score matching for python and graphical plots. [psmpy](https://pypi.org/project/psmpy/)
-- : [propensity score matching intro](https://medium.com/data-science/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
-- [a meta discussion about propensity](https://medium.com/the-official-integrate-ai-blog/heres-what-you-need-to-know-about-propensity-modeling-521ab660cb43)
-- Learn what propensity modeling is and how to build predictive propensity models using the power of machine learning. [types of propensity and use cases](https://www.altexsoft.com/blog/propensity-model/)
-- One of the most effective ways to personalise customer experience is to forecast customer behaviour using propensity scoring. [log reg example](https://datatonic.com/insights/propensity-scoring-free-report/)
+The tool comes first. [psmpy](https://pypi.org/project/psmpy/) is the package for propensity score matching for python and graphical plots. Its author, Adrienne Kline, explains it in the [propensity score matching intro](https://medium.com/data-science/psmpy-propensity-score-matching-in-python-a3e0cd4d2631), psmpy: Propensity Score Matching in Python — and why it's needed, which starts from the question "Do STEM programs in elementrary schools encourage more students to go into the sciences?" The same propensity score matching intro also sits at its original address, [https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631), which describes performing propensity score matching in a python environment using a newly available library: psmpy, with graphical plotting features.
 
-- Performing propensity score matching in a python environment using a newly available library: psmpy (graphical plotting features.., by Adrienne Kline. propensity score matching intro. [https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631](https://towardsdatascience.com/psmpy-propensity-score-matching-in-python-a3e0cd4d2631)
+Matching is one use of a propensity; marketing uses the same score to predict behavior. [a meta discussion about propensity](https://medium.com/the-official-integrate-ai-blog/heres-what-you-need-to-know-about-propensity-modeling-521ab660cb43) is Here's What You Need to Know About Propensity Modeling, which starts from marketers' goal of the right messages to the right people at the right time, and how hard hyper-personalization is to pull off. [types of propensity and use cases](https://www.altexsoft.com/blog/propensity-model/) is Propensity Modeling with Machine Learning: what propensity modeling is and how to build predictive propensity models using the power of machine learning. The [log reg example](https://datatonic.com/insights/propensity-scoring-free-report/) is What is Propensity Scoring and Why Should You be Using it?, on forecasting customer behaviour with propensity scoring as one of the most effective ways to personalise customer experience.
+
 ## Deprecated links
 
 {% hint style="warning" %}

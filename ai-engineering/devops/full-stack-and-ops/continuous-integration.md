@@ -1,24 +1,14 @@
 # Continuous Integration
 
-Code has to land continuously. This page is the CI products and a GitHub Actions example, then the Argo courses that sit on the same delivery path.
+Code has to land continuously, which means every change is built and tested automatically. The page starts with the CI products and a GitHub Actions example, then moves to the Argo courses that carry the same delivery path into Kubernetes.
 
 The same notes are in [Continuous integration](../../mlops/full-stack-and-ops.md#continuous-integration), [MLOps Course](../../mlops/mlops-course.md), and [Model Testing](../../../evals/data-and-model-tests.md#model-testing).
 
-- Travis CI is the most simple and flexible ci/cd tool available today, by Sybre Waaijer. [Travis](https://travis-ci.org/)
-- Deliver production-ready software at AI speed. [Circle CI](https://circleci.com/)
-- TeamCity keeps your delivery reliable, repeatable, and under control for both the humans and AI agents on your team. [TeamCity](https://www.jetbrains.com/teamcity/)
-- Jenkins – an open source automation server which enables developers around the world to reliably build, test, and deploy their software. [Jenkins](https://www.jenkins.io/)
-- GitHub Actions
- - [poetry black pytest](https://medium.com/@vanflymen/blazing-fast-ci-with-github-actions-poetry-black-and-pytest-9e74299dd4a5)
+The first choice is which CI service runs those builds. [Travis](https://travis-ci.org/) presents itself as the most simple and flexible CI/CD tool for continuous integration and continuous delivery. [Circle CI](https://circleci.com/) promises to deliver production-ready software at AI speed, validating, testing, and shipping every change with automation. [TeamCity](https://www.jetbrains.com/teamcity/) is the CI/CD solution by JetBrains. [Jenkins](https://www.jenkins.io/) is the open source automation server that developers use to reliably build, test, and deploy their software.
+
+GitHub Actions is the option that lives next to the code, and [poetry black pytest](https://medium.com/@vanflymen/blazing-fast-ci-with-github-actions-poetry-black-and-pytest-9e74299dd4a5) is a blazing fast CI example with GitHub Actions, Poetry, Black, and Pytest, built on a new Django project from scratch.
 
 
 ## Argo courses
 
-After the CI product list, these Argo courses cover events, workflows, CD, and rollouts.
-
-6. Argo
- - Argo Events - Event-Based Dependency Manager for Kubernetes, by DevOps & AI Toolkit. [Events](https://www.youtube.com/watch?v=sUPkGChvD54&list=PLyicRj904Z9_dGuNs6AN5Khljjn9ssbQ6)
- - Argo Workflows and Pipelines - CI/CD, Machine Learning, and Other Kubernetes Workflows, by DevOps & AI Toolkit. [Workflows & Pipelines](https://www.youtube.com/watch?v=UMaivwrAyTA)
- - Argo CD - Applying GitOps Principles To Manage A Production Environment In Kubernetes, by DevOps & AI Toolkit. [Argo CD](https://www.youtube.com/watch?v=vpWQeoaiRM4)
- - Argo Rollouts - Canary Deployments Made Easy In Kubernetes, by DevOps & AI Toolkit. [Rollouts](https://www.youtube.com/watch?v=84Ky0aPbHvY)
- - Automation of Everything - How To Combine Argo Events, Workflows & Pipelines, CD, and Rollouts, by DevOps & AI Toolkit. [How to harness all of the above together](https://www.youtube.com/watch?v=XNXJtxkUKeY)
+CI ends where deployment begins, and on Kubernetes Argo covers that next stretch. The five Argo videos are all by DevOps & AI Toolkit and build on each other. [Events](https://www.youtube.com/watch?v=sUPkGChvD54&list=PLyicRj904Z9_dGuNs6AN5Khljjn9ssbQ6) is Argo Events, the event-based dependency manager for Kubernetes. [Workflows & Pipelines](https://www.youtube.com/watch?v=UMaivwrAyTA) is Argo Workflows and Pipelines for CI/CD, machine learning, and other Kubernetes workflows. [Argo CD](https://www.youtube.com/watch?v=vpWQeoaiRM4) applies GitOps principles to manage a production environment in Kubernetes. [Rollouts](https://www.youtube.com/watch?v=84Ky0aPbHvY) is Argo Rollouts, canary deployments made easy in Kubernetes. [How to harness all of the above together](https://www.youtube.com/watch?v=XNXJtxkUKeY) is "Automation of Everything", combining Argo Events, Workflows & Pipelines, CD, and Rollouts.

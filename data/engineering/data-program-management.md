@@ -1,14 +1,11 @@
 # Data Program Management
 
-A data program needs roles and definitions that keep projects from drifting.
-This page points at definitions and role notes for data program management.
+A data program needs roles and definitions that keep projects from drifting. The page starts with a definition of data program management, then moves to what a program manager does in general, and ends with the data program manager as a job.
 
-The same notes are in [Project & Program Management](../../ai-product/project-and-program-management.md) and [Project Management](../../ai-product/management.md#project-management).
+Program management for data is a specialization of the general project and program practice. The same notes are in [Project & Program Management](../../ai-product/project-and-program-management.md) and [Project Management](../../ai-product/management.md#project-management).
 
-1. [What is a data program management? and a manager.](https://www.ddmcd.com/dpm-intro) by Dennis D McDonald.
-   - [http://www.ddmcd.com/dpm](http://www.ddmcd.com/dpm)
-2. [https://rebelsguidetopm.com/what-is-a-program-manager/#What_is_a_program](https://rebelsguidetopm.com/what-is-a-program-manager/#What_is_a_program)
-3. [https://www.velvetjobs.com/job-descriptions/data-program-manager](https://www.velvetjobs.com/job-descriptions/data-program-manager)
-4. [https://rebelsguidetopm.com/what-is-a-program-manager/](https://rebelsguidetopm.com/what-is-a-program-manager/)
-5. [https://www.linkedin.com/pulse/how-become-data-program-manager-krishna-mohan-kaluri/](https://www.linkedin.com/pulse/how-become-data-program-manager-krishna-mohan-kaluri/)
-6. [program manager responsibilities](https://www.projectmanager.com/training/program-manager-responsibilities)
+The definition comes first. [What is a data program management? and a manager.](https://www.ddmcd.com/dpm-intro) by Dennis D McDonald. is his introduction to data program management (DPM), and [http://www.ddmcd.com/dpm](http://www.ddmcd.com/dpm) is his index of links to and excerpts from the site's articles on the topic.
+
+A data program manager is first a program manager. [https://rebelsguidetopm.com/what-is-a-program-manager/#What_is_a_program](https://rebelsguidetopm.com/what-is-a-program-manager/#What_is_a_program) is a program manager explaining what a program is and what the role does, with the essential skills for anyone considering the career change; [https://rebelsguidetopm.com/what-is-a-program-manager/](https://rebelsguidetopm.com/what-is-a-program-manager/) is the same article from the top.
+
+Then the data part. [https://www.velvetjobs.com/job-descriptions/data-program-manager](https://www.velvetjobs.com/job-descriptions/data-program-manager) is a data program manager job description, which includes devOps support such as monitoring the health of data pipelines and escalating performance issues. [https://www.linkedin.com/pulse/how-become-data-program-manager-krishna-mohan-kaluri/](https://www.linkedin.com/pulse/how-become-data-program-manager-krishna-mohan-kaluri/) asks how to be a good data program manager and answers with a deep awareness of the data management life cycle, exceptional project management skills, and a solid grasp of benefits management. The list of [program manager responsibilities](https://www.projectmanager.com/training/program-manager-responsibilities) is Jennifer Bridges, PMP, with a full job description of the role.

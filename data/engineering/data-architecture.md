@@ -1,11 +1,7 @@
 # Data Architecture
 
-A platform needs an architecture before the warehouses and pipelines stack up.
-This page is a short list of data-platform architectures and an introduction to domain-driven design for data.
+A platform needs an architecture before the warehouses and pipelines stack up. The page walks through a few data-platform architectures, from a modular stack to multi-petabyte and evolving platforms, and ends with an introduction to domain-driven design for data.
 
-The same notes are in [Data Mesh](data-mesh.md) and [ML Architecture](../../ai-engineering/mlops/ml-architecture.md).
+The architecture question and the ownership question are the same question seen from two sides. The same notes are in [Data Mesh](data-mesh.md) and [ML Architecture](../../ai-engineering/mlops/ml-architecture.md).
 
-1. [How to build a modular data stack](https://medium.com/the-prefect-blog/how-to-build-a-modular-data-stack-data-platform-with-prefect-dbt-and-snowflake-89f928974e85)
-2. Nielsen, [a multi-petabyte data platform using EMR](https://www.youtube.com/watch?v=9hUTkBsuIZA)
-3. [Evolving and scaling the data platform at Yotpo](https://www.dataengineeringpodcast.com/yotpo-data-platform-architecture-episode-285/)
-4. [Intro to domain-driven design (DDD)](https://medium.com/latentview-data-services/introduction-to-domain-driven-design-part-1-of-2-6630f72f2853)
+The first architecture is the smallest one that still holds together: [How to build a modular data stack](https://medium.com/the-prefect-blog/how-to-build-a-modular-data-stack-data-platform-with-prefect-dbt-and-snowflake-89f928974e85) is the modular data-platform write-up. Scale changes the picture. Nielsen shows [a multi-petabyte data platform using EMR](https://www.youtube.com/watch?v=9hUTkBsuIZA), the AWS re:Invent 2020 talk on how they built it on Amazon EMR. A platform is also never finished, and [Evolving and scaling the data platform at Yotpo](https://www.dataengineeringpodcast.com/yotpo-data-platform-architecture-episode-285/) is the podcast episode that treats building a data platform as an iterative, evolutionary process that needs collaboration. Once the platform grows past one team, the boundaries have to follow the business, which is where the [Intro to domain-driven design (DDD)](https://medium.com/latentview-data-services/introduction-to-domain-driven-design-part-1-of-2-6630f72f2853) comes in, the first part of a two-part introduction.
