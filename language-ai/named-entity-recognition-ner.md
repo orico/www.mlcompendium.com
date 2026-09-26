@@ -1,54 +1,44 @@
 # Named Entity Recognition (NER)
 
-This page collects NER papers, spaCy/SNER notes, and BiLSTM-CRF tutorials.
+Named entity recognition pulls people, places, and organizations out of free text, and the first question is which model family to trust. The page starts with milestone NER papers and the BiLSTM line of work, then compares the off-the-shelf tools (NLTK, polyglot, spaCy, and Stanford NER), then goes deeper into Stanford NER (SNER), and ends with spaCy, active learning, and the BiLSTM-CRF tutorials.
 
 The same notes are in [ANONYMIZATION](../responsible-ai/fairness-accountability-and-transparency.md#anonymization), [BERT](pretrained-language-models.md#bert), [CONDITIONAL RANDOM FIELDS (CRF)](../predictive-ml/probabilistic-models.md#conditional-random-fields-crf), [FLAIR](../deep-learning/representations.md#flair), and [SPACY](nlp.md#spacy).
 
-1. [State of the art LSTM architectures using NN](https://web.archive.org/web/20180123225955/http://blog.paralleldots.com/data-science/named-entity-recognition-milestone-models-papers-and-technologies/)
-2. Medium: [Ner free datasets](https://medium.com/data-science/deep-learning-for-ner-1-public-datasets-and-annotation-methods-8b1ad5e98caf) and [bilstm implementation](https://medium.com/data-science/deep-learning-for-named-entity-recognition-2-implementing-the-state-of-the-art-bidirectional-lstm-4603491087f1) using glove embeddings
-3. Easy to implement in keras! They are based on the following [paper](https://arxiv.org/abs/1511.08308)
-4. [Medium](https://medium.com/district-data-labs/named-entity-recognition-and-classification-for-entity-extraction-6f23342aa7c5): NLTK entities, polyglot entities, sner entities, finally an ensemble method wins all!
+The map of the field comes first. [State of the art LSTM architectures using NN](https://web.archive.org/web/20180123225955/http://blog.paralleldots.com/data-science/named-entity-recognition-milestone-models-papers-and-technologies/) is the ParallelDots list of milestone papers, models, and technologies for recognizing named entities in unstructured text. A deep model needs a lot of labeled data, so the Medium series starts there: [Ner free datasets](https://medium.com/data-science/deep-learning-for-ner-1-public-datasets-and-annotation-methods-8b1ad5e98caf) covers the annotated, publicly available and mostly free datasets and the annotation methods behind them, and [bilstm implementation](https://medium.com/data-science/deep-learning-for-named-entity-recognition-2-implementing-the-state-of-the-art-bidirectional-lstm-4603491087f1) is part two on Medium, implementing the state-of-the-art bidirectional LSTM from Chiu and using glove embeddings. It is easy to implement in keras, and it is based on the following [paper](https://arxiv.org/abs/1511.08308).
+
+A trained model is only one option; the other is to combine the tools that already exist. The [Medium](https://medium.com/district-data-labs/named-entity-recognition-and-classification-for-entity-extraction-6f23342aa7c5) post from District Data Labs runs NLTK entities, polyglot entities, sner entities, and finally an ensemble method wins all! The figure below is that comparison.
 
 <figure><img src="../.gitbook/assets/gimg-97956f8f41db.png" alt=""><figcaption><p>NLTK, Polyglot, SNER, and ensemble NER comparison.</p><p>Credit: <a href="https://lh5.googleusercontent.com/Z_R1r2x4UbKloRvR46EthJ-3I38Kj4TM2VfXsGzcEsQCNJ75BpS0xMbEeCtxueTHp3jbweC2ti2Y_2dopekm_qP4Vks4v6suZ_buGnFlOA1I6gdUwMYWsKWOD4eV38JVCcYQ0mes">copied from the original hosted image</a>.</p></figcaption></figure>
 
-- [Comparison between spacy and SNER](https://medium.com/@dudsdu/named-entity-recognition-for-unstructured-documents-c325d47c7e3a) — for terms.
-- *** [Unsupervised NER using Bert](https://medium.com/data-science/unsupervised-ner-using-bert-2d7af5f90b8a)
-- [Custom NER using spacy](https://medium.com/data-science/custom-named-entity-recognition-using-spacy-7140ebbb3718)
-- [Spacy Ner with custom data](https://medium.com/@manivannan_data/how-to-train-ner-with-custom-training-data-using-spacy-188e0e508c6)
+The head-to-head that matters most in practice is spaCy against SNER. [Comparison between spacy and SNER](https://medium.com/@dudsdu/named-entity-recognition-for-unstructured-documents-c325d47c7e3a) for terms is Eduardo Andrade's NER on unstructured documents, where contracts and other exchanged documents carry personal information that may have to be anonymised before some employees see it. When there are no labels at all, *** [Unsupervised NER using Bert](https://medium.com/data-science/unsupervised-ner-using-bert-2d7af5f90b8a) is Ajit Rajasekharan tagging sentences with bert-large-cased and no fine tuning: 500 tagged sentences yielded about 1000 unique entity types, of which a select few were mapped to synthetic labels. When the entity types are your own, [Custom NER using spacy](https://medium.com/data-science/custom-named-entity-recognition-using-spacy-7140ebbb3718) is Kaustumbh Jaiswal's custom spaCy model, and [Spacy Ner with custom data](https://medium.com/@manivannan_data/how-to-train-ner-with-custom-training-data-using-spacy-188e0e508c6) is Manivannan Murugavel's walk through training spaCy on your own data with Python and getting the entities back out. The figure below is from the custom spaCy note.
 
 <figure><img src="../.gitbook/assets/gimg-d091411b5ac8.png" alt=""><figcaption><p>Custom NER using spaCy.</p><p>Credit: <a href="https://lh4.googleusercontent.com/L1nTdlSIQmOBa91u5HomKen0QlT3lWaKQjNv86ar2-cTuiKzI4y3oSdQGmJacjnJ28scacsfyvBDI4_Y15M1i-eQ02CKAe0O7zNyJOwfrv0TiiP2ExWx9wrciCxnEGMqmvHGM2kd">copied from the original hosted image</a>.</p></figcaption></figure>
 
-- [How to create a NER from scratch using kaggle data, using crf, and analysing crf weights using external package](https://medium.com/data-science/named-entity-recognition-and-classification-with-scikit-learn-f05372f07ba2)
-- [Another comparison between spacy and SNER - both are the same, for many classes.](https://medium.com/data-science/a-review-of-named-entity-recognition-ner-using-automatic-summarization-of-resumes-5248a75de175)
+Outside spaCy, a CRF can be built by hand. [How to create a NER from scratch using kaggle data, using crf, and analysing crf weights using external package](https://medium.com/data-science/named-entity-recognition-and-classification-with-scikit-learn-f05372f07ba2) is Susan Li's NER and classification with Scikit-Learn. [Another comparison between spacy and SNER - both are the same, for many classes.](https://medium.com/data-science/a-review-of-named-entity-recognition-ner-using-automatic-summarization-of-resumes-5248a75de175) is Mohan Gupta's review, which explains what NER is, how industry uses it, the libraries for it, and a code walk through of NER for resume summarization. The figure below is that resume comparison.
 
 <figure><img src="../.gitbook/assets/gimg-39ef936d8644.png" alt=""><figcaption><p>spaCy and SNER comparison on resume summarization.</p><p>Credit: <a href="https://lh5.googleusercontent.com/LOc8elLlxDHhro4Isd3NZwQQtlEdIYmS_N3N1R8N2aEESRQnOYc5TANm2GMKKZF6r0ZDqfr34W_47ti3JU_mTtJPwxVDpQbztP7zdkRViby8hE_RDPfKrWHX3XgOiKJ5ODneGvj6">copied from the original hosted image</a>.</p></figcaption></figure>
 
-- [Vidhaya on spacy vs ner](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/) — tutorial + code on how to use spacy for pos, dep, ner, compared to nltk/corenlp (sner etc). The results reflect a global score not specific to LOC for example.
+The same comparison can be widened to the whole pipeline. [Vidhaya on spacy vs ner](https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/) — tutorial + code on how to use spacy for pos, dep, ner, compared to nltk/corenlp (sner etc). The results reflect a global score not specific to LOC for example, which the figure below shows.
 
 <figure><img src="../.gitbook/assets/gimg-c4d72d751fca.png" alt=""><figcaption><p>Vidhaya spaCy versus NER tutorial results.</p><p>Credit: <a href="https://lh6.googleusercontent.com/z1n0cTOVDdW-NRozFyUhTE4RjAf6MVtnMFp-4CZ0Y_3VYFZirMz34wSK0bj66ViejWlfno_Bjyqvenc7KevaFGt8gIBR7RmUjP5BrCM8mkfC5g3C9MiMux7myDm5Qh_HzsXR2tSX">copied from the original hosted image</a>.</p></figcaption></figure>
 
 **Stanford NER (SNER)**
 
-- [SNER presentation - combines HMM and MaxEnt features, distributional features, NER has](https://nlp.stanford.edu/software/jenny-ner-2007.pdf) [many applications.](https://nlp.stanford.edu/software/jenny-ner-2007.pdf)
-- [How to train SNER, a FAQ with many other answers (read first before doing anything with SNER)](https://nlp.stanford.edu/software/crf-faq.shtml#a)
-- SNER demo - capital letters matter, a minimum of one.
-- [State of the art NER benchmark](https://github.com/magizbox/underthesea/wiki/TASK-CONLL-2003)
-- [Review paper, SNER, spacy, stanford wins](http://www.aclweb.org/anthology/W16-2703)
-- [Review paper SNER, others on biographical text, stanford wins](https://arxiv.org/abs/1308.0661)
-- [Another NER DL paper, 90%+](https://openreview.net/forum?id=ry018WZAZ)
+Since SNER keeps showing up in those comparisons, it is worth knowing how it works. The [SNER presentation - combines HMM and MaxEnt features, distributional features, NER has](https://nlp.stanford.edu/software/jenny-ner-2007.pdf) [many applications.](https://nlp.stanford.edu/software/jenny-ner-2007.pdf) When it labels a word, future observations are taken into account, forward and backward. Before training it, [How to train SNER, a FAQ with many other answers (read first before doing anything with SNER)](https://nlp.stanford.edu/software/crf-faq.shtml#a) is the Stanford Natural Language Processing Group's own FAQ. The SNER demo used to be linked here, with the note that capital letters matter, a minimum of one; it is kept at the end of the page.
+
+To see where SNER stands, [State of the art NER benchmark](https://github.com/magizbox/underthesea/wiki/TASK-CONLL-2003) is the CoNLL 2003 task page in the Underthesea wiki. Two review papers compare the tools directly. [Review paper, SNER, spacy, stanford wins](http://www.aclweb.org/anthology/W16-2703) is Evaluating and Combining Name Entity Recognition Systems, by Ridong Jiang, Rafael E. Banchs, and Haizhou Li at the Sixth Named Entity Workshop, 2016. [Review paper SNER, others on biographical text, stanford wins](https://arxiv.org/abs/1308.0661) is A Comparison of Named Entity Recognition Tools Applied to Biographical Texts, written because the tools differ in processing method, entity types, the text they can handle, and input and output formats, which makes choosing one hard. [Another NER DL paper, 90%+](https://openreview.net/forum?id=ry018WZAZ) is a deep learning entry on OpenReview.
 
 **Spacy & Others**
 
-- [Spacy - using prodigy and spacy to train a NER classifier using active learning](https://www.youtube.com/watch?v=l4scwf8KeIA)
-- [Ner using DL BLSTM, using glove embeddings, using CRF layer against another CRF](https://web.archive.org/web/20190320104331/http://www.nlp.town/blog/ner-and-the-road-to-deep-learning/).
-- [Another medium paper on the BLSTM CRF with guillarue’s code](https://medium.com/intro-to-artificial-intelligence/entity-extraction-using-deep-learning-8014acac6bb8)
-- [Guillaume blog post, detailed explanation](https://guillaumegenthial.github.io/sequence-tagging-with-tensorflow.html)
-- For Italian
-- [Another 90+ proposed solution](https://arxiv.org/pdf/1603.01360.pdf)
-- [A promising python implementation based on one or two of the previous papers](https://github.com/deepmipt/ner)
-- [Quora advise, the first is cool, the second is questionable](https://www.quora.com/How-can-I-perform-named-entity-recognition-using-deep-learning-RNN-LSTM-Word2vec-etc)
-- Off the shelf solutions benchmark
-- [Parallel api talk about bilstm and their 2mil tagged ner model (washington passes)](https://web.archive.org/web/20180123225955/http://blog.paralleldots.com/data-science/named-entity-recognition-milestone-models-papers-and-technologies/)
+After the Stanford tool, the rest of the notes return to spaCy and to deep sequence taggers. [Spacy - using prodigy and spacy to train a NER classifier using active learning](https://www.youtube.com/watch?v=l4scwf8KeIA) is Explosion's video on training a new entity type with Prodigy, annotation powered by active learning. [Ner using DL BLSTM, using glove embeddings, using CRF layer against another CRF](https://web.archive.org/web/20190320104331/http://www.nlp.town/blog/ner-and-the-road-to-deep-learning/) is the NLP Town post on named entity recognition and the road to deep learning.
+
+That BiLSTM-CRF design has a reference implementation. [Another medium paper on the BLSTM CRF with guillarue’s code](https://medium.com/intro-to-artificial-intelligence/entity-extraction-using-deep-learning-8014acac6bb8) is entity extraction with deep learning based on Guillaume Genthial's NER work, on the point that deep learning produced large accuracy gains over traditional methods. [Guillaume blog post, detailed explanation](https://guillaumegenthial.github.io/sequence-tagging-with-tensorflow.html) is the source: GloVe + character embeddings + bi-LSTM + CRF for sequence tagging (NER, POS), a bidirectional RNN and CRF in Tensorflow. A source for Italian used to sit here; it is kept at the end of the page.
+
+The same family reaches past 90. [Another 90+ proposed solution](https://arxiv.org/pdf/1603.01360.pdf) is the paper Neural Architectures for Named Entity Recognition. [A promising python implementation based on one or two of the previous papers](https://github.com/deepmipt/ner) is the deeppavlov/ner repository for Named Entity Recognition. [Quora advise, the first is cool, the second is questionable](https://www.quora.com/How-can-I-perform-named-entity-recognition-using-deep-learning-RNN-LSTM-Word2vec-etc) is the Quora thread on doing NER with RNN, LSTM, and Word2vec.
+
+The off the shelf solutions benchmark that used to close this list is kept at the end of the page. What stays is the ParallelDots piece from the start, read this time for a different reason: [Parallel api talk about bilstm and their 2mil tagged ner model (washington passes)](https://web.archive.org/web/20180123225955/http://blog.paralleldots.com/data-science/named-entity-recognition-milestone-models-papers-and-technologies/).
+
+The Towards Data Science copy of the custom NER using spacy note is [https://towardsdatascience.com/custom-named-entity-recognition-using-spacy-7140ebbb3718](https://towardsdatascience.com/custom-named-entity-recognition-using-spacy-7140ebbb3718).
 
 ## Deprecated links
 
@@ -60,7 +50,6 @@ These links and images no longer work. The original wording is kept here. A same
 - Medium: Ner free datasets This address no longer opens: https://towardsdatascience.com/deep-learning-for-ner-1-public-datasets-and-annotation-methods-8b1ad5e98caf
 - bilstm implementation This address no longer opens: https://towardsdatascience.com/deep-learning-for-named-entity-recognition-2-implementing-the-state-of-the-art-bidirectional-lstm-4603491087f1
 - Unsupervised NER using Bert This address no longer opens: https://towardsdatascience.com/unsupervised-ner-using-bert-2d7af5f90b8a
-- Custom NER using spacy This address no longer opens: https://towardsdatascience.com/custom-named-entity-recognition-using-spacy-7140ebbb3718
 - How to create a NER from scratch using kaggle data, using crf, and analysing crf weights using external package This address no longer opens: https://towardsdatascience.com/named-entity-recognition-and-classification-with-scikit-learn-f05372f07ba2
 - Another comparison between spacy and SNER - both are the same, for many classes. This address no longer opens: https://towardsdatascience.com/a-review-of-named-entity-recognition-ner-using-automatic-summarization-of-resumes-5248a75de175
 - SNER demo - capital letters matter, a minimum of one. This address no longer opens: http://nlp.stanford.edu:8080/ner/process
