@@ -1,5 +1,6 @@
 # Data KPIs
 
+Data spend needs a return measure, not only pipeline uptime.
 This page is about measuring the return on data and analytics.
 
 The same notes are in [Data Science OKR KPI](../../ai-product/management.md#data-science-okr-kpi) and [OKRs & KPIs](../../ai-product/management.md#okrs--kpis).

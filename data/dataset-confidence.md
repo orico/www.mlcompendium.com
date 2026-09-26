@@ -1,6 +1,7 @@
 # Dataset Confidence
 
-This page summarizes dataset cartography: mapping and diagnosing datasets with training dynamics.
+A training run can look good while the labels are noisy or the easy examples dominate, so the question is how much to trust the dataset.
+This page is dataset cartography: mapping and diagnosing datasets with training dynamics.
 
 The same notes are in [DISTILLING DATA](datasets.md#distilling-data).
 

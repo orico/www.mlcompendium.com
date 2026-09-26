@@ -1,18 +1,8 @@
 # Evaluation Metrics
 
-This page collects metric-learning notes and supervised and unsupervised evaluation measures.
+This page collects supervised and unsupervised evaluation measures, from accuracy and precision/recall through ROC, F1, and perplexity. It also points at metric-learning benchmarks and a reality check on that literature.
 
 The same notes are in [Calibration](../responsible-ai/calibration.md) and [Evaluating Recommender Systems](../ai-product/recommender-systems.md#evaluating-recommender-systems).
-
-## A metric learning reality check
-
-This section links to updates, code, and a benchmark site for metric learning.
-
-The same notes are in [A Reality Check](../language-ai/a-reality-check.md) and [VECTOR SIMILARITY SEARCH](../deep-learning/representations.md#vector-similarity-search).
-
-1. [**Medium**](https://medium.com/@tkm45/updates-to-a-metric-learning-reality-check-730b6914dfe7)
-2. [**Git**](https://github.com/KevinMusgrave/pytorch-metric-learning)
-3. [**Website**](https://kevinmusgrave.github.io/powerful-benchmarker/papers/mlrc/)
 
 ## SUPERVISED
 
@@ -24,21 +14,13 @@ This subsection is a placeholder for accuracy as a basic classification metric.
 
 1. accuracy
 
-### Perplexity
-
-This subsection links perplexity to classification accuracy.
-
-The same notes are in [LOSS](../deep-learning/deep-neural-nets.md#loss), [LOSS IN KERAS](../deep-learning/deep-neural-frameworks.md#loss-in-keras), and [Metrics](../generative-ai/large-language-models-llms.md#metrics).
-
-1. [perplexity and accuracy in classification](https://medium.com/unpackai/perplexity-and-accuracy-in-classification-114b57bd820d)
-
 ### Precision \ Recall \ ROC \ AUC
 
 This subsection defines precision, recall, F1, ROC, and related formulas and links.
 
 The same notes are in [Methods and metrics](../problem-framing/multi-label-classification.md#methods-and-metrics).
 
-- [Performance Measures](http://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/):
+- Classification Accuracy is Not Enough: More Performance Measures You Can Use - MachineLearningMastery.com. [Performance Measures](http://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 
 **A balanced confusion matrix is better than one that is either one row of numbers and one of zeros, or a column of numbers and a column of zeros. Therefore an algorithm that outputs a lower classification accuracy but has a better confusion matrix wins.**
 
@@ -52,7 +34,7 @@ $$\text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{
 
 $$\text{Recall (sensitivity)} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}$$
 
-**Low can be thought of many false  negatives.**
+**Low can be thought of many false negatives.**
 
 #### F1 Harmonic Mean Score
 
@@ -90,10 +72,10 @@ $$\text{F1\_Score} = 2 * \frac{\text{Precision} * \text{Recall}}{\text{Precision
 
 This heading groups tutorials on thresholds, precision, recall, and intuition.
 
-1. [**Medium on Controling the decision threshold using the probabilities any model gives, code, samples, tutorial**](https://medium.com/data-science/fine-tuning-a-classifier-in-scikit-learn-66e048c21e65)
-2. [**Another good medium explanation on precision / recall / fpr/ tpr etc**](https://medium.com/data-science/beyond-accuracy-precision-and-recall-3da06bea9f6c)
+- [**Medium on Controling the decision threshold using the probabilities any model gives, code, samples, tutorial**](https://medium.com/data-science/fine-tuning-a-classifier-in-scikit-learn-66e048c21e65)
+- [**Another good medium explanation on precision / recall / fpr/ tpr etc**](https://medium.com/data-science/beyond-accuracy-precision-and-recall-3da06bea9f6c)
 3. Scikit lego on choosing the threshold using grid search
-4. [**Best explanation ever** ](https://www.quora.com/What-is-the-best-way-to-understand-the-terms-precision-and-recall)
+- , Ph.D Computational Linguistics & Machine Learning, University of Lethbridge (2013) and. [**Best explanation ever** ](https://www.quora.com/What-is-the-best-way-to-understand-the-terms-precision-and-recall)
 
 **Recall**
 
@@ -107,7 +89,7 @@ This heading groups tutorials on thresholds, precision, recall, and intuition.
 - **So, precision is the ratio of a number of events you can correctly recall to a number all events you recall (mix of correct and wrong recalls). In other words, it is how precise of your recall.**
 - **From the previous example (10 real events, 15 answers: 10 correct answers, 5 wrong answers), you get 100% recall but your precision is only 66.67% (10 / 15).**
 
-[**Confusion matrix wise**](http://www.kdnuggets.com/faq/precision-recall.html)**: bottom line is recall (% correct out of positive cases), right column is precision (% of  POS  predictions) & % accuracy in diagonal**
+[**Confusion matrix wise**](http://www.kdnuggets.com/faq/precision-recall.html)**: bottom line is recall (% correct out of positive cases), right column is precision (% of POS predictions) & % accuracy in diagonal**
 
 <figure><img src="../.gitbook/assets/gimg-d96744def2c6.png" alt=""><figcaption><p>Confusion matrix and precision/recall layout.</p><p>Credit: <a href="https://lh3.googleusercontent.com/xAvUjAvpotqqKDPeYNxtjt6l0rfO4aPwtDsmDNFHhZs_mXEcTiyeRX7vquZ6Uxd5a9m_aGRIbMPFV1kjIdcpLZ3HZERmqQXY_LysMA8lFXfuFRc1pqV18mpTCdKnDqnOiHKUQgCt">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -138,7 +120,7 @@ This heading compares ROC and PR curves and defines AUC.
 2. What is ROC AUC and PR AUC and when to use then (i.e for imbalanced data use PRAUC)
 3. [**What is AUC (AUROC)**](https://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it)
 
-[**(RMSE - what is?)**](https://stats.stackexchange.com/questions/56302/what-are-good-rmse-values) **-  it is important to recall that RMSE has the same unit as the dependent variable (DV). It means that there is no absolute good or bad threshold, however you can define it based on your DV. For a datum which ranges from 0 to 1000, an RMSE of 0.7 is small, but if the range goes from 0 to 1, it is not that small anymore. However, although the smaller the RMSE, the better,**
+[**(RMSE - what is?)**](https://stats.stackexchange.com/questions/56302/what-are-good-rmse-values) **- it is important to recall that RMSE has the same unit as the dependent variable (DV). It means that there is no absolute good or bad threshold, however you can define it based on your DV. For a datum which ranges from 0 to 1000, an RMSE of 0.7 is small, but if the range goes from 0 to 1, it is not that small anymore. However, although the smaller the RMSE, the better,**
 
 [**(R^2 vs RMSE)**](https://stats.stackexchange.com/questions/142248/difference-between-r-square-and-rmse-in-linear-regression) **- R-squared is conveniently scaled between 0 and 1, whereas RMSE is not scaled to any particular values. This can be good or bad; obviously R-squared can be more easily interpreted, but with RMSE we explicitly know how much our predictions deviate, on average, from the actual values in the dataset. So in a way, RMSE tells you more.**
 
@@ -148,7 +130,15 @@ This heading compares ROC and PR curves and defines AUC.
 
 **References:**
 
-1. [**A Survey on Deep Learning in Medical Image Analysis**](https://arxiv.org/abs/1702.05747)
+- The page covers a Survey on Deep Learning in Medical Image Analysis. [**A Survey on Deep Learning in Medical Image Analysis**](https://arxiv.org/abs/1702.05747)
+
+### Perplexity
+
+This subsection links perplexity to classification accuracy.
+
+The same notes are in [LOSS](../deep-learning/deep-neural-nets.md#loss), [LOSS IN KERAS](../deep-learning/deep-neural-frameworks.md#loss-in-keras), and [Metrics](../generative-ai/large-language-models-llms.md#metrics).
+
+- [perplexity and accuracy in classification](https://medium.com/unpackai/perplexity-and-accuracy-in-classification-114b57bd820d)
 
 ### UNSUPERVISED
 
@@ -162,20 +152,32 @@ The same notes are in [Clustering Algorithms](../predictive-ml/clustering-algori
 
 This marker separated sections in the original notes.
 
+- Adapting the most used classification evaluation metric to the multiclass classification problem with OvR and OvO strategies, by Vinicius Trevisan. Multiclass Precision / Recall**,** part 1. [https://towardsdatascience.com/multi-class-metrics-made-simple-part-ii-the-f1-score-ebe8b2c2ca1](https://towardsdatascience.com/multi-class-metrics-made-simple-part-ii-the-f1-score-ebe8b2c2ca1)
+- Towards Data Science. Towards Data Science. [https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2](https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2)
+- Another good medium explanation on precision / recall / fpr/ tpr etc. [https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
+- How to evaluate the performance of a model in Azure ML and understanding “Confusion Metrics”. Yet another(pretty good) source. [https://web.archive.org/web/2020/http://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/](https://web.archive.org/web/2020/http://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/)
+- What is ROC AUC and PR AUC and when to use then (i.e for imbalanced data use PRAUC). [https://web.archive.org/web/2020/http://www.chioka.in/differences-between-roc-auc-and-pr-auc/](https://web.archive.org/web/2020/http://www.chioka.in/differences-between-roc-auc-and-pr-auc/)
+- Silhouette Analysis vs Elbow Method vs Davies-Bouldin Index: Selecting the optimal number of clusters for KMeans clustering. [https://web.archive.org/web/2020/https://gdcoder.com/silhouette-analysis-vs-elbow-method-vs-davies-bouldin-index-selecting-the-optimal-number-of-clusters-for-kmeans-clustering/](https://web.archive.org/web/2020/https://gdcoder.com/silhouette-analysis-vs-elbow-method-vs-davies-bouldin-index-selecting-the-optimal-number-of-clusters-for-kmeans-clustering/)
+
+## A metric learning reality check
+
+This section links to updates, code, and a benchmark site for metric learning.
+
+The same notes are in [A Reality Check](../language-ai/a-reality-check.md) and [VECTOR SIMILARITY SEARCH](../deep-learning/representations.md#vector-similarity-search).
+
+- [**Medium**](https://medium.com/@tkm45/updates-to-a-metric-learning-reality-check-730b6914dfe7)
+- The easiest way to use deep metric learning in your application. [**Git**](https://github.com/KevinMusgrave/pytorch-metric-learning)
+- A Metric Learning Reality Check - Powerful Benchmarker. [**Website**](https://kevinmusgrave.github.io/powerful-benchmarker/papers/mlrc/)
+
 ## Deprecated links
 
 {% hint style="warning" %}
 These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
 {% endhint %}
 
-- Multiclass Precision / Recall**,** part 1. This address no longer opens: https://towardsdatascience.com/multi-class-metrics-made-simple-part-ii-the-f1-score-ebe8b2c2ca1 and https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2
 - Medium on Controling the decision threshold using the probabilities any model gives, code, samples, tutorial. This address no longer opens: https://towardsdatascience.com/fine-tuning-a-classifier-in-scikit-learn-66e048c21e65
-- Another good medium explanation on precision / recall / fpr/ tpr etc. This address no longer opens: https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c
 - Scikit lego on choosing the threshold using grid search. This address no longer opens: https://scikit-lego.readthedocs.io/en/latest/meta.html#Thresholder
 - Yet another(pretty good) source. This address no longer opens: http://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
 - Another (bad) source **for explaining, precision, recall, accuracy, true positive rate etc.** This address no longer opens: https://chrisalbon.com/machine-learning/precision_recall_and_F1_scores.html
 - What is ROC AUC and PR AUC and when to use then (i.e for imbalanced data use PRAUC). This address no longer opens: http://www.chioka.in/differences-between-roc-auc-and-pr-auc/
 - Silhouette Analysis vs Elbow Method vs Davies-Bouldin Index: Selecting the optimal number of clusters for KMeans clustering. This address no longer opens: https://gdcoder.com/silhouette-analysis-vs-elbow-method-vs-davies-bouldin-index-selecting-the-optimal-number-of-clusters-for-kmeans-clustering/
-- Yet another(pretty good) source. This address no longer opens: https://web.archive.org/web/2020/http://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
-- What is ROC AUC and PR AUC and when to use then (i.e for imbalanced data use PRAUC). This address no longer opens: https://web.archive.org/web/2020/http://www.chioka.in/differences-between-roc-auc-and-pr-auc/
-- Silhouette Analysis vs Elbow Method vs Davies-Bouldin Index: Selecting the optimal number of clusters for KMeans clustering. This address no longer opens: https://web.archive.org/web/2020/https://gdcoder.com/silhouette-analysis-vs-elbow-method-vs-davies-bouldin-index-selecting-the-optimal-number-of-clusters-for-kmeans-clustering/

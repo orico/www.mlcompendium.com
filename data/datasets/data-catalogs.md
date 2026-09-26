@@ -1,12 +1,13 @@
 # Data Catalogs
 
-This page is a short note on data-catalog tools, and what a data catalog is.
+Teams cannot use data they cannot find, so the catalog is the shelf that names what exists.
+This page is what a data catalog is, then the tools that implement one.
 
 The same notes are in [Data Fabric](../engineering/database-architecture-and-modeling.md#data-fabric) and [Data lineage vendors](../engineering/data-lineage.md#data-lineage-vendors).
 
 ## Tools
 
-This section is the catalog product named here, and a definition of a data catalog.
+After the catalog idea, this section lists data-catalog tools.
 
 [Alation](https://www.alation.com/)
 

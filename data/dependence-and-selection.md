@@ -1,38 +1,44 @@
-### **CORRELATION**
+# Dependence and Selection
 
-This section links Pearson correlation and related measures.
-
-1. [**Pearson**](https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/)
+Features that move together waste capacity, and features that do not predict the target waste the model, so this page is how to measure dependence and then select.
+It moves from correlation versus covariance, through correlation across feature types and visualizations, into mutual information, Cramer’s coefficient, predictive power score, feature selection, and feature importance.
 
 #### **CORRELATION VS COVARIANCE**
 
-This subsection contrasts correlation and covariance scales.
+This section contrasts correlation and covariance scales before the Pearson notes.
 
 1. **Correlation is between -1 to 1, covariance is -inf to inf, units in covariance affect the scale, so correlation is preferred, it is normalized.**
-   **Correlation is a measure of association. Correlation is used for bivariate analysis. It is a measure of how well the two variables are related.**
-   **Covariance is also a measure of association. Covariance is a measure of the relationship between two random variables.**
+ **Correlation is a measure of association. Correlation is used for bivariate analysis. It is a measure of how well the two variables are related.**
+ **Covariance is also a measure of association. Covariance is a measure of the relationship between two random variables.**
+
+### **CORRELATION**
+
+After the scale contrast, this section links Pearson correlation and related measures.
+
+- How to Calculate Correlation Between Variables in Python - MachineLearningMastery.com. [**Pearson**](https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/)
 
 #### **CORRELATION BETWEEN FEATURE TYPES**
 
-This subsection covers associations across categorical and numeric features.
+After the Pearson notes, this section covers associations across categorical and numeric features.
 
 1. **Association vs correlation - correlation is a measure of association and a yes no question without assuming linearity**
 2. [**A great article in medium**](https://medium.com/@outside2SDs/an-overview-of-correlation-measures-between-categorical-and-continuous-variables-4c7f85610365)**, covering just about everything with great detail and explaining all the methods plus references.**
 3. **Heat maps for categorical vs target - groupby count per class, normalize by total count to see if you get more grouping in a certain combination of cat/target than others.**
-4. [**Anova**](https://www.researchgate.net/post/Which_test_do_I_use_to_estimate_the_correlation_between_an_independent_categorical_variable_and_a_dependent_continuous_variable)**/**[**log regression**](https://www.statalist.org/forums/forum/general-stata-discussion/general/1470627-correlation-between-continous-and-categorical-variable) [**2\*,**](https://dzone.com/articles/correlation-between-categorical-and-continuous-var-1) [**git**](https://github.com/ShitalKat/Correlation/blob/master/Correlation%20between%20categorical%20and%20continuous%20variables.ipynb)**,** **3**, for numeric/**[**cont vs categorical**](https://www.quora.com/How-can-I-measure-the-correlation-between-continuous-and-categorical-variables) **- high F score from anova hints about association between a feature and a target, i.e.,  the importance of the feature to separating the target.**
+4. [**Anova**](https://www.researchgate.net/post/Which_test_do_I_use_to_estimate_the_correlation_between_an_independent_categorical_variable_and_a_dependent_continuous_variable)**/**[**log regression**](https://www.statalist.org/forums/forum/general-stata-discussion/general/1470627-correlation-between-continous-and-categorical-variable) [**2\*,**](https://dzone.com/articles/correlation-between-categorical-and-continuous-var-1) [**git**](https://github.com/ShitalKat/Correlation/blob/master/Correlation%20between%20categorical%20and%20continuous%20variables.ipynb)**,** **3**, for numeric/**[**cont vs categorical**](https://www.quora.com/How-can-I-measure-the-correlation-between-continuous-and-categorical-variables) **- high F score from anova hints about association between a feature and a target, i.e., the importance of the feature to separating the target.**
 
 The same notes are in [Distribution Transformation](distribution-transformation.md).
 
-5. **Anova youtube** [**1**](https://www.youtube.com/watch?v=ITf4vHhyGpc)**,** [**2**](https://www.youtube.com/watch?v=-yQb_ZJnFXw)
+- Analysis of Variance (ANOVA), by J David Eisenberg. **Anova youtube** [**1**](https://www.youtube.com/watch?v=ITf4vHhyGpc)
+- How To Calculate and Understand Analysis of Variance (ANOVA) F Test, by statisticsfun. **,** [**2**](https://www.youtube.com/watch?v=-yQb_ZJnFXw)
 
-   <figure><img src="../.gitbook/assets/gimg-a5fd74139a1a.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh6.googleusercontent.com/3yJV2mUiy1_z0a7yd2PN4FiJzJukUspYtZDvVHusaWxiNKQWGrV--KQB9-Hytgc3dwLirzIlP_e8tVbTVWGV5Xx-t_zrogDU1t7HbPZXvYq4UuqCtM_cuTDoS0sJC1J92XStN-Mq">copied from the original hosted image</a>.</p></figcaption></figure>
+ <figure><img src="../.gitbook/assets/gimg-a5fd74139a1a.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh6.googleusercontent.com/3yJV2mUiy1_z0a7yd2PN4FiJzJukUspYtZDvVHusaWxiNKQWGrV--KQB9-Hytgc3dwLirzIlP_e8tVbTVWGV5Xx-t_zrogDU1t7HbPZXvYq4UuqCtM_cuTDoS0sJC1J92XStN-Mq">copied from the original hosted image</a>.</p></figcaption></figure>
 
-   **image by multiple possible sources,** [**rayhanul islam**](https://www.quora.com/How-can-I-measure-the-correlation-between-continuous-and-categorical-variables)**,** [**statistics for fun**](https://www.facebook.com/statneil/photos/a.787373884990868/839856346409288/?type=3)**.**
+ **image by multiple possible sources,** [**rayhanul islam**](https://www.quora.com/How-can-I-measure-the-correlation-between-continuous-and-categorical-variables)**,** [**statistics for fun**](https://www.facebook.com/statneil/photos/a.787373884990868/839856346409288/?type=3)**.**
 6. **Cat vs cat**, many metrics - on medium
 
 #### **CORRELATION VISUALIZATION**
 
-This subsection links visual ways to explore correlated features.
+With the feature-type associations named, this section links visual ways to explore correlated features.
 
 Feature space
 
@@ -42,36 +48,9 @@ Feature space
 
 <figure><img src="../.gitbook/assets/gimg-e0df325205fd.png" alt=""><figcaption><p>Feature space.</p><p>Credit: <a href="https://medium.com/data-science/escape-the-correlation-matrix-into-feature-space-4d71c51f25e5">Matt Britton</a>.</p></figcaption></figure>
 
-### **PREDICTIVE POWER SCORE (PPS)**
-
-This section describes the predictive power score as an alternative to correlation.
-
-[**Is  an asymmetric, data-type-agnostic score for predictive relationships between two columns that ranges from 0 to 1.**](https://medium.com/data-science/rip-correlation-introducing-the-predictive-power-score-3d90808b9598) [**github**](https://github.com/8080labs/ppscore)
-
-<figure><img src="../.gitbook/assets/gimg-29cbbc46ce92.png" alt=""><figcaption><p>Predictive power score examples.</p><p>Credit: <a href="https://en.wikipedia.org/wiki/Correlation_and_dependence">Denis Boigelot</a>.</p></figcaption></figure>
-
-**Too many scenarios where the correlation is 0. This makes me wonder if I missed something… (Excerpt from the** [**image by Denis Boigelot**](https://en.wikipedia.org/wiki/Correlation_and_dependence)**)**\
-
-
-**Regression**
-
-**In case of an regression, the ppscore uses the mean absolute error (MAE) as the underlying evaluation metric (MAE\_model). The best possible score of the MAE is 0 and higher is worse. As a baseline score, we calculate the MAE of a naive model (MAE\_naive) that always predicts the median of the target column. The PPS is the result of the following normalization (and never smaller than 0):**\
-
-
-$$\text{PPS} = 1 - (\text{MAE}_{model} / \text{MAE}_{naive})$$\
-
-
-**Classification**
-
-**If the task is a classification, we compute the weighted F1 score (wF1) as the underlying evaluation metric (F1\_model). The F1 score can be interpreted as a weighted average of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0. The relative contribution of precision and recall to the F1 score are equal. The weighted F1 takes into account the precision and recall of all classes weighted by their support as described** [**here**](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)**. As a baseline score (F1\_naive), we calculate the weighted F1 score for a model that always predicts the most common class of the target column (F1\_most\_common) and a model that predicts random values (F1\_random). F1\_naive is set to the maximum of F1\_most\_common and F1\_random. The PPS is the result of the following normalization (and never smaller than 0):**\
-
-
-$$\text{PPS} = (F1_{model} - F1_{naive}) / (1 - F1_{naive})$$\
-
-
 ### **MUTUAL INFORMATION COEFFICIENT**
 
-This section covers MIC and mutual information feature scores.
+After visualization, this section covers MIC and mutual information feature scores.
 
 The same notes are in [Information Theory](information-theory.md).
 
@@ -111,7 +90,7 @@ The same notes are in [Information Theory](information-theory.md).
 
 ### **CRAMER’S COEFFICIENT**
 
-This subsection links a Stack Overflow thread on Cramér’s coefficient in pandas.
+Beside mutual information, this section is Cramer’s coefficient.
 
 [**Calculating** ](https://stackoverflow.com/questions/20892799/using-pandas-calculate-cram%C3%A9rs-coefficient-matrix)
 
@@ -119,9 +98,36 @@ This subsection links a Stack Overflow thread on Cramér’s coefficient in pand
 
 This marker separated sections in the original notes.
 
+### **PREDICTIVE POWER SCORE (PPS)**
+
+After the association measures, this section describes the predictive power score as an alternative to correlation.
+
+[**Is an asymmetric, data-type-agnostic score for predictive relationships between two columns that ranges from 0 to 1.**](https://medium.com/data-science/rip-correlation-introducing-the-predictive-power-score-3d90808b9598) [**github**](https://github.com/8080labs/ppscore)
+
+<figure><img src="../.gitbook/assets/gimg-29cbbc46ce92.png" alt=""><figcaption><p>Predictive power score examples.</p><p>Credit: <a href="https://en.wikipedia.org/wiki/Correlation_and_dependence">Denis Boigelot</a>.</p></figcaption></figure>
+
+**Too many scenarios where the correlation is 0. This makes me wonder if I missed something… (Excerpt from the** [**image by Denis Boigelot**](https://en.wikipedia.org/wiki/Correlation_and_dependence)**)**\
+
+
+**Regression**
+
+**In case of an regression, the ppscore uses the mean absolute error (MAE) as the underlying evaluation metric (MAE\_model). The best possible score of the MAE is 0 and higher is worse. As a baseline score, we calculate the MAE of a naive model (MAE\_naive) that always predicts the median of the target column. The PPS is the result of the following normalization (and never smaller than 0):**\
+
+
+$$\text{PPS} = 1 - (\text{MAE}_{model} / \text{MAE}_{naive})$$\
+
+
+**Classification**
+
+**If the task is a classification, we compute the weighted F1 score (wF1) as the underlying evaluation metric (F1\_model). The F1 score can be interpreted as a weighted average of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0. The relative contribution of precision and recall to the F1 score are equal. The weighted F1 takes into account the precision and recall of all classes weighted by their support as described** [**here**](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)**. As a baseline score (F1\_naive), we calculate the weighted F1 score for a model that always predicts the most common class of the target column (F1\_most\_common) and a model that predicts random values (F1\_random). F1\_naive is set to the maximum of F1\_most\_common and F1\_random. The PPS is the result of the following normalization (and never smaller than 0):**\
+
+
+$$\text{PPS} = (F1_{model} - F1_{naive}) / (1 - F1_{naive})$$\
+
+
 ### **FEATURE SELECTION**
 
-This section lists feature selection tutorials and libraries.
+With dependence scored, this section is feature selection.
 
 The same notes are in [Interpretable & Explainable AI (XAI)](../responsible-ai/interpretable-and-explainable-ai-xai.md) and [L1 and L2](../predictive-ml/regularization.md#l1-and-l2).
 
@@ -129,51 +135,56 @@ The same notes are in [Interpretable & Explainable AI (XAI)](../responsible-ai/i
 
 1. [**How to parallelize feature selection on several CPUs,**](https://stackoverflow.com/questions/37037450/multi-label-feature-selection-using-sklearn) **do it per label on each cpu and average the results.**
 2. **A great notebook about feature correlation and manytypes of visualization, what to drop what to keep, using many feature reduction and selection methods (quite a lot actually). Its a really good intro**
-3. [**Multi class classification, feature selection, model selection, co-feature analysis**](https://medium.com/data-science/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f)
-4. [**Text analysis for sentiment, doing feature selection**](https://streamhacker.com/tag/chi-square/) **a tutorial with chi2(IG?),** [**part 2 with bi-gram collocation in ntlk**](https://streamhacker.com/2010/05/24/text-classification-sentiment-analysis-stopwords-collocations/)
+- [**Multi class classification, feature selection, model selection, co-feature analysis**](https://medium.com/data-science/multi-class-text-classification-with-scikit-learn-12f1e60e0a9f)
+- [**Text analysis for sentiment, doing feature selection**](https://streamhacker.com/tag/chi-square/)
+- Text Classification for Sentiment Analysis – Stopwords and Collocations | StreamHacker. **a tutorial with chi2(IG?),** [**part 2 with bi-gram collocation in ntlk**](https://streamhacker.com/2010/05/24/text-classification-sentiment-analysis-stopwords-collocations/)
 5. **What is collocation? - “the habitual juxtaposition of a particular word with another word or words with a frequency greater than chance.”**
-6. [**Sklearn feature selection methods (4) - youtube**](https://www.youtube.com/watch?v=wjKvyk8xStg)
-7. [**Univariate**](http://blog.datadive.net/selecting-good-features-part-i-univariate-selection/) **and independent features**
-8. [**Linear models and regularization,**](http://blog.datadive.net/selecting-good-features-part-ii-linear-models-and-regularization/) **doing feature ranking**
-9. [**Random forests and feature ranking**](http://blog.datadive.net/selecting-good-features-part-iii-random-forests/)
-10. [**Random Search for focus and only then grid search for Random Forest**](https://medium.com/data-science/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74)**,** [**code**](https://github.com/WillKoehrsen/Machine-Learning-Projects/blob/master/random_forest_explained/Improving%20Random%20Forest%20Part%202.ipynb)
-11. [**Stability selection and recursive feature elimination (RFE).**](http://blog.datadive.net/selecting-good-features-part-iv-stability-selection-rfe-and-everything-side-by-side/) **are wrapper methods in sklearn for the purpose of feature selection.** [**RFE in sklearn**](http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
-12. [**Kernel feature selection via conditional covariance minimization**](http://bair.berkeley.edu/blog/2018/01/23/kernels/) **(netanel d.)**
-13. [**Github class that does the following**](https://medium.com/data-science/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0)**:**
-    - **Features with a high percentage of missing values**
-    - **Collinear (highly correlated) features**
-    - **Features with zero importance in a tree-based model**
-    - **Features with low importance**
-    - **Features with a single unique value**
-14. [**Machinelearning mastery on FS**](https://machinelearningmastery.com/feature-selection-machine-learning-python/)**:**
-    - **Univariate Selection.**
-    - **Recursive Feature Elimination.**
-    - **Principle Component Analysis.**
-    - **Feature Importance.**
-15. [**Sklearn tutorial on FS:**](http://scikit-learn.org/stable/modules/feature_selection.html)
-    - **Low variance**
-    - **Univariate kbest**
-    - **RFE**
-    - **selectFromModel using \_coef \_important\_features**
-    - **Linear models with L1 (svm recommended L2)**
-    - **Tree based importance**
-16. [**A complete overview of many methods**](https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/)
-    - **(reduction) LDA: Linear discriminant analysis is used to find a linear combination of features that characterizes or separates two or more classes (or levels) of a categorical variable.**
-    - **(selection) ANOVA: ANOVA stands for Analysis of variance. It is similar to LDA except for the fact that it is operated using one or more categorical independent features and one continuous dependent feature. It provides a statistical test of whether the means of several groups are equal or not.**
+- Feature Selection for Scikit Learn, by Data Talks. [**Sklearn feature selection methods (4) - youtube**](https://www.youtube.com/watch?v=wjKvyk8xStg)
+- Feature selection – Part I: univariate selection | Diving into data. [**Univariate**](http://blog.datadive.net/selecting-good-features-part-i-univariate-selection/)
+- Selecting good features – Part II: linear models and regularization | Diving into data. [**Linear models and regularization,**](http://blog.datadive.net/selecting-good-features-part-ii-linear-models-and-regularization/)
+- Selecting good features – Part III: random forests | Diving into data. [**Random forests and feature ranking**](http://blog.datadive.net/selecting-good-features-part-iii-random-forests/)
+- [**Random Search for focus and only then grid search for Random Forest**](https://medium.com/data-science/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74)
+- Machine-Learning-Projects/random_forest_explained/Improving Random Forest Part 2.ipynb at master · WillKoehrsen/Machine-Learning-Projects. **,** [**code**](https://github.com/WillKoehrsen/Machine-Learning-Projects/blob/master/random_forest_explained/Improving%20Random%20Forest%20Part%202.ipynb)
+- [**Stability selection and recursive feature elimination (RFE).**](http://blog.datadive.net/selecting-good-features-part-iv-stability-selection-rfe-and-everything-side-by-side/)
+- **are wrapper methods in sklearn for the purpose of feature selection.**. [**RFE in sklearn**](http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html)
+- Kernel Feature Selection via Conditional Covariance Minimization, by C.K. Wolfe. [**Kernel feature selection via conditional covariance minimization**](http://bair.berkeley.edu/blog/2018/01/23/kernels/)
+- [**Github class that does the following**](https://medium.com/data-science/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0)
+ - **Features with a high percentage of missing values**
+ - **Collinear (highly correlated) features**
+ - **Features with zero importance in a tree-based model**
+ - **Features with low importance**
+ - **Features with a single unique value**
+- Feature Selection For Machine Learning in Python - MachineLearningMastery.com. [**Machinelearning mastery on FS**](https://machinelearningmastery.com/feature-selection-machine-learning-python/)
+ - **Univariate Selection.**
+ - **Recursive Feature Elimination.**
+ - **Principle Component Analysis.**
+ - **Feature Importance.**
+- The classes in the sklearn.feature_selection module can be used for feature selection/dimensionality reduction on sample sets, either to improve estimators’ accuracy scores or to boost their perfor... [**Sklearn tutorial on FS:**](http://scikit-learn.org/stable/modules/feature_selection.html)
+ - **Low variance**
+ - **Univariate kbest**
+ - **RFE**
+ - **selectFromModel using \_coef \_important\_features**
+ - **Linear models with L1 (svm recommended L2)**
+ - **Tree based importance**
+- Take your machine learning skills to the next level with feature selection methods. [**A complete overview of many methods**](https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/)
+ - **(reduction) LDA: Linear discriminant analysis is used to find a linear combination of features that characterizes or separates two or more classes (or levels) of a categorical variable.**
+ - **(selection) ANOVA: ANOVA stands for Analysis of variance. It is similar to LDA except for the fact that it is operated using one or more categorical independent features and one continuous dependent feature. It provides a statistical test of whether the means of several groups are equal or not.**
 
 The same notes are in [Distribution Transformation](distribution-transformation.md).
 
-    - **(Selection) Chi-Square: It is a is a statistical test applied to the groups of categorical features to evaluate the likelihood of correlation or association between them using their frequency distribution.**
-    - **Wrapper methods:**
-       - **Forward Selection: Forward selection is an iterative method in which we start with having no feature in the model. In each iteration, we keep adding the feature which best improves our model till an addition of a new variable does not improve the performance of the model.**
-       - **Backward Elimination: In backward elimination, we start with all the features and removes the least significant feature at each iteration which improves the performance of the model. We repeat this until no improvement is observed on removal of features.**
-       - **Recursive Feature elimination: It is a greedy optimization algorithm which aims to find the best performing feature subset. It repeatedly creates models and keeps aside the best or the worst performing feature at each iteration. It constructs the next model with the left features until all the features are exhausted. It then ranks the features based on the order of their elimination.**
+ - **(Selection) Chi-Square: It is a is a statistical test applied to the groups of categorical features to evaluate the likelihood of correlation or association between them using their frequency distribution.**
+ - **Wrapper methods:**
+ - **Forward Selection: Forward selection is an iterative method in which we start with having no feature in the model. In each iteration, we keep adding the feature which best improves our model till an addition of a new variable does not improve the performance of the model.**
+ - **Backward Elimination: In backward elimination, we start with all the features and removes the least significant feature at each iteration which improves the performance of the model. We repeat this until no improvement is observed on removal of features.**
+ - **Recursive Feature elimination: It is a greedy optimization algorithm which aims to find the best performing feature subset. It repeatedly creates models and keeps aside the best or the worst performing feature at each iteration. It constructs the next model with the left features until all the features are exhausted. It then ranks the features based on the order of their elimination.**
 17. [**Relief**](https://medium.com/@yashdagli98/feature-selection-using-relief-algorithms-with-python-example-3c2006e18f83) **-** [**GIT**](https://github.com/GrantRVD/ReliefF) [**git2**](https://pypi.org/project/ReliefF/#description) **a new family of feature selection trying to optimize the distance of two samples from the selected one, one which should be closer the other farther.**
 
 **“The weight updation of attributes works on a simple idea (line 6). That if instance Rᵢ and H have different value (i.e the diff value is large), that means that attribute separates two instance with the same class which is not desirable, thus we reduce the attributes weight. On the other hand, if the instance Rᵢ and M have different value, that means the attribute separates the two instance with different class, which is desirable.”**
 
-1. [**Scikit-feature (includes relief)**](https://github.com/chappers/scikit-feature) **forked from** [**this**](https://github.com/jundongl/scikit-feature/tree/master/skfeature) [**(docs)**](http://featureselection.asu.edu/algorithms.php)
-2. [**Scikit-rebate (based on relief)**](https://github.com/EpistasisLab/scikit-rebate)
+- GitHub - NoRaincheck/scikit-feature: Feature selection with scikit-learn. [**Scikit-feature (includes relief)**](https://github.com/chappers/scikit-feature)
+- open-source feature selection repository in python - scikit-feature/skfeature at master · jundongl/scikit-feature. **forked from** [**this**](https://github.com/jundongl/scikit-feature/tree/master/skfeature)
+- ASU error page. ASU error page. [**(docs)**](http://featureselection.asu.edu/algorithms.php)
+- A scikit-learn-compatible Python implementation of ReBATE, a suite of Relief-based feature selection algorithms for Machine Learning. [**Scikit-rebate (based on relief)**](https://github.com/EpistasisLab/scikit-rebate)
 
 [**Feature selection using entropy, information gain, mutual information and … in sklearn.**](https://gist.github.com/GaelVaroquaux/ead9898bd3c973c40429)
 
@@ -182,17 +193,17 @@ The same notes are in [Distribution Transformation](distribution-transformation.
 
 ### **FEATURE IMPORTANCE**
 
-This section covers global importance and LIME-style local explanations.
+Closing the page, this section is feature importance.
 
 The same notes are in [Lime](../responsible-ai/interpretable-and-explainable-ai-xai.md#lime) and [Shap](../responsible-ai/interpretable-and-explainable-ai-xai.md#shap).
 
 **Note: point 2, about lime is used for explainability, please also check that topic, down below.**
 
-1. [**Using RF and other methods, really good**](https://medium.com/data-science/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
+- [**Using RF and other methods, really good**](https://medium.com/data-science/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e)
 2. [**Non parametric feature impact and importance**](https://arxiv.org/abs/2006.04750) **- while there are nonparametric feature selection algorithms, they typically provide feature rankings, rather than measures of impact or importance.In this paper, we give mathematical definitions of feature impact and importance, derived from partial dependence curves, that operate directly on the data.**
 3. [**Paper**](https://arxiv.org/abs/1602.04938) **(**[**pdf**](https://arxiv.org/pdf/1602.04938.pdf)**,** [**blog post**](https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime)**): (**[**GITHUB**](https://github.com/marcotcr/lime/blob/master/README.md)**) how to "explain the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally around the prediction."**\
-   \
-   **they want to understand the reasons behind the predictions, it’s a new field that says that many 'feature importance' measures shouldn’t be used. i.e., in a linear regression model, a feature can have an importance rank of 50 (for example), in a comparative model where you duplicate that feature 50 times, each one will have 1/50 importance and won’t be selected for the top K, but it will still be one of the most important features. so new methods needs to be developed to understand feature importance. this one has git code as well.**
+ \
+ **they want to understand the reasons behind the predictions, it’s a new field that says that many 'feature importance' measures shouldn’t be used. i.e., in a linear regression model, a feature can have an importance rank of 50 (for example), in a comparative model where you duplicate that feature 50 times, each one will have 1/50 importance and won’t be selected for the top K, but it will still be one of the most important features. so new methods needs to be developed to understand feature importance. this one has git code as well.**
 
 **Several github notebook examples:** [**binary case**](https://marcotcr.github.io/lime/tutorials/Lime%20-%20basic%20usage%2C%20two%20class%20case.html)**,** [**multi class**](https://marcotcr.github.io/lime/tutorials/Lime%20-%20multiclass.html)**,** [**cont and cat features**](https://marcotcr.github.io/lime/tutorials/Tutorial%20-%20continuous%20and%20categorical%20features.html)**, there are many more for images in the github link.**\
 
@@ -201,4 +212,15 @@ The same notes are in [Lime](../responsible-ai/interpretable-and-explainable-ai-
 \
 <figure><img src="../.gitbook/assets/gimg-bf68d6e60bd9.png" alt=""><figcaption><p>Features.</p><p>Credit: <a href="https://lh3.googleusercontent.com/kG3FAsrFUCsJEWKHu5VIALphtEB2Fp82hOuQVUVMz5jJg_YJew27k4Hptrmb9HGfSK6jf0shjsjP4o3zk0MGI8s8MHkRnEv2hgZTNNmn_ImljyFeVJjt0DaIEE0qhxcMRDO3t6Ig">copied from the original hosted image</a>.</p></figcaption></figure>
 
+- A great notebook about feature correlation and manytypes of visualization, what to drop what to keep, using many feature reduction and selection methods (quite a lot actually). Its a really good intro. [https://www.kaggle.com/kanncaa1/feature-selection-and-data-visualization](https://www.kaggle.com/kanncaa1/feature-selection-and-data-visualization)
 
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+- Correlation is between -1 to 1, covariance is -inf to inf, units in covariance affect the scale, so correlation is preferred, it is normalized.. This address no longer opens: https://towardsdatascience.com/correlation-coefficient-clearly-explained-f034d00b66ac
+- Feature space. This address no longer opens: https://towardsdatascience.com/escape-the-correlation-matrix-into-feature-space-4d71c51f25e5
+- Cat vs cat**, many metrics - on medium**. This address no longer opens: https://towardsdatascience.com/the-search-for-categorical-correlation-a1cf7f1888c9
+- 3. This address no longer opens: https://www.edvancer.in/DESCRIPTIVE+STATISTICS+FOR+DATA+SCIENCE-2
+- Github class that does the following. This address no longer opens: https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0

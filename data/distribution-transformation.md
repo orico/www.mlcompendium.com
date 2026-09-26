@@ -1,14 +1,14 @@
 # Distribution Transformation
 
-This page is about transforming skewed data toward normality, especially Box-Cox, plus related nonparametric tests.
-
+Skewed data breaks tests that assume a normal shape, so the work here is to transform the column and then check whether normality actually arrived.
+Box-Cox is the main transform on this page; guaranteed normality is the honest answer, then the null-hypothesis tests and the Mann-Whitney U test that do not need normality.
 The same notes are in [CORRELATION](dependence-and-selection.md#correlation), [Distribution](distribution.md), and [FEATURE SELECTION](dependence-and-selection.md#feature-selection).
 
 [Top 3 methods for handling skewed data](https://medium.com/data-science/top-3-methods-for-handling-skewed-data-1334e0debf45). Log, square root, box cox transformations
 
 ## Box Cox
 
-This section is the Box-Cox power transformation: what lambda does, and how to check normality after.
+This section is the Box-Cox power transformation: what lambda does, and how to check normality after the transform.
 
 The same notes are in [FEATURE ENGINEERING](feature-engineering.md#feature-engineering).
 
@@ -39,9 +39,10 @@ IMPORTANT:!! After a transformation (c), we need to measure the normality of the
 
 [*NOTE: another useful link that explains it with figures, but i did not read it.](http://blog.minitab.com/blog/applying-statistics-in-quality-projects/how-could-you-benefit-from-a-box-cox-transformation)
 
-### Guaranteed normality?
 
-This subsection answers whether Box-Cox guarantees a normal result.
+## Guaranteed normality?
+
+After Box-Cox, this section answers whether the transform guarantees a normal result.
 
 - NO!
 - This is because it actually does not really check for normality;
@@ -63,9 +64,29 @@ Finally: An awesome tutorial (dead), here is a new one in python with [code exam
 
 - Maybe there is a slight problem in the python vs R code, details here, but needs investigating.
 
+
+## Null hypothesis
+
+When normality is not guaranteed, this section points at chi-square, t-tests, and ANOVA notes tied to the null hypothesis.
+
+The same notes are in [Hypothesis Testing](../decision-intelligence/hypothesis-testing.md).
+
+- [What is chi-square and what is a null hypothesis, and how do we calculate observed vs expected and check if we can reject the null and get significant difference.](https://medium.com/greyatom/goodness-of-fit-using-chi-square-be5bba375caf)
+2. Analytics vidhya
+ - Hypothesis testing is data analysis technique which is used to to make inferences about the sample data from a larger population, by Sunil Ray. [What is hypothesis testing](https://www.analyticsvidhya.com/blog/2015/09/hypothesis-testing-explained/)
+ - Learn about T-Tests, their types, uses, and formulas with R examples. [Intro to t-tests analytics vidhya](https://www.analyticsvidhya.com/blog/2019/05/statistics-t-test-introduction-r-implementation/?utm_source=facebook.com&utm_medium=social)
+ - Learn ANOVA basics: concepts, Excel usage, key terms, group variability, One-Way & Two-Way ANOVA, F-Statistic, and MANOVA explained with steps & examples, by Gurchetan. [Anova analysis of variance](https://www.analyticsvidhya.com/blog/2018/01/anova-analysis-of-variance/?utm_source=facebook.com&utm_medium=social)
+ 1. If the means of two or more groups are significantly different from each other. ANOVA checks the impact of one or more factors by comparing the means of different samples.
+ 2. A one-way ANOVA tells us that at least two groups are different from each other. But it won’t tell us which groups are different.
+ 3. For such cases, when the outcome or dependent variable (in our case the test scores) is affected by two independent variables/factors we use a slightly modified technique called two-way ANOVA.
+3. Multivariate case and the technique we will use to solve it is known as MANOVA.
+
+- Many common machine learning algorithms assume data is normally distributed. tutorial (dead). [http://www.kmdatascience.com/2017/07/box-cox-transformations-in-python.html](http://www.kmdatascience.com/2017/07/box-cox-transformations-in-python.html)
+
+
 ## Mann-Whitney U test
 
-This section defines the Mann–Whitney U test as a nonparametric comparison of two samples.
+When the null-hypothesis tests need a nonparametric alternative, this section defines the Mann–Whitney U test as a comparison of two samples.
 
 The same notes are in [Hypothesis Testing](../decision-intelligence/hypothesis-testing.md).
 
@@ -75,21 +96,6 @@ In other words: This test can be used to determine whether two independent sampl
 
 Unlike the [t-test](https://en.wikipedia.org/wiki/T-test) it does not require the assumption of [normal distributions](https://en.wikipedia.org/wiki/Normal_distribution). It is nearly as efficient as the t-test on normal distributions.
 
-## Null hypothesis
-
-This section points at chi-square, t-tests, and ANOVA notes tied to the null hypothesis.
-
-The same notes are in [Hypothesis Testing](../decision-intelligence/hypothesis-testing.md).
-
-1. [What is chi-square and what is a null hypothesis, and how do we calculate observed vs expected and check if we can reject the null and get significant difference.](https://medium.com/greyatom/goodness-of-fit-using-chi-square-be5bba375caf)
-2. Analytics vidhya
-   1. [What is hypothesis testing](https://www.analyticsvidhya.com/blog/2015/09/hypothesis-testing-explained/)
-   2. [Intro to t-tests analytics vidhya](https://www.analyticsvidhya.com/blog/2019/05/statistics-t-test-introduction-r-implementation/?utm_source=facebook.com&utm_medium=social) - always good
-   3. [Anova analysis of variance](https://www.analyticsvidhya.com/blog/2018/01/anova-analysis-of-variance/?utm_source=facebook.com&utm_medium=social), one way, two way, manova
-      1. If the means of two or more groups are significantly different from each other. ANOVA checks the impact of one or more factors by comparing the means of different samples.
-      2. A one-way ANOVA tells us that at least two groups are different from each other. But it won’t tell us which groups are different.
-      3. For such cases, when the outcome or dependent variable (in our case the test scores) is affected by two independent variables/factors we use a slightly modified technique called two-way ANOVA.
-3. Multivariate case and the technique we will use to solve it is known as MANOVA.
 
 ## Deprecated links
 
@@ -97,6 +103,5 @@ The same notes are in [Hypothesis Testing](../decision-intelligence/hypothesis-t
 These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
 {% endhint %}
 
-- tutorial (dead). This address no longer opens: http://www.kmdatascience.com/2017/07/box-cox-transformations-in-python.html
 - here is a new one. This address no longer opens: https://towardsdatascience.com/box-cox-transformation-explained-51d745e34203
 - details here. This address no longer opens: http://shahramabyari.com/2015/12/21/data-preparation-for-predictive-modeling-resolving-skewness/

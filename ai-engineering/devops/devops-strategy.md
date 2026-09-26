@@ -1,6 +1,6 @@
 # DevOps Strategy
 
-This page points at eight DevOps strategies and how to put them in place.
+Delivery speed without a strategy stalls. This page points at eight DevOps strategies and how to put them in place.
 
 The same notes are in [Definitions](../definitions.md).
 

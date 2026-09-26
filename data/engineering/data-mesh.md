@@ -1,5 +1,6 @@
 # Data Mesh
 
+A central data team can become the bottleneck, so mesh treats domains as owners of data products.
 This page collects introductions, principles, topologies, and practice notes on data mesh.
 
 The same notes are in [Data Architecture](data-architecture.md) and [Data Fabric](database-architecture-and-modeling.md#data-fabric).

@@ -1,5 +1,5 @@
 # Churn Prediction
 
-This page links to an article that argues you should not treat churn by predicting churn alone.
+A company wants to know who will leave. The treatment is the decision, and a score on the churn label does not say what to do.
 
-1. [Don't predict churn](https://medium.com/bigdatarepublic/for-effective-treatment-of-churn-dont-predict-churn-58328967ec4f)
+- [Don't predict churn](https://medium.com/bigdatarepublic/for-effective-treatment-of-churn-dont-predict-churn-58328967ec4f)

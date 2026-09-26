@@ -1,6 +1,6 @@
 # NYC TAXI
 
-This page is an intro to the well-known NYC taxi pickup problem for regression and related evaluation notes.
+Regression needs a concrete city problem. This page is the NYC taxi pickup problem and related evaluation notes.
 
 The same notes are in [Regression](../predictive-ml/regression.md).
 
@@ -18,6 +18,9 @@ R^2 error estimate — measures the distance of the estimated to the mean agains
 
 With regression prediction it is best to create dummy variables (i.e., binary variables — exist or doesn't exist) from numeric variables, such as grid_number to grid_1, grid_2, etc.
 
+See also [Breast Augmentation Using Gen-AI](https://cohenori.medium.com/breast-augmentation-using-gen-ai-15492ab71f8b) (October 2024).
+[Optimizing University Course Scheduling](https://cohenori.medium.com/optimizing-university-course-scheduling-a-constraint-programming-approach-a4f1533037a3) (August 2025) is a worked scheduling case.
+
 ## Deprecated links
 
 {% hint style="warning" %}
@@ -25,7 +28,3 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - xgboost (extreme gradient boosting tree). This address no longer opens: http://xgboost.readthedocs.io/en/latest/model.html
-
-See also [Breast Augmentation Using Gen-AI](https://cohenori.medium.com/breast-augmentation-using-gen-ai-15492ab71f8b) (October 2024).
-
-[Optimizing University Course Scheduling](https://cohenori.medium.com/optimizing-university-course-scheduling-a-constraint-programming-approach-a4f1533037a3) (August 2025) is a worked scheduling case.

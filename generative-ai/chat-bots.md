@@ -1,6 +1,7 @@
 # Chat Bots
 
 This page links a chatbot survey and points to the GPT notes.
+The survey link sits beside cross-links into the GPT and intent-recognition notes.
 
 The same notes are in [Agents](agents.md), [GPT](large-language-models-llms.md), and [Intent Recognition](../language-ai/intent-recognition.md).
 

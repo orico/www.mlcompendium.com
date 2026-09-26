@@ -1,6 +1,6 @@
 # Online Learning
 
-This page covers classical online learning and online deep learning references and tools.
+This page covers classical online learning and online deep learning references and tools. It is for models that update as labeled examples arrive in a stream, including non-stationary settings.
 
 The same notes are in [Active Learning Algorithms](../decision-intelligence/active-learning-algorithms.md), [Follow the regularized leader](../decision-intelligence/follow-the-regularized-leader.md), [Incremental Learning](../decision-intelligence/incremental-learning.md), and [Training Strategies](../evals/training-strategies.md).
 
@@ -8,12 +8,15 @@ The same notes are in [Active Learning Algorithms](../decision-intelligence/acti
 
 Classical online learning updates the model as labeled examples arrive in a stream.
 
-1. If you want to start with OL — [start here](https://dziganto.github.io/data%20science/online%20learning/python/scikit-learn/An-Introduction-To-Online-Machine-Learning/) and [here](https://www.analyticsvidhya.com/blog/2015/01/introduction-online-machine-learning-simplified-2/)
-2. Shay Shalev — [A thesis about online learning](http://ttic.uchicago.edu/~shai/papers/ShalevThesis07.pdf)
-3. [Some answers about what is OL,](https://www.quora.com/What-is-the-best-way-to-learn-online-machine-learning) the first one actually talks about S.Shalev’s [other paper.](http://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf)
+- If you want to start with OL —. [start here](https://dziganto.github.io/data%20science/online%20learning/python/scikit-learn/An-Introduction-To-Online-Machine-Learning/)
+- We use cookies essential for this site to function well. and [here](https://www.analyticsvidhya.com/blog/2015/01/introduction-online-machine-learning-simplified-2/)
+- Shay Shalev — [A thesis about online learning](http://ttic.uchicago.edu/~shai/papers/ShalevThesis07.pdf)
+- What is the best way to learn "online machine learning"? [Some answers about what is OL,](https://www.quora.com/What-is-the-best-way-to-learn-online-machine-learning)
+- the first one actually talks about S.Shalev’s. [other paper.](http://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf)
 4. Online learning — Andrew Ng — coursera
-5. [Chip Huyen on online prediction & learning](https://huyenchip.com/2020/12/27/real-time-machine-learning.html)
-6. [River](https://github.com/online-ml/river/) is a Python library for [online machine learning](https://www.wikiwand.com/en/Online_machine_learning)
+- Machine learning is going real-time. [Chip Huyen on online prediction & learning](https://huyenchip.com/2020/12/27/real-time-machine-learning.html)
+- GitHub - online-ml/river: 🌊 Online machine learning in Python. [River](https://github.com/online-ml/river/)
+- is a Python library for [online machine learning](https://www.wikiwand.com/en/Online_machine_learning)
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Online machine learning.</p></figcaption></figure>
 

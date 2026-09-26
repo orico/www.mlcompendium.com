@@ -1,30 +1,63 @@
 # Information Theory
 
-This page is about entropy, information gain, cross-entropy, KL divergence, softmax, and related tools.
-
+A model that ranks classes or splits trees needs a measure of surprise and a measure of how wrong a predicted distribution is.
+This page moves from entropy and information gain, through the cross-entropy and divergence family and softmax, into tools, tutorials, time-series entropy, and complement objective training.
 The same notes are in [Collocation](../language-ai/foundation-nlp.md#collocation) and [MUTUAL INFORMATION COEFFICIENT](dependence-and-selection.md#mutual-information-coefficient).
 
 ## Entropy / Information Gain
 
-This section points at Shannon entropy implementations and definitions.
+This section opens with Shannon entropy and information gain before the divergence family.
 
 The same notes are in [Active Learning](../problem-framing/active-learning.md).
 
 1. Shannon entropy in python, basically entropy(value counts)
-2. [Mastery on plogp entropy function](https://machinelearningmastery.com/what-is-information-entropy/)
-3. [Entropy functions](https://gist.github.com/jaradc/eeddf20932c0347928d0da5a09298147)
+- A Gentle Introduction to Information Entropy - MachineLearningMastery.com. [Mastery on plogp entropy function](https://machinelearningmastery.com/what-is-information-entropy/)
+- Four different ways to calculate entropy in Python - entropy_calculation_in_python.py. [Entropy functions](https://gist.github.com/jaradc/eeddf20932c0347928d0da5a09298147)
+
+## Cross entropy, relative ent, KL-D, JS-D, soft max
+
+After entropy, this section collects cross-entropy, KL, JS divergence, and related losses.
+
+The same notes are in [Comparing distributions (distance methods)](distribution.md#comparing-distributions-distance-methods), [LOSS](../deep-learning/deep-neural-nets.md#loss), and [LOSS IN KERAS](../deep-learning/deep-neural-frameworks.md#loss-in-keras).
+
+- Kullback–Leibler divergence is a very useful way to measure the difference between two probability distributions. [A really good explanation on all of them](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
+- Computer vision, deep learning and image processing stuff by Raúl Gómez Bruballa, PhD in computer vision. [Another good one on all of them](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
+- A Gentle Introduction to Cross-Entropy for Machine Learning - MachineLearningMastery.com. [mastery on a gentle intro to CE](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)
+4. [Mastery on entropy](https://machinelearningmastery.com/divergence-between-probability-distributions/), kullback leibler divergence (asymmetry), jensen-shannon divergence (symmetry) (has code)
+5. [Entropy, mutual information and KL Divergence by AurelienGeron](https://www.techleer.com/articles/496-a-short-introduction-to-entropy-cross-entropy-and-kl-divergence-aurelien-geron/)
+6. Gensim on divergence metrics such as KL jaccard etc, pros and cons, lda is a mess on small data.
+7. [Advise on KLD](https://datascience.stackexchange.com/questions/9262/calculating-kl-divergence-in-python)ivergence
+8. Neural machine translation using pytorch and CE
+
+## Softmax
+
+With the divergence family named, this section explains softmax, NLL, and how they relate to cross-entropy.
+
+The same notes are in [ACTIVATION FUNCTIONS](../deep-learning/deep-neural-nets.md#activation-functions) and [Temperature](../responsible-ai/calibration.md#temperature).
+
+- [Understanding softmax](https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a59641e86d)
+- In this notebook I will explain the softmax function, its relationship with the negative log-likelihood, and its derivative when doing the backpropagation al.., by LJ V. MIRANDA. [Softmax and negative likelihood (NLL)](https://ljvmiranda921.github.io/notebook/2017/08/13/softmax-and-the-negative-log-likelihood/)
+3. [Softmax vs cross entropy](https://www.quora.com/Is-the-softmax-loss-the-same-as-the-cross-entropy-loss) - Softmax loss and cross-entropy loss terms are used interchangeably in industry. Technically, there is no term as such Softmax loss. people use the term "softmax loss" when referring to "cross-entropy loss". The softmax classifier is a linear classifier that uses the cross-entropy loss function. In other words, the gradient of the above function tells a softmax classifier how exactly to update its weights using some optimization like [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent).
+
+The softmax() part simply normalises your network predictions so that they can be interpreted as probabilities. Once your network is predicting a probability distribution over labels for each input, the log loss is equivalent to the cross entropy between the true label distribution and the network predictions. As the name suggests, softmax function is a “soft” version of max function. Instead of selecting one maximum value, it breaks the whole (1) with maximal element getting the largest portion of the distribution, but other smaller elements getting some of it as well.
+
+This property of softmax function that it outputs a probability distribution makes it suitable for probabilistic interpretation in classification tasks.
+
+Cross entropy indicates the distance between what the model believes the output distribution should be, and what the original distribution is. Cross entropy measure is a widely used alternative of squared error. It is used when node activations can be understood as representing the probability that each hypothesis might be true, i.e. when the output is a probability distribution. Thus it is used as a loss function in neural networks which have softmax activations in the output layer.
 
 ## Tools
 
-This section lists Python libraries for information-theoretic measures.
+After the theory, this section lists Python libraries for information-theoretic measures.
 
-1. [EntroPy](https://raphaelvallat.com/entropy/build/html/index.html) / [AntroPy](https://raphaelvallat.com/antropy/) [[Git](https://github.com/raphaelvallat/antropy)]
+- Installation — entropy 0.1.3 documentation. [EntroPy](https://raphaelvallat.com/entropy/build/html/index.html)
+- Installation — antropy 0.2.2 documentation. / [AntroPy](https://raphaelvallat.com/antropy/)
+- AntroPy: entropy and complexity of (EEG) time-series in Python - raphaelvallat/antropy. [[Git](https://github.com/raphaelvallat/antropy)
 2. [PyInform](https://github.com/ELIFE-ASU/PyInform) [[Docs](https://elife-asu.github.io/PyInform/index.html)]- PyInform is a python library of information-theoretic measures for time series data. PyInform is backed by the [Inform](https://github.com/elife-asu/inform) C library.
-3. [PyEntropy](https://github.com/nikdon/pyEntropy)
+- GitHub - nikdon/pyEntropy: Entropy for Python. [PyEntropy](https://github.com/nikdon/pyEntropy)
 
 ## Tutorials
 
-This section walks entropy, cross-entropy, information gain, and Gini for decision trees.
+Beside the tools, this section walks entropy, cross-entropy, information gain, and Gini for decision trees.
 
 The same notes are in [CART TREES](../predictive-ml/decision-trees.md#cart-trees).
 
@@ -132,40 +165,9 @@ FINALLY, further reading about decision trees and examples of INFOGAIN and GINI 
 
 [Variational bounds on mutual information](https://arxiv.org/abs/1905.06922v1)
 
-## Cross entropy, relative ent, KL-D, JS-D, soft max
-
-This section collects explanations of cross-entropy, KL, JS divergence, and related losses.
-
-The same notes are in [Comparing distributions (distance methods)](distribution.md#comparing-distributions-distance-methods), [LOSS](../deep-learning/deep-neural-nets.md#loss), and [LOSS IN KERAS](../deep-learning/deep-neural-frameworks.md#loss-in-keras).
-
-1. [A really good explanation on all of them](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
-2. [Another good one on all of them](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
-3. [mastery on a gentle intro to CE](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)
-4. [Mastery on entropy](https://machinelearningmastery.com/divergence-between-probability-distributions/), kullback leibler divergence (asymmetry), jensen-shannon divergence (symmetry) (has code)
-5. [Entropy, mutual information and KL Divergence by AurelienGeron](https://www.techleer.com/articles/496-a-short-introduction-to-entropy-cross-entropy-and-kl-divergence-aurelien-geron/)
-6. Gensim on divergence metrics such as KL jaccard etc, pros and cons, lda is a mess on small data.
-7. [Advise on KLD](https://datascience.stackexchange.com/questions/9262/calculating-kl-divergence-in-python)ivergence
-8. Neural machine translation using pytorch and CE
-
-## Softmax
-
-This section explains softmax, NLL, and how they relate to cross-entropy.
-
-The same notes are in [ACTIVATION FUNCTIONS](../deep-learning/deep-neural-nets.md#activation-functions) and [Temperature](../responsible-ai/calibration.md#temperature).
-
-1. [Understanding softmax](https://medium.com/data-science-bootcamp/understand-the-softmax-function-in-minutes-f3a59641e86d)
-2. [Softmax and negative likelihood (NLL)](https://ljvmiranda921.github.io/notebook/2017/08/13/softmax-and-the-negative-log-likelihood/)
-3. [Softmax vs cross entropy](https://www.quora.com/Is-the-softmax-loss-the-same-as-the-cross-entropy-loss) - Softmax loss and cross-entropy loss terms are used interchangeably in industry. Technically, there is no term as such Softmax loss. people use the term "softmax loss" when referring to "cross-entropy loss". The softmax classifier is a linear classifier that uses the cross-entropy loss function. In other words, the gradient of the above function tells a softmax classifier how exactly to update its weights using some optimization like [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent).
-
-The softmax() part simply normalises your network predictions so that they can be interpreted as probabilities. Once your network is predicting a probability distribution over labels for each input, the log loss is equivalent to the cross entropy between the true label distribution and the network predictions. As the name suggests, softmax function is a “soft” version of max function. Instead of selecting one maximum value, it breaks the whole (1) with maximal element getting the largest portion of the distribution, but other smaller elements getting some of it as well.
-
-This property of softmax function that it outputs a probability distribution makes it suitable for probabilistic interpretation in classification tasks.
-
-Cross entropy indicates the distance between what the model believes the output distribution should be, and what the original distribution is. Cross entropy measure is a widely used alternative of squared error. It is used when node activations can be understood as representing the probability that each hypothesis might be true, i.e. when the output is a probability distribution. Thus it is used as a loss function in neural networks which have softmax activations in the output layer.
-
 ## Time series entropy
 
-This section is entropy measures for one-dimensional time series, including EntroPy examples.
+After the tutorials, this section is entropy measures for one-dimensional time series, including EntroPy examples.
 
 The same notes are in [Timeseries](../predictive-ml/forecasting.md).
 
@@ -174,15 +176,15 @@ The same notes are in [Timeseries](../predictive-ml/forecasting.md).
 [Approximate entropy paper](https://journals.physiology.org/doi/pdf/10.1152/ajpheart.2000.278.6.H2039)
 
 ```python
-print(perm_entropy(x, order=3, normalize=True))                 # Permutation entropy
+print(perm_entropy(x, order=3, normalize=True)) # Permutation entropy
 print(spectral_entropy(x, 100, method='welch', normalize=True)) # Spectral entropy
-print(svd_entropy(x, order=3, delay=1, normalize=True))         # Singular value decomposition entropy
-print(app_entropy(x, order=2, metric='chebyshev'))              # Approximate entropy
-print(sample_entropy(x, order=2, metric='chebyshev'))           # Sample entropy
-print(lziv_complexity('01111000011001', normalize=True))        # Lempel-Ziv complexity
+print(svd_entropy(x, order=3, delay=1, normalize=True)) # Singular value decomposition entropy
+print(app_entropy(x, order=2, metric='chebyshev')) # Approximate entropy
+print(sample_entropy(x, order=2, metric='chebyshev')) # Sample entropy
+print(lziv_complexity('01111000011001', normalize=True)) # Lempel-Ziv complexity
 ```
 
-1. [PyInform](https://elife-asu.github.io/PyInform/index.html)
+- PyInform — PyInform 0.2.0 documentation. [PyInform](https://elife-asu.github.io/PyInform/index.html)
 
 <figure><img src="../.gitbook/assets/gimg-15c13866e888.png" alt=""><figcaption><p>PyInform information-theoretic measures.</p><p>Credit: <a href="https://lh3.googleusercontent.com/2XcbUSTQe6BCTd2Hgmj-VU_ErIDRzSbfUucWtiqXRSaPdoYVKtcEs4AwvIjKYoFteF_Ndl5yhdvy24vFX-4x24Bap21_hAyYwDeX0Xh0u5PHUqj9Jc2KacINx6HtckWwNAHEcsMM">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -191,9 +193,10 @@ print(lziv_complexity('01111000011001', normalize=True))        # Lempel-Ziv com
 
 ## Complement Objective Training
 
-This section explains COT as a second training step beside cross-entropy.
+Closing the page, this section explains COT as a second training step beside cross-entropy.
 
-1. Article by [LightTag](https://www.lighttag.io/blog/complement-objective-training-with-pytorch-lightning/), [paper](https://arxiv.org/pdf/1903.01182.pdf) -
+- Complement Objective Training is a simple way to use incorrect-class probabilities and get more from labeled data in PyTorch Lightning. Article by [LightTag](https://www.lighttag.io/blog/complement-objective-training-with-pytorch-lightning/)
+- [paper](https://arxiv.org/pdf/1903.01182.pdf)
 
 COT is a technique to effectively provide explicit negative feedback to our model. The technique gives us non-zero gradients with respect to incorrect classes, which are used to update the model's parameters.
 

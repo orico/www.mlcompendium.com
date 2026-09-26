@@ -1,13 +1,13 @@
 # Process Mining
 
-This page explains process discovery from logs, conformance checking, and related tools.
+This page explains process discovery from logs, conformance checking, and related tools. It is for recovering the real process from event logs when the documented process is incomplete or ignored.
 
 Processes were usually manual, giving trust in people following them, e.g. Process that was defined by the company, and no automation. Process mining identifies the process from the logs (**process discovery**).
 
 1. Modeling done with [BPMN](https://www.bpmn.org/) business process model notation language (UML) (DAG), i.e., static, boxes & arrows vs [Petri net](https://en.wikipedia.org/wiki/Petri_net) [YouTube](https://www.youtube.com/watch?v=EmYVZuczJ6k), i.e., dynamic, token based, which allows simulations.
 2. Conformance checking — a comparison the real process and the discovered.
-   1. if you do not do certain parts in the process you are not compliant.
-   2. for example to find out whether people taking shortcuts? optimizing the process without knowing.
+ 1. if you do not do certain parts in the process you are not compliant.
+ 2. for example to find out whether people taking shortcuts? optimizing the process without knowing.
 3. can be used for offline vs real time process bug alerting
 4. XES
 
@@ -15,25 +15,26 @@ Processes were usually manual, giving trust in people following them, e.g. Proce
 
 This section lists healthcare process-mining tutorials and a YouTube playlist.
 
-1. [https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-1-ae02027a050](https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-1-ae02027a050)
-2. [https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-2-4cf57053421f](https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-2-4cf57053421f)
-3. [https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-3-cc9af986c122](https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-3-cc9af986c122)
-4. [https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-4-912286ee51b](https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-4-912286ee51b)
+- [https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-1-ae02027a050](https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-1-ae02027a050)
+- [https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-2-4cf57053421f](https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-2-4cf57053421f)
+- [https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-3-cc9af986c122](https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-3-cc9af986c122)
+- [https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-4-912286ee51b](https://medium.com/@c3_62722/process-mining-with-python-tutorial-a-healthcare-application-part-4-912286ee51b)
 5. YouTube
-   1. [https://www.youtube.com/watch?v=XLHtvt36g6U&list=PLkWuoFn9UEb5l41T4CMKPYHyRcL5ojI9Z](https://www.youtube.com/watch?v=XLHtvt36g6U&list=PLkWuoFn9UEb5l41T4CMKPYHyRcL5ojI9Z)
+ - pm4py tutorials - tutorial #1: What is Process Mining, by Process Mining for Python. [https://www.youtube.com/watch?v=XLHtvt36g6U&list=PLkWuoFn9UEb5l41T4CMKPYHyRcL5ojI9Z](https://www.youtube.com/watch?v=XLHtvt36g6U&list=PLkWuoFn9UEb5l41T4CMKPYHyRcL5ojI9Z)
 
 ### Tools
 
 This section lists process-aware services, miners, and pm4py / Celonis / IBM products.
 
-1. services need to be process-aware, i.e. send standardized logs — [https://www.celonis.com/](https://www.celonis.com/) IBM process mining
+1. services need to be process-aware, i.e. send standardized logs — [https://www.celonis.com/](https://www.celonis.com/)
 2. Algorithms — can deal with parallelism
-   1. [Alpha miner](http://mlwiki.org/index.php/Alpha_Algorithm) [http://mlwiki.org/index.php/Alpha_Algorithm](http://mlwiki.org/index.php/Alpha_Algorithm)
-   2. Inductive miner
-3. [https://processintelligence.solutions/pm4py](https://processintelligence.solutions/pm4py)
-4. [https://www.celonis.com/?](https://www.celonis.com/?)
-5. [https://www.ibm.com/products/process-mining](https://www.ibm.com/products/process-mining)
-6. [https://www.celonis.com/wils-process-mining-class/?](https://www.celonis.com/wils-process-mining-class/?)
+ - Redirecting... Redirecting... [Alpha miner](http://mlwiki.org/index.php/Alpha_Algorithm)
+ - Redirecting... Redirecting... [http://mlwiki.org/index.php/Alpha_Algorithm](http://mlwiki.org/index.php/Alpha_Algorithm)
+ 2. Inductive miner
+- Process Intelligence Solutions GmbH (P.I.S.). [https://processintelligence.solutions/pm4py](https://processintelligence.solutions/pm4py)
+- The Celonis Platform gives Enterprise AI the operational context it needs to succeed, so you can transform your operations and drive value. [https://www.celonis.com/?](https://www.celonis.com/?)
+- IBM Process Mining helps customers to extract process data from business, identify automation opportunities, prioritize by impact, and fast-track implementation. [https://www.ibm.com/products/process-mining](https://www.ibm.com/products/process-mining)
+- Video series on the fundamentals of process mining. [https://www.celonis.com/wils-process-mining-class/?](https://www.celonis.com/wils-process-mining-class/?)
 
 ## Deprecated links
 

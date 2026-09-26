@@ -1,6 +1,7 @@
 # Data Lineage
 
-This page defines data lineage, why it matters, and points at articles and vendors.
+When a number is wrong, someone has to walk the path the data took.
+This page defines data lineage, why it matters, then articles and vendors.
 
 The same notes are in [Data Governance](data-governance.md) and [Data Quality](data-quality.md).
 
@@ -16,7 +17,7 @@ Tools and systems that manage data lineage collect metadata from various parts o
 
 ## Good articles
 
-This section lists guides that explain data lineage in more depth.
+After the lineage idea, this section points at good articles.
 
 {% cards %}
 {% card title="What is Data Lineage?" href="https://www.octopai.com/what-is-data-lineage/" %}
@@ -31,7 +32,7 @@ This section lists guides that explain data lineage in more depth.
 
 ## Data lineage vendors
 
-This section lists vendors and open tools that manage data lineage.
+After the articles, this section lists data lineage vendors.
 
 The same notes are in [Data Catalogs](../datasets/data-catalogs.md).
 

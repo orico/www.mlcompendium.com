@@ -1,3 +1,7 @@
+# Probabilistic Models
+
+This page lists naive Bayes, Bayesian networks, Markov models, HMMs, IOHMM, and CRF resources. It is for probabilistic classifiers and sequence models rather than purely geometric separators.
+
 ### PROBABILISTIC ALGORITHMS
 
 This section lists naive Bayes, Bayesian networks, Markov models, HMMs, IOHMM, and CRF resources.
@@ -7,19 +11,19 @@ This section lists naive Bayes, Bayesian networks, Markov models, HMMs, IOHMM, a
 This subsection links introductory naive Bayes material.
 
 1. Vidhya on NB
-2. [Baysian tree](https://github.com/UBS-IB/bayesian_tree)
-3. [NB, GNB, multi nominal NB](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html)
+- Contribute to UBS-IB/bayesian_tree development by creating an account on GitHub. [Baysian tree](https://github.com/UBS-IB/bayesian_tree)
+- In Depth: Naive Bayes Classification | Python Data Science Handbook, by Jake VanderPlas. [NB, GNB, multi nominal NB](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html)
 
 #### BAYES, BAYESIAN BELIEF NETWORKS
 
 This subsection covers Bayes theorem, belief networks, and maximum likelihood.
 
-1. [Mastery on bayes theorem](https://machinelearningmastery.com/bayes-theorem-for-machine-learning/)
-2. [Introduction To BBS](https://codesachin.wordpress.com/2017/03/10/an-introduction-to-bayesian-belief-networks/) - a very good blog post
+- A Gentle Introduction to Bayes Theorem for Machine Learning - MachineLearningMastery.com. [Mastery on bayes theorem](https://machinelearningmastery.com/bayes-theorem-for-machine-learning/)
+- An introduction to Bayesian Belief Networks | Sachin Joglekar's blog. [Introduction To BBS](https://codesachin.wordpress.com/2017/03/10/an-introduction-to-bayesian-belief-networks/)
 3. A complementing SLIDE presentation that shows how to build the network’s tables
 4. A very nice presentation regarding BBS
 5. [Maximum Likelihood](http://mathworld.wolfram.com/MaximumLikelihood.html) (log likelihood) - proofs for bernoulli, normal, poisson.
-6. [Another example](https://codesachin.wordpress.com/2017/03/10/an-introduction-to-bayesian-belief-networks/)
+- An introduction to Bayesian Belief Networks | Sachin Joglekar's blog. [Another example](https://codesachin.wordpress.com/2017/03/10/an-introduction-to-bayesian-belief-networks/)
 
 #### MARKOV MODELS
 
@@ -42,9 +46,9 @@ In other words:
 - It provides a way to model the dependencies of current information (e.g. weather) with previous information.
 - It is composed of states, transition scheme between states, and emission of outputs (discrete or continuous).
 - Several goals can be accomplished by using Markov models:
-   - Learn statistics of sequential data.
-   - Do prediction or estimation.
-   - Recognize patterns.
+ - Learn statistics of sequential data.
+ - Do prediction or estimation.
+ - Recognize patterns.
 
 ([sunny cloudy explanation](http://techeffigytutorials.blogspot.co.il/2015/01/markov-chains-explained.html)) Markov Chains is a probabilistic process, that relies on the current state to predict the next state.
 
@@ -68,31 +72,32 @@ The same notes are in [Timeseries](forecasting.md).
 HMM tutorials
 
 1. HMM tutorial
-   1. Part 1, 2, 3, 4
+ 1. Part 1, 2, 3, 4
 2. Medium
-   1. Intro to HMM / MM
-   2. [Paper like example](https://medium.com/@kangeugine/hidden-markov-model-7681c22f5b9)
+ 1. Intro to HMM / MM
+ - [Paper like example](https://medium.com/@kangeugine/hidden-markov-model-7681c22f5b9)
 3. HMM with sklearn and networkx
 
 HMM variants
 
 1. [Stack exchange on hmm](https://datascience.stackexchange.com/questions/8460/python-library-to-implement-hidden-markov-models)
-2. [HMM LEARN](https://github.com/hmmlearn/hmmlearn) (sklearn, still being developed)
-3. [Pomegranate](https://pomegranate.readthedocs.io/en/latest/) (this is good)
-   1. General mixture models
-   2. Hmm
-   3. Basyes classifiers and naive bayes
-   4. Markov changes
-   5. Bayesian networks
-   6. Markov networks
-   7. Factor graphs
+- Hidden Markov Models in Python, with scikit-learn like API - hmmlearn/hmmlearn. (sklearn, still being developed) [HMM LEARN](https://github.com/hmmlearn/hmmlearn)
+- Home — pomegranate 1.0.0 documentation. [Pomegranate](https://pomegranate.readthedocs.io/en/latest/)
+ 1. General mixture models
+ 2. Hmm
+ 3. Basyes classifiers and naive bayes
+ 4. Markov changes
+ 5. Bayesian networks
+ 6. Markov networks
+ 7. Factor graphs
 4. [GHMM with python wrappers](http://ghmm.org/),
-5. [Hmms](https://github.com/lopatovsky/HMMs) (old)
+- GitHub - lopatovsky/HMMs: Continuous-time Hidden Markov Model. (old) [Hmms](https://github.com/lopatovsky/HMMs)
 
 HMM ([what is? And why HIDDEN?)](https://youtu.be/jY2E6ExLxaw?t=27m38s) - the idea is that there are things that you CAN OBSERVE and there are things that you CAN'T OBSERVE. From the things you OBSERVE you want to INFER the things you CAN'T OBSERVE (HIDDEN). I.e., you play against someone else in a game, you don't see their choice of action, but you see the result.
 
-1. Python [code](https://github.com/hmmlearn/hmmlearn), previously part of [sklearn ](http://scikit-learn.sourceforge.net/stable/modules/hmm.html)
-2. Python [seqLearn](http://larsmans.github.io/seqlearn/reference.html) - supervised multinomial HMM
+- Hidden Markov Models in Python, with scikit-learn like API - hmmlearn/hmmlearn. Python [code](https://github.com/hmmlearn/hmmlearn)
+- previously part of [sklearn ](http://scikit-learn.sourceforge.net/stable/modules/hmm.html) Python previously part
+- API reference — seqlearn 0.1 documentation. Python [seqLearn](http://larsmans.github.io/seqlearn/reference.html)
 
 This youtube video [part1](https://www.youtube.com/watch?v=TPRoLreU9lA) - explains about the hidden markov model. It shows the visual representation of the model and how we go from that the formula: <figure><img src="../.gitbook/assets/gimg-be8663091250.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/H4cc7N9jYDubaIjtW7KKpJaGZ0vVa9BhLnzmCYtxtHzFoDiWm5V6oleAc9nV_3IxJ3sd8iIn1TixXhgMNNPIHSaY_Y5F3bXaFW1ujecr_wpHzqnS0mQF-cTIcmRnNAMWtbie1VI7">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -110,7 +115,7 @@ In [part2](https://www.youtube.com/watch?v=M_IIW0VYMEA) of the video:
 
 1. Probably the simplest explanation of Markov Models and HMM as a “game” - [link](http://www.fejes.ca/EasyHMM.html)
 2. This [video](https://www.youtube.com/watch?v=jY2E6ExLxaw) explains that building blocks of the needed knowledge in HMM, starting probabilities P0, transitions and emissions (state probabilities)
-3. This [post](https://www.quora.com/What-is-a-simple-explanation-of-the-Hidden-Markov-Model-algorithm), explains HMM and ties our understanding.
+- This [post](https://www.quora.com/What-is-a-simple-explanation-of-the-Hidden-Markov-Model-algorithm) This explains HMM and ties our understanding
 
 [A cute explanation on quora](https://www.quora.com/What-is-a-simple-explanation-of-the-Hidden-Markov-Model-algorithm):
 
@@ -143,13 +148,32 @@ This subsection lists CRF intros, comparisons, and Python wrappers.
 
 The same notes are in [CRF for templatization](templatization.md#crf-for-templatization), [Named Entity Recognition (NER)](../language-ai/named-entity-recognition-ner.md), and [Timeseries](forecasting.md).
 
-1. [Make sense intro to CRF, comparison against HMM ](https://medium.com/ml2vec/overview-of-conditional-random-fields-68a2a20fa541)
-2. [HMM, CRF, MEMM](https://medium.com/@Alibaba_Cloud/hmm-memm-and-crf-a-comparative-analysis-of-statistical-modeling-methods-49fc32a73586)
-3. [Another crf article](https://medium.com/@phylypo/nlp-text-segmentation-using-conditional-random-fields-e8ff1d2b6060)
-4. Neural network CRF [NNCRF](https://medium.com/@Akhilesh_k_r/neural-networks-conditional-random-field-crf-973712a0fd30)
+- [Make sense intro to CRF, comparison against HMM ](https://medium.com/ml2vec/overview-of-conditional-random-fields-68a2a20fa541)
+- [HMM, CRF, MEMM](https://medium.com/@Alibaba_Cloud/hmm-memm-and-crf-a-comparative-analysis-of-statistical-modeling-methods-49fc32a73586)
+- [Another crf article](https://medium.com/@phylypo/nlp-text-segmentation-using-conditional-random-fields-e8ff1d2b6060)
+- Neural network CRF [NNCRF](https://medium.com/@Akhilesh_k_r/neural-networks-conditional-random-field-crf-973712a0fd30)
 5. Another one
-6. [scikit-learn inspired API for CRFsuite](https://github.com/TeamHG-Memex/sklearn-crfsuite)
-7. [Sklearn wrapper](https://github.com/supercoderhawk/sklearn-crfsuite)
-8. [Python crfsuite](https://github.com/scrapinghub/python-crfsuite) wrapper
-9. [Pycrf suite vidahya](https://www.analyticsvidhya.com/blog/2018/08/nlp-guide-conditional-random-fields-text-classification/)
+- GitHub - TeamHG-Memex/sklearn-crfsuite: scikit-learn inspired API for CRFsuite. [scikit-learn inspired API for CRFsuite](https://github.com/TeamHG-Memex/sklearn-crfsuite)
+- GitHub - supercoderhawk/sklearn-crfsuite: scikit-learn inspired API for CRFsuite. [Sklearn wrapper](https://github.com/supercoderhawk/sklearn-crfsuite)
+- GitHub - scrapinghub/python-crfsuite: A python binding for crfsuite. [Python crfsuite](https://github.com/scrapinghub/python-crfsuite)
+- A complete guide to text classification using conditional random fields, by Guest Blog. [Pycrf suite vidahya](https://www.analyticsvidhya.com/blog/2018/08/nlp-guide-conditional-random-fields-text-classification/)
 
+- What is a Markov Model?). [http://cecas.clemson.edu/~ahoover/ece854/refs/Ramos-Intro-HMM.pdf](http://cecas.clemson.edu/~ahoover/ece854/refs/Ramos-Intro-HMM.pdf)
+- Let's say I have two identical dice, but one is fair and the other is.., by Freddy Boulton. Another one. [https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776](https://towardsdatascience.com/conditional-random-fields-explained-e5b8256da776)
+
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+- Vidhya on NB. This address no longer opens: https://towardsdatascience.com/my-secret-sauce-to-be-in-top-2-of-a-kaggle-competition-57cff0677d3c
+- very nice presentation. This address no longer opens: http://chem-eng.utoronto.ca/~datamining/Presentations/Bayesian_Belief_Network.pdf
+- 1. This address no longer opens: http://gekkoquant.com/2014/05/18/hidden-markov-models-model-description-part-1-of-4/
+- 2. This address no longer opens: http://gekkoquant.com/2014/05/26/hidden-markov-models-forward-viterbi-algorithm-part-2-of-4/
+- 3. This address no longer opens: http://gekkoquant.com/2014/09/07/hidden-markov-models-examples-in-r-part-3-of-4/
+- 4. This address no longer opens: http://gekkoquant.com/2015/02/01/hidden-markov-models-trend-following-sharpe-ratio-3-1-part-4-of-4/
+- Intro to HMM. This address no longer opens: https://towardsdatascience.com/introduction-to-hidden-markov-models-cd2c93e6b781
+- HMM with sklearn and networkx. This address no longer opens: http://www.blackarbs.com/blog/introduction-hidden-markov-models-python-networkx-sklearn/2/9/2017
+- HMM in weka, with github, working on 7.3, not on 9.1. This address no longer opens: http://www.doc.gold.ac.uk/~mas02mg/software/hmmweka/index.html
+- Machine learning - a probabilistic approach, david barber.. This address no longer opens: https://pdfs.semanticscholar.org/a632/9a41ee67fae978ccac1e37370f074497a4fe.pdf
+- complementing SLIDE presentation. This address no longer opens: https://www.slideshare.net/GiladBarkan/bayesian-belief-networks-for-dummies

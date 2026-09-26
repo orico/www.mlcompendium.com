@@ -1,6 +1,7 @@
 # Vision
 
 This page points at DINOv2, a self-supervised vision transformer.
+DINOv2 is presented as a foundation model for image-level and pixel-level vision tasks.
 
 The same notes are in [Deep Neural Machine Vision](../deep-learning/deep-neural-machine-vision.md).
 

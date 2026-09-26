@@ -1,4 +1,4 @@
-# Language AI
+# Natural Language Processing (NLP)
 
 Language starts as strings, and the transformer mechanism is already behind the reader.
 After this chapter the reader can go from matching and TF-IDF to a pretrained text model and a decoding step.

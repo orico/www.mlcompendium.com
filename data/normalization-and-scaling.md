@@ -1,5 +1,6 @@
 # Normalization & Scaling
 
+Features on different scales pull a model toward the loud columns, so the work is to put them on a shared scale without inventing signal.
 This page compares normalization and scaling choices, including when to standardize versus normalize.
 
 The same notes are in [BATCH NORMALIZATION](../deep-learning/deep-neural-nets.md#batch-normalization), [Data Normalization/Augmentation](../deep-learning/deep-network-optimization.md#data-normalizationaugmentation), [KNN](../predictive-ml/nearest-neighbors.md#knn), [LDA - Linear discriminant analysis](../predictive-ml/dimensionality-reduction-methods.md#lda---linear-discriminant-analysis), and [Regression](../predictive-ml/regression.md).

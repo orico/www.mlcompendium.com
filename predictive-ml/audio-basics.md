@@ -1,6 +1,6 @@
 # Basics
 
-This page is Ketan Doshi's series on audio deep learning, from sound and spectrograms through speech recognition and beam search.
+This page is Ketan Doshi's series on audio deep learning, from sound and spectrograms through speech recognition and beam search. Follow the series in order when you need the grounding before feature engineering and algorithms.
 
 Series by Ketan Doshi:
 

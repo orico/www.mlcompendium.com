@@ -1,6 +1,7 @@
 # Data Patterns
 
-This page is about slowly changing dimensions, and what to do when a row changes.
+A row that changes over time needs a rule for what the history looks like.
+This page is slowly changing dimensions, and what to do when a row changes.
 
 The same notes are in [Data Warehouse](database-architecture-and-modeling.md#data-warehouse).
 

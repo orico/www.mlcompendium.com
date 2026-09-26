@@ -1,39 +1,39 @@
 # MLOps Patterns
 
-This page lists MLOps pattern guides, then two end-to-end systems that use them.
+Production ML repeats the same shapes. This page is the pattern guides first, then two end-to-end systems that use them.
 
 ## General patterns
 
-This section is a catalog of pattern guides, books, roadmaps, courses, and Metaflow notes.
+These notes are the pattern catalogs, roadmaps, courses, and Metaflow reading before any full system.
 
-1. [ML product lifecycle patterns](https://medium.com/data-science/understanding-ml-product-lifecycle-patterns-a39c18302452), Antony Mayi.
+- [ML product lifecycle patterns](https://medium.com/data-science/understanding-ml-product-lifecycle-patterns-a39c18302452)
 
 <figure><img src="../../ops/.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>ML product lifecycle patterns</p></figcaption></figure>
 
-2. [ML design patterns book](https://github.com/GoogleCloudPlatform/ml-design-patterns)
+- Source code accompanying O'Reilly book: Machine Learning Design Patterns - GoogleCloudPlatform/ml-design-patterns. [ML design patterns book](https://github.com/GoogleCloudPlatform/ml-design-patterns)
 
 <figure><img src="../../ops/.gitbook/assets/image (2).png" alt=""><figcaption><p>ML design patterns book</p></figcaption></figure>
 
 <figure><img src="../../ops/.gitbook/assets/image (1).png" alt=""><figcaption><p>ML design patterns book</p></figcaption></figure>
 
-3. [MLOps design patterns](https://github.com/mercari/ml-system-design-pattern/tree/master)
+- System design patterns for machine learning. [MLOps design patterns](https://github.com/mercari/ml-system-design-pattern/tree/master)
 
 <figure><img src="../../ops/.gitbook/assets/image.png" alt=""><figcaption><p>MLOps design patterns</p></figcaption></figure>
 
-4. [Awesome MLOps](https://github.com/visenger/awesome-mlops)
+- A curated list of references for MLOps . [Awesome MLOps](https://github.com/visenger/awesome-mlops)
 
 <figure><img src="../../ops/.gitbook/assets/gimg-2a37b4dcacbf.png" alt=""><figcaption><p>Visenger</p><p>Credit: <a href="https://lh4.googleusercontent.com/6Dd5yQHT_iJxIGqiCSmHLs5m4nVb4by_ovEoBjrJTFcUoEvh7nmiNWpb84TJQcd5IWuSy5vElL6nFsXv5NkOKzo0Juc1ZVzX1jr3BWVgIrfhTIfGggSysNOZABG5-6h4vB8_kQ9q">copied from the original hosted image.</a></p></figcaption></figure>
 
 <figure><img src="../../ops/.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Table of contents</p></figcaption></figure>
 
-5. [MLOps Roadmap](https://github.com/cdfoundation/sig-mlops/blob/main/roadmap/2022/MLOpsRoadmap2022.md)
+- sig-mlops/roadmap/2022/MLOpsRoadmap2022.md at main · cdfoundation/sig-mlops. [MLOps Roadmap](https://github.com/cdfoundation/sig-mlops/blob/main/roadmap/2022/MLOpsRoadmap2022.md)
 6. [Google's Practitioners Guide to MLOps: a framework for continuous delivery and automation of machine learning](https://cloud.google.com/resources/mlops-whitepaper)
-7. [State of MLOps](https://ml-ops.org/content/state-of-mlops)
+- ml-ops.org. ml-ops.org. [State of MLOps](https://ml-ops.org/content/state-of-mlops)
 
 <figure><img src="../../ops/.gitbook/assets/image (3).png" alt=""><figcaption><p>Template</p></figcaption></figure>
 
-8. [Easy MLOps with PyCaret and MLflow](https://medium.com/data-science/easy-mlops-with-pycaret-mlflow-7fbcbf1e38c6), Moez Ali.
-9. [Challenges and solutions by Iguazio](https://medium.com/data-science/ml-ops-challenges-solutions-and-future-trends-d2e59b74dc6b), Yaron Haviv.
+- [Easy MLOps with PyCaret and MLflow](https://medium.com/data-science/easy-mlops-with-pycaret-mlflow-7fbcbf1e38c6) Moez Ali
+- [Challenges and solutions by Iguazio](https://medium.com/data-science/ml-ops-challenges-solutions-and-future-trends-d2e59b74dc6b) Yaron Haviv
 
 <figure><img src="../../ops/.gitbook/assets/gimg-cad16f4b25b6.png" alt=""><figcaption><p>Iguazio</p><p>Credit: <a href="https://medium.com/data-science/ml-ops-challenges-solutions-and-future-trends-d2e59b74dc6b">Iguazio</a></p></figcaption></figure>
 
@@ -67,18 +67,20 @@ Loading and storing data, in the docs.
 {% endcard %}
 {% endcards %}
 
-12. HyperparameterHunter. [Hyperopt, MLflow, unit tests, concept drift, using Python and Kafka](https://medium.com/data-science/putting-ml-in-production-ii-logging-and-monitoring-algorithms-91f174044e4e), Javier Rodriguez Zaurin.
+- HyperparameterHunter. [Hyperopt, MLflow, unit tests, concept drift, using Python and Kafka](https://medium.com/data-science/putting-ml-in-production-ii-logging-and-monitoring-algorithms-91f174044e4e)
 
 The same notes are in [Drift](mlops-monitoring-and-alerts.md#drift) and [ML Experiment Management](experiment-management.md).
 
 ## Patterns in practice
 
-This section is two end-to-end systems and the tools each one uses.
+With the catalogs in hand, these two systems show the patterns running end to end.
 
 The same notes are in [MetaFlow](full-stack-and-ops.md#metaflow) and [Prefect](full-stack-and-ops.md#prefect).
 
 - An MLOps end-to-end system, "[You dont need a bigger boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat)", using Metaflow, Snowflake, DBT, Prefect, Great Expectations, Weights & Biases, SageMaker, and Lambda.
 - [A simplistic end-to-end system](https://github.com/jacopotagliabue/post-modern-stack): Snowflake, DBT, S3, CometML, Reclist, and SageMaker.
+
+- A Guide to Classifying Operational Lifecycles of ML-Driven Products with an Overview of their Notable Patterns, by Antony Mayi. ML product lifecycle patterns. [https://towardsdatascience.com/understanding-ml-product-lifecycle-patterns-a39c18302452](https://towardsdatascience.com/understanding-ml-product-lifecycle-patterns-a39c18302452)
 
 ## Deprecated links
 
@@ -86,7 +88,6 @@ The same notes are in [MetaFlow](full-stack-and-ops.md#metaflow) and [Prefect](f
 These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
 {% endhint %}
 
-- ML product lifecycle patterns. This address no longer opens: https://towardsdatascience.com/understanding-ml-product-lifecycle-patterns-a39c18302452
 - Easy mlops with pycaret and mlflow. This address no longer opens: https://towardsdatascience.com/easy-mlops-with-pycaret-mlflow-7fbcbf1e38c6
 - Challenges and solutions by iguazio. This address no longer opens: https://towardsdatascience.com/ml-ops-challenges-solutions-and-future-trends-d2e59b74dc6b
 - 4 (amazing). This address no longer opens: https://towardsdatascience.com/learn-metaflow-in-10-mins-netflixs-python-r-framework-for-data-scientists-2ef124c716e4

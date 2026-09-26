@@ -1,6 +1,6 @@
 # Tutorials
 
-This page is two tutorials: an A/B serving setup, and a training-and-serving stack.
+This page is a lookup list for two end-to-end tutorials: A/B serving, and a training-and-serving stack.
 
 The same notes are in [Tutorials](../../mlops/full-stack-and-ops.md#tutorials).
 

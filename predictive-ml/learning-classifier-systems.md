@@ -1,6 +1,6 @@
 # Learning Classifier Systems
 
-This page defines Learning Classifier Systems (LCS) and the XCS variant, with toolkit links.
+This page defines Learning Classifier Systems (LCS) and the XCS variant, with toolkit links. It sits next to genetic algorithms when the learner is a rule population rather than a single model.
 
 The same notes are in [Genetic Algorithms & Genetic Programming](genetic-algorithms-and-genetic-programming.md).
 

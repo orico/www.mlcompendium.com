@@ -1,6 +1,6 @@
 # Electronic Network Frequency Analysis
 
-This page defines electrical network frequency (ENF) analysis and points to a Python extraction tool.
+Audio can be checked against the power grid. This page defines electrical network frequency (ENF) analysis and points to a Python extraction tool.
 
 The same notes are in [Digital Signal Processing (DSP)](../predictive-ml/digital-signal-processing-dsp.md) and [Fourier Transform](../predictive-ml/fourier-transform.md).
 

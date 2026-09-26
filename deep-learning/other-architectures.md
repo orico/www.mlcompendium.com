@@ -1,26 +1,32 @@
+# Other Architectures
+
+This page collects notes on other neural architectures beyond standard deep nets: self-organizing maps, neuro-evolution, RBFNs, and signal-processing networks.
+Each section below stands on its own for that family of models.
+
+Each section below stands on its own for that family of models.
+
 ## SELF ORGANIZING MAPS (SOM)
 
-This section collects notes on self organizing maps (som).
-
+This section collects self-organizing map notes as the first alternate architecture on this page.
 
 1. Git
-   1. [Sompy](https://github.com/sevamoo/SOMPY),
-   2. [minisom!](https://github.com/JustGlowing/minisom)
-   3. [Many graph examples](https://medium.com/@s.ganjoo96/self-organizing-maps-b2cf58b74fdb), [example](https://github.com/lightsalsa251/Self-Organizing-Map)
+ - A Python Library for Self Organizing Map (SOM). [Sompy](https://github.com/sevamoo/SOMPY)
+ - :red_circle: MiniSom is a minimalistic implementation of the Self Organizing Maps - JustGlowing/minisom. [minisom!](https://github.com/JustGlowing/minisom)
+ - [Many graph examples](https://medium.com/@s.ganjoo96/self-organizing-maps-b2cf58b74fdb)
+ - Contribute to lightsalsa251/Self-Organizing-Map development by creating an account on GitHub. [example](https://github.com/lightsalsa251/Self-Organizing-Map)
 2. Step by step with examples, calculations
 3. Adds intuition regarding “magnetism”’
 4. [Implementation and faces](https://medium.com/@navdeepsingh_2336/self-organizing-maps-for-machine-learning-algorithms-ad256a395fc5), intuition towards each node and what it represents in a vision. I.e., each face resembles one of K clusters.
 5. Medium on kohonen networks, i.e., SOM
 6. Som on iris, explains inference - averaging, and cons of the method.
-7. [Simple explanation](https://medium.com/@valentinerutto/selforganizingmaps-in-english-35574f95b0ac)
+- [Simple explanation](https://medium.com/@valentinerutto/selforganizingmaps-in-english-35574f95b0ac)
 8. Algorithm, formulas
 
 ## NEURO EVOLUTION (GA/GP based)
 
-This section collects notes on neuro evolution (ga/gp based).
+This section collects neuro-evolution notes after the SOM material above.
 
 The same notes are in [Genetic Algorithms & Genetic Programming](../predictive-ml/genetic-algorithms-and-genetic-programming.md).
-
 
 NEAT
 
@@ -50,10 +56,9 @@ A great HyperNeat tutorial on Medium.
 
 ## Radial Basis Function Network (RBFN)
 
-This section collects notes on radial basis function network (rbfn).
+This section collects RBFN notes after neuro-evolution above.
 
-
-- [RBF layer in Keras.](https://github.com/PetraVidnerova/rbf_keras/blob/master/test.py)
+- rbf_keras/test.py at master · PetraVidnerova/rbf_keras. [RBF layer in Keras.](https://github.com/PetraVidnerova/rbf_keras/blob/master/test.py)
 
 The [RBFN](http://mccormickml.com/2013/08/15/radial-basis-function-network-rbfn-tutorial/) approach is more intuitive than the MLP.
 
@@ -66,14 +71,24 @@ The [RBFN](http://mccormickml.com/2013/08/15/radial-basis-function-network-rbfn-
 
 ## SIGNAL PROCESSING NN (FFT, WAVELETS, SHAPELETS)
 
-This section collects notes on signal processing nn (fft, wavelets, shapelets).
+This section collects signal-processing network notes after RBFN above.
 
 The same notes are in [Feature Engineering](../predictive-ml/audio-feature-engineering.md).
 
-
 1. [Fourier Transform](https://www.youtube.com/watch?v=spUNpyF58BY) - decomposing frequencies
 2. [WAVELETS On youtube (4 videos)](https://www.youtube.com/watch?v=QX1-xGVFqmw):
-   1. [used for denoising](https://www.youtube.com/watch?v=veCvP1mYpww), compression, detect edges, detect features with various orientation, analyse signal power, detect and localize transients, change points in time series data and detect optimal signal representation (peaks etc) of time freq analysis of images and data.
-   2. Can also be used to [reconstruct time and frequencies](https://www.youtube.com/watch?v=veCvP1mYpww), analyse images in space, frequencies, orientation, identifying coherent time oscillation in time series
-   3. Analyse signal variability and correlation
+ 1. [used for denoising](https://www.youtube.com/watch?v=veCvP1mYpww), compression, detect edges, detect features with various orientation, analyse signal power, detect and localize transients, change points in time series data and detect optimal signal representation (peaks etc) of time freq analysis of images and data.
+ 2. Can also be used to [reconstruct time and frequencies](https://www.youtube.com/watch?v=veCvP1mYpww), analyse images in space, frequencies, orientation, identifying coherent time oscillation in time series
+ 3. Analyse signal variability and correlation
 
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+- Towards Data Science: hyperneat-powerful-indirect-neural-network-evolution-fba5c7c43b7b. This address no longer opens: https://towardsdatascience.com/hyperneat-powerful-indirect-neural-network-evolution-fba5c7c43b7b
+- Towards Data Science: kohonen-self-organizing-maps-a29040d688da. This address no longer opens: https://towardsdatascience.com/kohonen-self-organizing-maps-a29040d688da
+- Towards Data Science: self-organizing-maps-1b7d2a84e065. This address no longer opens: https://towardsdatascience.com/self-organizing-maps-1b7d2a84e065
+- Towards Data Science: self-organizing-maps-ff5853a118d4. This address no longer opens: https://towardsdatascience.com/self-organizing-maps-ff5853a118d4
+- Step by step with examples, calculations. This address no longer opens: https://mc.ai/self-organizing-mapsom/
+- HyperNEAT. This address no longer opens: http://eplex.cs.ucf.edu/hyperNEATpage/

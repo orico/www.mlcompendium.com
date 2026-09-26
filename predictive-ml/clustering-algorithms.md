@@ -1,23 +1,24 @@
 # Clustering Algorithms
 
-This page lists clustering methods from k-means and GMM through density-based and constrained clustering, with tool links.
+This page lists clustering methods from k-means and GMM through density-based and constrained clustering, with tool links. It is for grouping unlabeled points when you need distance-based, density-based, or must-link / cannot-link constraints.
 
 The same notes are in [CLUSTERING METRICS](anomaly-detection.md#clustering-metrics), [CLUSTERING TS](time-series-search.md#clustering-ts), and [UNSUPERVISED](../evals/evaluation-metrics.md#unsupervised).
 
-1. [Vidhya on clustering and methods](https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/?utm_source=facebook.com)
+- Explore the different types of clustering techniques in machine learning and learn how they can be used to identify data structures. [Vidhya on clustering and methods](https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/?utm_source=facebook.com)
 2. [KNN](https://www.youtube.com/watch?v=4ObVzTuFivY) [intuition 2](https://www.youtube.com/watch?v=UqYde-LULfs), thorough explanation 3 - classify a new sample by looking at the majority vote of its K-nearest neighbours. k=1 special case. Even amount of classes needs an odd K that is not a multiple of the amount of classes in order to break ties.
-3. [Determinging the number of clusters, a comparison of several methods, elbow, silhouette etc](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/)
-4. [A good visual example of kmeans / gmm](https://medium.com/sfu-cspmp/distilling-gaussian-mixture-models-701fa9546d9)
+- Find the optimal number of clusters in R: the elbow, silhouette and gap statistic methods with fviz_nbclust(), plus NbClust’s 26-index majority vote. [Determinging the number of clusters, a comparison of several methods, elbow, silhouette etc](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/)
+- [A good visual example of kmeans / gmm](https://medium.com/sfu-cspmp/distilling-gaussian-mixture-models-701fa9546d9)
 5. Kmeans with DTW, probably fixed length vectors, using tslearn
 
 The same notes are in [Dynamic Time Warping (DTW)](time-series-search.md#dynamic-time-warping-dtw).
 
-6. [Kmeans for variable length](https://medium.com/@iliazaitsev/how-to-classify-a-dataset-with-observations-of-various-length-96fab8e95baf), [notebook](https://github.com/devforfu/Blog/blob/master/trees/scikit_learn.py)
+- [Kmeans for variable length](https://medium.com/@iliazaitsev/how-to-classify-a-dataset-with-observations-of-various-length-96fab8e95baf)
+- Blog/trees/scikit_learn.py at master · i-zaitsev/Blog. [notebook](https://github.com/devforfu/Blog/blob/master/trees/scikit_learn.py)
 
 TOOLS
 
 1. [pyClustering
-   ](https://pyclustering.github.io/docs/0.10.1/html/index.html)<figure><img src="../.gitbook/assets/gimg-b2c3ce433b2d.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh5.googleusercontent.com/Wyc8biCZCBvmybSOytsjJYmdhQUVq5F5Kl4tj6luvww9uXVywkBWzCHlsnUaz07KTyIRi98_vIembQVnhWWRv6DYK_DhUKC9NNg8mRJPk0cg0Ov4EV66pg7dZW4K7HPEq-xy6axz">copied from the original hosted image</a>.</p></figcaption></figure>
+ ](https://pyclustering.github.io/docs/0.10.1/html/index.html)<figure><img src="../.gitbook/assets/gimg-b2c3ce433b2d.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh5.googleusercontent.com/Wyc8biCZCBvmybSOytsjJYmdhQUVq5F5Kl4tj6luvww9uXVywkBWzCHlsnUaz07KTyIRi98_vIembQVnhWWRv6DYK_DhUKC9NNg8mRJPk0cg0Ov4EV66pg7dZW4K7HPEq-xy6axz">copied from the original hosted image</a>.</p></figcaption></figure>
 
 ###
 
@@ -27,7 +28,7 @@ This subsection covers biclustering and clustering from distance or correlation 
 
 The same notes are in [Graph Theory](graph-theory.md).
 
-1. [Biclustering and spectral co clustering](https://scikit-learn.org/stable/modules/biclustering.html)
+- Biclustering algorithms simultaneously cluster rows and columns of a data matrix. [Biclustering and spectral co clustering](https://scikit-learn.org/stable/modules/biclustering.html)
 2. [Clustering correlation, or distance matrices.](https://stats.stackexchange.com/questions/138325/clustering-a-correlation-matrix)
 
 <figure><img src="../.gitbook/assets/gimg-fc8b3473b627.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/SdPIjYLt8PksdDmmQDPUn24U1DyNOGyZfsV3V8OxqdU62NzahrACouK7eD5hUkjL_brbtfRq4uvEUk6FiHR_vLzr2hbnT774XElKXsZmK3RGnuLGyzFXtxTJyNmnsnrbfxj7Bvv3">copied from the original hosted image</a>.</p></figcaption></figure>
@@ -39,6 +40,18 @@ The same notes are in [Graph Theory](graph-theory.md).
 This subsection notes k-means sensitivity to outliers.
 
 1. Sensitive to outliers, can skew results (because we rely on the mean)
+
+### KMEANS++ / Kernel Kmeans
+
+This subsection compares k-means++ with kernel k-means and elbow heuristics.
+
+- Kernel K-Means, K-Means++ and Cluster Evaluation | sandipanweb. [A comparison of kmeans++ vs kernel kmeans](https://sandipanweb.wordpress.com/2016/08/29/kernel-k-means-and-cluster-evaluation/)
+2. Kernel Kmeans is part of TSLearn
+3. Elbow method,
+- Find the optimal number of clusters in R: the elbow, silhouette and gap statistic methods with fviz_nbclust(), plus NbClust’s 26-index majority vote. [elbow and mean silhouette](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/#elbow-method)
+5. elbow on medium using mean distance per cluster from the center
+- Knee point detection in Python :chart_with_upwards_trend: - arvkevi/kneed. [Kneed a library to find the knee in a curve](https://github.com/arvkevi/kneed)
+ 1. [how to?](https://stackoverflow.com/questions/47623915/how-to-detect-in-real-time-a-knee-elbow-maximal-curvature-in-a-curve)
 
 ### [K-mediods](https://en.wikipedia.org/wiki/K-medoids)
 
@@ -61,7 +74,7 @@ This subsection summarizes k-medoids versus k-means.
 This subsection links k-modes implementations for categorical data.
 
 1. "Python implementations of the k-modes and k-prototypes clustering algorithms, for clustering categorical data" - [git](https://github.com/nicodv/kmodes#huang97)
-2. [a guide to clustering mixed types](https://bpostance.github.io/posts/clustering-mixed-data/), i.e., numerics, categoricals
+- A guide to clustering large datasets with mixed data-types [updated], by Ben Postance. [a guide to clustering mixed types](https://bpostance.github.io/posts/clustering-mixed-data/)
 
 ### X-means
 
@@ -72,7 +85,7 @@ This subsection describes X-means and BIC-based cluster count selection.
 X-means([paper](https://www.cs.cmu.edu/~dpelleg/download/xmeans.pdf)): 
 
 1. [Theory](https://stats.stackexchange.com/questions/13103/x-mean-algorithm-bic-calculation-question) behind bic calculation with a formula.
-2. Code: [Calculate bic in k-means](https://stats.stackexchange.com/questions/90769/using-bic-to-estimate-the-number-of-k-in-kmeans?rq=1)
+- Code: [Calculate bic in k-means](https://stats.stackexchange.com/questions/90769/using-bic-to-estimate-the-number-of-k-in-kmeans?rq=1)
 
 <figure><img src="../.gitbook/assets/gimg-b237b0258625.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/ZOcoLxyDBb42-vW0xKR-8ZjEkmUXh-zFunErX1oKHsS4ZLeaEE-momDpCW7OwVH_npu66xmojiqd3CwbvQWJkluwutnqBkEDSMluluap5T09YGlUmfWoYQ43XG1U26BHR4wf9Qa9">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -118,45 +131,33 @@ In a GMM, you carry out the following procedure:
 
 You may notice the similarity between these two procedures. In fact, k-means is a GMM with fixed-variance components. Under a GMM, the probabilities (I think) you're looking for are the responsibilities each component takes for each data point.
 
-1. [Gmm code on sklearn](https://scikit-learn.org/stable/auto_examples/mixture/plot_gmm.html#sphx-glr-auto-examples-mixture-plot-gmm-py) using ellipsoids
-2. [How to select the K using bic](https://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_selection.html#sphx-glr-auto-examples-mixture-plot-gmm-selection-py)
-3. [Density estimation for gmm - nice graph](https://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_pdf.html#sphx-glr-auto-examples-mixture-plot-gmm-pdf-py)
-
-### KMEANS++ / Kernel Kmeans
-
-This subsection compares k-means++ with kernel k-means and elbow heuristics.
-
-1. [A comparison of kmeans++ vs kernel kmeans](https://sandipanweb.wordpress.com/2016/08/29/kernel-k-means-and-cluster-evaluation/)
-2. Kernel Kmeans is part of TSLearn
-3. Elbow method,
-4. [elbow and mean silhouette](https://www.datanovia.com/en/lessons/determining-the-optimal-number-of-clusters-3-must-know-methods/#elbow-method),
-5. elbow on medium using mean distance per cluster from the center
-6. [Kneed a library to find the knee in a curve](https://github.com/arvkevi/kneed)
-   1. [how to?](https://stackoverflow.com/questions/47623915/how-to-detect-in-real-time-a-knee-elbow-maximal-curvature-in-a-curve)
+- Plot the confidence ellipsoids of a mixture of two Gaussians obtained with Expectation Maximisation ( GaussianMixture class) and Variational Inference ( BayesianGaussianMixture class models with a ... [Gmm code on sklearn](https://scikit-learn.org/stable/auto_examples/mixture/plot_gmm.html#sphx-glr-auto-examples-mixture-plot-gmm-py)
+- This example shows that model selection can be performed with Gaussian Mixture Models (GMM) using information-theory criteria. [How to select the K using bic](https://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_selection.html#sphx-glr-auto-examples-mixture-plot-gmm-selection-py)
+- Plot the density estimation of a mixture of two Gaussians. [Density estimation for gmm - nice graph](https://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_pdf.html#sphx-glr-auto-examples-mixture-plot-gmm-pdf-py)
 
 ### DBSCAN
 
 This subsection collects DBSCAN tutorials, GPS use, and optimized implementations.
 
 1. How to use effectively
-2. [a DBSCAN visualization - very good!](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
-3. [DBSCAN for GPS.](https://geoffboeing.com/2014/08/clustering-to-reduce-spatial-data-set-size/)
+- Visualizing DBSCAN Clustering. Visualizing DBSCAN Clustering. [a DBSCAN visualization - very good!](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/)
+- Clustering to Reduce Spatial Data Set Size, by Geoff Boeing. [DBSCAN for GPS.](https://geoffboeing.com/2014/08/clustering-to-reduce-spatial-data-set-size/)
 4. A practical guide to dbscan - pretty good
 5. [Custom DBSCAN “predict”](https://stackoverflow.com/questions/27822752/scikit-learn-predicting-new-points-with-dbscan)
-6. [Haversine distances for](https://kanoki.org/2019/12/27/how-to-calculate-distance-in-python-and-pandas-using-scipy-spatial-and-distance-functions/) dbscan
+- Working with Geo data is really fun and exciting especially when you clean up all the data and loaded it to a dataframe or to an array, by Your Name. [Haversine distances for](https://kanoki.org/2019/12/27/how-to-calculate-distance-in-python-and-pandas-using-scipy-spatial-and-distance-functions/)
 7. Optimized dbscans:
-   1. muDBSCAN, paper - A fast, exact, and scalable algorithm for DBSCAN clustering. This repository contains the implementation for the distributed spatial clustering algorithm proposed in the paper μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality
-   2. [Dbscan multiplex](https://github.com/GGiecold/DBSCAN_multiplex) - A fast and memory-efficient implementation of DBSCAN (Density-Based Spatial Clustering of Applications with Noise).
-   3. [Fast dbscan](https://github.com/harmslab/fast_dbscan) - A lightweight, fast dbscan implementation for use on peptide strings. It uses pure C for the distance calculations and clustering. This code is then wrapped in python.
-   4. [Faster dbscan paper](https://arxiv.org/pdf/1702.08607.pdf)
+ 1. muDBSCAN, paper - A fast, exact, and scalable algorithm for DBSCAN clustering. This repository contains the implementation for the distributed spatial clustering algorithm proposed in the paper μDBSCAN: An Exact Scalable DBSCAN Algorithm for Big Data Exploiting Spatial Locality
+ 2. [Dbscan multiplex](https://github.com/GGiecold/DBSCAN_multiplex) - A fast and memory-efficient implementation of DBSCAN (Density-Based Spatial Clustering of Applications with Noise).
+ 3. [Fast dbscan](https://github.com/harmslab/fast_dbscan) - A lightweight, fast dbscan implementation for use on peptide strings. It uses pure C for the distance calculations and clustering. This code is then wrapped in python.
+ 4. [Faster dbscan paper](https://arxiv.org/pdf/1702.08607.pdf)
 
 ### ST-DBSCAN
 
 This subsection links spatio-temporal DBSCAN papers and code.
 
-1. [Paper - st-dbscan an algo for clustering spatio temporal data](https://www.sciencedirect.com/science/article/pii/S0169023X06000218)
-2. [Popular git](https://github.com/eubr-bigsea/py-st-dbscan)
-3. [git](https://github.com/gitAtila/ST-DBSCAN)
+- ScienceDirect. ScienceDirect. [Paper - st-dbscan an algo for clustering spatio temporal data](https://www.sciencedirect.com/science/article/pii/S0169023X06000218)
+- An implementation of ST-DBScan algorithm using Python language - eubr-bigsea/py-st-dbscan. [Popular git](https://github.com/eubr-bigsea/py-st-dbscan)
+- Implementation of ST-DBSCAN algorithm based on Birant 2007 - gitAtila/ST-DBSCAN. [git](https://github.com/gitAtila/ST-DBSCAN)
 
 ### HDBSCAN\*
 
@@ -166,7 +167,7 @@ The same notes are in [Anomaly Detection](anomaly-detection.md).
 
 (what is?) HDBSCAN is a clustering algorithm developed by [Campello, Moulavi, and Sander](http://link.springer.com/chapter/10.1007%2F978-3-642-37456-2_14). It extends DBSCAN by converting it into a hierarchical clustering algorithm, and then using a technique to extract a flat clustering based in the stability of clusters.
 
-- [Github code](https://github.com/scikit-learn-contrib/hdbscan)
+- A high performance implementation of HDBSCAN clustering. [Github code](https://github.com/scikit-learn-contrib/hdbscan)
 - (great) [Documentation](http://hdbscan.readthedocs.io/en/latest/basic_hdbscan.html) with examples, for clustering, outlier detection, comparison, benchmarking and analysis!
 - ([jupytr example](http://nbviewer.jupyter.org/github/scikit-learn-contrib/hdbscan/blob/master/notebooks/How%20HDBSCAN%20Works.ipynb)) - take a look and see how to use it, usage examples are also in the docs and github
 
@@ -220,6 +221,9 @@ In the context of partitioning algorithms, instance level constraints are a usef
 • Must-link constraints specify that two instances have to be in the same cluster.
 • Cannot-link constraints specify that two instances must not be placed in the same cluster.<figure><img src="../.gitbook/assets/gimg-a3ece81709cd.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/mluNAa5_RoVGMVfqqJRR01zRsquiK9uReJsPRxXrh0lxoXSChR-OutR_n4mg4CtILYTTIefFBpNPO3eU0YRYIQaW_3WD3hZrsd8erIrB9qivtCL4kLzw42-EUT-X8rqp7VQFRmJL">copied from the original hosted image</a>.</p></figcaption></figure>
 
+- Kmeans with DTW, probably fixed length vectors, using tslearn. [https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3](https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3)
+- Redirecting... Redirecting... muDBSCAN. [https://githubmemory.com/repo/AdityaAS/MuDBSCAN](https://githubmemory.com/repo/AdityaAS/MuDBSCAN)
+
 ## Deprecated links
 
 {% hint style="warning" %}
@@ -227,12 +231,10 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - thorough explanation 3. This address no longer opens: https://towardsdatascience.com/introduction-to-k-nearest-neighbors-3b534bb11d26
-- Kmeans with DTW, probably fixed length vectors, using tslearn. This address no longer opens: https://towardsdatascience.com/how-to-apply-k-means-clustering-to-time-series-data-28d04a8f7da3
 - Kernel Kmeans is part of TSLearn. This address no longer opens: http://tslearn.readthedocs.io/en/latest/gen_modules/clustering/tslearn.clustering.GlobalAlignmentKernelKMeans.html
 - Elbow method. This address no longer opens: https://blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f
 - elbow on medium using mean distance per cluster from the center. This address no longer opens: https://towardsdatascience.com/what-is-k-ddf36926a752
 - finding the optimal K. This address no longer opens: https://towardsdatascience.com/how-to-find-the-optimal-value-of-k-in-knn-35d936e554eb
 - How to use effectively. This address no longer opens: https://towardsdatascience.com/how-to-use-dbscan-effectively-ed212c02e62
 - A practical guide to dbscan - pretty good. This address no longer opens: https://towardsdatascience.com/a-practical-guide-to-dbscan-method-d4ec5ab2bc99
-- muDBSCAN. This address no longer opens: https://githubmemory.com/repo/AdityaAS/MuDBSCAN
 - paper. This address no longer opens: https://adityaas.github.io/

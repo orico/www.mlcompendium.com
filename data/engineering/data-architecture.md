@@ -1,6 +1,7 @@
 # Data Architecture
 
-This page is a short list of data-platform architectures and an introduction to domain-driven design.
+A platform needs an architecture before the warehouses and pipelines stack up.
+This page is a short list of data-platform architectures and an introduction to domain-driven design for data.
 
 The same notes are in [Data Mesh](data-mesh.md) and [ML Architecture](../../ai-engineering/mlops/ml-architecture.md).
 

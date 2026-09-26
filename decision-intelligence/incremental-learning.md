@@ -1,8 +1,10 @@
 # Incremental Learning
 
-This page defines incremental learning and points at streaming and Hoeffding-tree notes.
+This page is about incremental learning: extending a model as new input arrives instead of training only once.
+It points at streaming examples and Hoeffding-tree notes tied to online and training-strategy pages.
 
 The same notes are in [Follow the regularized leader](follow-the-regularized-leader.md), [Online Learning](../problem-framing/online-learning.md), and [Training Strategies](../evals/training-strategies.md).
+The same notes are in [Decision Trees](../predictive-ml/decision-trees.md).
 
 (wiki) In computer science, incremental learning is a method of machine learning in which input data is continuously used to extend the existing model's knowledge i.e. to further train the model.
 

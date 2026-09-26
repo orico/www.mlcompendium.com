@@ -1,6 +1,6 @@
 # Dimensionality Reduction Methods
 
-This page covers PCA, t-SNE, LDA, LSA, ICA, kernel PCA, and manifold methods with tutorials and comparisons.
+This page covers PCA, SVD, kernel PCA, LDA, ICA, LSA, and manifold methods such as t-SNE for projecting high-dimensional data. It collects tutorials, comparisons, and a trailing note on principal component regression versus partial least squares.
 
 - A series on DR for dummies on medium part 1 2 3
 - A small blog post about PCA, AE & TSNE in tensorflow
@@ -8,29 +8,10 @@ This page covers PCA, t-SNE, LDA, LSA, ICA, kernel PCA, and manifold methods wit
 
 <figure><img src="../.gitbook/assets/gimg-e1e0b712641f.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/z9DLl6o7PnbmU-Ub12O7rCCa5JtoOoP9ip64dgNFl_Vhvzm5BTG93g2JXkKKJNt1C4F9LfY_3HhDkB__7W1ELuPcrluKUAjrbBgLShBEonQlvccbqzg08xG1YdX3tTYsr5i5aa6O">copied from the original hosted image</a>.</p></figcaption></figure>
 
-- [Parallex by uber for tsne \ pca visualization](https://github.com/uber-research/parallax)
+- Tool for interactive embeddings visualization. [Parallex by uber for tsne \ pca visualization](https://github.com/uber-research/parallax)
 - About tsne / ae / pca
 - [Does dim-reduction loses information - yes and no, in pca yes only if you use less than the entire matrix](https://stats.stackexchange.com/questions/66060/does-dimension-reduction-always-lose-some-information)
 - [Performance comparison between dim-reduction implementations, tsne etc.](https://umap-learn.readthedocs.io/en/latest/benchmarking.html)<figure><img src="../.gitbook/assets/gimg-b9baa8528058.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/4ylgV9z3E2_t9aXh8za1o3g88jOXf4pOs1QS_IB4vhnM_VKSCCxENuEZ095s5t0D4XXhBlOe9kaMu1F94YTx_AggRmFBVs3pT3Z30FiIM9uq5WGceoj4dEIxazyLrQpcRLD3GbCf">copied from the original hosted image</a>.</p></figcaption></figure>
-
-###
-
-### TSNE
-
-This subsection covers t-SNE intuition, tutorials, and caveats versus PCA.
-
-1. [Stat quest](https://www.youtube.com/watch?v=NEaUSP4YerM&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=30) - the jist of it is that we assume a t- distribution on distances and remove those that are farther.normalized for density. T-dist used so that clusters are not clamped in the middle.
-
-<figure><img src="../.gitbook/assets/gimg-33abbc7a1d93.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/dKPyVx1w6izzdUaPo_WinoIBLxbXIEEWCx0DLn1Nf5IMpz78qAZvv_U3rqns4CQ4kSrYLdyUWnuSwLWeIB_B2lik1Ijk5m4Fae33bjMEJYyjUJrVO7wvoMmLpqpuz579M6Gv1saJ">copied from the original hosted image</a>.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/gimg-6b3d7ed51c31.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/h7fJI0YnLoeoiSuW8Cq7YZ1Y6b-Bcvd6Eaj6K-1yb9duCgN5y5qXu_9-X1cL-b0wcZmL9SzfpoColZ1oEynaP2A7OZgIwrenlOp4V0DmrliXcpsTidRN7jSlHxDAMUYsPZBCABWc">copied from the original hosted image</a>.</p></figcaption></figure>
-
-Iteratively moving from the left to the right<figure><img src="../.gitbook/assets/gimg-8bddd8831f5d.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/WNLL7Q_6sn2g5vOOwIutoj96FWfS0vYvwVftivxTg9OHTnZ5Ols8Seplo0XDUe2ZMPEPUc1f28D1jzvh71OjL-GD0X9j-YWYu1rlPzeSZ2-JzOhsDopdkA4YtDkD4b451x8b-b_7">copied from the original hosted image</a>.</p></figcaption></figure>
-
-1. [TSNE algorithm](https://www.oreilly.com/learning/an-illustrated-introduction-to-the-t-sne-algorithm)
-2. [Are there cases where PCA more suitable than TSNE](https://stats.stackexchange.com/questions/238538/are-there-cases-where-pca-is-more-suitable-than-t-sne?rq=1)
-3. [PCA preserving pairwise distances over tSNE?](https://stats.stackexchange.com/questions/176672/what-is-meant-by-pca-preserving-only-large-pairwise-distances) How why, all here.
-4. Another advice about using tsne and the possible misinterpetations
 
 ### PCA
 
@@ -39,25 +20,27 @@ This subsection lists PCA tutorials, large-matrix tricks, whitening, and cross-v
 The same notes are in [DIMENSIONALITY REDUCTION](#dimensionality-reduction) and [PCA for log anomaly detection](templatization.md#pca-for-log-anomaly-detection).
 
 1. Machine learning mastery:
-   1. [Expected value, variance, covariance ](https://machinelearningmastery.com/introduction-to-expected-value-variance-and-covariance)
-   2. [PCA](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/) **(remove the mean from A, calculate cov(A), calculate eig(cov), A\*eigK = PCA)**
-   3. [EigenDecomposition](https://machinelearningmastery.com/introduction-to-eigendecomposition-eigenvalues-and-eigenvectors/) **- what is an eigen vector - simply put its a vector that satisfies A\*v = lambda\*v, how to use eig() and how to confirm an eigenvector/eigenvalue and reconstruct the original A matrix.**
-   4. [SVD](https://machinelearningmastery.com/singular-value-decomposition-for-machine-learning)
-   5. What is missing is how the EigenDecomposition is calculated.
-2. [PCA on large matrices!](https://amedee.me/post/pca-large-matrices/)
-   1. Randomized svd
-   2. Incremental svd
-3. [PCA on Iris](http://sebastianraschka.com/Articles/2015_pca_in_3_steps.html)
-4. (did not read) [What is PCA?](https://stats.stackexchange.com/questions/222/what-are-principal-component-scores)
-5. (did not read) [What is a covariance matrix?](https://en.wikipedia.org/wiki/Covariance_matrix)
-6. (did not read) [Variance covariance matrix](http://stattrek.com/matrix-algebra/covariance-matrix.aspx)
+ 1. [Expected value, variance, covariance ](https://machinelearningmastery.com/introduction-to-expected-value-variance-and-covariance)
+ 2. [PCA](https://machinelearningmastery.com/calculate-principal-component-analysis-scratch-python/) **(remove the mean from A, calculate cov(A), calculate eig(cov), A\*eigK = PCA)**
+ 3. [EigenDecomposition](https://machinelearningmastery.com/introduction-to-eigendecomposition-eigenvalues-and-eigenvectors/) **- what is an eigen vector - simply put its a vector that satisfies A\*v = lambda\*v, how to use eig() and how to confirm an eigenvector/eigenvalue and reconstruct the original A matrix.**
+ 4. [SVD](https://machinelearningmastery.com/singular-value-decomposition-for-machine-learning)
+ 5. What is missing is how the EigenDecomposition is calculated.
+- PCA On Large Matrices: You don't need Spark. [PCA on large matrices!](https://amedee.me/post/pca-large-matrices/)
+ 1. Randomized svd
+ 2. Incremental svd
+- Not Acceptable! Not Acceptable! [PCA on Iris](http://sebastianraschka.com/Articles/2015_pca_in_3_steps.html)
+- (did not read) [What is PCA?](https://stats.stackexchange.com/questions/222/what-are-principal-component-scores)
+- Covariance matrix - Wikipedia. (did not read) [What is a covariance matrix?](https://en.wikipedia.org/wiki/Covariance_matrix)
+- How to use matrix methods to generate a variance-covariance matrix from a matrix of raw data. (did not read) [Variance covariance matrix](http://stattrek.com/matrix-algebra/covariance-matrix.aspx)
 7. [Visualization of the first PCA vectors](https://medium.com/@rtjeannier/using-pca-to-visualize-high-dimensional-data-6ff028c911c5), it is unclear what he is trying to show.
-8. [A very nice introductory tutorial on how to use PCA](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/)
+- Learn how Principal Component Analysis (PCA) can help you overcome challenges in data science projects with large, correlated datasets, by Himanshi Singh. [A very nice introductory tutorial on how to use PCA](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/)
 9. **\*\*** An in-depth tutorial on PCA (paper)
-10. **\*\*** [yet another tutorial paper on PCA (looks good)](https://www.researchgate.net/publication/309165405_Principal_component_analysis_-_a_tutorial)
+- ResearchGate - Temporarily Unavailable. ResearchGate - Temporarily Unavailable. **\*\*** [yet another tutorial paper on PCA (looks good)](https://www.researchgate.net/publication/309165405_Principal_component_analysis_-_a_tutorial)
 11. [How to use PCA in Cross validation and for train\test split](https://stats.stackexchange.com/questions/114560/pca-on-train-and-test-datasets-do-i-need-to-merge-them). (bottom line, do it on the train only.)
-12. [Another tutorial paper - looks decent](https://www.researchgate.net/publication/309165405_Principal_component_analysis_-_a_tutorial)
-13. [PCA whitening](http://mccormickml.com/2014/06/03/deep-learning-tutorial-pca-and-whitening/), [Stanford tutorial](http://ufldl.stanford.edu/tutorial/unsupervised/PCAWhitening/) (pca/zca whitening), [Stackoverflow (really good)](https://stats.stackexchange.com/questions/117427/what-is-the-difference-between-zca-whitening-and-pca-whitening/117459),
+- ResearchGate - Temporarily Unavailable. ResearchGate - Temporarily Unavailable. [Another tutorial paper - looks decent](https://www.researchgate.net/publication/309165405_Principal_component_analysis_-_a_tutorial)
+- Deep Learning Tutorial - PCA and Whitening. [PCA whitening](http://mccormickml.com/2014/06/03/deep-learning-tutorial-pca-and-whitening/)
+- Unsupervised Feature Learning and Deep Learning Tutorial. [Stanford tutorial](http://ufldl.stanford.edu/tutorial/unsupervised/PCAWhitening/)
+- (pca/zca whitening) [Stackoverflow (really good)](https://stats.stackexchange.com/questions/117427/what-is-the-difference-between-zca-whitening-and-pca-whitening/117459)
 
 There are two things we are trying to accomplish with whitening:
 
@@ -126,8 +109,6 @@ Best Practice: PCA for dimensionality reduction can be followed by an LDA. But b
 
 *** TODO: need some benchmarking for PCA\LDA\LSA\ETC..**
 
-###
-
 This heading separates the LDA notes from kernel discriminant analysis.
 
 ### KDA - KERNEL DISCRIMINANT ANALYSIS
@@ -137,6 +118,16 @@ This subsection points to kernel discriminant analysis in pyDML.
 1. [pyDML package](https://pydml.readthedocs.io/en/latest/dml.html#dml.kda.KDA) - has KDA - This package provides the classic algorithms of supervised distance metric learning, together with some of the newest proposals.
 
 <figure><img src="../.gitbook/assets/gimg-5b71be433162.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/-ZjeERa7aQwrRwin5CY1RtrmUmr2fGGcpJ71T5N461CgBruzvkZn63TY3ZJ05-IQ2PTnUCyjhQkyNDiU05_6zyldwvv7TUSkhyzfL_ndS2tqLR0YsTTed_lesAdUPRKocRzyo4xO">copied from the original hosted image</a>.</p></figcaption></figure>
+
+### ICA
+
+This subsection contrasts ICA with PCA on images and documents.
+
+1. While PCA is global, it finds global variables (with images we get eigen faces, good for reconstruction) that maximizes variance in orthogonal directions, and is not influenced by the TRANSPOSE of the data matrix.
+2. On the other hand, ICA is local and finds local variables (with images we get eyes ears, mouth, basically edges!, etc), ICA will result differently on TRANSPOSED matrices, unlike PCA, its also “directional” - consider the “cocktail party” problem. On documents, ICA gives topics.
+3. It helps, similarly to PCA, to help us analyze our data.
+
+Sparse [info on ICA with security returns.](https://www.quantopian.com/posts/an-experiment-with-independent-component-analysis)
 
 ### LSA
 
@@ -159,23 +150,19 @@ PCA vs LSA: ([intuition1](https://stats.stackexchange.com/questions/65699/lsa-vs
 
 [LSA vs W2V](https://arxiv.org/pdf/1610.01520.pdf)
 
-### ICA
-
-This subsection contrasts ICA with PCA on images and documents.
-
-1. While PCA is global, it finds global variables (with images we get eigen faces, good for reconstruction) that maximizes variance in orthogonal directions, and is not influenced by the TRANSPOSE of the data matrix.
-2. On the other hand, ICA is local and finds local variables (with images we get eyes ears, mouth, basically edges!, etc), ICA will result differently on TRANSPOSED matrices, unlike PCA, its also “directional” - consider the “cocktail party” problem. On documents, ICA gives topics.
-3. It helps, similarly to PCA, to help us analyze our data.
-
-Sparse [info on ICA with security returns.](https://www.quantopian.com/posts/an-experiment-with-independent-component-analysis)
-
 ### MANIFOLD
 
 This subsection surveys manifold learning and visualization methods.
 
-1. [The best tutorial that explains manifold (high to low dim projection/mapping/visuzation)](https://jhui.github.io/2017/01/15/Machine-learning-Multi-dimensional-scaling-and-visualization/) (pca, sammon, isomap, tsne)
-2. [Many manifold methods used to visualize high dimensional data. ](http://scikit-learn.org/stable/modules/manifold.html#t-sne)
-3. [Comparing manifold methods](http://scikit-learn.org/stable/auto_examples/manifold/plot_compare_methods.html#sphx-glr-auto-examples-manifold-plot-compare-methods-py)
+- “Machine learning - Visualization, multi-dimensional scaling, Sammon mapping, IsoMap and t-sne”. [The best tutorial that explains manifold (high to low dim projection/mapping/visuzation)](https://jhui.github.io/2017/01/15/Machine-learning-Multi-dimensional-scaling-and-visualization/)
+- Look for the bare necessities, The simple bare necessities, Forget about your worries and your strife, I mean the bare necessities, Old Mother Nature’s recipes, That bring the bare necessities of l... [Many manifold methods used to visualize high dimensional data. ](http://scikit-learn.org/stable/modules/manifold.html#t-sne)
+- An illustration of dimensionality reduction on the S-curve dataset with various manifold learning methods. [Comparing manifold methods](http://scikit-learn.org/stable/auto_examples/manifold/plot_compare_methods.html#sphx-glr-auto-examples-manifold-plot-compare-methods-py)
+
+#### Sammons embedding mapping
+
+This subsection links Sammon embedding in TensorFlow.
+
+- Sammon Embedding with Tensorflow – Everything about Data Analytics. [In tensorflow](https://datawarrior.wordpress.com/2017/06/01/sammon-embedding-with-tensorflow/)
 
 #### T-SNE
 
@@ -186,43 +173,39 @@ This subsection collects t-SNE tutorials, stacking with PCA, and misinterpretati
 3. [Misreading T-SNE](https://distill.pub/2016/misread-tsne/), this is a very important read.
 4. In contrary to what it says on sklearn’s website, TSNE is not suited ONLY for visualization, you [can also use it for data reduction](https://lvdmaaten.github.io/tsne/)
 5. “t-Distributed Stochastic Neighbor Embedding (t-SNE) is a ([prize-winning](http://blog.kaggle.com/2012/11/02/t-distributed-stochastic-neighbor-embedding-wins-merck-viz-challenge/)) technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets.”
-6. [Comparing PCA and TSNE, then pushing PCA to TSNE and seeing what happens (as recommended in SKLEARN](https://medium.com/@luckylwk/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b)
+- [Comparing PCA and TSNE, then pushing PCA to TSNE and seeing what happens (as recommended in SKLEARN](https://medium.com/@luckylwk/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b)
 7. TSNE + AUTOENCODER example
 
-#### Sammons embedding mapping
+### TSNE
 
-This subsection links Sammon embedding in TensorFlow.
+This subsection covers t-SNE intuition, tutorials, and caveats versus PCA.
 
-1. [In tensorflow](https://datawarrior.wordpress.com/2017/06/01/sammon-embedding-with-tensorflow/)
+1. [Stat quest](https://www.youtube.com/watch?v=NEaUSP4YerM&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=30) - the jist of it is that we assume a t- distribution on distances and remove those that are farther.normalized for density. T-dist used so that clusters are not clamped in the middle.
+
+<figure><img src="../.gitbook/assets/gimg-33abbc7a1d93.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/dKPyVx1w6izzdUaPo_WinoIBLxbXIEEWCx0DLn1Nf5IMpz78qAZvv_U3rqns4CQ4kSrYLdyUWnuSwLWeIB_B2lik1Ijk5m4Fae33bjMEJYyjUJrVO7wvoMmLpqpuz579M6Gv1saJ">copied from the original hosted image</a>.</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/gimg-6b3d7ed51c31.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh6.googleusercontent.com/h7fJI0YnLoeoiSuW8Cq7YZ1Y6b-Bcvd6Eaj6K-1yb9duCgN5y5qXu_9-X1cL-b0wcZmL9SzfpoColZ1oEynaP2A7OZgIwrenlOp4V0DmrliXcpsTidRN7jSlHxDAMUYsPZBCABWc">copied from the original hosted image</a>.</p></figcaption></figure>
+
+Iteratively moving from the left to the right<figure><img src="../.gitbook/assets/gimg-8bddd8831f5d.png" alt=""><figcaption><p>Figure.</p><p>Credit: <a href="https://lh4.googleusercontent.com/WNLL7Q_6sn2g5vOOwIutoj96FWfS0vYvwVftivxTg9OHTnZ5Ols8Seplo0XDUe2ZMPEPUc1f28D1jzvh71OjL-GD0X9j-YWYu1rlPzeSZ2-JzOhsDopdkA4YtDkD4b451x8b-b_7">copied from the original hosted image</a>.</p></figcaption></figure>
+
+- [TSNE algorithm](https://www.oreilly.com/learning/an-illustrated-introduction-to-the-t-sne-algorithm)
+2. [Are there cases where PCA more suitable than TSNE](https://stats.stackexchange.com/questions/238538/are-there-cases-where-pca-is-more-suitable-than-t-sne?rq=1)
+3. [PCA preserving pairwise distances over tSNE?](https://stats.stackexchange.com/questions/176672/what-is-meant-by-pca-preserving-only-large-pairwise-distances) How why, all here.
+4. Another advice about using tsne and the possible misinterpetations
 
 #### IVIS
 
 This subsection lists the IVIS paper, code, and companion repositories.
 
-1. [Paper: ](https://www.nature.com/articles/s41598-019-45301-0)
-2. [Git](https://github.com/beringresearch/ivis), [docs](https://bering-ivis.readthedocs.io/en/latest/)
-3. [Ivis animate](https://github.com/beringresearch/ivis-animate)
-4. [Ivis explain](https://github.com/beringresearch/ivis-explain)
+- Structure-preserving visualisation of high dimensional single-cell datasets | Scientific Reports. [Paper: ](https://www.nature.com/articles/s41598-019-45301-0)
+- Dimensionality reduction in very large datasets using Siamese Networks - beringresearch/ivis. [Git](https://github.com/beringresearch/ivis)
+- ivis dimensionality reduction — ivis documentation. ivis dimensionality reduction — ivis documentation. [docs](https://bering-ivis.readthedocs.io/en/latest/)
+- Contribute to beringresearch/ivis-animate development by creating an account on GitHub. [Ivis animate](https://github.com/beringresearch/ivis-animate)
+- Contribute to beringresearch/ivis-explain development by creating an account on GitHub. [Ivis explain](https://github.com/beringresearch/ivis-explain)
 
-## Deprecated links
+- Another advice about using tsne and the possible misinterpetations. [https://towardsdatascience.com/why-you-are-using-t-sne-wrong-502412aab0c0](https://towardsdatascience.com/why-you-are-using-t-sne-wrong-502412aab0c0)
+- Code and in-depth tutorial on TSNE, mapping probabilities to distributions. [https://towardsdatascience.com/t-sne-python-example-1ded9953f26](https://towardsdatascience.com/t-sne-python-example-1ded9953f26)
 
-{% hint style="warning" %}
-These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
-{% endhint %}
-
-- 1. This address no longer opens: https://towardsdatascience.com/https-medium-com-abdullatif-h-dimensionality-reduction-for-dummies-part-1-a8c9ec7b7e79?_branch_match_id=584170448791192656
-- 2. This address no longer opens: https://towardsdatascience.com/dimensionality-reduction-for-dummies-part-2-3b1e3490bdc9
-- 3. This address no longer opens: https://towardsdatascience.com/dimensionality-reduction-for-dummies-part-3-f25729f74c0a
-- A small blog post about PCA, AE & TSNE. This address no longer opens: https://towardsdatascience.com/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe
-- Visualizing PCA/TSNE using plots. This address no longer opens: https://towardsdatascience.com/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b
-- Another advice about using tsne and the possible misinterpetations. This address no longer opens: https://towardsdatascience.com/why-you-are-using-t-sne-wrong-502412aab0c0
-- An in-depth tutorial on PCA (paper). This address no longer opens: https://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf
-- An explanation about SVD’s formulas.. This address no longer opens: https://blog.statsbot.co/singular-value-decomposition-tutorial-52c695315254
-- First they say that. This address no longer opens: https://web.cs.hacettepe.edu.tr/~aykut/classes/fall2016/bbm406/slides/l25-kernel_pca.pdf
-- A comprehensive tutorial on LDA - read!. This address no longer opens: https://iksinc.online/2018/11/12/dimensionality-reduction-via-linear-discriminant-analysis/
-- LSA CLUSTERING. This address no longer opens: http://mccormickml.com/2015/08/05/document-clustering-example-in-scikit-learn/
-- Code and in-depth tutorial on TSNE, mapping probabilities to distributions. This address no longer opens: https://towardsdatascience.com/t-sne-python-example-1ded9953f26
-- A great example of using PCA and then TSNE to see clusters that arent visible with PCA only.. This address no longer opens: https://towardsdatascience.com/dimensionality-reduction-by-stacking-pca-and-t-sne-420d9fcfab54
 #### DIMENSIONALITY REDUCTION
 
 This subsection contrasts principal component regression with partial least squares.
@@ -237,3 +220,20 @@ One can describe Principal Components Regression as an approach for deriving a l
 
 The PCR method that we described above involves identifying linear combinations of X that best represent the predictors. These combinations (directions) are identified in an unsupervised way, since the response Y is not used to help determine the principal component directions. That is, the response Y does not supervise the identification of the principal components, thus there is no guarantee that the directions that best explain the predictors also are the best for predicting the response (even though that is often assumed). Partial least squares (PLS) are a supervised alternative to PCR. Like PCR, PLS is a dimension reduction method, which first identifies a new smaller set of features that are linear combinations of the original features, then fits a linear model via least squares to the new M features. Yet, unlike PCR, PLS makes use of the response variable in order to identify the new features.
 
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+
+- 1. This address no longer opens: https://towardsdatascience.com/https-medium-com-abdullatif-h-dimensionality-reduction-for-dummies-part-1-a8c9ec7b7e79?_branch_match_id=584170448791192656
+- 2. This address no longer opens: https://towardsdatascience.com/dimensionality-reduction-for-dummies-part-2-3b1e3490bdc9
+- 3. This address no longer opens: https://towardsdatascience.com/dimensionality-reduction-for-dummies-part-3-f25729f74c0a
+- A small blog post about PCA, AE & TSNE. This address no longer opens: https://towardsdatascience.com/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe
+- Visualizing PCA/TSNE using plots. This address no longer opens: https://towardsdatascience.com/visualising-high-dimensional-datasets-using-pca-and-t-sne-in-python-8ef87e7915b
+- An in-depth tutorial on PCA (paper). This address no longer opens: https://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf
+- An explanation about SVD’s formulas.. This address no longer opens: https://blog.statsbot.co/singular-value-decomposition-tutorial-52c695315254
+- First they say that. This address no longer opens: https://web.cs.hacettepe.edu.tr/~aykut/classes/fall2016/bbm406/slides/l25-kernel_pca.pdf
+- A comprehensive tutorial on LDA - read!. This address no longer opens: https://iksinc.online/2018/11/12/dimensionality-reduction-via-linear-discriminant-analysis/
+- LSA CLUSTERING. This address no longer opens: http://mccormickml.com/2015/08/05/document-clustering-example-in-scikit-learn/
+- A great example of using PCA and then TSNE to see clusters that arent visible with PCA only.. This address no longer opens: https://towardsdatascience.com/dimensionality-reduction-by-stacking-pca-and-t-sne-420d9fcfab54

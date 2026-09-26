@@ -1,6 +1,7 @@
 # Meta Learning
 
-This page is about AutoML: what it automates, personal caveats, and curated systems from automl.org.
+This page is about AutoML: automating model choice, hyperparameters, architecture search, and related steps.
+It keeps personal caveats up front, then curated systems from automl.org, and places PyCaret after auto feature engineering.
 
 The same notes are in [Model Families](../problem-framing/model-families.md).
 
@@ -42,14 +43,16 @@ The same notes are in [Genetic Algorithms & Genetic Programming](../predictive-m
 - [AutoWEKA](http://www.cs.ubc.ca/labs/beta/Projects/autoweka/) is an approach for the simultaneous selection of a machine learning algorithm and its hyperparameters; combined with the [WEKA](http://www.cs.waikato.ac.nz/ml/weka/) package it automatically yields good models for a wide variety of data sets.
 - [Auto-sklearn](https://automl.github.io/auto-sklearn/master/) is an extension of AutoWEKA using the Python library [scikit-learn](http://scikit-learn.org/stable/) which is a drop-in replacement for regular scikit-learn classifiers and regressors.
 - [TPOT](http://epistasislab.github.io/tpot/) is a data-science assistant which optimizes machine learning pipelines using genetic programming.
-- (google) [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html) provides automated model selection and ensembling for the [H2O machine learning and data analytics platform](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html). ([git](https://github.com/google/automl))
+- H2O AutoML: Automatic machine learning — H2O 3.46.0.12 documentation. (google) [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html)
+- provides automated model selection and ensembling for the. [H2O machine learning and data analytics platform](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/welcome.html)
+- GitHub - google/automl: Google Brain AutoML. ( [git](https://github.com/google/automl)
 - [TransmogrifAI](https://github.com/salesforce/TransmogrifAI) is an AutoML library running on top of Spark.
 - [MLBoX](https://github.com/AxeldeRomblay/MLBox) is an AutoML library with three components: preprocessing, optimisation and prediction
 - [MLJar](https://mljar.com/) ([git](https://github.com/mljar/mljar-supervised)) [medium](https://medium.com/@MLJARofficial/mljar-supervised-automl-with-explanations-and-markdown-reports-36d5104e117), 2 — Automated Machine Learning for tabular data mljar builds a complete Machine Learning Pipeline. Perform exploratory analysis, search for a signal in the data, and discover relationships between features in your data with AutoML. Train top ML models with advanced feature engineering, many algorithms, hyper-parameters tuning, Ensembling, and Stacking. Stay ahead of competitors and predict the future with advanced ML. Deploy your models in the cloud or use them locally
-   - + advanced feature engineering
-   - + algorithms selection and tuning
-   - + automatic documentation
-   - + ML explanations
+ - + advanced feature engineering
+ - + algorithms selection and tuning
+ - + automatic documentation
+ - + ML explanations
 
 <figure><img src="../.gitbook/assets/gimg-677053d62777.png" alt=""><figcaption><p>MLJar AutoML.</p><p>Credit: <a href="https://lh3.googleusercontent.com/duUZ_u8kLJ9fhJ1AtGodADX6n3aV4CB9hsLhCV4yANEA0_Rui8yQBAtBe_DxHsJP0s-I8mCCRlyMgvZwJFkc0hy0TtejPLqq_AYmOMXyE73xph8YhEjVQnYeR0lDqI0LTf5YnSOG">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -59,9 +62,9 @@ This section lists Hyperopt, SMAC, Spearmint, BOHB, RoBO, and SMAC3.
 
 The same notes are in [HYPER PARAM GRID SEARCHES](deep-neural-nets.md#hyper-param-grid-searches) and [Hyper Parameter Optimization](../evals/hyper-parameter-optimization.md).
 
-- [Hyperopt](http://jaberg.github.io/hyperopt/), including the TPE algorithm
-- [Sequential Model-based Algorithm Configuration (SMAC)](http://aclib.net/SMAC/)
-- [Spearmint](https://github.com/JasperSnoek/spearmint)
+- Hyperopt by jaberg. including the TPE algorithm [Hyperopt](http://jaberg.github.io/hyperopt/)
+- SMAC. SMAC. [Sequential Model-based Algorithm Configuration (SMAC)](http://aclib.net/SMAC/)
+- Spearmint is a package to perform Bayesian optimization according to the algorithms outlined in the paper: Practical Bayesian Optimization of Machine Learning Algorithms. [Spearmint](https://github.com/JasperSnoek/spearmint)
 - BOHB: Bayesian Optimization combined with HyperBand
 - RoBO – Robust Bayesian Optimization framework
 - [SMAC3](https://github.com/automl/SMAC3) – a python re-implementation of the SMAC algorithm
@@ -70,11 +73,11 @@ The same notes are in [HYPER PARAM GRID SEARCHES](deep-neural-nets.md#hyper-para
 
 This section lists Auto-PyTorch, AutoKeras, DEvol, HyperAS, and talos.
 
-- [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)
-- [AutoKeras](https://autokeras.com/)
-- [DEvol](https://github.com/joeddav/devol)
-- [HyperAS](https://github.com/maxpumperla/hyperas): a combination of Keras and Hyperopt
-- [talos](https://github.com/autonomio/talos): Hyperparameter Scanning and Optimization for Keras
+- Automatic architecture search and hyperparameter optimization for PyTorch - automl/Auto-PyTorch. [Auto-PyTorch](https://github.com/automl/Auto-PyTorch)
+- The page covers autoKeras. The page covers autoKeras. [AutoKeras](https://autokeras.com/)
+- Early POC of genetic neural architecture search. [DEvol](https://github.com/joeddav/devol)
+- Keras + Hyperopt: A very simple wrapper for convenient hyperparameter optimization - maxpumperla/hyperas. [HyperAS](https://github.com/maxpumperla/hyperas)
+- Hyperparameter Experiments with TensorFlow and Keras - autonomio/talos. [talos](https://github.com/autonomio/talos)
 
 ### Auto Feature Engineering
 
@@ -83,6 +86,14 @@ This section points at automated feature engineering reading by Will Koehrsen.
 The same notes are in [FEATURE ENGINEERING](../data/feature-engineering.md#feature-engineering).
 
 1. automated feature engineering on medium by will koehrsen
+
+- automated feature engineering on medium by will koehrsen. [https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219](https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219)
+
+## PYCARET
+
+This section defines PyCaret as a one-line ML library from prep to deploy, after the AutoML system notes above.
+
+[1. What is? by vidhaya](https://www.analyticsvidhya.com/blog/2020/05/pycaret-machine-learning-model-seconds/) - [PyCaret](https://pycaret.org/) is an open-source, machine learning library in Python that helps you from data preparation to model deployment. It is easy to use and you can do almost every data science project task with just one line of code.
 
 ## Deprecated links
 
@@ -96,4 +107,3 @@ These links and images no longer work. The original wording is kept here. A same
 - 2 (MLJar TDS). This address no longer opens: https://towardsdatascience.com/automating-eda-machine-learning-6ddb76c1eb4d
 - BOHB: Bayesian Optimization combined with HyperBand. This address no longer opens: https://www.automl.org/automl/bohb/
 - RoBO – Robust Bayesian Optimization framework. This address no longer opens: http://www.automl.org/automl/robo/
-- automated feature engineering on medium by will koehrsen. This address no longer opens: https://towardsdatascience.com/automated-feature-engineering-in-python-99baf11cc219

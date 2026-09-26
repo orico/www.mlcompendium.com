@@ -1,6 +1,7 @@
 # Agents
 
 This page collects frameworks and products for building LLM agents.
+The linked frameworks and products are aimed at tool-using and multi-agent LLM setups.
 
 The same notes are in [Chat Bots](chat-bots.md) and [Tools](large-language-models-llms.md#tools).
 
@@ -11,7 +12,7 @@ The same notes are in [Chat Bots](chat-bots.md) and [Tools](large-language-model
    <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>AutoGen</p></figcaption></figure>
 
 2. [Routing tools/agents](https://www.linkedin.com/blog/engineering/generative-ai/musings-on-building-a-generative-ai-product) - an overall multi tool article, with a routing example - decides if the query is in scope or not, and which AI agent to forward it to. Examples of agents are: job assessment, company understanding, takeaways for posts, etc.
-3. AgentGPT - [Assemble, configure, and deploy autonomous AI Agents in your browser](https://github.com/reworkd/AgentGPT)
+3. The page covers 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. AgentGPT - [Assemble, configure, and deploy autonomous AI Agents in your browser](https://github.com/reworkd/AgentGPT)
 
 ## Deprecated links
 

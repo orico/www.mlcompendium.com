@@ -1,6 +1,6 @@
 # Decision Trees
 
-This page covers Hellinger splits, CART, KD-trees, random forests, and extremely randomized trees.
+This page covers Hellinger splits, CART, KD-trees, random forests, and extremely randomized trees. It is for tree-based classifiers and the forest variants built from them.
 
 The same notes are in [Hoeffding tree](../decision-intelligence/incremental-learning.md#hoeffding-tree), [IMBALANCED DATASETS](../data/datasets.md#imbalanced-datasets), [Interview questions](../ai-product/data-science-management.md#interview-questions), and [Unbalanced labels](../problem-framing/label-algorithms.md#unbalanced-labels).
 
@@ -26,8 +26,8 @@ Gini = sum(pk * (1 – pk))
 
 This section is KD-trees for nearest neighbours and related applications.
 
-1. [Similar to a binary search tree, just by using the median and selecting a feature randomly for each level.](https://www.youtube.com/watch?v=TLxWtXEbtFE)
-2. [Used to find nearest neighbours.](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
+- KD tree algorithm: how it works, by Victor Lavrenko. [Similar to a binary search tree, just by using the median and selecting a feature randomly for each level.](https://www.youtube.com/watch?v=TLxWtXEbtFE)
+- kNN.15 K-d tree algorithm, by Victor Lavrenko. [Used to find nearest neighbours.](https://www.youtube.com/watch?v=Y4ZgLlDfKDg)
 3. [Many applications of using KD tree, reduce color space, Database key search, etc](https://www.quora.com/What-is-a-kd-tree-and-what-is-it-used-for)
 
 ### RANDOM FOREST
@@ -58,6 +58,8 @@ Fig. 1: Comparison of random forests and extra trees in presence of irrelevant p
 2. [Difference between RF and ET](https://stats.stackexchange.com/questions/175523/difference-between-random-forest-and-extremely-randomized-trees)
 3. [Differences #2](https://stackoverflow.com/questions/22409855/randomforestclassifier-vs-extratreesclassifier-in-scikit-learn)
 
+- A helpful utility for understanding your model, by Will Koehrsen. Visualize decision forests. [https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c](https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c)
+
 ## Deprecated links
 
 {% hint style="warning" %}
@@ -65,5 +67,4 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - Visualize decision trees. This address no longer opens: https://towardsdatascience.com/interactive-visualization-of-decision-trees-with-jupyter-widgets-ca15dd312084
-- Visualize decision forests. This address no longer opens: https://towardsdatascience.com/how-to-visualize-a-decision-tree-from-a-random-forest-in-python-using-scikit-learn-38ad2d75f21c
 - A comparison between random forest and extra trees. This address no longer opens: https://www.thekerneltrip.com/statistics/random-forest-vs-extra-tree/

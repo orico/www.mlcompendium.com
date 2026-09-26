@@ -1,44 +1,40 @@
 # Deep Network Optimization
 
-This page covers pruning, knowledge distillation, lottery tickets, and a long checklist for debugging neural networks that fail to train.
+This page is about making deep nets smaller or more teachable, and about debugging nets that fail to train.
+It covers pruning, knowledge distillation, and lottery tickets first, then a troubleshooting checklist for dataset, normalization, implementation, and training issues.
 
 ## PRUNING / KNOWLEDGE DISTILLATION / LOTTERY TICKET
 
-This section collects notes on pruning, knowledge distillation, and the lottery ticket hypothesis.
+This section collects pruning, knowledge distillation, and lottery-ticket notes used before the troubleshooting checklist below.
 
 The same notes are in [BERT](../language-ai/pretrained-language-models.md#bert) and [TRAINING METHODOLOGIES](../data/datasets.md#training-methodologies).
 
-1. [Awesome Knowledge distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
+- GitHub - dkozlov/awesome-knowledge-distillation: Awesome Knowledge Distillation. [Awesome Knowledge distillation](https://github.com/dkozlov/awesome-knowledge-distillation)
 2. Lottery ticket
-   1. 1, [2](https://arxiv.org/pdf/1803.03635.pdf)-paper
-   2. Uber on Lottery ticket, masking weights retraining
-   3. [Facebook article and paper](https://ai.facebook.com/blog/understanding-the-generalization-of-lottery-tickets-in-neural-networks)
-3. [Knowledge distillation 1](https://medium.com/neuralmachine/knowledge-distillation-dc241d7c2322), 2, [3](https://medium.com/neuralmachine/knowledge-distillation-dc241d7c2322)
+ - 1 [2](https://arxiv.org/pdf/1803.03635.pdf)
+ 2. Uber on Lottery ticket, masking weights retraining
+ - Facebook AI has found the first definitive evidence that the ‘lottery ticket’ phenomenon by MIT researchers can be generalized across different... [Facebook article and paper](https://ai.facebook.com/blog/understanding-the-generalization-of-lottery-tickets-in-neural-networks)
+- [Knowledge distillation 1](https://medium.com/neuralmachine/knowledge-distillation-dc241d7c2322)
+- 2 [3](https://medium.com/neuralmachine/knowledge-distillation-dc241d7c2322)
 4. Pruning 1, Pruning 2
 5. Teacher-student knowledge distillation focusing on Knowledge & Ranking distillation
 
 <figure><img src="../.gitbook/assets/gimg-1f573d2426fd.png" alt=""><figcaption><p>PRUNING / KNOWLEDGE DISTILLATION / LOTTERY TICKET</p><p>Credit: <a href="https://lh4.googleusercontent.com/dau-y87nrdDTAGDgPw5H5ETsdU9TIum7G3vdYpdABd44O-iE3Ghp2V2Ymihe3vSowLWU5wzxD27W_N8lExEQ0ISQAKgAnbbj6SiYQ3RDXPONGJFDj-OO-XE5Bjtc-1uPfEEjUDVb">copied from the original hosted image</a>.</p></figcaption></figure>
 
-1. [Deep network compression using teacher student](https://github.com/Zhengyu-Li/Deep-Network-Compression-based-on-Student-Teacher-Network-)
+- Deep Neural Network Compression based on Student-Teacher Network - Zhengyu-Li/Deep-Network-Compression-based-on-Student-Teacher-Network. [Deep network compression using teacher student](https://github.com/Zhengyu-Li/Deep-Network-Compression-based-on-Student-Teacher-Network-)
 2. [Lottery ticket on BERT](https://thegradient.pub/when-bert-plays-the-lottery-all-tickets-are-winning/), magnitude vs structured pruning on a various metrics, i.e., LT works on bert. The classical Lottery Ticket Hypothesis was mostly tested with unstructured pruning, specifically magnitude pruning (m-pruning) where the weights with the lowest magnitude are pruned irrespective of their position in the model. We iteratively prune 10% of the least magnitude weights across the entire fine-tuned model (except the embeddings) and evaluate on dev set, for as long as the performance of the pruned subnetwork is above 90% of the full model.
 
 We also experiment with structured pruning (s-pruning) of entire components of BERT architecture based on their importance scores: specifically, we 'remove' the least important self-attention heads and MLPs by applying a mask. In each iteration, we prune 10% of BERT heads and 1 MLP, for as long as the performance of the pruned subnetwork is above 90% of the full model. To determine which heads/MLPs to prune, we use a loss-based approximation: the importance scores proposed by [Michel, Levy and Neubig (2019)](https://thegradient.pub/when-bert-plays-the-lottery-all-tickets-are-winning/#RefMichel) for self-attention heads, which we extend to MLPs. Please see our paper and the original formulation for more details.
 
 ## Troubleshooting Neural Nets
 
-This section collects notes on troubleshooting neural nets.
-
-
-This section is a checklist of reasons a neural net is not working, copied from the two linked posts.
+This section is a checklist of reasons a neural net is not working after compression ideas above, copied from the two linked posts.
 
 ([37 reasons](https://blog.slavv.com/37-reasons-why-your-neural-network-is-not-working-4020854bd607?fref=gc&dti=543283492502370), [10 more](http://theorangeduck.com/page/neural-network-not-working?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=The%20Wild%20Week%20in%20AI&fref=gc&dti=543283492502370)) - copy pasted and rewritten here for convenience, it's pretty thorough, but long and extensive, you should have some sort of intuition and not go through all of these. The following list is has much more insight and information in the article itself.
 
 The author of the original article suggests to turn everything off and then start building your network step by step, i.e., "a divide and conquer 'debug' method".
 
 ### Dataset Issues
-
-This section collects notes on dataset issues.
-
 
 This part is mistakes in the data, the labels, and the batches.
 
@@ -57,12 +53,9 @@ This part is mistakes in the data, the labels, and the batches.
 
 ### Data Normalization/Augmentation
 
-This section collects notes on data normalization/augmentation.
+This part is scaling, augmentation, and computing preprocessing on the training set only, after dataset checks above.
 
 The same notes are in [Normalization & Scaling](../data/normalization-and-scaling.md).
-
-
-This part is scaling, augmentation, and computing preprocessing on the training set only.
 
 12. Standardize the features - zero mean and unit variance, sounds like normalization.
 13. Do you have too much data augmentation?
@@ -76,10 +69,7 @@ Any preprocessing should be computed ONLY on the training data, then applied to 
 
 ### Implementation issues
 
-This section collects notes on implementation issues.
-
-
-This part is the loss, custom layers, and the size of the network.
+This part is the loss, custom layers, and the size of the network, after data checks above.
 
 16. Try solving a simpler version of the problem -divide and conquer prediction, i.e., class and box coordinates, just use one.
 17. Look for correct loss "at chance" - calculat loss for chance level, i.e 10% baseline is -ln(0.1) = 2.3 Softmax loss is the negative log probability. Afterwards increase regularization strength which should increase the loss.
@@ -91,14 +81,12 @@ This part is the loss, custom layers, and the size of the network.
 23. Check for "frozen" layers or variables - accidentally frozen?
 24. Increase network size - more layers, more neurons.
 25. Check for hidden dimension errors - confusion due to vectors ->(64, 64, 64)
-26. Explore Gradient checking -does your backprop work for custon gradients? [1](http://ufldl.stanford.edu/tutorial/supervised/DebuggingGradientChecking/) [2](http://cs231n.github.io/neural-networks-3/#gradcheck) 3.
+- Explore Gradient checking -does your backprop work for custon gradients? [1](http://ufldl.stanford.edu/tutorial/supervised/DebuggingGradientChecking/)
+- [2](http://cs231n.github.io/neural-networks-3/#gradcheck)
 
 ### Training issues
 
-This section collects notes on training issues.
-
-
-This part is initialization, regularization, the learning rate, and NaNs.
+This part is initialization, regularization, the learning rate, and NaNs, after implementation checks above.
 
 27. Solve for a really small dataset - can you generalize on 2 samples?
 28. Check weights initialization - [Xavier](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf) or [He](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/He_Delving_Deep_into_ICCV_2015_paper.pdf) or forget about it for networks such as RNN.

@@ -1,18 +1,19 @@
 # Knowledge Graphs
 
 This page is about building knowledge graphs from text and structured sources.
+The linked write-up shows automatic knowledge-graph creation from text with spaCy.
 
 The same notes are in [GenAI Applications](../generative-ai/genai-applications.md), [Graph RAG](../generative-ai/rag.md#graph-rag), and [Root Cause Effects (RCE/RCA)](../decision-intelligence/root-cause-effects-rce-rca.md).
 
-1. [Automatic creation of KG using spacy](https://medium.com/data-science/auto-generated-knowledge-graphs-92ca99a81121) and networx
+- [Automatic creation of KG using spacy](https://medium.com/data-science/auto-generated-knowledge-graphs-92ca99a81121)
 
-   Knowledge graphs can be constructed automatically from text using part-of-speech and dependency parsing. The extraction of entity pairs from grammatical patterns is fast and scalable to large amounts of text using NLP library SpaCy.
+ Knowledge graphs can be constructed automatically from text using part-of-speech and dependency parsing. The extraction of entity pairs from grammatical patterns is fast and scalable to large amounts of text using NLP library SpaCy.
 
-2. [Medium on Reconciling your data and the world of knowledge graphs](https://medium.com/data-science/reconciling-your-data-and-the-world-with-knowledge-graphs-bce66b377b14)
+- [Medium on Reconciling your data and the world of knowledge graphs](https://medium.com/data-science/reconciling-your-data-and-the-world-with-knowledge-graphs-bce66b377b14)
 3. Medium Series:
-   1. [Creating kg](https://medium.com/data-science/knowledge-graphs-at-a-glance-c9119130a9f0)
-   2. [Building from structured sources](https://medium.com/data-science/building-knowledge-graphs-from-structured-sources-346c56c9d40e)
-   3. [Semantic models](https://medium.com/data-science/semantic-models-for-constructing-knowledge-graphs-38c0a1df316a)
+ - [Creating kg](https://medium.com/data-science/knowledge-graphs-at-a-glance-c9119130a9f0)
+ - [Building from structured sources](https://medium.com/data-science/building-knowledge-graphs-from-structured-sources-346c56c9d40e)
+ - [Semantic models](https://medium.com/data-science/semantic-models-for-constructing-knowledge-graphs-38c0a1df316a)
 
 ## Deprecated links
 

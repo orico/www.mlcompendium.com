@@ -1,6 +1,7 @@
 # SQL
 
-This page is a short SQL reference: the command groups, keys, indexes, and how sharding differs from partitioning.
+A warehouse only answers if you can ask it in SQL, so this page is the command groups, keys, indexes, and how sharding differs from partitioning.
+It stays one beat: asking a warehouse a question.
 
 The same notes are in [Course](../analytics/data-analytics.md#course).
 

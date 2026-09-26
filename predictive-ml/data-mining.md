@@ -1,6 +1,7 @@
 # Data Mining
 
-This page is about association rules: Apriori, FP-Growth, and how to read support, confidence, and lift.
+This page is about association rules: Apriori, FP-Growth, and how to read support, confidence, and lift. Use it when the goal is frequent itemsets and rule interestingness rather than a supervised label.
+
 
 ### ASSOCIATION RULES
 
@@ -8,8 +9,8 @@ This section lists slides, terms, and a textbook chapter on association analysis
 
 The same notes are in [Log Parsing / Templatization](templatization.md).
 
-1. [Association rules slides](https://www.slideshare.net/wanaezwani/apriori-and-eclat-algorithm-in-association-rule-mining) — apriori, eclat, fp growth — pretty complete
-2. [Terms](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html) — lift, confidence
+- Client Challenge. Client Challenge. [Association rules slides](https://www.slideshare.net/wanaezwani/apriori-and-eclat-algorithm-in-association-rule-mining)
+- Association Rules and the Apriori Algorithm: A Tutorial - KDnuggets. [Terms](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html)
 3. [Paper — basic concepts and algo](https://www-users.cs.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf)
 
 Knoldus (original blog links are in Deprecated links):
@@ -21,20 +22,22 @@ Knoldus (original blog links are in Deprecated links):
 
 **APRIORI**
 
-1. [Apyori tut](https://stackabuse.com/association-rule-mining-via-apriori-algorithm-in-python/) [git](https://github.com/ymoch/apyori)
-2. [Efficient apriori](https://github.com/tommyod/Efficient-Apriori)
-3. [One of the best known association rules algorithm](https://machinelearningmastery.com/market-basket-analysis-with-association-rule-learning/) — apriori in weka
-4. [A very good visual example of a transaction DB with the apriori algorithm step by step](http://www.lessons2all.com/Apriori.php)
-5. [Python 3.0 code](http://adataanalyst.com/machine-learning/apriori-algorithm-python-3-0/)
-6. [Mlxtnd](http://rasbt.github.io/mlxtend/api_subpackages/mlxtend.frequent_patterns/) [tutorial](https://www.geeksforgeeks.org/implementing-apriori-algorithm-in-python/)
-   1. Apriori
-   2. Rules
-   3. pgrowth
-   4. fpmax
+- Association rule mining is a technique to identify underlying relations between different items. [Apyori tut](https://stackabuse.com/association-rule-mining-via-apriori-algorithm-in-python/)
+- A simple implementation of Apriori algorithm by Python. [git](https://github.com/ymoch/apyori)
+- An efficient Python implementation of the Apriori algorithm. [Efficient apriori](https://github.com/tommyod/Efficient-Apriori)
+- Market Basket Analysis with Association Rule Learning - MachineLearningMastery.com. [One of the best known association rules algorithm](https://machinelearningmastery.com/market-basket-analysis-with-association-rule-learning/)
+- Lessons on Apriori, Example for how to find frequent item set in transaction database, Lessons2all, Vishwanath Pai. [A very good visual example of a transaction DB with the apriori algorithm step by step](http://www.lessons2all.com/Apriori.php)
+- NAGAPETIR merupakan situs slot gacor yang memiliki layanan slot online dan bisa disebut sebagai bandar slot, paling berani bayar berapapun kemenangan yang didapatkan serta penyedia layanan slot88 resmi tahun ini. [Python 3.0 code](http://adataanalyst.com/machine-learning/apriori-algorithm-python-3-0/)
+- Mlxtend.frequent patterns - mlxtend, by Sebastian Raschka. [Mlxtnd](http://rasbt.github.io/mlxtend/api_subpackages/mlxtend.frequent_patterns/)
+- Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more. [tutorial](https://www.geeksforgeeks.org/implementing-apriori-algorithm-in-python/)
+ 1. Apriori
+ 2. Rules
+ 3. pgrowth
+ 4. fpmax
 
 **FP Growth**
 
-1. [How to construct the fp-tree](https://www.youtube.com/watch?v=gq6nKbye648)
+- data mining fp growth | data mining fp growth algorithm | data mining fp tree example | fp growth, by Well Academy. [How to construct the fp-tree](https://www.youtube.com/watch?v=gq6nKbye648)
 2. The same example, but with a graph that shows that lower support cost less for fp-growth in terms of calc time.
 3. Coursera video.
 4. Another clip video

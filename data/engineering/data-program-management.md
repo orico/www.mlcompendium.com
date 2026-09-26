@@ -1,5 +1,6 @@
 # Data Program Management
 
+A data program needs roles and definitions that keep projects from drifting.
 This page points at definitions and role notes for data program management.
 
 The same notes are in [Project & Program Management](../../ai-product/project-and-program-management.md) and [Project Management](../../ai-product/management.md#project-management).

@@ -1,6 +1,6 @@
 # Business
 
-This page points at the Unusual Ventures field guide as an introduction for data scientists.
+Data scientists still need go-to-market vocabulary. This page points at the Unusual Ventures field guide as that introduction.
 
 The same notes are in [Growth](growth.md).
 

@@ -1,16 +1,17 @@
 # Docker
 
-This page is Docker setup, images, Compose, debugging notes, and Source-to-Image.
+A data-science environment has to run the same way everywhere. This page is Docker setup, images, Compose, and debugging, then Source-to-Image and the Docker course.
 
-The same notes are in [DevOps Courses](../../../appendix/devops-courses.md), [Docker for data science](../../mlops/full-stack-and-ops.md#docker-for-data-science), and [Jupyter](../../../appendix/data-science-tools.md#jupyter).
+The same notes are in [DevOps Courses](docker.md), [Docker for data science](../../mlops/full-stack-and-ops.md#docker-for-data-science), and [Jupyter](../../../data/engineering/data-science-tools.md#jupyter).
 
-- [What are Docker layers](https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612)?
+- [What are Docker layers](https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612)
 - [Install on Ubuntu](https://linuxconfig.org/how-to-install-docker-on-ubuntu-18-04-bionic-beaver)
-- [Many Jupyter Docker images (Spark too)](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
-- [How to run Jupyter Docker 1](https://medium.com/@rahulvaish/jupyter-docker-badd38fd6b51), [2](https://medium.com/fundbox-engineering/overview-d3759e83969c)
+- Selecting an Image — Docker Stacks documentation. [Many Jupyter Docker images (Spark too)](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
+- [How to run Jupyter Docker 1](https://medium.com/@rahulvaish/jupyter-docker-badd38fd6b51)
+- [2](https://medium.com/fundbox-engineering/overview-d3759e83969c)
 - [Tell Docker to run on a mounted disk](https://stackoverflow.com/questions/32070113/how-do-i-change-the-default-docker-container-location)
 - [Docker, Keras, k8s, Flask serving](https://medium.com/analytics-vidhya/deploy-your-first-deep-learning-model-on-kubernetes-with-python-keras-flask-and-docker-575dc07d9e76)
-- [Compose](https://docs.docker.com/compose/) — run multi-container applications.
+- Learn how to use Docker Compose to define and run multi-container applications with this detailed introduction to the tool. [Compose](https://docs.docker.com/compose/)
 - [Docker on Ubuntu, tutorial](https://medium.com/fundbox-engineering/overview-d3759e83969c)
 - Docker Compose is simply a tool that allows you to describe a collection of multiple containers that can interact via their own network in a very straightforward way.
 - [Docker for data science](https://aoyilmaz.medium.com/docker-in-data-science-and-a-friendly-beginner-to-docker-186fafdfbdeb)
@@ -18,9 +19,16 @@ The same notes are in [DevOps Courses](../../../appendix/devops-courses.md), [Do
 
 ## S2i
 
-This section is Source-to-Image, which builds Docker images out of git repos.
+With Docker named, Source-to-Image builds images straight out of git repos.
 
 - Builds Docker images out of gits
+
+
+## Docker course
+
+After S2I, this course is the full beginner Docker walkthrough.
+
+- Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers, by freeCodeCamp.org. [Docker in 2 hours](https://www.youtube.com/watch?v=fqMOX6JJhGo&list=RDQMjGhJ6Dhkx4Q&start_radio=1)
 
 ## Deprecated links
 

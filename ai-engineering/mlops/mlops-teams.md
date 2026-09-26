@@ -1,6 +1,6 @@
 # MLOps Teams
 
-This page is about how an MLOps team is organized, and when the work splits between machine learning engineers and MLOps engineers.
+Someone has to own production ML. This page is when that work sits with machine learning engineers, and when it splits into a separate MLOps role.
 
 The same notes are in [Building Data/DS teams](../../business-problems/data-science.md#building-datads-teams) and [Building Teams](../../ai-product/management.md#building-teams).
 

@@ -1,15 +1,15 @@
 # Marketing
 
-This page points at Meta metrics that matter for marketing, with a related figure.
+Marketing still needs metrics that matter. This page points at Meta's list, with a related figure.
 
 The same notes are in [Marketting](marketing.md).
 
-1. [Metrics that matter by Meta](https://www.facebook.com/government-nonprofits/blog/metrics-that-matter)
+- המדדים החשובים. המדדים החשובים. [Metrics that matter by Meta](https://www.facebook.com/government-nonprofits/blog/metrics-that-matter)
 
 <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Metrics that matter by Meta.</p></figcaption></figure>
 # Marketting
 
-This page lists marketing foundations, brand, and measurement.
+Beside Meta's metrics, these notes are marketing foundations, brand, and measurement.
 
 The same notes are in [Marketing](marketing.md).
 
@@ -17,5 +17,5 @@ The same notes are in [Marketing](marketing.md).
 2. **Brand**
 3. **Positioning**
 4. **Messaging**
-5. [**Inbound vs Outbound marketing**](https://blog.hubspot.com/blog/tabid/6307/bid/2989/inbound-marketing-vs-outbound-marketing.aspx) **by hubspot**
-6. [**measuring marketing ROI**](https://medium.com/@jcron_89878/roi-what-is-it-formula-5-ways-to-measure-your-marketing-roi-9e67903e9cbf)
+- Inbound marketing earns attention through valuable content while outbound buys it via paid ads. [**Inbound vs Outbound marketing**](https://blog.hubspot.com/blog/tabid/6307/bid/2989/inbound-marketing-vs-outbound-marketing.aspx)
+- [**measuring marketing ROI**](https://medium.com/@jcron_89878/roi-what-is-it-formula-5-ways-to-measure-your-marketing-roi-9e67903e9cbf)

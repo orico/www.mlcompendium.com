@@ -1,6 +1,6 @@
 # Multi Label Classification
 
-This page is about multilabel classification: assigning more than one label per example, and the main ways to do it.
+This page is about multilabel classification: assigning more than one label per example, and the main ways to do it. It covers problem-transformation recipes, metrics, EfficientNet notes, and tooling.
 
 The same notes are in [MULTI LABEL/OUTPUT](../deep-learning/deep-neural-nets.md#multi-labeloutput).
 
@@ -64,6 +64,8 @@ Multi label confusion matrices with sklearn
 
 [Scikit multilearn package](http://scikit.ml/index.html)
 
+- An awesome Paper that explains all of these methods in detail, also available here! [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.9401&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.9401&rep=rep1&type=pdf)
+
 ## Deprecated links
 
 {% hint style="warning" %}
@@ -71,4 +73,3 @@ These links and images no longer work. The original wording is kept here. A same
 {% endhint %}
 
 - (what is?) Multilabel classification is a classification problem where multiple target labels can be assigned to each observation instead of only one like in multiclass classification. This address no longer opens: https://mlr-org.github.io/mlr-tutorial/devel/html/multilabel/index.html
-- An awesome Paper that explains all of these methods in detail, also available here! This address no longer opens: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.9401&rep=rep1&type=pdf

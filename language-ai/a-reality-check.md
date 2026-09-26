@@ -1,6 +1,7 @@
 # A Reality Check
 
 This page points at a metric-learning reality check: after datasets are normalized, many NLP algorithms show little metric progress.
+It links a benchmark, paper, and medium note that make that metric stall visible after normalization.
 
 The same notes are in [A metric learning reality check](../evals/evaluation-metrics.md#a-metric-learning-reality-check).
 

@@ -1,6 +1,7 @@
 # Intent Recognition
 
 This page points at what intent classification is and how you can use it.
+The archived note defines intent classification and how it shows up in chatbot-style pipelines.
 
 The same notes are in [Chat Bots](../generative-ai/chat-bots.md) and [Document classification](foundation-nlp.md#document-classification).
 

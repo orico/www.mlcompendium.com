@@ -1,5 +1,6 @@
 # Data Teams
 
+Analytics only lands if the team shape can ship it.
 This page points at how to build an analytics team.
 
 The same notes are in [Building Data/DS teams](../../business-problems/data-science.md#building-datads-teams), [Building Teams](../../ai-product/management.md#building-teams), and [Data Vision](data-vision.md).

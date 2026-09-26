@@ -1,178 +1,203 @@
 # Management
 
-This page collects notes on OKRs, KPIs, management traits, teams, agile scaling, culture, and books.
-
-## OKRs & KPIs
-
-This section contrasts metrics, KPIs, and key results.
-
-The same notes are in [Data KPIs](../data/engineering/data-kpis.md) and [North star metric](product-management-resources.md#north-star-metric).
-
-1. [Metrics vs KRs](https://www.perdoo.com/resources/the-difference-between-metrics-kpis-key-results/) - boils down to a starting value.
-2. [OKRs vs KPIs](https://medium.com/@meetfelipe/okr-vs-kpis-what-is-the-difference-ffa54673fcf1) by filipe castro, [1](https://weekdone.com/okr-comparison/okr-vs-kpi), [2](https://www.wrike.com/blog/kpis-vs-okrs-compare-need-successful/), [3](https://www.whatmatters.com/resources/difference-between-okr-kpi)
-
-### Data Science OKR KPI
-
-This subsection is OKRs and KPIs as they apply to data science work.
-
-The same notes are in [Data KPIs](../data/engineering/data-kpis.md).
-
-1. [OKR vs KPI](https://www.clearpointstrategy.com/okrs-vs-kpis/), strategic vs tactical
-2. [Difference between KPI targets and goals](https://bernardmarr.com/default.asp?contentID=1346)
-3. [Comet ml on medium](https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1)
-
-<figure><img src="../.gitbook/assets/gimg-a3c942cc50af.png" alt=""><figcaption><p>Communicating results, by Cecelia Shao, Comet ml.</p><p>Credit: by <a href="https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1">Cecelia Shao Comet ml</a>.</p></figcaption></figure>
-
-1. [For the Data Driven manager (not ds)](https://www.klipfolio.com/blog/17-kpi-management-data-driven-manager)
-2. [Measuring DS business value](https://blog.dominodatalab.com/measuring-data-science-business-value/)
-3. [Best KPIS for DS - the best is what not to do](https://www.quora.com/What-are-the-best-KPIs-for-Data-Science-team)
+People, metrics, and culture decide whether ML ships. This page is management traits, OKRs and KPIs, project work, teams, agile scaling, partners, culture, safety, standards, career development, and books.
 
 ## Management
 
-This section lists traits and styles for managing people and data-science teams.
+These notes are traits and styles for managing people and data-science teams.
 
-1. [Important Traits To Help You Become A Better Data-Science Manager](https://medium.com/data-science/important-traits-to-help-you-become-a-better-data-science-manager-dc0de3a37961), by Dr. Ori Cohen
-2. [7 management styles and how to use them](https://www.breathehr.com/en-gb/blog/topic/business-leadership/best-management-styles-and-how-to-use-them)
+- ## Management points, based on my experience of managing a team of two data-scientists. Ori Cohen [Important Traits To Help You Become A Better Data-Science Manager](https://medium.com/data-science/important-traits-to-help-you-become-a-better-data-science-manager-dc0de3a37961)
+- What are management styles & why are they important? [7 management styles and how to use them](https://www.breathehr.com/en-gb/blog/topic/business-leadership/best-management-styles-and-how-to-use-them)
 3. 7 leadership styles (similar to the above)
-4. [The secret sauce of DS management](https://www.youtube.com/watch?v=qO7sl8_YtJM) by Shir Meir Lador
-5. rework by Google - [what makes a great manager](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/)
+- The Secret Sauce of Data Science Management - Shir Meir Lador / WiDS Israel, by Noa Weiss. [The secret sauce of DS management](https://www.youtube.com/watch?v=qO7sl8_YtJM)
+- 404. 404. rework by Google - [what makes a great manager](https://rework.withgoogle.com/guides/managers-identify-what-makes-a-great-manager/steps/learn-about-googles-manager-research/)
+
+## OKRs & KPIs
+
+With management named, OKRs and KPIs are how that work is measured.
+
+The same notes are in [Data KPIs](../data/engineering/data-kpis.md) and [North star metric](product-management-resources.md#north-star-metric).
+
+- Stop confusing metrics, KPIs, and Key Results. [Metrics vs KRs](https://www.perdoo.com/resources/the-difference-between-metrics-kpis-key-results/)
+- [OKRs vs KPIs](https://medium.com/@meetfelipe/okr-vs-kpis-what-is-the-difference-ffa54673fcf1)
+- OKR vs KPI – your guide to understanding both. by filipe castro [1](https://weekdone.com/okr-comparison/okr-vs-kpi)
+- [2](https://www.wrike.com/blog/kpis-vs-okrs-compare-need-successful/)
+- OKR vs KPI: Explore the difference between OKRs and KPIs and see how they can work together. [3](https://www.whatmatters.com/resources/difference-between-okr-kpi)
+
+### Data Science OKR KPI
+
+Inside OKRs & KPIs, these notes apply the same measures to data science work.
+
+The same notes are in [Data KPIs](../data/engineering/data-kpis.md).
+
+- OKRs vs. KPIs: Why the Difference Matters Less Than You Think | ClearPoint Strategy Blog. [OKR vs KPI](https://www.clearpointstrategy.com/okrs-vs-kpis/)
+- The terms key performance indicator (KPI) and goal are sometimes […], by Bernard Marr. [Difference between KPI targets and goals](https://bernardmarr.com/default.asp?contentID=1346)
+- [Comet ml on medium](https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1)
+
+<figure><img src="../.gitbook/assets/gimg-a3c942cc50af.png" alt=""><figcaption><p>Communicating results, by Cecelia Shao, Comet ml.</p><p>Credit: by <a href="https://medium.com/comet-ml/a-data-scientists-guide-to-communicating-results-c79a5ef3e9f1">Cecelia Shao Comet ml</a>.</p></figcaption></figure>
+
+- Discover 17 essential KPIs for managers across marketing, sales, SaaS, social media, and finance. [For the Data Driven manager (not ds)](https://www.klipfolio.com/blog/17-kpi-management-data-driven-manager)
+2. [Measuring DS business value](https://blog.dominodatalab.com/measuring-data-science-business-value/)
+3. [Best KPIS for DS - the best is what not to do](https://www.quora.com/What-are-the-best-KPIs-for-Data-Science-team)
 
 ## Project Management
 
-This section is how to run data-science and AI project work.
+Metrics are not a plan. These notes are how data-science and AI projects run.
 
 The same notes are in [Data Program Management](../data/engineering/data-program-management.md), [Product / Program Managers](product-managers.md), and [Project & Program Management](project-and-program-management.md).
 
-1. [Data-science? Agile? Cycles? My method for managing data-science projects in the Hi-tech industry](https://medium.com/data-science/data-science-agile-cycles-my-method-for-managing-data-science-projects-in-the-hi-tech-industry-b289e8a72818), by Dr. Ori Cohen
-2. [Lessons learned leading AI teams](https://blogs.intuit.com/blog/2020/06/23/lessons-learned-leading-ai-teams/), by Shir Meir Lador
+- [Data-science? Agile? Cycles? My method for managing data-science projects in the Hi-tech industry](https://medium.com/data-science/data-science-agile-cycles-my-method-for-managing-data-science-projects-in-the-hi-tech-industry-b289e8a72818) Ori Cohen
+- [Lessons learned leading AI teams](https://blogs.intuit.com/blog/2020/06/23/lessons-learned-leading-ai-teams/)
 3. How to avoid conflicts and delays in the AI development [Part 1](https://blogs.intuit.com/blog/2020/12/08/how-to-avoid-conflicts-and-delays-in-the-ai-development-process-part-i/), [Part 2](https://blogs.intuit.com/blog/2021/01/06/how-to-avoid-conflicts-and-delays-in-the-ai-development-process-part-ii/), by Shir Meir Lador
 
 ## Building Teams
 
-This section is team effectiveness, Conway’s law, and team topologies for DS/ML.
+Projects need teams. These notes are effectiveness, Conway's law, and topologies.
 
 The same notes are in [Agile for data-science-research](../business-problems/data-science.md#agile-for-data-science-research), [Data Teams](../data/engineering/data-teams.md), [MLOps Teams](../ai-engineering/mlops/mlops-teams.md), and [Team Building / Group Cohesion](../business-problems/data-science.md#team-building--group-cohesion).
 
-1. rework by google - [understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
+- 404. 404. rework by google - [understanding team effectiveness](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/)
 2. Conway's law "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations."
-3. [team topologies](https://teamtopologies.com/), [youtube](https://www.youtube.com/c/TeamTopologies/videos)
-   1. [key concepts](https://teamtopologies.com/key-concepts)
-   2. DS are "Complicated Subsystem team: Phd Level, great expertise, in depth knowledge.
-   3. feature teams are "Stream-aligned team"
-   4. enabling teams help bridge the gap in knowledge for feature teams, such as architecture
-   5. platform team - providing a platform to speed up feature teams.
-   6. [team topologies article](https://www.scaledagileframework.com/organizing-agile-teams-and-arts-team-topologies-at-scale/) - A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge in order to understand and make changes to the subsystem. [1]
-   7. [team topology for ML](https://medium.com/data-science/team-topology-for-machine-learning-45bddba626e3)
-   8. [team topologies for data engineering](https://medium.com/data-arena/team-topologies-for-data-engineering-teams-a15c5eb3849c)
-   9. towards data mesh: data domains and team topologies
+- Team Topologies is the leading approach to organizing business and technology for fast flow of value and business agility, providing a practical, step-by‑step, adaptive model for organizational design and team interaction. [team topologies](https://teamtopologies.com/)
+- [youtube](https://www.youtube.com/c/TeamTopologies/videos)
+ - Explore key concepts of Team Topologies: four team types, interaction modes, platform-as-a-product, and more. [key concepts](https://teamtopologies.com/key-concepts)
+ 2. DS are "Complicated Subsystem team: Phd Level, great expertise, in depth knowledge.
+ 3. feature teams are "Stream-aligned team"
+ 4. enabling teams help bridge the gap in knowledge for feature teams, such as architecture
+ 5. platform team - providing a platform to speed up feature teams.
+ 6. [team topologies article](https://www.scaledagileframework.com/organizing-agile-teams-and-arts-team-topologies-at-scale/) - A complicated-subsystem team is responsible for building and maintaining a part of the system that depends heavily on specialist knowledge, to the extent that most team members must be specialists in that area of knowledge in order to understand and make changes to the subsystem. [1]
+ - [team topology for ML](https://medium.com/data-science/team-topology-for-machine-learning-45bddba626e3)
+ - [team topologies for data engineering](https://medium.com/data-arena/team-topologies-for-data-engineering-teams-a15c5eb3849c)
+ 9. towards data mesh: data domains and team topologies
 4. [atlassian](https://www.atlassian.com/devops/frameworks/team-structure) - "it's important to understand that not every team shares the same goals, or will use the same practices and tools. Even the way a team is composed shouldn’t be standardized. Different teams require different structures, depending on the greater context of the company and its appetite for change. "
-5. [good article](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509) that talks about conway's law and team topologies by mark mishaev
-   1. Quote "The goal of this team is to reduce the cognitive load of stream-aligned teams working on systems that include or use the complicated subsystem. The team handles the subsystem complexity via specific capabilities and expertise that are typically hard to find or grow.
+5. [good article](https://betterprogramming.pub/team-topologies-a-new-way-of-thinking-about-teams-8f4853038509)
+ 1. Quote "The goal of this team is to reduce the cognitive load of stream-aligned teams working on systems that include or use the complicated subsystem. The team handles the subsystem complexity via specific capabilities and expertise that are typically hard to find or grow.
 
-       Examples of complicated subsystems might include face-recognition algorithms, machine learning approaches, real-time devices drivers, digital signal processing, or any other expertise-based capability that would be hard to embed directly within the stream-aligned team"
+ Examples of complicated subsystems might include face-recognition algorithms, machine learning approaches, real-time devices drivers, digital signal processing, or any other expertise-based capability that would be hard to embed directly within the stream-aligned team"
 6. [team patterns building an eng team](https://www.kennethlange.com/team-patterns-how-to-structure-an-engineering-team/) by Kenneth Lange - an alternative to team topologies?
 
-   "In my experience there are four general team patterns that most companies follow. Yes, they have tweaked them to fit their circumstances, but the overall idea behind the pattern remains the same:
+ "In my experience there are four general team patterns that most companies follow. Yes, they have tweaked them to fit their circumstances, but the overall idea behind the pattern remains the same:
 
-   1. **Technology Team:** The team is formed around a technology, such as Android. For example, a team of mobile developers who build and maintain a mobile app.
-   2. **Matrix Team:** The developers report to a Development Manager, but they are “lend out” to cross-functional product or project teams where they do their daily work.
-   3. **Product Team:** The team is oriented around a product area, such as billing. It’s cross-functional, but all people on the team, regardless of their specialization, report to the same line manager.
-   4. **Self-Managed Product Team:** The team is oriented around a product area. But the management of the team is divided into technical leadership, typically handled by an Engineering Lead on the team, and people management, typically handled by an Engineering Manager outside the team."
-7. [another good article](https://betterprogramming.pub/your-team-structures-aint-working-let-s-apply-team-topologies-470e8d4f7fe5) by Ryan Dawson
+ 1. **Technology Team:** The team is formed around a technology, such as Android. For example, a team of mobile developers who build and maintain a mobile app.
+ 2. **Matrix Team:** The developers report to a Development Manager, but they are “lend out” to cross-functional product or project teams where they do their daily work.
+ 3. **Product Team:** The team is oriented around a product area, such as billing. It’s cross-functional, but all people on the team, regardless of their specialization, report to the same line manager.
+ 4. **Self-Managed Product Team:** The team is oriented around a product area. But the management of the team is divided into technical leadership, typically handled by an Engineering Lead on the team, and people management, typically handled by an Engineering Manager outside the team."
+- [another good article](https://betterprogramming.pub/your-team-structures-aint-working-let-s-apply-team-topologies-470e8d4f7fe5) Ryan Dawson
 
-   > “Organizations not only need to strive for autonomous teams, they also need to continuously think about and evolve themselves in order to deliver value quickly to customers” — _Team Topologies_
+ > “Organizations not only need to strive for autonomous teams, they also need to continuously think about and evolve themselves in order to deliver value quickly to customers” — _Team Topologies_
 
 [1] Book: Skelton, Matthew, and Manuel Pais. Team Topologies: Organizing Business and Technology Teams for Fast Flow. IT Revolution Press, 2019.
 
-8. [Full cycle DS](https://medium.com/data-science/fcds-b2d2e6b08d34)
+- [Full cycle DS](https://medium.com/data-science/fcds-b2d2e6b08d34)
 
 ## Scaling Agile - Agile Approaches
 
-This section covers Spotify-style scaling, Shape Up, and SAFe.
+Teams at scale need a model. These notes are Spotify-style scaling, Shape Up, and SAFe.
 
 The same notes are in [Agile for data-science-research](../business-problems/data-science.md#agile-for-data-science-research) and [Team Building / Group Cohesion](../business-problems/data-science.md#team-building--group-cohesion).
 
 1. The spotify "model" - squads tribes chapters guilds
-   1. [Scaling agile snapshot 2012](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)
-   2. [Scaling Agile at Spotify](https://www.youtube.com/watch?v=SUR9q_Qcrk4) 2014 - Joakim Sunden and Anders Ivarsson
-   3. [inside Spotify by Andres Ivarsson](https://theagilerevolution.com/2016/07/06/episode-112-inside-spotify-with-anders-ivarsson/) (spotify) 2016
-   4. Spotify eng culture [p1](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/) [p2](https://engineering.atspotify.com/2014/09/spotify-engineering-culture-part-2/) 2014 [youtube](https://www.youtube.com/watch?v=4GK1NDTWbkY) 2017 by Henrik Kniberg
-   5. [Spotify engineering culture](https://www.youtube.com/watch?v=4GK1NDTWbkY) 2017 youtube
-   6. [how things dont work in spotify and we are trying to solve them](https://www.slideshare.net/jchyip/how-things-still-dont-quite-work-at-spotify-and-how-were-trying-to-solve-it) 2017 and [youtube](https://www.youtube.com/watch?v=VZMf8QJmB98)
-   7. [you can do better than the spotify model](https://agile2017.sched.com/event/ATal/you-can-do-better-than-the-spotify-model-joakim-sunden-catherine-peck-phillips?ref=JeremiahLee), [video](https://vimeo.com/240125835) - agile 2017 - Joakim Sundén
+ 1. [Scaling agile snapshot 2012](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)
+ - LKNA13: Scaling Agile at Spotify - Joakim Sunden and Anders Ivarsson, by Kanban University. [Scaling Agile at Spotify](https://www.youtube.com/watch?v=SUR9q_Qcrk4)
+ - Episode 112: Inside Spotify with Anders Ivarsson – The Agile Revolution Podcast. [inside Spotify by Andres Ivarsson](https://theagilerevolution.com/2016/07/06/episode-112-inside-spotify-with-anders-ivarsson/)
+ - Here’s part 1 of short animated video describing our engineering culture, by Henrik Kniberg. Spotify eng culture [p1](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/)
+ - Here’s part 2 of the animated video describing our engineering culture, by Henrik Kniberg. [p2](https://engineering.atspotify.com/2014/09/spotify-engineering-culture-part-2/)
+ - Spotify Engineering Culture (by Henrik Kniberg), by Andreas Tjernsli. 2014 [youtube](https://www.youtube.com/watch?v=4GK1NDTWbkY)
+ - Spotify Engineering Culture (by Henrik Kniberg), by Andreas Tjernsli. [Spotify engineering culture](https://www.youtube.com/watch?v=4GK1NDTWbkY)
+ - Client Challenge. Client Challenge. [how things dont work in spotify and we are trying to solve them](https://www.slideshare.net/jchyip/how-things-still-dont-quite-work-at-spotify-and-how-were-trying-to-solve-it)
+ - Things that still don’t quite work at Spotify... and how we’re trying to solve it, by CernerEng. 2017 and [youtube](https://www.youtube.com/watch?v=VZMf8QJmB98)
+ - Agile2017: You can do better than the Spotify Model... [you can do better than the spotify model](https://agile2017.sched.com/event/ATal/you-can-do-better-than-the-spotify-model-joakim-sunden-catherine-peck-phillips?ref=JeremiahLee)
+ - Joakim Sundén: You can do better than the Spotify Model #lascot. [video](https://vimeo.com/240125835)
 
-       "Spotify is used as a framework/model copied by others, but Spotify's model isn't without challenges even for Spotify
+ "Spotify is used as a framework/model copied by others, but Spotify's model isn't without challenges even for Spotify
 
-       Encouragement that it's always hard AND it's always possible to improve
+ Encouragement that it's always hard AND it's always possible to improve
 
-       It's great to be inspired by others but at the end of the day you need to face your difficulties and solve your problems yourself
+ It's great to be inspired by others but at the end of the day you need to face your difficulties and solve your problems yourself
 
-       You can succeed with autonomy by never giving up; it comes with challenges and benefits"
-   8. [failed squad goals](https://www.jeremiahlee.com/posts/failed-squad-goals/) 2020, listen on [spotify](https://anchor.fm/jeremiah-oral-lee/episodes/Spotifys-Failed-SquadGoals-edia0p), [blowback response](https://www.jeremiahlee.com/posts/failed-squad-goals/comments/)
-   9. there is no spotify model for scaling agile
-   10. [spotify model sucks](https://www.linkedin.com/pulse/spotify-sucks-erwin-verweij/) by erwin verweij
-   11. [how to structure eng team](https://www.linkedin.com/pulse/how-structure-engineering-team-scale-yotam-hadass) by yotam hadas
-   12. [spotify model - I dont think it means what you think it means](https://medium.com/serious-scrum/you-want-to-adopt-the-spotify-model-i-dont-think-it-means-what-you-think-it-means-7df4316081f) - "Don’t fool yourself and others. The Spotify engineering culture is NOT about their organisational structure. It is how people are allowed to determine what to do. It’s about autonomy. It’s about having a culture of safety. Among others. I advise you to revisit the videos so that you can experience it yourself." - Willem Jan Ageling
-   13. [balancing autonomy with accountability](https://www.scrum.org/resources/blog/balancing-autonomy-accountability) - edwin dando
-2. ["shape up"](https://basecamp.com/shapeup?ref=JeremiahLee) book (under 200)
-3. [SAFe](https://www.scaledagileframework.com/?ref=JeremiahLee) 5 - scaled agile framework
-4. [Safe agile principles](https://scaledagileframework.com/safe-lean-agile-principles/)
+ You can succeed with autonomy by never giving up; it comes with challenges and benefits"
+ - “The Spotify model” got a bunch of companies talking like Taylor Swift about startup culture, but four former Spotify employees reveal the truth: its eponymous way of working failed before it scaled, by Jeremiah Lee. [failed squad goals](https://www.jeremiahlee.com/posts/failed-squad-goals/)
+ - “The Spotify model” got a bunch of companies talking like Taylor Swift about startup culture, but four former Spotify employees reveal the truth: its eponymous way of working failed before it scaled, by Jeremiah Lee. 2020, listen on [spotify](https://anchor.fm/jeremiah-oral-lee/episodes/Spotifys-Failed-SquadGoals-edia0p)
+ - Clarifications from me and select comments from you, by Jeremiah Lee. [blowback response](https://www.jeremiahlee.com/posts/failed-squad-goals/comments/)
+ 9. there is no spotify model for scaling agile
+ - Explore top LinkedIn content from members on a range of professional topics. [spotify model sucks](https://www.linkedin.com/pulse/spotify-sucks-erwin-verweij/)
+ - When I joined Electric, the top priority was to reshape the Engineering organizational structure in order to prepare the team for scale. [how to structure eng team](https://www.linkedin.com/pulse/how-structure-engineering-team-scale-yotam-hadass)
+ 12. [spotify model - I dont think it means what you think it means](https://medium.com/serious-scrum/you-want-to-adopt-the-spotify-model-i-dont-think-it-means-what-you-think-it-means-7df4316081f) - "Don’t fool yourself and others. The Spotify engineering culture is NOT about their organisational structure. It is how people are allowed to determine what to do. It’s about autonomy. It’s about having a culture of safety. Among others. I advise you to revisit the videos so that you can experience it yourself." - Willem Jan Ageling
+ - ERROR: The request could not be satisfied. [balancing autonomy with accountability](https://www.scrum.org/resources/blog/balancing-autonomy-accountability)
+- Shape Up will help you break free of “best practices” that aren’t really working, think deeper about the right problems, and start shipping meaningful projects your team can celebrate. ["shape up"](https://basecamp.com/shapeup?ref=JeremiahLee)
+- [SAFe](https://www.scaledagileframework.com/?ref=JeremiahLee) scaled agile framework
+- [Safe agile principles](https://scaledagileframework.com/safe-lean-agile-principles/)
 
 ## Working with partners
 
-This section is reserved for notes on working with partners.
+Scaling is internal. This section is reserved for notes on working with partners.
 
 ## Culture building
 
-This section is reserved for notes on culture building.
+Partners sit beside culture. This section is reserved for culture-building notes.
 
 ## Psychological Safety
 
-This section is psychological safety as a foundation for high-performing teams.
+Culture needs safety. These notes are psychological safety for high-performing teams.
 
 1. (great) has a lot of tips on how to measure - [high performing teams need PS](https://www.fearlessculture.design/blog-posts/high-performing-teams-need-psychological-safety)
 2. high performing teams need psychological safety a summary by microsoft
-3. [five keys to successful google team](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/), 1st one is PS
+- 404. 404.   1st one [five keys to successful google team](https://rework.withgoogle.com/blog/five-keys-to-a-successful-google-team/)
 
 ## Settings standarts
 
-This section is reserved for notes on setting standards.
+Safety is not standards. This section is reserved for setting standards.
 
 ## Career development
 
-This section points at development plans for managers and junior data scientists.
+Standards sit beside growth. These notes are development plans for managers and junior DS.
 
-1. [development plan for managers](https://www.indeed.com/career-advice/career-development/development-plan-for-managers)
-2. [for junior DS](https://medium.com/@mbsahar4/my-development-plan-as-a-junior-data-scientist-ec3c68a2b641)
+- In this article, we discuss what a good development plan for managers is and provide some development goals you can include for your team. [development plan for managers](https://www.indeed.com/career-advice/career-development/development-plan-for-managers)
+- [for junior DS](https://medium.com/@mbsahar4/my-development-plan-as-a-junior-data-scientist-ec3c68a2b641)
 
 ## Books
 
-This section lists management, influence, negotiation, and related book notes.
+The shelf ends with management, influence, negotiation, and related books.
 
 1. People management
-   1. (good) the effective manager
-   2. radical candor
-   3. managing humans
+ 1. (good) the effective manager
+ 2. radical candor
+ 3. managing humans
 2. Company Management
-   1. The CEO within
-   2. business without the bullshit
+ 1. The CEO within
+ 2. business without the bullshit
 3. Collaborations and influence
-   1. (good) crucial conversations, 1, [2](https://slooowdown.wordpress.com/2013/06/09/summary-of-crucial-conversations-tools-for-talking-when-the-stakes-are-high-by-kerry-patterson-joseph-grenny-ron-mcmillan-and-al-swizler/), [3](https://fourminutebooks.com/crucial-conversations-summary/)
+ - Summary of Crucial conversations – Tools for talking when the stakes are high by Kerry Patterson, Joseph Grenny, Ron McMillan and Al Swizler | Ignition Blog. (good) crucial conversations, 1 [2](https://slooowdown.wordpress.com/2013/06/09/summary-of-crucial-conversations-tools-for-talking-when-the-stakes-are-high-by-kerry-patterson-joseph-grenny-ron-mcmillan-and-al-swizler/)
+ - Crucial Conversations Summary - Four Minute Books. [3](https://fourminutebooks.com/crucial-conversations-summary/)
 4. Negotiations
-   1. never split the difference. [TLDR](https://www.linkedin.com/pulse/never-split-difference-tldr-john-dziedzic/), summary, [summary & commentary](https://growth.me/books/never-split-the-difference/) , [summary](https://www.oberlo.com/blog/never-split-the-difference-by-chris-voss-summary), [2](https://www.freshworks.com/crm/sales/sdr-sales-development-reps/summary-of-never-split-the-difference-blog/), 3, [4](https://medium.com/@highperformancelifestyle/never-split-the-difference-summary-review-animated-c32f72a36608), [youtube](https://www.youtube.com/watch?v=OaEw7ZFs5sU), [chris voss](https://www.youtube.com/watch?v=yPsvgmZlVuQ), [2](https://www.youtube.com/watch?v=guZa7mQV1l0), [3](https://www.youtube.com/watch?v=YNqpQ3zi8iQ)
+ - One of the most insightful books that I have read in some time. never split the difference. [TLDR](https://www.linkedin.com/pulse/never-split-difference-tldr-john-dziedzic/)
+ - summary [summary & commentary](https://growth.me/books/never-split-the-difference/)
+ - Let a former FBI hostage negotiator teach you how to win every conflict, deal, and negotiation, by Chris Voss Summary. [summary](https://www.oberlo.com/blog/never-split-the-difference-by-chris-voss-summary)
+ - Never Split the Difference by Chris Voss and Tahl Raz is a classic guidebook on negotiation techniques. [2](https://www.freshworks.com/crm/sales/sdr-sales-development-reps/summary-of-never-split-the-difference-blog/)
+ - 3 [4](https://medium.com/@highperformancelifestyle/never-split-the-difference-summary-review-animated-c32f72a36608)
+ - Never Split The Difference Summary & Review (Chris Voss) - ANIMATED, by Successful By Design. [youtube](https://www.youtube.com/watch?v=OaEw7ZFs5sU)
+ - Chris Voss on Tactical Empathy & Successful Negotiation | Performance Coaching. [chris voss](https://www.youtube.com/watch?v=yPsvgmZlVuQ)
+ - Never Split the Difference | Chris Voss | Talks at Google. [2](https://www.youtube.com/watch?v=guZa7mQV1l0)
+ - [3](https://www.youtube.com/watch?v=YNqpQ3zi8iQ)
 5. Manipulations
-   1. The prince, [1](https://www.sparknotes.com/philosophy/prince/section3/), [2](https://www.cliffsnotes.com/literature/p/the-prince/book-summary), 3
-   2. [The 48 Laws of Power](https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197) - “Amoral, cunning, ruthless, and instructive, this multi-million-copy New York Times bestseller is the definitive manual for anyone interested in gaining, observing, or defending against ultimate control – from the author of The Laws of Human Nature.
+ - The prince [1](https://www.sparknotes.com/philosophy/prince/section3/)
+ - [2](https://www.cliffsnotes.com/literature/p/the-prince/book-summary)
+ 2. [The 48 Laws of Power](https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197) - “Amoral, cunning, ruthless, and instructive, this multi-million-copy New York Times bestseller is the definitive manual for anyone interested in gaining, observing, or defending against ultimate control – from the author of The Laws of Human Nature.
 6. Others
-   1. (good) High output management
-   2. multipliers,
-   3. radical candor,
-   4. Trillion dollar coach,
-   5. The HP way,
-   6. How to measure anything,
-   7. Mindset,
-   8. (good) The hard thing about hard things
-   9. [principles life & work](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021), [summary](https://readingraphics.com/book-summary-principles-ray-dalio/)
+ 1. (good) High output management
+ 2. multipliers,
+ 3. radical candor,
+ 4. Trillion dollar coach,
+ 5. The HP way,
+ 6. How to measure anything,
+ 7. Mindset,
+ 8. (good) The hard thing about hard things
+ - [principles life & work](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021)
+ - In this Principles summary, we'll outline Ray Dalio's principles for life and work, so you can uncover and apply your own principles in work and life, by Readingraphics. [summary](https://readingraphics.com/book-summary-principles-ray-dalio/)
+
+- Explore top LinkedIn content from members on a range of professional topics. spotify model sucks. [https://www.linkedin.com/pulse/spotify-sucks-erwin-verweij/](https://www.linkedin.com/pulse/spotify-sucks-erwin-verweij/)
+
+[Measuring AI Agent Adoption in R&D Organizations](https://cohenori.medium.com/measuring-ai-agent-adoption-in-r-d-organizations-a-data-driven-approach-51c06cd0726d) (August 2025) is how this chapter measures teams and KPIs.
 
 ## Deprecated links
 
@@ -180,11 +205,9 @@ This section lists management, influence, negotiation, and related book notes.
 These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
 {% endhint %}
 
+
 - towards data mesh: data domains and team topologies. This address no longer opens: https://francois-nguyen.blog/2021/03/07/towards-a-data-mesh-part-1-data-domains-and-teams-topologies/
 - high performing teams need psychological safety. This address no longer opens: https://workplaceinsights.microsoft.com/productivity/high-performing-teams-need-psychological-safety-heres-how-to-create-it/
 - there is no spotify model for scaling agile. This address no longer opens: https://vitalitychicago.com/blog/there-is-no-spotify-model-for-scaling-agile/
-- spotify model sucks. This address no longer opens: https://www.linkedin.com/pulse/spotify-sucks-erwin-verweij/
 - (good) crucial conversations, 1. This address no longer opens: https://wikisummaries.org/crucial-conversations-tools-for-talking-when-stakes-are-high/
 - never split the difference. summary. This address no longer opens: https://www.samuelthomasdavies.com/book-summaries/business/never-split-the-difference/
-
-[Measuring AI Agent Adoption in R&D Organizations](https://cohenori.medium.com/measuring-ai-agent-adoption-in-r-d-organizations-a-data-driven-approach-51c06cd0726d) (August 2025) is how this chapter measures teams and KPIs.

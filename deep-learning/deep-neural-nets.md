@@ -1,30 +1,32 @@
 # Deep Neural Nets Basics
 
-This page collects foundational deep neural network notes: perceptrons, backprop, MLPs, autoencoders, CNNs, RNNs, training mechanics, and regularization.
-
+This page is about the building blocks of deep nets: perceptrons, multilayer networks, activations, and loss.
+It then covers how training runs—gradient descent, batch size, learning rate, optimizers, initializers, bias, batch normalization, and dropout—and how to read train/val accuracy and search hyperparameters.
+Later sections gather optimization tricks, fine tuning, and extensions such as NLP, multi-label, siamese nets, and gMLP.
 
 ## Perceptron
 
-This section links perceptron, chain-rule, and backpropagation tutorials.
+This section links perceptron, chain-rule, and backpropagation tutorials as the entry point for the rest of the page.
 
 
 1. perceptron - logical functions and XOR
 2. The chain rule
-   1. [mastery on the chain rule for multi and univariate functions](https://machinelearningmastery.com/the-chain-rule-of-calculus-for-univariate-and-multivariate-functions/)
-   2. derivative of a sigmoid
-   3. derivative for ML people
-3. [Step by step backpropagation example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+ - The Chain Rule of Calculus for Univariate and Multivariate Functions - MachineLearningMastery.com, by Stefania Cristina. [mastery on the chain rule for multi and univariate functions](https://machinelearningmastery.com/the-chain-rule-of-calculus-for-univariate-and-multivariate-functions/)
+ 2. derivative of a sigmoid
+ 3. derivative for ML people
+- A Step by Step Backpropagation Example | Matt Mazur. [Step by step backpropagation example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
 4. understanding backprop
 
 ## DNN
 
-This section covers general deep nets, autoencoders, DBNs, transfer learning, CNNs, and RNNs.
+This section covers general deep nets, autoencoders, DBNs, transfer learning, CNNs, and RNNs after the perceptron notes above.
 
 
-- [Deep learning notes from Andrew NG’s course.](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng)
-- Jay Alammar on NN [Part 1](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/), [Part 2](http://jalammar.github.io/feedforward-neural-networks-visual-interactive/)
+- My notes from the excellent Coursera specialization by Andrew Ng - Download as a PDF, PPTX or view online for free. [Deep learning notes from Andrew NG’s course.](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng)
+- A Visual and Interactive Guide to the Basics of Neural Networks, by Jay Alammar. Jay Alammar on NN [Part 1](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
+- In the previous post, we looked at the basic concepts of neural networks, by Jay Alammar. [Part 2](http://jalammar.github.io/feedforward-neural-networks-visual-interactive/)
 - NN in general - 5 introductions tutorials.
-- [Segmentation examples](https://meetshah1995.github.io/semantic-segmentation/deep-learning/pytorch/visdom/2017/06/01/semantic-segmentation-over-the-years.html)
+- Page Redirection. [Segmentation examples](https://meetshah1995.github.io/semantic-segmentation/deep-learning/pytorch/visdom/2017/06/01/semantic-segmentation-over-the-years.html)
 
 MLP: fully connected, input, hidden layers, output. Gradient on the backprop takes a lot of time to calculate. Has vanishing gradient problem, because of multiplications when it reaches the first layers the loss correction is very small (0.1*0.1*0.1 = 0.001), therefore the early layers train slower than the last ones, and the early ones capture the basics structures so they are the more important ones.
 
@@ -58,10 +60,10 @@ Accurate and reasonable in time, unlike fully connected that has the vanishing g
 Transfer Learning = like Inception in Tensor flow, use a prebuilt network to solve many problems that “work” similarly to the original network.
 
 - [CS course definition](http://cs231n.github.io/transfer-learning/) - also very good explanation of the common use cases:
-   - Feature extraction from the CNN part (removing the fully connected layer)
-   - Fine-tuning, everything or partial selection of the hidden layers, mainly good to keep low level neurons that know what edges and color blobs are, but not dog breeds or something not as general.
+ - Feature extraction from the CNN part (removing the fully connected layer)
+ - Fine-tuning, everything or partial selection of the hidden layers, mainly good to keep low level neurons that know what edges and color blobs are, but not dog breeds or something not as general.
 - [CNN checkpoints](https://github.com/BVLC/caffe/wiki/Model-Zoo#cascaded-fully-convolutional-networks-for-biomedical-image-segmentation) for many problems with transfer learning. Has several relevant references
-- Such as this “[How transferable are features in deep neural networks?](http://arxiv.org/abs/1411.1792) “
+- Abstract page for arXiv paper 1411.1792: How transferable are features in deep neural networks? Such as this “ [How transferable are features in deep neural networks?](http://arxiv.org/abs/1411.1792) Such this
 - (the indian guy on facebook) [IMDB transfer learning using cnn vgg and word2vec](https://spandan-madan.github.io/DeepLearningProject/), the word2vec is interesting, the cnn part is very informative. With python code, keras.
 
 CNN, Convolutional Neural Net ([this link explains CNN quite well](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/), [2nd tutorial](https://hackernoon.com/deep-learning-cnns-in-tensorflow-with-gpus-cba6efe0acc2) - both explain about convolution, padding, relu - sparsity, max and avg pooling):
@@ -105,9 +107,67 @@ EXAMPLES of Using NN on images:
 
 [Deep image prior / denoiser/ high res/ remove artifacts/ etc..](https://dmitryulyanov.github.io/deep_image_prior)
 
+## ACTIVATION FUNCTIONS
+
+This section lists common hidden and output activations plus newer options after the DNN overview above.
+
+The same notes are in [Softmax](../data/information-theory.md#softmax) and [Temperature](../responsible-ai/calibration.md#temperature).
+
+
+- Sentiment Analysis, Deep Learning, Machine Learning, Natural Language Processing, NLP, Sentiment Mining, Neural Networks, Artificial Intelligence. - [a bunch of observations, seems like a personal list](http://sentiment-mining.blogspot.co.il/2015/08/the-difference-of-activation-function.html)
+ 1. Output layer - linear for regression, softmax for classification
+ 2. Hidden layers - hyperbolic tangent for shallow networks (less than 3 hidden layers), and ReLU for deep networks
+2. ReLU - The purpose of ReLU is to introduce non-linearity, since most of the real-world data we would want our network to learn would be nonlinear (e.g. convolution is a linear operation – element wise matrix multiplication and addition, so we account for nonlinearity by introducing a nonlinear function like ReLU, e.g [here](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) - search for ReLU).
+ 1. Relu is quite resistant to vanishing gradient & allows for deactivating neurons and for sparsity.
+ 2. Other nonlinear functions such as tanh or sigmoid can also be used instead of ReLU, but ReLU has been found to perform better in most situations.
+- [Visual + description of activation functions](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
+4. A very good explanation + figures about activations functions
+- [Selu](https://medium.com/data-science/selu-make-fnns-great-again-snn-8d61526802a9) better than RELU Possibly
+- Official Repository for "Mish: A Self Regularized Non-Monotonic Neural Activation Function" [BMVC 2020] - digantamisra98/Mish. [Mish](https://github.com/digantamisra98/Mish)
+- : A Self Regularized Non-Monotonic Neural Activation Function. [yam peleg’s code](https://gist.github.com/ypeleg/3af35d07d7f659f387952c9843849772)
+7. Mish, Medium, Keras Code, with benchmarks, computationally expensive.
+- Trending Papers - Hugging Face. (Used by OpenAI [Gelu](https://paperswithcode.com/method/gelu)
+- If you read  my last post on transformers , you would have seen that activations functions are only briefly mentioned in passing. [Deep Learning 101: Transformer Activation Functions Explainer - Sigmoid, ReLU, GELU, Swish](https://www.saltdatalabs.com/blog/deep-learning-101-transformer-activation-functions-explainer-relu-leaky-relu-gelu-elu-selu-softmax-and-more)
+
+## LOSS
+
+This section covers training curves, early stopping, and classification losses after activations above.
+
+The same notes are in [Cross entropy, relative ent, KL-D, JS-D, soft max](../data/information-theory.md#cross-entropy-relative-ent-kl-d-js-d-soft-max) and [Perplexity](../evals/evaluation-metrics.md#perplexity).
+
+
+[Very Basic advice](https://stats.stackexchange.com/questions/232754/reference-to-learn-how-to-interpret-learning-curves-of-deep-convolutional-neural): You should probably switch train/validation repartition to something like 80% training and 20% validation. In most cases it will improve the classifier performance overall (more training data = better performance)
+
++If Training error and test error are too close (your system is unable to overfit on your training data), this means that your model is too simple. Solution: more layers or more neurons per layer.
+
+Early stopping
+
+If you have never heard about "early-stopping" you should look it up, it's an important concept in the neural network domain : [https://en.wikipedia.org/wiki/Early_stopping](https://en.wikipedia.org/wiki/Early_stopping) . To summarize, the idea behind early-stopping is to stop the training once the validation loss starts plateauing. Indeed, when this happens it almost always mean you are starting to overfitt your classifier. The training loss value in itself is not something you should trust, beacause it will continue to increase event when you are overfitting your classifier.
+
+With [cross entropy](https://www.quora.com/Loss-cross-entropy-is-decreasing-but-accuracy-remains-the-same-while-training-convolutional-neural-networks-How-can-it-happen) there can be an issue where the accuracy is the same for two cases, one where the loss is decreasing and the other when the loss is not changing much.
+
+<figure><img src="../.gitbook/assets/gimg-b0563f28c3ec.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh3.googleusercontent.com/f2R8DVu5A9g6LOGbNcmyIfayuVBYnpScO_kNsAcuJ8lsiM-hnYwlqD04qyI1wPYTwmsr2KpFKJa19gMkkJd67y03iJquhRftQdBpfGEdw5OQHficHqgkxudLfgpZsSS7Cc2p9qDS">copied from the original hosted image</a>.</p></figcaption></figure>
+
+
+How to read LOSS graphs (and accuracy on top)
+
+<figure><img src="../.gitbook/assets/gimg-5dd0465eab39.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh6.googleusercontent.com/blj3natUcvqK-nEmNjv90zAIM74QbA4x7hQ_F_oPGcHxQcdhc0_NrcPZhWDne2EEnUnJKNDOw4Xt_cUkhv3cFTFMcqzzBT4NeOPPnmoTfTXLFrEnVwkrlc5PEsZDNCZXdOr0GRZj">copied from the original hosted image</a>.</p></figcaption></figure> <figure><img src="../.gitbook/assets/gimg-96d56f2ac0cf.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh4.googleusercontent.com/o39Jcw1o7JeSsKuD_q-9xGukmT6pWLGs-9sVIumxLRF7dPpf25w8o9e2OBnWbpPc_p6t9e03D46r34N-8CYZa6fvfcWBVp_7N06xE0kbrvIzBC5sGWcMymN_KtPTfRKwHk1-gRcQ">copied from the original hosted image</a>.</p></figcaption></figure>
+
+This indicates that the model is overfitting. It continues to get better and better at fitting the data that it sees (training data) while getting worse and worse at fitting the data that it does not see (validation data).
+
+[This is a very good example of a train/test loss and an accuracy behavior.](https://machinelearningmastery.com/display-deep-learning-model-training-history-in-keras/)
+
+<figure><img src="../.gitbook/assets/gimg-4234e9a6accd.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh6.googleusercontent.com/GK_rvndJY76-cgBbBetgSZfwTD7RTZW2UsXUtsEZRUvFW1ACpJw9FMhNwj3LBERvmmPvcuTkkwb5HUcXgi7ua42WqJwAZgFP-3NsyF1qEo9GmACXGQGWGSYh3AR7yY765Qm9QfiO">copied from the original hosted image</a>.</p></figcaption></figure> <figure><img src="../.gitbook/assets/gimg-18bdbd62a12e.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh4.googleusercontent.com/Q46fiZLm9mMhuQnOVJjyZWstXj6Aq1Ctev1cvIUsdrOWiOqxfvNlkJjcW08waf8qCERvvt1AkW-HjDrLvjHiVxKTFzxfX0BmVq4hRUERqrGsNLALeJb75Geb06X21Bgb8z2dA6iw">copied from the original hosted image</a>.</p></figcaption></figure>
+
+[Cross entropy formula with soft labels (probability) rather than classes.](https://stats.stackexchange.com/questions/206925/is-it-okay-to-use-cross-entropy-loss-function-with-soft-labels)
+
+[Mastery on cross entropy, brier, roc auc, how to ‘game’ them and calibrate them](https://machinelearningmastery.com/how-to-score-probability-predictions-in-python/)
+
+[Game changer paper - a general adaptive loss search in nn](https://www.reddit.com/r/computervision/comments/bsd82j/a_general_and_adaptive_robust_loss_function/?utm_medium=android_app&utm_source=share)
+
 ## GRADIENT DESCENT
 
-This section explains batch, stochastic, and mini-batch gradient descent.
+This section explains batch, stochastic, and mini-batch gradient descent after the loss notes above.
 
 
 ([What are](http://machinelearningmastery.com/gentle-introduction-mini-batch-gradient-descent-configure-batch-size/)?) batch, stochastic, and mini-batch gradient descent are and the benefits and limitations of each method.
@@ -149,7 +209,7 @@ Mini-batch methods update on small subsets of the training data.
 <figure><img src="../.gitbook/assets/gimg-6002b764608b.png" alt=""><figcaption><p>Mini batch (most common)</p><p>Credit: <a href="https://lh5.googleusercontent.com/u6LIUt6HFxzUbztSkBRv5R6Sk53OdmC9R5_BsSkci96Lr0VVDqrx7VW3UTCkPqz0GX7P4NV4GwKxvaZEQ1XEkVDUTdGFnyA_GU4rSPeFs601g7HPtUZzVfiTQWiCW5rv4d3JggDU">copied from the original hosted image</a>.</p></figcaption></figure>
 
 
-- [Big batches are not the cause for the ‘generalization gap’ between mini and big batches, it is not advisable to use large batches because of the low update rate, however if you change that, authors claim its okay](https://arxiv.org/abs/1705.08741).
+- Abstract page for arXiv paper 1705.08741: Train longer, generalize better: closing the generalization gap in large batch training of neural networks. [Big batches are not the cause for the ‘generalization gap’ between mini and big batches, it is not advisable to use large batches because of the low update rate, however if you change that, authors claim its okay](https://arxiv.org/abs/1705.08741)
 - [So what is a batch size in NN (another source)](https://stats.stackexchange.com/questions/153531/what-is-batch-size-in-neural-network) - and how to find the “right” number. In general terms a good mini bach between 1 and all samples is a good idea. Figure it out empirically.
 - one epoch = one forward pass and one backward pass of all the training examples
 - batch size = the number of training examples in one forward/backward pass. The higher the batch size, the more memory space you'll need.
@@ -166,7 +226,7 @@ Example: if you have 1000 training examples, and your batch size is 500, then it
 
 ## Batch size
 
-This section discusses choosing batch size, memory tradeoffs, and Keras prediction quirks.
+This section discusses choosing batch size, memory tradeoffs, and Keras prediction quirks after gradient descent above.
 
 
 ([a good read)](https://machinelearningmastery.com/use-different-batch-sizes-training-predicting-python-keras/) about batch sizes in keras, specifically LSTM, read this first!
@@ -198,7 +258,7 @@ Disadvantages:
 <figure><img src="../.gitbook/assets/gimg-5029acd57347.png" alt=""><figcaption><p>Batch size</p><p>Credit: <a href="https://lh6.googleusercontent.com/-eOGc8ZDsqSJWbu8J18jTRZUHxNuPbvBpvImJVK_zsYsk4GNtC7u-I0puhNbgIg0LzDS_v3-ySi519U8uWOyPv0qcvbLsaeHS3JaVt8jrjGygT2S608ON2d_QPZ2guCuqvwPq0Wq">copied from the original hosted image</a>.</p></figcaption></figure>
 IMPORTANT: batch size in ‘.prediction’ is needed for some models, only for technical reasons as seen here, in keras.
 
-1. ([unread](https://www.quora.com/Intuitively-how-does-mini-batch-size-affect-the-performance-of-stochastic-gradient-descent)) about mini batches and performance.
+- ( [unread](https://www.quora.com/Intuitively-how-does-mini-batch-size-affect-the-performance-of-stochastic-gradient-descent) about mini batches and performance
 2. ([unread](https://stats.stackexchange.com/questions/164876/tradeoff-batch-size-vs-number-of-iterations-to-train-a-neural-network)) tradeoff between bath size and number of iterations
 
 [Another observation, probably empirical](https://stackoverflow.com/questions/35050753/how-big-should-batch-size-and-number-of-epochs-be-when-fitting-a-model-in-keras) - to answer your questions on Batch Size and Epochs:
@@ -207,115 +267,9 @@ In general: Larger batch sizes result in faster progress in training, but don't 
 
 In general, the models improve with more epochs of training, to a point. They'll start to plateau in accuracy as they converge. Try something like 50 and plot number of epochs (x axis) vs. accuracy (y axis). You'll see where it levels out.
 
-## BIAS
-
-This section notes the role of bias terms in neural networks.
-
-
-[The role of bias in NN](https://stackoverflow.com/questions/2480650/role-of-bias-in-neural-networks) - similarly to the ‘b’ in linear regression.
-
-<figure><img src="../.gitbook/assets/gimg-30d616f9f94b.png" alt=""><figcaption><p>BIAS</p><p>Credit: <a href="https://lh4.googleusercontent.com/J2OMsHkzsj_c2GqMXdumCZkCNLWbSB2oRlodc9kXts2gko4L8Uf92t46HCG4C4nh5KJAvStQ-o3syY5jAiDTMNZM8fX98xEyaKPCtWtnR5sXKMAsALwVrlLeQzt8zkFVtR1bso3Z">copied from the original hosted image</a>.</p></figcaption></figure>
-
-
-<figure><img src="../.gitbook/assets/gimg-4bfe3cbe12c2.png" alt=""><figcaption><p>BIAS</p><p>Credit: <a href="https://lh6.googleusercontent.com/MfRZSVTUDmh1sHI5lmQG1rgf9mDaF6X5EmqRCncUcq7zG24M457rg2OZwVBi33RH6ImIIJshLg3z1NJ7nw-YCwrwTXATOMYgXpCxh-CDA8awb9wXRvWBJlknfZV_9klTROdNr99F">copied from the original hosted image</a>.</p></figcaption></figure>
-
-
-## BATCH NORMALIZATION
-
-This section links batch, layer, instance, and weight normalization resources.
-
-The same notes are in [Normalization & Scaling](../data/normalization-and-scaling.md).
-
-
-1. The [best explanation](https://blog.paperspace.com/busting-the-myths-about-batch-normalization/) to what is BN and why to use it, including busting the myth that it solves internal covariance shift - shifting input distribution, and saying that it should come after activations as it makes more sense (it does),also a nice quote on where a layer ends is really good - it can end at the activation (or not). How to use BN in the test, hint: use a moving window. Bn allows us to use 2 parameters to control the input distribution instead of controlling all the weights.
-2. Medium on BN
-3. Medium on BN
-{% embed url="https://www.youtube.com/watch?v=Xogn6veSyxA&feature=youtu.be&t=325" %}
-
-5. Medium #2 - a better one on BN, and adding to VGG
-6. [Reddit on BN, mainly on the paper saying to use it before, but best practice is to use after](https://www.reddit.com/r/MachineLearning/comments/67gonq/d_batch_normalization_before_or_after_relu/)
-7. [Diff between batch and norm (weak explanation)](https://www.quora.com/What-are-the-practical-differences-between-batch-normalization-and-layer-normalization-in-deep-neural-networks)
-8. [Weight normalization for keras and TF](http://krasserm.github.io/2018/11/10/weightnorm-implementation-options/)
-9. [Layer normalization keras](https://pypi.org/project/keras-layer-normalization/)
-10. [Instance normalization keras](https://github.com/keras-team/keras-contrib/blob/master/keras_contrib/layers/normalization/instancenormalization.py)
-11. batch/layer/instance in TF with code
-12. Layer norm for rnn’s or whatever name it is in this post with [code](https://gist.github.com/udibr/7f46e790c9e342d75dcbd9b1deb9d940) for GRU
-
-[What is the diff between batch/layer/recurrent batch and back rnn normalization](https://datascience.stackexchange.com/questions/12956/paper-whats-the-difference-between-layer-normalization-recurrent-batch-normal)
-
-- Layer normalization (Ba 2016): Does not use batch statistics. Normalize using the statistics collected from all units within a layer of the current sample. Does not work well with ConvNets.
-- Recurrent Batch Normalization (BN) (Cooijmans, 2016; also proposed concurrently by Qianli Liao & Tomaso Poggio, but tested on Recurrent ConvNets, instead of RNN/LSTM): Same as batch normalization. Use different normalization statistics for each time step. You need to store a set of mean and standard deviation for each time step.
-- Batch Normalized Recurrent Neural Networks (Laurent, 2015): batch normalization is only applied between the input and hidden state, but not between hidden states. i.e., normalization is not applied over time.
-- Streaming Normalization (Liao et al. 2016) : it summarizes existing normalizations and overcomes most issues mentioned above. It works well with ConvNets, recurrent learning and online learning (i.e., small mini-batch or one sample at a time):
-- Weight Normalization (Salimans and Kingma 2016): whenever a weight is used, it is divided by its L2 norm first, such that the resulting weight has L2 norm 1. That is, output y=x∗(w/|w|), where x and w denote the input and weight respectively. A scalar scaling factor g is then multiplied to the output y=y∗g. But in my experience g seems not essential for performance (also downstream learnable layers can learn this anyway).
-- Cosine Normalization (Luo et al. 2017): weight normalization is very similar to cosine normalization, where the same L2 normalization is applied to both weight and input: y=(x/|x|)∗(w/|w|). Again, manual or automatic differentiation can compute appropriate gradients of x and w.
-- Note that both Weight and Cosine Normalization have been extensively used (called normalized dot product) in the 2000s in a class of ConvNets called HMAX (Riesenhuber 1999) to model biological vision. You may find them interesting.
-
-More about Batch/layer/instance/group norm are different methods for normalizing the inputs to the layers of deep neural networks
-
-- Layer normalization solves the rnn case that batch couldnt - Is done per feature within the layer and normalized features are replaced
-- Instance does it for (cnn?) using per channel normalization
-- Group does it for group of channels
-- <figure><img src="../.gitbook/assets/gimg-b162b0da7c49.png" alt=""><figcaption><p>BATCH NORMALIZATION</p><p>Credit: <a href="https://lh3.googleusercontent.com/P3AL20iV863GBbN_D07g1PBh2T3nEVrR0CYd_MXi5Gecozo-dc4CzbPemj5Bbyl4SbiZXtu-k8Q4hBXyh6c8SC8jOu4fU9B2G1vi0UT5nyGjDGAxURHqyre9NNmCnm5SVZpuHskF">copied from the original hosted image</a>.</p></figcaption></figure>
-
-[Part1: intuitive explanation to batch normalization](http://mlexplained.com/2018/01/10/an-intuitive-explanation-of-why-batch-normalization-really-works-normalization-in-deep-learning-part-1/)
-
-Part2: [batch/layer/weight normalization](http://mlexplained.com/2018/01/13/weight-normalization-and-layer-normalization-explained-normalization-in-deep-learning-part-2/) - This is a good resource for advantages for every layer
-
-- Layer, per feature in a batch,
-- weight - divided by the norm
-
-<figure><img src="../.gitbook/assets/gimg-82ccffb35da6.png" alt=""><figcaption><p>BATCH NORMALIZATION</p><p>Credit: <a href="https://lh3.googleusercontent.com/IqvjdZcCmsI-rAJ4ye0aUIoyrYLXLJTE2XMeRAAMIi0MxRoSzpRaZ6Op6dWgZ1VkjvBNUcuS8Xr0V9jo7jIpE46-7ktlS9QTDf6vmM8LI4N9juxa3CaLY4B5Gkl9oNPd44DjN5Bs">copied from the original hosted image</a>.</p></figcaption></figure>
-
-
-## HYPER PARAM GRID SEARCHES
-
-This section points at disciplined hyperparameter search guidance.
-
-The same notes are in [Hyper param optimization](meta-learning.md#hyper-param-optimization) and [Hyper Parameter Optimization](../evals/hyper-parameter-optimization.md).
-
-
-1. [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay](https://arxiv.org/abs/1803.09820)
-
-## LOSS
-
-This section covers training curves, early stopping, and classification losses.
-
-The same notes are in [Cross entropy, relative ent, KL-D, JS-D, soft max](../data/information-theory.md#cross-entropy-relative-ent-kl-d-js-d-soft-max) and [Perplexity](../evals/evaluation-metrics.md#perplexity).
-
-
-[Very Basic advice](https://stats.stackexchange.com/questions/232754/reference-to-learn-how-to-interpret-learning-curves-of-deep-convolutional-neural): You should probably switch train/validation repartition to something like 80% training and 20% validation. In most cases it will improve the classifier performance overall (more training data = better performance)
-
-+If Training error and test error are too close (your system is unable to overfit on your training data), this means that your model is too simple. Solution: more layers or more neurons per layer.
-
-Early stopping
-
-If you have never heard about "early-stopping" you should look it up, it's an important concept in the neural network domain : [https://en.wikipedia.org/wiki/Early_stopping](https://en.wikipedia.org/wiki/Early_stopping) . To summarize, the idea behind early-stopping is to stop the training once the validation loss starts plateauing. Indeed, when this happens it almost always mean you are starting to overfitt your classifier. The training loss value in itself is not something you should trust, beacause it will continue to increase event when you are overfitting your classifier.
-
-With [cross entropy](https://www.quora.com/Loss-cross-entropy-is-decreasing-but-accuracy-remains-the-same-while-training-convolutional-neural-networks-How-can-it-happen) there can be an issue where the accuracy is the same for two cases, one where the loss is decreasing and the other when the loss is not changing much.
-
-<figure><img src="../.gitbook/assets/gimg-b0563f28c3ec.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh3.googleusercontent.com/f2R8DVu5A9g6LOGbNcmyIfayuVBYnpScO_kNsAcuJ8lsiM-hnYwlqD04qyI1wPYTwmsr2KpFKJa19gMkkJd67y03iJquhRftQdBpfGEdw5OQHficHqgkxudLfgpZsSS7Cc2p9qDS">copied from the original hosted image</a>.</p></figcaption></figure>
-
-
-How to read LOSS graphs (and accuracy on top)
-
-<figure><img src="../.gitbook/assets/gimg-5dd0465eab39.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh6.googleusercontent.com/blj3natUcvqK-nEmNjv90zAIM74QbA4x7hQ_F_oPGcHxQcdhc0_NrcPZhWDne2EEnUnJKNDOw4Xt_cUkhv3cFTFMcqzzBT4NeOPPnmoTfTXLFrEnVwkrlc5PEsZDNCZXdOr0GRZj">copied from the original hosted image</a>.</p></figcaption></figure> <figure><img src="../.gitbook/assets/gimg-96d56f2ac0cf.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh4.googleusercontent.com/o39Jcw1o7JeSsKuD_q-9xGukmT6pWLGs-9sVIumxLRF7dPpf25w8o9e2OBnWbpPc_p6t9e03D46r34N-8CYZa6fvfcWBVp_7N06xE0kbrvIzBC5sGWcMymN_KtPTfRKwHk1-gRcQ">copied from the original hosted image</a>.</p></figcaption></figure>
-
-This indicates that the model is overfitting. It continues to get better and better at fitting the data that it sees (training data) while getting worse and worse at fitting the data that it does not see (validation data).
-
-[This is a very good example of a train/test loss and an accuracy behavior.](https://machinelearningmastery.com/display-deep-learning-model-training-history-in-keras/)
-
-<figure><img src="../.gitbook/assets/gimg-4234e9a6accd.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh6.googleusercontent.com/GK_rvndJY76-cgBbBetgSZfwTD7RTZW2UsXUtsEZRUvFW1ACpJw9FMhNwj3LBERvmmPvcuTkkwb5HUcXgi7ua42WqJwAZgFP-3NsyF1qEo9GmACXGQGWGSYh3AR7yY765Qm9QfiO">copied from the original hosted image</a>.</p></figcaption></figure> <figure><img src="../.gitbook/assets/gimg-18bdbd62a12e.png" alt=""><figcaption><p>LOSS</p><p>Credit: <a href="https://lh4.googleusercontent.com/Q46fiZLm9mMhuQnOVJjyZWstXj6Aq1Ctev1cvIUsdrOWiOqxfvNlkJjcW08waf8qCERvvt1AkW-HjDrLvjHiVxKTFzxfX0BmVq4hRUERqrGsNLALeJb75Geb06X21Bgb8z2dA6iw">copied from the original hosted image</a>.</p></figcaption></figure>
-
-[Cross entropy formula with soft labels (probability) rather than classes.](https://stats.stackexchange.com/questions/206925/is-it-okay-to-use-cross-entropy-loss-function-with-soft-labels)
-
-[Mastery on cross entropy, brier, roc auc, how to ‘game’ them and calibrate them](https://machinelearningmastery.com/how-to-score-probability-predictions-in-python/)
-
-[Game changer paper - a general adaptive loss search in nn](https://www.reddit.com/r/computervision/comments/bsd82j/a_general_and_adaptive_robust_loss_function/?utm_medium=android_app&utm_source=share)
-
 ## LEARNING RATE REDUCTION
 
-This section compares learning-rate schedules and adaptive optimizers.
+This section compares learning-rate schedules and adaptive optimizers after batch-size notes above.
 
 
 [Intro to Learning Rate methods](https://medium.com/@chengweizhang2012/quick-notes-on-how-to-choose-optimizer-in-keras-9d3d12d09039) - what they are doing and what they are fixing in other algos.
@@ -354,27 +308,36 @@ Another great comparison - [pdf paper](https://arxiv.org/abs/1609.04747) and web
 - An additional benefit is that you will not need to tune the learning rate but will likely achieve the best results with the default value.
 - In summary, RMSprop is an extension of Adagrad that deals with its radically diminishing learning rates. It is identical to Adadelta, except that Adadelta uses the RMS of parameter updates in the numerator update rule. Adam, finally, adds bias-correction and momentum to RMSprop. Insofar, RMSprop, Adadelta, and Adam are very similar algorithms that do well in similar circumstances. Kingma et al. \[10] show that its bias-correction helps Adam slightly outperform RMSprop towards the end of optimization as gradients become sparser. Insofar, Adam might be the best overall choice
 
-## TRAIN / VAL accuracy in NN
+## OPTIMIZERS
 
-This section interprets gaps between training and validation accuracy.
-
-
-The second important quantity to track while training a classifier is the validation/training accuracy. This plot can give you valuable insights into the amount of overfitting in your model:
-
-<figure><img src="../.gitbook/assets/gimg-3daed07eae4a.png" alt=""><figcaption><p>TRAIN / VAL accuracy in NN</p><p>Credit: <a href="https://lh5.googleusercontent.com/K8KuSlFCGaOO9qihQGVQf3Cckcy5A2V98Tt_OKbscmv-ZmmemEVJFs2V9eeydc8Aa_dk-TXXjsJhiPCD7UAqKcvaMc4xsP0RIJNl0EiZ7ybQ5HsrINup7AYJjSfayQELeOA3WS_-">copied from the original hosted image</a>.</p></figcaption></figure>
+This section surveys SGD variants and experimental optimizers after learning-rate reduction above.
 
 
-- The gap between the training and validation accuracy indicates the amount of overfitting.
-- Two possible cases are shown in the diagram on the left. The blue validation error curve shows very small validation accuracy compared to the training accuracy, indicating strong overfitting (note, it's possible for the validation accuracy to even start to go down after some point).
-- NOTE: When you see this in practice you probably want to increase regularization:
-   - stronger L2 weight penalty
-   - Dropout
-   - collect more data.
-- The other possible case is when the validation accuracy tracks the training accuracy fairly well. This case indicates that your model capacity is not high enough: make the model larger by increasing the number of parameters.
+There are several optimizers, each had his 15 minutes of fame, some optimizers are recommended for CNN, Time Series, etc..
+
+There are also what I call ‘experimental’ optimizers, it seems like these pop every now and then, with or without a formal proof. It is recommended to follow the literature and see what are the ‘supposedly’ state of the art optimizers atm.
+
+[Adamod](https://medium.com/@lessw/meet-adamod-a-new-deep-learning-optimizer-with-memory-f01e831b80bd) deeplearning optimizer with memory
+
+Backstitch - September 17 - supposedly an improvement over SGD for speech recognition using DNN. Note: it wasnt tested with other datasets or other network types.
+
+(how does it work?) take a negative step back, then a positive step forward. I.e., When processing a minibatch, instead of taking a single SGD step, we first take a step with −α times the current learning rate, for α > 0 (e.g. α = 0.3), and then a step with 1 + α times the learning rate, with the same minibatch (and a recomputed gradient). So we are taking a small negative step, and then a larger positive step. This resulted in quite large improvements – around 10% relative improvement \[37] – for our best speech recognition DNNs. The recommended hyper parameters are in the paper.
+
+Drawbacks: takes twice to train, momentum not implemented or tested, dropout is mandatory for improvement, slow starter.
+
+[Documentation about optimizers](https://keras.io/optimizers/) in keras
+
+- SGD can be fine tuned
+- For others Leave most parameters as they were
+
+Best description on optimizers with momentum etc, from sgd to nadam, formulas and intuition
+
+<figure><img src="../.gitbook/assets/gimg-15f7e40a401b.png" alt=""><figcaption><p>OPTIMIZERS</p><p>Credit: <a href="https://lh6.googleusercontent.com/-quQMukoMffONyGh-R-nuGssirsDgFz6YQyZAjQ22FyQFglTbpnN0kA7VNQ3UH_o2DSus3SJs2ThnwMS0rnH3iIZN1cK8OzKb39oBj4c2lU-dE9k3c_MDuiMr51IeghvAHLZh2t9">copied from the original hosted image</a>.</p></figcaption></figure>
+
 
 ## INITIALIZERS
 
-This section covers Xavier/Glorot and He weight initialization.
+This section covers Xavier/Glorot and He weight initialization after optimizers above.
 
 
 XAVIER GLOROT:
@@ -402,57 +365,70 @@ This method of initializing became famous through a paper submitted in 2015 by H
 w=np.random.randn(layer_size[l],layer_size[l-1])*np.sqrt(2/layer_size[l-1])
 ```
 
-## ACTIVATION FUNCTIONS
+## BIAS
 
-This section lists common hidden and output activations plus newer options.
-
-The same notes are in [Softmax](../data/information-theory.md#softmax) and [Temperature](../responsible-ai/calibration.md#temperature).
+This section notes the role of bias terms in neural networks after initializers above.
 
 
-1. [a bunch of observations, seems like a personal list](http://sentiment-mining.blogspot.co.il/2015/08/the-difference-of-activation-function.html) -
-   1. Output layer - linear for regression, softmax for classification
-   2. Hidden layers - hyperbolic tangent for shallow networks (less than 3 hidden layers), and ReLU for deep networks
-2. ReLU - The purpose of ReLU is to introduce non-linearity, since most of the real-world data we would want our network to learn would be nonlinear (e.g. convolution is a linear operation – element wise matrix multiplication and addition, so we account for nonlinearity by introducing a nonlinear function like ReLU, e.g [here](https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/) - search for ReLU).
-   1. Relu is quite resistant to vanishing gradient & allows for deactivating neurons and for sparsity.
-   2. Other nonlinear functions such as tanh or sigmoid can also be used instead of ReLU, but ReLU has been found to perform better in most situations.
-3. [Visual + description of activation functions](https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0)
-4. A very good explanation + figures about activations functions
-5. [Selu](https://medium.com/data-science/selu-make-fnns-great-again-snn-8d61526802a9) - better than RELU? Possibly.
-6. [Mish](https://github.com/digantamisra98/Mish): A Self Regularized Non-Monotonic Neural Activation Function, [yam peleg’s code](https://gist.github.com/ypeleg/3af35d07d7f659f387952c9843849772)
-7. Mish, Medium, Keras Code, with benchmarks, computationally expensive.
-8. [Gelu](https://paperswithcode.com/method/gelu) (Used by OpenAI
-9. [Deep Learning 101: Transformer Activation Functions Explainer - Sigmoid, ReLU, GELU, Swish](https://www.saltdatalabs.com/blog/deep-learning-101-transformer-activation-functions-explainer-relu-leaky-relu-gelu-elu-selu-softmax-and-more)
+[The role of bias in NN](https://stackoverflow.com/questions/2480650/role-of-bias-in-neural-networks) - similarly to the ‘b’ in linear regression.
 
-## OPTIMIZERS
-
-This section surveys SGD variants and experimental optimizers.
+<figure><img src="../.gitbook/assets/gimg-30d616f9f94b.png" alt=""><figcaption><p>BIAS</p><p>Credit: <a href="https://lh4.googleusercontent.com/J2OMsHkzsj_c2GqMXdumCZkCNLWbSB2oRlodc9kXts2gko4L8Uf92t46HCG4C4nh5KJAvStQ-o3syY5jAiDTMNZM8fX98xEyaKPCtWtnR5sXKMAsALwVrlLeQzt8zkFVtR1bso3Z">copied from the original hosted image</a>.</p></figcaption></figure>
 
 
-There are several optimizers, each had his 15 minutes of fame, some optimizers are recommended for CNN, Time Series, etc..
+<figure><img src="../.gitbook/assets/gimg-4bfe3cbe12c2.png" alt=""><figcaption><p>BIAS</p><p>Credit: <a href="https://lh6.googleusercontent.com/MfRZSVTUDmh1sHI5lmQG1rgf9mDaF6X5EmqRCncUcq7zG24M457rg2OZwVBi33RH6ImIIJshLg3z1NJ7nw-YCwrwTXATOMYgXpCxh-CDA8awb9wXRvWBJlknfZV_9klTROdNr99F">copied from the original hosted image</a>.</p></figcaption></figure>
 
-There are also what I call ‘experimental’ optimizers, it seems like these pop every now and then, with or without a formal proof. It is recommended to follow the literature and see what are the ‘supposedly’ state of the art optimizers atm.
 
-[Adamod](https://medium.com/@lessw/meet-adamod-a-new-deep-learning-optimizer-with-memory-f01e831b80bd) deeplearning optimizer with memory
+## BATCH NORMALIZATION
 
-Backstitch - September 17 - supposedly an improvement over SGD for speech recognition using DNN. Note: it wasnt tested with other datasets or other network types.
+This section links batch, layer, instance, and weight normalization resources after bias above.
 
-(how does it work?) take a negative step back, then a positive step forward. I.e., When processing a minibatch, instead of taking a single SGD step, we first take a step with −α times the current learning rate, for α > 0 (e.g. α = 0.3), and then a step with 1 + α times the learning rate, with the same minibatch (and a recomputed gradient). So we are taking a small negative step, and then a larger positive step. This resulted in quite large improvements – around 10% relative improvement \[37] – for our best speech recognition DNNs. The recommended hyper parameters are in the paper.
+The same notes are in [Normalization & Scaling](../data/normalization-and-scaling.md).
 
-Drawbacks: takes twice to train, momentum not implemented or tested, dropout is mandatory for improvement, slow starter.
 
-[Documentation about optimizers](https://keras.io/optimizers/) in keras
+1. The [best explanation](https://blog.paperspace.com/busting-the-myths-about-batch-normalization/) to what is BN and why to use it, including busting the myth that it solves internal covariance shift - shifting input distribution, and saying that it should come after activations as it makes more sense (it does),also a nice quote on where a layer ends is really good - it can end at the activation (or not). How to use BN in the test, hint: use a moving window. Bn allows us to use 2 parameters to control the input distribution instead of controlling all the weights.
+2. Medium on BN
+3. Medium on BN
+{% embed url="https://www.youtube.com/watch?v=Xogn6veSyxA&feature=youtu.be&t=325" %}
 
-- SGD can be fine tuned
-- For others Leave most parameters as they were
+5. Medium #2 - a better one on BN, and adding to VGG
+- Blocked. [Reddit on BN, mainly on the paper saying to use it before, but best practice is to use after](https://www.reddit.com/r/MachineLearning/comments/67gonq/d_batch_normalization_before_or_after_relu/)
+7. [Diff between batch and norm (weak explanation)](https://www.quora.com/What-are-the-practical-differences-between-batch-normalization-and-layer-normalization-in-deep-neural-networks)
+- Weight normalization options for Keras and Tensorflow - Martin Krasser. [Weight normalization for keras and TF](http://krasserm.github.io/2018/11/10/weightnorm-implementation-options/)
+- keras-layer-normalization. Layer normalization implemented in Keras. [Layer normalization keras](https://pypi.org/project/keras-layer-normalization/)
+- keras-contrib/keras_contrib/layers/normalization/instancenormalization.py at master · keras-team/keras-contrib. [Instance normalization keras](https://github.com/keras-team/keras-contrib/blob/master/keras_contrib/layers/normalization/instancenormalization.py)
+11. batch/layer/instance in TF with code
+12. Layer norm for rnn’s or whatever name it is in this post with [code](https://gist.github.com/udibr/7f46e790c9e342d75dcbd9b1deb9d940)
 
-Best description on optimizers with momentum etc, from sgd to nadam, formulas and intuition
+[What is the diff between batch/layer/recurrent batch and back rnn normalization](https://datascience.stackexchange.com/questions/12956/paper-whats-the-difference-between-layer-normalization-recurrent-batch-normal)
 
-<figure><img src="../.gitbook/assets/gimg-15f7e40a401b.png" alt=""><figcaption><p>OPTIMIZERS</p><p>Credit: <a href="https://lh6.googleusercontent.com/-quQMukoMffONyGh-R-nuGssirsDgFz6YQyZAjQ22FyQFglTbpnN0kA7VNQ3UH_o2DSus3SJs2ThnwMS0rnH3iIZN1cK8OzKb39oBj4c2lU-dE9k3c_MDuiMr51IeghvAHLZh2t9">copied from the original hosted image</a>.</p></figcaption></figure>
+- Layer normalization (Ba 2016): Does not use batch statistics. Normalize using the statistics collected from all units within a layer of the current sample. Does not work well with ConvNets.
+- Recurrent Batch Normalization (BN) (Cooijmans, 2016; also proposed concurrently by Qianli Liao & Tomaso Poggio, but tested on Recurrent ConvNets, instead of RNN/LSTM): Same as batch normalization. Use different normalization statistics for each time step. You need to store a set of mean and standard deviation for each time step.
+- Batch Normalized Recurrent Neural Networks (Laurent, 2015): batch normalization is only applied between the input and hidden state, but not between hidden states. i.e., normalization is not applied over time.
+- Streaming Normalization (Liao et al. 2016) : it summarizes existing normalizations and overcomes most issues mentioned above. It works well with ConvNets, recurrent learning and online learning (i.e., small mini-batch or one sample at a time):
+- Weight Normalization (Salimans and Kingma 2016): whenever a weight is used, it is divided by its L2 norm first, such that the resulting weight has L2 norm 1. That is, output y=x∗(w/|w|), where x and w denote the input and weight respectively. A scalar scaling factor g is then multiplied to the output y=y∗g. But in my experience g seems not essential for performance (also downstream learnable layers can learn this anyway).
+- Cosine Normalization (Luo et al. 2017): weight normalization is very similar to cosine normalization, where the same L2 normalization is applied to both weight and input: y=(x/|x|)∗(w/|w|). Again, manual or automatic differentiation can compute appropriate gradients of x and w.
+- Note that both Weight and Cosine Normalization have been extensively used (called normalized dot product) in the 2000s in a class of ConvNets called HMAX (Riesenhuber 1999) to model biological vision. You may find them interesting.
+
+More about Batch/layer/instance/group norm are different methods for normalizing the inputs to the layers of deep neural networks
+
+- Layer normalization solves the rnn case that batch couldnt - Is done per feature within the layer and normalized features are replaced
+- Instance does it for (cnn?) using per channel normalization
+- Group does it for group of channels
+- <figure><img src="../.gitbook/assets/gimg-b162b0da7c49.png" alt=""><figcaption><p>BATCH NORMALIZATION</p><p>Credit: <a href="https://lh3.googleusercontent.com/P3AL20iV863GBbN_D07g1PBh2T3nEVrR0CYd_MXi5Gecozo-dc4CzbPemj5Bbyl4SbiZXtu-k8Q4hBXyh6c8SC8jOu4fU9B2G1vi0UT5nyGjDGAxURHqyre9NNmCnm5SVZpuHskF">copied from the original hosted image</a>.</p></figcaption></figure>
+
+[Part1: intuitive explanation to batch normalization](http://mlexplained.com/2018/01/10/an-intuitive-explanation-of-why-batch-normalization-really-works-normalization-in-deep-learning-part-1/)
+
+Part2: [batch/layer/weight normalization](http://mlexplained.com/2018/01/13/weight-normalization-and-layer-normalization-explained-normalization-in-deep-learning-part-2/) - This is a good resource for advantages for every layer
+
+- Layer, per feature in a batch,
+- weight - divided by the norm
+
+<figure><img src="../.gitbook/assets/gimg-82ccffb35da6.png" alt=""><figcaption><p>BATCH NORMALIZATION</p><p>Credit: <a href="https://lh3.googleusercontent.com/IqvjdZcCmsI-rAJ4ye0aUIoyrYLXLJTE2XMeRAAMIi0MxRoSzpRaZ6Op6dWgZ1VkjvBNUcuS8Xr0V9jo7jIpE46-7ktlS9QTDf6vmM8LI4N9juxa3CaLY4B5Gkl9oNPd44DjN5Bs">copied from the original hosted image</a>.</p></figcaption></figure>
 
 
 ## DROPOUT LAYERS IN KERAS AND GENERAL
 
-This section explains dropout, inverted dropout, and LSTM dropout modes.
+This section explains dropout, inverted dropout, and LSTM dropout modes after batch normalization above.
 
 The same notes are in [Regularization](../predictive-ml/regularization.md).
 
@@ -481,9 +457,9 @@ OPEN QUESTIONs:
 - as a consequence of the 50% dropout, the neural network will learn different, redundant representations; the network can’t rely on the particular neurons and the combination (or interaction) of these to be present.
 - Another nice side effect is that training will be faster.
 - Rules:
-   - Dropout is only applied during training,
-   - Need to rescale the remaining neuron activations. E.g., if you set 50% of the activations in a given layer to zero, you need to scale up the remaining ones by a factor of 2.
-   - if the training has finished, you’d use the complete network for testing (or in other words, you set the dropout probability to 0).
+ - Dropout is only applied during training,
+ - Need to rescale the remaining neuron activations. E.g., if you set 50% of the activations in a given layer to zero, you need to scale up the remaining ones by a factor of 2.
+ - if the training has finished, you’d use the complete network for testing (or in other words, you set the dropout probability to 0).
 
 [Implementation of drop out in keras](https://datascience.stackexchange.com/questions/18088/convolutional-layer-dropout-layer-in-keras/18098) is “inverse dropout” - n the Keras implementation, the output values are corrected during training (by dividing, in addition to randomly dropping out the values) instead of during testing (by multiplying). This is called "inverted dropout".
 
@@ -506,65 +482,93 @@ This picture is taken from the paper above. On the left, regular dropout on inpu
 <figure><img src="../.gitbook/assets/gimg-cc863283222f.png" alt=""><figcaption><p>This picture is taken from the paper above. On the left, regular dropout on inputs and outputs. On the right, regular dropout PLUS recurrent dropout.</p><p>Credit: <a href="https://lh3.googleusercontent.com/RF9eawLdYCty8TSrEBsd3NvaxpFbQNG9s551Q-sX1OVlsC3MRZZ1q5s-xYZVv81Z_-3SvK4JwtAwUirZuCE8MPIISw0ebchNTqY3IMEpc76jalJG-0oeRpDGrWMTnYtAELhs0c3-">copied from the original hosted image</a>.</p></figcaption></figure>
 
 
+## TRAIN / VAL accuracy in NN
+
+This section interprets gaps between training and validation accuracy after regularization notes above.
+
+
+The second important quantity to track while training a classifier is the validation/training accuracy. This plot can give you valuable insights into the amount of overfitting in your model:
+
+<figure><img src="../.gitbook/assets/gimg-3daed07eae4a.png" alt=""><figcaption><p>TRAIN / VAL accuracy in NN</p><p>Credit: <a href="https://lh5.googleusercontent.com/K8KuSlFCGaOO9qihQGVQf3Cckcy5A2V98Tt_OKbscmv-ZmmemEVJFs2V9eeydc8Aa_dk-TXXjsJhiPCD7UAqKcvaMc4xsP0RIJNl0EiZ7ybQ5HsrINup7AYJjSfayQELeOA3WS_-">copied from the original hosted image</a>.</p></figcaption></figure>
+
+
+- The gap between the training and validation accuracy indicates the amount of overfitting.
+- Two possible cases are shown in the diagram on the left. The blue validation error curve shows very small validation accuracy compared to the training accuracy, indicating strong overfitting (note, it's possible for the validation accuracy to even start to go down after some point).
+- NOTE: When you see this in practice you probably want to increase regularization:
+ - stronger L2 weight penalty
+ - Dropout
+ - collect more data.
+- The other possible case is when the validation accuracy tracks the training accuracy fairly well. This case indicates that your model capacity is not high enough: make the model larger by increasing the number of parameters.
+
+## HYPER PARAM GRID SEARCHES
+
+This section points at disciplined hyperparameter search guidance after train/val accuracy above.
+
+The same notes are in [Hyper param optimization](meta-learning.md#hyper-param-optimization) and [Hyper Parameter Optimization](../evals/hyper-parameter-optimization.md).
+
+
+- Abstract page for arXiv paper 1803.09820: A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay. [A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay](https://arxiv.org/abs/1803.09820)
+
 ## NEURAL NETWORK OPTIMIZATION TECHNIQUES
 
-This section lists post-training optimization tricks and skip connections.
+This section lists post-training optimization tricks and skip connections after hyperparameter search above.
 
 
 Basically do these after you have a working network
 
-1. [Dont decay the learning rate, increase batchsize - paper](https://arxiv.org/abs/1711.00489) (optimization of a network)
-2. [Add one neuron with skip connection, or to every layer in a binary classification network to get global minimum](https://arxiv.org/abs/1805.08671).
+- Abstract page for arXiv paper 1711.00489: Don't Decay the Learning Rate, Increase the Batch Size. (optimization of a network) [Dont decay the learning rate, increase batchsize - paper](https://arxiv.org/abs/1711.00489)
+- Abstract page for arXiv paper 1805.08671: Adding One Neuron Can Eliminate All Bad Local Minima. . [Add one neuron with skip connection, or to every layer in a binary classification network to get global minimum](https://arxiv.org/abs/1805.08671)
 3. [RESNET, DENSENET UNET](https://medium.com/swlh/resnets-densenets-unets-6bbdbcfdf010) - the trick behind them, concatenating both f(x) = x
 4. [skip connections](https://www.analyticsvidhya.com/blog/2021/08/all-you-need-to-know-about-skip-connections/) by Siravam / Vidhya- "Skip Connections (or Shortcut Connections) as the name suggests skips some of the layers in the neural network and feeds the output of one layer as the input to the next layers.
 
-    Skip Connections were introduced to solve different problems in different architectures. In the case of ResNets, skip connections solved the _degradation problem_ that we addressed earlier whereas, in the case of DenseNets, it ensured feature reusability. We’ll discuss them in detail in the following sections.
+ Skip Connections were introduced to solve different problems in different architectures. In the case of ResNets, skip connections solved the _degradation problem_ that we addressed earlier whereas, in the case of DenseNets, it ensured feature reusability. We’ll discuss them in detail in the following sections.
 
-    Skip connections were introduced in literature even before residual networks. For example, [Highway Networks](https://arxiv.org/abs/1505.00387) (Srivastava et al.) had skip connections with gates that controlled and learned the flow of information to deeper layers. This concept is similar to the gating mechanism in LSTM. Although ResNets is actually a special case of Highway networks, the performance isn’t up to the mark comparing to ResNets. This suggests that it’s better to keep the gradient highways clear than to go for any gates – simplicity wins here!"
+ Skip connections were introduced in literature even before residual networks. For example, [Highway Networks](https://arxiv.org/abs/1505.00387) (Srivastava et al.) had skip connections with gates that controlled and learned the flow of information to deeper layers. This concept is similar to the gating mechanism in LSTM. Although ResNets is actually a special case of Highway networks, the performance isn’t up to the mark comparing to ResNets. This suggests that it’s better to keep the gradient highways clear than to go for any gates – simplicity wins here!"
 
 ## Fine tuning
 
-This section links transfer-learning fine-tuning workflows.
+This section links transfer-learning fine-tuning workflows after optimization techniques above.
 
 The same notes are in [DATASET SELECTION](../data/datasets.md#dataset-selection), [Methods](../generative-ai/methods.md), [TRAINING METHODOLOGIES](../data/datasets.md#training-methodologies), and [Transfer Learning using CNN](convolutional-nets.md#transfer-learning-using-cnn).
 
 
-1. [3 methods to fine tune, cut softmax layer, smaller learning rate, freeze layers](https://flyyufelix.github.io/2016/10/03/fine-tuning-in-keras-part1.html)
+- In this post, I am going to give a comprehensive overview on the practice of fine-tuning, which is a common practice in Deep Learning. [3 methods to fine tune, cut softmax layer, smaller learning rate, freeze layers](https://flyyufelix.github.io/2016/10/03/fine-tuning-in-keras-part1.html)
 2. [Fine tuning on a sunset of data](https://stats.stackexchange.com/questions/289036/fine-tuning-with-a-subset-of-the-same-data)
 
 ## Deep Learning for NLP
 
-This section points at NLP course syllabi and linear-SVM output layers.
+This section points at NLP course syllabi and linear-SVM output layers after fine tuning above.
 
 The same notes are in [Neural NLP](../language-ai/neural-nlp.md).
 
 
 - (did not fully read) [Yoav Goldberg’s course](https://docs.google.com/document/d/1Xf_dqjf7mWmSoYX0HTKnml2mssP5BjrKUs-4E17CbNo/edit) syllabus with lots of relevant topics on DL4NLP, including bidirectional RNNS and tree RNNs.
-- (did not fully read) [CS224d](http://cs224d.stanford.edu/index.html): Deep Learning for Natural Language Processing, with [slides etc.](http://cs224d.stanford.edu/syllabus.html)
+- Stanford University CS224d: Deep Learning for Natural Language Processing. (did not fully read) [CS224d](http://cs224d.stanford.edu/index.html)
+- : Deep Learning for Natural Language Processing, with. [slides etc.](http://cs224d.stanford.edu/syllabus.html)
 
 Deep Learning using Linear Support Vector Machines - 1-3% decrease in error by replacing the softmax layer with a linear support vector machine
 
 ## MULTI LABEL/OUTPUT
 
-This section covers multi-label and multi-output training in sklearn and Keras.
+This section covers multi-label and multi-output training in sklearn and Keras after the NLP notes above.
 
 The same notes are in [Multi Label Classification](../problem-framing/multi-label-classification.md).
 
 
 1. A machine learning framework for [multi-output/multi-label](https://github.com/scikit-multiflow/scikit-multiflow) and stream data. Inspired by MOA and MEKA, following scikit-learn's philosophy. [https://scikit-multiflow.github.io/](https://scikit-multiflow.github.io/)
 2. Medium on MO, sklearn and keras
-3. [MO in keras, see functional API on how.](https://www.pyimagesearch.com/2018/06/04/keras-multiple-outputs-and-multiple-losses/)
+- Keras: Multiple outputs and multiple losses - PyImageSearch. [MO in keras, see functional API on how.](https://www.pyimagesearch.com/2018/06/04/keras-multiple-outputs-and-multiple-losses/)
 
 ### FUZZY MULTI LABEL
 
-This section notes soft or probabilistic multi-label targets.
+This section notes soft or probabilistic multi-label targets after multi-label/output above.
 
 
 1. [Ie., probabilities or soft values instead of hard labels](https://datascience.stackexchange.com/questions/48111/multilabel-classifcation-in-sklearn-with-soft-fuzzy-labels)
 
 ## SIAMESE NETWORKS
 
-This section links siamese and self-supervised representation learning.
+This section links siamese and self-supervised representation learning after multi-label notes above.
 
 The same notes are in [N-Shot Learning](../problem-framing/n-shot-learning.md) and [SIAMESE NETWORKS (one shot)](siamese-nets.md#siamese-networks-one-shot).
 
@@ -574,12 +578,17 @@ The same notes are in [N-Shot Learning](../problem-framing/n-shot-learning.md) a
 
 ## Gated Multi-Layer Perceptron (GMLP)
 
-This section summarizes the gMLP architecture versus Transformers.
+This section summarizes the gMLP architecture versus Transformers after the siamese notes above.
 
 
 1. [paper](https://arxiv.org/abs/2105.08050), [git1](https://github.com/jaketae/g-mlp), [git2](https://github.com/lucidrains/g-mlp-pytorch) - "a simple network architecture, gMLP, based on MLPs with gating, and show that it can perform as well as Transformers in key language and vision applications. Our comparisons show that self-attention is not critical for Vision Transformers, as gMLP can achieve the same accuracy."
 
 ![](<../.gitbook/assets/image).png>)
+
+- Towards Data Science: activation-functions-neural-networks-1cbd9f8d91d6. [https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
+- Towards Data Science: predictive-maintenance-with-lstm-siamese-network-51ee7df29767. [https://towardsdatascience.com/predictive-maintenance-with-lstm-siamese-network-51ee7df29767](https://towardsdatascience.com/predictive-maintenance-with-lstm-siamese-network-51ee7df29767)
+- Towards Data Science: stochastic-gradient-descent-with-momentum-a84097641a5d. [https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d](https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d)
+- Towards Data Science: understanding-backpropagation-algorithm-7bb3aa2f95fd. [https://towardsdatascience.com/understanding-backpropagation-algorithm-7bb3aa2f95fd](https://towardsdatascience.com/understanding-backpropagation-algorithm-7bb3aa2f95fd)
 
 ## Deprecated links
 
@@ -598,18 +607,14 @@ These links and images no longer work. The original wording is kept here. A same
 - Deep Learning using Linear Support Vector Machines. This address no longer opens: http://deeplearning.net/wp-content/uploads/2013/03/dlsvm.pdf
 - Towards Data Science: 10-gradient-descent-optimisation-algorithms-86989510b5e9. This address no longer opens: https://towardsdatascience.com/10-gradient-descent-optimisation-algorithms-86989510b5e9
 - Towards Data Science: a-quick-introduction-to-derivatives-for-machine-learning-people-3cd913c5cf33. This address no longer opens: https://towardsdatascience.com/a-quick-introduction-to-derivatives-for-machine-learning-people-3cd913c5cf33
-- Towards Data Science: activation-functions-neural-networks-1cbd9f8d91d6. This address no longer opens: https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6
 - Towards Data Science: an-alternative-to-batch-normalization-2cee9051e8bc. This address no longer opens: https://towardsdatascience.com/an-alternative-to-batch-normalization-2cee9051e8bc
 - Towards Data Science: batch-normalization-in-neural-networks-1ac91516821c. This address no longer opens: https://towardsdatascience.com/batch-normalization-in-neural-networks-1ac91516821c
 - Towards Data Science: batch-normalization-theory-and-how-to-use-it-with-tensorflow-1892ca0173ad. This address no longer opens: https://towardsdatascience.com/batch-normalization-theory-and-how-to-use-it-with-tensorflow-1892ca0173ad
 - Towards Data Science: implementing-spatial-batch-instance-layer-normalization-in-tensorflow-manual-back-prop-in-tf-77faa8d2c362. This address no longer opens: https://towardsdatascience.com/implementing-spatial-batch-instance-layer-normalization-in-tensorflow-manual-back-prop-in-tf-77faa8d2c362
 - Towards Data Science: mish-8283934a72df. This address no longer opens: https://towardsdatascience.com/mish-8283934a72df
 - Towards Data Science: perceptrons-logical-functions-and-the-xor-problem-37ca5025790a. This address no longer opens: https://towardsdatascience.com/perceptrons-logical-functions-and-the-xor-problem-37ca5025790a
-- Towards Data Science: predictive-maintenance-with-lstm-siamese-network-51ee7df29767. This address no longer opens: https://towardsdatascience.com/predictive-maintenance-with-lstm-siamese-network-51ee7df29767
 - Towards Data Science: random-initialization-for-neural-networks-a-thing-of-the-past-bfcdd806bf9e. This address no longer opens: https://towardsdatascience.com/random-initialization-for-neural-networks-a-thing-of-the-past-bfcdd806bf9e
 - Towards Data Science: selu-make-fnns-great-again-snn-8d61526802a9. This address no longer opens: https://towardsdatascience.com/selu-make-fnns-great-again-snn-8d61526802a9
-- Towards Data Science: stochastic-gradient-descent-with-momentum-a84097641a5d. This address no longer opens: https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d
-- Towards Data Science: understanding-backpropagation-algorithm-7bb3aa2f95fd. This address no longer opens: https://towardsdatascience.com/understanding-backpropagation-algorithm-7bb3aa2f95fd
 - Towards Data Science: understanding-the-derivative-of-the-sigmoid-function-cbfd46fb3716. This address no longer opens: https://towardsdatascience.com/understanding-the-derivative-of-the-sigmoid-function-cbfd46fb3716
 - Towards Data Science: what-data-scientists-should-know-about-multi-output-and-multi-label-training-b9d4be620e11. This address no longer opens: https://towardsdatascience.com/what-data-scientists-should-know-about-multi-output-and-multi-label-training-b9d4be620e11
 - Backstitch. This address no longer opens: http://www.danielpovey.com/files/2017_nips_backstitch.pdf

@@ -1,6 +1,7 @@
 # Calculus
 
-This page is a starting point for matrix calculus, with a note that help is welcome.
+This page is a starting point for matrix calculus used when differentiating through neural nets.
+It points at the explained.ai matrix-calculus note and invites help to grow the page.
 
 [Start here!](https://explained.ai/matrix-calculus/)
 

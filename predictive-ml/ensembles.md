@@ -1,70 +1,70 @@
 # Ensembles
 
-This page collects voting, bagging, boosting, stacking, and related ensemble reading.
+This page collects voting, bagging, boosting, stacking, and related ensemble reading. It moves from WEKA-style ensembles through bagging and boosting into gradient boosting, XGBoost, and CatBoost.
 
 The same notes are in [Active Learning](../problem-framing/active-learning.md), [EXTRA TREES](decision-trees.md#extra-trees), [Interview questions](../ai-product/data-science-management.md#interview-questions), and [RANDOM FOREST](decision-trees.md#random-forest).
 
-1. (good) [review on voting, bagging, boosting stacking, cascading methodologies](https://www.toptal.com/machine-learning/ensemble-methods-kaggle-machine-learn)
-2. [How to combine several sklearn algorithms into a voting ensemble](https://www.youtube.com/watch?v=vlTQLb_a564&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=16)
-3. [Stacking api, MLXTEND](http://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier/)
+- (good) [review on voting, bagging, boosting stacking, cascading methodologies](https://www.toptal.com/machine-learning/ensemble-methods-kaggle-machine-learn)
+- Combining Algos with a Vote - Natural Language Processing With Python and NLTK p.16, by sentdex. [How to combine several sklearn algorithms into a voting ensemble](https://www.youtube.com/watch?v=vlTQLb_a564&list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL&index=16)
+- StackingClassifier: Simple stacking - mlxtend, by Sebastian Raschka. [Stacking api, MLXTEND](http://rasbt.github.io/mlxtend/user_guide/classifier/StackingClassifier/)
 4. Machine learning Mastery on
-   1. [stacking neural nets — really good](https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/)
-      1. Stacked Generalization Ensemble
-      2. Multi-Class Classification Problem
-      3. Multilayer Perceptron Model
-      4. Train and Save Sub-Models
-      5. Separate Stacking Model
-      6. Integrated Stacking Model
-   2. [How to Combine Predictions for Ensemble Learning](https://machinelearningmastery.com/combine-predictions-for-ensemble-learning/)
-      1. Plurality Voting.
-      2. Majority Voting.
-      3. Unanimous Voting.
-      4. Weighted Voting.
-   3. [Essence of Stacking Ensembles for Machine Learning](https://machinelearningmastery.com/essence-of-stacking-ensembles-for-machine-learning/)
-      1. Voting Ensembles
-      2. Weighted Average
-      3. Blending Ensemble
-      4. Super Learner Ensemble
-   4. [Dynamic Ensemble Selection (DES) for Classification in Python](https://machinelearningmastery.com/dynamic-ensemble-selection-in-python/) — Dynamic Ensemble Selection algorithms operate much like DCS algorithms, except predictions are made using votes from multiple classifier models instead of a single best model. In effect, each region of the input feature space is owned by a subset of models that perform best in that region.
-      1. k-Nearest Neighbor Oracle (KNORA) With Scikit-Learn
-         1. KNORA-Eliminate (KNORA-E)
-         2. KNORA-Union (KNORA-U)
-      2. Hyperparameter Tuning for KNORA
-         1. Explore k in k-Nearest Neighbor
-         2. Explore Algorithms for Classifier Pool
-   5. [A Gentle Introduction to Mixture of Experts Ensembles](https://machinelearningmastery.com/mixture-of-experts/)
-      1. Mixture of Experts
-         1. Subtasks
-         2. Expert Models
-         3. Gating Model
-         4. Pooling Method
-      2. Relationship With Other Techniques
-         1. Mixture of Experts and Decision Trees
-         2. Mixture of Experts and Stacking
-   6. [Strong Learners vs. Weak Learners in Ensemble Learning](https://machinelearningmastery.com/strong-learners-vs-weak-learners-for-ensemble-learning/) — Weak learners are models that perform slightly better than random guessing. Strong learners are models that have arbitrarily good accuracy.
+ - Stacking Ensemble for Deep Learning Neural Networks in Python - MachineLearningMastery.com. [stacking neural nets — really good](https://machinelearningmastery.com/stacking-ensemble-for-deep-learning-neural-networks/)
+ 1. Stacked Generalization Ensemble
+ 2. Multi-Class Classification Problem
+ 3. Multilayer Perceptron Model
+ 4. Train and Save Sub-Models
+ 5. Separate Stacking Model
+ 6. Integrated Stacking Model
+ - How to Combine Predictions for Ensemble Learning - MachineLearningMastery.com. [How to Combine Predictions for Ensemble Learning](https://machinelearningmastery.com/combine-predictions-for-ensemble-learning/)
+ 1. Plurality Voting.
+ 2. Majority Voting.
+ 3. Unanimous Voting.
+ 4. Weighted Voting.
+ - Essence of Stacking Ensembles for Machine Learning - MachineLearningMastery.com. [Essence of Stacking Ensembles for Machine Learning](https://machinelearningmastery.com/essence-of-stacking-ensembles-for-machine-learning/)
+ 1. Voting Ensembles
+ 2. Weighted Average
+ 3. Blending Ensemble
+ 4. Super Learner Ensemble
+ 4. [Dynamic Ensemble Selection (DES) for Classification in Python](https://machinelearningmastery.com/dynamic-ensemble-selection-in-python/) — Dynamic Ensemble Selection algorithms operate much like DCS algorithms, except predictions are made using votes from multiple classifier models instead of a single best model. In effect, each region of the input feature space is owned by a subset of models that perform best in that region.
+ 1. k-Nearest Neighbor Oracle (KNORA) With Scikit-Learn
+ 1. KNORA-Eliminate (KNORA-E)
+ 2. KNORA-Union (KNORA-U)
+ 2. Hyperparameter Tuning for KNORA
+ 1. Explore k in k-Nearest Neighbor
+ 2. Explore Algorithms for Classifier Pool
+ - A Gentle Introduction to Mixture of Experts Ensembles - MachineLearningMastery.com. [A Gentle Introduction to Mixture of Experts Ensembles](https://machinelearningmastery.com/mixture-of-experts/)
+ 1. Mixture of Experts
+ 1. Subtasks
+ 2. Expert Models
+ 3. Gating Model
+ 4. Pooling Method
+ 2. Relationship With Other Techniques
+ 1. Mixture of Experts and Decision Trees
+ 2. Mixture of Experts and Stacking
+ 6. [Strong Learners vs. Weak Learners in Ensemble Learning](https://machinelearningmastery.com/strong-learners-vs-weak-learners-for-ensemble-learning/) — Weak learners are models that perform slightly better than random guessing. Strong learners are models that have arbitrarily good accuracy.
 
-      Weak and strong learners are tools from computational learning theory and provide the basis for the development of the boosting class of ensemble methods.
-5. [Vidhya on trees, bagging boosting, gbm, xgb](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/#three)
-6. [Parallel grad boost treest](http://zhanpengfang.github.io/418home.html)
-7. [A comprehensive guide to ensembles read!](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/) (samuel jefroykin)
-   1. Basic Ensemble Techniques
-   2. 2.1 Max Voting
-   3. 2.2 Averaging
-   4. 2.3 Weighted Average
-   5. Advanced Ensemble Techniques
-   6. 3.1 Stacking
-   7. 3.2 Blending
-   8. 3.3 Bagging
-   9. 3.4 Boosting
-   10. Algorithms based on Bagging and Boosting
-   11. 4.1 Bagging meta-estimator
-   12. 4.2 Random Forest
-   13. 4.3 AdaBoost
-   14. 4.4 GBM
-   15. 4.5 XGB
-   16. 4.6 Light GBM
-   17. 4.7 CatBoost
-8. [Kaggler guide to stacking](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/)
+ Weak and strong learners are tools from computational learning theory and provide the basis for the development of the boosting class of ensemble methods.
+- Tutorial on tree based algorithms, which includes decision trees, random forest, ensemble methods and its implementation in R & python, by Himanshi Singh. [Vidhya on trees, bagging boosting, gbm, xgb](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/#three)
+- Parallel Gradient Boosting Decision Trees. Parallel Gradient Boosting Decision Trees. [Parallel grad boost treest](http://zhanpengfang.github.io/418home.html)
+- Learn about ensemble learning techniques, including simple & advanced methods like bagging and boosting, along with key algorithms, by Aishwarya Singh. [A comprehensive guide to ensembles read!](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/)
+ 1. Basic Ensemble Techniques
+ 2. 2.1 Max Voting
+ 3. 2.2 Averaging
+ 4. 2.3 Weighted Average
+ 5. Advanced Ensemble Techniques
+ 6. 3.1 Stacking
+ 7. 3.2 Blending
+ 8. 3.3 Bagging
+ 9. 3.4 Boosting
+ 10. Algorithms based on Bagging and Boosting
+ 11. 4.1 Bagging meta-estimator
+ 12. 4.2 Random Forest
+ 13. 4.3 AdaBoost
+ 14. 4.4 GBM
+ 15. 4.5 XGB
+ 16. 4.6 Light GBM
+ 17. 4.7 CatBoost
+- [Kaggler guide to stacking](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/)
 9. [Blending vs stacking](https://www.quora.com/What-are-examples-of-blending-and-stacking-in-Machine-Learning)
 10. Kaggle ensemble guide
 
@@ -86,6 +86,10 @@ Overfitting — not an issue with bagging, as the mean of the models actually av
 
 <figure><img src="../.gitbook/assets/gimg-2eb3a4109a08.png" alt=""><figcaption><p>Bagging and overfitting.</p><p>Credit: <a href="https://lh4.googleusercontent.com/KOj9utriFKEjOxhw8hFE2iX8gq5ljjBHruuhH1Q-deWVPYrEA2RHWaAhKfs-Q1XivON_F7KA3vXL4Mo-GqI4OZTgi0WhC9iNdo4IoOSxQ8gUyoa_F56TOFiXf-hgMsdIFGWLoq6k">copied from the original hosted image</a>.</p></figcaption></figure>
 
+#Random Forest™ - 1000 trees
+
+bst <- xgboost(data = train$data, label = train$label, max\_depth = 4, num\_parallel\_tree = 1000, subsample = 0.5, colsample\_bytree =0.5, nrounds = 1, objective = "binary:logistic")
+
 ### BOOSTING
 
 This section is AdaBoost-style sequential reweighting of hard examples.
@@ -100,42 +104,6 @@ Adaboost: similar to bagging, create a system that chooses from samples that wer
 4. Create bag\_m with n’ features with replacement, but add a bias for selecting from the samples that were wrongly classified by the previous steps.
 
 <figure><img src="../.gitbook/assets/gimg-4ad806b940e4.png" alt=""><figcaption><p>Boosting.</p><p>Credit: <a href="https://lh5.googleusercontent.com/iwKa08rChrddn1TM9GoSwmc3gGfxhUbOnPpwHoBS8YHEwUPUOkHifHAO88DR2uiDgRg1VL-dgmnQ2NWFFPJ4CTWvoYdFtBCW-feiBX8SdZ1waY0VkGYclr_m48OzHazmHWrNV3G-">copied from the original hosted image</a>.</p></figcaption></figure>
-
-### XGBOOST
-
-This section is XGBoost: definition, overfitting notes, parameters, and WEKA/R usage.
-
-- What is XGBOOST? — XGBoost is an optimized distributed gradient boosting system designed to be highly efficient, flexible and portable [#2nd link](http://dmlc.cs.washington.edu/xgboost.html)
-- [Does it cause overfitting?](https://stats.stackexchange.com/questions/20714/does-ensembling-boosting-cause-overfitting)
-- [Authors Youtube lecture.](https://www.youtube.com/watch?v=Vly8xGnNiWs)
-- [GIT here](https://github.com/dmlc/xgboost)
-- How to use XGB tutorial on medium (comparison to GBC)
-- [How to code tutorial](https://www.youtube.com/watch?v=87xRqEAx6CY), short and makes sense, with info about the parameters.
-- Threads
-- Rounds
-- Tree height
-- Loss function
-- Error
-- Cross fold.
-- [Beautiful Video Class about XGBOOST](https://www.youtube.com/playlist?list=PLZnYQQzkMilqTC12LmnN4WpQexB9raKQG) — mostly practical in jupyter but with some insight about the theory.
-- [Machine learning mastery](http://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/) — slides, video, lots of info.
-
-[R Installation in Weka](https://www.youtube.com/watch?v=EGwHXC3baWU&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&index=15), then XGBOOST in weka through R
-
-Parameters for weka mlr class.xgboost.
-
-- [https://cran.r-project.org/web/packages/xgboost/xgboost.pdf](https://cran.r-project.org/web/packages/xgboost/xgboost.pdf)
-- Here is an example configuration for multi-class classification:
-- weka.classifiers.mlr.MLRClassifier -learner “nrounds = 10, max\_depth = 2, eta = 0.5, nthread = 2”
-- classif.xgboost -params "nrounds = 1000, max\_depth = 4, eta = 0.05, nthread = 5, objective = \\"multi:softprob\\"
-
-Copy: nrounds = 10, max\_depth = 2, eta = 0.5, nthread = 2
-
-Special case of random forest using XGBOOST:
-
-#Random Forest™ - 1000 trees
-
-bst <- xgboost(data = train$data, label = train$label, max\_depth = 4, num\_parallel\_tree = 1000, subsample = 0.5, colsample\_bytree =0.5, nrounds = 1, objective = "binary:logistic")
 
 #Boosting - 3 rounds
 
@@ -154,13 +122,45 @@ This section compares GBC and XGB on loss, speed, and tutorials.
 3. Good XGB vs GBC tutorial
 4. [XGB vs GBC](https://stats.stackexchange.com/questions/282459/xgboost-vs-python-sklearn-gradient-boosted-trees)
 
+### XGBOOST
+
+This section is XGBoost: definition, overfitting notes, parameters, and WEKA/R usage.
+
+- What is XGBOOST? — XGBoost is an optimized distributed gradient boosting system designed to be highly efficient, flexible and portable [#2nd link](http://dmlc.cs.washington.edu/xgboost.html)
+- [Does it cause overfitting?](https://stats.stackexchange.com/questions/20714/does-ensembling-boosting-cause-overfitting)
+- XGBoost A Scalable Tree Boosting System June 02, 2016, by Real Data Science USA (formerly DataScience.LA). [Authors Youtube lecture.](https://www.youtube.com/watch?v=Vly8xGnNiWs)
+- Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C and more. [GIT here](https://github.com/dmlc/xgboost)
+- How to use XGB tutorial on medium (comparison to GBC)
+- [How to code tutorial](https://www.youtube.com/watch?v=87xRqEAx6CY), short and makes sense, with info about the parameters.
+- Threads
+- Rounds
+- Tree height
+- Loss function
+- Error
+- Cross fold.
+- [Beautiful Video Class about XGBOOST](https://www.youtube.com/playlist?list=PLZnYQQzkMilqTC12LmnN4WpQexB9raKQG) — mostly practical in jupyter but with some insight about the theory.
+- A Gentle Introduction to XGBoost for Applied Machine Learning - MachineLearningMastery.com. [Machine learning mastery](http://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/)
+
+[R Installation in Weka](https://www.youtube.com/watch?v=EGwHXC3baWU&list=PLm4W7_iX_v4Msh-7lDOpSFWHRYU_6H5Kx&index=15), then XGBOOST in weka through R
+
+Parameters for weka mlr class.xgboost.
+
+- [https://cran.r-project.org/web/packages/xgboost/xgboost.pdf](https://cran.r-project.org/web/packages/xgboost/xgboost.pdf)
+- Here is an example configuration for multi-class classification:
+- weka.classifiers.mlr.MLRClassifier -learner “nrounds = 10, max\_depth = 2, eta = 0.5, nthread = 2”
+- classif.xgboost -params "nrounds = 1000, max\_depth = 4, eta = 0.05, nthread = 5, objective = \\"multi:softprob\\"
+
+Copy: nrounds = 10, max\_depth = 2, eta = 0.5, nthread = 2
+
+Special case of random forest using XGBOOST:
+
 ## CatBoost
 
 This section lists CatBoost reading.
 
-1. (great) [what is so special?](https://hanishrohit.medium.com/whats-so-special-about-catboost-335d64d754ae)
-2. [the fastest algo](https://medium.com/almabetter/catboost-the-fastest-algorithm-c21d44f8b990)
-3. [a new game in ML](https://affine.medium.com/catboost-a-new-game-of-machine-learning-72a7dcea0ac4)
+- (great) [what is so special?](https://hanishrohit.medium.com/whats-so-special-about-catboost-335d64d754ae)
+- [the fastest algo](https://medium.com/almabetter/catboost-the-fastest-algorithm-c21d44f8b990)
+- [a new game in ML](https://affine.medium.com/catboost-a-new-game-of-machine-learning-72a7dcea0ac4)
 4. use it here is why
 
 ## Deprecated links

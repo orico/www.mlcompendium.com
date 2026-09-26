@@ -1,6 +1,6 @@
 # Regularization
 
-This page is about regularization: a penalty added to a loss so that a model which fits noise is discouraged.
+This page is about regularization: a penalty added to a loss so that a model which fits noise is discouraged. It covers norms, L1/L2 sparsity intuition, priors, and how regularization shows up in an SVM.
 
 The same notes are in [DROPOUT LAYERS IN KERAS AND GENERAL](../deep-learning/deep-neural-nets.md#dropout-layers-in-keras-and-general), [Follow the regularized leader](../decision-intelligence/follow-the-regularized-leader.md), [Intuition for regularization in SVM](linear-separator-algorithms.md#intuition-for-regularization-in-svm), and [Regularization and influence](linear-separator-algorithms.md#regularization-and-influence).
 
@@ -70,7 +70,8 @@ This section explains why the L1 penalty drives some coefficients to zero.
 
 Why does L1 lead to sparsity?
 
-- [Intuition](https://www.quora.com/Why-is-L1-regularization-supposed-to-lead-to-sparsity-than-L2) and [some of the math](https://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization)
+- [Intuition](https://www.quora.com/Why-is-L1-regularization-supposed-to-lead-to-sparsity-than-L2)
+- and [some of the math](https://www.quora.com/What-is-the-difference-between-L1-and-L2-regularization)
 
 <figure><img src="../.gitbook/assets/gimg-547e6ce30a8a.png" alt=""><figcaption><p>Where the hypothesis meets the L1 and L2 constraints.</p><p>Credit: <a href="https://lh6.googleusercontent.com/WOFPU50nTvEN0O6HdQZ8ZEyJQ3lAETvDEF_gyPWkauv7OG13X31ac51_iSTVHvejv34i4DVhQ67W2NgGh5i9Z90iZ3ojhtoLJVWVqo2nmPPb6Rla_eb21CoAI7uT-bjBvaWTYZ3J">copied from the original hosted image</a>.</p></figcaption></figure>
 

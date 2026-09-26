@@ -1,6 +1,6 @@
 # Genetic Algorithms & Genetic Programming
 
-This page contrasts genetic algorithms and genetic programming, with quotes from peterjwest and johnIdol.
+This page contrasts genetic algorithms and genetic programming, with quotes from peterjwest and johnIdol. GA evolves parameters; GP evolves programs or expressions.
 
 The same notes are in [Learning Classifier Systems](learning-classifier-systems.md), [ML Systems](../deep-learning/meta-learning.md#ml-systems), and [NEURO EVOLUTION (GA/GP based)](../deep-learning/other-architectures.md#neuro-evolution-gagp-based).
 

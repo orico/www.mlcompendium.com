@@ -1,72 +1,73 @@
 # Datasets
 
-This page covers data types, train/validation/test splits, imbalance, sampling, and related methodology.
+A model is only as good as the dataset under it, so this page is the work of typing the data, splitting it, and deciding when the sample is fair.
+It moves from structured versus unstructured data through bias, sparsity, train and test splits, sample selection, imbalance, learning curves, distilling, selection, and transfer learning.
 
 ### Structured / Unstructured data
 
-This subsection defines structured versus unstructured data.
+This section defines structured versus unstructured data before bias and splits.
 
 1. [Unstructured ](https://www.webopedia.com/TERM/U/unstructured_data.html)
 2. [Structured](https://www.webopedia.com/TERM/S/structured_data.html)
 
 ### BIAS / VARIANCE
 
-This subsection explains bias and variance diagnostics with Andrew Ng-style examples and images.
+After the data types, this section explains bias and variance diagnostics with Andrew Ng-style examples and images.
 
-1. [Various Bias types](https://queue.acm.org/detail.cfm?id=3466134) by queue.acm
+- [Various Bias types](https://queue.acm.org/detail.cfm?id=3466134) queue acm
 
-   <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Various bias types.</p></figcaption></figure>
-2. [Overfitting your test set, a statistican view point, a great article](https://lukeoakdenrayner.wordpress.com/2019/09/19/ai-competitions-dont-produce-useful-models/), bottom line use bonferroni correction.
-3. Understanding what is the next stage in DL (& ML) algorithm development: basic approach - [Andrew NG](https://www.youtube.com/watch?v=F1ka6a13S9I) on youtube
+ <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Various bias types.</p></figcaption></figure>
+- AI competitions don’t produce useful models – Lauren Oakden-Rayner. [Overfitting your test set, a statistican view point, a great article](https://lukeoakdenrayner.wordpress.com/2019/09/19/ai-competitions-dont-produce-useful-models/)
+3. Understanding what is the next stage in DL (& ML) algorithm development: basic approach - [Andrew NG](https://www.youtube.com/watch?v=F1ka6a13S9I)
 
-    Terms: training, validation, test.
+ Terms: training, validation, test.
 
-    Split: training & validation 70%, test 30%
+ Split: training & validation 70%, test 30%
 
-    Procedure: cross fold training and validation, or further split 70% to training and validation.
-
-
-
-    BIAS - Situation 1 - doing much worse than human:
-
-    Human expert: 1% error
-
-    Training set error: 5% error (test on train)
-
-    Validation set error: 6% error (test on validation or CFV)
-
-    Conclusion: there is a BIAS between human expert and training set
-
-    Solution: 1. Train deeper or bigger\larger networks, 2. train longer, 3. May needs more data to get to the human expert level, Or 4. New model architecture.
+ Procedure: cross fold training and validation, or further split 70% to training and validation.
 
 
-    VARIANCE - Situation 2 - validation set not close to training set error:
 
-    Human expert: 1% error
+ BIAS - Situation 1 - doing much worse than human:
 
-    Training set error: 2% error
+ Human expert: 1% error
 
-    Validation set error: 6% error
+ Training set error: 5% error (test on train)
 
-    Conclusion: there is a VARIANCE problem, i.e. OVERFITTING, between training and validation.
+ Validation set error: 6% error (test on validation or CFV)
 
-    Solution: 1. Early stopping, 2. Regularization or 3. get more data, or 4. New model architecture.
+ Conclusion: there is a BIAS between human expert and training set
 
-    Situation 3 - both:Human expert: 1% error
+ Solution: 1. Train deeper or bigger\larger networks, 2. train longer, 3. May needs more data to get to the human expert level, Or 4. New model architecture.
 
-    Training set error: 5% error
 
-    Validation set error: 10% error
+ VARIANCE - Situation 2 - validation set not close to training set error:
 
-    Conclusion: both problems occur, i.e., BIAS as and VARIANCE.
+ Human expert: 1% error
 
-    Solution:  do it al
+ Training set error: 2% error
+
+ Validation set error: 6% error
+
+ Conclusion: there is a VARIANCE problem, i.e. OVERFITTING, between training and validation.
+
+ Solution: 1. Early stopping, 2. Regularization or 3. get more data, or 4. New model architecture.
+
+ Situation 3 - both:Human expert: 1% error
+
+ Training set error: 5% error
+
+ Validation set error: 10% error
+
+ Conclusion: both problems occur, i.e., BIAS as and VARIANCE.
+
+ Solution: do it al
 
 - Underfitting = Get more data
 - Overfitting = Early stop, regularization, reason: models detail & noise.
 - Happens more in non parametric (and non linear) algorithms such as decision trees.
 - Bottom line, bigger model or more data will solve most issues.
-- In practice advice with [regularized linear regression.](http://www.holehouse.org/mlclass/10_Advice_for_applying_machine_learning.html)
+- 10: Advice for applying Machine Learning — Stanford Machine Learning. In practice advice with [regularized linear regression.](http://www.holehouse.org/mlclass/10_Advice_for_applying_machine_learning.html)
 
 <figure><img src="../.gitbook/assets/gimg-2ea62bce8904.png" alt=""><figcaption><p>Bias and variance situations.</p><p>Credit: <a href="https://lh4.googleusercontent.com/Zg_aGmWE7DxzEUboiliygq923F9Dj6kwmXuCZ2-D4uti4R5HApLcTC-TDaHyb4BLvqRZns6dgTgxABzOObqPvtHIl9Enm5wGCtkC27gNRsnCjzhDxZwaHdwJUTRGu-MpSGvyl72q">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -88,7 +89,7 @@ NOTE: Unlike the usual supervised learning, where all the data is from the same 
 
 [Situation 4](https://youtu.be/F1ka6a13S9I?t=47m26s): However, when there are 2 distributions it’s possible to extend the division of the training set to validation_training and training, and the test to validation and test.
 
-Split:  Train, Valid_Train = 48K\2K & Valid, Test, 5K & 5K.
+Split: Train, Valid_Train = 48K\2K & Valid, Test, 5K & 5K.
 
 <figure><img src="../.gitbook/assets/gimg-278a91013636.png" alt=""><figcaption><p>Train and test when two distributions exist.</p><p>Credit: <a href="https://lh6.googleusercontent.com/Fllv8NnciZ-EQsdO2zvfLdLt90e3t1BIrXWR5NvAap64k0JdChd7j3ABT6RoE83d0BM5EFgTwW9asrN99yDW58hAPoaOLG8eI43rlO_tK68e-SkHej65LEV0xCfFT5aUI78g4oIQ">copied from the original hosted image</a>.</p></figcaption></figure>
 
@@ -103,7 +104,7 @@ Situation 4 is now Test set error - get more data
 
 ### SPARSE DATASETS
 
-This subsection points to sparse matrix formats used in ML.
+With bias named, this section is sparse datasets.
 
 [Sparse matrices](https://machinelearningmastery.com/sparse-matrices-for-machine-learning/) in ML - one hot/tfidf, dictionary/list of lists/ coordinate list.
 
@@ -113,7 +114,7 @@ This marker separated sections in the original notes.
 
 ### TRAINING METHODOLOGIES
 
-This subsection lists split strategies, transfer learning, bootstrapping, and student–teacher training.
+After sparsity, this section lists split strategies and related training methodologies that sit with their original neighbors.
 
 The same notes are in [Fine tuning](../deep-learning/deep-neural-nets.md#fine-tuning), [Methods](../generative-ai/methods.md), and [Transfer Learning using CNN](../deep-learning/convolutional-nets.md#transfer-learning-using-cnn).
 
@@ -125,20 +126,12 @@ The same notes are in [Fine tuning](../deep-learning/deep-neural-nets.md#fine-tu
 
 The same notes are in [PRUNING / KNOWLEDGE DISTILLATION / LOTTERY TICKET](../deep-learning/deep-network-optimization.md#pruning--knowledge-distillation--lottery-ticket).
 
-   <figure><img src="../.gitbook/assets/gimg-0cc4c443ecb9.png" alt=""><figcaption><p>Student–teacher paradigm.</p><p>Credit: <a href="https://lh6.googleusercontent.com/U7Zn0WtBMVLvvN4rinTJhzRU4P8zMJB_1SNiGPQzboJfltWzdTUmcoDcc_0lx94qlfHW4QU11wftCujikfvR3StMxOPCE3FTWPhwPqsfCrYj29NIVt8jb1PlU3hv7hq2Y1DscOWH">copied from the original hosted image</a>.</p></figcaption></figure>
+ <figure><img src="../.gitbook/assets/gimg-0cc4c443ecb9.png" alt=""><figcaption><p>Student–teacher paradigm.</p><p>Credit: <a href="https://lh6.googleusercontent.com/U7Zn0WtBMVLvvN4rinTJhzRU4P8zMJB_1SNiGPQzboJfltWzdTUmcoDcc_0lx94qlfHW4QU11wftCujikfvR3StMxOPCE3FTWPhwPqsfCrYj29NIVt8jb1PlU3hv7hq2Y1DscOWH">copied from the original hosted image</a>.</p></figcaption></figure>
 6. Yoav’s method for transfer learning for languages - train a classifier on labelled data from english and spanish, fine tune using left out spanish data, stop before overfitting. This can be generalized to other domains.
-
-#### TRANSFER LEARNING
-
-This subsection links a hands-on deep learning transfer learning guide and a diagram.
-
-1. In deep learning
-
-   <figure><img src="../.gitbook/assets/gimg-1254419245f4.png" alt=""><figcaption><p>Transfer learning.</p><p>Credit: <a href="https://lh3.googleusercontent.com/xUFaHrHjaypItfpjfzNEZ_Zv2BZJWieQuoBGLXfEnqNJr1PjQXt6D-TJpgaSfhU-BmoMiNqVfQFXMwBFIuvnxRYM6yZS2fxLfd9RoYRto8Bm5oeQZekUqQzO1HZP203PRu3wQT07">copied from the original hosted image</a>.</p></figcaption></figure>
 
 ### TRAIN / TEST / CROSS VALIDATION
 
-This subsection compares split and cross-validation strategies and links holdout diagrams.
+Beside the methodology list, this section is train, test, and cross-validation splits.
 
 The same notes are in [STATISTICAL SAMPLING AND RESAMPLING](probability-and-statistics.md#statistical-sampling-and-resampling).
 
@@ -158,21 +151,38 @@ Scikit-lego on group-based splitting and transformation
 - Multiple times random split tests - problem: samples may not be included in train\test or selected multiple times.
 - Cross validation - pretty good, diff random seed results in diff mean accuracy, variance due to randomness
 - Multiple cross validation - accounts for the randomness of the CV
-- Statistical significance ( t-test)  on multi CV - are two samples drawn from the same population? (no difference). If “yes”, not significant, even if the mean and std deviations differ.
+- Statistical significance ( t-test) on multi CV - are two samples drawn from the same population? (no difference). If “yes”, not significant, even if the mean and std deviations differ.
 
 Finally, When in doubt, use k-fold cross validation (k=10) and use multiple runs of k-fold cross validation with statistical significance tests.
 
 [Out of fold](https://machinelearningmastery.com/out-of-fold-predictions-in-machine-learning/) - leave unseen data, do cross fold on that. Good for ensembles.
 
+### SAMPLE SELECTION
+
+Once splits exist, this section is sample selection.
+
+The same notes are in [A/B Testing](../decision-intelligence/a-b-testing.md).
+
+- [How to choose your sample size from a population based on confidence interval](https://www.checkmarket.com/blog/how-to-estimate-your-population-and-survey-sample-size/)
+
+ <figure><img src="../.gitbook/assets/gimg-02ac465d3915.png" alt=""><figcaption><p>Sample size from a population.</p><p>Credit: <a href="https://lh3.googleusercontent.com/gzSA5OXGcheJTZbY8Vj10NOBmumc9-v87G0G1sKF8cRP8rQegw5vE_hvadFSZLNwY9p6ZQ7bgL61RIcSwv-gBUUycp_0dx6yCpDgr3G2JAKVt4-Bq9Hpqri65B0Jr57MDqUekf-d">copied from the original hosted image</a>.</p></figcaption></figure>
+- How Much Training Data is Required for Machine Learning? - MachineLearningMastery.com. [Data advice, should we get more data? How much](https://machinelearningmastery.com/much-training-data-required-machine-learning/)
+
+Gibbs sampling: - Gibbs Sampling is a MCMC method to draw samples from a potentially really really complicated, high dimensional distribution, where analytically, it’s hard to draw samples from it. The usual suspect would be those nasty integrals when computing the normalizing constant of the distribution, especially in Bayesian inference. Now Gibbs Sampler can draw samples from any distribution, provided you can provide all of the conditional distributions of the joint distribution analytically.
+
+###
+
+This marker separated sections in the original notes.
+
 ### IMBALANCED DATASETS
 
-This subsection covers resampling, cost-sensitive learning, and CNN imbalance findings.
+After selection, this section is imbalanced datasets.
 
 The same notes are in [Decision Trees](../predictive-ml/decision-trees.md) and [Unbalanced labels](../problem-framing/label-algorithms.md#unbalanced-labels).
 
 1. ([the BEST resource and a great api for python)](http://contrib.scikit-learn.org/imbalanced-learn/stable/over_sampling.html) with visual samples - it actually works well on clustering.
-2. [Mastery on](https://machinelearningmastery.com/cost-sensitive-learning-for-imbalanced-classification/) cost sensitive sampling
-3. [Smote for imbalance](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
+- Cost-Sensitive Learning for Imbalanced Classification - MachineLearningMastery.com. [Mastery on](https://machinelearningmastery.com/cost-sensitive-learning-for-imbalanced-classification/)
+- SMOTE for Imbalanced Classification with Python - MachineLearningMastery.com. [Smote for imbalance](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
 
 [Systematic Investigation of imbalance effects in CNN’s](https://arxiv.org/abs/1710.05381), with several observations. This is crucial when training networks, because in real life you don’t always get a balanced DS.
 
@@ -187,69 +197,52 @@ They recommend the following:
 General Rules:
 
 1. Many samples - undersampling
-2. Few  samples  - over sampling
+2. Few samples - over sampling
 3. Consider random and non-random schemes
 4. Different sample rations, instead of 1:1 (proof? papers?)
 
 Balancing data sets ([wiki](https://en.wikipedia.org/wiki/Oversampling_and_undersampling_in_data_analysis), [scikit learn](https://github.com/scikit-learn-contrib/imbalanced-learn) & [examples in SKLEARN](http://contrib.scikit-learn.org/imbalanced-learn/auto_examples/index.html)):
 
 1. Oversampling the minority class
-   - (Random) duplication of samples
-   - SMOTE (in weka + needs to be installed & paper) - find k nearest neighbours,
+ - (Random) duplication of samples
+ - SMOTE (in weka + needs to be installed & paper) - find k nearest neighbours,
 
-      $$\text{New\_Sample} = (\text{random num in [0,1]}) * \text{vec(ki,current\_sample)}$$
+ $$\text{New\_Sample} = (\text{random num in [0,1]}) * \text{vec(ki,current\_sample)}$$
 
-      - (in weka) The nearestNeighbors parameter says how many nearest neighbor instances (surrounding the currently considered instance) are used to build an in between synthetic instance. The default value is 5. Thus the attributes of 5 nearest neighbors of a real existing instance are used to compute a new synthetic one.
-      - (in weka) The percentage parameter says how many synthetic instances are created based on the number of the class with less instances (by default - you can also use the majority class by setting the -Coption). The default value is 100. This means if you have 25 instances in your minority class, again 25 instances are created synthetically from these (using their nearest neighbours' values). With 200% 50 synthetic instances are created and so on.
-   - ADASYN - shifts the classification boundary to the minority class, synthetic data generated for majority class.
+ - (in weka) The nearestNeighbors parameter says how many nearest neighbor instances (surrounding the currently considered instance) are used to build an in between synthetic instance. The default value is 5. Thus the attributes of 5 nearest neighbors of a real existing instance are used to compute a new synthetic one.
+ - (in weka) The percentage parameter says how many synthetic instances are created based on the number of the class with less instances (by default - you can also use the majority class by setting the -Coption). The default value is 100. This means if you have 25 instances in your minority class, again 25 instances are created synthetically from these (using their nearest neighbours' values). With 200% 50 synthetic instances are created and so on.
+ - ADASYN - shifts the classification boundary to the minority class, synthetic data generated for majority class.
 2. Undersampling the majority class
-   - Remove samples
-   - Cluster centroids - replaces a cluster of samples (k-means) with a centroid.
-   - Tomek links - cleans overlapping samples between classes in the majority class.
-   - Penalizing the majority class during training
+ - Remove samples
+ - Cluster centroids - replaces a cluster of samples (k-means) with a centroid.
+ - Tomek links - cleans overlapping samples between classes in the majority class.
+ - Penalizing the majority class during training
 3. Combined over and under (hybrid) - i.e., SMOTE and tomek/ENN
 4. Ensemble sampling
-   - EasyEnsemble
-   - BalanceCascade
+ - EasyEnsemble
+ - BalanceCascade
 5. Dont balance, try algorithms that perform well with unbalanced DS
-   - Decision trees - C4.5\5\CART\Random Forest
-   - SVM
+ - Decision trees - C4.5\5\CART\Random Forest
+ - SVM
 6. Penalize Models -
-   - added costs for misclassification on the minority class during training such as penalized-SVM
-   - a [CostSensitiveClassifier](http://weka.sourceforge.net/doc.dev/weka/classifiers/meta/CostSensitiveClassifier.html) meta classifier in Weka that wraps classifiers and applies a custom penalty matrix for miss classification.
-   - complex
+ - added costs for misclassification on the minority class during training such as penalized-SVM
+ - a [CostSensitiveClassifier](http://weka.sourceforge.net/doc.dev/weka/classifiers/meta/CostSensitiveClassifier.html) meta classifier in Weka that wraps classifiers and applies a custom penalty matrix for miss classification.
+ - complex
 
 ##
 
 This marker separated sections in the original notes.
 
-### SAMPLE SELECTION
-
-This subsection covers survey sample size and training data quantity advice.
-
-The same notes are in [A/B Testing](../decision-intelligence/a-b-testing.md).
-
-1. [How to choose your sample size from a population based on confidence interval](https://www.checkmarket.com/blog/how-to-estimate-your-population-and-survey-sample-size/)
-
-   <figure><img src="../.gitbook/assets/gimg-02ac465d3915.png" alt=""><figcaption><p>Sample size from a population.</p><p>Credit: <a href="https://lh3.googleusercontent.com/gzSA5OXGcheJTZbY8Vj10NOBmumc9-v87G0G1sKF8cRP8rQegw5vE_hvadFSZLNwY9p6ZQ7bgL61RIcSwv-gBUUycp_0dx6yCpDgr3G2JAKVt4-Bq9Hpqri65B0Jr57MDqUekf-d">copied from the original hosted image</a>.</p></figcaption></figure>
-2. [Data advice, should we get more data? How much](https://machinelearningmastery.com/much-training-data-required-machine-learning/)
-
-Gibbs sampling: - Gibbs Sampling is a MCMC method to draw samples from a potentially really really complicated, high dimensional distribution, where analytically, it’s hard to draw samples from it. The usual suspect would be those nasty integrals when computing the normalizing constant of the distribution, especially in Bayesian inference. Now Gibbs Sampler can draw samples from any distribution, provided you can provide all of the conditional distributions of the joint distribution analytically.
-
-###
-
-This marker separated sections in the original notes.
-
 ### LEARNING CURVES
 
-This subsection links learning-curve examples and a scaling study summary.
+With imbalance in view, this section is learning curves.
 
-1. [Git examples](https://gist.github.com/orico/260097cb1a2926c6b6ca6f71c37c135b)
+- Learning Curves for under/overfitting evaluation. [Git examples](https://gist.github.com/orico/260097cb1a2926c6b6ca6f71c37c135b)
 2. [Sklearn examples](https://stats.stackexchange.com/questions/283738/sklearn-learning-curve-example)
-3. [Understanding bias variance via learning curves](http://digitheadslabnotebook.blogspot.com/2011/12/practical-advice-for-applying-machine.html)
-4. [learning curve sampling applied to  model based clustering](http://www.jmlr.org/papers/volume2/meek02a/meek02a.pdf) - seemed like active learning, i.e., sample using EM/cluster to achieve nearly as accurate on all data
+- A blog about technology, programming, software engineering, bioinformatics, machine learning, visualization, R, and other programming languages. [Understanding bias variance via learning curves](http://digitheadslabnotebook.blogspot.com/2011/12/practical-advice-for-applying-machine.html)
+4. [learning curve sampling applied to model based clustering](http://www.jmlr.org/papers/volume2/meek02a/meek02a.pdf) - seemed like active learning, i.e., sample using EM/cluster to achieve nearly as accurate on all data
 5. Predicting sample size required for training
-6. [Advice on many things, including learning curves](https://blog.acolyer.org/2018/03/28/deep-learning-scaling-is-predictable-empirically/amp/)
+- Deep learning scaling is predictable, empirically – the morning paper. [Advice on many things, including learning curves](https://blog.acolyer.org/2018/03/28/deep-learning-scaling-is-predictable-empirically/amp/)
 
 This is a really wonderful study with far-reaching implications that could even impact company strategies in some cases. It starts with a simple question: “how can we improve the state of the art in deep learning?” We have three main lines of attack:
 
@@ -259,11 +252,11 @@ This is a really wonderful study with far-reaching implications that could even 
 
 ### DISTILLING DATA
 
-This subsection links dataset cartography and a Medium post on distilling datasets.
+After the curves, this section is distilling data.
 
 The same notes are in [Dataset Confidence](dataset-confidence.md).
 
-1. Medium on  this [Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics](https://arxiv.org/abs/2009.10795). What I found interesting about this paper is that it challenges the common approach of “the more the merrier” when it comes to training data, and shifts the focus from the quantity of the data to the quality of the data.
+1. Medium on this [Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics](https://arxiv.org/abs/2009.10795). What I found interesting about this paper is that it challenges the common approach of “the more the merrier” when it comes to training data, and shifts the focus from the quantity of the data to the quality of the data.
 
 ###
 
@@ -271,11 +264,37 @@ This marker separated sections in the original notes.
 
 ### DATASET SELECTION
 
-This subsection links transfer-learning source-model selection.
+Next, this section is dataset selection.
 
 The same notes are in [Fine tuning](../deep-learning/deep-neural-nets.md#fine-tuning), [Methods](../generative-ai/methods.md), and [Transfer Learning using CNN](../deep-learning/convolutional-nets.md#transfer-learning-using-cnn).
 
-1. [Medium](https://medium.com/@amielmeiseles/how-to-choose-the-best-source-model-for-transfer-learning-41d5c91c1338)
+- [Medium](https://medium.com/@amielmeiseles/how-to-choose-the-best-source-model-for-transfer-learning-41d5c91c1338)
 
 <figure><img src="../.gitbook/assets/gimg-c3fe706305be.png" alt=""><figcaption><p>Dataset selection for transfer learning.</p><p>Credit: <a href="https://lh3.googleusercontent.com/J9qBdrVcRj5iz0X7-8XjFV4zqNNQpT_MNOCt2Xb1wh34kX8ui82KagDKV88iyUb4BG9Tkos8CfMTjfd25xT1D4DY9869qmaQX_fWVg6KG4qaMCMDCUfPMVQiPaRACAlQ8r40Kesh">copied from the original hosted image</a>.</p></figcaption></figure>
 
+- Overfitting your test set, a statistican view point, a great article. [https://lukeoakdenrayner.wordpress.com/2019/09/19/ai-competitions-dont-produce-useful-models/?fbclid=IwAR1WM5U7imq-2LFPifyCoTPp-MFwPoGROMLr2TZWAp41qgVeLdT-2bkLyk&blogsub=confirming#subscribe-blog](https://lukeoakdenrayner.wordpress.com/2019/09/19/ai-competitions-dont-produce-useful-models/?fbclid=IwAR1WM5U7imq-2LFPifyCoTPp-MFwPoGROMLr2TZWAp41qgVeLdT-2bkLyk&blogsub=confirming#subscribe-blog)
+- Cost-Sensitive Learning for Imbalanced Classification - MachineLearningMastery.com. Mastery on cost sensitive sampling. [https://machinelearningmastery.com/cost-sensitive-learning-for-imbalanced-classification/?fbclid=IwAR0_DeIydTAAkutypcMBfrnC4QyuyqVxDu_uej5t48AvQKShcRUqfMm8Rqo](https://machinelearningmastery.com/cost-sensitive-learning-for-imbalanced-classification/?fbclid=IwAR0_DeIydTAAkutypcMBfrnC4QyuyqVxDu_uej5t48AvQKShcRUqfMm8Rqo)
+- SMOTE for Imbalanced Classification with Python - MachineLearningMastery.com. Smote for imbalance. [https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/?fbclid=IwAR3W59c54ohoaIHnHLQFCcZZanFXI4QzIzuWiUtaUC851JFkwlevCAgvpbM](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/?fbclid=IwAR3W59c54ohoaIHnHLQFCcZZanFXI4QzIzuWiUtaUC851JFkwlevCAgvpbM)
+- Medium on this Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics. [https://arxiv.org/abs/2009.10795](https://arxiv.org/abs/2009.10795)
+- Deep Learning on Steroids with the Power of Knowledge Transfer! In deep learning. [https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
+- Scikit-lego on group-based splitting and transformation. [https://web.archive.org/web/2020/https://scikit-lego.readthedocs.io/en/latest/meta.html#Grouped-Prediction](https://web.archive.org/web/2020/https://scikit-lego.readthedocs.io/en/latest/meta.html#Grouped-Prediction)
+- Example of Gibbs Sampling implementation in Python to sample from a Bivariate Gaussian. Gibbs sampling. [https://web.archive.org/web/2020/https://wiseodd.github.io/techblog/2015/10/09/gibbs-sampling/](https://web.archive.org/web/2020/https://wiseodd.github.io/techblog/2015/10/09/gibbs-sampling/)
+
+#### TRANSFER LEARNING
+
+Closing the dataset story, this section is transfer learning.
+
+1. In deep learning
+
+ <figure><img src="../.gitbook/assets/gimg-1254419245f4.png" alt=""><figcaption><p>Transfer learning.</p><p>Credit: <a href="https://lh3.googleusercontent.com/xUFaHrHjaypItfpjfzNEZ_Zv2BZJWieQuoBGLXfEnqNJr1PjQXt6D-TJpgaSfhU-BmoMiNqVfQFXMwBFIuvnxRYM6yZS2fxLfd9RoYRto8Bm5oeQZekUqQzO1HZP203PRu3wQT07">copied from the original hosted image</a>.</p></figcaption></figure>
+
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+- Scikit-lego on group-based splitting and transformation. This address no longer opens: https://scikit-lego.readthedocs.io/en/latest/meta.html#Grouped-Prediction
+- SMOTE (in weka + needs to be installed & paper). This address no longer opens: http://www.jair.org/media/953/live-953-2037-jair.pdf
+- Gibbs sampling:. This address no longer opens: https://wiseodd.github.io/techblog/2015/10/09/gibbs-sampling/
+- Advice on many things, including learning curves. This address no longer opens: https://blog.acolyer.org/2018/03/28/deep-learning-scaling-is-predictable-empirically/amp/?fbclid=IwAR0V1X1vuCZYmeku12YHJI7wwK7RCKEyE2Q7aRDDT58hjRPzAOrHfvo98WY
+- Medium on this Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics. This address no longer opens: https://towardsdatascience.com/data-maps-datasets-can-be-distilled-too-1991c3c260d6

@@ -1,18 +1,102 @@
 # Product Management Resources
 
-This page is a reading list of product-management books, metrics, and essays.
+Product work needs shared reading, not only tribal memory. This page is beginner lists, outcomes, north-star and market-fit notes, then advanced reading, general essays, and books.
 
 This list was compiled thanks to [Sefi Keller](https://www.linkedin.com/in/sefikeller/?originalSubdomain=il)
 
-## Books
+## Beginner reading list
 
-This section is summaries of The Mom Test.
+These notes are the beginner reading list before outcomes and metrics.
 
-1. The mom test, summaries [1](https://www.wilselby.com/2020/06/the-mom-test-summary-and-insights/) [2](https://feelinspired.medium.com/things-i-learnt-the-mom-test-by-rob-fitzpatrick-9d9d58ce8098) [3](https://www.slideshare.net/xamde/summary-of-the-mom-test) [4](https://lifeclub.org/books/the-mom-test-rob-fitzpatrick-review-summary) [5](https://booksconcepts.com/the-mom-test-by-rob-fitzpatrick/)
+[A living list of product management resources](https://artplusmarketing.com/a-living-list-of-product-management-resources-c5dddbff8b12)
+
+[Good Product Manager/Bad Product Manager](https://a16z.com/2012/06/15/good-product-managerbad-product-manager/)
+
+[Do Things that Don't Scale](http://paulgraham.com/ds.html)
+
+The Three Jobs of Product Management
+
+[The 6 types of Product Managers. Which one do you need?](https://medium.com/@kit_ulrich/the-6-types-of-product-managers-which-one-do-you-need-75c2e66dd592)
+
+[Product strategy means saying no](https://www.intercom.com/blog/product-strategy-means-saying-no/)
+
+[https://medium.com/@sebastienphl/my-product-management-reading-list-2017-cb874975c635](https://medium.com/@sebastienphl/my-product-management-reading-list-2017-cb874975c635)
+
+
+
+[https://medium.com/@noah_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7](https://medium.com/@noah_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7)
+
+
+
+[https://medium.com/pminsider/preparing-for-pm-interviews-how-to-get-there-in-15-20-hours-193f6fcbf606](https://medium.com/pminsider/preparing-for-pm-interviews-how-to-get-there-in-15-20-hours-193f6fcbf606)
+
+
+
+[Minimum Viable Product Manager](https://blackboxofpm.com/mvpm-minimum-viable-product-manager-e1aeb8dd421)
+
+## Outcomes
+
+With the beginner list open, outcomes vs outputs is the product mindset next.
+
+- [output vs outcomes a product mind set](https://medium.com/product-management-in-minutes/output-vs-outcome-a-product-mindset-499735230ce)
+- [outcomes vs outputs](https://medium.com/is-that-product-management/product-management-by-outcomes-vs-outputs-45acdefd1efd)
+
+## North star metric
+
+Outcomes need a single number. These notes are how a north-star metric is chosen and when it changes.
+
+The same notes are in [OKRs & KPIs](management.md#okrs--kpis).
+
+- 400 Bad Request. 400 Bad Request. [Using trees and logreg to determine metrics that outperform intuition only, by linkedIN](http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/companion/p617.pdf)
+- A brief history of Amplitude's north star metric and the changes we've made to continue its evolution. [In-company northstar metrics, when to change and why](https://amplitude.com/blog/evolving-the-product-north-star-metric)
+- [Another one about finding your northstar, actually understanding that more indepth data leads to a](https://www.sisense.com/blog/find-north-star/)
+
+## Product market fit
+
+A north star still needs a market. These notes are product-market fit and the questions that show value.
+
+- Superhuman founder and CEO Rahul Vohra walks us through the framework his startup used to make product/market fit more actionable, detailing the survey and four-step process that were key to measuring and optimizing it. [Superhuman and surveys](https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/)
+- What makes things work [pmf rather than sales](https://blog.betterplanning.co/whats-different-about-govtech-1e3e1fc25963)
+
+[Escaping the build trap](https://www.youtube.com/watch?v=DmJXpI7OJuY&feature=youtu.be) - designing features, doing more agile work without a brain is not a value for the client, using analytics can help us understand if a feature has value.
+
+Asking the right questions and asking the client why they are leaving
+
+<figure><img src="../.gitbook/assets/gimg-42f4b1361dd3.png" alt=""><figcaption><p>Asking the right questions and asking the client why they are leaving</p><p>Credit: <a href="https://lh3.googleusercontent.com/XUq7djFLFMdHsmVTlVL6V2EjmKV2MSVw38w6FSiSONmL6ctdET4gOQmGjPz9sH94FwQJI0IEQXH6DcQa0dGHAXqb0lYRA4kNvKkd2oBM0ymaXQJ-F__UOzCWZSl1iCGtzpZqJds3">copied from the original hosted image</a>.</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/gimg-df40e5912a75.png" alt=""><figcaption><p>Asking the right questions and asking the client why they are leaving</p><p>Credit: <a href="https://lh3.googleusercontent.com/-iyLLS4NFG4RS66aAeWX3h9j_QORnvfUefXVCiDMNZ8K_vPuljKCMmviNbnmubYafEgCaBaWD7N2vv7jAnxKaYRbCFKThBpsfYaUbeJtzssUxRI4Ndkg81cMbjr_7XJPu7Hoe76n">copied from the original hosted image</a>.</p></figcaption></figure>
+
+## Advanced reading list
+
+After fit, the advanced reading list goes deeper on research, decisions, and prioritization.
+
+[https://medium.com/pminsider/usability-pro-tips-7b4eb2cc63c4](https://medium.com/pminsider/usability-pro-tips-7b4eb2cc63c4)
+
+Asking better research questions
+
+[https://blackboxofpm.com/managing-and-developing-product-managers-2f9a3963fab6](https://blackboxofpm.com/managing-and-developing-product-managers-2f9a3963fab6)
+
+[https://medium.com/product-manager-hq/product-managers-are-also-products-bfba0c19636d](https://medium.com/product-manager-hq/product-managers-are-also-products-bfba0c19636d)
+
+[https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b](https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b)
+
+[https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b](https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b)
+
+User stories, how?
+
+[https://hackernoon.com/where-do-product-ideas-come-from-d035c8d6b2e4](https://hackernoon.com/where-do-product-ideas-come-from-d035c8d6b2e4)
+
+[https://medium.com/swlh/practicing-the-art-of-the-lazy-product-manager-part-2-2e21dd4345eb](https://medium.com/swlh/practicing-the-art-of-the-lazy-product-manager-part-2-2e21dd4345eb)
+
+[https://medium.com/stellarpeers/how-would-you-prioritize-new-product-features-for-facebook-301ef72a2dce](https://medium.com/stellarpeers/how-would-you-prioritize-new-product-features-for-facebook-301ef72a2dce)
+
+[https://medium.com/stellarpeers/give-an-example-of-a-good-and-not-so-good-product-2a36c56cffb1](https://medium.com/stellarpeers/give-an-example-of-a-good-and-not-so-good-product-2a36c56cffb1)
+
+Design docs for products
 
 ## General
 
-This section collects notes on what to build, how to prioritize, and how to measure it.
+Beside the named lists, these general notes cover prioritization, metrics, and product craft.
 
 [Root cause of failure](https://www.youtube.com/watch?v=9dccd8lihpQ) - "should we build this feature?"
 
@@ -66,95 +150,15 @@ Asking better research questions
 
 [Dau, mau, stickiness, wau, wau stickiness, cac, etc](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 
-## Outcomes
+## Books
 
-This section is the difference between output and outcomes.
+The shelf ends with The Mom Test summaries.
 
-1. [output vs outcomes a product mind set](https://medium.com/product-management-in-minutes/output-vs-outcome-a-product-mindset-499735230ce)
-2. [outcomes vs outputs](https://medium.com/is-that-product-management/product-management-by-outcomes-vs-outputs-45acdefd1efd)
-
-## North star metric
-
-This section is how a north-star metric is chosen and when it changes.
-
-The same notes are in [OKRs & KPIs](management.md#okrs--kpis).
-
-1. [Using trees and logreg to determine metrics that outperform intuition only, by linkedIN](http://papers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com/companion/p617.pdf)
-2. [In-company northstar metrics, when to change and why](https://amplitude.com/blog/evolving-the-product-north-star-metric)
-3. [Another one about finding your northstar, actually understanding that more indepth data leads to a](https://www.sisense.com/blog/find-north-star/)
-
-## Product market fit
-
-This section is product-market fit, and the questions that show whether a feature has value.
-
-1. [Superhuman and surveys](https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/)
-2. What makes things work, [pmf rather than sales](https://blog.betterplanning.co/whats-different-about-govtech-1e3e1fc25963).
-
-[Escaping the build trap](https://www.youtube.com/watch?v=DmJXpI7OJuY&feature=youtu.be) - designing features, doing more agile work without a brain is not a value for the client, using analytics can help us understand if a feature has value.
-
-Asking the right questions and asking the client why they are leaving
-
-<figure><img src="../.gitbook/assets/gimg-42f4b1361dd3.png" alt=""><figcaption><p>Asking the right questions and asking the client why they are leaving</p><p>Credit: <a href="https://lh3.googleusercontent.com/XUq7djFLFMdHsmVTlVL6V2EjmKV2MSVw38w6FSiSONmL6ctdET4gOQmGjPz9sH94FwQJI0IEQXH6DcQa0dGHAXqb0lYRA4kNvKkd2oBM0ymaXQJ-F__UOzCWZSl1iCGtzpZqJds3">copied from the original hosted image</a>.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/gimg-df40e5912a75.png" alt=""><figcaption><p>Asking the right questions and asking the client why they are leaving</p><p>Credit: <a href="https://lh3.googleusercontent.com/-iyLLS4NFG4RS66aAeWX3h9j_QORnvfUefXVCiDMNZ8K_vPuljKCMmviNbnmubYafEgCaBaWD7N2vv7jAnxKaYRbCFKThBpsfYaUbeJtzssUxRI4Ndkg81cMbjr_7XJPu7Hoe76n">copied from the original hosted image</a>.</p></figcaption></figure>
-
-## Beginner reading list
-
-This section is a beginner reading list.
-
-[A living list of product management resources](https://artplusmarketing.com/a-living-list-of-product-management-resources-c5dddbff8b12)
-
-[Good Product Manager/Bad Product Manager](https://a16z.com/2012/06/15/good-product-managerbad-product-manager/)
-
-[Do Things that Don't Scale](http://paulgraham.com/ds.html)
-
-The Three Jobs of Product Management
-
-[The 6 types of Product Managers. Which one do you need?](https://medium.com/@kit_ulrich/the-6-types-of-product-managers-which-one-do-you-need-75c2e66dd592)
-
-[Product strategy means saying no](https://www.intercom.com/blog/product-strategy-means-saying-no/)
-
-[https://medium.com/@sebastienphl/my-product-management-reading-list-2017-cb874975c635](https://medium.com/@sebastienphl/my-product-management-reading-list-2017-cb874975c635)
-
-
-
-[https://medium.com/@noah_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7](https://medium.com/@noah_weiss/50-articles-and-books-that-will-make-you-a-great-product-manager-aad5babee2f7)
-
-
-
-[https://medium.com/pminsider/preparing-for-pm-interviews-how-to-get-there-in-15-20-hours-193f6fcbf606](https://medium.com/pminsider/preparing-for-pm-interviews-how-to-get-there-in-15-20-hours-193f6fcbf606)
-
-
-
-[Minimum Viable Product Manager](https://blackboxofpm.com/mvpm-minimum-viable-product-manager-e1aeb8dd421)
-
-## Advanced reading list
-
-This section is an advanced reading list.
-
-[https://medium.com/pminsider/usability-pro-tips-7b4eb2cc63c4](https://medium.com/pminsider/usability-pro-tips-7b4eb2cc63c4)
-
-Asking better research questions
-
-[https://blackboxofpm.com/managing-and-developing-product-managers-2f9a3963fab6](https://blackboxofpm.com/managing-and-developing-product-managers-2f9a3963fab6)
-
-[https://medium.com/product-manager-hq/product-managers-are-also-products-bfba0c19636d](https://medium.com/product-manager-hq/product-managers-are-also-products-bfba0c19636d)
-
-[https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b](https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b)
-
-[https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b](https://blackboxofpm.com/making-good-decisions-as-a-product-manager-c66ddacc9e2b)
-
-User stories, how?
-
-[https://hackernoon.com/where-do-product-ideas-come-from-d035c8d6b2e4](https://hackernoon.com/where-do-product-ideas-come-from-d035c8d6b2e4)
-
-[https://medium.com/swlh/practicing-the-art-of-the-lazy-product-manager-part-2-2e21dd4345eb](https://medium.com/swlh/practicing-the-art-of-the-lazy-product-manager-part-2-2e21dd4345eb)
-
-[https://medium.com/stellarpeers/how-would-you-prioritize-new-product-features-for-facebook-301ef72a2dce](https://medium.com/stellarpeers/how-would-you-prioritize-new-product-features-for-facebook-301ef72a2dce)
-
-[https://medium.com/stellarpeers/give-an-example-of-a-good-and-not-so-good-product-2a36c56cffb1](https://medium.com/stellarpeers/give-an-example-of-a-good-and-not-so-good-product-2a36c56cffb1)
-
-Design docs for products
+- This post include some of my key takeaways from reading the book, "The Mom Test" by Rob Fitzpatrick about Product Discovery and user research. The mom test, summaries [1](https://www.wilselby.com/2020/06/the-mom-test-summary-and-insights/)
+- [2](https://feelinspired.medium.com/things-i-learnt-the-mom-test-by-rob-fitzpatrick-9d9d58ce8098)
+- Client Challenge. Client Challenge. [3](https://www.slideshare.net/xamde/summary-of-the-mom-test)
+- The Mom Test Summary, Review PDF. [4](https://lifeclub.org/books/the-mom-test-rob-fitzpatrick-review-summary)
+- SULTANSLOT merupakan gerai game online terbaik tahun 2026 yang dapat diakses melalui link login dan situs alternatif sultanslot tanpa vpn. [5](https://booksconcepts.com/the-mom-test-by-rob-fitzpatrick/)
 
 ## Deprecated links
 

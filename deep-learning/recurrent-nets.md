@@ -1,13 +1,13 @@
-## Recurrent Neural Net (RNN)
+# Recurrent Neural Net (RNN)
 
-This section collects notes on recurrent neural net (rnn).
+This page collects notes on recurrent nets for sequences and time series, including masking and related variants.
+It covers back propagation, LSTM and GRU cells, unsupervised LSTM, QRNN, hierarchical RNNs, and sequence analysis.
 
 The same notes are in [SEQ2SEQ SEQUENCE TO SEQUENCE](../language-ai/neural-nlp.md#seq2seq-sequence-to-sequence).
 
+## RNN
 
-### RNN
-
-This section collects notes on rnn.
+This section defines the basic recurrent loop and masking ideas the later cells build on.
 
 
 a basic NN node with a loop, previous output is merged with current input (using tanh?), for the purpose of remembering history, for time series - to predict the next X based on the previous Y.
@@ -34,9 +34,16 @@ Masking for RNNs - the ideas is simple, we want to use variable length inputs, a
 
 Visual attention RNNS - Same idea as masking but on a window-based cnn. [Paper](https://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf)
 
-### LSTM
+## BACK PROPAGATION
 
-This section collects notes on lstm.
+This section walks back propagation on a small net after the RNN basics above.
+
+
+[A great Slide about back prop, on a simple 3 neuron network, with very easy to understand calculations.](https://www.slideshare.net/AhmedGadFCIT/backpropagation-understanding-how-to-update-anns-weights-stepbystep)
+
+## LSTM
+
+This section covers LSTM cells and Keras usage after the RNN and backprop notes above.
 
 The same notes are in [LTSM for time series](../predictive-ml/forecasting.md#ltsm-for-time-series).
 
@@ -48,15 +55,16 @@ The same notes are in [LTSM for time series](../predictive-ml/forecasting.md#lts
 - Illustrated rnn lstm gru
 - [Paper](https://arxiv.org/pdf/1503.04069.pdf) - a comparison of many LSTMs variants and they are pretty much the same performance wise
 - [Paper](https://arxiv.org/pdf/1503.04069.pdf) - comparison of lstm variants, vanilla is mostly the best, forget and output gates are the most important in terms of performance. Other conclusions in the paper..
-- Master on [unrolling RNN’s introductory post](https://machinelearningmastery.com/rnn-unrolling/)
+- A Gentle Introduction to RNN Unrolling - MachineLearningMastery.com, by Jason Brownlee. Master on [unrolling RNN’s introductory post](https://machinelearningmastery.com/rnn-unrolling/)
 - Mastery on [under/over fitting lstms](https://machinelearningmastery.com/diagnose-overfitting-underfitting-lstm-models/) - but makes sense for all types of networks
-- Mastery on r[eturn\_sequence and return\_state in keras LSTM](https://machinelearningmastery.com/return-sequences-and-return-states-for-lstms-in-keras/)
-   - That return sequences return the hidden state output for each input time step.
-   - That return state returns the hidden state output and cell state for the last input time step.
-   - That return sequences and return state can be used at the same time.
-- Mastery on [understanding stateful vs stateless](https://machinelearningmastery.com/understanding-stateful-lstm-recurrent-neural-networks-python-keras/), [stateful stateless for time series](https://machinelearningmastery.com/stateful-stateless-lstm-time-series-forecasting-python/)
-- Mastery on [timedistributed layer](https://machinelearningmastery.com/timedistributed-layer-for-long-short-term-memory-networks-in-python/) and seq2seq
-   - TimeDistributed Layer - used to connect 3d inputs from lstms to dense layers, in order to utilize the time element. Otherwise it gets flattened when the connection is direct, nulling the lstm purpose. Note: nice trick that doesn't increase the dense layer structure multiplied by the number of dense neurons. It loops for each time step! I.e., The TimeDistributed achieves this trick by applying the same Dense layer (same weights) to the LSTMs outputs for one time step at a time. In this way, the output layer only needs one connection to each LSTM unit (plus one bias).
+- Difference Between Return Sequences and Return States for LSTMs in Keras - MachineLearningMastery.com, by Jason Brownlee. Mastery on r [eturn\_sequence and return\_state in keras LSTM](https://machinelearningmastery.com/return-sequences-and-return-states-for-lstms-in-keras/)
+ - That return sequences return the hidden state output for each input time step.
+ - That return state returns the hidden state output and cell state for the last input time step.
+ - That return sequences and return state can be used at the same time.
+- Understanding Stateful LSTM Recurrent Neural Networks in Python with Keras - MachineLearningMastery.com, by Jason Brownlee. Mastery on [understanding stateful vs stateless](https://machinelearningmastery.com/understanding-stateful-lstm-recurrent-neural-networks-python-keras/)
+- Stateful and Stateless LSTM for Time Series Forecasting with Python - MachineLearningMastery.com, by Jason Brownlee. [stateful stateless for time series](https://machinelearningmastery.com/stateful-stateless-lstm-time-series-forecasting-python/)
+- How to Use the TimeDistributed Layer in Keras - MachineLearningMastery.com, by Jason Brownlee. Mastery on   Mastery and seq2seq [timedistributed layer](https://machinelearningmastery.com/timedistributed-layer-for-long-short-term-memory-networks-in-python/)
+ - TimeDistributed Layer - used to connect 3d inputs from lstms to dense layers, in order to utilize the time element. Otherwise it gets flattened when the connection is direct, nulling the lstm purpose. Note: nice trick that doesn't increase the dense layer structure multiplied by the number of dense neurons. It loops for each time step! I.e., The TimeDistributed achieves this trick by applying the same Dense layer (same weights) to the LSTMs outputs for one time step at a time. In this way, the output layer only needs one connection to each LSTM unit (plus one bias).
 
 For this reason, the number of training epochs needs to be increased to account for the smaller network capacity. I doubled it from 500 to 1000 to match the first one-to-one example
 
@@ -65,15 +73,15 @@ For this reason, the number of training epochs needs to be increased to account 
 - Many-to-One LSTM for Sequence Prediction (without TimeDistributed)
 - Many-to-Many LSTM for Sequence Prediction (with TimeDistributed)
 - Mastery on [wrapping cnn-lstm with time distributed](https://machinelearningmastery.com/cnn-long-short-term-memory-networks/), as a whole model wrap, or on every layer in the model which is equivalent and preferred.
-- Master on [visual examples](https://machinelearningmastery.com/sequence-prediction/) for sequence prediction
-- Unread - sentiment classification of IMDB movies using [Keras and LSTM](http://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
-- [Very important - how to interpret LSTM neurons in keras](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/)
+- Making Predictions with Sequences - MachineLearningMastery.com, by Jason Brownlee. Master on [visual examples](https://machinelearningmastery.com/sequence-prediction/)
+- Unread - sentiment classification of IMDB movies using. [Keras and LSTM](http://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
+- Interpreting neurons in an LSTM network · YerevaNN. [Very important - how to interpret LSTM neurons in keras](https://yerevann.github.io/2017/06/27/interpreting-neurons-in-an-LSTM-network/)
 - [LSTM for time-series](http://www.jakob-aungiers.com/articles/a/LSTM-Neural-Network-for-Time-Series-Prediction) - (jakob) single point prediction, sequence prediction and shifted-sequence prediction with code.
 
 Stateful vs Stateless: crucial for understanding how to leverage LSTM networks:
 
-1. [A good description on what it is and how to use it.](https://groups.google.com/forum/#!topic/keras-users/l1RV_tthjoY)
-2. [ML mastery](https://machinelearningmastery.com/stateful-stateless-lstm-time-series-forecasting-python/)
+- Redirecting to Google Groups. Redirecting to Google Groups. [A good description on what it is and how to use it.](https://groups.google.com/forum/#!topic/keras-users/l1RV_tthjoY)
+- Stateful and Stateless LSTM for Time Series Forecasting with Python - MachineLearningMastery.com, by Jason Brownlee. [ML mastery](https://machinelearningmastery.com/stateful-stateless-lstm-time-series-forecasting-python/)
 3. Philippe remy on stateful vs stateless, intuition mostly with code, but not 100% clear
 
 Machine Learning mastery:
@@ -147,24 +155,9 @@ The default mode is to concatenate, and this is the method often used in studies
 
 [Another simplified example](https://stackoverflow.com/questions/43035827/whats-the-difference-between-a-bidirectional-lstm-and-an-lstm)
 
-### BACK PROPAGATION
+## GRU
 
-This section collects notes on back propagation.
-
-
-[A great Slide about back prop, on a simple 3 neuron network, with very easy to understand calculations.](https://www.slideshare.net/AhmedGadFCIT/backpropagation-understanding-how-to-update-anns-weights-stepbystep)
-
-### UNSUPERVISED LSTM
-
-This section collects notes on unsupervised lstm.
-
-
-1. [Paper](ftp://ftp.idsia.ch/pub/juergen/icann2001unsup.pdf), [paper2](https://arxiv.org/pdf/1502.04681.pdf), [paper3](https://arxiv.org/abs/1709.02081)
-2. [In keras](https://www.reddit.com/r/MachineLearning/comments/4adrie/unsupervised_lstm_using_keras/)
-
-### GRU
-
-This section collects notes on gru.
+This section covers GRU gates as a lighter recurrent cell after LSTM above.
 
 
 A tutorial about GRU - To solve the vanishing gradient problem of a standard RNN, GRU uses, so called, update gate and reset gate. Basically, these are two vectors which decide what information should be passed to the output. The special thing about them is that they can be trained to keep information from long ago, without washing it through time or remove information which is irrelevant to the prediction.
@@ -178,29 +171,53 @@ What is? (a type of cell that converges to higher accuracy faster than LSTM.
 
 it implements attention into the recurrent neural network:
 
-- the keras implementation is available at [https://github.com/keisuke-nakata/rwa](https://github.com/keisuke-nakata/rwa)
+- the keras implementation is available at. [https://github.com/keisuke-nakata/rwa](https://github.com/keisuke-nakata/rwa)
 - the whitepaper is at [https://arxiv.org/pdf/1703.01253.pdf](https://arxiv.org/pdf/1703.01253.pdf)
 
 <figure><img src="../.gitbook/assets/gimg-cec32ffb3999.png" alt=""><figcaption><p>GRU</p><p>Credit: <a href="https://lh6.googleusercontent.com/OgNIg0_EssPKTLuvrFf2cz3R89QeP4FYh7kLrk0J-_AIDjcgaVirW_d668aFDlPXW8mSF2CBtHDgCpiQoFDgc12bChOeePfbyWq1-ybMDdZSga6ezEdr16dKjiFEok8Oajn5XLFm">copied from the original hosted image</a>.</p></figcaption></figure>
 
-### QRNN
+## UNSUPERVISED LSTM
 
-This section collects notes on qrnn.
+This section points at unsupervised LSTM papers after the supervised LSTM notes above.
+
+
+- [Paper](ftp://ftp.idsia.ch/pub/juergen/icann2001unsup.pdf). [paper2](https://arxiv.org/pdf/1502.04681.pdf)
+- Abstract page for arXiv paper 1709.02081: An unsupervised long short-term memory neural network for event detection in cell videos. [paper3](https://arxiv.org/abs/1709.02081)
+- Blocked. Blocked. [In keras](https://www.reddit.com/r/MachineLearning/comments/4adrie/unsupervised_lstm_using_keras/)
+
+## QRNN
+
+This section notes QRNN as a potential competitor after the gated recurrent cells above.
 
 
 Potential competitor to the transformer
 
 ## HIERARCHICAL RNN
 
-This section collects notes on hierarchical rnn.
+This section points at hierarchical RNN examples after the cell-level notes above.
 
 
 1. githubcode
 
 ## NN-Sequence Analysis
 
-This section collects notes on nn-sequence analysis.
+This section points at sequence-analysis papers after the recurrent architectures above.
 
 
 (did not read) [A causal framework for explaining the predictions of black-box sequence-to-sequence models](http://people.csail.mit.edu/tommi/papers/AlvJaa_EMNLP2017.pdf) - can this be applied to other time series prediction?
 
+- Towards Data Science: animated-rnn-lstm-and-gru-ef124d06cf45. [https://towardsdatascience.com/animated-rnn-lstm-and-gru-ef124d06cf45](https://towardsdatascience.com/animated-rnn-lstm-and-gru-ef124d06cf45)
+- Towards Data Science: illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21. [https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
+- Towards Data Science: understanding-gru-networks-2ef37df6c9be. [https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be](https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be)
+
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+- Towards Data Science: qrnn-a-potential-competitor-to-the-transformer-86b5aef6c137. This address no longer opens: https://towardsdatascience.com/qrnn-a-potential-competitor-to-the-transformer-86b5aef6c137
+- Benchmarking RNN networks for text. This address no longer opens: https://danijar.com/benchmarking-recurrent-networks-for-language-modeling
+- Philippe remy. This address no longer opens: http://philipperemy.github.io/keras-stateful-lstm/
+- comparison. This address no longer opens: https://danijar.com/language-modeling-with-layer-norm-and-gru/
+- Jozefowicz et al.. This address no longer opens: http://www.jmlr.org/proceedings/papers/v37/jozefowicz15.pdf
+- githubcode. This address no longer opens: https://github.com/keras-team/keras/blob/master/examples/mnist_hierarchical_rnn.py

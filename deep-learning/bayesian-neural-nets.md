@@ -1,7 +1,7 @@
-## Bayesian Neural Network (BNN)
+# Bayesian Neural Network (BNN)
 
-This section collects notes on bayesian neural network (bnn).
-
+This page collects notes on Bayesian neural networks and prediction uncertainty.
+It starts from what a BNN is and how uncertainty types show up in the forecasting and anomaly settings already described below.
 
 BNN - (what is?) [Bayesian neural network (BNN)](http://edwardlib.org/tutorials/bayesian-neural-network) according to Uber - architecture that more accurately forecasts time series predictions and uncertainty estimations at scale. “how Uber has successfully applied this model to large-scale time series anomaly detection, enabling better accommodate rider demand during high-traffic intervals.”
 
@@ -57,3 +57,13 @@ outputs = keras.layers.Dropout(0.5)(x, training=True)
 
 model = keras.Model(inputs, outputs)“
 
+## Deprecated links
+
+{% hint style="warning" %}
+These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
+{% endhint %}
+- Towards Data Science: is-your-algorithm-confident-enough-1b20dfe2db08. This address no longer opens: https://towardsdatascience.com/is-your-algorithm-confident-enough-1b20dfe2db08
+- BNN. This address no longer opens: https://eng.uber.com/neural-networks-uncertainty-estimation/
+- Neural networks. This address no longer opens: https://eng.uber.com/neural-networks/
+- blog post. This address no longer opens: http://mlg.eng.cam.ac.uk/yarin/blog_3d801aa532c1ce.html
+- Phd Thesis by Yarin. This address no longer opens: http://mlg.eng.cam.ac.uk/yarin/blog_2248.html?fref=gc&dti=999449923520287

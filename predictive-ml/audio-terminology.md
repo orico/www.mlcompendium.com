@@ -1,6 +1,6 @@
 # Terminology
 
-This page defines audio source separation, sound event detection, and query-based separation.
+This page defines audio source separation, sound event detection, and query-based separation. Read it before the algorithm pages so the task names match the methods.
 
 The same notes are in [Audio Source Separation](audio-algorithms.md#audio-source-separation) and [Sound Event Detection](audio-algorithms.md#sound-event-detection).
 
