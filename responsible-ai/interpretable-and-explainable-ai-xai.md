@@ -1,126 +1,116 @@
 # Interpretable & Explainable AI (XAI)
 
-This page lists courses, libraries, and articles on explaining and interpreting ML models.
+A calibrated score still does not say why the model produced it, and that is the question explainability answers. The page opens with the field as a whole, its courses, surveys, the argument for interpretable models, and the libraries, then narrows to the three explainers most people reach for: LIME, Anchor, and SHAP.
 
 The same notes are in [Books & notebooks](../business-problems/data-science.md#books--notebooks).
 
 ## XAI
 
-This section is a curated list of XAI courses, tools, and papers.
+Before choosing a tool it helps to see the map of the field, starting with the overview figure below.
 
 <figure><img src="../.gitbook/assets/gimg-ed6ddd926324.png" alt=""><figcaption><p>Explainable AI.</p><p>Credit: <a href="https://lh3.googleusercontent.com/gQgeZyxlXU37RydzNxXz1VitIZ-vdWr0YGy59EphP1cD8KqEE3VB58CGxxORvdmNuSLeRcRaytp7nJkFZveApPd4Fq8xEOV51ZSuXJsFdkU9EpL8d1cQRKzoCEpBjqARmiRD0NEV">copied from the original hosted image</a>.</p></figcaption></figure>
 
-1. [A series of videos about XAI.](https://www.youtube.com/watch?v=OZJ1IgSgP9E&list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU&index=4)
-2. [A curated document about XAI research resources. ](https://docs.google.com/spreadsheets/d/1uQy6a3BfxOXI8Nh3ECH0bqqSc95zpy4eIp_9JAMBkKg/edit?usp=sharing)
-3. Interpretability and Explainability in Machine Learning [course](https://interpretable-ml-class.github.io/) / slides. Understanding, evaluating, rule based, prototype based, risk scores, generalized additive models, explaining black box, visualizing, feature importance, actionable explanations, casual models, human in the loop, connection with debugging.
-4. [Explainable Machine Learning: Understanding the Limits & Pushing the Boundaries](https://drive.google.com/file/d/1xn2dCDAeEEhB_rex202KxMPqIPj31fZ4/view) a tutorial by Hima Lakkaraju (tutorial VIDEO, [youtube](https://www.youtube.com/watch?v=K6-ujR_67eY), [twitter](https://twitter.com/hima_lakkaraju/status/1390759698224271361))
+The gentlest entry is DeepFindr's "Explainable AI explained!" [A series of videos about XAI.](https://www.youtube.com/watch?v=OZJ1IgSgP9E&list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU&index=4) For breadth, the "Explainable AI resources" spreadsheet is [A curated document about XAI research resources. ](https://docs.google.com/spreadsheets/d/1uQy6a3BfxOXI8Nh3ECH0bqqSc95zpy4eIp_9JAMBkKg/edit?usp=sharing)
 
-   <figure><img src="../.gitbook/assets/gimg-7d772a63bca3.png" alt=""><figcaption><p>Explainable AI tutorial figure.</p><p>Credit: <a href="https://lh3.googleusercontent.com/rO4qszA6Hz3L21ZL3YOJB3GNG9u-Q0rGGQ0QxamCYq6MLwHPxkHhk5GUGhVpMKTM0EJH0SHDIr5Tts9vCvjTKWZzrKDdoaE8jfdLDV3Dstu66HiNYvKmoRBQDAEothlrQM7FSLdD">copied from the original hosted image</a>.</p></figcaption></figure>
-5. [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://arxiv.org/pdf/1811.10154.pdf) by Cinthia rudin
-   - A great[ talk](https://www.youtube.com/watch?app=desktop&v=FEAk-U0dT8Y) on the topic by Shir Meir Lador
-6. [explainML tutorial](https://explainml-tutorial.github.io/neurips20)
-7. [When not to trust explanations :)](https://docs.google.com/presentation/d/10a0PNKwoV3a1XChzvY-T1mWudtzUIZi3sCMzVwGSYfM/edit#slide=id.p)
-8. From the above image: [Paper: Principles and practice of explainable models](https://arxiv.org/abs/2009.11698) - a really good review for everything XAI - “a survey to help industry practitioners (but also data scientists more broadly) understand the field of explainable machine learning better and apply the right tools. Our latter sections build a narrative around a putative data scientist, and discuss how she might go about explaining her models by asking the right questions. From an organization viewpoint, after motivating the area broadly, we discuss the main developments, including the principles that allow us to study transparent models vs opaque models, as well as model-specific or model-agnostic post-hoc explainability approaches. We also briefly reflect on deep learning models, and conclude with a discussion about future research directions.”
-9. [Book: interpretable machine learning](https://christophm.github.io/interpretable-ml-book/agnostic.html), [christoph mulner](https://christophm.github.io/)
-10. (great) [Interpretability overview,](https://thegradient.pub/interpretability-in-ml-a-broad-overview/) transparent (simultability, decomposability, algorithmic transparency) post-hoc interpretability (text explanation, visual local, explanation by example,), evaluation, utility.
-11. [Medium: the great debate](https://medium.com/swlh/the-great-ai-debate-interpretability-1d139167b55)
+The full academic route is the Interpretability and Explainability in Machine Learning [course](https://interpretable-ml-class.github.io/) / slides. Understanding, evaluating, rule based, prototype based, risk scores, generalized additive models, explaining black box, visualizing, feature importance, actionable explanations, casual models, human in the loop, connection with debugging. The same teacher's material continues in three places: the Hima_CHIL.pptx deck [Explainable Machine Learning: Understanding the Limits & Pushing the Boundaries](https://drive.google.com/file/d/1xn2dCDAeEEhB_rex202KxMPqIPj31fZ4/view); a tutorial by Hima Lakkaraju, the ACM "Tutorial: Explainable ML in the Wild" (tutorial VIDEO on [youtube](https://www.youtube.com/watch?v=K6-ujR_67eY)); and her [twitter](https://twitter.com/hima_lakkaraju/status/1390759698224271361) thread announcing a full seminar course on explainability in ML at Harvard, with last year's version of the course linked, under the line "If you think that's all we have got, you are wrong!". The figure below comes from that tutorial material.
 
-    <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>The great AI debate on interpretability.</p></figcaption></figure>
-12. [Paper: pitfalls to avoid when interpreting ML models](https://arxiv.org/abs/2007.04131) “A growing number of techniques provide model interpretations, but can lead to wrong conclusions if applied incorrectly. We illustrate pitfalls of ML model interpretation such as bad model generalization, dependent features, feature interactions or unjustified causal interpretations. Our paper addresses ML practitioners by raising awareness of pitfalls and pointing out solutions for correct model interpretation, as well as ML researchers by discussing open issues for further research.” - mulner et al.
+ <figure><img src="../.gitbook/assets/gimg-7d772a63bca3.png" alt=""><figcaption><p>Explainable AI tutorial figure.</p><p>Credit: <a href="https://lh3.googleusercontent.com/rO4qszA6Hz3L21ZL3YOJB3GNG9u-Q0rGGQ0QxamCYq6MLwHPxkHhk5GUGhVpMKTM0EJH0SHDIr5Tts9vCvjTKWZzrKDdoaE8jfdLDV3Dstu66HiNYvKmoRBQDAEothlrQM7FSLdD">copied from the original hosted image</a>.</p></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Pitfalls when interpreting ML models.</p></figcaption></figure>
-13. *** [whitening a black box.](https://francescopochetti.com/whitening-a-black-box-how-to-interpret-a-ml-model/) This is very good, includes eli5, lime, shap, many others.
-14. Book: [exploratory model analysis](https://pbiecek.github.io/ema/)
-15. [Alibi-explain](https://github.com/SeldonIO/alibi) - White-box and black-box ML model explanation library. Alibi is an open source Python library aimed at machine learning model inspection and interpretation. The focus of the library is to provide high-quality implementations of black-box, white-box, local and global explanation methods for classification and regression models.
+The field has a dissenting voice that is worth hearing early: [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://arxiv.org/pdf/1811.10154.pdf). A great[ talk](https://www.youtube.com/watch?app=desktop&v=FEAk-U0dT8Y) on the topic by Shir Meir Lador goes with it.
 
-    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Alibi explain library.</p></figcaption></figure>
-16. [Hands on explainable ai](https://www.youtube.com/watch?v=1mNhPoab9JI) youtube, [git](https://github.com/PacktPublishing/Hands-On-Explainable-AI-XAI-with-Python)
-17. [Explainable methods](https://medium.com/data-science/interpretable-machine-learning-with-xgboost-9ec80d148d27) are not always consistent and do not agree with each other, this article has a make-sense explanation and flow for using shap and its many plots.
+The tutorials then show both how to explain and when to doubt the explanation. The [explainML tutorial](https://explainml-tutorial.github.io/neurips20) is the NeurIPS 2020 tutorial page, the “Webpage for AAAI 2021, NeuRIPS 2020, and CPAIOR 2021 tutorials.” Its counterweight is the FAccT 2021 deck by Shalmali Joshi, Chirag Agarwal, and Hima Lakkaraju, [When not to trust explanations :)](https://docs.google.com/presentation/d/10a0PNKwoV3a1XChzvY-T1mWudtzUIZi3sCMzVwGSYfM/edit#slide=id.p).
 
-    <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p><a href="https://github.com/raghakot/keras-vis">Keras-vis</a> for cnns, 3 methods, activation maximization, saliency and class activation maps</p></figcaption></figure>
-18. [The notebook!](https://github.com/FraPochetti/KagglePlaygrounds/blob/master/InterpretableML.ipynb) [Blog](https://francescopochetti.com/whitening-a-black-box-how-to-interpret-a-ml-model/)
-19. [More resources!](https://docs.google.com/spreadsheets/d/1uQy6a3BfxOXI8Nh3ECH0bqqSc95zpy4eIp_9JAMBkKg/edit#gid=0)
-20. [Visualizing the impact of feature attribution baseline](https://distill.pub/2020/attribution-baselines/) - Path attribution methods are a gradient-based way of explaining deep models. These methods require choosing a hyperparameter known as the baseline input. What does this hyperparameter mean, and how important is it? In this article, we investigate these questions using image classification networks as a case study. We discuss several different ways to choose a baseline input and the assumptions that are implicit in each baseline. Although we focus here on path attribution methods, our discussion of baselines is closely connected with the concept of missingness in the feature space - a concept that is critical to interpretability research.
-21. WHAT IF TOOL - GOOGLE, [notebook](https://colab.research.google.com/github/PAIR-code/what-if-tool/blob/master/WIT_Smile_Detector.ipynb), [walkthrough](https://pair-code.github.io/what-if-tool/learn/tutorials/walkthrough/)
-22. [Language interpretability tool (LIT) -](https://pair-code.github.io/lit/) The Language Interpretability Tool (LIT) is an open-source platform for visualization and understanding of NLP models.
-23. [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://arxiv.org/abs/1811.10154) - “trying to \textit{explain} black box models, rather than creating models that are \textit{interpretable} in the first place, is likely to perpetuate bad practices and can potentially cause catastrophic harm to society. There is a way forward -- it is to design models that are inherently interpretable. This manuscript clarifies the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identifies challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare, and computer vision.”
-24. [Using genetic algorithms](https://medium.com/data-science/interpreting-black-box-machine-learning-models-with-genetic-algorithms-a803bfd134cb)
-25. [ Google’s what-if tool](https://pair-code.github.io/what-if-tool/demos/image.html) from [PAIR](https://pair.withgoogle.com/)
-26. [Boruta](https://github.com/scikit-learn-contrib/boruta_py) ([medium](https://medium.com/data-science/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)) was designed to automatically perform feature selection on a dataset using randomized features, i.e., measuring valid features against their shadow/noisy counterparts.
+From the above image: [Paper: Principles and practice of explainable models](https://arxiv.org/abs/2009.11698) - a really good review for everything XAI - “a survey to help industry practitioners (but also data scientists more broadly) understand the field of explainable machine learning better and apply the right tools. Our latter sections build a narrative around a putative data scientist, and discuss how she might go about explaining her models by asking the right questions. From an organization viewpoint, after motivating the area broadly, we discuss the main developments, including the principles that allow us to study transparent models vs opaque models, as well as model-specific or model-agnostic post-hoc explainability approaches. We also briefly reflect on deep learning models, and conclude with a discussion about future research directions.”
+
+A survey is easier to use next to a book. [Book: interpretable machine learning](https://christophm.github.io/interpretable-ml-book/agnostic.html) opens its methods overview with a taxonomy, a map so the reader can see the forest for the trees before diving into individual models and methods; its author's site is [christoph mulner](https://christophm.github.io/), which has since moved to christophmolnar.com. (great) [Interpretability overview,](https://thegradient.pub/interpretability-in-ml-a-broad-overview/) transparent (simultability, decomposability, algorithmic transparency) post-hoc interpretability (text explanation, visual local, explanation by example,), evaluation, utility. [Medium: the great debate](https://medium.com/swlh/the-great-ai-debate-interpretability-1d139167b55) is Kirthi Shankar Sivamani on why interpretability comes into question as deep learning models, now state of the art in image processing, NLP, and recommendation, get deployed.
+
+ <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>The great AI debate on interpretability.</p></figcaption></figure>
+
+Knowing the methods is not enough; they can be misread. [Paper: pitfalls to avoid when interpreting ML models](https://arxiv.org/abs/2007.04131) “A growing number of techniques provide model interpretations, but can lead to wrong conclusions if applied incorrectly. We illustrate pitfalls of ML model interpretation such as bad model generalization, dependent features, feature interactions or unjustified causal interpretations. Our paper addresses ML practitioners by raising awareness of pitfalls and pointing out solutions for correct model interpretation, as well as ML researchers by discussing open issues for further research.” - mulner et al.
+
+ <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Pitfalls when interpreting ML models.</p></figcaption></figure>
+
+With the pitfalls in mind, the practical write-ups come next. Rated three stars (\*\*\*), [whitening a black box.](https://francescopochetti.com/whitening-a-black-box-how-to-interpret-a-ml-model/) This is very good, includes eli5, lime, shap, many others. The code behind it is [The notebook!](https://github.com/FraPochetti/KagglePlaygrounds/blob/master/InterpretableML.ipynb) in the KagglePlaygrounds repo, and the post itself is the [Blog](https://francescopochetti.com/whitening-a-black-box-how-to-interpret-a-ml-model/). For a whole book on the subject, [exploratory model analysis](https://pbiecek.github.io/ema/) introduces a unified language for exploration, explanation and examination of predictive machine learning models.
+
+The libraries turn that language into code. [Alibi-explain](https://github.com/SeldonIO/alibi) - White-box and black-box ML model explanation library. Alibi is an open source Python library aimed at machine learning model inspection and interpretation. The focus of the library is to provide high-quality implementations of black-box, white-box, local and global explanation methods for classification and regression models.
+
+ <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Alibi explain library.</p></figcaption></figure>
+
+For a guided course, [Hands on explainable ai](https://www.youtube.com/watch?v=1mNhPoab9JI) is the youtube talk, and its code is the Packt [git](https://github.com/PacktPublishing/Hands-On-Explainable-AI-XAI-with-Python) repo for Explainable AI with Python. A warning belongs next to all these tools: [Explainable methods](https://medium.com/data-science/interpretable-machine-learning-with-xgboost-9ec80d148d27) are not always consistent and do not agree with each other, this article has a make-sense explanation and flow for using shap and its many plots.
+
+For CNNs, the figure below shows the vision-specific options.
+
+ <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p><a href="https://github.com/raghakot/keras-vis">Keras-vis</a> for cnns, 3 methods, activation maximization, saliency and class activation maps</p></figcaption></figure>
+
+Beyond this page, the same spreadsheet has [More resources!](https://docs.google.com/spreadsheets/d/1uQy6a3BfxOXI8Nh3ECH0bqqSc95zpy4eIp_9JAMBkKg/edit#gid=0)
+
+Gradient-based methods hide a choice that changes the answer. [Visualizing the impact of feature attribution baseline](https://distill.pub/2020/attribution-baselines/) - Path attribution methods are a gradient-based way of explaining deep models. These methods require choosing a hyperparameter known as the baseline input. What does this hyperparameter mean, and how important is it? In this article, we investigate these questions using image classification networks as a case study. We discuss several different ways to choose a baseline input and the assumptions that are implicit in each baseline. Although we focus here on path attribution methods, our discussion of baselines is closely connected with the concept of missingness in the feature space - a concept that is critical to interpretability research.
+
+Google's interactive tools let you probe a model instead of reading a plot. The WHAT IF TOOL - GOOGLE [notebook](https://colab.research.google.com/github/PAIR-code/what-if-tool/blob/master/WIT_Smile_Detector.ipynb) runs the smile detector in Colab, and the [walkthrough](https://pair-code.github.io/what-if-tool/learn/tutorials/walkthrough/) uses UCI Census data. [Language interpretability tool (LIT) -](https://pair-code.github.io/lit/) The Language Interpretability Tool (LIT) is an open-source platform for visualization and understanding of NLP models.
+
+The interpretable-first argument comes back in its abstract form. [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://arxiv.org/abs/1811.10154) - “trying to \textit{explain} black box models, rather than creating models that are \textit{interpretable} in the first place, is likely to perpetuate bad practices and can potentially cause catastrophic harm to society. There is a way forward -- it is to design models that are inherently interpretable. This manuscript clarifies the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identifies challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare, and computer vision.”
+
+Other angles on the same problem follow. [Using genetic algorithms](https://medium.com/data-science/interpreting-black-box-machine-learning-models-with-genetic-algorithms-a803bfd134cb) is Federico Piccinini on interpreting black-box models whose predictions are becoming increasingly difficult, and sometimes impossible, to understand. [ Google’s what-if tool](https://pair-code.github.io/what-if-tool/demos/image.html) is the smile detector demo, from [PAIR](https://pair.withgoogle.com/), the People + AI Research team at Google that explores the human side of AI. [Boruta](https://github.com/scikit-learn-contrib/boruta_py) ([medium](https://medium.com/data-science/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a)) was designed to automatically perform feature selection on a dataset using randomized features, i.e., measuring valid features against their shadow/noisy counterparts; the post explains why selecting only the relevant features removes unnecessary noise.
 
 The same notes are in [FEATURE SELECTION](../data/dependence-and-selection.md#feature-selection).
 
-27. [InterpretML](https://interpret.ml/) by Microsoft, [git](https://github.com/interpretml/interpret).
-28. [Connecting Interpretability and Robustness in Decision Trees through Separation](https://icml.cc/virtual/2021/poster/10107), [git](https://github.com/yangarbiter/interpretable-robust-trees)
-29. [Interpret Transformers](https://github.com/cdpierse/transformers-interpret) - explain transformers with 2 lines of code.
+Microsoft's toolkit covers both halves of the field. [InterpretML](https://interpret.ml/) is an open source toolkit for analyzing models and explaining behavior, and its [git](https://github.com/interpretml/interpret) repo, by Microsoft, lets you fit interpretable models and explain blackbox machine learning. Interpretability also connects to robustness: [Connecting Interpretability and Robustness in Decision Trees through Separation](https://icml.cc/virtual/2021/poster/10107) is the ICML poster, with code in its [git](https://github.com/yangarbiter/interpretable-robust-trees) repo. For language models, [Interpret Transformers](https://github.com/cdpierse/transformers-interpret) - explain transformers with 2 lines of code.
 
 ## Lime
 
-This section explains how LIME works and links tutorials.
+Among all those tools, LIME is the first local explainer most people learn: it explains one prediction at a time. The same notes are in [FEATURE IMPORTANCE](../data/dependence-and-selection.md#feature-importance).
 
-The same notes are in [FEATURE IMPORTANCE](../data/dependence-and-selection.md#feature-importance).
-
-1. [*** how lime works behind the scenes](https://medium.com/analytics-vidhya/explain-your-model-with-lime-5a1a5867b423)
-2. [LIME to interpret models](https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime) NLP and IMAGE, [github](https://github.com/marcotcr/lime)- In the experiments in [our research paper](http://arxiv.org/abs/1602.04938), we demonstrate that both machine learning experts and lay users greatly benefit from explanations similar to Figures 5 and 6 and are able to choose which models generalize better, improve models by changing them, and get crucial insights into the models' behavior.
+[*** how lime works behind the scenes](https://medium.com/analytics-vidhya/explain-your-model-with-lime-5a1a5867b423) is Chris Kuo starting from the questions the inventors of LIME were concerned with and then walking through their solutions. [LIME to interpret models](https://www.oreilly.com/learning/introduction-to-local-interpretable-model-agnostic-explanations-lime) introduces the technique to explain the predictions of any machine learning classifier, for NLP and IMAGE, with the [github](https://github.com/marcotcr/lime)- repo. In the experiments in [our research paper](http://arxiv.org/abs/1602.04938), "Why Should I Trust You?", we demonstrate that both machine learning experts and lay users greatly benefit from explanations similar to Figures 5 and 6 and are able to choose which models generalize better, improve models by changing them, and get crucial insights into the models' behavior.
 
 ## Anchor
 
-This section introduces Anchor explanations from the LIME authors.
+A LIME explanation holds near one point, but it does not say how far. Anchor, from the same authors, answers that with a rule.
 
-1. [Anchor from the authors of Lime,](https://github.com/marcotcr/anchor) - An anchor explanation is a rule that sufficiently “anchors” the prediction locally – such that changes to the rest of the feature values of the instance do not matter. In other words, for instances on which the anchor holds, the prediction is (almost) always the same.
+[Anchor from the authors of Lime,](https://github.com/marcotcr/anchor) - An anchor explanation is a rule that sufficiently “anchors” the prediction locally – such that changes to the rest of the feature values of the instance do not matter. In other words, for instances on which the anchor holds, the prediction is (almost) always the same.
 
 ## Shap
 
-This section collects SHAP theory, tutorials, and tooling.
+Local rules still leave open how to divide a prediction fairly among features, and SHAP answers that with game theory. The same notes are in [FEATURE IMPORTANCE](../data/dependence-and-selection.md#feature-importance).
 
-The same notes are in [FEATURE IMPORTANCE](../data/dependence-and-selection.md#feature-importance).
+The theory comes first. Data Science Garage's "How SHAP value is calculated? It is not hard! (simple example)" shows how Shap values are calculated on [youtube](https://www.youtube.com/watch?v=u7Om2joZWYs). Cooporative game theory & Shapely values is Anshika Parihar's [Medium](https://p17anshikap.medium.com/corporative-game-theory-and-shapley-values-b96dc7284701) post. Vincent Knight's "Cooperative Games and the Shapley value" is on [youtube](https://www.youtube.com/watch?v=w9O0fkfMkx0), and his worked example is [Calculating a Taxi fare using Shap](https://www.youtube.com/watch?v=aThG4YAFErw). [Shap explained](https://medium.com/data-science/shap-explained-the-way-i-wish-someone-explained-it-to-me-ab81cc69ef30) presents SHAP, SHapley Additive exPlanations, first published in 2017 by Lundberg and Lee, as a way to reverse-engineer the output of any predictive algorithm.
 
-1. Theory:
-   - How Shap values are calculated - [youtube](https://www.youtube.com/watch?v=u7Om2joZWYs).
-   - Cooporative game theory & Shapely values, [Medium](https://p17anshikap.medium.com/corporative-game-theory-and-shapley-values-b96dc7284701), [youtube](https://www.youtube.com/watch?v=w9O0fkfMkx0)
-   - [Calculating a Taxi fare using Shap](https://www.youtube.com/watch?v=aThG4YAFErw)
-   - [Shap explained](https://medium.com/data-science/shap-explained-the-way-i-wish-someone-explained-it-to-me-ab81cc69ef30)
-2. Intro to shap and lime, [part 1](https://blog.dominodatalab.com/shap-lime-python-libraries-part-1-great-explainers-pros-cons/), [part 2](https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/)
-3. A series on Shap, Lime.
-   1. Part I: [Explain Your Model with the SHAP Values](https://medium.com/data-science/explain-your-model-with-the-shap-values-bc36aac4de3d)
-   2. Part II: [The SHAP with More Elegant Charts](https://dataman-ai.medium.com/the-shap-with-more-elegant-charts-bc3e73fa1c0c)
-   3. Part III: [How Is the Partial Dependent Plot Calculated?](https://dataman-ai.medium.com/how-is-the-partial-dependent-plot-computed-8d2001a0e556)
-   4. Part VI: [An Explanation for eXplainable AI](https://medium.com/analytics-vidhya/an-explanation-for-explainable-ai-xai-d56ae3dacd13)
-   5. Part V: Explain Any Models with the SHAP Values — Use the KernelExplainer
-   6. Part VI: [The SHAP Values with H2O Models](https://medium.com/dataman-in-ai/the-shap-values-with-h2o-models-773a203b75e3)
-   7. Part VII: [Explain Your Model with LIME](https://medium.com/@Dataman.ai/explain-your-model-with-lime-5a1a5867b423)
-   8. Part VIII: [Explain Your Model with Microsoft’s InterpretML](https://medium.com/@Dataman.ai/explain-your-model-with-microsofts-interpretml-5daab1d693b4)
-4. Medium Intro to lime and shap
-5. **** In depth SHAP
-6. [Github](https://github.com/slundberg/shap)
-7. [Country happiness using shap](https://sararobinson.dev/2019/03/24/preventing-bias-machine-learning.html)
-8. [Stackoverflow example, predicting tags, pandas keras etc](https://stackoverflow.blog/2019/05/06/predicting-stack-overflow-tags-with-googles-cloud-ai/)
-9. Intro to shapely and shap
-10. [Fiddler on shap](https://medium.com/fiddlerlabs/case-study-explaining-credit-modeling-predictions-with-shap-2a7b3f86ec12)
-11. Shapash
-    - [shapash git - ](https://github.com/MAIF/shapash)[a web app](https://github.com/MAIF/shapash) (lime and shap)[. ](https://github.com/MAIF/shapash)
-    - [making models understandable by everyone](https://pub.towardsai.net/shapash-making-ml-models-understandable-by-everyone-8f96ad469eb3) - Yann Golhen
-    - [using shapash for confidence on XAI.](https://medium.com/data-science/building-confidence-on-explainability-methods-66b9ee575514) - francesco marini
-       using 3 new metrics
+The two libraries are easiest to compare side by side. Intro to shap and lime [part 1](https://blog.dominodatalab.com/shap-lime-python-libraries-part-1-great-explainers-pros-cons/) is a brief technical introduction with code and output showing pros and cons of each, and [part 2](https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/) shows how to use them in practice and interpret their output.
 
-       - Consistency - _do different explainability methods give, on average, similar explanations?_
-       - Stability - _for similar instances, are the explanations similar?_
-       - Compacity - do fewer features drive the model?
-12. Partial Shap
-    - Which Of Your Features Are Overfitting? by Samuele Mazzanti - "Discover “ParShap”: an advanced method to detect which columns make your model underperform on new data" implemented in [pingouin](https://pingouin-stats.org/)-stats. ([Medium link](https://medium.com/data-science/which-of-your-features-are-overfitting-c46d0762e769))
-13. Shap residuals
-    - [medium](https://medium.com/data-science/shapley-residuals-measuring-the-limitations-of-shapley-values-for-explainability-d9cdc3582522)
-14. SHAP advanced
-    1. [Official shap tutorial on their plots, you can never read this too many times.](https://shap.readthedocs.io/en/latest/example_notebooks/api_examples/plots/decision_plot.html)
-    2. What are shap values on kaggle - whatever you do start with this
-    3. Shap values on kaggle #2 - continue with this
-    4. How to calculate Shap values per class based on this graph
+A series on Shap, Lime, by Chris Kuo, walks the same ground in order:
 
-       <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>SHAP values per class.</p></figcaption></figure>
-15. [A thorough post about the many ways of explaining a model, from regression, to bayes, to trees, forests, lime, beta, feature selection/elimination](https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html#interpretable-models)
-16. [Trusting models](https://arxiv.org/pdf/1602.04938.pdf)
-17. [Interpret using uncertainty](https://becominghuman.ai/using-uncertainty-to-interpret-your-model-67a97c28fea5)
-18. [Shap in Python](https://medium.com/data-science/introduction-to-shap-with-python-d27edc23c454)
+- Part I: [Explain Your Model with the SHAP Values](https://medium.com/data-science/explain-your-model-with-the-shap-values-bc36aac4de3d), on why interpretability is like a label on a drug bottle
+- Part II: [The SHAP with More Elegant Charts](https://dataman-ai.medium.com/the-shap-with-more-elegant-charts-bc3e73fa1c0c)
+- Part III: [How Is the Partial Dependent Plot Calculated?](https://dataman-ai.medium.com/how-is-the-partial-dependent-plot-computed-8d2001a0e556), the marginal effect that one or two features have on the predicted outcome
+- Part VI: [An Explanation for eXplainable AI](https://medium.com/analytics-vidhya/an-explanation-for-explainable-ai-xai-d56ae3dacd13)
+- Part V: Explain Any Models with the SHAP Values — Use the KernelExplainer
+- Part VI: [The SHAP Values with H2O Models](https://medium.com/dataman-in-ai/the-shap-values-with-h2o-models-773a203b75e3)
+- Part VII: [Explain Your Model with LIME](https://medium.com/@Dataman.ai/explain-your-model-with-lime-5a1a5867b423)
+- Part VIII: [Explain Your Model with Microsoft’s InterpretML](https://medium.com/@Dataman.ai/explain-your-model-with-microsofts-interpretml-5daab1d693b4)
+
+Two older pointers, Medium Intro to lime and shap and the four-star In depth SHAP post, are kept at the end of the page. The library itself is on [Github](https://github.com/slundberg/shap): a game theoretic approach to explain the output of any machine learning model.
+
+Worked examples show SHAP on real data. Sara Robinson's "Preventing bias in ML models, with code" explains [Country happiness using shap](https://sararobinson.dev/2019/03/24/preventing-bias-machine-learning.html). The [Stackoverflow example, predicting tags, pandas keras etc](https://stackoverflow.blog/2019/05/06/predicting-stack-overflow-tags-with-googles-cloud-ai/) leverages Stack Overflow data and Google's Cloud AI. An intro to shapely and shap is also kept at the end of the page. [Fiddler on shap](https://medium.com/fiddlerlabs/case-study-explaining-credit-modeling-predictions-with-shap-2a7b3f86ec12) is Fiddler Labs applying SHAP to predicting loan defaults on Lending Club data.
+
+Shapash wraps SHAP and LIME in a user-friendly interface for reliable and transparent models. The [shapash git - ](https://github.com/MAIF/shapash) repo is MAIF's; it serves as [a web app](https://github.com/MAIF/shapash) and works on both explainers (lime and shap) [. ](https://github.com/MAIF/shapash) [making models understandable by everyone](https://pub.towardsai.net/shapash-making-ml-models-understandable-by-everyone-8f96ad469eb3) is by Yann Golhen. [using shapash for confidence on XAI.](https://medium.com/data-science/building-confidence-on-explainability-methods-66b9ee575514) is by francesco marini, on explaining black-box decision-making, using 3 new metrics:
+
+ - Consistency - _do different explainability methods give, on average, similar explanations?_
+ - Stability - _for similar instances, are the explanations similar?_
+ - Compacity - do fewer features drive the model?
+
+SHAP can also point at the features that fail on new data, which is Partial Shap: Which Of Your Features Are Overfitting? by Samuele Mazzanti - "Discover “ParShap”: an advanced method to detect which columns make your model underperform on new data" implemented in [pingouin](https://pingouin-stats.org/)-stats. ([Medium link](https://medium.com/data-science/which-of-your-features-are-overfitting-c46d0762e769)) And Shapley values have limits of their own, measured by Shap residuals in this [medium](https://medium.com/data-science/shapley-residuals-measuring-the-limitations-of-shapley-values-for-explainability-d9cdc3582522) post.
+
+For SHAP advanced, follow these in order:
+
+1. [Official shap tutorial on their plots, you can never read this too many times.](https://shap.readthedocs.io/en/latest/example_notebooks/api_examples/plots/decision_plot.html), the decision plot page of the SHAP documentation
+2. What are shap values on kaggle - whatever you do start with this: [https://www.kaggle.com/dansbecker/shap-values](https://www.kaggle.com/dansbecker/shap-values)
+3. Shap values on kaggle #2 - continue with this: [https://www.kaggle.com/dansbecker/advanced-uses-of-shap-values](https://www.kaggle.com/dansbecker/advanced-uses-of-shap-values)
+4. How to calculate Shap values per class based on this graph
+
+ <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>SHAP values per class.</p></figcaption></figure>
+
+SHAP is one way among many. "How To Explain The Prediction Of A Machine Learning Model" is [A thorough post about the many ways of explaining a model, from regression, to bayes, to trees, forests, lime, beta, feature selection/elimination](https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html#interpretable-models). [Trusting models](https://arxiv.org/pdf/1602.04938.pdf) is the "Why Should I Trust You?" paper behind LIME. [Interpret using uncertainty](https://becominghuman.ai/using-uncertainty-to-interpret-your-model-67a97c28fea5) is Yoel Zeldes on how growing DNN complexity makes interpretability a new challenge, and uncertainty a way into it. [Shap in Python](https://medium.com/data-science/introduction-to-shap-with-python-d27edc23c454) presents SHAP as the Python package for understanding and debugging models, showing how each feature contributed to an individual prediction and, aggregated, the trends across predictions.
+
+Several of the posts above also live at their original towardsdatascience addresses. Explainable methods is "Interpretable Machine Learning using SHAP - theory and applications", by Khalil Zlaoui: [https://towardsdatascience.com/interpretable-machine-learning-with-xgboost-9ec80d148d27](https://towardsdatascience.com/interpretable-machine-learning-with-xgboost-9ec80d148d27). Using genetic algorithms is an adversarial explanation approach to interpreting complex machine learning predictions, by Federico Piccinini: [https://towardsdatascience.com/interpreting-black-box-machine-learning-models-with-genetic-algorithms-a803bfd134cb](https://towardsdatascience.com/interpreting-black-box-machine-learning-models-with-genetic-algorithms-a803bfd134cb). The Boruta (medium) post, "If you aren't using Boruta for feature selection, you should", by Aaron Lee: [https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a](https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a). Shap explained, a tool that shows how each feature affects every prediction of the model, by Vinicius Trevisan: [https://towardsdatascience.com/shap-explained-the-way-i-wish-someone-explained-it-to-me-ab81cc69ef30](https://towardsdatascience.com/shap-explained-the-way-i-wish-someone-explained-it-to-me-ab81cc69ef30). Part I: Explain Your Model with the SHAP Values: [https://towardsdatascience.com/explain-your-model-with-the-shap-values-bc36aac4de3d](https://towardsdatascience.com/explain-your-model-with-the-shap-values-bc36aac4de3d). Using shapash for confidence on XAI, open-sourced metrics to evaluate the quality of explanations: [https://towardsdatascience.com/building-confidence-on-explainability-methods-66b9ee575514](https://towardsdatascience.com/building-confidence-on-explainability-methods-66b9ee575514). The Shap residuals medium post, which uses bar trivia to show information missed by Shapley values, by Max Cembalest: [https://towardsdatascience.com/shapley-residuals-measuring-the-limitations-of-shapley-values-for-explainability-d9cdc3582522](https://towardsdatascience.com/shapley-residuals-measuring-the-limitations-of-shapley-values-for-explainability-d9cdc3582522). Shap in Python, by Vinicius Trevisan: [https://towardsdatascience.com/introduction-to-shap-with-python-d27edc23c454](https://towardsdatascience.com/introduction-to-shap-with-python-d27edc23c454). The ParShap tool from "Which Of Your Features Are Overfitting?" is pingouin-stats (Medium link): [https://pingouin-stats.org/](https://pingouin-stats.org/). Finally, the Alibi documentation survives as an archived copy: [https://web.archive.org/web/2020/https://docs.seldon.io/projects/alibi](https://web.archive.org/web/2020/https://docs.seldon.io/projects/alibi).
 
 ## Deprecated links
 
@@ -128,22 +118,11 @@ The same notes are in [FEATURE IMPORTANCE](../data/dependence-and-selection.md#f
 These links and images no longer work. The original wording is kept here. A same-resource copy, when one was checked, is used above.
 {% endhint %}
 
-- Explainable methods. This address no longer opens: https://towardsdatascience.com/interpretable-machine-learning-with-xgboost-9ec80d148d27
-- Using genetic algorithms. This address no longer opens: https://towardsdatascience.com/interpreting-black-box-machine-learning-models-with-genetic-algorithms-a803bfd134cb
-- (medium). This address no longer opens: https://towardsdatascience.com/boruta-explained-the-way-i-wish-someone-explained-it-to-me-4489d70e154a
-- Shap explained. This address no longer opens: https://towardsdatascience.com/shap-explained-the-way-i-wish-someone-explained-it-to-me-ab81cc69ef30
-- Part I: Explain Your Model with the SHAP Values. This address no longer opens: https://towardsdatascience.com/explain-your-model-with-the-shap-values-bc36aac4de3d
-- using shapash for confidence on XAI.. This address no longer opens: https://towardsdatascience.com/building-confidence-on-explainability-methods-66b9ee575514
-- medium. This address no longer opens: https://towardsdatascience.com/shapley-residuals-measuring-the-limitations-of-shapley-values-for-explainability-d9cdc3582522
-- Shap in Python. This address no longer opens: https://towardsdatascience.com/introduction-to-shap-with-python-d27edc23c454
 - Alibi. This address no longer opens: https://docs.seldon.io/projects/alibi
 - Official shap tutorial on their plots, you can never read this too many times.. This address no longer opens: https://slundberg.github.io/shap/notebooks/plots/decision_plot.html
 - Intro to shapely and shap. This address no longer opens: https://towardsdatascience.com/a-new-perspective-on-shapley-values-an-intro-to-shapley-and-shap-6f1c70161e8d?
 - Part V: Explain Any Models with the SHAP Values — Use the KernelExplainer. This address no longer opens: https://towardsdatascience.com/explain-any-models-with-the-shap-values-use-the-kernelexplainer-79de9464897a
 - Medium Intro to lime and shap. This address no longer opens: https://towardsdatascience.com/explain-nlp-models-with-lime-shap-5c5a9f84d59b
 - * In depth SHAP. This address no longer opens: https://towardsdatascience.com/introducing-shap-decision-plots-52ed3b4a1cba
-- Which Of Your Features Are Overfitting? by Samuele Mazzanti - "Discover “ParShap”: an advanced method to detect which columns make your model underperform on new data" implemented in pingouin-stats. (Medium link). This address no longer opens: https://towardsdatascience.com/which-of-your-features-are-overfitting-c46d0762e769. This address no longer opens: https://pingouin-stats.org/
+- Which Of Your Features Are Overfitting? by Samuele Mazzanti - "Discover “ParShap”: an advanced method to detect which columns make your model underperform on new data" implemented in pingouin-stats. (Medium link). This address no longer opens: https://towardsdatascience.com/which-of-your-features-are-overfitting-c46d0762e769
 - a tutorial by Hima Lakkaraju (tutorial VIDEO. This address no longer opens: https://www.chilconference.org/tutorial_T04.html
-- What are shap values on kaggle - whatever you do start with this. This address no longer opens: https://www.kaggle.com/dansbecker/shap-values
-- Shap values on kaggle #2 - continue with this. This address no longer opens: https://www.kaggle.com/dansbecker/advanced-uses-of-shap-values
-- Alibi. This address no longer opens: https://web.archive.org/web/2020/https://docs.seldon.io/projects/alibi

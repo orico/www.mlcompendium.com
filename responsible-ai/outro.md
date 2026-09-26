@@ -1,5 +1,4 @@
 # Next
 
 Next is AI Engineering.
-A responsible model still has to be built, shipped, and watched.
-
+A model that is calibrated, explained, fair, and able to forget still has to become a service that is built, deployed, and monitored.
