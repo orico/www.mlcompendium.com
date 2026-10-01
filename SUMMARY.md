@@ -196,6 +196,7 @@
 * [Prompt](generative-ai/prompt.md)
 * [RAG](generative-ai/rag.md)
 * [Agents](generative-ai/agents.md)
+* [Research and Reviewer Agents](generative-ai/research-reviewer-agents.md)
 * [Speech](generative-ai/speech.md)
 * [Vision](generative-ai/vision.md)
 * [Mix N Match](generative-ai/mix-n-match.md)
