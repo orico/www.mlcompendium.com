@@ -10,7 +10,7 @@ The first stop is how a generative model is adapted and what kinds of model gene
 
 ## Systems
 
-Once a model can generate, the next step is to wrap it in a system that brings in knowledge and takes actions. [RAG](rag.md) collects retrieval-augmented generation tutorials and Graph RAG notes, the way a model answers from your documents. [Agents](agents.md) collects frameworks and products for tool-using and multi-agent LLM setups.
+Once a model can generate, the next step is to wrap it in a system that brings in knowledge and takes actions. [RAG](rag.md) collects retrieval-augmented generation tutorials and Graph RAG notes, the way a model answers from your documents. [Agents](agents.md) collects frameworks and products for tool-using and multi-agent LLM setups. [Research and Reviewer Agents](research-reviewer-agents.md) sorts agents that do scientific research, agents that also review what they produced, and agents that only review.
 
 ## Surfaces
 

@@ -103,6 +103,9 @@ For summaries, [Understanding ROUGE](https://dataman-ai.medium.com/understand-ro
 The last step is putting a model to work beyond its context window. [Enhancing ChatGPT With Infinite External Memory Using Vector Database and ChatGPT Retrieval Plugin](https://betterprogramming.pub/enhancing-chatgpt-with-infinite-external-memory-using-vector-database-and-chatgpt-retrieval-plugin-b6f4ea16ab8) gives ChatGPT external memory through a vector database and the retrieval plugin.
 
 Guardrails come back as a use case too: Wenqi Glantz's "NeMo Guardrails, the Ultimate Open-Source LLM Security Toolkit", filed here as Safeguarding LLMs with Guardrails, explores the practical use cases of NeMo Guardrails, at [https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2](https://towardsdatascience.com/safeguarding-llms-with-guardrails-4f5d9f57cff2)
+
+[Research and Reviewer Agents](research-reviewer-agents.md) is the use case for agents that do scientific research, review a manuscript or a claim, or do both.
+
 # GPT
 
 GPT is the family most of the above grew from, so it gets its own path: the methods that led to it, the embedding tools built on it, the articles that explain and compare its alignment, the hackathons, and a catalog of assistants.

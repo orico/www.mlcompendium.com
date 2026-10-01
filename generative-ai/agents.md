@@ -2,7 +2,7 @@
 
 An agent is an LLM that uses tools, talks to other agents, and acts on its own, and building one starts with picking a framework. The list below goes from a multi-agent framework, to routing queries between agents inside a product, to deploying autonomous agents in a browser, and closes with two notes on what agents do to systems and organizations.
 
-The same notes are in [Chat Bots](chat-bots.md) and [Tools](large-language-models-llms.md#tools).
+The same notes are in [Chat Bots](chat-bots.md), [Tools](large-language-models-llms.md#tools), and [Research and Reviewer Agents](research-reviewer-agents.md).
 
 1. [AutoGen](https://github.com/microsoft/autogen) by [microsoft](https://microsoft.github.io/autogen/) is a programming framework for agentic AI. In its own words, it
 
